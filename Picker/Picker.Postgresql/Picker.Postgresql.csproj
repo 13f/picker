@@ -41,6 +41,10 @@
     <Reference Include="Mono.Security">
       <HintPath>..\packages\Npgsql.2.2.5\lib\net45\Mono.Security.dll</HintPath>
     </Reference>
+    <Reference Include="Newtonsoft.Json, Version=6.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\Newtonsoft.Json.6.0.8\lib\net45\Newtonsoft.Json.dll</HintPath>
+    </Reference>
     <Reference Include="Npgsql">
       <HintPath>..\packages\Npgsql.2.2.5\lib\net45\Npgsql.dll</HintPath>
     </Reference>
@@ -82,12 +86,6 @@
     <Compile Include="StoreContext.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Picker.Core\Picker.Core.csproj">
-      <Project>{43efdc86-72d2-45f5-b1a0-39f99417a016}</Project>
-      <Name>Picker.Core</Name>
-    </ProjectReference>
-  </ItemGroup>
-  <ItemGroup>
     <None Include="App.config" />
     <EntityDeploy Include="DoubanModel.edmx">
       <Generator>EntityModelCodeGenerator</Generator>
@@ -110,6 +108,12 @@
   </ItemGroup>
   <ItemGroup>
     <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Picker.Core\Picker.Core.csproj">
+      <Project>{45c926f8-e055-4225-9792-b00912c3cd70}</Project>
+      <Name>Picker.Core</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
