@@ -17,6 +17,7 @@ namespace Picker.Core.Spider {
     const string ApiPrefix_music = ApiPrefix + "music/";
 
     const string Api_MyBookCollections = ApiPrefix_Book + "user/{0}/collections?start={1}";
+    const string Api_BooksOfSerie = ApiPrefix_Book + "series/{0}/books?start={1}";
     const string Api_BookById = ApiPrefix_Book + "{0}";
     const string Api_BookByIsbn = ApiPrefix_Book + "isbn/{0}";
 
@@ -31,8 +32,10 @@ namespace Picker.Core.Spider {
       client.UseDefaultCredentials = true;
     }
 
+    #region book
+
     /// <summary>
-    /// bookApi + user/{0}/collections?start={1}
+    /// 获取某个用户收藏的书籍：bookApi + user/{0}/collections?start={1}
     /// </summary>
     /// <param name="username"></param>
     public async Task<Dictionary<string, JObject>> GetMyBookCollections( string username, int pageIndex ) {
@@ -40,6 +43,17 @@ namespace Picker.Core.Spider {
       string json = await client.DownloadStringTaskAsync( uri );
       var obj = JObject.Parse( json );
       return getItems( (JArray)obj["collections"], "book" );
+    }
+
+    /// <summary>
+    /// 获取某个系列的书籍：bookApi + series/{0}/books?start={1}
+    /// </summary>
+    /// <param name="username"></param>
+    public async Task<Dictionary<string, JObject>> GetBooksOfSerie( string serieId, int pageIndex ) {
+      string uri = string.Format( Api_BooksOfSerie, serieId, pageIndex );
+      string json = await client.DownloadStringTaskAsync( uri );
+      var obj = JObject.Parse( json );
+      return getItems( (JArray)obj["books"] );
     }
 
     /// <summary>
@@ -62,6 +76,23 @@ namespace Picker.Core.Spider {
       string json = await client.DownloadStringTaskAsync( uri );
       var obj = JObject.Parse( json );
       return obj;
+    }
+
+    #endregion book
+
+    /// <summary>
+    /// 返回(keyUri, JObject)集合
+    /// </summary>
+    /// <param name="collections"></param>
+    /// <param name="propertyName"></param>
+    /// <returns></returns>
+    Dictionary<string, JObject> getItems( JArray collections ) {
+      Dictionary<string, JObject> result = new Dictionary<string, JObject>();
+      foreach ( JObject obj in collections ) {
+        // book.alt = "http://book.douban.com/subject/3011518/" = UriPrefix_Book_Subject + book.id
+        result.Add( (string)obj["alt"], obj );
+      }
+      return result;
     }
 
     /// <summary>
