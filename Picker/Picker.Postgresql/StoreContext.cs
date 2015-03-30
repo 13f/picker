@@ -130,6 +130,15 @@ namespace Picker.Postgresql {
       return 1;
     }
 
+    public async Task<int> Douban_SaveUserTasks( List<Tuple<string, string, string>> data ) {
+      if ( data == null || data.Count == 0 )
+        return 0;
+      foreach ( var tuple in data ) {
+        await Douban_SaveUserTask( tuple.Item1, tuple.Item2, false );
+      }
+      return await doubanContext.SaveChangesAsync();
+    }
+
     /// <summary>
     /// 更新UserTask.ProcessedAt为当前时间
     /// </summary>
