@@ -7,26 +7,28 @@ using System.Threading.Tasks;
 using Newtonsoft;
 using Newtonsoft.Json;
 using Newtonsoft.Json.Linq;
+using Picker.Core.Storage;
 
 namespace Picker.Core.Spider {
   public class DoubanApi {
     const int CountPerPage = 20;
-    const string ApiPrefix = "https://api.douban.com/v2/";
-    const string ApiPrefix_Book = ApiPrefix + "book/";
-    const string ApiPrefix_Movie = ApiPrefix + "movie/";
-    const string ApiPrefix_music = ApiPrefix + "music/";
+    public const string ApiPrefix = "https://api.douban.com/v2/";
+    public const string ApiPrefix_Book = ApiPrefix + "book/";
+    public const string ApiPrefix_Movie = ApiPrefix + "movie/";
+    public const string ApiPrefix_music = ApiPrefix + "music/";
 
-    const string Api_MyBookCollections = ApiPrefix_Book + "user/{0}/collections?start={1}";
-    const string Api_BooksOfSerie = ApiPrefix_Book + "series/{0}/books?start={1}";
-    const string Api_BookById = ApiPrefix_Book + "{0}";
-    const string Api_BookByIsbn = ApiPrefix_Book + "isbn/{0}";
+    public const string Api_MyBookCollections = ApiPrefix_Book + "user/{0}/collections?start={1}";
+    public const string Api_BooksOfSerie = ApiPrefix_Book + "series/{0}/books?start={1}";
+    public const string Api_BookById = ApiPrefix_Book + "{0}";
+    public const string Api_BookByIsbn = ApiPrefix_Book + "isbn/{0}";
 
     const string UriPrefix_Book_Subject = "http://book.douban.com/subject/";
 
-    string key = null;
+    string appKey = null;
     WebClient client = null;
 
-    public DoubanApi() {
+    public DoubanApi( string _appKey ) {
+      appKey = _appKey;
       client = new WebClient();
       client.Encoding = System.Text.Encoding.UTF8;
       client.UseDefaultCredentials = true;
@@ -76,6 +78,12 @@ namespace Picker.Core.Spider {
       string json = await client.DownloadStringTaskAsync( uri );
       var obj = JObject.Parse( json );
       return obj;
+    }
+
+    public string GetSubjectUriOfBook( JObject book ) {
+      if ( book == null )
+        return null;
+      return (string)book["alt"];
     }
 
     #endregion book

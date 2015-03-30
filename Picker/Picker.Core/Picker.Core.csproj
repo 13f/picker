@@ -43,8 +43,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Helpers\ApiHelper.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Spider\DoubanApi.cs" />
+    <Compile Include="Api\DoubanApi.cs" />
+    <Compile Include="Spider\Douban.cs" />
     <Compile Include="Storage\IStorage.cs" />
   </ItemGroup>
   <ItemGroup>
