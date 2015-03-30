@@ -11,8 +11,9 @@ using Picker.Core.Storage;
 
 namespace Picker.Core.Spider {
   public class DoubanApi {
-    const int CountPerPage = 20;
+    public const int CountPerPage = 20;
     public const string ApiPrefix = "https://api.douban.com/v2/";
+    public const string ApiPrefix_Shuo = "https://api.douban.com/shuo/v2/";
     public const string ApiPrefix_Book = ApiPrefix + "book/";
     public const string ApiPrefix_Movie = ApiPrefix + "movie/";
     public const string ApiPrefix_music = ApiPrefix + "music/";
@@ -21,6 +22,9 @@ namespace Picker.Core.Spider {
     public const string Api_BooksOfSerie = ApiPrefix_Book + "series/{0}/books?start={1}&apikey={1}";
     public const string Api_BookById = ApiPrefix_Book + "{0}?apikey={1}";
     public const string Api_BookByIsbn = ApiPrefix_Book + "isbn/{0}?apikey={1}";
+
+    public const string Api_UserInfo = ApiPrefix + "user/{0}?apikey={1}";
+    public const string Api_MyFollowers = ApiPrefix_Shuo + "users/{0}/followers?start={1}&apikey={2}";
 
     const string UriPrefix_Book_Subject = "http://book.douban.com/subject/";
 
@@ -92,6 +96,42 @@ namespace Picker.Core.Spider {
     }
 
     #endregion book
+
+    public async Task<JObject> GetUserInfo( string username ) {
+      string uri = string.Format( Api_UserInfo, username, appKey );
+      string json = await client.DownloadStringTaskAsync( uri );
+      var obj = JObject.Parse( json );
+      return obj;
+    }
+
+    public async Task<string> GetIdByUsername( string username ) {
+      var obj = await GetUserInfo( username );
+      return (string)obj["id"];
+    }
+
+    public async Task<string> GetUidById( string id ) {
+      var obj = await GetUserInfo( id );
+      return (string)obj["uid"];
+    }
+
+    /// <summary>
+    /// 返回（id, uid, json）数组
+    /// </summary>
+    /// <param name="username"></param>
+    /// <param name="pageIndex"></param>
+    /// <returns></returns>
+    public async Task<List<Tuple<string, string, string>>> GetFollowers( string username, int pageIndex ) {
+      string uri = string.Format( Api_MyFollowers, username, pageIndex, appKey );
+      string json = await client.DownloadStringTaskAsync( uri );
+      var array = JArray.Parse( json );
+      List<Tuple<string, string, string>> result = new List<Tuple<string, string, string>>();
+      foreach ( var obj in array ) {
+        var t = Tuple.Create( (string)obj["id"], (string)obj["uid"], obj.ToString() );
+        result.Add( t );
+      }
+      return result;
+    }
+
 
     /// <summary>
     /// 返回(keyUri, JObject)集合

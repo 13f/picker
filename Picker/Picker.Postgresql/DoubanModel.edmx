@@ -15,8 +15,61 @@
           <Property Name="ProcessedAt" Type="timestamptz" Precision="6" />
           <Property Name="Content" Type="text" />
         </EntityType>
+        <EntityType Name="BookTask">
+          <Key>
+            <PropertyRef Name="ApiUri" />
+          </Key>
+          <Property Name="ApiUri" Type="varchar" MaxLength="255" Nullable="false" />
+          <Property Name="ProcessedAt" Type="timestamptz" Precision="6" />
+        </EntityType>
+        <EntityType Name="MovieTask">
+          <Key>
+            <PropertyRef Name="ApiUri" />
+          </Key>
+          <Property Name="ApiUri" Type="varchar" MaxLength="255" Nullable="false" />
+          <Property Name="ProcessedAt" Type="timestamptz" Precision="6" />
+        </EntityType>
+        <EntityType Name="MusicTask">
+          <Key>
+            <PropertyRef Name="ApiUri" />
+          </Key>
+          <Property Name="ApiUri" Type="varchar" MaxLength="255" Nullable="false" />
+          <Property Name="ProcessedAt" Type="timestamptz" Precision="6" />
+        </EntityType>
+        <EntityType Name="TravelTask">
+          <Key>
+            <PropertyRef Name="ApiUri" />
+          </Key>
+          <Property Name="ApiUri" Type="varchar" MaxLength="255" Nullable="false" />
+          <Property Name="ProcessedAt" Type="timestamptz" Precision="6" />
+        </EntityType>
+        <EntityType Name="User">
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Name="id" Type="varchar" MaxLength="20" Nullable="false" />
+          <Property Name="uid" Type="varchar" MaxLength="63" />
+          <Property Name="Content" Type="text" />
+          <Property Name="CreatedAt" Type="timestamptz" Precision="6" />
+          <Property Name="UpdatedAt" Type="timestamptz" Precision="6" />
+          <Property Name="ProcessedAt" Type="timestamptz" Precision="6" />
+        </EntityType>
+        <EntityType Name="UserTask">
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Name="ProcessedAt" Type="timestamptz" Precision="6" />
+          <Property Name="id" Type="varchar" MaxLength="20" Nullable="false" />
+          <Property Name="uid" Type="varchar" MaxLength="63" />
+        </EntityType>
         <EntityContainer Name="DoubanModelStoreContainer">
           <EntitySet Name="Book" EntityType="Self.Book" Schema="public" store:Type="Tables" />
+          <EntitySet Name="BookTask" EntityType="Self.BookTask" Schema="public" store:Type="Tables" />
+          <EntitySet Name="MovieTask" EntityType="Self.MovieTask" Schema="public" store:Type="Tables" />
+          <EntitySet Name="MusicTask" EntityType="Self.MusicTask" Schema="public" store:Type="Tables" />
+          <EntitySet Name="TravelTask" EntityType="Self.TravelTask" Schema="public" store:Type="Tables" />
+          <EntitySet Name="User" EntityType="Self.User" Schema="public" store:Type="Tables" />
+          <EntitySet Name="UserTask" EntityType="Self.UserTask" Schema="public" store:Type="Tables" />
         </EntityContainer>
       </Schema></edmx:StorageModels>
     <!-- CSDL content -->
@@ -34,7 +87,60 @@
         </EntityType>
         <EntityContainer Name="DoubanEntities" annotation:LazyLoadingEnabled="true">
           <EntitySet Name="Book" EntityType="Self.Book" />
+          <EntitySet Name="BookTask" EntityType="DoubanModel.BookTask" />
+          <EntitySet Name="MovieTask" EntityType="DoubanModel.MovieTask" />
+          <EntitySet Name="MusicTask" EntityType="DoubanModel.MusicTask" />
+          <EntitySet Name="TravelTask" EntityType="DoubanModel.TravelTask" />
+          <EntitySet Name="UserTask" EntityType="DoubanModel.UserTask" />
+          <EntitySet Name="User" EntityType="DoubanModel.User" />
         </EntityContainer>
+        <EntityType Name="BookTask">
+          <Key>
+            <PropertyRef Name="ApiUri" />
+          </Key>
+          <Property Name="ApiUri" Type="String" Nullable="false" MaxLength="255" FixedLength="false" Unicode="true" />
+          <Property Name="ProcessedAt" Type="DateTimeOffset" Precision="6" />
+        </EntityType>
+        <EntityType Name="MovieTask">
+          <Key>
+            <PropertyRef Name="ApiUri" />
+          </Key>
+          <Property Name="ApiUri" Type="String" Nullable="false" MaxLength="255" FixedLength="false" Unicode="true" />
+          <Property Name="ProcessedAt" Type="DateTimeOffset" Precision="6" />
+        </EntityType>
+        <EntityType Name="MusicTask">
+          <Key>
+            <PropertyRef Name="ApiUri" />
+          </Key>
+          <Property Name="ApiUri" Type="String" Nullable="false" MaxLength="255" FixedLength="false" Unicode="true" />
+          <Property Name="ProcessedAt" Type="DateTimeOffset" Precision="6" />
+        </EntityType>
+        <EntityType Name="TravelTask">
+          <Key>
+            <PropertyRef Name="ApiUri" />
+          </Key>
+          <Property Name="ApiUri" Type="String" Nullable="false" MaxLength="255" FixedLength="false" Unicode="true" />
+          <Property Name="ProcessedAt" Type="DateTimeOffset" Precision="6" />
+        </EntityType>
+        <EntityType Name="UserTask">
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Name="ProcessedAt" Type="DateTimeOffset" Precision="6" />
+          <Property Name="id" Type="String" Nullable="false" MaxLength="20" FixedLength="false" Unicode="true" />
+          <Property Name="uid" Type="String" MaxLength="63" FixedLength="false" Unicode="true" />
+        </EntityType>
+        <EntityType Name="User">
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Name="id" Type="String" Nullable="false" MaxLength="20" FixedLength="false" Unicode="true" />
+          <Property Name="uid" Type="String" MaxLength="63" FixedLength="false" Unicode="true" />
+          <Property Name="Content" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="CreatedAt" Type="DateTimeOffset" Precision="6" />
+          <Property Name="UpdatedAt" Type="DateTimeOffset" Precision="6" />
+          <Property Name="ProcessedAt" Type="DateTimeOffset" Precision="6" />
+        </EntityType>
       </Schema>
     </edmx:ConceptualModels>
     <!-- C-S mapping content -->
@@ -49,6 +155,59 @@
                 <ScalarProperty Name="CreatedAt" ColumnName="CreatedAt" />
                 <ScalarProperty Name="UpdatedAt" ColumnName="UpdatedAt" />
                 <ScalarProperty Name="ProcessedAt" ColumnName="ProcessedAt" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="BookTask">
+            <EntityTypeMapping TypeName="DoubanModel.BookTask">
+              <MappingFragment StoreEntitySet="BookTask">
+                <ScalarProperty Name="ProcessedAt" ColumnName="ProcessedAt" />
+                <ScalarProperty Name="ApiUri" ColumnName="ApiUri" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="MovieTask">
+            <EntityTypeMapping TypeName="DoubanModel.MovieTask">
+              <MappingFragment StoreEntitySet="MovieTask">
+                <ScalarProperty Name="ProcessedAt" ColumnName="ProcessedAt" />
+                <ScalarProperty Name="ApiUri" ColumnName="ApiUri" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="MusicTask">
+            <EntityTypeMapping TypeName="DoubanModel.MusicTask">
+              <MappingFragment StoreEntitySet="MusicTask">
+                <ScalarProperty Name="ProcessedAt" ColumnName="ProcessedAt" />
+                <ScalarProperty Name="ApiUri" ColumnName="ApiUri" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="TravelTask">
+            <EntityTypeMapping TypeName="DoubanModel.TravelTask">
+              <MappingFragment StoreEntitySet="TravelTask">
+                <ScalarProperty Name="ProcessedAt" ColumnName="ProcessedAt" />
+                <ScalarProperty Name="ApiUri" ColumnName="ApiUri" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="UserTask">
+            <EntityTypeMapping TypeName="DoubanModel.UserTask">
+              <MappingFragment StoreEntitySet="UserTask">
+                <ScalarProperty Name="uid" ColumnName="uid" />
+                <ScalarProperty Name="id" ColumnName="id" />
+                <ScalarProperty Name="ProcessedAt" ColumnName="ProcessedAt" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="User">
+            <EntityTypeMapping TypeName="DoubanModel.User">
+              <MappingFragment StoreEntitySet="User">
+                <ScalarProperty Name="ProcessedAt" ColumnName="ProcessedAt" />
+                <ScalarProperty Name="UpdatedAt" ColumnName="UpdatedAt" />
+                <ScalarProperty Name="CreatedAt" ColumnName="CreatedAt" />
+                <ScalarProperty Name="Content" ColumnName="Content" />
+                <ScalarProperty Name="uid" ColumnName="uid" />
+                <ScalarProperty Name="id" ColumnName="id" />
               </MappingFragment>
             </EntityTypeMapping>
           </EntitySetMapping>

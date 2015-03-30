@@ -66,6 +66,9 @@
     <Compile Include="Book.cs">
       <DependentUpon>DoubanModel.tt</DependentUpon>
     </Compile>
+    <Compile Include="BookTask.cs">
+      <DependentUpon>DoubanModel.tt</DependentUpon>
+    </Compile>
     <Compile Include="DoubanModel.Context.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
@@ -82,8 +85,20 @@
       <DependentUpon>DoubanModel.edmx</DependentUpon>
     </Compile>
     <Compile Include="Extensions\DoubanEntities.cs" />
+    <Compile Include="MovieTask.cs">
+      <DependentUpon>DoubanModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="MusicTask.cs">
+      <DependentUpon>DoubanModel.tt</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="StoreContext.cs" />
+    <Compile Include="TravelTask.cs">
+      <DependentUpon>DoubanModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="UserTask.cs">
+      <DependentUpon>DoubanModel.tt</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

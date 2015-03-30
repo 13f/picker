@@ -26,5 +26,11 @@ namespace Picker.Postgresql
         }
     
         public virtual DbSet<Book> Book { get; set; }
+        public virtual DbSet<BookTask> BookTask { get; set; }
+        public virtual DbSet<MovieTask> MovieTask { get; set; }
+        public virtual DbSet<MusicTask> MusicTask { get; set; }
+        public virtual DbSet<TravelTask> TravelTask { get; set; }
+        public virtual DbSet<UserTask> UserTask { get; set; }
+        public virtual DbSet<User> User { get; set; }
     }
 }

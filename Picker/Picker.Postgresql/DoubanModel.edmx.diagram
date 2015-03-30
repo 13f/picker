@@ -5,7 +5,13 @@
     <!-- Diagram content (shape and connector positions) -->
     <edmx:Diagrams>
       <Diagram DiagramId="d83256854a3c44d1a56ad7d3f2e66853" Name="Diagram1">
-        <EntityTypeShape EntityType="DoubanModel.Book" Width="1.5" PointX="0.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DoubanModel.Book" Width="1.5" PointX="0.75" PointY="0.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="DoubanModel.BookTask" Width="1.5" PointX="0.75" PointY="3.25" />
+        <EntityTypeShape EntityType="DoubanModel.MovieTask" Width="1.5" PointX="2.75" PointY="3.25" />
+        <EntityTypeShape EntityType="DoubanModel.MusicTask" Width="1.5" PointX="4.75" PointY="3.25" />
+        <EntityTypeShape EntityType="DoubanModel.TravelTask" Width="1.5" PointX="6.75" PointY="3.25" />
+        <EntityTypeShape EntityType="DoubanModel.UserTask" Width="1.5" PointX="8.75" PointY="3.25" />
+        <EntityTypeShape EntityType="DoubanModel.User" Width="1.5" PointX="8.75" PointY="0.625" />
       </Diagram>
     </edmx:Diagrams>
   </edmx:Designer>
