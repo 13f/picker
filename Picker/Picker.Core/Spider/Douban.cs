@@ -10,10 +10,12 @@ namespace Picker.Core.Spider {
   public class Douban {
     DoubanApi api = null;
     IStorage store = null;
+    Configuration config = null;
 
-    public Douban( DoubanApi _api, IStorage storeInstance ) {
+    public Douban( DoubanApi _api, IStorage _store, Configuration _config ) {
       api = _api;
-      store = storeInstance;
+      store = _store;
+      config = _config;
     }
 
     #region store
@@ -32,7 +34,7 @@ namespace Picker.Core.Spider {
 
     #endregion store
 
-    public async Task StartUserTask() {
+    public async Task StartUserTask( bool loopWhenfinished ) {
       string id = store.Douban_GetUndoneUserTask();
       JObject jobjFirtTime = null;
       // 判断两种情况：第一次运行用户任务；以taurenshaman开始辐射的用户抓取任务是否已经完成
@@ -57,6 +59,10 @@ namespace Picker.Core.Spider {
         }
       }
 
+      // 获取原始的API地址
+      string apiUri = String.Format( DoubanApi.Api_MyFollowers, id, 0 );
+      apiUri = Helpers.ApiHelper.GetApi( apiUri );
+
       // 正常的用户抓取流程
       int pageIndex = -1;
       bool hasMore = false;
@@ -73,15 +79,19 @@ namespace Picker.Core.Spider {
           // 更新用户的任务状态
           store.Douban_UpdateUserTask( id, true );
           // save log
-
+          config.Save( Configuration.Key_Douban_User, apiUri, pageIndex );
         }
         // continue?
         hasMore = ( followers.Count >= DoubanApi.CountPerPage );
-      }
+      } // do
       while ( hasMore );
       
-
-    }
+      // 移除有关上一次访问API的记录
+      config.RemoveAccessLog( Configuration.Key_Douban_User );
+      // confinue?
+      if ( loopWhenfinished )
+        await StartUserTask( loopWhenfinished );
+    } // StartUserTask( bool loopWhenfinished )
 
   }
 

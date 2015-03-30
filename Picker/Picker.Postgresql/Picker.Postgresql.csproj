@@ -96,6 +96,9 @@
     <Compile Include="TravelTask.cs">
       <DependentUpon>DoubanModel.tt</DependentUpon>
     </Compile>
+    <Compile Include="User.cs">
+      <DependentUpon>DoubanModel.tt</DependentUpon>
+    </Compile>
     <Compile Include="UserTask.cs">
       <DependentUpon>DoubanModel.tt</DependentUpon>
     </Compile>

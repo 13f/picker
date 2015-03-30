@@ -90,6 +90,21 @@ namespace Picker.Core.Storage {
     }
 
     /// <summary>
+    /// 移除有关LastApi和LastPageIndex的记录
+    /// </summary>
+    /// <param name="groupName"></param>
+    public void RemoveAccessLog( string groupName ) {
+      XElement xe = xeRoot.Elements( "group" )
+        .Where( i => i.Attribute( "name" ) != null && i.Attribute( "name" ).Value == groupName )
+        .FirstOrDefault();
+      if ( xe == null )
+        return;
+      xe.SetElementValue( Key_LastApi, null );
+      xe.SetElementValue( Key_LastPageIndex, null );
+      Save();
+    }
+
+    /// <summary>
     /// 获取配置信息
     /// </summary>
     /// <param name="ApplicationExcuteFilePath"></param>
