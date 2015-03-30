@@ -17,10 +17,10 @@ namespace Picker.Core.Spider {
     public const string ApiPrefix_Movie = ApiPrefix + "movie/";
     public const string ApiPrefix_music = ApiPrefix + "music/";
 
-    public const string Api_MyBookCollections = ApiPrefix_Book + "user/{0}/collections?start={1}";
-    public const string Api_BooksOfSerie = ApiPrefix_Book + "series/{0}/books?start={1}";
-    public const string Api_BookById = ApiPrefix_Book + "{0}";
-    public const string Api_BookByIsbn = ApiPrefix_Book + "isbn/{0}";
+    public const string Api_MyBookCollections = ApiPrefix_Book + "user/{0}/collections?start={1}&apikey={2}";
+    public const string Api_BooksOfSerie = ApiPrefix_Book + "series/{0}/books?start={1}&apikey={1}";
+    public const string Api_BookById = ApiPrefix_Book + "{0}?apikey={1}";
+    public const string Api_BookByIsbn = ApiPrefix_Book + "isbn/{0}?apikey={1}";
 
     const string UriPrefix_Book_Subject = "http://book.douban.com/subject/";
 
@@ -41,7 +41,7 @@ namespace Picker.Core.Spider {
     /// </summary>
     /// <param name="username"></param>
     public async Task<Dictionary<string, JObject>> GetMyBookCollections( string username, int pageIndex ) {
-      string uri = string.Format( Api_MyBookCollections, username, pageIndex );
+      string uri = string.Format( Api_MyBookCollections, username, pageIndex, appKey );
       string json = await client.DownloadStringTaskAsync( uri );
       var obj = JObject.Parse( json );
       return getItems( (JArray)obj["collections"], "book" );
@@ -52,7 +52,7 @@ namespace Picker.Core.Spider {
     /// </summary>
     /// <param name="username"></param>
     public async Task<Dictionary<string, JObject>> GetBooksOfSerie( string serieId, int pageIndex ) {
-      string uri = string.Format( Api_BooksOfSerie, serieId, pageIndex );
+      string uri = string.Format( Api_BooksOfSerie, serieId, pageIndex, appKey );
       string json = await client.DownloadStringTaskAsync( uri );
       var obj = JObject.Parse( json );
       return getItems( (JArray)obj["books"] );
@@ -63,7 +63,7 @@ namespace Picker.Core.Spider {
     /// </summary>
     /// <param name="username"></param>
     public async Task<JObject> GetBookById( string id ) {
-      string uri = string.Format( Api_BookById, id );
+      string uri = string.Format( Api_BookById, id, appKey );
       string json = await client.DownloadStringTaskAsync( uri );
       var obj = JObject.Parse( json );
       return obj;
@@ -74,12 +74,17 @@ namespace Picker.Core.Spider {
     /// </summary>
     /// <param name="username"></param>
     public async Task<JObject> GetBookByIsbn( string isbn ) {
-      string uri = string.Format( Api_BookByIsbn, isbn );
+      string uri = string.Format( Api_BookByIsbn, isbn, appKey );
       string json = await client.DownloadStringTaskAsync( uri );
       var obj = JObject.Parse( json );
       return obj;
     }
 
+    /// <summary>
+    /// 获取book的subject链接.
+    /// </summary>
+    /// <param name="book"></param>
+    /// <returns></returns>
     public string GetSubjectUriOfBook( JObject book ) {
       if ( book == null )
         return null;
