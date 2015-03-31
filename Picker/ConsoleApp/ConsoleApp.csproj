@@ -57,6 +57,10 @@
       <Project>{45c926f8-e055-4225-9792-b00912c3cd70}</Project>
       <Name>Picker.Core</Name>
     </ProjectReference>
+    <ProjectReference Include="..\Picker.Postgresql\Picker.Postgresql.csproj">
+      <Project>{e91d0981-23cf-40cf-abc8-60cbe57b8515}</Project>
+      <Name>Picker.Postgresql</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
