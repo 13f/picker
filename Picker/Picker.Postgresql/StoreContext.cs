@@ -126,7 +126,8 @@ namespace Picker.Postgresql {
       doubanContext.UserTask.Add( tmp );
 
       if ( saveChanges )
-        return await doubanContext.SaveChangesAsync();
+        //return await doubanContext.SaveChangesAsync();
+        return doubanContext.SaveChanges();
       return 1;
     }
 
@@ -163,13 +164,16 @@ namespace Picker.Postgresql {
       }
       else {
         item = new User();
+        item.id = id;
+        item.uid = uid;
         item.Content = content;
         item.CreatedAt = DateTime.UtcNow;
         item.UpdatedAt = DateTime.UtcNow;
         doubanContext.User.Add( item );
       }
       if ( saveChanges )
-        return await doubanContext.SaveChangesAsync();
+        //return await doubanContext.SaveChangesAsync();
+        return doubanContext.SaveChanges();
       return 0;
     }
 
