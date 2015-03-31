@@ -33,7 +33,7 @@ namespace Picker.Core.Storage {
     public Configuration( string appExcuteFilePath ) {
       AppExcuteFilePath = appExcuteFilePath;
       string configFile = System.IO.Path.Combine( AppExcuteFilePath, configFileName );
-      if ( !File.Exists( configFile ) ) {
+      if ( File.Exists( configFile ) ) {
         xeRoot = XElement.Load( configFile );
       }
       else {
