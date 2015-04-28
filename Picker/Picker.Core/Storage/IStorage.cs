@@ -15,13 +15,25 @@ namespace Picker.Core.Storage {
     Task<int> SaveChanges();
 
 
+    Task<int> Douban_SaveBookTask( string id, string uid, bool saveChanges );
+    Task<int> Douban_UpdateBookTask( string id, string uid, bool saveChanges );
     Task<int> Douban_SaveBook( string url, JObject data, bool updateIfExists, bool saveChanges );
     Task<int> Douban_SaveBooks( Dictionary<string, JObject> data, bool updateIfExists );
     Task<int> Douban_DeleteBook( string url );
 
 
+    Task<int> Douban_SaveMovieTask( string id, string uid, bool saveChanges );
+    Task<int> Douban_UpdateMovieTask( string id, string uid, bool saveChanges );
     Task<int> Douban_SaveMovie( string url, JObject data, bool updateIfExists, bool saveChanges );
     Task<int> Douban_DeleteMovie( string url );
+
+
+    Task<int> Douban_SaveMusicTask( string id, string uid, bool saveChanges );
+    Task<int> Douban_UpdateMusicTask( string id, string uid, bool saveChanges );
+
+
+    Task<int> Douban_SaveTravelTask( string id, string uid, bool saveChanges );
+    Task<int> Douban_UpdateTravelTask( string id, string uid, bool saveChanges );
 
 
     /// <summary>
@@ -39,7 +51,8 @@ namespace Picker.Core.Storage {
     /// </summary>
     Task<int> Douban_UpdateUserTask( string id, bool saveChanges );
     Task<int> Douban_SaveUserTasks( List<Tuple<string, string, string>> data );
-    string DoubanUser_GetIdByUid( string uid );
+    string DoubanUserTask_GetIdByUid( string uid );
+    Task<bool> Douban_UserExists( string id );
     Task<int> Douban_SaveUser( string id, string uid, string content, bool updateIfExists, bool saveChanges );
     Task<int> Douban_SaveUsers( List<Tuple<string, string, string>> data, bool updateIfExists );
 

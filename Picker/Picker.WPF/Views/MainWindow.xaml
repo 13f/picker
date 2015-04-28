@@ -1,0 +1,43 @@
+﻿<metro:MetroWindow x:Class="Picker.Views.MainView"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:i="http://schemas.microsoft.com/expression/2010/interactivity"
+        xmlns:metro="http://metro.mahapps.com/winfx/xaml/controls"
+        xmlns:metroBehaviours="clr-namespace:MahApps.Metro.Behaviours;assembly=MahApps.Metro"
+        Title="豆瓣" Height="600" Width="800" ResizeMode="CanMinimize" WindowStartupLocation="CenterOwner">
+    <i:Interaction.Behaviors>
+        <metroBehaviours:BorderlessWindowBehavior/>
+    </i:Interaction.Behaviors>
+    <TabControl>
+        <TabItem Header="User">
+            <metro:MetroContentControl>
+                <Button Width="150" Height="70" Content="抓取" Command="{Binding CmdPickUsers}"/>
+            </metro:MetroContentControl>
+        </TabItem>
+        
+        <TabItem Header="Book">
+            <metro:MetroContentControl>
+                <TextBlock FontSize="30" VerticalAlignment="Center" HorizontalAlignment="Center">Book: TO DO ...</TextBlock>
+            </metro:MetroContentControl>
+        </TabItem>
+
+        <TabItem Header="Movie">
+            <metro:MetroContentControl>
+                <TextBlock FontSize="30" VerticalAlignment="Center" HorizontalAlignment="Center">Movie: TO DO ...</TextBlock>
+            </metro:MetroContentControl>
+        </TabItem>
+
+        <TabItem Header="Music">
+            <metro:MetroContentControl>
+                <TextBlock FontSize="30" VerticalAlignment="Center" HorizontalAlignment="Center">Music: TO DO ...</TextBlock>
+            </metro:MetroContentControl>
+        </TabItem>
+
+        <TabItem Header="Travel">
+            <metro:MetroContentControl>
+                <TextBlock FontSize="30" VerticalAlignment="Center" HorizontalAlignment="Center">Travel: TO DO ...</TextBlock>
+            </metro:MetroContentControl>
+        </TabItem>
+        
+    </TabControl>
+</metro:MetroWindow>

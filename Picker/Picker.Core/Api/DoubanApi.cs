@@ -24,7 +24,10 @@ namespace Picker.Core.Spider {
     public const string Api_BookByIsbn = ApiPrefix_Book + "isbn/{0}?apikey={1}";
 
     public const string Api_UserInfo = ApiPrefix + "user/{0}?apikey={1}";
-    public const string Api_MyFollowers = ApiPrefix_Shuo + "users/{0}/followers?start={1}&apikey={2}";
+    /// <summary>
+    /// 我关注的人
+    /// </summary>
+    public const string Api_MyFollowing = ApiPrefix_Shuo + "users/{0}/following?start={1}&apikey={2}";
 
     const string UriPrefix_Book_Subject = "http://book.douban.com/subject/";
 
@@ -45,7 +48,8 @@ namespace Picker.Core.Spider {
     /// </summary>
     /// <param name="username"></param>
     public async Task<Dictionary<string, JObject>> GetMyBookCollections( string username, int pageIndex ) {
-      string uri = string.Format( Api_MyBookCollections, username, pageIndex, appKey );
+      int start = pageIndex * CountPerPage;
+      string uri = string.Format( Api_MyBookCollections, username, start, appKey );
       string json = await client.DownloadStringTaskAsync( uri );
       var obj = JObject.Parse( json );
       return getItems( (JArray)obj["collections"], "book" );
@@ -56,7 +60,8 @@ namespace Picker.Core.Spider {
     /// </summary>
     /// <param name="username"></param>
     public async Task<Dictionary<string, JObject>> GetBooksOfSerie( string serieId, int pageIndex ) {
-      string uri = string.Format( Api_BooksOfSerie, serieId, pageIndex, appKey );
+      int start = pageIndex * CountPerPage;
+      string uri = string.Format( Api_BooksOfSerie, serieId, start, appKey );
       string json = await client.DownloadStringTaskAsync( uri );
       var obj = JObject.Parse( json );
       return getItems( (JArray)obj["books"] );
@@ -121,7 +126,8 @@ namespace Picker.Core.Spider {
     /// <param name="pageIndex"></param>
     /// <returns></returns>
     public async Task<List<Tuple<string, string, string>>> GetFollowers( string username, int pageIndex ) {
-      string uri = string.Format( Api_MyFollowers, username, pageIndex, appKey );
+      int start = pageIndex * CountPerPage;
+      string uri = string.Format( Api_MyFollowing, username, start, appKey );
       string json = await client.DownloadStringTaskAsync( uri );
       var array = JArray.Parse( json );
       List<Tuple<string, string, string>> result = new List<Tuple<string, string, string>>();

@@ -34,34 +34,72 @@ namespace Picker.Core.Spider {
 
     #endregion store
 
-    public async Task StartUserTask( bool loopWhenfinished ) {
+    /// <summary>
+    /// 初始化的时候可以使用"taurenshaman"作为startingUserId，或者UI上读取
+    /// </summary>
+    /// <param name="startingUserId"></param>
+    /// <param name="loopWhenfinished"></param>
+    /// <returns></returns>
+    public async Task StartUserTask( string startingUserId, bool loopWhenfinished ) {
+      // 读取一个未完成的任务
       string id = store.Douban_GetUndoneUserTask();
       JObject jobjFirtTime = null;
       // 判断两种情况：第一次运行用户任务；以taurenshaman开始辐射的用户抓取任务是否已经完成
       if ( string.IsNullOrWhiteSpace( id ) ) {
-        string uid = "taurenshaman";
+        if ( string.IsNullOrWhiteSpace( startingUserId ) ) {
+          throw new Exception( "当前没有未完成的UserTask，且初始的UserId为空" );
+        }
+        string uid = startingUserId;
         bool exists = store.Douban_UserTaskExsits( uid );
-        if ( exists ) { // 任务不存在，直接用
+        if ( exists ) { // 任务存在，直接用
           bool complete = store.Douban_UserTaskIsComplete( uid );
           if ( complete ) // 任务未完成，直接用；若已完成，抛异常
-            throw new Exception( "以taurenshaman开始辐射的用户抓取任务已经完成" );
+            throw new Exception( "以" + startingUserId + "开始辐射的用户抓取任务已经完成" );
           else
-            id = store.DoubanUser_GetIdByUid( uid );
+            id = store.DoubanUserTask_GetIdByUid( uid );
         }
-        else { // 第一次运行用户任务
+        else { // 第一次运行初始的用户任务
           jobjFirtTime = await api.GetUserInfo( uid );
           id = (string)jobjFirtTime["id"];
-          // 保存用户信息
-          var firstTimeTask1 = store.Douban_SaveUser( id, uid, jobjFirtTime.ToString(), false, true );
           // 新建用户任务
-          var firstTimeTask2 = store.Douban_SaveUserTask( id, uid, true );
-          Task.WaitAll( firstTimeTask1, firstTimeTask2 );
+          await store.Douban_SaveUserTask( id, uid, true );
         }
       }
 
+      // ==== 处理一个UserTask的流程 ====
+      // user info
+      await processUserInfo( id, jobjFirtTime, false );
+      // followers
+      await processFollowers( id );
+      // book
+      // movie
+      // music
+      // travel
+      // update task
+      await store.Douban_UpdateUserTask( id, true );
+      
+      // confinue?
+      if ( loopWhenfinished )
+        await StartUserTask( null, loopWhenfinished );
+    } // StartUserTask( bool loopWhenfinished )
+
+    async Task<int> processUserInfo( string id, JObject data, bool updateIfExists ) {
+      bool exists = await store.Douban_UserExists( id );
+      if ( !exists || updateIfExists ) {
+        if ( data == null )
+          data = await api.GetUserInfo( id );
+        id = (string)data["id"];
+        string uid = (string)data["uid"];
+        // 保存用户信息
+        return await store.Douban_SaveUser( id, uid, data.ToString(), updateIfExists, true );
+      }
+      return 0;
+    }
+
+    async Task processFollowers( string id ) {
       // 获取原始的API地址
-      string apiUri = String.Format( DoubanApi.Api_MyFollowers, id, 0 );
-      apiUri = Helpers.ApiHelper.GetApi( apiUri );
+      string apiUri = String.Format( DoubanApi.Api_MyFollowing, id, 0, "" );
+      string originalApiUri = Helpers.ApiHelper.GetApi( apiUri );
 
       // 正常的用户抓取流程
       int pageIndex = -1;
@@ -71,27 +109,46 @@ namespace Picker.Core.Spider {
         // 获取关注的人
         var followers = await api.GetFollowers( id, pageIndex );
         if ( followers != null && followers.Count > 0 ) {
-          // 保存关注者的信息
-          var task1 = store.Douban_SaveUsers( followers, false );
           // 给关注者新建用户任务
-          var task2 = store.Douban_SaveUserTasks( followers );
-          Task.WaitAll( task1, task2 );
-          // 更新用户的任务状态
-          store.Douban_UpdateUserTask( id, true );
+          await store.Douban_SaveUserTasks( followers ); // var task2 =
           // save log
-          config.Save( Configuration.Key_Douban_User, apiUri, pageIndex );
+          config.Save( Configuration.Key_Douban_User, originalApiUri, pageIndex );
         }
         // continue?
         hasMore = ( followers.Count >= DoubanApi.CountPerPage );
       } // do
       while ( hasMore );
-      
+
       // 移除有关上一次访问API的记录
       config.RemoveAccessLog( Configuration.Key_Douban_User );
-      // confinue?
-      if ( loopWhenfinished )
-        await StartUserTask( loopWhenfinished );
-    } // StartUserTask( bool loopWhenfinished )
+    }
+
+    async Task processBooks( string id ) {
+      // 获取原始的API地址
+      string apiUri = String.Format( DoubanApi.Api_MyBookCollections, id, 0, "" );
+      string originalApiUri = Helpers.ApiHelper.GetApi( apiUri );
+
+      // 正常的用户抓取流程
+      int pageIndex = -1;
+      bool hasMore = false;
+      do {
+        pageIndex++;
+        // 获取关注的人
+        var followers = await api.GetFollowers( id, pageIndex );
+        if ( followers != null && followers.Count > 0 ) {
+          // 给关注者新建用户任务
+          await store.Douban_SaveUserTasks( followers ); // var task2 =
+          // save log
+          config.Save( Configuration.Key_Douban_User, originalApiUri, pageIndex );
+        }
+        // continue?
+        hasMore = ( followers.Count >= DoubanApi.CountPerPage );
+      } // do
+      while ( hasMore );
+
+      // 移除有关上一次访问API的记录
+      config.RemoveAccessLog( Configuration.Key_Douban_User );
+    }
 
   }
 

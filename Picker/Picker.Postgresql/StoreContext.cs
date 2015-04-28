@@ -5,6 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using Newtonsoft.Json.Linq;
 using Npgsql;
+using Picker.Core.Spider;
 using Picker.Core.Storage;
 
 namespace Picker.Postgresql {
@@ -66,6 +67,14 @@ namespace Picker.Postgresql {
       return 0;
     }
 
+    public async Task<int> Douban_SaveBookTask( string id, string uid, bool saveChanges ) {
+      return 0;
+    }
+
+    public async Task<int> Douban_UpdateBookTask( string id, string uid, bool saveChanges ) {
+      return 0;
+    }
+
     #endregion Book
 
 
@@ -79,7 +88,60 @@ namespace Picker.Postgresql {
       return 0;
     }
 
+    /// <summary>
+    /// 增加MovieTask，但不设置ProcessedAt，如果已经存在，什么也不做。
+    /// </summary>
+    /// <param name="uri"></param>
+    /// <param name="saveChanges"></param>
+    /// <returns></returns>
+    public async Task<int> Douban_SaveMovieTask( string id, string uid, bool saveChanges ) {
+      //DoubanApi.
+      //var tmp = doubanContext.MovieTask.Where( i => i.ApiUri == id ).FirstOrDefault();
+      //if ( tmp != null )
+      //  return 0;
+
+      //tmp = new MovieTask();
+      ////tmp.id = id;
+      ////tmp.uid = uid;
+      //doubanContext.MovieTask.Add( tmp );
+
+      //if ( saveChanges )
+      //  //return await doubanContext.SaveChangesAsync();
+      //  return doubanContext.SaveChanges();
+      return 1;
+    }
+
+    public async Task<int> Douban_UpdateMovieTask( string id, string uid, bool saveChanges ) {
+      return 0;
+    }
+
     #endregion Movie
+
+
+    #region Music
+
+    public async Task<int> Douban_SaveMusicTask( string id, string uid, bool saveChanges ) {
+      return 0;
+    }
+
+    public async Task<int> Douban_UpdateMusicTask( string id, string uid, bool saveChanges ) {
+      return 0;
+    }
+
+    #endregion Music
+
+
+    #region Travel
+
+    public async Task<int> Douban_SaveTravelTask( string id, string uid, bool saveChanges ) {
+      return 0;
+    }
+
+    public async Task<int> Douban_UpdateTravelTask( string id, string uid, bool saveChanges ) {
+      return 0;
+    }
+
+    #endregion Travel
 
 
     #region User
@@ -103,13 +165,13 @@ namespace Picker.Postgresql {
       return ( tmp.ProcessedAt != null );
     }
 
-    public string DoubanUser_GetIdByUid( string uid ) {
+    public string DoubanUserTask_GetIdByUid( string uid ) {
       var tmp = doubanContext.UserTask.Where( i => i.uid == uid ).FirstOrDefault();
       return tmp == null ? null : tmp.id;
     }
 
     /// <summary>
-    /// 增加UserTask，如果已经存在，什么也不做。
+    /// 增加UserTask，但不设置ProcessedAt，如果已经存在，什么也不做。
     /// </summary>
     /// <param name="uri"></param>
     /// <param name="saveChanges"></param>
@@ -122,7 +184,6 @@ namespace Picker.Postgresql {
       tmp = new UserTask();
       tmp.id = id;
       tmp.uid = uid;
-      tmp.ProcessedAt = DateTime.UtcNow;
       doubanContext.UserTask.Add( tmp );
 
       if ( saveChanges )
@@ -156,6 +217,11 @@ namespace Picker.Postgresql {
       return 1;
     }
 
+    public async Task<bool> Douban_UserExists( string id ) {
+      User item = doubanContext.User.Where( i => i.id == id ).FirstOrDefault();
+      return ( item != null );
+    }
+
     public async Task<int> Douban_SaveUser( string id, string uid, string content, bool updateIfExists, bool saveChanges ) {
       User item = doubanContext.User.Where( i => i.id == id ).FirstOrDefault();
       if ( item != null && updateIfExists ) {
@@ -187,6 +253,21 @@ namespace Picker.Postgresql {
     }
 
     #endregion User
+
+    /// <summary>
+    /// 在事务中，同时保存多个表的Task
+    /// </summary>
+    /// <param name="id"></param>
+    /// <param name="uid"></param>
+    /// <returns></returns>
+    public async Task<int> Douban_SaveTasks( string id, string uid ) {
+      //using ( NpgsqlTransaction t = new NpgsqlTransaction() ) {
+      //  Douban_SaveUserTask( id, uid, false );
+      //  t.Commit();
+      //  t.Dispose();
+      //}
+      return 0;
+    }
 
   }
 
