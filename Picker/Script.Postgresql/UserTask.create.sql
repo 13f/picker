@@ -7,6 +7,8 @@ CREATE TABLE "UserTask"
   "ProcessedAt" timestamp(6) with time zone,
   id character varying(20) NOT NULL,
   uid character varying(63),
+  "BooksProcessedAt" timestamp(6) with time zone,
+  "TravelProcessedAt" timestamp(6) with time zone,
   CONSTRAINT "PrimaryKey_UserTask_id" PRIMARY KEY (id)
 )
 WITH (
