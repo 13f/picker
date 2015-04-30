@@ -13,3 +13,13 @@ WITH (
 );
 ALTER TABLE "BookTask"
   OWNER TO postgres;
+
+-- Index: "Index_BookTask"
+
+-- DROP INDEX "Index_BookTask";
+
+CREATE INDEX "Index_BookTask"
+  ON "BookTask"
+  USING btree
+  ("ApiUri" COLLATE pg_catalog."default");
+

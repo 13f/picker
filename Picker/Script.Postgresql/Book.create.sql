@@ -16,3 +16,13 @@ WITH (
 );
 ALTER TABLE "Book"
   OWNER TO postgres;
+
+-- Index: "Index_Book"
+
+-- DROP INDEX "Index_Book";
+
+CREATE INDEX "Index_Book"
+  ON "Book"
+  USING btree
+  ("Uri" COLLATE pg_catalog."default", "Content" COLLATE pg_catalog."default");
+

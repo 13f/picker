@@ -14,3 +14,13 @@ WITH (
 );
 ALTER TABLE "UserTask"
   OWNER TO postgres;
+
+-- Index: "Index_UserTask"
+
+-- DROP INDEX "Index_UserTask";
+
+CREATE INDEX "Index_UserTask"
+  ON "UserTask"
+  USING btree
+  (id COLLATE pg_catalog."default", uid COLLATE pg_catalog."default");
+
