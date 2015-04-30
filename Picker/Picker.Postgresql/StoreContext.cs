@@ -34,17 +34,17 @@ namespace Picker.Postgresql {
     #region Book
 
     public async Task<int> Douban_SaveBook( string url, JObject data, bool updateIfExists, bool saveChanges ) {
-      Book book = doubanContext.Book.Where( i => i.Uri == url ).FirstOrDefault();
-      if ( book != null && updateIfExists ) {
-        book.Content = data.ToString();
-        book.UpdatedAt = DateTime.UtcNow;
+      Book item = doubanContext.Book.Where( i => i.Uri == url ).FirstOrDefault();
+      if ( item != null && updateIfExists ) {
+        item.Content = data.ToString();
+        item.UpdatedAt = DateTime.UtcNow;
       }
       else {
-        book = new Book();
-        book.Content = data.ToString();
-        book.CreatedAt = DateTime.UtcNow;
-        book.UpdatedAt = DateTime.UtcNow;
-        doubanContext.Book.Add( book );
+        item = new Book();
+        item.Content = data.ToString();
+        item.CreatedAt = DateTime.UtcNow;
+        item.UpdatedAt = DateTime.UtcNow;
+        doubanContext.Book.Add( item );
       }
       if ( saveChanges )
         return await doubanContext.SaveChangesAsync();
@@ -59,19 +59,11 @@ namespace Picker.Postgresql {
     }
 
     public async Task<int> Douban_DeleteBook( string url ) {
-      Book book = doubanContext.Book.Where( i => i.Uri == url ).FirstOrDefault();
-      if ( book != null ) {
-        doubanContext.Book.Remove( book );
+      Book item = doubanContext.Book.Where( i => i.Uri == url ).FirstOrDefault();
+      if ( item != null ) {
+        doubanContext.Book.Remove( item );
         return await doubanContext.SaveChangesAsync();
       }
-      return 0;
-    }
-
-    public async Task<int> Douban_SaveBookTask( string id, string uid, bool saveChanges ) {
-      return 0;
-    }
-
-    public async Task<int> Douban_UpdateBookTask( string id, string uid, bool saveChanges ) {
       return 0;
     }
 
@@ -81,37 +73,36 @@ namespace Picker.Postgresql {
     #region Movie
 
     public async Task<int> Douban_SaveMovie( string url, JObject data, bool updateIfExists, bool saveChanges ) {
+      Movie item = doubanContext.Movie.Where( i => i.Uri == url ).FirstOrDefault();
+      if ( item != null && updateIfExists ) {
+        item.Content = data.ToString();
+        item.UpdatedAt = DateTime.UtcNow;
+      }
+      else {
+        item = new Movie();
+        item.Content = data.ToString();
+        item.CreatedAt = DateTime.UtcNow;
+        item.UpdatedAt = DateTime.UtcNow;
+        doubanContext.Movie.Add( item );
+      }
+      if ( saveChanges )
+        return await doubanContext.SaveChangesAsync();
+      return 0;
+    }
+
+    public async Task<int> Douban_SaveMovies( Dictionary<string, JObject> data, bool updateIfExists ) {
+      foreach ( var item in data ) {
+        await Douban_SaveMovie( item.Key, item.Value, updateIfExists, false );
+      }
       return await doubanContext.SaveChangesAsync();
     }
 
     public async Task<int> Douban_DeleteMovie( string url ) {
-      return 0;
-    }
-
-    /// <summary>
-    /// 增加MovieTask，但不设置ProcessedAt，如果已经存在，什么也不做。
-    /// </summary>
-    /// <param name="uri"></param>
-    /// <param name="saveChanges"></param>
-    /// <returns></returns>
-    public async Task<int> Douban_SaveMovieTask( string id, string uid, bool saveChanges ) {
-      //DoubanApi.
-      //var tmp = doubanContext.MovieTask.Where( i => i.ApiUri == id ).FirstOrDefault();
-      //if ( tmp != null )
-      //  return 0;
-
-      //tmp = new MovieTask();
-      ////tmp.id = id;
-      ////tmp.uid = uid;
-      //doubanContext.MovieTask.Add( tmp );
-
-      //if ( saveChanges )
-      //  //return await doubanContext.SaveChangesAsync();
-      //  return doubanContext.SaveChanges();
-      return 1;
-    }
-
-    public async Task<int> Douban_UpdateMovieTask( string id, string uid, bool saveChanges ) {
+      Movie item = doubanContext.Movie.Where( i => i.Uri == url ).FirstOrDefault();
+      if ( item != null ) {
+        doubanContext.Movie.Remove( item );
+        return await doubanContext.SaveChangesAsync();
+      }
       return 0;
     }
 
@@ -120,24 +111,50 @@ namespace Picker.Postgresql {
 
     #region Music
 
-    public async Task<int> Douban_SaveMusicTask( string id, string uid, bool saveChanges ) {
-      return 0;
-    }
+    //public async Task<int> Douban_SaveMusicTask( string id, string uid, bool saveChanges ) {
+    //  return 0;
+    //}
 
-    public async Task<int> Douban_UpdateMusicTask( string id, string uid, bool saveChanges ) {
-      return 0;
-    }
+    //public async Task<int> Douban_UpdateMusicTask( string id, string uid, bool saveChanges ) {
+    //  return 0;
+    //}
 
     #endregion Music
 
 
     #region Travel
 
-    public async Task<int> Douban_SaveTravelTask( string id, string uid, bool saveChanges ) {
+    public async Task<int> Douban_SaveTravel( string url, JObject data, bool updateIfExists, bool saveChanges ) {
+      Travel item = doubanContext.Travel.Where( i => i.Uri == url ).FirstOrDefault();
+      if ( item != null && updateIfExists ) {
+        item.Content = data.ToString();
+        item.UpdatedAt = DateTime.UtcNow;
+      }
+      else {
+        item = new Travel();
+        item.Content = data.ToString();
+        item.CreatedAt = DateTime.UtcNow;
+        item.UpdatedAt = DateTime.UtcNow;
+        doubanContext.Travel.Add( item );
+      }
+      if ( saveChanges )
+        return await doubanContext.SaveChangesAsync();
       return 0;
     }
 
-    public async Task<int> Douban_UpdateTravelTask( string id, string uid, bool saveChanges ) {
+    public async Task<int> Douban_SaveTravels( Dictionary<string, JObject> data, bool updateIfExists ) {
+      foreach ( var item in data ) {
+        await Douban_SaveTravel( item.Key, item.Value, updateIfExists, false );
+      }
+      return await doubanContext.SaveChangesAsync();
+    }
+
+    public async Task<int> Douban_DeleteTravel( string url ) {
+      Travel item = doubanContext.Travel.Where( i => i.Uri == url ).FirstOrDefault();
+      if ( item != null ) {
+        doubanContext.Travel.Remove( item );
+        return await doubanContext.SaveChangesAsync();
+      }
       return 0;
     }
 
@@ -146,29 +163,64 @@ namespace Picker.Postgresql {
 
     #region User
 
-    /// <summary>
-    /// 获取一个未处理的UserTask（ProcessedAt为null）的id
-    /// </summary>
-    /// <returns></returns>
-    public string Douban_GetUndoneUserTask() {
-      var tmp = doubanContext.UserTask.Where( i => i.ProcessedAt == null ).FirstOrDefault();
-      return tmp == null ? null : tmp.id;
-    }
-
     public bool Douban_UserTaskExsits( string uid ) {
       var tmp = doubanContext.UserTask.Where( i => i.uid == uid ).FirstOrDefault();
       return ( tmp != null );
-    }
-
-    public bool Douban_UserTaskIsComplete( string uid ) {
-      var tmp = doubanContext.UserTask.Where( i => i.uid == uid ).FirstOrDefault();
-      return ( tmp.ProcessedAt != null );
     }
 
     public string DoubanUserTask_GetIdByUid( string uid ) {
       var tmp = doubanContext.UserTask.Where( i => i.uid == uid ).FirstOrDefault();
       return tmp == null ? null : tmp.id;
     }
+
+
+    /// <summary>
+    /// 获取一个未处理的UserTask（ProcessedAt为null，或者now-value>=interval）的id
+    /// </summary>
+    /// <returns></returns>
+    public string Douban_GetUndoneUserTask( TimeSpan? interval ) {
+      var tmp = doubanContext.UserTask.Where( i => i.ProcessedAt == null || (interval.HasValue && ( DateTime.UtcNow - i.ProcessedAt.Value >= interval.Value ) ) )
+        .FirstOrDefault();
+      return tmp == null ? null : tmp.id;
+    }
+
+    /// <summary>
+    /// 获取一个未处理的UserTask（BooksProcessedAt为null，或者now-value>=interval）的id
+    /// </summary>
+    public string DoubanBook_GetUndoneUserTask( TimeSpan? interval ) {
+      var tmp = doubanContext.UserTask.Where( i => i.BooksProcessedAt == null || ( interval.HasValue && ( DateTime.UtcNow - i.BooksProcessedAt.Value >= interval.Value ) ) )
+        .FirstOrDefault();
+      return tmp == null ? null : tmp.id;
+    }
+
+    /// <summary>
+    /// 获取一个未处理的UserTask（TravelProcessedAt为null，或者now-value>=interval）的id
+    /// </summary>
+    public string DoubanTravel_GetUndoneUserTask( TimeSpan? interval ) {
+      var tmp = doubanContext.UserTask.Where( i => i.TravelProcessedAt == null || ( interval.HasValue && ( DateTime.UtcNow - i.TravelProcessedAt.Value >= interval.Value ) ) )
+        .FirstOrDefault();
+      return tmp == null ? null : tmp.id;
+    }
+
+
+    public bool Douban_UserTaskIsComplete( string uid, TimeSpan? interval ) {
+      var tmp = doubanContext.UserTask.Where( i => i.uid == uid ).FirstOrDefault();
+      return ( interval == null && tmp.ProcessedAt != null ) ||
+        ( interval.HasValue && tmp.ProcessedAt.HasValue && ( DateTime.UtcNow - tmp.ProcessedAt.Value < interval.Value ) );
+    }
+
+    public bool DoubanBook_UserTaskIsComplete( string uid, TimeSpan? interval ) {
+      var tmp = doubanContext.UserTask.Where( i => i.uid == uid ).FirstOrDefault();
+      return ( interval == null && tmp.BooksProcessedAt != null ) ||
+        ( interval.HasValue && tmp.BooksProcessedAt.HasValue && ( DateTime.UtcNow - tmp.BooksProcessedAt.Value < interval.Value ) );
+    }
+
+    public bool DoubanTravel_UserTaskIsComplete( string uid, TimeSpan? interval ) {
+      var tmp = doubanContext.UserTask.Where( i => i.uid == uid ).FirstOrDefault();
+      return ( interval == null && tmp.TravelProcessedAt != null ) ||
+        ( interval.HasValue && tmp.TravelProcessedAt.HasValue && ( DateTime.UtcNow - tmp.TravelProcessedAt.Value < interval.Value ) );
+    }
+
 
     /// <summary>
     /// 增加UserTask，但不设置ProcessedAt，如果已经存在，什么也不做。
@@ -204,9 +256,6 @@ namespace Picker.Postgresql {
     /// <summary>
     /// 更新UserTask.ProcessedAt为当前时间
     /// </summary>
-    /// <param name="uri"></param>
-    /// <param name="saveChanges"></param>
-    /// <returns></returns>
     public async Task<int> Douban_UpdateUserTask( string id, bool saveChanges ) {
       var tmp = doubanContext.UserTask.Where( i => i.id == id ).FirstOrDefault();
       if ( tmp == null )
@@ -216,6 +265,33 @@ namespace Picker.Postgresql {
         return await doubanContext.SaveChangesAsync();
       return 1;
     }
+    
+    /// <summary>
+    /// 更新UserTask.BooksProcessedAt为当前时间
+    /// </summary>
+    public async Task<int> DoubanBook_UpdateUserTask( string id, bool saveChanges ) {
+      var tmp = doubanContext.UserTask.Where( i => i.id == id ).FirstOrDefault();
+      if ( tmp == null )
+        return 0;
+      tmp.BooksProcessedAt = DateTime.UtcNow;
+      if ( saveChanges )
+        return await doubanContext.SaveChangesAsync();
+      return 1;
+    }
+
+    /// <summary>
+    /// 更新UserTask.TravelProcessedAt为当前时间
+    /// </summary>
+    public async Task<int> DoubanTravel_UpdateUserTask( string id, bool saveChanges ) {
+      var tmp = doubanContext.UserTask.Where( i => i.id == id ).FirstOrDefault();
+      if ( tmp == null )
+        return 0;
+      tmp.TravelProcessedAt = DateTime.UtcNow;
+      if ( saveChanges )
+        return await doubanContext.SaveChangesAsync();
+      return 1;
+    }
+
 
     public async Task<bool> Douban_UserExists( string id ) {
       User item = doubanContext.User.Where( i => i.id == id ).FirstOrDefault();

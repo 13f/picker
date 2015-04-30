@@ -91,6 +91,8 @@
           <Property Name="ProcessedAt" Type="timestamptz" Precision="6" />
           <Property Name="id" Type="varchar" MaxLength="20" Nullable="false" />
           <Property Name="uid" Type="varchar" MaxLength="63" />
+          <Property Name="BooksProcessedAt" Type="timestamptz" Precision="6" />
+          <Property Name="TravelProcessedAt" Type="timestamptz" Precision="6" />
         </EntityType>
         <EntityContainer Name="DoubanModelStoreContainer">
           <EntitySet Name="Book" EntityType="Self.Book" Schema="public" store:Type="Tables" />
@@ -165,6 +167,8 @@
           <Property Name="ProcessedAt" Type="DateTimeOffset" Precision="6" />
           <Property Name="id" Type="String" Nullable="false" MaxLength="20" FixedLength="false" Unicode="true" />
           <Property Name="uid" Type="String" MaxLength="63" FixedLength="false" Unicode="true" />
+          <Property Name="BooksProcessedAt" Type="DateTimeOffset" Precision="6" />
+          <Property Name="TravelProcessedAt" Type="DateTimeOffset" Precision="6" />
         </EntityType>
         <EntityType Name="User">
           <Key>
@@ -259,6 +263,8 @@
           <EntitySetMapping Name="UserTask">
             <EntityTypeMapping TypeName="DoubanModel.UserTask">
               <MappingFragment StoreEntitySet="UserTask">
+                <ScalarProperty Name="TravelProcessedAt" ColumnName="TravelProcessedAt" />
+                <ScalarProperty Name="BooksProcessedAt" ColumnName="BooksProcessedAt" />
                 <ScalarProperty Name="uid" ColumnName="uid" />
                 <ScalarProperty Name="id" ColumnName="id" />
                 <ScalarProperty Name="ProcessedAt" ColumnName="ProcessedAt" />
