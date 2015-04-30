@@ -11,7 +11,10 @@
         <EntityTypeShape EntityType="DoubanModel.MusicTask" Width="1.5" PointX="4.75" PointY="3.25" />
         <EntityTypeShape EntityType="DoubanModel.TravelTask" Width="1.5" PointX="6.75" PointY="3.25" />
         <EntityTypeShape EntityType="DoubanModel.UserTask" Width="1.5" PointX="8.75" PointY="3.25" />
-        <EntityTypeShape EntityType="DoubanModel.User" Width="1.5" PointX="8.75" PointY="0.625" />
+        <EntityTypeShape EntityType="DoubanModel.User" Width="1.5" PointX="8.75" PointY="0.5" />
+        <EntityTypeShape EntityType="DoubanModel.Movie" Width="1.5" PointX="2.75" PointY="0.5" />
+        <EntityTypeShape EntityType="DoubanModel.Music" Width="1.5" PointX="4.75" PointY="0.5" />
+        <EntityTypeShape EntityType="DoubanModel.Travel" Width="1.5" PointX="6.75" PointY="0.5" />
       </Diagram>
     </edmx:Diagrams>
   </edmx:Designer>

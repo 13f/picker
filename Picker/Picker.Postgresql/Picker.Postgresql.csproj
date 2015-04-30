@@ -85,7 +85,13 @@
       <DependentUpon>DoubanModel.edmx</DependentUpon>
     </Compile>
     <Compile Include="Extensions\DoubanEntities.cs" />
+    <Compile Include="Movie.cs">
+      <DependentUpon>DoubanModel.tt</DependentUpon>
+    </Compile>
     <Compile Include="MovieTask.cs">
+      <DependentUpon>DoubanModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Music.cs">
       <DependentUpon>DoubanModel.tt</DependentUpon>
     </Compile>
     <Compile Include="MusicTask.cs">
@@ -93,6 +99,9 @@
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="StoreContext.cs" />
+    <Compile Include="Travel.cs">
+      <DependentUpon>DoubanModel.tt</DependentUpon>
+    </Compile>
     <Compile Include="TravelTask.cs">
       <DependentUpon>DoubanModel.tt</DependentUpon>
     </Compile>

@@ -22,6 +22,16 @@
           <Property Name="ApiUri" Type="varchar" MaxLength="255" Nullable="false" />
           <Property Name="ProcessedAt" Type="timestamptz" Precision="6" />
         </EntityType>
+        <EntityType Name="Movie">
+          <Key>
+            <PropertyRef Name="Uri" />
+          </Key>
+          <Property Name="Uri" Type="varchar" MaxLength="255" Nullable="false" />
+          <Property Name="CreatedAt" Type="timestamptz" Precision="6" />
+          <Property Name="UpdatedAt" Type="timestamptz" Precision="6" />
+          <Property Name="ProcessedAt" Type="timestamptz" Precision="6" />
+          <Property Name="Content" Type="text" />
+        </EntityType>
         <EntityType Name="MovieTask">
           <Key>
             <PropertyRef Name="ApiUri" />
@@ -29,12 +39,32 @@
           <Property Name="ApiUri" Type="varchar" MaxLength="255" Nullable="false" />
           <Property Name="ProcessedAt" Type="timestamptz" Precision="6" />
         </EntityType>
+        <EntityType Name="Music">
+          <Key>
+            <PropertyRef Name="Uri" />
+          </Key>
+          <Property Name="Uri" Type="varchar" MaxLength="255" Nullable="false" />
+          <Property Name="CreatedAt" Type="timestamptz" Precision="6" />
+          <Property Name="UpdatedAt" Type="timestamptz" Precision="6" />
+          <Property Name="ProcessedAt" Type="timestamptz" Precision="6" />
+          <Property Name="Content" Type="text" />
+        </EntityType>
         <EntityType Name="MusicTask">
           <Key>
             <PropertyRef Name="ApiUri" />
           </Key>
           <Property Name="ApiUri" Type="varchar" MaxLength="255" Nullable="false" />
           <Property Name="ProcessedAt" Type="timestamptz" Precision="6" />
+        </EntityType>
+        <EntityType Name="Travel">
+          <Key>
+            <PropertyRef Name="Uri" />
+          </Key>
+          <Property Name="Uri" Type="varchar" MaxLength="255" Nullable="false" />
+          <Property Name="CreatedAt" Type="timestamptz" Precision="6" />
+          <Property Name="UpdatedAt" Type="timestamptz" Precision="6" />
+          <Property Name="ProcessedAt" Type="timestamptz" Precision="6" />
+          <Property Name="Content" Type="text" />
         </EntityType>
         <EntityType Name="TravelTask">
           <Key>
@@ -65,8 +95,11 @@
         <EntityContainer Name="DoubanModelStoreContainer">
           <EntitySet Name="Book" EntityType="Self.Book" Schema="public" store:Type="Tables" />
           <EntitySet Name="BookTask" EntityType="Self.BookTask" Schema="public" store:Type="Tables" />
+          <EntitySet Name="Movie" EntityType="Self.Movie" Schema="public" store:Type="Tables" />
           <EntitySet Name="MovieTask" EntityType="Self.MovieTask" Schema="public" store:Type="Tables" />
+          <EntitySet Name="Music" EntityType="Self.Music" Schema="public" store:Type="Tables" />
           <EntitySet Name="MusicTask" EntityType="Self.MusicTask" Schema="public" store:Type="Tables" />
+          <EntitySet Name="Travel" EntityType="Self.Travel" Schema="public" store:Type="Tables" />
           <EntitySet Name="TravelTask" EntityType="Self.TravelTask" Schema="public" store:Type="Tables" />
           <EntitySet Name="User" EntityType="Self.User" Schema="public" store:Type="Tables" />
           <EntitySet Name="UserTask" EntityType="Self.UserTask" Schema="public" store:Type="Tables" />
@@ -93,6 +126,9 @@
           <EntitySet Name="TravelTask" EntityType="DoubanModel.TravelTask" />
           <EntitySet Name="UserTask" EntityType="DoubanModel.UserTask" />
           <EntitySet Name="User" EntityType="DoubanModel.User" />
+          <EntitySet Name="Movie" EntityType="DoubanModel.Movie" />
+          <EntitySet Name="Music" EntityType="DoubanModel.Music" />
+          <EntitySet Name="Travel" EntityType="DoubanModel.Travel" />
         </EntityContainer>
         <EntityType Name="BookTask">
           <Key>
@@ -140,6 +176,36 @@
           <Property Name="CreatedAt" Type="DateTimeOffset" Precision="6" />
           <Property Name="UpdatedAt" Type="DateTimeOffset" Precision="6" />
           <Property Name="ProcessedAt" Type="DateTimeOffset" Precision="6" />
+        </EntityType>
+        <EntityType Name="Movie">
+          <Key>
+            <PropertyRef Name="Uri" />
+          </Key>
+          <Property Name="Uri" Type="String" Nullable="false" MaxLength="255" FixedLength="false" Unicode="true" />
+          <Property Name="CreatedAt" Type="DateTimeOffset" Precision="6" />
+          <Property Name="UpdatedAt" Type="DateTimeOffset" Precision="6" />
+          <Property Name="ProcessedAt" Type="DateTimeOffset" Precision="6" />
+          <Property Name="Content" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+        </EntityType>
+        <EntityType Name="Music">
+          <Key>
+            <PropertyRef Name="Uri" />
+          </Key>
+          <Property Name="Uri" Type="String" Nullable="false" MaxLength="255" FixedLength="false" Unicode="true" />
+          <Property Name="CreatedAt" Type="DateTimeOffset" Precision="6" />
+          <Property Name="UpdatedAt" Type="DateTimeOffset" Precision="6" />
+          <Property Name="ProcessedAt" Type="DateTimeOffset" Precision="6" />
+          <Property Name="Content" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+        </EntityType>
+        <EntityType Name="Travel">
+          <Key>
+            <PropertyRef Name="Uri" />
+          </Key>
+          <Property Name="Uri" Type="String" Nullable="false" MaxLength="255" FixedLength="false" Unicode="true" />
+          <Property Name="CreatedAt" Type="DateTimeOffset" Precision="6" />
+          <Property Name="UpdatedAt" Type="DateTimeOffset" Precision="6" />
+          <Property Name="ProcessedAt" Type="DateTimeOffset" Precision="6" />
+          <Property Name="Content" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
         </EntityType>
       </Schema>
     </edmx:ConceptualModels>
@@ -208,6 +274,39 @@
                 <ScalarProperty Name="Content" ColumnName="Content" />
                 <ScalarProperty Name="uid" ColumnName="uid" />
                 <ScalarProperty Name="id" ColumnName="id" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Movie">
+            <EntityTypeMapping TypeName="DoubanModel.Movie">
+              <MappingFragment StoreEntitySet="Movie">
+                <ScalarProperty Name="Content" ColumnName="Content" />
+                <ScalarProperty Name="ProcessedAt" ColumnName="ProcessedAt" />
+                <ScalarProperty Name="UpdatedAt" ColumnName="UpdatedAt" />
+                <ScalarProperty Name="CreatedAt" ColumnName="CreatedAt" />
+                <ScalarProperty Name="Uri" ColumnName="Uri" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Music">
+            <EntityTypeMapping TypeName="DoubanModel.Music">
+              <MappingFragment StoreEntitySet="Music">
+                <ScalarProperty Name="Content" ColumnName="Content" />
+                <ScalarProperty Name="ProcessedAt" ColumnName="ProcessedAt" />
+                <ScalarProperty Name="UpdatedAt" ColumnName="UpdatedAt" />
+                <ScalarProperty Name="CreatedAt" ColumnName="CreatedAt" />
+                <ScalarProperty Name="Uri" ColumnName="Uri" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Travel">
+            <EntityTypeMapping TypeName="DoubanModel.Travel">
+              <MappingFragment StoreEntitySet="Travel">
+                <ScalarProperty Name="Content" ColumnName="Content" />
+                <ScalarProperty Name="ProcessedAt" ColumnName="ProcessedAt" />
+                <ScalarProperty Name="UpdatedAt" ColumnName="UpdatedAt" />
+                <ScalarProperty Name="CreatedAt" ColumnName="CreatedAt" />
+                <ScalarProperty Name="Uri" ColumnName="Uri" />
               </MappingFragment>
             </EntityTypeMapping>
           </EntitySetMapping>

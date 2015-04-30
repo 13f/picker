@@ -32,5 +32,8 @@ namespace Picker.Postgresql
         public virtual DbSet<TravelTask> TravelTask { get; set; }
         public virtual DbSet<UserTask> UserTask { get; set; }
         public virtual DbSet<User> User { get; set; }
+        public virtual DbSet<Movie> Movie { get; set; }
+        public virtual DbSet<Music> Music { get; set; }
+        public virtual DbSet<Travel> Travel { get; set; }
     }
 }
