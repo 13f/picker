@@ -8,36 +8,69 @@
     <i:Interaction.Behaviors>
         <metroBehaviours:BorderlessWindowBehavior/>
     </i:Interaction.Behaviors>
-    <TabControl>
-        <TabItem Header="User">
-            <metro:MetroContentControl>
-                <Button Width="150" Height="70" Content="抓取" Command="{Binding CmdPickUsers}"/>
-            </metro:MetroContentControl>
-        </TabItem>
+    
+    <DockPanel>
+        <ItemsControl ItemsSource="{Binding StatisticsInfo}" Width="200" DockPanel.Dock="Left">
+            <ItemsControl.ItemTemplate>
+                <DataTemplate>
+                    <StackPanel Margin="5">
+                        <TextBlock Text="{Binding Title}" Margin="5"/>
+                        <StackPanel Orientation="Horizontal" Margin="5">
+                            <TextBlock Text="{Binding ProcessedCount}" Margin="5,0,5,0"/>
+                            <TextBlock Text="/" Margin="5,0,5,0"/>
+                            <TextBlock Text="{Binding TotalCount}" Margin="5,0,5,0"/>
+                        </StackPanel>
+                    </StackPanel>
+                </DataTemplate>
+            </ItemsControl.ItemTemplate>
+        </ItemsControl>
         
-        <TabItem Header="Book">
-            <metro:MetroContentControl>
-                <TextBlock FontSize="30" VerticalAlignment="Center" HorizontalAlignment="Center">Book: TO DO ...</TextBlock>
-            </metro:MetroContentControl>
-        </TabItem>
+        <TabControl>
+            <TabItem Header="Setting">
+                <metro:MetroContentControl>
+                    <StackPanel Orientation="Horizontal" VerticalAlignment="Top" Margin="10">
+                        <TextBlock VerticalAlignment="Center">App key:</TextBlock>
+                        <TextBox Width="200" Height="30" Margin="10,0,0,0" Text="{Binding AppKey, Mode=TwoWay}" IsReadOnly="True"/>
+                    </StackPanel>
+                </metro:MetroContentControl>
+            </TabItem>
 
-        <TabItem Header="Movie">
-            <metro:MetroContentControl>
-                <TextBlock FontSize="30" VerticalAlignment="Center" HorizontalAlignment="Center">Movie: TO DO ...</TextBlock>
-            </metro:MetroContentControl>
-        </TabItem>
+            <TabItem Header="User">
+                <metro:MetroContentControl>
+                    <StackPanel>
+                        <StackPanel Orientation="Horizontal" VerticalAlignment="Top" Margin="10">
+                            <TextBlock VerticalAlignment="Center">初始用户（StartingUserId）：</TextBlock>
+                            <TextBox Width="200" Height="30" Margin="10,0,0,0" Text="{Binding StartingUserId, Mode=TwoWay}"/>
+                        </StackPanel>
+                        <Button Width="150" Height="70" Content="抓取" Command="{Binding CmdPickUsers}"/>
+                    </StackPanel>
+                </metro:MetroContentControl>
+            </TabItem>
 
-        <TabItem Header="Music">
-            <metro:MetroContentControl>
-                <TextBlock FontSize="30" VerticalAlignment="Center" HorizontalAlignment="Center">Music: TO DO ...</TextBlock>
-            </metro:MetroContentControl>
-        </TabItem>
+            <TabItem Header="Book">
+                <metro:MetroContentControl>
+                    <Button Width="150" Height="70" Content="抓取" Command="{Binding CmdPickBooks}"/>
+                </metro:MetroContentControl>
+            </TabItem>
 
-        <TabItem Header="Travel">
-            <metro:MetroContentControl>
-                <TextBlock FontSize="30" VerticalAlignment="Center" HorizontalAlignment="Center">Travel: TO DO ...</TextBlock>
-            </metro:MetroContentControl>
-        </TabItem>
-        
-    </TabControl>
+            <TabItem Header="Movie">
+                <metro:MetroContentControl>
+                    <Button Width="150" Height="70" Content="抓取：Top250" Command="{Binding CmdPickMoviesTop250}"/>
+                </metro:MetroContentControl>
+            </TabItem>
+
+            <TabItem Header="Music">
+                <metro:MetroContentControl>
+                    <TextBlock FontSize="30" VerticalAlignment="Center" HorizontalAlignment="Center">Music: TO DO ...</TextBlock>
+                </metro:MetroContentControl>
+            </TabItem>
+
+            <TabItem Header="Travel">
+                <metro:MetroContentControl>
+                    <TextBlock FontSize="30" VerticalAlignment="Center" HorizontalAlignment="Center">Travel: TO DO ...</TextBlock>
+                </metro:MetroContentControl>
+            </TabItem>
+
+        </TabControl>
+    </DockPanel>
 </metro:MetroWindow>
