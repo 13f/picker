@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using Newtonsoft.Json.Linq;
+using Picker.Core.Models;
 
 namespace Picker.Core.Storage {
   public interface IStorage {
@@ -13,6 +14,9 @@ namespace Picker.Core.Storage {
     /// </summary>
     /// <returns></returns>
     Task<int> SaveChanges();
+
+
+    List<StatisticsItem> LoadStatistics();
 
 
     //Task<int> Douban_SaveBookTask( string id, string uid, bool saveChanges );

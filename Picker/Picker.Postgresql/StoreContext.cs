@@ -8,6 +8,7 @@ using Npgsql;
 using Picker.Core.Spider;
 using Picker.Core.Storage;
 using Picker.Core.Helpers;
+using Picker.Core.Models;
 
 namespace Picker.Postgresql {
   public class StoreContext : IStorage {
@@ -29,6 +30,36 @@ namespace Picker.Postgresql {
     /// <returns></returns>
     public async Task<int> SaveChanges() {
       return await doubanContext.SaveChangesAsync();
+    }
+
+    public List<StatisticsItem> LoadStatistics() {
+      List<StatisticsItem> data = new List<StatisticsItem>();
+      data.Add( new StatisticsItem() {
+        Title = "Users",
+        TotalCount = doubanContext.UserTask.LongCount(),
+        ProcessedCount = doubanContext.User.LongCount()
+      } );
+      data.Add( new StatisticsItem() {
+        Title = "Books",
+        TotalCount = doubanContext.Book.LongCount(),
+        ProcessedCount = doubanContext.Book.LongCount()
+      } );
+      data.Add( new StatisticsItem() {
+        Title = "Movies",
+        TotalCount = doubanContext.Movie.LongCount(),
+        ProcessedCount = doubanContext.Movie.LongCount()
+      } );
+      //data.Add( new StatisticsItem() {
+      //  Title = "Music",
+      //  TotalCount = doubanContext.UserTask.LongCount(),
+      //  ProcessedCount = doubanContext.User.LongCount()
+      //} );
+      data.Add( new StatisticsItem() {
+        Title = "Travel Places",
+        TotalCount = doubanContext.Travel.LongCount(),
+        ProcessedCount = doubanContext.Travel.LongCount()
+      } );
+      return data;
     }
 
 
