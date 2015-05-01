@@ -36,7 +36,7 @@ namespace Picker.Core.Helpers {
     public static bool IsInInterval( DateTimeOffset? lastTime, TimeSpan? interval ) {
       return lastTime == null ||
         interval == null ||
-        ( DateTime.UtcNow - lastTime.Value < interval.Value );
+        ( DateTime.UtcNow - lastTime.Value.UtcDateTime < interval.Value );
     }
 
     /// <summary>
@@ -49,7 +49,7 @@ namespace Picker.Core.Helpers {
     /// <returns></returns>
     public static bool IsOutOfInterval( DateTime? lastTime, TimeSpan? interval ) {
       return lastTime == null ||
-        ( interval != null && ( DateTime.UtcNow - lastTime.Value < interval.Value ) );
+        ( interval.HasValue && ( DateTime.UtcNow - lastTime.Value < interval.Value ) );
     }
 
     /// <summary>
@@ -62,7 +62,7 @@ namespace Picker.Core.Helpers {
     /// <returns></returns>
     public static bool IsOutOfInterval( DateTimeOffset? lastTime, TimeSpan? interval ) {
       return lastTime == null ||
-        ( interval != null && ( DateTime.UtcNow - lastTime.Value < interval.Value ) );
+        ( interval.HasValue && ( DateTime.UtcNow - lastTime.Value.UtcDateTime < interval.Value ) );
     }
 
   }

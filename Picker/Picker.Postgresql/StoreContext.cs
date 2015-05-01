@@ -180,7 +180,9 @@ namespace Picker.Postgresql {
     /// </summary>
     /// <returns></returns>
     public string Douban_GetUndoneUserTask( TimeSpan? interval ) {
-      var tmp = doubanContext.UserTask.Where( i => TimeHelper.IsOutOfInterval(i.ProcessedAt, interval) )
+      double intervalSeconds = interval.HasValue ? interval.Value.TotalSeconds : 0;
+      var tmp = doubanContext.UserTask.Where( i => i.ProcessedAt == null ||
+        ( interval.HasValue && ( System.Data.Entity.DbFunctions.DiffSeconds( DateTime.UtcNow, i.ProcessedAt.Value ) < intervalSeconds ) ) )
         .FirstOrDefault();
       return tmp == null ? null : tmp.id;
     }
@@ -189,7 +191,9 @@ namespace Picker.Postgresql {
     /// 获取一个未处理的UserTask（BooksProcessedAt为null，或者now-value>=interval）的id
     /// </summary>
     public string DoubanBook_GetUndoneUserTask( TimeSpan? interval ) {
-      var tmp = doubanContext.UserTask.Where( i => TimeHelper.IsOutOfInterval( i.BooksProcessedAt, interval ) )
+      double intervalSeconds = interval.HasValue ? interval.Value.TotalSeconds : 0;
+      var tmp = doubanContext.UserTask.Where( i => i.BooksProcessedAt == null ||
+        ( interval.HasValue && ( System.Data.Entity.DbFunctions.DiffSeconds( DateTime.UtcNow, i.BooksProcessedAt.Value ) < intervalSeconds ) ) )
         .FirstOrDefault();
       return tmp == null ? null : tmp.id;
     }
@@ -198,7 +202,9 @@ namespace Picker.Postgresql {
     /// 获取一个未处理的UserTask（TravelProcessedAt为null，或者now-value>=interval）的id
     /// </summary>
     public string DoubanTravel_GetUndoneUserTask( TimeSpan? interval ) {
-      var tmp = doubanContext.UserTask.Where( i => TimeHelper.IsOutOfInterval(i.TravelProcessedAt, interval ) )
+      double intervalSeconds = interval.HasValue ? interval.Value.TotalSeconds : 0;
+      var tmp = doubanContext.UserTask.Where( i => i.TravelProcessedAt == null ||
+        ( interval.HasValue && ( System.Data.Entity.DbFunctions.DiffSeconds( DateTime.UtcNow, i.TravelProcessedAt.Value ) < intervalSeconds ) ) )
         .FirstOrDefault();
       return tmp == null ? null : tmp.id;
     }
