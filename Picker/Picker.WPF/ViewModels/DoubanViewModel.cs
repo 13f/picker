@@ -217,9 +217,6 @@ namespace Picker.ViewModels {
         StatisticsInfo.Clear();
       var data = store.LoadStatistics();
       StatisticsInfo = new ObservableCollection<StatisticsItem>( data );
-      // 如果没有在抓取数据，停止计时器
-      if ( !IsPickingData && timer != null )
-        timer.Stop();
     }
 
     #endregion
