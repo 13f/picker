@@ -97,9 +97,10 @@ namespace Picker.Core.Spider {
     public async Task StartMovieTask_Top250( bool updateIfExists ) {
       string originalApiUri = Helpers.ApiHelper.GetApi( DoubanApi.Api_MovieTop250 );
       bool hasMore = false;
-      int pageIndex = 0;
+      int pageIndex = -1;
       int CountPerPage = 20;
       do {
+        pageIndex++;
         int start = pageIndex * CountPerPage;
         var items = await api.GetMovies_Top250( start );
         if ( items != null && items.Count > 0 ) {
