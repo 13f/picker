@@ -91,27 +91,20 @@ namespace Picker.ViewModels {
     /// <summary>
     /// Gets or sets IsPickingUsers.
     /// </summary>
-    public bool IsPickingUsers {
-      get { return GetValue<bool>( IsPickingUsersProperty ); }
+    public bool IsPickingData {
+      get { return GetValue<bool>( IsPickingDataProperty ); }
       set {
-        SetValue( IsPickingUsersProperty, value );
+        SetValue( IsPickingDataProperty, value );
         CmdPickUsers.RaiseCanExecuteChanged();
         CmdPickBooks.RaiseCanExecuteChanged();
         CmdPickMoviesTop250.RaiseCanExecuteChanged();
-
-        if ( timer == null )
-          return;
-        if ( value )
-          timer.Start();
-        else
-          timer.Stop();
       }
     }
 
     /// <summary>
     /// Register the IsPickingUsers property so it is known in the class.
     /// </summary>
-    public static readonly PropertyData IsPickingUsersProperty = RegisterProperty( "IsPickingUsers", typeof( bool ), false );
+    public static readonly PropertyData IsPickingDataProperty = RegisterProperty( "IsPickingUsers", typeof( bool ), false );
 
     /// <summary>
     /// Gets or sets StatisticsInfo.
@@ -137,20 +130,20 @@ namespace Picker.ViewModels {
     public AsynchronousCommand CmdPickUsers { get; private set; }
 
     private bool OnOnCmdPickUsersCanExecute() {
-      return !IsPickingUsers;
+      return !IsPickingData;
     }
 
     /// <summary>
     /// Method to invoke when the CmdPickUsers command is executed.
     /// </summary>
     private async void OnCmdPickUsersExecute() {
-      IsPickingUsers = true;
+      IsPickingData = true;
       try {
         await biz.StartUserTask( null, StartingUserId, false );
         //var task = biz.StartUserTask( null, StartingUserId, false );
       }
       finally {
-        IsPickingUsers = false;
+        IsPickingData = false;
       }
     }
 
@@ -164,19 +157,19 @@ namespace Picker.ViewModels {
     /// </summary>
     /// <returns><c>true</c> if the command can be executed; otherwise <c>false</c></returns>
     private bool OnCmdPickBooksCanExecute() {
-      return !IsPickingUsers;
+      return !IsPickingData;
     }
 
     /// <summary>
     /// Method to invoke when the CmdPickBooks command is executed.
     /// </summary>
     private async void OnCmdPickBooksExecute() {
-      IsPickingUsers = true;
+      IsPickingData = true;
       try {
         await biz.StartBookTask( null, false );
       }
       finally {
-        IsPickingUsers = false;
+        IsPickingData = false;
       }
     }
 
@@ -190,19 +183,19 @@ namespace Picker.ViewModels {
     /// </summary>
     /// <returns><c>true</c> if the command can be executed; otherwise <c>false</c></returns>
     private bool OnCmdPickMoviesTop250CanExecute() {
-      return !IsPickingUsers;
+      return !IsPickingData;
     }
 
     /// <summary>
     /// Method to invoke when the CmdPickMoviesTop250 command is executed.
     /// </summary>
     private async void OnCmdPickMoviesTop250Execute() {
-      IsPickingUsers = true;
+      IsPickingData = true;
       try {
         await biz.StartMovieTask_Top250( false );
       }
       finally {
-        IsPickingUsers = false;
+        IsPickingData = false;
       }
     }
 
@@ -216,10 +209,17 @@ namespace Picker.ViewModels {
     }
 
     void refreshStatistics() {
+      // 抓取数据的时候进行查询，可能造成异步方法和同步方法同时对A表进行操作，会抛出异常
+      if ( store == null || IsPickingData )
+        return;
+
       if ( StatisticsInfo != null )
         StatisticsInfo.Clear();
       var data = store.LoadStatistics();
       StatisticsInfo = new ObservableCollection<StatisticsItem>( data );
+      // 如果没有在抓取数据，停止计时器
+      if ( !IsPickingData && timer != null )
+        timer.Stop();
     }
 
     #endregion
