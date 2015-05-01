@@ -7,6 +7,7 @@ using Newtonsoft.Json.Linq;
 using Npgsql;
 using Picker.Core.Spider;
 using Picker.Core.Storage;
+using Picker.Core.Helpers;
 
 namespace Picker.Postgresql {
   public class StoreContext : IStorage {
@@ -179,7 +180,7 @@ namespace Picker.Postgresql {
     /// </summary>
     /// <returns></returns>
     public string Douban_GetUndoneUserTask( TimeSpan? interval ) {
-      var tmp = doubanContext.UserTask.Where( i => i.ProcessedAt == null || (interval.HasValue && ( DateTime.UtcNow - i.ProcessedAt.Value >= interval.Value ) ) )
+      var tmp = doubanContext.UserTask.Where( i => TimeHelper.IsOutOfInterval(i.ProcessedAt, interval) )
         .FirstOrDefault();
       return tmp == null ? null : tmp.id;
     }
@@ -188,7 +189,7 @@ namespace Picker.Postgresql {
     /// 获取一个未处理的UserTask（BooksProcessedAt为null，或者now-value>=interval）的id
     /// </summary>
     public string DoubanBook_GetUndoneUserTask( TimeSpan? interval ) {
-      var tmp = doubanContext.UserTask.Where( i => i.BooksProcessedAt == null || ( interval.HasValue && ( DateTime.UtcNow - i.BooksProcessedAt.Value >= interval.Value ) ) )
+      var tmp = doubanContext.UserTask.Where( i => TimeHelper.IsOutOfInterval( i.BooksProcessedAt, interval ) )
         .FirstOrDefault();
       return tmp == null ? null : tmp.id;
     }
@@ -197,7 +198,7 @@ namespace Picker.Postgresql {
     /// 获取一个未处理的UserTask（TravelProcessedAt为null，或者now-value>=interval）的id
     /// </summary>
     public string DoubanTravel_GetUndoneUserTask( TimeSpan? interval ) {
-      var tmp = doubanContext.UserTask.Where( i => i.TravelProcessedAt == null || ( interval.HasValue && ( DateTime.UtcNow - i.TravelProcessedAt.Value >= interval.Value ) ) )
+      var tmp = doubanContext.UserTask.Where( i => TimeHelper.IsOutOfInterval(i.TravelProcessedAt, interval ) )
         .FirstOrDefault();
       return tmp == null ? null : tmp.id;
     }
@@ -205,20 +206,17 @@ namespace Picker.Postgresql {
 
     public bool Douban_UserTaskIsComplete( string uid, TimeSpan? interval ) {
       var tmp = doubanContext.UserTask.Where( i => i.uid == uid ).FirstOrDefault();
-      return ( interval == null && tmp.ProcessedAt != null ) ||
-        ( interval.HasValue && tmp.ProcessedAt.HasValue && ( DateTime.UtcNow - tmp.ProcessedAt.Value < interval.Value ) );
+      return TimeHelper.IsInInterval( tmp.ProcessedAt, interval );
     }
 
     public bool DoubanBook_UserTaskIsComplete( string uid, TimeSpan? interval ) {
       var tmp = doubanContext.UserTask.Where( i => i.uid == uid ).FirstOrDefault();
-      return ( interval == null && tmp.BooksProcessedAt != null ) ||
-        ( interval.HasValue && tmp.BooksProcessedAt.HasValue && ( DateTime.UtcNow - tmp.BooksProcessedAt.Value < interval.Value ) );
+      return TimeHelper.IsInInterval( tmp.BooksProcessedAt, interval );
     }
 
     public bool DoubanTravel_UserTaskIsComplete( string uid, TimeSpan? interval ) {
       var tmp = doubanContext.UserTask.Where( i => i.uid == uid ).FirstOrDefault();
-      return ( interval == null && tmp.TravelProcessedAt != null ) ||
-        ( interval.HasValue && tmp.TravelProcessedAt.HasValue && ( DateTime.UtcNow - tmp.TravelProcessedAt.Value < interval.Value ) );
+      return TimeHelper.IsInInterval( tmp.TravelProcessedAt, interval );
     }
 
 

@@ -35,7 +35,7 @@ namespace Picker.Core.Spider {
 
     // === 电影 ====
     /// <summary>
-    /// 正在热映，默认city=北京，count=50（无法更改）
+    /// 正在热映，默认city=北京，count=50（无法更改）。已测试，无法使用
     /// </summary>
     public const string Api_MovieNowPlaying = ApiPrefix_Movie + "nowplaying?start={0}&apikey={1}";
     /// <summary>
@@ -43,7 +43,7 @@ namespace Picker.Core.Spider {
     /// </summary>
     public const string Api_MovieTop250 = ApiPrefix_Movie + "top250?start={0}&apikey={1}";
     /// <summary>
-    /// 即将上映，默认每次查询20条
+    /// 即将上映，默认每次查询20条。已测试，无法使用
     /// </summary>
     public const string Api_MovieComming = ApiPrefix_Movie + "coming?start={0}&apikey={1}";
     public const string Api_MovieById = ApiPrefix_Movie + "subject/{0}?apikey={1}";
@@ -160,6 +160,18 @@ namespace Picker.Core.Spider {
     #endregion Travel
 
 
+    #region Movies
+
+    public async Task<Dictionary<string, JObject>> GetMovies_Top250( int start ) {
+      string uri = string.Format( Api_MovieTop250, start, AppKey );
+      string json = await client.DownloadStringTaskAsync( uri );
+      var obj = JObject.Parse( json );
+      return getItems( (JArray)obj["subjects"], "alt" );
+    }
+
+    #endregion Movies
+
+
     public async Task<JObject> GetUserInfo( string username ) {
       string uri = string.Format( Api_UserInfo, username, AppKey );
       string json = await client.DownloadStringTaskAsync( uri );
@@ -195,6 +207,35 @@ namespace Picker.Core.Spider {
       }
       return result;
     }
+
+
+    /// <summary>
+    /// data["count"]
+    /// </summary>
+    /// <param name="data"></param>
+    /// <returns></returns>
+    public int GetCount( JObject data ) {
+      return (int)data["count"];
+    }
+
+    /// <summary>
+    /// data["total"]
+    /// </summary>
+    /// <param name="data"></param>
+    /// <returns></returns>
+    public int GetTotal( JObject data ) {
+      return (int)data["total"];
+    }
+
+    /// <summary>
+    /// data["start"]
+    /// </summary>
+    /// <param name="data"></param>
+    /// <returns></returns>
+    public int GetStart( JObject data ) {
+      return (int)data["start"];
+    }
+
 
 
     /// <summary>

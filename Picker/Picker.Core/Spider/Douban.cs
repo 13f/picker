@@ -88,6 +88,36 @@ namespace Picker.Core.Spider {
         await StartBookTask( interval, loopWhenfinished );
     }
 
+    //public async Task StartBookTask( string api ) { }
+
+    /// <summary>
+    /// 暂时只能获取Top250
+    /// </summary>
+    /// <returns></returns>
+    public async Task StartMovieTask_Top250( bool updateIfExists ) {
+      string originalApiUri = Helpers.ApiHelper.GetApi( DoubanApi.Api_MovieTop250 );
+      bool hasMore = false;
+      int pageIndex = 0;
+      int CountPerPage = 20;
+      do {
+        int start = pageIndex * CountPerPage;
+        var items = await api.GetMovies_Top250( start );
+        if ( items != null && items.Count > 0 ) {
+          await store.Douban_SaveMovies( items, updateIfExists );
+          // save log
+          config.Save( Configuration.Key_Douban_Movie, originalApiUri, pageIndex );
+        }
+        // continue?
+        hasMore = ( items.Count >= CountPerPage );
+      } // do
+      while ( hasMore );
+
+      // 移除有关上一次访问API的记录
+      config.RemoveAccessLog( Configuration.Key_Douban_Movie );
+    }
+
+    //public async Task StartMusicTask() { }
+
     /// <summary>
     /// 初始化的时候可以使用"taurenshaman"作为startingUserId，或者UI上读取
     /// </summary>
@@ -136,15 +166,15 @@ namespace Picker.Core.Spider {
       do {
         pageIndex++;
         // 获取关注的人
-        var followers = await api.GetFollowers( id, pageIndex );
-        if ( followers != null && followers.Count > 0 ) {
+        var items = await api.GetFollowers( id, pageIndex );
+        if ( items != null && items.Count > 0 ) {
           // 给关注者新建用户任务
-          await store.Douban_SaveUserTasks( followers ); // var task2 =
+          await store.Douban_SaveUserTasks( items ); // var task2 =
           // save log
           config.Save( Configuration.Key_Douban_User, originalApiUri, pageIndex );
         }
         // continue?
-        hasMore = ( followers.Count >= DoubanApi.CountPerPage );
+        hasMore = ( items.Count >= DoubanApi.CountPerPage );
       } // do
       while ( hasMore );
 
@@ -157,19 +187,19 @@ namespace Picker.Core.Spider {
       string apiUri = String.Format( DoubanApi.Api_MyBookCollections, userId, 0, api.AppKey );
       string originalApiUri = Helpers.ApiHelper.GetApi( apiUri );
 
-      // 正常的用户抓取流程
+      // 正常的抓取流程
       int pageIndex = -1;
       bool hasMore = false;
       do {
         pageIndex++;
-        var books = await api.GetMyBookCollections( userId, pageIndex );
-        if ( books != null && books.Count > 0 ) {
-          await store.Douban_SaveBooks( books, updateIfExists );
+        var items = await api.GetMyBookCollections( userId, pageIndex );
+        if ( items != null && items.Count > 0 ) {
+          await store.Douban_SaveBooks( items, updateIfExists );
           // save log
           config.Save( Configuration.Key_Douban_Book, originalApiUri, pageIndex );
         }
         // continue?
-        hasMore = ( books.Count >= DoubanApi.CountPerPage );
+        hasMore = ( items.Count >= DoubanApi.CountPerPage );
       } // do
       while ( hasMore );
 
@@ -182,20 +212,20 @@ namespace Picker.Core.Spider {
       string apiUri = String.Format( DoubanApi.Api_MyTravelCollections, userId, 0, api.AppKey );
       string originalApiUri = Helpers.ApiHelper.GetApi( apiUri );
 
-      // 正常的用户抓取流程
+      // 正常的抓取流程
       int pageIndex = -1;
       bool hasMore = false;
       do {
         pageIndex++;
-        var places = await api.GetMyTravelCollections( userId, pageIndex );
-        if ( places != null && places.Count > 0 ) {
+        var items = await api.GetMyTravelCollections( userId, pageIndex );
+        if ( items != null && items.Count > 0 ) {
           // Api_TravelPlaceById 无法获取内容，所以直接保存collection中的数据
-          await store.Douban_SaveTravels( places, updateIfExists );
+          await store.Douban_SaveTravels( items, updateIfExists );
           // save log
           config.Save( Configuration.Key_Douban_Travel, originalApiUri, pageIndex );
         }
         // continue?
-        hasMore = ( places.Count >= DoubanApi.CountPerPage );
+        hasMore = ( items.Count >= DoubanApi.CountPerPage );
       } // do
       while ( hasMore );
 
