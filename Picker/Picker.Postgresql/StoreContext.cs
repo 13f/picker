@@ -73,6 +73,7 @@ namespace Picker.Postgresql {
       }
       else {
         item = new Book();
+        item.Uri = url;
         item.Content = data.ToString();
         item.CreatedAt = DateTime.UtcNow;
         item.UpdatedAt = DateTime.UtcNow;
@@ -112,6 +113,7 @@ namespace Picker.Postgresql {
       }
       else {
         item = new Movie();
+        item.Uri = url;
         item.Content = data.ToString();
         item.CreatedAt = DateTime.UtcNow;
         item.UpdatedAt = DateTime.UtcNow;
@@ -164,6 +166,7 @@ namespace Picker.Postgresql {
       }
       else {
         item = new Travel();
+        item.Uri = url;
         item.Content = data.ToString();
         item.CreatedAt = DateTime.UtcNow;
         item.UpdatedAt = DateTime.UtcNow;
