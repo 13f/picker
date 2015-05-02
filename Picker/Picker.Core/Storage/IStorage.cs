@@ -65,8 +65,8 @@ namespace Picker.Core.Storage {
     /// <summary>
     /// 增加UserTask，如果已经存在，什么也不做。
     /// </summary>
-    Task<int> Douban_SaveUserTask( string id, string uid, bool saveChanges );
-    Task<int> Douban_SaveUserTasks( List<Tuple<string, string, string>> data );
+    Task<int> Douban_SaveUserTask( string id, string uid, JObject obj, bool saveChanges );
+    Task<int> Douban_SaveUserTasks( List<Tuple<string, string, JObject>> data );
 
     /// <summary>
     /// 更新UserTask.ProcessedAt为当前时间

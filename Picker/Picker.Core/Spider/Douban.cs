@@ -50,7 +50,7 @@ namespace Picker.Core.Spider {
           jobjFirtTime = await api.GetUserInfo( uid );
           id = (string)jobjFirtTime["id"];
           // 新建用户任务
-          await store.Douban_SaveUserTask( id, uid, true );
+          await store.Douban_SaveUserTask( id, uid, jobjFirtTime, true );
         }
       }
 
