@@ -20,5 +20,6 @@ namespace Picker.Postgresql
         public Nullable<System.DateTimeOffset> CreatedAt { get; set; }
         public Nullable<System.DateTimeOffset> UpdatedAt { get; set; }
         public Nullable<System.DateTimeOffset> ProcessedAt { get; set; }
+        public string type { get; set; }
     }
 }

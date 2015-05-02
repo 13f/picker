@@ -19,5 +19,7 @@ namespace Picker.Postgresql
         public string uid { get; set; }
         public Nullable<System.DateTimeOffset> BooksProcessedAt { get; set; }
         public Nullable<System.DateTimeOffset> TravelProcessedAt { get; set; }
+        public string type { get; set; }
+        public string Content { get; set; }
     }
 }

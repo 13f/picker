@@ -10,6 +10,7 @@ CREATE TABLE "User"
   "CreatedAt" timestamp(6) with time zone,
   "UpdatedAt" timestamp(6) with time zone,
   "ProcessedAt" timestamp(6) with time zone,
+  type character varying(20),
   CONSTRAINT "PrimaryKey_User_id" PRIMARY KEY (id)
 )
 WITH (
