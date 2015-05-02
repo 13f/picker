@@ -4,10 +4,14 @@
         xmlns:i="http://schemas.microsoft.com/expression/2010/interactivity"
         xmlns:metro="http://metro.mahapps.com/winfx/xaml/controls"
         xmlns:metroBehaviours="clr-namespace:MahApps.Metro.Behaviours;assembly=MahApps.Metro"
+        xmlns:catel="http://catel.codeplex.com"
         Title="豆瓣" Height="600" Width="800" ResizeMode="CanMinimize" WindowStartupLocation="CenterOwner">
     <i:Interaction.Behaviors>
         <metroBehaviours:BorderlessWindowBehavior/>
     </i:Interaction.Behaviors>
+    <metro:MetroWindow.Resources>
+        <catel:BooleanToCollapsingVisibilityConverter x:Key="bool2visible" />
+    </metro:MetroWindow.Resources>
     
     <DockPanel>
         <ItemsControl ItemsSource="{Binding StatisticsInfo}" Width="200" DockPanel.Dock="Left">
@@ -28,9 +32,19 @@
         <TabControl>
             <TabItem Header="Setting">
                 <metro:MetroContentControl>
-                    <StackPanel Orientation="Horizontal" VerticalAlignment="Top" Margin="10">
-                        <TextBlock VerticalAlignment="Center">App key:</TextBlock>
-                        <TextBox Width="200" Height="30" Margin="10,0,0,0" Text="{Binding AppKey, Mode=TwoWay}" IsReadOnly="True"/>
+                    <StackPanel>
+                        <StackPanel Orientation="Horizontal" VerticalAlignment="Top" Margin="10">
+                            <TextBlock VerticalAlignment="Center">App key：</TextBlock>
+                            <TextBox Width="200" Height="30" Margin="10,0,0,0" Text="{Binding AppKey, Mode=TwoWay}" IsReadOnly="True"/>
+                        </StackPanel>
+                        <StackPanel Orientation="Horizontal" VerticalAlignment="Top" Margin="10">
+                            <CheckBox x:Name="checkAutoLoop" VerticalAlignment="Center" IsChecked="{Binding AutoLoop, Mode=TwoWay}">查询完成，自动继续</CheckBox>
+                            <StackPanel Orientation="Horizontal" Visibility="{Binding ElementName=checkAutoLoop, Path=IsChecked, Converter={StaticResource bool2visible}}">
+                                <TextBlock VerticalAlignment="Center" Margin="25,0,0,0">等待</TextBlock>
+                                <metro:NumericUpDown Value="{Binding AutoLoopInterval, Mode=TwoWay}" Minimum="5" Maximum="20" Margin="5,0,0,0"></metro:NumericUpDown>
+                                <TextBlock VerticalAlignment="Center" Margin="5,0,0,0">秒后，开始新一轮查询</TextBlock>
+                            </StackPanel>
+                        </StackPanel>
                     </StackPanel>
                 </metro:MetroContentControl>
             </TabItem>

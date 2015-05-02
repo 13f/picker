@@ -21,8 +21,13 @@ namespace Picker.ViewModels {
     IStorage store = null;
     DoubanApi api = null;
     Douban biz = null;
-
+    
     DispatcherTimer timer = null;
+    /// <summary>
+    /// AutoLoopInterval的毫秒数
+    /// </summary>
+    int auto_loop_in_miliseconds = 6000;
+    AsynchronousCommand cmdPick = null;
 
     #endregion
 
@@ -75,6 +80,35 @@ namespace Picker.ViewModels {
     /// Register the AppKey property so it is known in the class.
     /// </summary>
     public static readonly PropertyData AppKeyProperty = RegisterProperty( "AppKey", typeof( string ), "" );
+
+    /// <summary>
+    /// Gets or sets AutoLoop.
+    /// </summary>
+    public bool AutoLoop {
+      get { return GetValue<bool>( AutoLoopProperty ); }
+      set { SetValue( AutoLoopProperty, value ); }
+    }
+
+    /// <summary>
+    /// Register the AutoLoop property so it is known in the class.
+    /// </summary>
+    public static readonly PropertyData AutoLoopProperty = RegisterProperty( "AutoLoop", typeof( bool ), false );
+
+    /// <summary>
+    /// Gets or sets AutoLoopInterval. 单位：秒。
+    /// </summary>
+    public int AutoLoopInterval {
+      get { return GetValue<int>( AutoLoopIntervalProperty ); }
+      set {
+        SetValue( AutoLoopIntervalProperty, value );
+        auto_loop_in_miliseconds = value < 6 ? 6000 : value * 1000;
+      }
+    }
+
+    /// <summary>
+    /// Register the AutoLoopInterval property so it is known in the class.
+    /// </summary>
+    public static readonly PropertyData AutoLoopIntervalProperty = RegisterProperty( "AutoLoopInterval", typeof( int ), 6 );
 
     /// <summary>
     /// Gets or sets the StartingUserId.
@@ -140,14 +174,16 @@ namespace Picker.ViewModels {
     /// Method to invoke when the CmdPickUsers command is executed.
     /// </summary>
     private async void OnCmdPickUsersExecute() {
+      cmdPick = CmdPickUsers;
       IsPickingData = true;
       try {
         await biz.StartUserTask( null, StartingUserId, false );
-        //var task = biz.StartUserTask( null, StartingUserId, false );
       }
       finally {
         IsPickingData = false;
       }
+      // 是否自动继续
+      await autoLoop();
     }
 
     /// <summary>
@@ -167,6 +203,7 @@ namespace Picker.ViewModels {
     /// Method to invoke when the CmdPickBooks command is executed.
     /// </summary>
     private async void OnCmdPickBooksExecute() {
+      cmdPick = CmdPickBooks;
       IsPickingData = true;
       try {
         await biz.StartBookTask( null, false );
@@ -174,6 +211,8 @@ namespace Picker.ViewModels {
       finally {
         IsPickingData = false;
       }
+      // 是否自动继续
+      await autoLoop();
     }
 
     /// <summary>
@@ -193,6 +232,7 @@ namespace Picker.ViewModels {
     /// Method to invoke when the CmdPickMoviesTop250 command is executed.
     /// </summary>
     private async void OnCmdPickMoviesTop250Execute() {
+      cmdPick = CmdPickMoviesTop250;
       IsPickingData = true;
       try {
         await biz.StartMovieTask_Top250( false );
@@ -200,6 +240,8 @@ namespace Picker.ViewModels {
       finally {
         IsPickingData = false;
       }
+      // 是否自动继续
+      await autoLoop();
     }
 
     /// <summary>
@@ -219,6 +261,7 @@ namespace Picker.ViewModels {
     /// Method to invoke when the CmdPickTravel command is executed.
     /// </summary>
     private async void OnCmdPickTravelExecute() {
+      cmdPick = CmdPickTravel;
       IsPickingData = true;
       try {
         await biz.StartTravelTask( null, false );
@@ -226,6 +269,8 @@ namespace Picker.ViewModels {
       finally {
         IsPickingData = false;
       }
+      // 是否自动继续
+      await autoLoop();
     }
 
     #endregion
@@ -246,6 +291,13 @@ namespace Picker.ViewModels {
         StatisticsInfo.Clear();
       var data = store.LoadStatistics();
       StatisticsInfo = new ObservableCollection<StatisticsItem>( data );
+    }
+
+    async Task autoLoop() {
+      if ( cmdPick == null || !AutoLoop || !cmdPick.CanExecute() || cmdPick.IsExecuting )
+        return;
+      await Task.Delay( auto_loop_in_miliseconds );
+      cmdPick.Execute();
     }
 
     #endregion
