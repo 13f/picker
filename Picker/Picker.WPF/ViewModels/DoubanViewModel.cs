@@ -50,6 +50,7 @@ namespace Picker.ViewModels {
       CmdPickUsers = new AsynchronousCommand( OnCmdPickUsersExecute, OnOnCmdPickUsersCanExecute );
       CmdPickBooks = new AsynchronousCommand( OnCmdPickBooksExecute, OnCmdPickBooksCanExecute );
       CmdPickMoviesTop250 = new AsynchronousCommand( OnCmdPickMoviesTop250Execute, OnCmdPickMoviesTop250CanExecute );
+      CmdPickTravel = new AsynchronousCommand( OnCmdPickTravelExecute, OnCmdPickTravelCanExecute );
     }
 
     #endregion
@@ -95,9 +96,11 @@ namespace Picker.ViewModels {
       get { return GetValue<bool>( IsPickingDataProperty ); }
       set {
         SetValue( IsPickingDataProperty, value );
+        // raise commands
         CmdPickUsers.RaiseCanExecuteChanged();
         CmdPickBooks.RaiseCanExecuteChanged();
         CmdPickMoviesTop250.RaiseCanExecuteChanged();
+        CmdPickTravel.RaiseCanExecuteChanged();
       }
     }
 
@@ -193,6 +196,32 @@ namespace Picker.ViewModels {
       IsPickingData = true;
       try {
         await biz.StartMovieTask_Top250( false );
+      }
+      finally {
+        IsPickingData = false;
+      }
+    }
+
+    /// <summary>
+    /// Gets the CmdPickTravel command.
+    /// </summary>
+    public AsynchronousCommand CmdPickTravel { get; private set; }
+
+    /// <summary>
+    /// Method to check whether the CmdPickTravel command can be executed.
+    /// </summary>
+    /// <returns><c>true</c> if the command can be executed; otherwise <c>false</c></returns>
+    private bool OnCmdPickTravelCanExecute() {
+      return !IsPickingData;
+    }
+
+    /// <summary>
+    /// Method to invoke when the CmdPickTravel command is executed.
+    /// </summary>
+    private async void OnCmdPickTravelExecute() {
+      IsPickingData = true;
+      try {
+        await biz.StartTravelTask( null, false );
       }
       finally {
         IsPickingData = false;

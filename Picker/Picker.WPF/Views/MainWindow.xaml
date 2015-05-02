@@ -67,7 +67,7 @@
 
             <TabItem Header="Travel">
                 <metro:MetroContentControl>
-                    <TextBlock FontSize="30" VerticalAlignment="Center" HorizontalAlignment="Center">Travel: TO DO ...</TextBlock>
+                    <Button Width="150" Height="70" Content="抓取" Command="{Binding CmdPickTravel}"/>
                 </metro:MetroContentControl>
             </TabItem>
 
