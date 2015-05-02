@@ -195,7 +195,7 @@ namespace Picker.Core.Spider {
     /// <param name="username"></param>
     /// <param name="pageIndex"></param>
     /// <returns></returns>
-    public async Task<List<Tuple<string, string, string>>> GetFollowers( string username, int pageIndex ) {
+    public async Task<List<Tuple<string, string, string>>> GetFollowings( string username, int pageIndex ) {
       int start = pageIndex * CountPerPage;
       string uri = string.Format( Api_MyFollowing, username, start, AppKey );
       string json = await client.DownloadStringTaskAsync( uri );

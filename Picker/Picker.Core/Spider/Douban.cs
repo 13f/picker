@@ -57,8 +57,8 @@ namespace Picker.Core.Spider {
       // ==== 处理一个UserTask的流程 ====
       // user info
       await processUserInfo( id, jobjFirtTime, false );
-      // followers
-      await processFollowers( id );
+      // followings
+      await processFollowings( id );
       // update task
       await store.Douban_UpdateUserTask( id, true );
       
@@ -156,7 +156,7 @@ namespace Picker.Core.Spider {
       return 0;
     }
 
-    async Task processFollowers( string id ) {
+    async Task processFollowings( string id ) {
       // 获取原始的API地址
       string apiUri = String.Format( DoubanApi.Api_MyFollowing, id, 0, api.AppKey );
       string originalApiUri = Helpers.ApiHelper.GetApi( apiUri );
@@ -167,7 +167,7 @@ namespace Picker.Core.Spider {
       do {
         pageIndex++;
         // 获取关注的人
-        var items = await api.GetFollowers( id, pageIndex );
+        var items = await api.GetFollowings( id, pageIndex );
         if ( items != null && items.Count > 0 ) {
           // 给关注者新建用户任务
           await store.Douban_SaveUserTasks( items ); // var task2 =
