@@ -14,7 +14,7 @@
             <ItemsControl.ItemTemplate>
                 <DataTemplate>
                     <StackPanel Margin="5">
-                        <TextBlock Text="{Binding Title}" Margin="5"/>
+                        <TextBlock Text="{Binding Title}" Margin="5" FontSize="22" FontWeight="Bold" Foreground="LightBlue"/>
                         <StackPanel Orientation="Horizontal" Margin="5">
                             <TextBlock Text="{Binding ProcessedCount}" Margin="5,0,5,0"/>
                             <TextBlock Text="/" Margin="5,0,5,0"/>
