@@ -45,17 +45,25 @@
                                 <TextBlock VerticalAlignment="Center" Margin="5,0,0,0">秒后，开始新一轮查询</TextBlock>
                             </StackPanel>
                         </StackPanel>
+                        <TextBlock Foreground="Gray" TextWrapping="Wrap" Margin="20,1,5,5">提示：取消选择之后，完成当前查询便不再自动进行下一次。</TextBlock>
+
+                        <Expander Header="处理特定用户" IsExpanded="False">
+                            <StackPanel Margin="5">
+                                <StackPanel Orientation="Horizontal" VerticalAlignment="Top" Margin="10">
+                                    <TextBlock VerticalAlignment="Center">特定用户（user id）：</TextBlock>
+                                    <TextBox Width="200" Height="30" Margin="10,0,0,0" Text="{Binding SpecialUserId, Mode=TwoWay}"/>
+                                    <Button Width="150" Height="36" Margin="5" Content="抓取" Command="{Binding CmdPickSpecialUser}"/>
+                                </StackPanel>
+                                <TextBlock Foreground="Gray" TextWrapping="Wrap" Margin="5">逻辑：创建UserTask，获取UserInfo，获取Followings，获取Books，获取Travel，每次获取信息都会更新UserTask</TextBlock>
+                            </StackPanel>
+                        </Expander>
                     </StackPanel>
                 </metro:MetroContentControl>
             </TabItem>
 
             <TabItem Header="User">
                 <metro:MetroContentControl>
-                    <StackPanel>
-                        <StackPanel Orientation="Horizontal" VerticalAlignment="Top" Margin="10">
-                            <TextBlock VerticalAlignment="Center">初始用户（StartingUserId）：</TextBlock>
-                            <TextBox Width="200" Height="30" Margin="10,0,0,0" Text="{Binding StartingUserId, Mode=TwoWay}"/>
-                        </StackPanel>
+                    <StackPanel VerticalAlignment="Center">
                         <Button Width="150" Height="70" Content="抓取" Command="{Binding CmdPickUsers}"/>
                     </StackPanel>
                 </metro:MetroContentControl>

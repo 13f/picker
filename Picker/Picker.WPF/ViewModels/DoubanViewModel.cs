@@ -21,7 +21,7 @@ namespace Picker.ViewModels {
     IStorage store = null;
     DoubanApi api = null;
     Douban biz = null;
-    
+
     DispatcherTimer timer = null;
     /// <summary>
     /// AutoLoopInterval的毫秒数
@@ -56,6 +56,7 @@ namespace Picker.ViewModels {
       CmdPickBooks = new AsynchronousCommand( OnCmdPickBooksExecute, OnCmdPickBooksCanExecute );
       CmdPickMoviesTop250 = new AsynchronousCommand( OnCmdPickMoviesTop250Execute, OnCmdPickMoviesTop250CanExecute );
       CmdPickTravel = new AsynchronousCommand( OnCmdPickTravelExecute, OnCmdPickTravelCanExecute );
+      CmdPickSpecialUser = new AsynchronousCommand( OnCmdPickSpecialUserExecute, OnCmdPickSpecialUserCanExecute );
     }
 
     #endregion
@@ -111,17 +112,17 @@ namespace Picker.ViewModels {
     public static readonly PropertyData AutoLoopIntervalProperty = RegisterProperty( "AutoLoopInterval", typeof( int ), 6 );
 
     /// <summary>
-    /// Gets or sets the StartingUserId.
+    /// Gets or sets the SpecialUserId.
     /// </summary>
-    public string StartingUserId {
-      get { return GetValue<string>( StartingUserIdProperty ); }
-      set { SetValue( StartingUserIdProperty, value ); }
+    public string SpecialUserId {
+      get { return GetValue<string>( SpecialUserIdProperty ); }
+      set { SetValue( SpecialUserIdProperty, value ); }
     }
 
     /// <summary>
     /// Register the StartingUserId property so it is known in the class.
     /// </summary>
-    public static readonly PropertyData StartingUserIdProperty = RegisterProperty( "StartingUserId", typeof( string ), "" );
+    public static readonly PropertyData SpecialUserIdProperty = RegisterProperty( "StartingUserId", typeof( string ), "" );
 
     /// <summary>
     /// Gets or sets IsPickingUsers.
@@ -135,6 +136,7 @@ namespace Picker.ViewModels {
         CmdPickBooks.RaiseCanExecuteChanged();
         CmdPickMoviesTop250.RaiseCanExecuteChanged();
         CmdPickTravel.RaiseCanExecuteChanged();
+        CmdPickSpecialUser.RaiseCanExecuteChanged();
       }
     }
 
@@ -177,7 +179,7 @@ namespace Picker.ViewModels {
       cmdPick = CmdPickUsers;
       IsPickingData = true;
       try {
-        await biz.StartUserTask( null, StartingUserId, false );
+        await biz.StartUserTask( null, null, false );
       }
       finally {
         IsPickingData = false;
@@ -271,6 +273,36 @@ namespace Picker.ViewModels {
       }
       // 是否自动继续
       await autoLoop();
+    }
+
+    /// <summary>
+    /// Gets the CmdPickSpecialUser command.
+    /// </summary>
+    public AsynchronousCommand CmdPickSpecialUser { get; private set; }
+
+    /// <summary>
+    /// Method to check whether the CmdPickSpecialUser command can be executed.
+    /// </summary>
+    /// <returns><c>true</c> if the command can be executed; otherwise <c>false</c></returns>
+    private bool OnCmdPickSpecialUserCanExecute() {
+      return !IsPickingData;
+    }
+
+    /// <summary>
+    /// Method to invoke when the CmdPickSpecialUser command is executed.
+    /// </summary>
+    private async void OnCmdPickSpecialUserExecute() {
+      cmdPick = null;
+      IsPickingData = true;
+      try {
+        await biz.StartTask( null, SpecialUserId );
+      }
+      catch ( Exception ex ) {
+        // TODO: show MessageBox
+      }
+      finally {
+        IsPickingData = false;
+      }
     }
 
     #endregion

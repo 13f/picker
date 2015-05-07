@@ -140,6 +140,60 @@ namespace Picker.Core.Spider {
         await StartTravelTask( interval, loopWhenfinished );
     }
 
+    /// <summary>
+    /// 处理特定的豆瓣用户：创建UserTask，获取UserInfo，获取Followings，获取Books，获取Travel，每次获取信息都会更新UserTask
+    /// </summary>
+    /// <param name="userId"></param>
+    /// <returns></returns>
+    public async Task StartTask( TimeSpan? interval, string userId ) {
+      if ( string.IsNullOrWhiteSpace( userId ) )
+        throw new Exception( "UserId为空" );
+      
+      string id = null;
+      JObject data = null;
+      bool userInfoComplete = false,
+        booksComplete = false,
+        travelComplete = false;
+
+      bool exists = store.Douban_UserTaskExsits( userId );
+      if ( exists ) { // 任务存在，直接查询
+        userInfoComplete = store.Douban_UserTaskIsComplete( userId, interval );
+        booksComplete = store.DoubanBook_UserTaskIsComplete( userId, interval );
+        travelComplete = store.DoubanTravel_UserTaskIsComplete( userId, interval );
+        id = store.DoubanUserTask_GetIdByUid( userId );
+      }
+      else { // 任务不存在，生成一个
+        data = await api.GetUserInfo( userId );
+        id = (string)data["id"];
+        // 新建用户任务
+        await store.Douban_SaveUserTask( id, userId, data, true );
+      }
+
+      if ( userInfoComplete && booksComplete && travelComplete )
+        throw new Exception( "注意：该用户所有任务已经完成了一遍。" );
+
+      if ( !userInfoComplete ) {
+        // user info
+        await processUserInfo( id, data, false );
+        // followings
+        await processFollowings( id );
+        // update task
+        await store.Douban_UpdateUserTask( id, true );
+      }
+      if ( !booksComplete ) {
+        // process
+        await processBooks( id, false );
+        // update tag
+        await store.DoubanBook_UpdateUserTask( id, true );
+      }
+      if ( !travelComplete ) {
+        // process
+        await processTravel( id, false );
+        // update tag
+        await store.DoubanTravel_UpdateUserTask( id, true );
+      }
+    }
+
     #endregion Public Methods
 
 
