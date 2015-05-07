@@ -11,7 +11,7 @@ using Picker.Core.Storage;
 
 namespace Picker.Core.Spider {
   public class DoubanApi {
-    public const int CountPerPage = 10;
+    public const int CountPerPage = 20;
     public const string ApiPrefix = "https://api.douban.com/v2/";
     public const string ApiPrefix_Shuo = "https://api.douban.com/shuo/v2/";
     public const string ApiPrefix_Book = ApiPrefix + "book/";

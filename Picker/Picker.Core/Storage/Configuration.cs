@@ -16,6 +16,7 @@ namespace Picker.Core.Storage {
 
     public const string Key_LastApi = "last_api";
     public const string Key_LastPageIndex = "last_page_index";
+    public const string Key_LastUserID = "last_user_id";
     
     /// <summary>
     /// 系统配置文件的文件名
@@ -72,6 +73,24 @@ namespace Picker.Core.Storage {
       xe.SetElementValue( Key_LastPageIndex, lastPageIndex );
       Save();
     }
+
+
+    /// <summary>
+    /// 更新UserId并保存
+    /// </summary>
+    /// <param name="groupName"></param>
+    /// <param name="lastApi"></param>
+    /// <param name="lastPageIndex"></param>
+    public void SaveUserId( string groupName, string lastUserId ) {
+      XElement xe = xeRoot.Elements( "group" )
+        .Where( i => i.Attribute( "name" ) != null && i.Attribute( "name" ).Value == groupName )
+        .FirstOrDefault();
+      if ( xe == null )
+        return;
+      xe.SetElementValue( Key_LastUserID, lastUserId );
+      Save();
+    }
+
 
     /// <summary>
     /// 读取某个Element的值，不存在则返回null

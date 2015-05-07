@@ -106,7 +106,7 @@ namespace Picker.Core.Spider {
         if ( items != null && items.Count > 0 ) {
           await store.Douban_SaveMovies( items, updateIfExists );
           // save log
-          config.Save( Configuration.Key_Douban_Movie, originalApiUri, pageIndex );
+          config.Save( Configuration.Key_Douban_Movie, DoubanApi.Api_MovieTop250, pageIndex );
         }
         // continue?
         hasMore = ( items.Count >= CountPerPage );
@@ -226,7 +226,8 @@ namespace Picker.Core.Spider {
           // 给关注者新建用户任务
           await store.Douban_SaveUserTasks( items ); // var task2 =
           // save log
-          config.Save( Configuration.Key_Douban_User, originalApiUri, pageIndex );
+          config.Save( Configuration.Key_Douban_User, DoubanApi.Api_MyFollowing, pageIndex );
+          config.SaveUserId( Configuration.Key_Douban_User, id );
         }
         // continue?
         hasMore = ( items.Count >= DoubanApi.CountPerPage );
@@ -251,7 +252,8 @@ namespace Picker.Core.Spider {
         if ( items != null && items.Count > 0 ) {
           await store.Douban_SaveBooks( items, updateIfExists );
           // save log
-          config.Save( Configuration.Key_Douban_Book, originalApiUri, pageIndex );
+          config.Save( Configuration.Key_Douban_Book, DoubanApi.Api_MyBookCollections, pageIndex );
+          config.SaveUserId( Configuration.Key_Douban_User, userId );
         }
         // continue?
         hasMore = ( items.Count >= DoubanApi.CountPerPage );
@@ -277,7 +279,8 @@ namespace Picker.Core.Spider {
           // Api_TravelPlaceById 无法获取内容，所以直接保存collection中的数据
           await store.Douban_SaveTravels( items, updateIfExists );
           // save log
-          config.Save( Configuration.Key_Douban_Travel, originalApiUri, pageIndex );
+          config.Save( Configuration.Key_Douban_Travel, DoubanApi.Api_MyTravelCollections, pageIndex );
+          config.SaveUserId( Configuration.Key_Douban_User, userId );
         }
         // continue?
         hasMore = ( items.Count >= DoubanApi.CountPerPage );
