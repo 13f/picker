@@ -94,13 +94,11 @@ namespace Picker.Core.Spider {
     /// 暂时只能获取Top250
     /// </summary>
     /// <returns></returns>
-    public async Task StartMovieTask_Top250( bool updateIfExists ) {
-      string originalApiUri = Helpers.ApiHelper.GetApi( DoubanApi.Api_MovieTop250 );
+    public async Task StartMovieTask_Top250( bool updateIfExists, int defaultPageIndex = 0 ) {
       bool hasMore = false;
-      int pageIndex = -1;
+      int pageIndex = defaultPageIndex;
       int CountPerPage = 20;
       do {
-        pageIndex++;
         int start = pageIndex * CountPerPage;
         var items = await api.GetMovies_Top250( start );
         if ( items != null && items.Count > 0 ) {
@@ -110,6 +108,7 @@ namespace Picker.Core.Spider {
         }
         // continue?
         hasMore = ( items.Count >= CountPerPage );
+        pageIndex++;
       } // do
       while ( hasMore );
 
@@ -194,6 +193,30 @@ namespace Picker.Core.Spider {
       }
     }
 
+    /// <summary>
+    /// 继续上次的任务
+    /// </summary>
+    /// <param name="lastApi"></param>
+    /// <param name="lastPageIndex"></param>
+    /// <param name="lastUserId"></param>
+    /// <returns></returns>
+    public async Task ContinueLastTask( string lastApi, int lastPageIndex, string lastUserId ) {
+      switch ( lastApi ) {
+        case DoubanApi.Api_MyFollowing:
+          await processFollowings( lastUserId, lastPageIndex );
+          break;
+        case DoubanApi.Api_MyBookCollections:
+          await processBooks( lastUserId, false, lastPageIndex );
+          break;
+        case DoubanApi.Api_MyTravelCollections:
+          await processTravel( lastUserId, false, lastPageIndex );
+          break;
+        case DoubanApi.Api_MovieTop250:
+          await StartMovieTask_Top250( false, lastPageIndex );
+          break;
+      }
+    }
+
     #endregion Public Methods
 
 
@@ -210,16 +233,11 @@ namespace Picker.Core.Spider {
       return 0;
     }
 
-    async Task processFollowings( string id ) {
-      // 获取原始的API地址
-      string apiUri = String.Format( DoubanApi.Api_MyFollowing, id, 0, api.AppKey );
-      string originalApiUri = Helpers.ApiHelper.GetApi( apiUri );
-
+    async Task processFollowings( string id, int defaultPageIndex = 0 ) {
       // 正常的用户抓取流程
-      int pageIndex = -1;
+      int pageIndex = defaultPageIndex;
       bool hasMore = false;
       do {
-        pageIndex++;
         // 获取关注的人
         var items = await api.GetFollowings( id, pageIndex );
         if ( items != null && items.Count > 0 ) {
@@ -231,6 +249,7 @@ namespace Picker.Core.Spider {
         }
         // continue?
         hasMore = ( items.Count >= DoubanApi.CountPerPage );
+        pageIndex++;
       } // do
       while ( hasMore );
 
@@ -238,25 +257,21 @@ namespace Picker.Core.Spider {
       config.RemoveAccessLog( Configuration.Key_Douban_User );
     }
 
-    async Task processBooks( string userId, bool updateIfExists ) {
-      // 获取原始的API地址
-      string apiUri = String.Format( DoubanApi.Api_MyBookCollections, userId, 0, api.AppKey );
-      string originalApiUri = Helpers.ApiHelper.GetApi( apiUri );
-
+    async Task processBooks( string userId, bool updateIfExists, int defaultPageIndex = 0 ) {
       // 正常的抓取流程
-      int pageIndex = -1;
+      int pageIndex = defaultPageIndex;
       bool hasMore = false;
       do {
-        pageIndex++;
         var items = await api.GetMyBookCollections( userId, pageIndex );
         if ( items != null && items.Count > 0 ) {
           await store.Douban_SaveBooks( items, updateIfExists );
           // save log
           config.Save( Configuration.Key_Douban_Book, DoubanApi.Api_MyBookCollections, pageIndex );
-          config.SaveUserId( Configuration.Key_Douban_User, userId );
+          config.SaveUserId( Configuration.Key_Douban_Book, userId );
         }
         // continue?
         hasMore = ( items.Count >= DoubanApi.CountPerPage );
+        pageIndex++;
       } // do
       while ( hasMore );
 
@@ -264,26 +279,23 @@ namespace Picker.Core.Spider {
       config.RemoveAccessLog( Configuration.Key_Douban_Book );
     }
 
-    async Task processTravel( string userId, bool updateIfExists ) {
-      // 获取原始的API地址
-      string apiUri = String.Format( DoubanApi.Api_MyTravelCollections, userId, 0, api.AppKey );
-      string originalApiUri = Helpers.ApiHelper.GetApi( apiUri );
-
+    async Task processTravel( string userId, bool updateIfExists, int defaultPageIndex = 0 ) {
       // 正常的抓取流程
-      int pageIndex = -1;
+      int pageIndex = defaultPageIndex;
       bool hasMore = false;
       do {
-        pageIndex++;
+        
         var items = await api.GetMyTravelCollections( userId, pageIndex );
         if ( items != null && items.Count > 0 ) {
           // Api_TravelPlaceById 无法获取内容，所以直接保存collection中的数据
           await store.Douban_SaveTravels( items, updateIfExists );
           // save log
           config.Save( Configuration.Key_Douban_Travel, DoubanApi.Api_MyTravelCollections, pageIndex );
-          config.SaveUserId( Configuration.Key_Douban_User, userId );
+          config.SaveUserId( Configuration.Key_Douban_Travel, userId );
         }
         // continue?
         hasMore = ( items.Count >= DoubanApi.CountPerPage );
+        pageIndex++;
       } // do
       while ( hasMore );
 

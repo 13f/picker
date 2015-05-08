@@ -29,6 +29,8 @@ namespace Picker.ViewModels {
     int auto_loop_in_miliseconds = 6000;
     AsynchronousCommand cmdPick = null;
 
+    bool firstTime = true;
+
     #endregion
 
 
@@ -312,6 +314,15 @@ namespace Picker.ViewModels {
 
     void timer_Tick( object sender, EventArgs e ) {
       refreshStatistics();
+      // 刚开始运行
+      // 目的：先让UI上显示出统计数据，再执行上一次的查询
+      if ( firstTime ) {
+        firstTime = false;
+        // 是否继续上一次的查询
+        Task.Factory.StartNew( () => {
+          continueLastPicking();
+        } );
+      }
     }
 
     void refreshStatistics() {
@@ -330,6 +341,46 @@ namespace Picker.ViewModels {
         return;
       await Task.Delay( auto_loop_in_miliseconds );
       cmdPick.Execute();
+    }
+
+    /// <summary>
+    /// 是否继续上一次的查询。一次性的，不会进入循环模式。
+    /// </summary>
+    async Task continueLastPicking() {
+      string group = null;
+      if ( config.HasChildren( Configuration.Key_Douban_Book ) )
+        group = Configuration.Key_Douban_Book;
+      else if ( config.HasChildren( Configuration.Key_Douban_Movie ) )
+        group = Configuration.Key_Douban_Movie;
+      else if ( config.HasChildren( Configuration.Key_Douban_Music ) )
+        group = Configuration.Key_Douban_Music;
+      else if ( config.HasChildren( Configuration.Key_Douban_Travel ) )
+        group = Configuration.Key_Douban_Travel;
+      else if ( config.HasChildren( Configuration.Key_Douban_User ) )
+        group = Configuration.Key_Douban_User;
+      
+      if ( string.IsNullOrWhiteSpace( group ) )
+        return;
+      
+      string lastApi = config.ReadElementValue( group, Configuration.Key_LastApi );
+      string lastPageIndexString = config.ReadElementValue( group, Configuration.Key_LastPageIndex );
+      string lastUserId = config.ReadElementValue( group, Configuration.Key_LastUserID );
+      
+      int lastPageIndex = 0;
+      int.TryParse( lastPageIndexString, out lastPageIndex );
+      if ( lastPageIndex < 0 )
+        lastPageIndex = 0;
+
+      IsPickingData = true;
+      try {
+        await biz.ContinueLastTask( lastApi, lastPageIndex, lastUserId );
+      }
+      catch ( Exception ex ) {
+        // TODO: show MessageBox
+      }
+      finally {
+        IsPickingData = false;
+      }
     }
 
     #endregion

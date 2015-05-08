@@ -108,6 +108,13 @@ namespace Picker.Core.Storage {
       return ele == null ? null : ele.Value;
     }
 
+    public bool HasChildren( string groupName ) {
+      XElement xe = xeRoot.Elements( "group" )
+        .Where( i => i.Attribute( "name" ) != null && i.Attribute( "name" ).Value == groupName )
+        .FirstOrDefault();
+      return xe == null ? false : xe.HasElements;
+    }
+
     /// <summary>
     /// 移除有关LastApi和LastPageIndex的记录
     /// </summary>
@@ -120,6 +127,7 @@ namespace Picker.Core.Storage {
         return;
       xe.SetElementValue( Key_LastApi, null );
       xe.SetElementValue( Key_LastPageIndex, null );
+      xe.SetElementValue( Key_LastUserID, null );
       Save();
     }
 
