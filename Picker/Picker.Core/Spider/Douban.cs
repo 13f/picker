@@ -59,7 +59,7 @@ namespace Picker.Core.Spider {
       await processUserInfo( id, jobjFirtTime, false );
       // followings
       await processFollowings( id );
-      // update task
+      // update tag
       await store.Douban_UpdateUserTask( id, true );
       
       // confinue?
@@ -204,12 +204,18 @@ namespace Picker.Core.Spider {
       switch ( lastApi ) {
         case DoubanApi.Api_MyFollowing:
           await processFollowings( lastUserId, lastPageIndex );
+          // update tag
+          await store.Douban_UpdateUserTask( lastUserId, true );
           break;
         case DoubanApi.Api_MyBookCollections:
           await processBooks( lastUserId, false, lastPageIndex );
+          // update tag
+          await store.DoubanBook_UpdateUserTask( lastUserId, true );
           break;
         case DoubanApi.Api_MyTravelCollections:
           await processTravel( lastUserId, false, lastPageIndex );
+          // update tag
+          await store.DoubanTravel_UpdateUserTask( lastUserId, true );
           break;
         case DoubanApi.Api_MovieTop250:
           await StartMovieTask_Top250( false, lastPageIndex );
