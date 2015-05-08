@@ -11,9 +11,11 @@ using Picker.Postgresql;
 namespace ConsoleApp {
   class Program {
     static void Main( string[] args ) {
-      // test1(); // 0k @ 2015-3-29
-      // test2(); // 0k @ 2015-3-29
-      test3();
+      // test1(); // ok @ 2015-3-29
+      // test2(); // ok @ 2015-3-29
+      // test3();
+      // Food911cha.PickItems(); // ok @ 2015-5-8
+      Food911cha.PickItemsData();
     }
 
     ///// <summary>
@@ -38,20 +40,20 @@ namespace ConsoleApp {
     //  Console.ReadKey();
     //}
 
-    static void test3() {
-      string executablePath = System.Reflection.Assembly.GetEntryAssembly().Location;
-      string executableFolder = System.IO.Path.GetDirectoryName( executablePath );
-      var config = new Configuration( executableFolder );
+    //static void test3() {
+    //  string executablePath = System.Reflection.Assembly.GetEntryAssembly().Location;
+    //  string executableFolder = System.IO.Path.GetDirectoryName( executablePath );
+    //  var config = new Configuration( executableFolder );
 
-      //var store = new StoreContext( "name=Douban" );
-      var store = new StoreContext( "metadata=res://*/DoubanModel.csdl|res://*/DoubanModel.ssdl|res://*/DoubanModel.msl;provider=Npgsql;provider connection string=&quot;PORT=5432;TIMEOUT=15;POOLING=True;MINPOOLSIZE=1;MAXPOOLSIZE=20;COMMANDTIMEOUT=20;COMPATIBLE=2.2.5.0;HOST=localhost;DATABASE=douban;USER ID=postgres;PASSWORD=whosyourdaddy&quot;" );
-      var api = new DoubanApi( "" );
-      var biz = new Douban( api, store, config );
+    //  //var store = new StoreContext( "name=Douban" );
+    //  var store = new StoreContext( "metadata=res://*/DoubanModel.csdl|res://*/DoubanModel.ssdl|res://*/DoubanModel.msl;provider=Npgsql;provider connection string=&quot;PORT=5432;TIMEOUT=15;POOLING=True;MINPOOLSIZE=1;MAXPOOLSIZE=20;COMMANDTIMEOUT=20;COMPATIBLE=2.2.5.0;HOST=localhost;DATABASE=douban;USER ID=postgres;PASSWORD=whosyourdaddy&quot;" );
+    //  var api = new DoubanApi( "" );
+    //  var biz = new Douban( api, store, config );
 
-      var task = biz.StartUserTask( false );
-      Task.WaitAll( task );
-      Console.ReadKey();
-    }
+    //  var task = biz.StartUserTask( false );
+    //  Task.WaitAll( task );
+    //  Console.ReadKey();
+    //}
 
   }
 
