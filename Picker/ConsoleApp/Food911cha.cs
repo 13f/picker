@@ -14,9 +14,7 @@ namespace ConsoleApp {
 
     public static void PickItems() {
       string itemUrlPrefix = "http://yingyang.911cha.com/";
-      WebClient client = new WebClient();
-      client.Encoding = System.Text.Encoding.UTF8;
-      client.UseDefaultCredentials = true;
+      WebClient client = Picker.Core.Helpers.NetHelper.GetWebClient_UTF8();
 
       string configFile = @"G:\GitHub\picker\data\food\food.xml";
       XElement xeRoot = XElement.Load( configFile );
@@ -35,9 +33,7 @@ namespace ConsoleApp {
     }
 
     public static void PickItemsData() {
-      WebClient client = new WebClient();
-      client.Encoding = System.Text.Encoding.UTF8;
-      client.UseDefaultCredentials = true;
+      WebClient client = Picker.Core.Helpers.NetHelper.GetWebClient_UTF8();
 
       string configFile = @"G:\GitHub\picker\data\food\food.xml";
       XElement xeRoot = XElement.Load( configFile );
