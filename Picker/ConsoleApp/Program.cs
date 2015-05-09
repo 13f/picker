@@ -15,7 +15,8 @@ namespace ConsoleApp {
       // test2(); // ok @ 2015-3-29
       // test3();
       // Food911cha.PickItems(); // ok @ 2015-5-8
-      Food911cha.PickItemsData();
+      // Food911cha.PickItemsData(); // ok @ 2015-5-8
+      PeopleComCN.PickMedicineOrgs();
     }
 
     ///// <summary>
