@@ -44,6 +44,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Helpers\ApiHelper.cs" />
+    <Compile Include="Helpers\NetHelper.cs" />
     <Compile Include="Helpers\TimeHelper.cs" />
     <Compile Include="Models\StatisticsItem.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
