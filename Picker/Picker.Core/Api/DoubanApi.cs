@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Net;
 using System.Text;
+using System.Text.RegularExpressions;
 using System.Threading.Tasks;
 using Newtonsoft;
 using Newtonsoft.Json;
@@ -18,7 +19,8 @@ namespace Picker.Core.Spider {
     public const string ApiPrefix_Movie = ApiPrefix + "movie/";
     public const string ApiPrefix_Music = ApiPrefix + "music/";
     public const string ApiPrefix_Travel = ApiPrefix + "travel/";
-    const string UriPrefix_Book_Subject = "http://book.douban.com/subject/";
+    public const string UriPrefix_Book_Subject = "http://book.douban.com/subject/";
+    public const string UriPrefix_Movie_Subject = "http://movie.douban.com/subject/";
 
     // === 用户 ====
     public const string Api_UserInfo = ApiPrefix + "user/{0}?apikey={1}";
@@ -129,6 +131,18 @@ namespace Picker.Core.Spider {
       return (string)book["alt"];
     }
 
+    /// <summary>
+    /// 通过网址获取ID
+    /// </summary>
+    /// <param name="subjectUrl"></param>
+    /// <returns></returns>
+    public string GetBookId( string subjectUrl ) {
+      if ( string.IsNullOrWhiteSpace( subjectUrl ) || !subjectUrl.StartsWith( DoubanApi.UriPrefix_Book_Subject ) )
+        return null;
+      return subjectUrl.Replace( DoubanApi.UriPrefix_Book_Subject, "" )
+        .Replace( "/", "" ); // 网址最后可能是/符号
+    }
+
     #endregion book
 
 
@@ -169,6 +183,29 @@ namespace Picker.Core.Spider {
       return getItems( (JArray)obj["subjects"], "alt" );
     }
 
+    /// <summary>
+    /// movieApi + id（在豆瓣的ID）
+    /// </summary>
+    /// <param name="username"></param>
+    public async Task<JObject> GetMovieById( string id ) {
+      string uri = string.Format( Api_MovieById, id, AppKey );
+      string json = await client.DownloadStringTaskAsync( uri );
+      var obj = JObject.Parse( json );
+      return obj;
+    }
+
+    /// <summary>
+    /// 通过网址获取ID
+    /// </summary>
+    /// <param name="subjectUrl"></param>
+    /// <returns></returns>
+    public string GetMovieId( string subjectUrl ) {
+      if ( string.IsNullOrWhiteSpace( subjectUrl ) || !subjectUrl.StartsWith( DoubanApi.UriPrefix_Movie_Subject ) )
+        return null;
+      return subjectUrl.Replace( DoubanApi.UriPrefix_Movie_Subject, "" )
+        .Replace( "/", "" ); // 网址最后可能是/符号
+    }
+
     #endregion Movies
 
 
@@ -204,6 +241,38 @@ namespace Picker.Core.Spider {
       foreach ( var obj in array ) {
         var t = Tuple.Create( (string)obj["id"], (string)obj["uid"], (JObject)obj );
         result.Add( t );
+      }
+      return result;
+    }
+
+
+    /// <summary>
+    /// 获取一个页面中的所有条目。目前只支持Book和Movie。
+    /// </summary>
+    /// <param name="pageUrl"></param>
+    /// <param name="start"></param>
+    /// <returns></returns>
+    public async Task<Dictionary<string, JObject>> GetItemsOfPage( string pageUrl, int start ) {
+      Dictionary<string, JObject> result = new Dictionary<string, JObject>();
+      string uri = string.Format( pageUrl + "?start={0}&apikey={1}", start, AppKey );
+      string html = await client.DownloadStringTaskAsync( uri );
+      var links = getSubjectsLinks( html );
+      foreach ( string link in links ) {
+        JObject data = null;
+        if ( link.StartsWith( DoubanApi.UriPrefix_Book_Subject ) ) {
+          string id = id = GetBookId( link );
+          if ( string.IsNullOrWhiteSpace( id ) )
+            continue;
+          data = await GetBookById( id );
+        }
+        else if ( link.StartsWith( DoubanApi.UriPrefix_Movie_Subject ) ) {
+          string id = GetMovieId( link );
+          if ( string.IsNullOrWhiteSpace( id ) )
+            continue;
+          data = await GetMovieById( id );
+        }
+        if ( data != null )
+          result.Add( link, data );
       }
       return result;
     }
@@ -268,6 +337,21 @@ namespace Picker.Core.Spider {
           // book.alt = "http://book.douban.com/subject/3011518/" = UriPrefix_Book_Subject + book.id
           result.Add( (string)obj[keyPropertyName], obj );
         }
+      }
+      return result;
+    }
+
+    /// <summary>
+    /// 解析出HTML中的所有条目链接
+    /// </summary>
+    /// <param name="html"></param>
+    /// <returns></returns>
+    List<string> getSubjectsLinks( string html ) {
+      List<string> result = new List<string>();
+      Regex regex = new Regex( @"http://(book|movie)\.douban\.com/subject/\d+/", RegexOptions.IgnoreCase );
+      var matches = regex.Matches( html );
+      foreach ( Match m in matches ) {
+        result.Add( m.Value );
       }
       return result;
     }

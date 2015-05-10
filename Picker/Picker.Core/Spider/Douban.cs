@@ -200,7 +200,12 @@ namespace Picker.Core.Spider {
     /// <param name="lastPageIndex"></param>
     /// <param name="lastUserId"></param>
     /// <returns></returns>
-    public async Task ContinueLastTask( string lastApi, int lastPageIndex, string lastUserId ) {
+    public async Task ContinueLastTask( string group, string lastApi, int lastPageIndex, string lastUserId, int countPerPage ) {
+      if ( lastApi == null && !string.IsNullOrWhiteSpace( group ) ) { // douban page, not api
+        await PickItemsOfPage( lastApi, countPerPage, false, lastPageIndex );
+        return;
+      }
+
       switch ( lastApi ) {
         case DoubanApi.Api_MyFollowing:
           await processFollowings( lastUserId, lastPageIndex );
@@ -221,6 +226,72 @@ namespace Picker.Core.Spider {
           await StartMovieTask_Top250( false, lastPageIndex );
           break;
       }
+    }
+
+    /// <summary>
+    /// 根据条目链接获取条目
+    /// </summary>
+    /// <param name="subjectUrl"></param>
+    /// <param name="updateIfExists"></param>
+    /// <returns></returns>
+    public async Task PickOneItem( string subjectUrl, bool updateIfExists ) {
+      if ( string.IsNullOrWhiteSpace( subjectUrl ) )
+        return;
+      string id = null;
+      if ( subjectUrl.StartsWith( DoubanApi.UriPrefix_Book_Subject ) ) {
+        id = api.GetBookId( subjectUrl );
+        if ( string.IsNullOrWhiteSpace( id ) )
+          return;
+        var item = await api.GetBookById( id );
+        await store.Douban_SaveBook( subjectUrl, item, updateIfExists, true );
+      }
+      else if ( subjectUrl.StartsWith( DoubanApi.UriPrefix_Movie_Subject ) ) {
+        id = api.GetMovieId( subjectUrl );
+        if ( string.IsNullOrWhiteSpace( id ) )
+          return;
+        var item = await api.GetMovieById( id );
+        await store.Douban_SaveMovie( subjectUrl, item, updateIfExists, true );
+      }
+      
+    }
+
+    /// <summary>
+    /// 抓取一个页面的所有条目
+    /// </summary>
+    /// <param name="pageUrl"></param>
+    /// <param name="countPerPage"></param>
+    /// <param name="updateIfExists"></param>
+    /// <param name="defaultPageIndex"></param>
+    /// <returns></returns>
+    public async Task PickItemsOfPage( string pageUrl, int countPerPage, bool updateIfExists, int defaultPageIndex = 0 ) {
+      if ( countPerPage < 0 )
+        countPerPage = DoubanApi.CountPerPage;
+      int pageIndex = defaultPageIndex;
+      bool hasMore = false;
+      do {
+        var items = await api.GetItemsOfPage( pageUrl, pageIndex );
+        if ( items != null && items.Count > 0 ) {
+          foreach ( var item in items ) {
+            if ( item.Key.StartsWith( DoubanApi.UriPrefix_Book_Subject ) ) {
+              await store.Douban_SaveBook( item.Key, item.Value, updateIfExists, false );
+            }
+            else if ( item.Key.StartsWith( DoubanApi.UriPrefix_Movie_Subject ) ) {
+              await store.Douban_SaveMovie( item.Key, item.Value, updateIfExists, false );
+            }
+          }
+          // 遍历完成再保存
+          await store.SaveChanges();
+          // save log
+          config.Save( Configuration.Key_Douban_Page, pageUrl, pageIndex );
+        }
+        // continue?
+        hasMore = ( items.Count >= countPerPage );
+        pageIndex++;
+      } // do
+      while ( hasMore );
+
+      // 移除有关上一次访问API的记录
+      config.RemoveAccessLog( Configuration.Key_Douban_Page );
     }
 
     #endregion Public Methods

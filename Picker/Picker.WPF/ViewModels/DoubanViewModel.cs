@@ -59,6 +59,8 @@ namespace Picker.ViewModels {
       CmdPickMoviesTop250 = new AsynchronousCommand( OnCmdPickMoviesTop250Execute, OnCmdPickMoviesTop250CanExecute );
       CmdPickTravel = new AsynchronousCommand( OnCmdPickTravelExecute, OnCmdPickTravelCanExecute );
       CmdPickSpecialUser = new AsynchronousCommand( OnCmdPickSpecialUserExecute, OnCmdPickSpecialUserCanExecute );
+      CmdPickItemsOfPage = new AsynchronousCommand( OnCmdPickItemsOfPageExecute, OnCmdPickItemsOfPageCanExecute );
+      CmdPickOneItem = new AsynchronousCommand( OnCmdPickOneItemExecute, OnCmdPickOneItemCanExecute );
     }
 
     #endregion
@@ -127,6 +129,45 @@ namespace Picker.ViewModels {
     public static readonly PropertyData SpecialUserIdProperty = RegisterProperty( "StartingUserId", typeof( string ), "" );
 
     /// <summary>
+    /// Gets or sets SeriePage.
+    /// </summary>
+    public string SeriePage {
+      get { return GetValue<string>( SeriePageProperty ); }
+      set { SetValue( SeriePageProperty, value ); }
+    }
+
+    /// <summary>
+    /// Register the SeriePage property so it is known in the class.
+    /// </summary>
+    public static readonly PropertyData SeriePageProperty = RegisterProperty( "SeriePage", typeof( string ), null );
+
+    /// <summary>
+    /// Gets or sets CountPerSeriePage.
+    /// </summary>
+    public int CountPerSeriePage {
+      get { return GetValue<int>( CountPerSeriePageProperty ); }
+      set { SetValue( CountPerSeriePageProperty, value ); }
+    }
+
+    /// <summary>
+    /// Register the CountPerSeriePage property so it is known in the class.
+    /// </summary>
+    public static readonly PropertyData CountPerSeriePageProperty = RegisterProperty( "CountPerSeriePage", typeof( int ), 25 );
+
+    /// <summary>
+    /// Gets or sets SubjectUrl.
+    /// </summary>
+    public string SubjectUrl {
+      get { return GetValue<string>( SubjectUrlProperty ); }
+      set { SetValue( SubjectUrlProperty, value ); }
+    }
+
+    /// <summary>
+    /// Register the SubjectUrl property so it is known in the class.
+    /// </summary>
+    public static readonly PropertyData SubjectUrlProperty = RegisterProperty( "SubjectUrl", typeof( string ), null );
+
+    /// <summary>
     /// Gets or sets IsPickingUsers.
     /// </summary>
     public bool IsPickingData {
@@ -134,11 +175,7 @@ namespace Picker.ViewModels {
       set {
         SetValue( IsPickingDataProperty, value );
         // raise commands
-        CmdPickUsers.RaiseCanExecuteChanged();
-        CmdPickBooks.RaiseCanExecuteChanged();
-        CmdPickMoviesTop250.RaiseCanExecuteChanged();
-        CmdPickTravel.RaiseCanExecuteChanged();
-        CmdPickSpecialUser.RaiseCanExecuteChanged();
+        raiseCommandsCanExecute();
       }
     }
 
@@ -307,10 +344,80 @@ namespace Picker.ViewModels {
       }
     }
 
+    /// <summary>
+    /// Gets the CmdPickItemsOfPage command.
+    /// </summary>
+    public AsynchronousCommand CmdPickItemsOfPage { get; private set; }
+
+    /// <summary>
+    /// Method to check whether the CmdPickItemsOfPage command can be executed.
+    /// </summary>
+    /// <returns><c>true</c> if the command can be executed; otherwise <c>false</c></returns>
+    private bool OnCmdPickItemsOfPageCanExecute() {
+      return !IsPickingData;
+    }
+
+    /// <summary>
+    /// Method to invoke when the CmdPickItemsOfPage command is executed.
+    /// </summary>
+    private async void OnCmdPickItemsOfPageExecute() {
+      cmdPick = null;
+      IsPickingData = true;
+      try {
+        await biz.PickItemsOfPage( SeriePage, CountPerSeriePage, false );
+      }
+      catch ( Exception ex ) {
+        // TODO: show MessageBox
+      }
+      finally {
+        IsPickingData = false;
+      }
+    }
+
+    /// <summary>
+    /// Gets the PickOneItem command.
+    /// </summary>
+    public AsynchronousCommand CmdPickOneItem { get; private set; }
+
+    /// <summary>
+    /// Method to check whether the PickOneItem command can be executed.
+    /// </summary>
+    /// <returns><c>true</c> if the command can be executed; otherwise <c>false</c></returns>
+    private bool OnCmdPickOneItemCanExecute() {
+      return !IsPickingData;
+    }
+
+    /// <summary>
+    /// Method to invoke when the PickOneItem command is executed.
+    /// </summary>
+    private async void OnCmdPickOneItemExecute() {
+      cmdPick = null;
+      IsPickingData = true;
+      try {
+        await biz.PickOneItem( SubjectUrl, false );
+      }
+      catch ( Exception ex ) {
+        // TODO: show MessageBox
+      }
+      finally {
+        IsPickingData = false;
+      }
+    }
+
     #endregion
 
 
     #region Methods
+
+    void raiseCommandsCanExecute() {
+      CmdPickUsers.RaiseCanExecuteChanged();
+      CmdPickBooks.RaiseCanExecuteChanged();
+      CmdPickMoviesTop250.RaiseCanExecuteChanged();
+      CmdPickTravel.RaiseCanExecuteChanged();
+      CmdPickSpecialUser.RaiseCanExecuteChanged();
+      CmdPickItemsOfPage.RaiseCanExecuteChanged();
+      CmdPickOneItem.RaiseCanExecuteChanged();
+    }
 
     void timer_Tick( object sender, EventArgs e ) {
       refreshStatistics();
@@ -358,22 +465,30 @@ namespace Picker.ViewModels {
         group = Configuration.Key_Douban_Travel;
       else if ( config.HasChildren( Configuration.Key_Douban_User ) )
         group = Configuration.Key_Douban_User;
-      
+      else if ( config.HasChildren( Configuration.Key_Douban_Page ) )
+        group = Configuration.Key_Douban_Page;
+
       if ( string.IsNullOrWhiteSpace( group ) )
         return;
-      
+
       string lastApi = config.ReadElementValue( group, Configuration.Key_LastApi );
       string lastPageIndexString = config.ReadElementValue( group, Configuration.Key_LastPageIndex );
       string lastUserId = config.ReadElementValue( group, Configuration.Key_LastUserID );
-      
+      string countPerPageString = config.ReadElementValue( group, Configuration.Key_CountPerPage );
+
       int lastPageIndex = 0;
       int.TryParse( lastPageIndexString, out lastPageIndex );
       if ( lastPageIndex < 0 )
         lastPageIndex = 0;
 
+      int countPerPage = 0;
+      int.TryParse( countPerPageString, out countPerPage );
+      if ( countPerPage > 0 )
+        CountPerSeriePage = countPerPage;
+
       IsPickingData = true;
       try {
-        await biz.ContinueLastTask( lastApi, lastPageIndex, lastUserId );
+        await biz.ContinueLastTask( group, lastApi, lastPageIndex, lastUserId, CountPerSeriePage );
       }
       catch ( Exception ex ) {
         // TODO: show MessageBox

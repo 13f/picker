@@ -13,10 +13,12 @@ namespace Picker.Core.Storage {
     public const string Key_Douban_Movie = "douban_movie";
     public const string Key_Douban_Music = "douban_music";
     public const string Key_Douban_Travel = "douban_travel";
+    public const string Key_Douban_Page = "douban_page";
 
     public const string Key_LastApi = "last_api";
     public const string Key_LastPageIndex = "last_page_index";
     public const string Key_LastUserID = "last_user_id";
+    public const string Key_CountPerPage = "count_per_page";
     
     /// <summary>
     /// 系统配置文件的文件名
