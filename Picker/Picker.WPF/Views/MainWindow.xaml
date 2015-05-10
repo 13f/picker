@@ -28,9 +28,11 @@
                 </DataTemplate>
             </ItemsControl.ItemTemplate>
         </ItemsControl>
+
+        <Grid DockPanel.Dock="Left" Margin="5" Width="1" Background="LightBlue"></Grid>
         
         <TabControl>
-            <TabItem Header="Setting">
+            <TabItem Header="Start">
                 <metro:MetroContentControl>
                     <StackPanel>
                         <StackPanel Orientation="Horizontal" VerticalAlignment="Top" Margin="10">
