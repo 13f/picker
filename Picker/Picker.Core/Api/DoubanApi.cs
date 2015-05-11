@@ -250,13 +250,9 @@ namespace Picker.Core.Spider {
     /// <param name="pageUrl"></param>
     /// <param name="start"></param>
     /// <returns></returns>
-    public async Task<Dictionary<string, JObject>> GetItemsOfPage( string pageUrl, int pageIndex, int countPerPage = CountPerPage ) {
-      int start = pageIndex * countPerPage;
+    public async Task<Dictionary<string, JObject>> GetItemsOfPage( string pageHtml ) {
       Dictionary<string, JObject> result = new Dictionary<string, JObject>();
-
-      string uri = string.Format( pageUrl + "?start={0}&apikey={1}", start, AppKey );
-      string html = await client.DownloadStringTaskAsync( uri );
-      var links = getSubjectsLinks( html );
+      var links = getSubjectsLinks( pageHtml );
       foreach ( string link in links ) {
         JObject data = null;
         if ( link.StartsWith( DoubanApi.UriPrefix_Book_Subject ) ) {
@@ -274,6 +270,20 @@ namespace Picker.Core.Spider {
         if ( data != null )
           result.Add( link, data );
       }
+      return result;
+    }
+
+    /// <summary>
+    /// 获取一个页面中的所有条目。目前只支持Book和Movie。
+    /// </summary>
+    /// <param name="pageUrl"></param>
+    /// <param name="start"></param>
+    /// <returns></returns>
+    public async Task<Dictionary<string, JObject>> GetItemsOfPage( string pageUrl, int pageIndex, int countPerPage = CountPerPage ) {
+      int start = pageIndex * countPerPage;
+      string uri = string.Format( pageUrl + "?start={0}&apikey={1}", start, AppKey );
+      string html = await client.DownloadStringTaskAsync( uri );
+      Dictionary<string, JObject> result = await GetItemsOfPage( html );
       return result;
     }
 

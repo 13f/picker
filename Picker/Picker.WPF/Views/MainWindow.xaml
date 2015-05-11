@@ -5,6 +5,8 @@
         xmlns:metro="http://metro.mahapps.com/winfx/xaml/controls"
         xmlns:metroBehaviours="clr-namespace:MahApps.Metro.Behaviours;assembly=MahApps.Metro"
         xmlns:catel="http://catel.codeplex.com"
+        xmlns:winFroms="clr-namespace:System.Windows.Forms;assembly=System.Windows.Forms"
+        xmlns:utility="clr-namespace:Picker.Utilities"
         Title="豆瓣" Height="600" Width="800" ResizeMode="CanMinimize" WindowStartupLocation="CenterOwner">
     <i:Interaction.Behaviors>
         <metroBehaviours:BorderlessWindowBehavior/>
@@ -91,6 +93,22 @@
                             </StackPanel>
                         </Expander>
                     </StackPanel>
+                </metro:MetroContentControl>
+            </TabItem>
+            
+            <TabItem Header="Page">
+                <metro:MetroContentControl>
+                    <DockPanel>
+                        <DockPanel DockPanel.Dock="Top">
+                            <Button Width="70" Height="30" Content="抓取" DockPanel.Dock="Right" Command="{Binding CmdPickUsers}"/>
+                            <metro:NumericUpDown Value="{Binding CountPerSeriePage, Mode=TwoWay}" Minimum="10" Maximum="50" DockPanel.Dock="Right" />
+                            <TextBlock VerticalAlignment="Center" Margin="5,0,0,0" DockPanel.Dock="Right">每页条数：</TextBlock>
+                            <TextBox Height="30" Text="{Binding SeriePage, Mode=TwoWay}"/>
+                        </DockPanel>
+                        <WindowsFormsHost>
+                            <winFroms:WebBrowser x:Name="webBrowser" ScrollBarsEnabled="True" DocumentCompleted="webBrowser_DocumentCompleted"></winFroms:WebBrowser>
+                        </WindowsFormsHost>
+                    </DockPanel>
                 </metro:MetroContentControl>
             </TabItem>
 

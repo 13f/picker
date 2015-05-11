@@ -297,6 +297,32 @@ namespace Picker.Core.Spider {
       config.RemoveAccessLog( Configuration.Key_Douban_Page );
     }
 
+    public async Task<int> PickItemsOfPage( string pageUrl, string pageContent, int countPerPage, bool updateIfExists, int pageIndex = 0 ) {
+      var items = await api.GetItemsOfPage( pageContent );
+      if ( items != null ) {
+        if ( items.Count > 0 ) { // save data
+          foreach ( var item in items ) {
+            if ( item.Key.StartsWith( DoubanApi.UriPrefix_Book_Subject ) ) {
+              await store.Douban_SaveBook( item.Key, item.Value, updateIfExists, false );
+            }
+            else if ( item.Key.StartsWith( DoubanApi.UriPrefix_Movie_Subject ) ) {
+              await store.Douban_SaveMovie( item.Key, item.Value, updateIfExists, false );
+            }
+          }
+          // 遍历完成再保存
+          await store.SaveChanges();
+          // save log
+          config.Save( Configuration.Key_Douban_Page, pageUrl, pageIndex );
+          config.SaveCountPerPage( Configuration.Key_Douban_Page, countPerPage );
+        }
+        // 移除有关上一次访问API的记录
+        if(items.Count < countPerPage)
+          config.RemoveAccessLog( Configuration.Key_Douban_Page );
+        return items.Count;
+      }
+      return 0;
+    }
+
     #endregion Public Methods
 
 

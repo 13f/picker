@@ -30,6 +30,7 @@ namespace Picker.ViewModels {
     AsynchronousCommand cmdPick = null;
 
     bool firstTime = true;
+    int pageIndex = 0;
 
     #endregion
 
@@ -168,6 +169,52 @@ namespace Picker.ViewModels {
     public static readonly PropertyData SubjectUrlProperty = RegisterProperty( "SubjectUrl", typeof( string ), null );
 
     /// <summary>
+    /// Gets or sets PageUri.
+    /// </summary>
+    public string PageUri {
+      get { return GetValue<string>( PageUriProperty ); }
+      set {
+        SetValue( PageUriProperty, value );
+        if ( RefreshBrowser != null )
+          RefreshBrowser();
+      }
+    }
+
+    /// <summary>
+    /// Register the PageUri property so it is known in the class.
+    /// </summary>
+    public static readonly PropertyData PageUriProperty = RegisterProperty( "PageUri", typeof( string ), null );
+
+    /// <summary>
+    /// Gets or sets HtmlDownloaded.
+    /// </summary>
+    public bool HtmlDownloaded {
+      get { return GetValue<bool>( HtmlDownloadedProperty ); }
+      set { SetValue( HtmlDownloadedProperty, value ); }
+    }
+
+    /// <summary>
+    /// Register the HtmlDownloaded property so it is known in the class.
+    /// </summary>
+    public static readonly PropertyData HtmlDownloadedProperty = RegisterProperty( "HtmlDownloaded", typeof( bool ), false );
+
+    /// <summary>
+    /// Gets or sets CurrentHtml.
+    /// </summary>
+    public string CurrentHtml {
+      get { return GetValue<string>( CurrentHtmlProperty ); }
+      set {
+        SetValue( CurrentHtmlProperty, value );
+        processHtmlContent();
+      }
+    }
+
+    /// <summary>
+    /// Register the CurrentHtml property so it is known in the class.
+    /// </summary>
+    public static readonly PropertyData CurrentHtmlProperty = RegisterProperty( "CurrentHtml", typeof( string ), null );
+
+    /// <summary>
     /// Gets or sets IsPickingUsers.
     /// </summary>
     public bool IsPickingData {
@@ -175,7 +222,7 @@ namespace Picker.ViewModels {
       set {
         SetValue( IsPickingDataProperty, value );
         if ( value )
-          Log = null;
+          Log = "抓取中……";
         // raise commands
         raiseCommandsCanExecute();
       }
@@ -212,6 +259,11 @@ namespace Picker.ViewModels {
     /// </summary>
     public static readonly PropertyData LogProperty = RegisterProperty( "Log", typeof( string ), null );
 
+    /// <summary>
+    /// 刷新浏览器
+    /// </summary>
+    public Action RefreshBrowser { get; set; }
+
     #endregion
 
 
@@ -234,6 +286,9 @@ namespace Picker.ViewModels {
       IsPickingData = true;
       try {
         await biz.StartUserTask( null, null, false );
+      }
+      catch ( Exception ex ) {
+        Log = ex.Message;
       }
       finally {
         IsPickingData = false;
@@ -264,6 +319,9 @@ namespace Picker.ViewModels {
       try {
         await biz.StartBookTask( null, false );
       }
+      catch ( Exception ex ) {
+        Log = ex.Message;
+      }
       finally {
         IsPickingData = false;
       }
@@ -293,6 +351,9 @@ namespace Picker.ViewModels {
       try {
         await biz.StartMovieTask_Top250( false );
       }
+      catch ( Exception ex ) {
+        Log = ex.Message;
+      }
       finally {
         IsPickingData = false;
       }
@@ -321,6 +382,9 @@ namespace Picker.ViewModels {
       IsPickingData = true;
       try {
         await biz.StartTravelTask( null, false );
+      }
+      catch ( Exception ex ) {
+        Log = ex.Message;
       }
       finally {
         IsPickingData = false;
@@ -352,7 +416,7 @@ namespace Picker.ViewModels {
         await biz.StartTask( null, SpecialUserId );
       }
       catch ( Exception ex ) {
-        // TODO: show MessageBox
+        Log = ex.Message;
       }
       finally {
         IsPickingData = false;
@@ -369,7 +433,7 @@ namespace Picker.ViewModels {
     /// </summary>
     /// <returns><c>true</c> if the command can be executed; otherwise <c>false</c></returns>
     private bool OnCmdPickItemsOfPageCanExecute() {
-      return !IsPickingData;
+      return !IsPickingData && HtmlDownloaded;
     }
 
     /// <summary>
@@ -379,12 +443,15 @@ namespace Picker.ViewModels {
       cmdPick = null;
       IsPickingData = true;
       try {
-        await biz.PickItemsOfPage( SeriePage, CountPerSeriePage, false );
+        // 1
+        //await biz.PickItemsOfPage( SeriePage, CountPerSeriePage, false );
+
+        // 2
+        pageIndex = 0;
+        updatePageUri();
       }
       catch ( Exception ex ) {
         Log = ex.Message;
-      }
-      finally {
         IsPickingData = false;
       }
     }
@@ -412,7 +479,7 @@ namespace Picker.ViewModels {
         await biz.PickOneItem( SubjectUrl, false );
       }
       catch ( Exception ex ) {
-        // TODO: show MessageBox
+        Log = ex.Message;
       }
       finally {
         IsPickingData = false;
@@ -496,19 +563,52 @@ namespace Picker.ViewModels {
       if ( lastPageIndex < 0 )
         lastPageIndex = 0;
 
-      int countPerPage = 0;
-      int.TryParse( countPerPageString, out countPerPage );
-      if ( countPerPage > 0 )
-        CountPerSeriePage = countPerPage;
-
       IsPickingData = true;
       try {
-        await biz.ContinueLastTask( group, lastApi, lastPageIndex, lastUserId, CountPerSeriePage );
+        if ( group == Configuration.Key_Douban_Page ) {
+          int countPerPage = 0;
+          int.TryParse( countPerPageString, out countPerPage );
+          if ( countPerPage > 0 )
+            CountPerSeriePage = countPerPage;
+
+          SeriePage = lastApi;
+          pageIndex = lastPageIndex;
+          updatePageUri();
+        }
+        else
+          await biz.ContinueLastTask( group, lastApi, lastPageIndex, lastUserId, CountPerSeriePage );
       }
       catch ( Exception ex ) {
-        // TODO: show MessageBox
+        Log = ex.Message;
       }
       finally {
+        if ( group != Configuration.Key_Douban_Page )
+          IsPickingData = false;
+      }
+    }
+
+    /// <summary>
+    /// 更新PageUri，UI会自动刷新WebBrowser
+    /// </summary>
+    private void updatePageUri() {
+      int start = pageIndex * CountPerSeriePage;
+      PageUri = string.Format( SeriePage + "?start={0}&apikey={1}", start, api.AppKey );
+    }
+
+    async Task processHtmlContent() {
+      if ( !IsPickingData || string.IsNullOrWhiteSpace( CurrentHtml ) )
+        return;
+      int count = await biz.PickItemsOfPage( SeriePage, CurrentHtml, CountPerSeriePage, false, pageIndex );
+      // continue?
+      bool hasMore = ( count >= CountPerSeriePage );
+      if ( hasMore ) {
+        // wait 2 seconds
+        await Task.Delay( 2000 );
+        // update and refresh
+        pageIndex++;
+        updatePageUri();
+      }
+      else {
         IsPickingData = false;
       }
     }
