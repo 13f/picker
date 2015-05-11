@@ -201,7 +201,7 @@ namespace Picker.Core.Spider {
     /// <param name="lastUserId"></param>
     /// <returns></returns>
     public async Task ContinueLastTask( string group, string lastApi, int lastPageIndex, string lastUserId, int countPerPage ) {
-      if ( lastApi == null && !string.IsNullOrWhiteSpace( group ) ) { // douban page, not api
+      if ( group == Configuration.Key_Douban_Page ) { // douban page
         await PickItemsOfPage( lastApi, countPerPage, false, lastPageIndex );
         return;
       }
