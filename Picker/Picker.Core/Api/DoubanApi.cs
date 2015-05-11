@@ -67,9 +67,7 @@ namespace Picker.Core.Spider {
 
     public DoubanApi( string _appKey ) {
       AppKey = _appKey == null ? "" : _appKey;
-      client = new WebClient();
-      client.Encoding = System.Text.Encoding.UTF8;
-      client.UseDefaultCredentials = true;
+      client = Helpers.NetHelper.GetWebClient_UTF8();
     }
 
     #region book
@@ -252,8 +250,10 @@ namespace Picker.Core.Spider {
     /// <param name="pageUrl"></param>
     /// <param name="start"></param>
     /// <returns></returns>
-    public async Task<Dictionary<string, JObject>> GetItemsOfPage( string pageUrl, int start ) {
+    public async Task<Dictionary<string, JObject>> GetItemsOfPage( string pageUrl, int pageIndex, int countPerPage = CountPerPage ) {
+      int start = pageIndex * countPerPage;
       Dictionary<string, JObject> result = new Dictionary<string, JObject>();
+
       string uri = string.Format( pageUrl + "?start={0}&apikey={1}", start, AppKey );
       string html = await client.DownloadStringTaskAsync( uri );
       var links = getSubjectsLinks( html );
@@ -351,6 +351,8 @@ namespace Picker.Core.Spider {
       Regex regex = new Regex( @"http://(book|movie)\.douban\.com/subject/\d+/", RegexOptions.IgnoreCase );
       var matches = regex.Matches( html );
       foreach ( Match m in matches ) {
+        if ( result.Contains( m.Value ) ) // 去重
+          continue;
         result.Add( m.Value );
       }
       return result;

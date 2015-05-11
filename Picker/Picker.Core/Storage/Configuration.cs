@@ -45,7 +45,8 @@ namespace Picker.Core.Storage {
           new XElement( "group", new XAttribute( "name", Key_Douban_Book ) ),
           new XElement( "group", new XAttribute( "name", Key_Douban_Movie ) ),
           new XElement( "group", new XAttribute( "name", Key_Douban_Music ) ),
-          new XElement( "group", new XAttribute( "name", Key_Douban_Travel ) )
+          new XElement( "group", new XAttribute( "name", Key_Douban_Travel ) ),
+          new XElement( "group", new XAttribute( "name", Key_Douban_Page ) )
           );
         Save(); // save default
       }
@@ -81,8 +82,7 @@ namespace Picker.Core.Storage {
     /// 更新UserId并保存
     /// </summary>
     /// <param name="groupName"></param>
-    /// <param name="lastApi"></param>
-    /// <param name="lastPageIndex"></param>
+    /// <param name="lastUserId"></param>
     public void SaveUserId( string groupName, string lastUserId ) {
       XElement xe = xeRoot.Elements( "group" )
         .Where( i => i.Attribute( "name" ) != null && i.Attribute( "name" ).Value == groupName )
@@ -90,6 +90,21 @@ namespace Picker.Core.Storage {
       if ( xe == null )
         return;
       xe.SetElementValue( Key_LastUserID, lastUserId );
+      Save();
+    }
+
+    /// <summary>
+    /// 更新CountPerPage并保存
+    /// </summary>
+    /// <param name="groupName"></param>
+    /// <param name="countPerPage"></param>
+    public void SaveCountPerPage( string groupName, int countPerPage ) {
+      XElement xe = xeRoot.Elements( "group" )
+        .Where( i => i.Attribute( "name" ) != null && i.Attribute( "name" ).Value == groupName )
+        .FirstOrDefault();
+      if ( xe == null )
+        return;
+      xe.SetElementValue( Key_CountPerPage, countPerPage );
       Save();
     }
 
@@ -130,6 +145,7 @@ namespace Picker.Core.Storage {
       xe.SetElementValue( Key_LastApi, null );
       xe.SetElementValue( Key_LastPageIndex, null );
       xe.SetElementValue( Key_LastUserID, null );
+      xe.SetElementValue( Key_CountPerPage, null );
       Save();
     }
 

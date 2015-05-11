@@ -269,7 +269,7 @@ namespace Picker.Core.Spider {
       int pageIndex = defaultPageIndex;
       bool hasMore = false;
       do {
-        var items = await api.GetItemsOfPage( pageUrl, pageIndex );
+        var items = await api.GetItemsOfPage( pageUrl, pageIndex, countPerPage );
         if ( items != null && items.Count > 0 ) {
           foreach ( var item in items ) {
             if ( item.Key.StartsWith( DoubanApi.UriPrefix_Book_Subject ) ) {
@@ -283,6 +283,7 @@ namespace Picker.Core.Spider {
           await store.SaveChanges();
           // save log
           config.Save( Configuration.Key_Douban_Page, pageUrl, pageIndex );
+          config.SaveCountPerPage( Configuration.Key_Douban_Page, countPerPage );
         }
         // continue?
         hasMore = ( items.Count >= countPerPage );

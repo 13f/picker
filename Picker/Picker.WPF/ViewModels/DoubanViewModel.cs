@@ -174,6 +174,8 @@ namespace Picker.ViewModels {
       get { return GetValue<bool>( IsPickingDataProperty ); }
       set {
         SetValue( IsPickingDataProperty, value );
+        if ( value )
+          Log = null;
         // raise commands
         raiseCommandsCanExecute();
       }
@@ -196,6 +198,19 @@ namespace Picker.ViewModels {
     /// Register the StatisticsInfo property so it is known in the class.
     /// </summary>
     public static readonly PropertyData StatisticsInfoProperty = RegisterProperty( "StatisticsInfo", typeof( ObservableCollection<StatisticsItem> ), null );
+
+    /// <summary>
+    /// Gets or sets Log.
+    /// </summary>
+    public string Log {
+      get { return GetValue<string>( LogProperty ); }
+      set { SetValue( LogProperty, value ); }
+    }
+
+    /// <summary>
+    /// Register the Log property so it is known in the class.
+    /// </summary>
+    public static readonly PropertyData LogProperty = RegisterProperty( "Log", typeof( string ), null );
 
     #endregion
 
@@ -367,7 +382,7 @@ namespace Picker.ViewModels {
         await biz.PickItemsOfPage( SeriePage, CountPerSeriePage, false );
       }
       catch ( Exception ex ) {
-        // TODO: show MessageBox
+        Log = ex.Message;
       }
       finally {
         IsPickingData = false;

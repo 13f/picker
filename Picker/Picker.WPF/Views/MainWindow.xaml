@@ -14,20 +14,25 @@
     </metro:MetroWindow.Resources>
     
     <DockPanel>
-        <ItemsControl ItemsSource="{Binding StatisticsInfo}" Width="200" DockPanel.Dock="Left">
-            <ItemsControl.ItemTemplate>
-                <DataTemplate>
-                    <StackPanel Margin="5">
-                        <TextBlock Text="{Binding Title}" Margin="5" FontSize="22" FontWeight="Bold" Foreground="LightBlue"/>
-                        <StackPanel Orientation="Horizontal" Margin="5">
-                            <TextBlock Text="{Binding ProcessedCount}" Margin="5,0,5,0"/>
-                            <TextBlock Text="/" Margin="5,0,5,0"/>
-                            <TextBlock Text="{Binding TotalCount}" Margin="5,0,5,0"/>
+        <DockPanel DockPanel.Dock="Left">
+            <TextBlock Foreground="Gray" TextWrapping="Wrap" Margin="5" Height="100" DockPanel.Dock="Bottom" Text="{Binding Log}" ToolTip="{Binding Log}"/>
+            <TextBlock Margin="5" DockPanel.Dock="Bottom">信息：</TextBlock>
+            
+            <ItemsControl ItemsSource="{Binding StatisticsInfo}" Width="200">
+                <ItemsControl.ItemTemplate>
+                    <DataTemplate>
+                        <StackPanel Margin="5">
+                            <TextBlock Text="{Binding Title}" Margin="5" FontSize="22" FontWeight="Bold" Foreground="LightBlue"/>
+                            <StackPanel Orientation="Horizontal" Margin="5">
+                                <TextBlock Text="{Binding ProcessedCount}" Margin="5,0,5,0"/>
+                                <TextBlock Text="/" Margin="5,0,5,0"/>
+                                <TextBlock Text="{Binding TotalCount}" Margin="5,0,5,0"/>
+                            </StackPanel>
                         </StackPanel>
-                    </StackPanel>
-                </DataTemplate>
-            </ItemsControl.ItemTemplate>
-        </ItemsControl>
+                    </DataTemplate>
+                </ItemsControl.ItemTemplate>
+            </ItemsControl>
+        </DockPanel>
 
         <Grid DockPanel.Dock="Left" Margin="5" Width="1" Background="LightBlue"></Grid>
         
@@ -80,7 +85,7 @@
                                 <StackPanel Orientation="Horizontal">
                                     <TextBlock VerticalAlignment="Center">条目链接：</TextBlock>
                                     <TextBox Width="400" Height="30" Margin="5" Text="{Binding SubjectUrl, Mode=TwoWay}"/>
-                                    <Button Margin="5" Width="70" Height="30" Content="抓取" Command="{Binding PickOneItem}"/>
+                                    <Button Margin="5" Width="70" Height="30" Content="抓取" Command="{Binding CmdPickOneItem}"/>
                                 </StackPanel>
                                 <TextBlock Foreground="Gray" TextWrapping="Wrap" Margin="5">注：目前仅支持Book和Movie。</TextBlock>
                             </StackPanel>
