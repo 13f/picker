@@ -288,6 +288,8 @@ namespace Picker.Core.Spider {
         // continue?
         hasMore = ( items.Count >= countPerPage );
         pageIndex++;
+        // wait 2 seconds
+        await Task.Delay( 2000 );
       } // do
       while ( hasMore );
 
