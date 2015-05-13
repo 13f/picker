@@ -196,7 +196,7 @@ namespace Picker.ViewModels {
     /// <summary>
     /// Register the HtmlDownloaded property so it is known in the class.
     /// </summary>
-    public static readonly PropertyData HtmlDownloadedProperty = RegisterProperty( "HtmlDownloaded", typeof( bool ), false );
+    public static readonly PropertyData HtmlDownloadedProperty = RegisterProperty( "HtmlDownloaded", typeof( bool ), true );
 
     /// <summary>
     /// Gets or sets CurrentHtml.
@@ -433,7 +433,7 @@ namespace Picker.ViewModels {
     /// </summary>
     /// <returns><c>true</c> if the command can be executed; otherwise <c>false</c></returns>
     private bool OnCmdPickItemsOfPageCanExecute() {
-      return !IsPickingData && HtmlDownloaded;
+      return !IsPickingData && HtmlDownloaded && !string.IsNullOrWhiteSpace( SeriePage );
     }
 
     /// <summary>
@@ -453,6 +453,8 @@ namespace Picker.ViewModels {
       catch ( Exception ex ) {
         Log = ex.Message;
         IsPickingData = false;
+        HtmlDownloaded = true; // enable the button
+        CurrentHtml = null;
       }
     }
 
@@ -591,6 +593,9 @@ namespace Picker.ViewModels {
     /// 更新PageUri，UI会自动刷新WebBrowser
     /// </summary>
     private void updatePageUri() {
+      HtmlDownloaded = false;
+      CurrentHtml = null;
+
       int start = pageIndex * CountPerSeriePage;
       PageUri = string.Format( SeriePage + "?start={0}&apikey={1}", start, api.AppKey );
     }

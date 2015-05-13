@@ -32,14 +32,14 @@ namespace Picker.Views {
       };
     }
 
-    private void btnGo_Click( object sender, RoutedEventArgs e ) {
-      var vm = this.DataContext as ViewModels.DoubanViewModel;
-      if ( vm == null )
-        return;
-      vm.HtmlDownloaded = false;
-      vm.CurrentHtml = null;
-      webBrowser.Navigate( vm.SeriePage );
-    }
+    //private void btnGo_Click( object sender, RoutedEventArgs e ) {
+    //  var vm = this.DataContext as ViewModels.DoubanViewModel;
+    //  if ( vm == null )
+    //    return;
+    //  vm.HtmlDownloaded = false;
+    //  vm.CurrentHtml = null;
+    //  webBrowser.Navigate( vm.SeriePage );
+    //}
 
     private void webBrowser_DocumentCompleted( object sender, System.Windows.Forms.WebBrowserDocumentCompletedEventArgs e ) {
       var vm = this.DataContext as ViewModels.DoubanViewModel;

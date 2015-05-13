@@ -67,21 +67,6 @@
                             </StackPanel>
                         </Expander>
 
-                        <Expander Header="抓取某页所有条目" IsExpanded="False">
-                            <StackPanel Margin="5">
-                                <StackPanel Orientation="Horizontal">
-                                    <TextBlock VerticalAlignment="Center" Margin="5,0,0,0">网页：</TextBlock>
-                                    <TextBox Width="250" Height="30" Margin="5" Text="{Binding SeriePage, Mode=TwoWay}"/>
-                                    <TextBlock VerticalAlignment="Center" Margin="20,0,0,0">每页条数：</TextBlock>
-                                    <metro:NumericUpDown Value="{Binding CountPerSeriePage, Mode=TwoWay}" Minimum="10" Maximum="50" Margin="5"></metro:NumericUpDown>
-                                    <Button Margin="5" Width="70" Height="30" Content="抓取" Command="{Binding CmdPickItemsOfPage}"/>
-                                </StackPanel>
-                                <TextBlock Foreground="Gray" TextWrapping="Wrap" Margin="5">注：【每页条数】仅用于翻页遍历，并不是某页面条目的具体个数。</TextBlock>
-                                <TextBlock Foreground="Gray" TextWrapping="Wrap" Margin="5">注：目前仅支持Book和Movie。</TextBlock>
-                                <TextBlock Foreground="Gray" TextWrapping="Wrap" Margin="5">逻辑：使用正则表达式获取subject链接，提取ID，通过API获取数据。</TextBlock>
-                            </StackPanel>
-                        </Expander>
-
                         <Expander Header="抓取某一特定条目" IsExpanded="False">
                             <StackPanel Margin="5">
                                 <StackPanel Orientation="Horizontal">
@@ -100,10 +85,14 @@
                 <metro:MetroContentControl>
                     <DockPanel>
                         <DockPanel DockPanel.Dock="Top">
-                            <Button Width="70" Height="30" Content="抓取" DockPanel.Dock="Right" Command="{Binding CmdPickUsers}"/>
+                            <Button Width="70" Height="30" Content="抓取" DockPanel.Dock="Right" Command="{Binding CmdPickItemsOfPage}"/>
                             <metro:NumericUpDown Value="{Binding CountPerSeriePage, Mode=TwoWay}" Minimum="10" Maximum="50" DockPanel.Dock="Right" />
                             <TextBlock VerticalAlignment="Center" Margin="5,0,0,0" DockPanel.Dock="Right">每页条数：</TextBlock>
-                            <TextBox Height="30" Text="{Binding SeriePage, Mode=TwoWay}"/>
+                            <TextBox Height="30" Text="{Binding SeriePage, Mode=TwoWay}">
+                                <i:Interaction.Behaviors>
+                                    <catel:UpdateBindingOnTextChanged UpdateDelay="300"/>
+                                </i:Interaction.Behaviors>
+                            </TextBox>
                         </DockPanel>
                         <WindowsFormsHost>
                             <winFroms:WebBrowser x:Name="webBrowser" ScrollBarsEnabled="True" DocumentCompleted="webBrowser_DocumentCompleted"></winFroms:WebBrowser>
