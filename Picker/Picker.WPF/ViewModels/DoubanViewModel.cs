@@ -346,19 +346,23 @@ namespace Picker.ViewModels {
     /// Method to invoke when the CmdPickMoviesTop250 command is executed.
     /// </summary>
     private async void OnCmdPickMoviesTop250Execute() {
-      cmdPick = CmdPickMoviesTop250;
+      cmdPick = null; // CmdPickMoviesTop250;
       IsPickingData = true;
+      bool hasError = false;
       try {
         await biz.StartMovieTask_Top250( false );
       }
       catch ( Exception ex ) {
         Log = ex.Message;
+        hasError = true;
       }
       finally {
         IsPickingData = false;
+        if ( !hasError )
+          Log = "完成。";
       }
       // 是否自动继续
-      await autoLoop();
+      //await autoLoop();
     }
 
     /// <summary>
@@ -412,14 +416,18 @@ namespace Picker.ViewModels {
     private async void OnCmdPickSpecialUserExecute() {
       cmdPick = null;
       IsPickingData = true;
+      bool hasError = false;
       try {
         await biz.StartTask( null, SpecialUserId );
       }
       catch ( Exception ex ) {
         Log = ex.Message;
+        hasError = true;
       }
       finally {
         IsPickingData = false;
+        if ( !hasError )
+          Log = "完成。";
       }
     }
 
@@ -477,14 +485,18 @@ namespace Picker.ViewModels {
     private async void OnCmdPickOneItemExecute() {
       cmdPick = null;
       IsPickingData = true;
+      bool hasError = false;
       try {
         await biz.PickOneItem( SubjectUrl, false );
       }
       catch ( Exception ex ) {
         Log = ex.Message;
+        hasError = true;
       }
       finally {
         IsPickingData = false;
+        if ( !hasError )
+          Log = "完成。";
       }
     }
 
@@ -566,9 +578,10 @@ namespace Picker.ViewModels {
         lastPageIndex = 0;
 
       IsPickingData = true;
+      bool hasError = false;
       try {
         if ( group == Configuration.Key_Douban_Page ) {
-          int countPerPage = 0;
+          int countPerPage = 25;
           int.TryParse( countPerPageString, out countPerPage );
           if ( countPerPage > 0 )
             CountPerSeriePage = countPerPage;
@@ -582,10 +595,13 @@ namespace Picker.ViewModels {
       }
       catch ( Exception ex ) {
         Log = ex.Message;
+        hasError = true;
       }
       finally {
         if ( group != Configuration.Key_Douban_Page )
           IsPickingData = false;
+        if ( !hasError )
+          Log = "完成。";
       }
     }
 
@@ -603,19 +619,30 @@ namespace Picker.ViewModels {
     async Task processHtmlContent() {
       if ( !IsPickingData || string.IsNullOrWhiteSpace( CurrentHtml ) )
         return;
-      int count = await biz.PickItemsOfPage( SeriePage, CurrentHtml, CountPerSeriePage, false, pageIndex );
-      // continue?
-      bool hasMore = ( count >= CountPerSeriePage );
-      if ( hasMore ) {
-        // wait 2 seconds
-        await Task.Delay( 2000 );
-        // update and refresh
-        pageIndex++;
-        updatePageUri();
+      int count = 0;
+      bool hasError = false;
+      try {
+        count = await biz.PickItemsOfPage( SeriePage, CurrentHtml, CountPerSeriePage, false, pageIndex );
+        // continue?
+        bool hasMore = ( count >= CountPerSeriePage );
+        if ( hasMore ) {
+          // wait 2 seconds
+          await Task.Delay( 2000 );
+          // update and refresh
+          pageIndex++;
+          updatePageUri();
+        }
+        else {
+          IsPickingData = false;
+          Log = "完成。";
+        }
       }
-      else {
+      catch ( Exception ex ) {
+        Log = ex.Message;
+        hasError = true;
         IsPickingData = false;
       }
+      
     }
 
     #endregion
