@@ -17,7 +17,7 @@
     
     <DockPanel>
         <DockPanel DockPanel.Dock="Left">
-            <TextBlock Foreground="Gray" TextWrapping="Wrap" Margin="5" Height="100" DockPanel.Dock="Bottom" Text="{Binding Log}" ToolTip="{Binding Log}"/>
+            <TextBlock Foreground="Gray" TextWrapping="Wrap" Margin="5" Width="190" Height="100" DockPanel.Dock="Bottom" Text="{Binding Log}" ToolTip="{Binding Log}"/>
             <TextBlock Margin="5" DockPanel.Dock="Bottom">信息：</TextBlock>
             
             <ItemsControl ItemsSource="{Binding StatisticsInfo}" Width="200">

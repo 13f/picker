@@ -172,6 +172,8 @@ namespace Picker.Core.Spider {
         throw new Exception( "注意：该用户所有任务已经完成了一遍。" );
 
       if ( !userInfoComplete ) {
+        if ( data == null )
+          data = await api.GetUserInfo( userId );
         // user info
         await processUserInfo( id, data, false );
         // followings
@@ -333,8 +335,9 @@ namespace Picker.Core.Spider {
           data = await api.GetUserInfo( id );
         id = (string)data["id"];
         string uid = (string)data["uid"];
+        string type = (string)data["type"];
         // 保存用户信息
-        return await store.Douban_SaveUser( id, uid, data.ToString(), updateIfExists, true );
+        return await store.Douban_SaveUser( id, uid, type, data.ToString(), updateIfExists, true );
       }
       return 0;
     }

@@ -252,17 +252,17 @@ namespace Picker.Postgresql {
 
     public bool Douban_UserTaskIsComplete( string uid, TimeSpan? interval ) {
       var tmp = doubanContext.UserTask.Where( i => i.uid == uid ).FirstOrDefault();
-      return TimeHelper.IsInInterval( tmp.ProcessedAt, interval );
+      return TimeHelper.IsCompleted( tmp.ProcessedAt, interval );
     }
 
     public bool DoubanBook_UserTaskIsComplete( string uid, TimeSpan? interval ) {
       var tmp = doubanContext.UserTask.Where( i => i.uid == uid ).FirstOrDefault();
-      return TimeHelper.IsInInterval( tmp.BooksProcessedAt, interval );
+      return TimeHelper.IsCompleted( tmp.BooksProcessedAt, interval );
     }
 
     public bool DoubanTravel_UserTaskIsComplete( string uid, TimeSpan? interval ) {
       var tmp = doubanContext.UserTask.Where( i => i.uid == uid ).FirstOrDefault();
-      return TimeHelper.IsInInterval( tmp.TravelProcessedAt, interval );
+      return TimeHelper.IsCompleted( tmp.TravelProcessedAt, interval );
     }
 
 
@@ -344,7 +344,7 @@ namespace Picker.Postgresql {
       return ( item != null );
     }
 
-    public async Task<int> Douban_SaveUser( string id, string uid, string content, bool updateIfExists, bool saveChanges ) {
+    public async Task<int> Douban_SaveUser( string id, string uid, string type, string content, bool updateIfExists, bool saveChanges ) {
       User item = doubanContext.User.Where( i => i.id == id ).FirstOrDefault();
       if ( item != null && updateIfExists ) {
         item.Content = content;
@@ -354,6 +354,7 @@ namespace Picker.Postgresql {
         item = new User();
         item.id = id;
         item.uid = uid;
+        item.type = type;
         item.Content = content;
         item.CreatedAt = DateTime.UtcNow;
         item.UpdatedAt = DateTime.UtcNow;
@@ -365,11 +366,11 @@ namespace Picker.Postgresql {
       return 0;
     }
 
-    public async Task<int> Douban_SaveUsers( List<Tuple<string, string, string>> data, bool updateIfExists ) {
+    public async Task<int> Douban_SaveUsers( List<Tuple<string, string, string, string>> data, bool updateIfExists ) {
       if ( data == null || data.Count == 0 )
         return 0;
       foreach ( var tuple in data ) {
-        await Douban_SaveUser( tuple.Item1, tuple.Item2, tuple.Item3, updateIfExists, false );
+        await Douban_SaveUser( tuple.Item1, tuple.Item2, tuple.Item3, tuple.Item4, updateIfExists, false );
       }
       return await doubanContext.SaveChangesAsync();
     }
