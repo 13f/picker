@@ -7,10 +7,11 @@ using System.Threading.Tasks;
 namespace Picker.Core.Models {
   public class StatisticsItem {
     public string Title { get; set; }
+    public long Count { get; set; }
     /// <summary>
     /// 条目总数
     /// </summary>
-    public long TotalCount { get; set; }
+    public long TaskCount { get; set; }
     /// <summary>
     /// 已处理的条目数
     /// </summary>

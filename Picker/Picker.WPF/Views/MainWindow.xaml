@@ -26,9 +26,12 @@
                         <StackPanel Margin="5">
                             <TextBlock Text="{Binding Title}" Margin="5" FontSize="22" FontWeight="Bold" Foreground="LightBlue"/>
                             <StackPanel Orientation="Horizontal" Margin="5">
-                                <TextBlock Text="{Binding ProcessedCount}" Margin="5,0,5,0"/>
+                                <TextBlock Text="{Binding Count}" Margin="5,0,0,0"/>
+                                <TextBlock Text="（"/>
+                                <TextBlock Text="{Binding ProcessedCount}"/>
                                 <TextBlock Text="/" Margin="5,0,5,0"/>
-                                <TextBlock Text="{Binding TotalCount}" Margin="5,0,5,0"/>
+                                <TextBlock Text="{Binding TaskCount}"/>
+                                <TextBlock Text="）"/>
                             </StackPanel>
                         </StackPanel>
                     </DataTemplate>

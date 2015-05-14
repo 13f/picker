@@ -36,30 +36,44 @@ namespace Picker.Postgresql {
 
     public List<StatisticsItem> LoadStatistics() {
       List<StatisticsItem> data = new List<StatisticsItem>();
+      long userTaskCount = doubanContext.UserTask.LongCount();
+      long usersProcessed = doubanContext.User.LongCount();
       data.Add( new StatisticsItem() {
         Title = "Users",
-        TotalCount = doubanContext.UserTask.LongCount(),
-        ProcessedCount = doubanContext.User.LongCount()
+        Count = usersProcessed,
+        TaskCount = userTaskCount,
+        ProcessedCount = usersProcessed
       } );
+
+      long booksProcessed = doubanContext.UserTask.Where( i => i.BooksProcessedAt != null ).LongCount();
+      long booksCount = doubanContext.Book.LongCount();
       data.Add( new StatisticsItem() {
         Title = "Books",
-        TotalCount = doubanContext.Book.LongCount(),
-        ProcessedCount = doubanContext.Book.LongCount()
+        Count = booksCount,
+        TaskCount = userTaskCount,
+        ProcessedCount = booksProcessed
       } );
+
+      long moviesCount = doubanContext.Movie.LongCount();
       data.Add( new StatisticsItem() {
         Title = "Movies",
-        TotalCount = doubanContext.Movie.LongCount(),
-        ProcessedCount = doubanContext.Movie.LongCount()
+        Count = moviesCount,
+        TaskCount = moviesCount,
+        ProcessedCount = moviesCount
       } );
       //data.Add( new StatisticsItem() {
       //  Title = "Music",
       //  TotalCount = doubanContext.UserTask.LongCount(),
       //  ProcessedCount = doubanContext.User.LongCount()
       //} );
+
+      long travelProcessed = doubanContext.UserTask.Where( i => i.TravelProcessedAt != null ).LongCount();
+      long travelCount = doubanContext.Travel.LongCount();
       data.Add( new StatisticsItem() {
         Title = "Travel Places",
-        TotalCount = doubanContext.Travel.LongCount(),
-        ProcessedCount = doubanContext.Travel.LongCount()
+        Count = travelCount,
+        TaskCount = userTaskCount,
+        ProcessedCount = travelProcessed
       } );
       return data;
     }
