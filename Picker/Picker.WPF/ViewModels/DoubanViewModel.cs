@@ -121,7 +121,10 @@ namespace Picker.ViewModels {
     /// </summary>
     public string SpecialUserId {
       get { return GetValue<string>( SpecialUserIdProperty ); }
-      set { SetValue( SpecialUserIdProperty, value ); }
+      set {
+        string v = value != null && value.StartsWith("http://") ? api.GetUserIdByPersonalPageUri( value ) : value;
+        SetValue( SpecialUserIdProperty, v );
+      }
     }
 
     /// <summary>

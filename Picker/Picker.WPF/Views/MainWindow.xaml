@@ -60,7 +60,11 @@
                             <StackPanel Margin="5">
                                 <StackPanel Orientation="Horizontal" VerticalAlignment="Top" Margin="10">
                                     <TextBlock VerticalAlignment="Center">特定用户（user id）：</TextBlock>
-                                    <TextBox Width="200" Height="30" Margin="10,0,0,0" Text="{Binding SpecialUserId, Mode=TwoWay}"/>
+                                    <TextBox Width="200" Height="30" Margin="10,0,0,0" Text="{Binding SpecialUserId, Mode=TwoWay}">
+                                        <i:Interaction.Behaviors>
+                                            <catel:UpdateBindingOnTextChanged UpdateDelay="300"/>
+                                        </i:Interaction.Behaviors>
+                                    </TextBox>
                                     <Button Width="150" Height="36" Margin="5" Content="抓取" Command="{Binding CmdPickSpecialUser}"/>
                                 </StackPanel>
                                 <TextBlock Foreground="Gray" TextWrapping="Wrap" Margin="5">逻辑：创建UserTask，获取UserInfo，获取Followings，获取Books，获取Travel，每次获取信息都会更新UserTask</TextBlock>

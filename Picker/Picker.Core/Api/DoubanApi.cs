@@ -19,6 +19,8 @@ namespace Picker.Core.Spider {
     public const string ApiPrefix_Movie = ApiPrefix + "movie/";
     public const string ApiPrefix_Music = ApiPrefix + "music/";
     public const string ApiPrefix_Travel = ApiPrefix + "travel/";
+
+    public const string UriPrefix_PersonalPage = "http://www.douban.com/people/";
     public const string UriPrefix_Book_Subject = "http://book.douban.com/subject/";
     public const string UriPrefix_Movie_Subject = "http://movie.douban.com/subject/";
 
@@ -206,6 +208,13 @@ namespace Picker.Core.Spider {
 
     #endregion Movies
 
+
+    public string GetUserIdByPersonalPageUri( string uri ) {
+      if ( string.IsNullOrWhiteSpace( uri ) || !uri.StartsWith( DoubanApi.UriPrefix_PersonalPage ) )
+        return null;
+      return uri.Replace( DoubanApi.UriPrefix_PersonalPage, "" )
+        .Replace( "/", "" ); // 网址最后可能是/符号
+    }
 
     public async Task<JObject> GetUserInfo( string username ) {
       string uri = string.Format( Api_UserInfo, username, AppKey );
