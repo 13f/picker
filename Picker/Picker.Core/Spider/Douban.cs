@@ -55,10 +55,14 @@ namespace Picker.Core.Spider {
       }
 
       // ==== 处理一个UserTask的流程 ====
+      if ( jobjFirtTime == null )
+        jobjFirtTime = await api.GetUserInfo( id );
+      bool isBanned = (bool)jobjFirtTime["is_banned"];
       // user info
       await processUserInfo( id, jobjFirtTime, false );
       // followings
-      await processFollowings( id );
+      if ( !isBanned )
+        await processFollowings( id );
       // update tag
       await store.Douban_UpdateUserTask( id, true );
       
@@ -153,6 +157,7 @@ namespace Picker.Core.Spider {
       bool userInfoComplete = false,
         booksComplete = false,
         travelComplete = false;
+      bool isBanned = false;
 
       bool exists = store.Douban_UserTaskExsits( userId );
       if ( exists ) { // 任务存在，直接查询
@@ -164,6 +169,7 @@ namespace Picker.Core.Spider {
       else { // 任务不存在，生成一个
         data = await api.GetUserInfo( userId );
         id = (string)data["id"];
+        isBanned = (bool)data["is_banned"];
         // 新建用户任务
         await store.Douban_SaveUserTask( id, userId, data, true );
       }
@@ -171,23 +177,25 @@ namespace Picker.Core.Spider {
       if ( userInfoComplete && booksComplete && travelComplete )
         throw new Exception( "注意：该用户所有任务已经完成了一遍。" );
 
-      if ( !userInfoComplete ) {
+      if ( !userInfoComplete ) { // 即使被封，也要获取一下UserInfo
         if ( data == null )
           data = await api.GetUserInfo( userId );
+        isBanned = (bool)data["is_banned"];
         // user info
         await processUserInfo( id, data, false );
         // followings
-        await processFollowings( id );
+        if ( !isBanned )
+          await processFollowings( id );
         // update task
         await store.Douban_UpdateUserTask( id, true );
       }
-      if ( !booksComplete ) {
+      if ( !booksComplete && !isBanned ) {
         // process
         await processBooks( id, false );
         // update tag
         await store.DoubanBook_UpdateUserTask( id, true );
       }
-      if ( !travelComplete ) {
+      if ( !travelComplete && !isBanned ) {
         // process
         await processTravel( id, false );
         // update tag
