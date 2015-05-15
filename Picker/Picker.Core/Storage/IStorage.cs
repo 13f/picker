@@ -69,6 +69,10 @@ namespace Picker.Core.Storage {
     Task<int> Douban_SaveUserTasks( List<Tuple<string, string, JObject>> data );
 
     /// <summary>
+    /// 更新type和IsBanned
+    /// </summary>
+    Task<int> Douban_UpdateUserTask( string id, string type, bool isBanned, bool saveChanges );
+    /// <summary>
     /// 更新UserTask.ProcessedAt为当前时间
     /// </summary>
     Task<int> Douban_UpdateUserTask( string id, bool saveChanges );
@@ -82,14 +86,14 @@ namespace Picker.Core.Storage {
     Task<int> DoubanTravel_UpdateUserTask( string id, bool saveChanges );
     
     Task<bool> Douban_UserExists( string id );
-    Task<int> Douban_SaveUser( string id, string uid, string type, string content, bool updateIfExists, bool saveChanges );
+    Task<int> Douban_SaveUser( string id, string uid, JObject data, bool updateIfExists, bool saveChanges );
     /// <summary>
     /// 四元组：id, uid, user type, content
     /// </summary>
     /// <param name="data"></param>
     /// <param name="updateIfExists"></param>
     /// <returns></returns>
-    Task<int> Douban_SaveUsers( List<Tuple<string, string, string, string>> data, bool updateIfExists );
+    Task<int> Douban_SaveUsers( List<Tuple<string, string, JObject>> data, bool updateIfExists );
 
   }
 

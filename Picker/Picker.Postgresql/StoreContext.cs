@@ -14,6 +14,7 @@ namespace Picker.Postgresql {
   public class StoreContext : IStorage {
     //NpgsqlConnection conn = null;
     DoubanEntities doubanContext = null;
+    const string propertyNameIsBanned = "is_banned";
     const string propertyNameType = "type";
     const string typeUser = "user";
 
@@ -314,6 +315,20 @@ namespace Picker.Postgresql {
     }
 
     /// <summary>
+    /// 更新type和IsBanned
+    /// </summary>
+    public async Task<int> Douban_UpdateUserTask( string id, string type, bool isBanned, bool saveChanges ) {
+      var tmp = doubanContext.UserTask.Where( i => i.id == id ).FirstOrDefault();
+      if ( tmp == null )
+        return 0;
+      tmp.type = type;
+      tmp.IsBanned = isBanned;
+      if ( saveChanges )
+        return await doubanContext.SaveChangesAsync();
+      return 1;
+    }
+    
+    /// <summary>
     /// 更新UserTask.ProcessedAt为当前时间
     /// </summary>
     public async Task<int> Douban_UpdateUserTask( string id, bool saveChanges ) {
@@ -358,18 +373,20 @@ namespace Picker.Postgresql {
       return ( item != null );
     }
 
-    public async Task<int> Douban_SaveUser( string id, string uid, string type, string content, bool updateIfExists, bool saveChanges ) {
+    public async Task<int> Douban_SaveUser( string id, string uid, JObject data, bool updateIfExists, bool saveChanges ) {
       User item = doubanContext.User.Where( i => i.id == id ).FirstOrDefault();
       if ( item != null && updateIfExists ) {
-        item.Content = content;
+        item.Content = data.ToString();
+        item.IsBanned = (bool)data[propertyNameIsBanned];
         item.UpdatedAt = DateTime.UtcNow;
       }
       else {
         item = new User();
         item.id = id;
         item.uid = uid;
-        item.type = type;
-        item.Content = content;
+        item.type = (string)data[propertyNameType];
+        item.Content = data.ToString();
+        item.IsBanned = (bool)data[propertyNameIsBanned];
         item.CreatedAt = DateTime.UtcNow;
         item.UpdatedAt = DateTime.UtcNow;
         doubanContext.User.Add( item );
@@ -380,11 +397,15 @@ namespace Picker.Postgresql {
       return 0;
     }
 
-    public async Task<int> Douban_SaveUsers( List<Tuple<string, string, string, string>> data, bool updateIfExists ) {
+    public async Task<int> Douban_SaveUsers( List<Tuple<string, string, JObject>> data, bool updateIfExists ) {
       if ( data == null || data.Count == 0 )
         return 0;
       foreach ( var tuple in data ) {
-        await Douban_SaveUser( tuple.Item1, tuple.Item2, tuple.Item3, tuple.Item4, updateIfExists, false );
+        await Douban_SaveUser( tuple.Item1, tuple.Item2, tuple.Item3, updateIfExists, false );
+        // update task
+        string type = (string)tuple.Item3[propertyNameType];
+        bool isBanned = (bool)tuple.Item3[propertyNameIsBanned];
+        await Douban_UpdateUserTask( tuple.Item1, type, isBanned, false );
       }
       return await doubanContext.SaveChangesAsync();
     }

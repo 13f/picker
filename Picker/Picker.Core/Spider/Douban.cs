@@ -336,8 +336,13 @@ namespace Picker.Core.Spider {
         id = (string)data["id"];
         string uid = (string)data["uid"];
         string type = (string)data["type"];
+        bool isBanned = (bool)data["is_banned"];
         // 保存用户信息
-        return await store.Douban_SaveUser( id, uid, type, data.ToString(), updateIfExists, true );
+        int r = await store.Douban_SaveUser( id, uid, data, updateIfExists, false );
+        // update task
+        await store.Douban_UpdateUserTask( id, type, isBanned, false );
+        await store.SaveChanges();
+        return r;
       }
       return 0;
     }
