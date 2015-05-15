@@ -233,7 +233,7 @@ namespace Picker.Postgresql {
     public string Douban_GetUndoneUserTask( TimeSpan? interval ) {
       double intervalSeconds = interval.HasValue ? interval.Value.TotalSeconds : 0;
       // 旧版本没有设置type，即前两个判断；新版本只判断"user"类型的（其它还有virtual、site等）
-      var tmp = doubanContext.UserTask.Where( i => ( i.type == null || i.type.Length == 0 || i.type == typeUser ) &&
+      var tmp = doubanContext.UserTask.Where( i => ( i.type == null || i.type.Length == 0 || i.type == typeUser ) && !i.IsBanned &&
         (i.ProcessedAt == null || ( interval.HasValue && ( System.Data.Entity.DbFunctions.DiffSeconds( DateTime.UtcNow, i.ProcessedAt.Value ) < intervalSeconds ) ))
         )
         .FirstOrDefault();
@@ -246,7 +246,7 @@ namespace Picker.Postgresql {
     public string DoubanBook_GetUndoneUserTask( TimeSpan? interval ) {
       double intervalSeconds = interval.HasValue ? interval.Value.TotalSeconds : 0;
       // 旧版本没有设置type，即前两个判断；新版本只判断"user"类型的（其它还有virtual、site等）
-      var tmp = doubanContext.UserTask.Where( i => ( i.type == null || i.type.Length == 0 || i.type == typeUser ) &&
+      var tmp = doubanContext.UserTask.Where( i => ( i.type == null || i.type.Length == 0 || i.type == typeUser ) && !i.IsBanned &&
         ( i.BooksProcessedAt == null || ( interval.HasValue && ( System.Data.Entity.DbFunctions.DiffSeconds( DateTime.UtcNow, i.BooksProcessedAt.Value ) < intervalSeconds ) ) ) )
         .FirstOrDefault();
       return tmp == null ? null : tmp.id;
@@ -258,7 +258,7 @@ namespace Picker.Postgresql {
     public string DoubanTravel_GetUndoneUserTask( TimeSpan? interval ) {
       double intervalSeconds = interval.HasValue ? interval.Value.TotalSeconds : 0;
       // 旧版本没有设置type，即前两个判断；新版本只判断"user"类型的（其它还有virtual、site等）
-      var tmp = doubanContext.UserTask.Where( i => ( i.type == null || i.type.Length == 0 || i.type == typeUser ) &&
+      var tmp = doubanContext.UserTask.Where( i => ( i.type == null || i.type.Length == 0 || i.type == typeUser ) && !i.IsBanned &&
         ( i.TravelProcessedAt == null || ( interval.HasValue && ( System.Data.Entity.DbFunctions.DiffSeconds( DateTime.UtcNow, i.TravelProcessedAt.Value ) < intervalSeconds ) ) ) )
         .FirstOrDefault();
       return tmp == null ? null : tmp.id;
