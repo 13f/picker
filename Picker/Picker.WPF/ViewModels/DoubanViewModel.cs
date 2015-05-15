@@ -22,7 +22,6 @@ namespace Picker.ViewModels {
     DoubanApi api = null;
     Douban biz = null;
 
-    DispatcherTimer timer = null;
     /// <summary>
     /// AutoLoopInterval的毫秒数
     /// </summary>
@@ -49,11 +48,6 @@ namespace Picker.ViewModels {
       api = new DoubanApi( AppKey );
       biz = new Douban( api, store, config );
 
-      timer = new DispatcherTimer( DispatcherPriority.Normal );
-      timer.Interval = new TimeSpan( 0, 0, 3 );
-      timer.Tick += timer_Tick;
-      timer.Start();
-
       // Commands
       CmdPickUsers = new AsynchronousCommand( OnCmdPickUsersExecute, OnOnCmdPickUsersCanExecute );
       CmdPickBooks = new AsynchronousCommand( OnCmdPickBooksExecute, OnCmdPickBooksCanExecute );
@@ -62,6 +56,13 @@ namespace Picker.ViewModels {
       CmdPickSpecialUser = new AsynchronousCommand( OnCmdPickSpecialUserExecute, OnCmdPickSpecialUserCanExecute );
       CmdPickItemsOfPage = new AsynchronousCommand( OnCmdPickItemsOfPageExecute, OnCmdPickItemsOfPageCanExecute );
       CmdPickOneItem = new AsynchronousCommand( OnCmdPickOneItemExecute, OnCmdPickOneItemCanExecute );
+
+      // 获取统计数据
+      refreshStatistics();
+      // 继续上一次任务
+      Task.Factory.StartNew( () => {
+        continueLastPicking();
+      } );
     }
 
     #endregion
@@ -296,6 +297,8 @@ namespace Picker.ViewModels {
       finally {
         IsPickingData = false;
       }
+      // 更新统计数据
+      refreshStatistics();
       // 是否自动继续
       await autoLoop();
     }
@@ -328,6 +331,8 @@ namespace Picker.ViewModels {
       finally {
         IsPickingData = false;
       }
+      // 更新统计数据
+      refreshStatistics();
       // 是否自动继续
       await autoLoop();
     }
@@ -364,6 +369,8 @@ namespace Picker.ViewModels {
         if ( !hasError )
           Log = "完成。";
       }
+      // 更新统计数据
+      refreshStatistics();
       // 是否自动继续
       //await autoLoop();
     }
@@ -396,6 +403,8 @@ namespace Picker.ViewModels {
       finally {
         IsPickingData = false;
       }
+      // 更新统计数据
+      refreshStatistics();
       // 是否自动继续
       await autoLoop();
     }
@@ -432,6 +441,8 @@ namespace Picker.ViewModels {
         if ( !hasError )
           Log = "完成。";
       }
+      // 更新统计数据
+      refreshStatistics();
     }
 
     /// <summary>
@@ -501,6 +512,8 @@ namespace Picker.ViewModels {
         if ( !hasError )
           Log = "完成。";
       }
+      // 更新统计数据
+      refreshStatistics();
     }
 
     #endregion
@@ -518,33 +531,29 @@ namespace Picker.ViewModels {
       CmdPickOneItem.RaiseCanExecuteChanged();
     }
 
-    void timer_Tick( object sender, EventArgs e ) {
-      refreshStatistics();
-      // 刚开始运行
-      // 目的：先让UI上显示出统计数据，再执行上一次的查询
-      if ( firstTime ) {
-        firstTime = false;
-        // 是否继续上一次的查询
-        Task.Factory.StartNew( () => {
-          continueLastPicking();
-        } );
-      }
-    }
-
     void refreshStatistics() {
       // 抓取数据的时候进行查询，可能造成异步方法和同步方法同时对A表进行操作，会抛出异常
       if ( store == null || IsPickingData )
         return;
-
-      if ( StatisticsInfo != null )
-        StatisticsInfo.Clear();
-      var data = store.LoadStatistics();
-      StatisticsInfo = new ObservableCollection<StatisticsItem>( data );
+      try {
+        App.Current.Dispatcher.Invoke( () => {
+          List<StatisticsItem> data = store.LoadStatistics();
+          if ( StatisticsInfo != null )
+            StatisticsInfo.Clear();
+          if ( data != null )
+            StatisticsInfo = new ObservableCollection<StatisticsItem>( data );
+        } );
+      }
+      catch ( Exception ex ) {
+        Log = "获取统计数据时出错，稍后重试：" + ex.Message;
+      }     
     }
 
     async Task autoLoop() {
-      if ( cmdPick == null || !AutoLoop || !cmdPick.CanExecute() || cmdPick.IsExecuting )
+      if ( cmdPick == null || !AutoLoop || !cmdPick.CanExecute() || cmdPick.IsExecuting ) {
+        Log = "完成。";
         return;
+      }
       await Task.Delay( auto_loop_in_miliseconds );
       cmdPick.Execute();
     }
@@ -593,8 +602,9 @@ namespace Picker.ViewModels {
           pageIndex = lastPageIndex;
           updatePageUri();
         }
-        else
+        else {
           await biz.ContinueLastTask( group, lastApi, lastPageIndex, lastUserId, CountPerSeriePage );
+        }
       }
       catch ( Exception ex ) {
         Log = ex.Message;
@@ -606,6 +616,8 @@ namespace Picker.ViewModels {
         if ( !hasError )
           Log = "完成。";
       }
+      if ( group != Configuration.Key_Douban_Page )// 更新统计数据
+        refreshStatistics();
     }
 
     /// <summary>
@@ -623,7 +635,7 @@ namespace Picker.ViewModels {
       if ( !IsPickingData || string.IsNullOrWhiteSpace( CurrentHtml ) )
         return;
       int count = 0;
-      bool hasError = false;
+      //bool hasError = false;
       try {
         count = await biz.PickItemsOfPage( SeriePage, CurrentHtml, CountPerSeriePage, false, pageIndex );
         // continue?
@@ -638,14 +650,15 @@ namespace Picker.ViewModels {
         else {
           IsPickingData = false;
           Log = "完成。";
+          // 更新统计数据
+          refreshStatistics();
         }
       }
       catch ( Exception ex ) {
         Log = ex.Message;
-        hasError = true;
+        //hasError = true;
         IsPickingData = false;
       }
-      
     }
 
     #endregion
