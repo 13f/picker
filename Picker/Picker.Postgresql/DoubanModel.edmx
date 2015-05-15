@@ -84,6 +84,7 @@
           <Property Name="UpdatedAt" Type="timestamptz" Precision="6" />
           <Property Name="ProcessedAt" Type="timestamptz" Precision="6" />
           <Property Name="type" Type="varchar" MaxLength="20" />
+          <Property Name="IsBanned" Type="bool" Nullable="false" />
         </EntityType>
         <EntityType Name="UserTask">
           <Key>
@@ -96,6 +97,7 @@
           <Property Name="TravelProcessedAt" Type="timestamptz" Precision="6" />
           <Property Name="type" Type="varchar" MaxLength="20" />
           <Property Name="Content" Type="text" />
+          <Property Name="IsBanned" Type="bool" Nullable="false" />
         </EntityType>
         <EntityContainer Name="DoubanModelStoreContainer">
           <EntitySet Name="Book" EntityType="Self.Book" Schema="public" store:Type="Tables" />
@@ -174,6 +176,7 @@
           <Property Name="TravelProcessedAt" Type="DateTimeOffset" Precision="6" />
           <Property Name="type" Type="String" MaxLength="20" FixedLength="false" Unicode="true" />
           <Property Name="Content" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="IsBanned" Type="Boolean" Nullable="false" />
         </EntityType>
         <EntityType Name="User">
           <Key>
@@ -186,6 +189,7 @@
           <Property Name="UpdatedAt" Type="DateTimeOffset" Precision="6" />
           <Property Name="ProcessedAt" Type="DateTimeOffset" Precision="6" />
           <Property Name="type" Type="String" MaxLength="20" FixedLength="false" Unicode="true" />
+          <Property Name="IsBanned" Type="Boolean" Nullable="false" />
         </EntityType>
         <EntityType Name="Movie">
           <Key>
@@ -269,6 +273,7 @@
           <EntitySetMapping Name="UserTask">
             <EntityTypeMapping TypeName="DoubanModel.UserTask">
               <MappingFragment StoreEntitySet="UserTask">
+                <ScalarProperty Name="IsBanned" ColumnName="IsBanned" />
                 <ScalarProperty Name="Content" ColumnName="Content" />
                 <ScalarProperty Name="type" ColumnName="type" />
                 <ScalarProperty Name="TravelProcessedAt" ColumnName="TravelProcessedAt" />
@@ -282,6 +287,7 @@
           <EntitySetMapping Name="User">
             <EntityTypeMapping TypeName="DoubanModel.User">
               <MappingFragment StoreEntitySet="User">
+                <ScalarProperty Name="IsBanned" ColumnName="IsBanned" />
                 <ScalarProperty Name="type" ColumnName="type" />
                 <ScalarProperty Name="ProcessedAt" ColumnName="ProcessedAt" />
                 <ScalarProperty Name="UpdatedAt" ColumnName="UpdatedAt" />

@@ -21,5 +21,6 @@ namespace Picker.Postgresql
         public Nullable<System.DateTimeOffset> TravelProcessedAt { get; set; }
         public string type { get; set; }
         public string Content { get; set; }
+        public bool IsBanned { get; set; }
     }
 }
