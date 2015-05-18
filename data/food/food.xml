@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<configration>
+<data>
   <group name="食物/谷类" url="http://yingyang.911cha.com/list_1.html">
     <item name="小麦" url="http://yingyang.911cha.com/YQ==.html">
       <has name="热量" count="317" unit="千卡" />
@@ -39120,4 +39120,4 @@
       <has name="硒" count="6.5" unit="微克" />
     </item>
   </group>
-</configration>
+</data>

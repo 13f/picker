@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<configration>
+<data>
   <group name="catalog" urlprefix="http://health.people.com.cn/yao/yaopin/ypqy/">
     <item processed="20150509212258"></item>
     <item processed="20150509212301">default_2.html</item>
@@ -3283,4 +3283,4 @@
     </item>
     <item name="深圳康生保生物技术有限公司" url="4134056094.html" />
   </group>
-</configration>
+</data>
