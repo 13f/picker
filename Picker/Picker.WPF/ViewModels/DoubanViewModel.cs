@@ -219,6 +219,19 @@ namespace Picker.ViewModels {
     public static readonly PropertyData CurrentHtmlProperty = RegisterProperty( "CurrentHtml", typeof( string ), null );
 
     /// <summary>
+        /// Gets or sets the PageNumber.
+        /// </summary>
+    public int PageNumber {
+      get { return GetValue<int>( PageNumberProperty ); }
+      set { SetValue( PageNumberProperty, value ); }
+    }
+
+    /// <summary>
+    /// Register the PageNumber property so it is known in the class.
+    /// </summary>
+    public static readonly PropertyData PageNumberProperty = RegisterProperty( "PageNumber", typeof( int ), 0 );
+
+    /// <summary>
     /// Gets or sets IsPickingUsers.
     /// </summary>
     public bool IsPickingData {
@@ -470,6 +483,7 @@ namespace Picker.ViewModels {
 
         // 2
         pageIndex = 0;
+        PageNumber = pageIndex + 1;
         updatePageUri();
       }
       catch ( Exception ex ) {
@@ -600,6 +614,7 @@ namespace Picker.ViewModels {
 
           SeriePage = lastApi;
           pageIndex = lastPageIndex;
+          PageNumber = pageIndex + 1;
           updatePageUri();
         }
         else {
@@ -645,6 +660,7 @@ namespace Picker.ViewModels {
           await Task.Delay( 2000 );
           // update and refresh
           pageIndex++;
+          PageNumber = pageIndex + 1;
           updatePageUri();
         }
         else {

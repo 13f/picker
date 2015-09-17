@@ -18,7 +18,12 @@
     <DockPanel>
         <DockPanel DockPanel.Dock="Left">
             <TextBlock Foreground="Gray" TextWrapping="Wrap" Margin="5" Width="190" Height="100" DockPanel.Dock="Bottom" Text="{Binding Log}" ToolTip="{Binding Log}"/>
-            <TextBlock Margin="5" DockPanel.Dock="Bottom">信息：</TextBlock>
+            <TextBlock Margin="5" FontSize="16" DockPanel.Dock="Bottom">信息：</TextBlock>
+            <StackPanel Margin="5" DockPanel.Dock="Bottom" Orientation="Horizontal">
+                <TextBlock FontSize="16">正在抓取第</TextBlock>
+                <TextBlock VerticalAlignment="Center" FontSize="16" Foreground="Green" Text="{Binding PageNumber}"></TextBlock>
+                <TextBlock FontSize="16">页</TextBlock>
+            </StackPanel>
             
             <ItemsControl ItemsSource="{Binding StatisticsInfo}" Width="200">
                 <ItemsControl.ItemTemplate>
