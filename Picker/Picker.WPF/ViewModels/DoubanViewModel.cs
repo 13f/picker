@@ -619,6 +619,7 @@ namespace Picker.ViewModels {
         }
         else {
           await biz.ContinueLastTask( group, lastApi, lastPageIndex, lastUserId, CountPerSeriePage );
+          tryAutoLoop( group );
         }
       }
       catch ( Exception ex ) {
@@ -674,6 +675,29 @@ namespace Picker.ViewModels {
         Log = ex.Message;
         //hasError = true;
         IsPickingData = false;
+      }
+    }
+
+    /// <summary>
+    /// 尝试自动进入循环模式
+    /// </summary>
+    /// <param name="group"></param>
+    void tryAutoLoop( string group ) {
+      if ( string.IsNullOrWhiteSpace( group ) )
+        return;
+      switch ( group ) {
+        case Configuration.Key_Douban_Book:
+          if ( CmdPickBooks.CanExecute() )
+            CmdPickBooks.Execute();
+          break;
+        case Configuration.Key_Douban_User:
+          if ( CmdPickUsers.CanExecute() )
+            CmdPickUsers.Execute();
+          break;
+        case Configuration.Key_Douban_Travel:
+          if ( CmdPickTravel.CanExecute() )
+            CmdPickTravel.Execute();
+          break;
       }
     }
 
