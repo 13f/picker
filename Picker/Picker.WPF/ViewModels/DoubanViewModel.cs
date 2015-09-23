@@ -619,7 +619,6 @@ namespace Picker.ViewModels {
         }
         else {
           await biz.ContinueLastTask( group, lastApi, lastPageIndex, lastUserId, CountPerSeriePage );
-          tryAutoLoop( group );
         }
       }
       catch ( Exception ex ) {
@@ -632,8 +631,10 @@ namespace Picker.ViewModels {
         if ( !hasError )
           Log = "完成。";
       }
-      if ( group != Configuration.Key_Douban_Page )// 更新统计数据
+      if ( group != Configuration.Key_Douban_Page ) {// 更新统计数据
         refreshStatistics();
+        tryAutoLoop( group );
+      }
     }
 
     /// <summary>
