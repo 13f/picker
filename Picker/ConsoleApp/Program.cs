@@ -17,15 +17,25 @@ namespace ConsoleApp {
       // Food911cha.PickItems(); // ok @ 2015-5-8
       // Food911cha.PickItemsData(); // ok @ 2015-5-8
       // PeopleComCN.PickMedicineOrgs(); ok @2015-5-9
-      //Global500.PickCatalog(); // ok @2015-9-28
+      //Global500.PickCatalog(); // ok @2015-9-28  // file = @"D:\github\picker\data\organization\global500-2014.xml", tableKey = "<table class=\"rankingtable\" id=\"yytable\"".
 
-      // 2014 // ok @2015-12-17
+      // Global-2014 // ok @2015-12-17
       //string source = @"E:\github\picker\data\organization\global500-2014.xml";
       //string target = @"E:\github\picker\data\organization\global500-2014.json";
       //Console.WriteLine( source + " -> " + target );
       //XElementHelper.XmlToJson( source, target, true );
       //Console.WriteLine( "Over..." );
       //Console.ReadKey();
+
+      // Global-2015
+      string tableKey = "<table id=\"yytable\" class=\"rankingtable\"";
+      string xmlFile = @"E:\github\picker\data\organization\global500-2015.xml";
+      string jsonFile = @"E:\github\picker\data\organization\global500-2015.json";
+      Global500.PickCatalog( xmlFile, tableKey );
+      Console.WriteLine( xmlFile + " -> " + jsonFile );
+      XElementHelper.XmlToJson( xmlFile, jsonFile, true );
+      Console.WriteLine( "Over..." );
+      Console.ReadKey();
     }
 
     ///// <summary>

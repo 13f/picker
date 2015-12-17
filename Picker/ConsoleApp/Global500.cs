@@ -12,46 +12,47 @@ namespace ConsoleApp {
     const string domain = "http://www.fortunechina.com";
 
     const string strProcessed = "processed";
+    const string strRank2015 = "rank2015";
     const string strRank2014 = "rank2014";
-    const string strRand2013 = "rank2013";
+    const string strRank2013 = "rank2013";
     const string strOperatingReceiptInMillionDollars = "operating_receipt_in_million_dollars";
     const string strProfitInMillionDollars = "profit_in_million_dollars";
     const string strCountry = "country";
 
-    public static void PickCatalog() {
+    public static void PickCatalog( string sourceXmlFile, string tableKey ) {
       Console.WriteLine( "==== 更新目录 ====" );
       WebClient client = Picker.Core.Helpers.NetHelper.GetWebClient_UTF8();
-
-      string file = @"D:\github\picker\data\organization\global500-2014.xml";
-      XElement xeRoot = XElement.Load( file );
+      
+      XElement xeRoot = XElement.Load( sourceXmlFile );
       var dataGroup = xeRoot.Elements( "group" ).Where( xe => xe.Attribute( "name" ).Value == "data" ).FirstOrDefault();
       string url = dataGroup.Attribute( "url" ).Value;
       Console.WriteLine( "正在处理：" + url );
       string data = client.DownloadString( url );
-      var children = parseOrgCatalog( data );
+      var children = parseOrgCatalog( data, tableKey );
       if ( children.Count == 0 ) { // 遇到报错，先处理后面的
         Console.WriteLine( "出现异常，跳过……" );
       }
       else {
         dataGroup.Add( children );
         // save
-        xeRoot.Save( file, SaveOptions.None );
+        xeRoot.Save( sourceXmlFile, SaveOptions.None );
       }
 
       Console.WriteLine( "已完成！" );
       Console.ReadKey();
     }
 
-    static List<XElement> parseOrgCatalog( string html ) {
+    static List<XElement> parseOrgCatalog( string html, string tableKey ) {
       List<XElement> result = new List<XElement>();
-      int start = html.IndexOf( "<table class=\"rankingtable\" id=\"yytable\"" );
+      int start = html.IndexOf( tableKey );
       if ( start < 0 )
         return result;
       int end = html.IndexOf( "</table>", start );
       string data = html.Substring( start, end - start + 8 );
 
       XElement root = XElement.Parse( data );
-      var rows = root.Elements( "tr" );
+      var rows = root.Element( "tbody" )
+        .Elements( "tr" );
 
       foreach ( var row in rows ) {
         XElement td1 = (XElement)row.FirstNode;
@@ -68,8 +69,8 @@ namespace ConsoleApp {
 
         XElement item = new XElement( "item",
           new XAttribute( "url", url ),
-          new XAttribute( strRank2014, td1.Value ),
-          new XAttribute( strRand2013, td2.Value ),
+          new XAttribute( strRank2015, td1.Value ),
+          new XAttribute( strRank2014, td2.Value ),
           new XAttribute( "name", td3.Value ),
           new XAttribute( strOperatingReceiptInMillionDollars, td4.Value ),
           new XAttribute( strProfitInMillionDollars, td5.Value ),
