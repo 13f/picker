@@ -21,6 +21,14 @@ namespace ConsoleApp {
       return item;
     }
 
+    public static void XmlToJson( string xmlFile, string jsonFile, bool omitRootObject ) {
+      //string xml = System.IO.File.ReadAllText( xmlFile, System.Text.Encoding.UTF8 );
+      System.Xml.XmlDocument xmlDoc = new System.Xml.XmlDocument();
+      xmlDoc.Load( xmlFile );
+      string json = Newtonsoft.Json.JsonConvert.SerializeXmlNode( xmlDoc, Newtonsoft.Json.Formatting.Indented, omitRootObject );
+      System.IO.File.WriteAllText( jsonFile, json, System.Text.Encoding.UTF8 );
+    }
+
   }
 
 }

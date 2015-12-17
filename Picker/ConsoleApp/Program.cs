@@ -17,7 +17,15 @@ namespace ConsoleApp {
       // Food911cha.PickItems(); // ok @ 2015-5-8
       // Food911cha.PickItemsData(); // ok @ 2015-5-8
       // PeopleComCN.PickMedicineOrgs(); ok @2015-5-9
-      Global500.PickCatalog();
+      //Global500.PickCatalog(); // ok @2015-9-28
+
+      // 2014 // ok @2015-12-17
+      //string source = @"E:\github\picker\data\organization\global500-2014.xml";
+      //string target = @"E:\github\picker\data\organization\global500-2014.json";
+      //Console.WriteLine( source + " -> " + target );
+      //XElementHelper.XmlToJson( source, target, true );
+      //Console.WriteLine( "Over..." );
+      //Console.ReadKey();
     }
 
     ///// <summary>
