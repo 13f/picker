@@ -19,6 +19,22 @@ namespace ConsoleApp {
       // PeopleComCN.PickMedicineOrgs(); ok @2015-5-9
       //Global500.PickCatalog(); // ok @2015-9-28  // file = @"D:\github\picker\data\organization\global500-2014.xml", tableKey = "<table class=\"rankingtable\" id=\"yytable\"".
 
+      // 1 food: xml->json // ok @2015-12-26
+      //string source = @"E:\github\picker\data\food\food.xml";
+      //string target = @"E:\github\picker\data\food\food.json";
+      //Console.WriteLine( source + " -> " + target );
+      //Food911cha.XmlToJson( source, target );
+      //Console.WriteLine( "Over..." );
+      //Console.ReadKey();
+
+      // 2 food: xml->json // ok @2015-12-26
+      string source = @"E:\github\picker\data\food\food.xml";
+      string target = @"E:\github\picker\data\food\food";
+      Console.WriteLine( source + " -> " + target );
+      Food911cha.XmlToJson2( source, target );
+      Console.WriteLine( "Over..." );
+      Console.ReadKey();
+
       // Global-2014 // ok @2015-12-17
       //string source = @"E:\github\picker\data\organization\global500-2014.xml";
       //string target = @"E:\github\picker\data\organization\global500-2014.json";
@@ -27,15 +43,15 @@ namespace ConsoleApp {
       //Console.WriteLine( "Over..." );
       //Console.ReadKey();
 
-      // Global-2015
-      string tableKey = "<table id=\"yytable\" class=\"rankingtable\"";
-      string xmlFile = @"E:\github\picker\data\organization\global500-2015.xml";
-      string jsonFile = @"E:\github\picker\data\organization\global500-2015.json";
-      Global500.PickCatalog( xmlFile, tableKey );
-      Console.WriteLine( xmlFile + " -> " + jsonFile );
-      XElementHelper.XmlToJson( xmlFile, jsonFile, true );
-      Console.WriteLine( "Over..." );
-      Console.ReadKey();
+      // Global-2015 // ok @2015-12-17
+      //string tableKey = "<table id=\"yytable\" class=\"rankingtable\"";
+      //string xmlFile = @"E:\github\picker\data\organization\global500-2015.xml";
+      //string jsonFile = @"E:\github\picker\data\organization\global500-2015.json";
+      //Global500.PickCatalog( xmlFile, tableKey );
+      //Console.WriteLine( xmlFile + " -> " + jsonFile );
+      //XElementHelper.XmlToJson( xmlFile, jsonFile, true );
+      //Console.WriteLine( "Over..." );
+      //Console.ReadKey();
     }
 
     ///// <summary>
