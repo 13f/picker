@@ -11,13 +11,60 @@
     </i:Interaction.Behaviors>
 
     <Grid>
-        <metro:Pivot>
-            <metro:PivotItem Header="Table"></metro:PivotItem>
+        <TabControl>
+            <TabItem Header="Table">
+                <Grid>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition/>
+                        <ColumnDefinition/>
+                    </Grid.ColumnDefinitions>
+                    <Grid>
+                        <TextBox AcceptsTab="True" AcceptsReturn="True" TextWrapping="Wrap"
+                                 ScrollViewer.HorizontalScrollBarVisibility="Visible"
+                                 ScrollViewer.VerticalScrollBarVisibility="Visible"
+                                 metro:TextBoxHelper.Watermark="&lt;table .../&gt;"
+                                 Text="{Binding TableXml, Mode=TwoWay}"/>
+                    </Grid>
+                    <DockPanel Grid.Column="1">
+                        <StackPanel DockPanel.Dock="Top" Orientation="Horizontal" Margin="5">
+                            <TextBlock VerticalAlignment="Center" Margin="5,0,5,0">Replace:</TextBlock>
+                            <TextBox Width="100" metro:TextBoxHelper.Watermark="old"
+                                     Text="{Binding XmlOldString, Mode=TwoWay}"/>
+                            <Button Margin="5,0,5,0" Content="--&gt;&gt;" Command="{Binding CmdReplaceXml}"/>
+                            <TextBox Width="100" metro:TextBoxHelper.Watermark="new"
+                                     Text="{Binding XmlNewString, Mode=TwoWay}"/>
+                        </StackPanel>
+                        <metro:Tile Content="Format Code" Title="格式化代码" Height="110" Width="110"
+                                    Background="Green"
+                                    Command="{Binding CmdFormatXml}"/>
+                    </DockPanel>
+                </Grid>
+            </TabItem>
             
-            <metro:PivotItem Header="Config"></metro:PivotItem>
+            <TabItem Header="Config">
+                <DockPanel>
+                    
+                </DockPanel>
+            </TabItem>
 
-            <metro:PivotItem Header="Json"></metro:PivotItem>
+            <TabItem Header="Json">
+                <DockPanel>
+                    <StackPanel Width="250" DockPanel.Dock="Right">
+                        <metro:Tile Content="Process" Title="处理" Height="110" Width="110"
+                                    Command="{Binding CmdProcess}"/>
+                        <metro:Tile Content="Format Code" Title="格式化代码" Height="110" Width="110"
+                                    Background="Green"
+                                    Command="{Binding CmdFormatJson}"/>
+                    </StackPanel>
+                    <Grid>
+                        <TextBox AcceptsTab="True" AcceptsReturn="True" TextWrapping="Wrap"
+                                 ScrollViewer.HorizontalScrollBarVisibility="Visible"
+                                 ScrollViewer.VerticalScrollBarVisibility="Visible"
+                                 Text="{Binding Json, Mode=TwoWay}"/>
+                    </Grid>
+                </DockPanel>
+            </TabItem>
 
-        </metro:Pivot>
+        </TabControl>
     </Grid>
 </metro:MetroWindow>
