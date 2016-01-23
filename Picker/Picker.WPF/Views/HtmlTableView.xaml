@@ -1,0 +1,23 @@
+﻿<metro:MetroWindow x:Class="Picker.Views.HtmlTableView"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:i="http://schemas.microsoft.com/expression/2010/interactivity"
+        xmlns:metro="http://metro.mahapps.com/winfx/xaml/controls"
+        xmlns:metroBehaviours="clr-namespace:MahApps.Metro.Behaviours;assembly=MahApps.Metro"
+        xmlns:catel="http://catel.codeplex.com"
+        Title="Html Table" Height="600" Width="800" ResizeMode="CanMinimize" WindowStartupLocation="CenterOwner">
+    <i:Interaction.Behaviors>
+        <metroBehaviours:BorderlessWindowBehavior/>
+    </i:Interaction.Behaviors>
+
+    <Grid>
+        <metro:Pivot>
+            <metro:PivotItem Header="Table"></metro:PivotItem>
+            
+            <metro:PivotItem Header="Config"></metro:PivotItem>
+
+            <metro:PivotItem Header="Json"></metro:PivotItem>
+
+        </metro:Pivot>
+    </Grid>
+</metro:MetroWindow>

@@ -10,20 +10,19 @@ using System.Windows.Documents;
 using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
-using System.Windows.Navigation;
 using System.Windows.Shapes;
 
 namespace Picker.Views {
   /// <summary>
-  /// MainWindow.xaml 的交互逻辑
+  /// DoubanView.xaml 的交互逻辑
   /// </summary>
-  public partial class MainView : MahApps.Metro.Controls.MetroWindow {
-    public MainView() {
+  public partial class DoubanView : MahApps.Metro.Controls.MetroWindow {
+    public DoubanView() {
       InitializeComponent();
-      this.Loaded += MainView_Loaded;
+      this.Loaded += DoubanView_Loaded;
     }
 
-    void MainView_Loaded( object sender, RoutedEventArgs e ) {
+    void DoubanView_Loaded( object sender, RoutedEventArgs e ) {
       var vm = this.DataContext as ViewModels.DoubanViewModel;
       if ( vm == null )
         return;
@@ -48,5 +47,7 @@ namespace Picker.Views {
       vm.HtmlDownloaded = true;
       vm.CurrentHtml = webBrowser.DocumentText;
     }
+
   }
+
 }

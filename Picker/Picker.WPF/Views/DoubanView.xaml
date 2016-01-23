@@ -1,4 +1,4 @@
-﻿<metro:MetroWindow x:Class="Picker.Views.MainView"
+﻿<metro:MetroWindow x:Class="Picker.Views.DoubanView"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:i="http://schemas.microsoft.com/expression/2010/interactivity"
@@ -14,7 +14,7 @@
     <metro:MetroWindow.Resources>
         <catel:BooleanToCollapsingVisibilityConverter x:Key="bool2visible" />
     </metro:MetroWindow.Resources>
-    
+
     <DockPanel>
         <DockPanel DockPanel.Dock="Left">
             <TextBlock Foreground="Gray" TextWrapping="Wrap" Margin="5" Width="190" Height="100" DockPanel.Dock="Bottom" Text="{Binding Log}" ToolTip="{Binding Log}"/>
@@ -24,7 +24,7 @@
                 <TextBlock VerticalAlignment="Center" FontSize="16" Foreground="Green" Text="{Binding PageNumber}"></TextBlock>
                 <TextBlock FontSize="16">页</TextBlock>
             </StackPanel>
-            
+
             <ItemsControl ItemsSource="{Binding StatisticsInfo}" Width="200">
                 <ItemsControl.ItemTemplate>
                     <DataTemplate>
@@ -45,7 +45,7 @@
         </DockPanel>
 
         <Grid DockPanel.Dock="Left" Margin="5" Width="1" Background="LightBlue"></Grid>
-        
+
         <TabControl>
             <TabItem Header="Start">
                 <metro:MetroContentControl>
@@ -92,7 +92,7 @@
                     </StackPanel>
                 </metro:MetroContentControl>
             </TabItem>
-            
+
             <TabItem Header="Page">
                 <metro:MetroContentControl>
                     <DockPanel>
@@ -150,4 +150,5 @@
 
         </TabControl>
     </DockPanel>
+    
 </metro:MetroWindow>
