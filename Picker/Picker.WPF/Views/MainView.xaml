@@ -18,6 +18,10 @@
                     Background="OrangeRed"
                     Command="{Binding CmdHtmlTable}" />
 
+        <metro:Tile Content="Parse CSV" Title="解析CSV" Margin="222,40,432,391"
+                    Background="Orange"
+                    Command="{Binding CmdCSV}" />
+
         <metro:Tile Content="Douban" Title="豆瓣" Margin="631,396,23,35"
                     Command="{Binding CmdDouban}" />
     </Grid>

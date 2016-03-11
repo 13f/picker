@@ -12,7 +12,7 @@ namespace Picker.ViewModels {
     /// <summary>
         /// Gets or sets HtmlTableViewOpend.
         /// </summary>
-    public bool HtmlTableViewOpend
+    public bool HtmlTableViewOpened
     {
       get { return GetValue<bool>( HtmlTableViewOpendProperty ); }
       set {
@@ -28,9 +28,23 @@ namespace Picker.ViewModels {
     public static readonly PropertyData HtmlTableViewOpendProperty = RegisterProperty( "HtmlTableViewOpend", typeof( bool ), false );
 
     /// <summary>
+        /// Gets or sets TabularViewOpened.
+        /// </summary>
+    public bool TabularViewOpened
+    {
+      get { return GetValue<bool>( TabularViewOpenedProperty ); }
+      set { SetValue( TabularViewOpenedProperty, value ); }
+    }
+
+    /// <summary>
+    /// Register the TabularViewOpened property so it is known in the class.
+    /// </summary>
+    public static readonly PropertyData TabularViewOpenedProperty = RegisterProperty( "TabularViewOpened", typeof( bool ), false );
+
+    /// <summary>
         /// Gets or sets DoubanViewOpend.
         /// </summary>
-    public bool DoubanViewOpend
+    public bool DoubanViewOpened
     {
       get { return GetValue<bool>( DoubanViewOpendProperty ); }
       set {
@@ -47,6 +61,7 @@ namespace Picker.ViewModels {
 
     public MainViewModel() {
       CmdHtmlTable = new Command( OnCmdHtmlTableExecute, OnCmdHtmlTableCanExecute );
+      CmdCSV = new Command( OnCmdCSVExecute, OnCmdCSVCanExecute );
 
       CmdDouban = new Command( OnCmdDoubanExecute, OnCmdDoubanCanExecute );
     }
@@ -64,14 +79,14 @@ namespace Picker.ViewModels {
     /// </summary>
     /// <returns><c>true</c> if the command can be executed; otherwise <c>false</c></returns>
     private bool OnCmdHtmlTableCanExecute() {
-      return !HtmlTableViewOpend;
+      return !HtmlTableViewOpened;
     }
 
     /// <summary>
     /// Method to invoke when the CmdHtmlTable command is executed.
     /// </summary>
     private void OnCmdHtmlTableExecute() {
-      HtmlTableViewOpend = true;
+      HtmlTableViewOpened = true;
 
       HtmlTableViewModel viewmodel = new HtmlTableViewModel();
       Views.HtmlTableView view = new Views.HtmlTableView();
@@ -81,7 +96,7 @@ namespace Picker.ViewModels {
     }
 
     private void HtmlTableView_Closed( object sender, EventArgs e ) {
-      HtmlTableViewOpend = false;
+      HtmlTableViewOpened = false;
     }
 
     /// <summary>
@@ -94,24 +109,54 @@ namespace Picker.ViewModels {
     /// </summary>
     /// <returns><c>true</c> if the command can be executed; otherwise <c>false</c></returns>
     private bool OnCmdDoubanCanExecute() {
-      return !DoubanViewOpend;
+      return !DoubanViewOpened;
     }
 
     /// <summary>
     /// Method to invoke when the CmdDouban command is executed.
     /// </summary>
     private void OnCmdDoubanExecute() {
-      DoubanViewOpend = true;
+      DoubanViewOpened = true;
 
       DoubanViewModel viewmodel = new DoubanViewModel();
-      Views.MainView view = new Views.MainView();
+      Views.DoubanView view = new Views.DoubanView();
       view.DataContext = viewmodel;
       view.Closed += DoubanView_Closed;
       view.Show();
     }
 
+    /// <summary>
+    /// Gets the CmdCSV command.
+    /// </summary>
+    public Command CmdCSV { get; private set; }
+
+    /// <summary>
+    /// Method to check whether the CmdCSV command can be executed.
+    /// </summary>
+    /// <returns><c>true</c> if the command can be executed; otherwise <c>false</c></returns>
+    private bool OnCmdCSVCanExecute() {
+      return !TabularViewOpened;
+    }
+
+    /// <summary>
+    /// Method to invoke when the CmdCSV command is executed.
+    /// </summary>
+    private void OnCmdCSVExecute() {
+      DoubanViewOpened = true;
+
+      TabularViewModel viewmodel = new TabularViewModel();
+      Views.TabularView view = new Views.TabularView();
+      view.DataContext = viewmodel;
+      view.Closed += TabularView_Closed;
+      view.Show();
+    }
+
+    private void TabularView_Closed( object sender, EventArgs e ) {
+      DoubanViewOpened = false;
+    }
+
     private void DoubanView_Closed( object sender, EventArgs e ) {
-      DoubanViewOpend = false;
+      DoubanViewOpened = false;
     }
 
     #endregion Commands
