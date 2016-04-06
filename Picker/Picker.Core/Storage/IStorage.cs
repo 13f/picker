@@ -7,16 +7,16 @@ using Newtonsoft.Json.Linq;
 using Picker.Core.Models;
 
 namespace Picker.Core.Storage {
-  public interface IStorage {
-    void OpenDatabase( string connString );
+  public partial interface IStorage {
+    void OpenDoubanDatabase( string connString );
     /// <summary>
     /// 保存变更；批量同步到数据库
     /// </summary>
     /// <returns></returns>
-    Task<int> SaveChanges();
+    Task<int> Douban_SaveChanges();
 
 
-    List<StatisticsItem> LoadStatistics();
+    List<StatisticsItem> Douban_LoadStatistics();
 
 
     //Task<int> Douban_SaveBookTask( string id, string uid, bool saveChanges );

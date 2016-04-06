@@ -59,11 +59,26 @@ namespace Picker.ViewModels {
     /// </summary>
     public static readonly PropertyData DoubanViewOpendProperty = RegisterProperty( "DoubanViewOpend", typeof( bool ), false );
 
+    /// <summary>
+    /// Gets or sets FellowPlusViewOpened.
+    /// </summary>
+    public bool FellowPlusViewOpened
+    {
+      get { return GetValue<bool>( FellowPlusViewOpenedProperty ); }
+      set { SetValue( FellowPlusViewOpenedProperty, value ); }
+    }
+
+    /// <summary>
+    /// Register the FellowPlusViewOpened property so it is known in the class.
+    /// </summary>
+    public static readonly PropertyData FellowPlusViewOpenedProperty = RegisterProperty( "FellowPlusViewOpened", typeof( bool ), false );
+
     public MainViewModel() {
       CmdHtmlTable = new Command( OnCmdHtmlTableExecute, OnCmdHtmlTableCanExecute );
       CmdCSV = new Command( OnCmdCSVExecute, OnCmdCSVCanExecute );
 
       CmdDouban = new Command( OnCmdDoubanExecute, OnCmdDoubanCanExecute );
+      CmdFellowPlus = new Command( OnCmdFellowPlusExecute, OnCmdFellowPlusCanExecute );
     }
 
 
@@ -126,6 +141,32 @@ namespace Picker.ViewModels {
     }
 
     /// <summary>
+        /// Gets the CmdFellowPlus command.
+        /// </summary>
+    public Command CmdFellowPlus { get; private set; }
+
+    /// <summary>
+    /// Method to check whether the CmdFellowPlus command can be executed.
+    /// </summary>
+    /// <returns><c>true</c> if the command can be executed; otherwise <c>false</c></returns>
+    private bool OnCmdFellowPlusCanExecute() {
+      return !FellowPlusViewOpened;
+    }
+
+    /// <summary>
+    /// Method to invoke when the CmdFellowPlus command is executed.
+    /// </summary>
+    private void OnCmdFellowPlusExecute() {
+      FellowPlusViewOpened = true;
+
+      FellowPlusViewModel viewmodel = new FellowPlusViewModel();
+      Views.FellowPlusView view = new Views.FellowPlusView();
+      view.DataContext = viewmodel;
+      view.Closed += FellowPlusView_Closed;
+      view.Show();
+    }
+
+    /// <summary>
     /// Gets the CmdCSV command.
     /// </summary>
     public Command CmdCSV { get; private set; }
@@ -157,6 +198,10 @@ namespace Picker.ViewModels {
 
     private void DoubanView_Closed( object sender, EventArgs e ) {
       DoubanViewOpened = false;
+    }
+
+    private void FellowPlusView_Closed( object sender, EventArgs e ) {
+      FellowPlusViewOpened = false;
     }
 
     #endregion Commands

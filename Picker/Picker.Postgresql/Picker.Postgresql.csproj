@@ -73,6 +73,21 @@
     <Compile Include="BookTask.cs">
       <DependentUpon>DoubanModel.tt</DependentUpon>
     </Compile>
+    <Compile Include="DataModels.Context.cs">
+      <DependentUpon>DataModels.Context.tt</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="DataModels.cs">
+      <DependentUpon>DataModels.tt</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="DataModels.Designer.cs">
+      <DependentUpon>DataModels.edmx</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+    </Compile>
     <Compile Include="DoubanModel.Context.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
@@ -89,6 +104,31 @@
       <DependentUpon>DoubanModel.edmx</DependentUpon>
     </Compile>
     <Compile Include="Extensions\DoubanEntities.cs" />
+    <Compile Include="Extensions\PickerEntities.cs" />
+    <Compile Include="FellowPlusCompany.cs">
+      <DependentUpon>DataModels.tt</DependentUpon>
+    </Compile>
+    <Compile Include="FellowPlusInvest.cs">
+      <DependentUpon>DataModels.tt</DependentUpon>
+    </Compile>
+    <Compile Include="FellowPlusNews.cs">
+      <DependentUpon>DataModels.tt</DependentUpon>
+    </Compile>
+    <Compile Include="FellowPlusProject.cs">
+      <DependentUpon>DataModels.tt</DependentUpon>
+    </Compile>
+    <Compile Include="FellowPlusProjectPreview.cs">
+      <DependentUpon>DataModels.tt</DependentUpon>
+    </Compile>
+    <Compile Include="FellowPlusWebsite.cs">
+      <DependentUpon>DataModels.tt</DependentUpon>
+    </Compile>
+    <Compile Include="FellowPlusWeibo.cs">
+      <DependentUpon>DataModels.tt</DependentUpon>
+    </Compile>
+    <Compile Include="FellowPlusWeixin.cs">
+      <DependentUpon>DataModels.tt</DependentUpon>
+    </Compile>
     <Compile Include="Movie.cs">
       <DependentUpon>DoubanModel.tt</DependentUpon>
     </Compile>
@@ -103,6 +143,8 @@
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="StoreContext.cs" />
+    <Compile Include="StoreContext.Douban.cs" />
+    <Compile Include="StoreContext.FellowPlus.cs" />
     <Compile Include="Travel.cs">
       <DependentUpon>DoubanModel.tt</DependentUpon>
     </Compile>
@@ -124,6 +166,13 @@
       <Generator>EntityModelCodeGenerator</Generator>
       <LastGenOutput>DoubanModel.Designer.cs</LastGenOutput>
     </EntityDeploy>
+    <EntityDeploy Include="DataModels.edmx">
+      <Generator>EntityModelCodeGenerator</Generator>
+      <LastGenOutput>DataModels.Designer.cs</LastGenOutput>
+    </EntityDeploy>
+    <None Include="DataModels.edmx.diagram">
+      <DependentUpon>DataModels.edmx</DependentUpon>
+    </None>
     <None Include="DoubanModel.Context.tt">
       <Generator>TextTemplatingFileGenerator</Generator>
       <DependentUpon>DoubanModel.edmx</DependentUpon>
@@ -147,6 +196,18 @@
       <Project>{45c926f8-e055-4225-9792-b00912c3cd70}</Project>
       <Name>Picker.Core</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="DataModels.Context.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <DependentUpon>DataModels.edmx</DependentUpon>
+      <LastGenOutput>DataModels.Context.cs</LastGenOutput>
+    </Content>
+    <Content Include="DataModels.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <DependentUpon>DataModels.edmx</DependentUpon>
+      <LastGenOutput>DataModels.cs</LastGenOutput>
+    </Content>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

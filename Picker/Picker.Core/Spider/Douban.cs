@@ -290,7 +290,7 @@ namespace Picker.Core.Spider {
             }
           }
           // 遍历完成再保存
-          await store.SaveChanges();
+          await store.Douban_SaveChanges();
           // save log
           config.Save( Configuration.Key_Douban_Page, pageUrl, pageIndex );
           config.SaveCountPerPage( Configuration.Key_Douban_Page, countPerPage );
@@ -320,7 +320,7 @@ namespace Picker.Core.Spider {
             }
           }
           // 遍历完成再保存
-          await store.SaveChanges();
+          await store.Douban_SaveChanges();
           // save log
           config.Save( Configuration.Key_Douban_Page, pageUrl, pageIndex );
           config.SaveCountPerPage( Configuration.Key_Douban_Page, countPerPage );
@@ -349,7 +349,7 @@ namespace Picker.Core.Spider {
         int r = await store.Douban_SaveUser( id, uid, data, updateIfExists, false );
         // update task
         await store.Douban_UpdateUserTask( id, type, isBanned, false );
-        await store.SaveChanges();
+        await store.Douban_SaveChanges();
         return r;
       }
       return 0;

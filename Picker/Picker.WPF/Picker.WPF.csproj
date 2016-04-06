@@ -124,11 +124,19 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="ViewModels\FellowPlusViewModel.cs" />
     <Compile Include="ViewModels\TabularViewModel.cs" />
+    <Compile Include="Views\FellowPlusView.xaml.cs">
+      <DependentUpon>FellowPlusView.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Views\TabularView.xaml.cs">
       <DependentUpon>TabularView.xaml</DependentUpon>
     </Compile>
     <Page Include="Views\DoubanView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\FellowPlusView.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

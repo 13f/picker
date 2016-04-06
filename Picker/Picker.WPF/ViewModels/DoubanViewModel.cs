@@ -44,7 +44,8 @@ namespace Picker.ViewModels {
       string conn = System.Configuration.ConfigurationManager.ConnectionStrings["Postgresql_Douban"].ConnectionString;
       AppKey = System.Configuration.ConfigurationManager.AppSettings["DoubanAppKey"];
 
-      store = new Picker.Postgresql.StoreContext( conn );
+      store = new Picker.Postgresql.StoreContext();
+      store.OpenDoubanDatabase( conn );
       api = new DoubanApi( AppKey );
       biz = new Douban( api, store, config );
 
@@ -551,7 +552,7 @@ namespace Picker.ViewModels {
         return;
       try {
         App.Current.Dispatcher.Invoke( () => {
-          List<StatisticsItem> data = store.LoadStatistics();
+          List<StatisticsItem> data = store.Douban_LoadStatistics();
           if ( StatisticsInfo != null )
             StatisticsInfo.Clear();
           if ( data != null )
