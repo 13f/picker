@@ -1,0 +1,2297 @@
+﻿{
+  "title": "营养信息：食物/薯类淀粉",
+  "url": "http://yingyang.911cha.com/",
+  "category": {
+    "id": 2,
+    "name": "食物/薯类淀粉",
+    "url": "http://yingyang.911cha.com/list_2.html"
+  },
+  "items": [
+    {
+      "name": "马铃薯[土豆，洋芋]",
+      "url": "http://yingyang.911cha.com/b2c=.html",
+      "category": 2,
+      "contains": [
+        {
+          "name": "热量",
+          "quantity": 76.0,
+          "unit": "千卡"
+        },
+        {
+          "name": "硫胺素",
+          "quantity": 0.08,
+          "unit": "毫克"
+        },
+        {
+          "name": "钙",
+          "quantity": 8.0,
+          "unit": "毫克"
+        },
+        {
+          "name": "蛋白质",
+          "quantity": 2.0,
+          "unit": "克"
+        },
+        {
+          "name": "核黄素",
+          "quantity": 0.04,
+          "unit": "毫克"
+        },
+        {
+          "name": "镁",
+          "quantity": 23.0,
+          "unit": "毫克"
+        },
+        {
+          "name": "脂肪",
+          "quantity": 0.2,
+          "unit": "克"
+        },
+        {
+          "name": "烟酸",
+          "quantity": 1.1,
+          "unit": "毫克"
+        },
+        {
+          "name": "铁",
+          "quantity": 0.8,
+          "unit": "毫克"
+        },
+        {
+          "name": "碳水化合物",
+          "quantity": 16.5,
+          "unit": "克"
+        },
+        {
+          "name": "维生素C",
+          "quantity": 27.0,
+          "unit": "毫克"
+        },
+        {
+          "name": "锰",
+          "quantity": 0.14,
+          "unit": "毫克"
+        },
+        {
+          "name": "膳食纤维",
+          "quantity": 0.7,
+          "unit": "克"
+        },
+        {
+          "name": "维生素E",
+          "quantity": 0.34,
+          "unit": "毫克"
+        },
+        {
+          "name": "锌",
+          "quantity": 0.37,
+          "unit": "毫克"
+        },
+        {
+          "name": "维生素A",
+          "quantity": 5.0,
+          "unit": "微克"
+        },
+        {
+          "name": "胆固醇",
+          "quantity": 0.0,
+          "unit": "毫克"
+        },
+        {
+          "name": "铜",
+          "quantity": 0.12,
+          "unit": "毫克"
+        },
+        {
+          "name": "胡罗卜素",
+          "quantity": 0.8,
+          "unit": "微克"
+        },
+        {
+          "name": "钾",
+          "quantity": 342.0,
+          "unit": "毫克"
+        },
+        {
+          "name": "磷",
+          "quantity": 40.0,
+          "unit": "毫克"
+        },
+        {
+          "name": "视黄醇",
+          "quantity": 79.8,
+          "unit": "微克"
+        },
+        {
+          "name": "钠",
+          "quantity": 2.7,
+          "unit": "毫克"
+        },
+        {
+          "name": "硒",
+          "quantity": 0.78,
+          "unit": "微克"
+        }
+      ]
+    },
+    {
+      "name": "马铃薯丁(脱水)",
+      "url": "http://yingyang.911cha.com/b3E=.html",
+      "category": 2,
+      "contains": [
+        {
+          "name": "热量",
+          "quantity": 337.0,
+          "unit": "千卡"
+        },
+        {
+          "name": "硫胺素",
+          "quantity": 0.14,
+          "unit": "毫克"
+        },
+        {
+          "name": "钙",
+          "quantity": 39.0,
+          "unit": "毫克"
+        },
+        {
+          "name": "蛋白质",
+          "quantity": 5.7,
+          "unit": "克"
+        },
+        {
+          "name": "核黄素",
+          "quantity": 0.0,
+          "unit": "毫克"
+        },
+        {
+          "name": "镁",
+          "quantity": 51.0,
+          "unit": "毫克"
+        },
+        {
+          "name": "脂肪",
+          "quantity": 0.5,
+          "unit": "克"
+        },
+        {
+          "name": "烟酸",
+          "quantity": 0.0,
+          "unit": "毫克"
+        },
+        {
+          "name": "铁",
+          "quantity": 2.4,
+          "unit": "毫克"
+        },
+        {
+          "name": "碳水化合物",
+          "quantity": 77.4,
+          "unit": "克"
+        },
+        {
+          "name": "维生素C",
+          "quantity": 20.0,
+          "unit": "毫克"
+        },
+        {
+          "name": "锰",
+          "quantity": 0.36,
+          "unit": "毫克"
+        },
+        {
+          "name": "膳食纤维",
+          "quantity": 3.3,
+          "unit": "克"
+        },
+        {
+          "name": "维生素E",
+          "quantity": 0.0,
+          "unit": "毫克"
+        },
+        {
+          "name": "锌",
+          "quantity": 0.41,
+          "unit": "毫克"
+        },
+        {
+          "name": "维生素A",
+          "quantity": 0.0,
+          "unit": "微克"
+        },
+        {
+          "name": "胆固醇",
+          "quantity": 0.0,
+          "unit": "毫克"
+        },
+        {
+          "name": "铜",
+          "quantity": 1.31,
+          "unit": "毫克"
+        },
+        {
+          "name": "胡罗卜素",
+          "quantity": 1.7,
+          "unit": "微克"
+        },
+        {
+          "name": "钾",
+          "quantity": 267.0,
+          "unit": "毫克"
+        },
+        {
+          "name": "磷",
+          "quantity": 87.0,
+          "unit": "毫克"
+        },
+        {
+          "name": "视黄醇",
+          "quantity": 11.4,
+          "unit": "微克"
+        },
+        {
+          "name": "钠",
+          "quantity": 22.6,
+          "unit": "毫克"
+        },
+        {
+          "name": "硒",
+          "quantity": 2.17,
+          "unit": "微克"
+        }
+      ]
+    },
+    {
+      "name": "马铃薯粉",
+      "url": "http://yingyang.911cha.com/cDA=.html",
+      "category": 2,
+      "contains": [
+        {
+          "name": "热量",
+          "quantity": 337.0,
+          "unit": "千卡"
+        },
+        {
+          "name": "硫胺素",
+          "quantity": 0.08,
+          "unit": "毫克"
+        },
+        {
+          "name": "钙",
+          "quantity": 171.0,
+          "unit": "毫克"
+        },
+        {
+          "name": "蛋白质",
+          "quantity": 7.2,
+          "unit": "克"
+        },
+        {
+          "name": "核黄素",
+          "quantity": 0.06,
+          "unit": "毫克"
+        },
+        {
+          "name": "镁",
+          "quantity": 27.0,
+          "unit": "毫克"
+        },
+        {
+          "name": "脂肪",
+          "quantity": 0.5,
+          "unit": "克"
+        },
+        {
+          "name": "烟酸",
+          "quantity": 5.1,
+          "unit": "毫克"
+        },
+        {
+          "name": "铁",
+          "quantity": 10.7,
+          "unit": "毫克"
+        },
+        {
+          "name": "碳水化合物",
+          "quantity": 76.0,
+          "unit": "克"
+        },
+        {
+          "name": "维生素C",
+          "quantity": 0.0,
+          "unit": "毫克"
+        },
+        {
+          "name": "锰",
+          "quantity": 0.37,
+          "unit": "毫克"
+        },
+        {
+          "name": "膳食纤维",
+          "quantity": 1.4,
+          "unit": "克"
+        },
+        {
+          "name": "维生素E",
+          "quantity": 0.28,
+          "unit": "毫克"
+        },
+        {
+          "name": "锌",
+          "quantity": 1.22,
+          "unit": "毫克"
+        },
+        {
+          "name": "维生素A",
+          "quantity": 20.0,
+          "unit": "微克"
+        },
+        {
+          "name": "胆固醇",
+          "quantity": 0.0,
+          "unit": "毫克"
+        },
+        {
+          "name": "铜",
+          "quantity": 1.06,
+          "unit": "毫克"
+        },
+        {
+          "name": "胡罗卜素",
+          "quantity": 2.9,
+          "unit": "微克"
+        },
+        {
+          "name": "钾",
+          "quantity": 1075.0,
+          "unit": "毫克"
+        },
+        {
+          "name": "磷",
+          "quantity": 123.0,
+          "unit": "毫克"
+        },
+        {
+          "name": "视黄醇",
+          "quantity": 12.0,
+          "unit": "微克"
+        },
+        {
+          "name": "钠",
+          "quantity": 4.7,
+          "unit": "毫克"
+        },
+        {
+          "name": "硒",
+          "quantity": 1.58,
+          "unit": "微克"
+        }
+      ]
+    },
+    {
+      "name": "甘薯(白心)[红皮山芋]",
+      "url": "http://yingyang.911cha.com/cGE=.html",
+      "category": 2,
+      "contains": [
+        {
+          "name": "热量",
+          "quantity": 104.0,
+          "unit": "千卡"
+        },
+        {
+          "name": "硫胺素",
+          "quantity": 0.07,
+          "unit": "毫克"
+        },
+        {
+          "name": "钙",
+          "quantity": 24.0,
+          "unit": "毫克"
+        },
+        {
+          "name": "蛋白质",
+          "quantity": 1.4,
+          "unit": "克"
+        },
+        {
+          "name": "核黄素",
+          "quantity": 0.04,
+          "unit": "毫克"
+        },
+        {
+          "name": "镁",
+          "quantity": 17.0,
+          "unit": "毫克"
+        },
+        {
+          "name": "脂肪",
+          "quantity": 0.2,
+          "unit": "克"
+        },
+        {
+          "name": "烟酸",
+          "quantity": 0.6,
+          "unit": "毫克"
+        },
+        {
+          "name": "铁",
+          "quantity": 0.8,
+          "unit": "毫克"
+        },
+        {
+          "name": "碳水化合物",
+          "quantity": 24.2,
+          "unit": "克"
+        },
+        {
+          "name": "维生素C",
+          "quantity": 24.0,
+          "unit": "毫克"
+        },
+        {
+          "name": "锰",
+          "quantity": 0.21,
+          "unit": "毫克"
+        },
+        {
+          "name": "膳食纤维",
+          "quantity": 1.0,
+          "unit": "克"
+        },
+        {
+          "name": "维生素E",
+          "quantity": 0.43,
+          "unit": "毫克"
+        },
+        {
+          "name": "锌",
+          "quantity": 0.22,
+          "unit": "毫克"
+        },
+        {
+          "name": "维生素A",
+          "quantity": 37.0,
+          "unit": "微克"
+        },
+        {
+          "name": "胆固醇",
+          "quantity": 0.0,
+          "unit": "毫克"
+        },
+        {
+          "name": "铜",
+          "quantity": 0.16,
+          "unit": "毫克"
+        },
+        {
+          "name": "胡罗卜素",
+          "quantity": 0.6,
+          "unit": "微克"
+        },
+        {
+          "name": "钾",
+          "quantity": 174.0,
+          "unit": "毫克"
+        },
+        {
+          "name": "磷",
+          "quantity": 46.0,
+          "unit": "毫克"
+        },
+        {
+          "name": "视黄醇",
+          "quantity": 72.6,
+          "unit": "微克"
+        },
+        {
+          "name": "钠",
+          "quantity": 58.2,
+          "unit": "毫克"
+        },
+        {
+          "name": "硒",
+          "quantity": 0.63,
+          "unit": "微克"
+        }
+      ]
+    },
+    {
+      "name": "甘薯(红心)[山芋，红薯]",
+      "url": "http://yingyang.911cha.com/cGs=.html",
+      "category": 2,
+      "contains": [
+        {
+          "name": "热量",
+          "quantity": 99.0,
+          "unit": "千卡"
+        },
+        {
+          "name": "硫胺素",
+          "quantity": 0.04,
+          "unit": "毫克"
+        },
+        {
+          "name": "钙",
+          "quantity": 23.0,
+          "unit": "毫克"
+        },
+        {
+          "name": "蛋白质",
+          "quantity": 1.1,
+          "unit": "克"
+        },
+        {
+          "name": "核黄素",
+          "quantity": 0.04,
+          "unit": "毫克"
+        },
+        {
+          "name": "镁",
+          "quantity": 12.0,
+          "unit": "毫克"
+        },
+        {
+          "name": "脂肪",
+          "quantity": 0.2,
+          "unit": "克"
+        },
+        {
+          "name": "烟酸",
+          "quantity": 0.6,
+          "unit": "毫克"
+        },
+        {
+          "name": "铁",
+          "quantity": 0.5,
+          "unit": "毫克"
+        },
+        {
+          "name": "碳水化合物",
+          "quantity": 23.1,
+          "unit": "克"
+        },
+        {
+          "name": "维生素C",
+          "quantity": 26.0,
+          "unit": "毫克"
+        },
+        {
+          "name": "锰",
+          "quantity": 0.11,
+          "unit": "毫克"
+        },
+        {
+          "name": "膳食纤维",
+          "quantity": 1.6,
+          "unit": "克"
+        },
+        {
+          "name": "维生素E",
+          "quantity": 0.28,
+          "unit": "毫克"
+        },
+        {
+          "name": "锌",
+          "quantity": 0.15,
+          "unit": "毫克"
+        },
+        {
+          "name": "维生素A",
+          "quantity": 125.0,
+          "unit": "微克"
+        },
+        {
+          "name": "胆固醇",
+          "quantity": 0.0,
+          "unit": "毫克"
+        },
+        {
+          "name": "铜",
+          "quantity": 0.18,
+          "unit": "毫克"
+        },
+        {
+          "name": "胡罗卜素",
+          "quantity": 0.6,
+          "unit": "微克"
+        },
+        {
+          "name": "钾",
+          "quantity": 130.0,
+          "unit": "毫克"
+        },
+        {
+          "name": "磷",
+          "quantity": 39.0,
+          "unit": "毫克"
+        },
+        {
+          "name": "视黄醇",
+          "quantity": 73.4,
+          "unit": "微克"
+        },
+        {
+          "name": "钠",
+          "quantity": 28.5,
+          "unit": "毫克"
+        },
+        {
+          "name": "硒",
+          "quantity": 0.48,
+          "unit": "微克"
+        }
+      ]
+    },
+    {
+      "name": "甘薯片[白薯干]",
+      "url": "http://yingyang.911cha.com/cHU=.html",
+      "category": 2,
+      "contains": [
+        {
+          "name": "热量",
+          "quantity": 340.0,
+          "unit": "千卡"
+        },
+        {
+          "name": "硫胺素",
+          "quantity": 0.15,
+          "unit": "毫克"
+        },
+        {
+          "name": "钙",
+          "quantity": 112.0,
+          "unit": "毫克"
+        },
+        {
+          "name": "蛋白质",
+          "quantity": 4.7,
+          "unit": "克"
+        },
+        {
+          "name": "核黄素",
+          "quantity": 0.11,
+          "unit": "毫克"
+        },
+        {
+          "name": "镁",
+          "quantity": 102.0,
+          "unit": "毫克"
+        },
+        {
+          "name": "脂肪",
+          "quantity": 0.8,
+          "unit": "克"
+        },
+        {
+          "name": "烟酸",
+          "quantity": 1.1,
+          "unit": "毫克"
+        },
+        {
+          "name": "铁",
+          "quantity": 3.7,
+          "unit": "毫克"
+        },
+        {
+          "name": "碳水化合物",
+          "quantity": 78.5,
+          "unit": "克"
+        },
+        {
+          "name": "维生素C",
+          "quantity": 9.0,
+          "unit": "毫克"
+        },
+        {
+          "name": "锰",
+          "quantity": 1.14,
+          "unit": "毫克"
+        },
+        {
+          "name": "膳食纤维",
+          "quantity": 2.0,
+          "unit": "克"
+        },
+        {
+          "name": "维生素E",
+          "quantity": 0.38,
+          "unit": "毫克"
+        },
+        {
+          "name": "锌",
+          "quantity": 0.35,
+          "unit": "毫克"
+        },
+        {
+          "name": "维生素A",
+          "quantity": 25.0,
+          "unit": "微克"
+        },
+        {
+          "name": "胆固醇",
+          "quantity": 0.0,
+          "unit": "毫克"
+        },
+        {
+          "name": "铜",
+          "quantity": 0.5,
+          "unit": "毫克"
+        },
+        {
+          "name": "胡罗卜素",
+          "quantity": 1.9,
+          "unit": "微克"
+        },
+        {
+          "name": "钾",
+          "quantity": 353.0,
+          "unit": "毫克"
+        },
+        {
+          "name": "磷",
+          "quantity": 115.0,
+          "unit": "毫克"
+        },
+        {
+          "name": "视黄醇",
+          "quantity": 12.1,
+          "unit": "微克"
+        },
+        {
+          "name": "钠",
+          "quantity": 26.4,
+          "unit": "毫克"
+        },
+        {
+          "name": "硒",
+          "quantity": 2.64,
+          "unit": "微克"
+        }
+      ]
+    },
+    {
+      "name": "甘薯粉[地瓜粉]",
+      "url": "http://yingyang.911cha.com/cTQ=.html",
+      "category": 2,
+      "contains": [
+        {
+          "name": "热量",
+          "quantity": 336.0,
+          "unit": "千卡"
+        },
+        {
+          "name": "硫胺素",
+          "quantity": 0.03,
+          "unit": "毫克"
+        },
+        {
+          "name": "钙",
+          "quantity": 33.0,
+          "unit": "毫克"
+        },
+        {
+          "name": "蛋白质",
+          "quantity": 2.7,
+          "unit": "克"
+        },
+        {
+          "name": "核黄素",
+          "quantity": 0.05,
+          "unit": "毫克"
+        },
+        {
+          "name": "镁",
+          "quantity": 102.0,
+          "unit": "毫克"
+        },
+        {
+          "name": "脂肪",
+          "quantity": 0.2,
+          "unit": "克"
+        },
+        {
+          "name": "烟酸",
+          "quantity": 0.2,
+          "unit": "毫克"
+        },
+        {
+          "name": "铁",
+          "quantity": 10.0,
+          "unit": "毫克"
+        },
+        {
+          "name": "碳水化合物",
+          "quantity": 80.8,
+          "unit": "克"
+        },
+        {
+          "name": "维生素C",
+          "quantity": 0.0,
+          "unit": "毫克"
+        },
+        {
+          "name": "锰",
+          "quantity": 0.33,
+          "unit": "毫克"
+        },
+        {
+          "name": "膳食纤维",
+          "quantity": 0.1,
+          "unit": "克"
+        },
+        {
+          "name": "维生素E",
+          "quantity": 0.0,
+          "unit": "毫克"
+        },
+        {
+          "name": "锌",
+          "quantity": 0.29,
+          "unit": "毫克"
+        },
+        {
+          "name": "维生素A",
+          "quantity": 3.0,
+          "unit": "微克"
+        },
+        {
+          "name": "胆固醇",
+          "quantity": 0.0,
+          "unit": "毫克"
+        },
+        {
+          "name": "铜",
+          "quantity": 0.05,
+          "unit": "毫克"
+        },
+        {
+          "name": "胡罗卜素",
+          "quantity": 1.7,
+          "unit": "微克"
+        },
+        {
+          "name": "钾",
+          "quantity": 66.0,
+          "unit": "毫克"
+        },
+        {
+          "name": "磷",
+          "quantity": 12.0,
+          "unit": "毫克"
+        },
+        {
+          "name": "视黄醇",
+          "quantity": 14.5,
+          "unit": "微克"
+        },
+        {
+          "name": "钠",
+          "quantity": 26.4,
+          "unit": "毫克"
+        },
+        {
+          "name": "硒",
+          "quantity": 2.62,
+          "unit": "微克"
+        }
+      ]
+    },
+    {
+      "name": "木薯",
+      "url": "http://yingyang.911cha.com/cWU=.html",
+      "category": 2,
+      "contains": [
+        {
+          "name": "热量",
+          "quantity": 116.0,
+          "unit": "千卡"
+        },
+        {
+          "name": "硫胺素",
+          "quantity": 0.21,
+          "unit": "毫克"
+        },
+        {
+          "name": "钙",
+          "quantity": 88.0,
+          "unit": "毫克"
+        },
+        {
+          "name": "蛋白质",
+          "quantity": 2.1,
+          "unit": "克"
+        },
+        {
+          "name": "核黄素",
+          "quantity": 0.09,
+          "unit": "毫克"
+        },
+        {
+          "name": "镁",
+          "quantity": 66.0,
+          "unit": "毫克"
+        },
+        {
+          "name": "脂肪",
+          "quantity": 0.3,
+          "unit": "克"
+        },
+        {
+          "name": "烟酸",
+          "quantity": 1.2,
+          "unit": "毫克"
+        },
+        {
+          "name": "铁",
+          "quantity": 2.5,
+          "unit": "毫克"
+        },
+        {
+          "name": "碳水化合物",
+          "quantity": 26.2,
+          "unit": "克"
+        },
+        {
+          "name": "维生素C",
+          "quantity": 35.0,
+          "unit": "毫克"
+        },
+        {
+          "name": "锰",
+          "quantity": 0.0,
+          "unit": "毫克"
+        },
+        {
+          "name": "膳食纤维",
+          "quantity": 1.6,
+          "unit": "克"
+        },
+        {
+          "name": "维生素E",
+          "quantity": 0.0,
+          "unit": "毫克"
+        },
+        {
+          "name": "锌",
+          "quantity": 0.0,
+          "unit": "毫克"
+        },
+        {
+          "name": "维生素A",
+          "quantity": 0.0,
+          "unit": "微克"
+        },
+        {
+          "name": "胆固醇",
+          "quantity": 0.0,
+          "unit": "毫克"
+        },
+        {
+          "name": "铜",
+          "quantity": 0.0,
+          "unit": "毫克"
+        },
+        {
+          "name": "胡罗卜素",
+          "quantity": 0.8,
+          "unit": "微克"
+        },
+        {
+          "name": "钾",
+          "quantity": 764.0,
+          "unit": "毫克"
+        },
+        {
+          "name": "磷",
+          "quantity": 50.0,
+          "unit": "毫克"
+        },
+        {
+          "name": "视黄醇",
+          "quantity": 69.0,
+          "unit": "微克"
+        },
+        {
+          "name": "钠",
+          "quantity": 8.0,
+          "unit": "毫克"
+        },
+        {
+          "name": "硒",
+          "quantity": 0.0,
+          "unit": "微克"
+        }
+      ]
+    },
+    {
+      "name": "蚕豆淀粉",
+      "url": "http://yingyang.911cha.com/cW8=.html",
+      "category": 2,
+      "contains": [
+        {
+          "name": "热量",
+          "quantity": 341.0,
+          "unit": "千卡"
+        },
+        {
+          "name": "硫胺素",
+          "quantity": 0.04,
+          "unit": "毫克"
+        },
+        {
+          "name": "钙",
+          "quantity": 36.0,
+          "unit": "毫克"
+        },
+        {
+          "name": "蛋白质",
+          "quantity": 0.5,
+          "unit": "克"
+        },
+        {
+          "name": "核黄素",
+          "quantity": 0.0,
+          "unit": "毫克"
+        },
+        {
+          "name": "镁",
+          "quantity": 8.0,
+          "unit": "毫克"
+        },
+        {
+          "name": "脂肪",
+          "quantity": 0.0,
+          "unit": "克"
+        },
+        {
+          "name": "烟酸",
+          "quantity": 0.0,
+          "unit": "毫克"
+        },
+        {
+          "name": "铁",
+          "quantity": 2.3,
+          "unit": "毫克"
+        },
+        {
+          "name": "碳水化合物",
+          "quantity": 84.8,
+          "unit": "克"
+        },
+        {
+          "name": "维生素C",
+          "quantity": 0.0,
+          "unit": "毫克"
+        },
+        {
+          "name": "锰",
+          "quantity": 0.07,
+          "unit": "毫克"
+        },
+        {
+          "name": "膳食纤维",
+          "quantity": 0.5,
+          "unit": "克"
+        },
+        {
+          "name": "维生素E",
+          "quantity": 0.0,
+          "unit": "毫克"
+        },
+        {
+          "name": "锌",
+          "quantity": 0.05,
+          "unit": "毫克"
+        },
+        {
+          "name": "维生素A",
+          "quantity": 0.0,
+          "unit": "微克"
+        },
+        {
+          "name": "胆固醇",
+          "quantity": 0.0,
+          "unit": "毫克"
+        },
+        {
+          "name": "铜",
+          "quantity": 0.04,
+          "unit": "毫克"
+        },
+        {
+          "name": "胡罗卜素",
+          "quantity": 0.1,
+          "unit": "微克"
+        },
+        {
+          "name": "钾",
+          "quantity": 10.0,
+          "unit": "毫克"
+        },
+        {
+          "name": "磷",
+          "quantity": 29.0,
+          "unit": "毫克"
+        },
+        {
+          "name": "视黄醇",
+          "quantity": 14.1,
+          "unit": "微克"
+        },
+        {
+          "name": "钠",
+          "quantity": 18.2,
+          "unit": "毫克"
+        },
+        {
+          "name": "硒",
+          "quantity": 0.54,
+          "unit": "微克"
+        }
+      ]
+    },
+    {
+      "name": "豌豆淀粉",
+      "url": "http://yingyang.911cha.com/cXk=.html",
+      "category": 2,
+      "contains": [
+        {
+          "name": "热量",
+          "quantity": 341.0,
+          "unit": "千卡"
+        },
+        {
+          "name": "硫胺素",
+          "quantity": 0.01,
+          "unit": "毫克"
+        },
+        {
+          "name": "钙",
+          "quantity": 4.0,
+          "unit": "毫克"
+        },
+        {
+          "name": "蛋白质",
+          "quantity": 0.6,
+          "unit": "克"
+        },
+        {
+          "name": "核黄素",
+          "quantity": 0.0,
+          "unit": "毫克"
+        },
+        {
+          "name": "镁",
+          "quantity": 4.0,
+          "unit": "毫克"
+        },
+        {
+          "name": "脂肪",
+          "quantity": 0.0,
+          "unit": "克"
+        },
+        {
+          "name": "烟酸",
+          "quantity": 0.1,
+          "unit": "毫克"
+        },
+        {
+          "name": "铁",
+          "quantity": 1.7,
+          "unit": "毫克"
+        },
+        {
+          "name": "碳水化合物",
+          "quantity": 84.7,
+          "unit": "克"
+        },
+        {
+          "name": "维生素C",
+          "quantity": 0.0,
+          "unit": "毫克"
+        },
+        {
+          "name": "锰",
+          "quantity": 0.29,
+          "unit": "毫克"
+        },
+        {
+          "name": "膳食纤维",
+          "quantity": 0.3,
+          "unit": "克"
+        },
+        {
+          "name": "维生素E",
+          "quantity": 0.0,
+          "unit": "毫克"
+        },
+        {
+          "name": "锌",
+          "quantity": 0.22,
+          "unit": "毫克"
+        },
+        {
+          "name": "维生素A",
+          "quantity": 0.0,
+          "unit": "微克"
+        },
+        {
+          "name": "胆固醇",
+          "quantity": 0.0,
+          "unit": "毫克"
+        },
+        {
+          "name": "铜",
+          "quantity": 0.03,
+          "unit": "毫克"
+        },
+        {
+          "name": "胡罗卜素",
+          "quantity": 0.8,
+          "unit": "微克"
+        },
+        {
+          "name": "钾",
+          "quantity": 93.0,
+          "unit": "毫克"
+        },
+        {
+          "name": "磷",
+          "quantity": 10.0,
+          "unit": "毫克"
+        },
+        {
+          "name": "视黄醇",
+          "quantity": 13.6,
+          "unit": "微克"
+        },
+        {
+          "name": "钠",
+          "quantity": 3.4,
+          "unit": "毫克"
+        },
+        {
+          "name": "硒",
+          "quantity": 0.0,
+          "unit": "微克"
+        }
+      ]
+    },
+    {
+      "name": "玉米淀粉",
+      "url": "http://yingyang.911cha.com/cjg=.html",
+      "category": 2,
+      "contains": [
+        {
+          "name": "热量",
+          "quantity": 345.0,
+          "unit": "千卡"
+        },
+        {
+          "name": "硫胺素",
+          "quantity": 0.03,
+          "unit": "毫克"
+        },
+        {
+          "name": "钙",
+          "quantity": 18.0,
+          "unit": "毫克"
+        },
+        {
+          "name": "蛋白质",
+          "quantity": 1.2,
+          "unit": "克"
+        },
+        {
+          "name": "核黄素",
+          "quantity": 0.04,
+          "unit": "毫克"
+        },
+        {
+          "name": "镁",
+          "quantity": 6.0,
+          "unit": "毫克"
+        },
+        {
+          "name": "脂肪",
+          "quantity": 0.1,
+          "unit": "克"
+        },
+        {
+          "name": "烟酸",
+          "quantity": 1.1,
+          "unit": "毫克"
+        },
+        {
+          "name": "铁",
+          "quantity": 4.0,
+          "unit": "毫克"
+        },
+        {
+          "name": "碳水化合物",
+          "quantity": 84.9,
+          "unit": "克"
+        },
+        {
+          "name": "维生素C",
+          "quantity": 0.0,
+          "unit": "毫克"
+        },
+        {
+          "name": "锰",
+          "quantity": 0.05,
+          "unit": "毫克"
+        },
+        {
+          "name": "膳食纤维",
+          "quantity": 0.1,
+          "unit": "克"
+        },
+        {
+          "name": "维生素E",
+          "quantity": 0.0,
+          "unit": "毫克"
+        },
+        {
+          "name": "锌",
+          "quantity": 0.09,
+          "unit": "毫克"
+        },
+        {
+          "name": "维生素A",
+          "quantity": 0.0,
+          "unit": "微克"
+        },
+        {
+          "name": "胆固醇",
+          "quantity": 0.0,
+          "unit": "毫克"
+        },
+        {
+          "name": "铜",
+          "quantity": 0.07,
+          "unit": "毫克"
+        },
+        {
+          "name": "胡罗卜素",
+          "quantity": 0.2,
+          "unit": "微克"
+        },
+        {
+          "name": "钾",
+          "quantity": 8.0,
+          "unit": "毫克"
+        },
+        {
+          "name": "磷",
+          "quantity": 25.0,
+          "unit": "毫克"
+        },
+        {
+          "name": "视黄醇",
+          "quantity": 13.5,
+          "unit": "微克"
+        },
+        {
+          "name": "钠",
+          "quantity": 6.3,
+          "unit": "毫克"
+        },
+        {
+          "name": "硒",
+          "quantity": 0.7,
+          "unit": "微克"
+        }
+      ]
+    },
+    {
+      "name": "团粉[芡粉]",
+      "url": "http://yingyang.911cha.com/cmk=.html",
+      "category": 2,
+      "contains": [
+        {
+          "name": "热量",
+          "quantity": 346.0,
+          "unit": "千卡"
+        },
+        {
+          "name": "硫胺素",
+          "quantity": 0.01,
+          "unit": "毫克"
+        },
+        {
+          "name": "钙",
+          "quantity": 34.0,
+          "unit": "毫克"
+        },
+        {
+          "name": "蛋白质",
+          "quantity": 1.5,
+          "unit": "克"
+        },
+        {
+          "name": "核黄素",
+          "quantity": 0.0,
+          "unit": "毫克"
+        },
+        {
+          "name": "镁",
+          "quantity": 14.0,
+          "unit": "毫克"
+        },
+        {
+          "name": "脂肪",
+          "quantity": 0.0,
+          "unit": "克"
+        },
+        {
+          "name": "烟酸",
+          "quantity": 0.2,
+          "unit": "毫克"
+        },
+        {
+          "name": "铁",
+          "quantity": 3.6,
+          "unit": "毫克"
+        },
+        {
+          "name": "碳水化合物",
+          "quantity": 85.0,
+          "unit": "克"
+        },
+        {
+          "name": "维生素C",
+          "quantity": 0.0,
+          "unit": "毫克"
+        },
+        {
+          "name": "锰",
+          "quantity": 0.08,
+          "unit": "毫克"
+        },
+        {
+          "name": "膳食纤维",
+          "quantity": 0.8,
+          "unit": "克"
+        },
+        {
+          "name": "维生素E",
+          "quantity": 0.0,
+          "unit": "毫克"
+        },
+        {
+          "name": "锌",
+          "quantity": 0.18,
+          "unit": "毫克"
+        },
+        {
+          "name": "维生素A",
+          "quantity": 0.0,
+          "unit": "微克"
+        },
+        {
+          "name": "胆固醇",
+          "quantity": 0.0,
+          "unit": "毫克"
+        },
+        {
+          "name": "铜",
+          "quantity": 0.06,
+          "unit": "毫克"
+        },
+        {
+          "name": "胡罗卜素",
+          "quantity": 0.1,
+          "unit": "微克"
+        },
+        {
+          "name": "钾",
+          "quantity": 16.0,
+          "unit": "毫克"
+        },
+        {
+          "name": "磷",
+          "quantity": 25.0,
+          "unit": "毫克"
+        },
+        {
+          "name": "视黄醇",
+          "quantity": 12.6,
+          "unit": "微克"
+        },
+        {
+          "name": "钠",
+          "quantity": 13.3,
+          "unit": "毫克"
+        },
+        {
+          "name": "硒",
+          "quantity": 0.37,
+          "unit": "微克"
+        }
+      ]
+    },
+    {
+      "name": "藕粉",
+      "url": "http://yingyang.911cha.com/cnM=.html",
+      "category": 2,
+      "contains": [
+        {
+          "name": "热量",
+          "quantity": 372.0,
+          "unit": "千卡"
+        },
+        {
+          "name": "硫胺素",
+          "quantity": 0.0,
+          "unit": "毫克"
+        },
+        {
+          "name": "钙",
+          "quantity": 8.0,
+          "unit": "毫克"
+        },
+        {
+          "name": "蛋白质",
+          "quantity": 0.2,
+          "unit": "克"
+        },
+        {
+          "name": "核黄素",
+          "quantity": 0.01,
+          "unit": "毫克"
+        },
+        {
+          "name": "镁",
+          "quantity": 2.0,
+          "unit": "毫克"
+        },
+        {
+          "name": "脂肪",
+          "quantity": 0.0,
+          "unit": "克"
+        },
+        {
+          "name": "烟酸",
+          "quantity": 0.4,
+          "unit": "毫克"
+        },
+        {
+          "name": "铁",
+          "quantity": 17.9,
+          "unit": "毫克"
+        },
+        {
+          "name": "碳水化合物",
+          "quantity": 92.9,
+          "unit": "克"
+        },
+        {
+          "name": "维生素C",
+          "quantity": 0.0,
+          "unit": "毫克"
+        },
+        {
+          "name": "锰",
+          "quantity": 0.28,
+          "unit": "毫克"
+        },
+        {
+          "name": "膳食纤维",
+          "quantity": 0.1,
+          "unit": "克"
+        },
+        {
+          "name": "维生素E",
+          "quantity": 0.0,
+          "unit": "毫克"
+        },
+        {
+          "name": "锌",
+          "quantity": 0.15,
+          "unit": "毫克"
+        },
+        {
+          "name": "维生素A",
+          "quantity": 0.0,
+          "unit": "微克"
+        },
+        {
+          "name": "胆固醇",
+          "quantity": 0.0,
+          "unit": "毫克"
+        },
+        {
+          "name": "铜",
+          "quantity": 0.22,
+          "unit": "毫克"
+        },
+        {
+          "name": "胡罗卜素",
+          "quantity": 0.4,
+          "unit": "微克"
+        },
+        {
+          "name": "钾",
+          "quantity": 35.0,
+          "unit": "毫克"
+        },
+        {
+          "name": "磷",
+          "quantity": 9.0,
+          "unit": "毫克"
+        },
+        {
+          "name": "视黄醇",
+          "quantity": 6.4,
+          "unit": "微克"
+        },
+        {
+          "name": "钠",
+          "quantity": 10.8,
+          "unit": "毫克"
+        },
+        {
+          "name": "硒",
+          "quantity": 2.1,
+          "unit": "微克"
+        }
+      ]
+    },
+    {
+      "name": "桂花藕粉",
+      "url": "http://yingyang.911cha.com/czI=.html",
+      "category": 2,
+      "contains": [
+        {
+          "name": "热量",
+          "quantity": 344.0,
+          "unit": "千卡"
+        },
+        {
+          "name": "硫胺素",
+          "quantity": 0.0,
+          "unit": "毫克"
+        },
+        {
+          "name": "钙",
+          "quantity": 36.0,
+          "unit": "毫克"
+        },
+        {
+          "name": "蛋白质",
+          "quantity": 0.4,
+          "unit": "克"
+        },
+        {
+          "name": "核黄素",
+          "quantity": 0.01,
+          "unit": "毫克"
+        },
+        {
+          "name": "镁",
+          "quantity": 5.0,
+          "unit": "毫克"
+        },
+        {
+          "name": "脂肪",
+          "quantity": 0.1,
+          "unit": "克"
+        },
+        {
+          "name": "烟酸",
+          "quantity": 0.2,
+          "unit": "毫克"
+        },
+        {
+          "name": "铁",
+          "quantity": 20.8,
+          "unit": "毫克"
+        },
+        {
+          "name": "碳水化合物",
+          "quantity": 85.3,
+          "unit": "克"
+        },
+        {
+          "name": "维生素C",
+          "quantity": 0.0,
+          "unit": "毫克"
+        },
+        {
+          "name": "锰",
+          "quantity": 0.34,
+          "unit": "毫克"
+        },
+        {
+          "name": "膳食纤维",
+          "quantity": 0.0,
+          "unit": "克"
+        },
+        {
+          "name": "维生素E",
+          "quantity": 0.0,
+          "unit": "毫克"
+        },
+        {
+          "name": "锌",
+          "quantity": 0.23,
+          "unit": "毫克"
+        },
+        {
+          "name": "维生素A",
+          "quantity": 0.0,
+          "unit": "微克"
+        },
+        {
+          "name": "胆固醇",
+          "quantity": 0.0,
+          "unit": "毫克"
+        },
+        {
+          "name": "铜",
+          "quantity": 0.05,
+          "unit": "毫克"
+        },
+        {
+          "name": "胡罗卜素",
+          "quantity": 0.6,
+          "unit": "微克"
+        },
+        {
+          "name": "钾",
+          "quantity": 14.0,
+          "unit": "毫克"
+        },
+        {
+          "name": "磷",
+          "quantity": 13.0,
+          "unit": "毫克"
+        },
+        {
+          "name": "视黄醇",
+          "quantity": 13.6,
+          "unit": "微克"
+        },
+        {
+          "name": "钠",
+          "quantity": 6.5,
+          "unit": "毫克"
+        },
+        {
+          "name": "硒",
+          "quantity": 0.39,
+          "unit": "微克"
+        }
+      ]
+    },
+    {
+      "name": "魔芋精粉[鬼芋粉，南星粉]",
+      "url": "http://yingyang.911cha.com/c2M=.html",
+      "category": 2,
+      "contains": [
+        {
+          "name": "热量",
+          "quantity": 37.0,
+          "unit": "千卡"
+        },
+        {
+          "name": "硫胺素",
+          "quantity": 0.0,
+          "unit": "毫克"
+        },
+        {
+          "name": "钙",
+          "quantity": 45.0,
+          "unit": "毫克"
+        },
+        {
+          "name": "蛋白质",
+          "quantity": 4.6,
+          "unit": "克"
+        },
+        {
+          "name": "核黄素",
+          "quantity": 0.1,
+          "unit": "毫克"
+        },
+        {
+          "name": "镁",
+          "quantity": 66.0,
+          "unit": "毫克"
+        },
+        {
+          "name": "脂肪",
+          "quantity": 0.1,
+          "unit": "克"
+        },
+        {
+          "name": "烟酸",
+          "quantity": 0.4,
+          "unit": "毫克"
+        },
+        {
+          "name": "铁",
+          "quantity": 1.6,
+          "unit": "毫克"
+        },
+        {
+          "name": "碳水化合物",
+          "quantity": 4.4,
+          "unit": "克"
+        },
+        {
+          "name": "维生素C",
+          "quantity": 0.0,
+          "unit": "毫克"
+        },
+        {
+          "name": "锰",
+          "quantity": 0.88,
+          "unit": "毫克"
+        },
+        {
+          "name": "膳食纤维",
+          "quantity": 74.4,
+          "unit": "克"
+        },
+        {
+          "name": "维生素E",
+          "quantity": 0.0,
+          "unit": "毫克"
+        },
+        {
+          "name": "锌",
+          "quantity": 2.05,
+          "unit": "毫克"
+        },
+        {
+          "name": "维生素A",
+          "quantity": 0.0,
+          "unit": "微克"
+        },
+        {
+          "name": "胆固醇",
+          "quantity": 0.0,
+          "unit": "毫克"
+        },
+        {
+          "name": "铜",
+          "quantity": 0.17,
+          "unit": "毫克"
+        },
+        {
+          "name": "胡罗卜素",
+          "quantity": 4.3,
+          "unit": "微克"
+        },
+        {
+          "name": "钾",
+          "quantity": 299.0,
+          "unit": "毫克"
+        },
+        {
+          "name": "磷",
+          "quantity": 272.0,
+          "unit": "毫克"
+        },
+        {
+          "name": "视黄醇",
+          "quantity": 12.2,
+          "unit": "微克"
+        },
+        {
+          "name": "钠",
+          "quantity": 49.9,
+          "unit": "毫克"
+        },
+        {
+          "name": "硒",
+          "quantity": 350.15,
+          "unit": "微克"
+        }
+      ]
+    },
+    {
+      "name": "粉丝",
+      "url": "http://yingyang.911cha.com/c20=.html",
+      "category": 2,
+      "contains": [
+        {
+          "name": "热量",
+          "quantity": 335.0,
+          "unit": "千卡"
+        },
+        {
+          "name": "硫胺素",
+          "quantity": 0.03,
+          "unit": "毫克"
+        },
+        {
+          "name": "钙",
+          "quantity": 31.0,
+          "unit": "毫克"
+        },
+        {
+          "name": "蛋白质",
+          "quantity": 0.8,
+          "unit": "克"
+        },
+        {
+          "name": "核黄素",
+          "quantity": 0.02,
+          "unit": "毫克"
+        },
+        {
+          "name": "镁",
+          "quantity": 11.0,
+          "unit": "毫克"
+        },
+        {
+          "name": "脂肪",
+          "quantity": 0.2,
+          "unit": "克"
+        },
+        {
+          "name": "烟酸",
+          "quantity": 0.4,
+          "unit": "毫克"
+        },
+        {
+          "name": "铁",
+          "quantity": 6.4,
+          "unit": "毫克"
+        },
+        {
+          "name": "碳水化合物",
+          "quantity": 82.6,
+          "unit": "克"
+        },
+        {
+          "name": "维生素C",
+          "quantity": 0.0,
+          "unit": "毫克"
+        },
+        {
+          "name": "锰",
+          "quantity": 0.15,
+          "unit": "毫克"
+        },
+        {
+          "name": "膳食纤维",
+          "quantity": 1.1,
+          "unit": "克"
+        },
+        {
+          "name": "维生素E",
+          "quantity": 0.0,
+          "unit": "毫克"
+        },
+        {
+          "name": "锌",
+          "quantity": 0.27,
+          "unit": "毫克"
+        },
+        {
+          "name": "维生素A",
+          "quantity": 0.0,
+          "unit": "微克"
+        },
+        {
+          "name": "胆固醇",
+          "quantity": 0.0,
+          "unit": "毫克"
+        },
+        {
+          "name": "铜",
+          "quantity": 0.05,
+          "unit": "毫克"
+        },
+        {
+          "name": "胡罗卜素",
+          "quantity": 0.3,
+          "unit": "微克"
+        },
+        {
+          "name": "钾",
+          "quantity": 18.0,
+          "unit": "毫克"
+        },
+        {
+          "name": "磷",
+          "quantity": 16.0,
+          "unit": "毫克"
+        },
+        {
+          "name": "视黄醇",
+          "quantity": 15.0,
+          "unit": "微克"
+        },
+        {
+          "name": "钠",
+          "quantity": 9.3,
+          "unit": "毫克"
+        },
+        {
+          "name": "硒",
+          "quantity": 3.39,
+          "unit": "微克"
+        }
+      ]
+    },
+    {
+      "name": "豌豆粉丝",
+      "url": "http://yingyang.911cha.com/c3c=.html",
+      "category": 2,
+      "contains": [
+        {
+          "name": "热量",
+          "quantity": 367.0,
+          "unit": "千卡"
+        },
+        {
+          "name": "硫胺素",
+          "quantity": 0.02,
+          "unit": "毫克"
+        },
+        {
+          "name": "钙",
+          "quantity": 10.0,
+          "unit": "毫克"
+        },
+        {
+          "name": "蛋白质",
+          "quantity": 0.4,
+          "unit": "克"
+        },
+        {
+          "name": "核黄素",
+          "quantity": 0.0,
+          "unit": "毫克"
+        },
+        {
+          "name": "镁",
+          "quantity": 4.0,
+          "unit": "毫克"
+        },
+        {
+          "name": "脂肪",
+          "quantity": 0.0,
+          "unit": "克"
+        },
+        {
+          "name": "烟酸",
+          "quantity": 0.0,
+          "unit": "毫克"
+        },
+        {
+          "name": "铁",
+          "quantity": 3.5,
+          "unit": "毫克"
+        },
+        {
+          "name": "碳水化合物",
+          "quantity": 91.4,
+          "unit": "克"
+        },
+        {
+          "name": "维生素C",
+          "quantity": 0.0,
+          "unit": "毫克"
+        },
+        {
+          "name": "锰",
+          "quantity": 0.09,
+          "unit": "毫克"
+        },
+        {
+          "name": "膳食纤维",
+          "quantity": 0.3,
+          "unit": "克"
+        },
+        {
+          "name": "维生素E",
+          "quantity": 0.0,
+          "unit": "毫克"
+        },
+        {
+          "name": "锌",
+          "quantity": 0.32,
+          "unit": "毫克"
+        },
+        {
+          "name": "维生素A",
+          "quantity": 0.0,
+          "unit": "微克"
+        },
+        {
+          "name": "胆固醇",
+          "quantity": 0.0,
+          "unit": "毫克"
+        },
+        {
+          "name": "铜",
+          "quantity": 0.05,
+          "unit": "毫克"
+        },
+        {
+          "name": "胡罗卜素",
+          "quantity": 0.2,
+          "unit": "微克"
+        },
+        {
+          "name": "钾",
+          "quantity": 6.0,
+          "unit": "毫克"
+        },
+        {
+          "name": "磷",
+          "quantity": 9.0,
+          "unit": "毫克"
+        },
+        {
+          "name": "视黄醇",
+          "quantity": 7.7,
+          "unit": "微克"
+        },
+        {
+          "name": "钠",
+          "quantity": 5.0,
+          "unit": "毫克"
+        },
+        {
+          "name": "硒",
+          "quantity": 0.0,
+          "unit": "微克"
+        }
+      ]
+    },
+    {
+      "name": "粉条",
+      "url": "http://yingyang.911cha.com/dDY=.html",
+      "category": 2,
+      "contains": [
+        {
+          "name": "热量",
+          "quantity": 337.0,
+          "unit": "千卡"
+        },
+        {
+          "name": "硫胺素",
+          "quantity": 0.01,
+          "unit": "毫克"
+        },
+        {
+          "name": "钙",
+          "quantity": 35.0,
+          "unit": "毫克"
+        },
+        {
+          "name": "蛋白质",
+          "quantity": 0.5,
+          "unit": "克"
+        },
+        {
+          "name": "核黄素",
+          "quantity": 0.0,
+          "unit": "毫克"
+        },
+        {
+          "name": "镁",
+          "quantity": 11.0,
+          "unit": "毫克"
+        },
+        {
+          "name": "脂肪",
+          "quantity": 0.1,
+          "unit": "克"
+        },
+        {
+          "name": "烟酸",
+          "quantity": 0.1,
+          "unit": "毫克"
+        },
+        {
+          "name": "铁",
+          "quantity": 5.2,
+          "unit": "毫克"
+        },
+        {
+          "name": "碳水化合物",
+          "quantity": 83.6,
+          "unit": "克"
+        },
+        {
+          "name": "维生素C",
+          "quantity": 0.0,
+          "unit": "毫克"
+        },
+        {
+          "name": "锰",
+          "quantity": 0.16,
+          "unit": "毫克"
+        },
+        {
+          "name": "膳食纤维",
+          "quantity": 0.6,
+          "unit": "克"
+        },
+        {
+          "name": "维生素E",
+          "quantity": 0.0,
+          "unit": "毫克"
+        },
+        {
+          "name": "锌",
+          "quantity": 0.83,
+          "unit": "毫克"
+        },
+        {
+          "name": "维生素A",
+          "quantity": 0.0,
+          "unit": "微克"
+        },
+        {
+          "name": "胆固醇",
+          "quantity": 0.0,
+          "unit": "毫克"
+        },
+        {
+          "name": "铜",
+          "quantity": 0.18,
+          "unit": "毫克"
+        },
+        {
+          "name": "胡罗卜素",
+          "quantity": 0.9,
+          "unit": "微克"
+        },
+        {
+          "name": "钾",
+          "quantity": 18.0,
+          "unit": "毫克"
+        },
+        {
+          "name": "磷",
+          "quantity": 23.0,
+          "unit": "毫克"
+        },
+        {
+          "name": "视黄醇",
+          "quantity": 14.3,
+          "unit": "微克"
+        },
+        {
+          "name": "钠",
+          "quantity": 9.6,
+          "unit": "毫克"
+        },
+        {
+          "name": "硒",
+          "quantity": 2.18,
+          "unit": "微克"
+        }
+      ]
+    }
+  ]
+}
