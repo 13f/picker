@@ -69,7 +69,8 @@
                             <metro:NumericUpDown Value="{Binding AutoLoopInterval, Mode=TwoWay}" Minimum="5" Maximum="20" Margin="5,0,0,0"></metro:NumericUpDown>
                             <TextBlock VerticalAlignment="Center" Margin="5,0,0,0">秒后，开始新一轮查询</TextBlock>
                         </StackPanel>
-                        <Button Margin="5" Width="150" Height="50" Content="Pick" Command="{Binding CmdPickProjectsList}"/>
+                        <Button Margin="5" Width="150" Height="50" Content="Pick List" Command="{Binding CmdPickProjectsList}"/>
+                        <Button Margin="5" Width="150" Height="50" Content="Pick Projects" Command="{Binding CmdPickProjects}"/>
                     </StackPanel>
                 </metro:MetroContentControl>
             </TabItem>

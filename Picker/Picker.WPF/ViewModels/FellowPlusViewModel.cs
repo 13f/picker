@@ -25,6 +25,7 @@ namespace Picker.ViewModels {
     AsynchronousCommand cmdPick = null;
 
     bool firstTime = true;
+    DispatcherTimer timer = null;
 
     #endregion
 
@@ -150,8 +151,11 @@ namespace Picker.ViewModels {
       store.OpenFellowPlusDatabase( conn );
       biz = new FellowPlus( store );
 
-      CmdPickProjectsList = new Command( OnCmdPickProjectsListExecute, OnCmdPickProjectsListCanExecute );
+      CmdPickProjectsList = new AsynchronousCommand( OnCmdPickProjectsListExecute, OnCmdPickProjectsListCanExecute );
+      CmdPickProjects = new AsynchronousCommand( OnCmdPickProjectsExecute, OnCmdPickProjectsCanExecute );
 
+      timer = new DispatcherTimer();
+      timer.Tick += Timer_Tick;
       init();
     }
 
@@ -161,7 +165,7 @@ namespace Picker.ViewModels {
     /// <summary>
     /// Gets the CmdPickProjectsList command.
     /// </summary>
-    public Command CmdPickProjectsList { get; private set; }
+    public AsynchronousCommand CmdPickProjectsList { get; private set; }
 
     /// <summary>
     /// Method to check whether the CmdPickProjectsList command can be executed.
@@ -176,18 +180,42 @@ namespace Picker.ViewModels {
     /// </summary>
     private async void OnCmdPickProjectsListExecute() {
       IsPickingData = true;
+      cmdPick = CmdPickProjectsList;
       try {
         TimeSpan tsInterval = new TimeSpan( 0, 0, AutoLoopInterval );
         await biz.LoopPickProjectList( tsInterval, UserId, Token, Skip );
-        // 更新统计数据
-        refreshStatistics();
       }
       catch ( Exception ex ) {
         Log = ex.Message;
       }
       finally {
         IsPickingData = false;
+        // 更新统计数据
+        refreshStatistics();
       }
+    }
+
+    /// <summary>
+    /// Gets the CmdPickProjects command.
+    /// </summary>
+    public AsynchronousCommand CmdPickProjects { get; private set; }
+
+    /// <summary>
+    /// Method to check whether the CmdPickProjects command can be executed.
+    /// </summary>
+    /// <returns><c>true</c> if the command can be executed; otherwise <c>false</c></returns>
+    private bool OnCmdPickProjectsCanExecute() {
+      return !IsPickingData;
+    }
+
+    /// <summary>
+    /// Method to invoke when the CmdPickProjects command is executed.
+    /// </summary>
+    private async void OnCmdPickProjectsExecute() {
+      IsPickingData = true;
+      cmdPick = CmdPickProjects;
+      timer.Interval = new TimeSpan( 0, 0, AutoLoopInterval );
+      timer.Start();
     }
 
     #endregion Commands
@@ -221,6 +249,26 @@ namespace Picker.ViewModels {
       }
       catch ( Exception ex ) {
         Log = "获取统计数据时出错，稍后重试：" + ex.Message;
+      }
+    }
+
+    private async void Timer_Tick( object sender, EventArgs e ) {
+      timer.Stop();
+      try {
+        int r = await biz.PickProject( UserId, Token );
+        if ( r > 0 )
+          timer.Start();
+        else {
+          IsPickingData = false;
+          // 更新统计数据
+          refreshStatistics();
+        }
+      }
+      catch ( Exception ex ) {
+        Log = ex.Message;
+        IsPickingData = false;
+        // 更新统计数据
+        refreshStatistics();
       }
     }
 

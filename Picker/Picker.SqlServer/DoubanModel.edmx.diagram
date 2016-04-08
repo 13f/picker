@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="d83256854a3c44d1a56ad7d3f2e66853" Name="Diagram1">
+        <EntityTypeShape EntityType="DoubanModel.Book" Width="1.5" PointX="0.75" PointY="0.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="DoubanModel.BookTask" Width="1.5" PointX="0.75" PointY="3.25" />
+        <EntityTypeShape EntityType="DoubanModel.MovieTask" Width="1.5" PointX="2.75" PointY="3.25" />
+        <EntityTypeShape EntityType="DoubanModel.MusicTask" Width="1.5" PointX="4.75" PointY="3.25" />
+        <EntityTypeShape EntityType="DoubanModel.TravelTask" Width="1.5" PointX="6.75" PointY="3.25" />
+        <EntityTypeShape EntityType="DoubanModel.UserTask" Width="1.5" PointX="8.75" PointY="3.25" />
+        <EntityTypeShape EntityType="DoubanModel.User" Width="1.5" PointX="8.75" PointY="0.5" />
+        <EntityTypeShape EntityType="DoubanModel.Movie" Width="1.5" PointX="2.75" PointY="0.5" />
+        <EntityTypeShape EntityType="DoubanModel.Music" Width="1.5" PointX="4.75" PointY="0.5" />
+        <EntityTypeShape EntityType="DoubanModel.Travel" Width="1.5" PointX="6.75" PointY="0.5" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

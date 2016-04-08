@@ -12,8 +12,15 @@ namespace Picker.Core.Storage {
     Task<int> FellowPlus_SaveChanges();
     List<StatisticsItem> FellowPlus_LoadStatistics();
 
+    string FellowPlus_SelectId_ProjectPreview_NotProcessed();
+    Task<int> FellowPlus_UpdateTag_ProjectPreview( string id, bool saveChanges );
     Task<int> FellowPlus_SaveProjectPreview( string url, JToken data, bool updateIfExists, bool saveChanges );
     Task<int> FellowPlus_SaveProjectPreviewList( JObject data, bool updateIfExists, bool saveChanges );
+
+    Task<int> FellowPlus_SaveProjectInfo( string projectId,
+      JToken tokenProject, JToken tokenCompany, JToken tokenInvest, JToken tokenWebsite, JToken tokenWeibo, JToken tokenWeixin, JToken tokenNews,
+      bool updateIfExists, bool saveChanges );
+
 
   }
 

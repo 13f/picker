@@ -52,46 +52,63 @@ namespace Picker.Core.Spider {
           skip += countPerPage;
         }
         catch(Exception ex ) {
-          break;
+          throw ex;
         }
       }
     }
 
-    public async Task PickProject( TimeSpan? interval, string userId, string token, string projectId ) {
+    public async Task<int> PickProject( string userId, string token, string projectId ) {
       try {
         string urlProject = String.Format( Api_Project, userId, token, projectId );
         string jsonProject = await client.DownloadStringTaskAsync( urlProject );
+        JToken project = JToken.Parse( jsonProject );
 
         await Task.Delay( 1000 );
         string urlWebsite = String.Format( Api_Website, userId, token, projectId );
         string jsonWebsite = await client.DownloadStringTaskAsync( urlWebsite );
+        JToken website = JToken.Parse( jsonWebsite );
 
         await Task.Delay( 1000 );
         string urlCompany = String.Format( Api_Company, userId, token, projectId );
         string jsonCompany = await client.DownloadStringTaskAsync( urlCompany );
+        JToken company = JToken.Parse( jsonCompany );
 
         await Task.Delay( 1000 );
         string urlInvest = String.Format( Api_Invest, userId, token, projectId );
         string jsonInvestt = await client.DownloadStringTaskAsync( urlInvest );
+        JToken invest = JToken.Parse( jsonInvestt );
 
         await Task.Delay( 1000 );
         string urlNews = String.Format( Api_News, userId, token, projectId );
         string jsonNews = await client.DownloadStringTaskAsync( urlNews );
+        JToken news = JToken.Parse( jsonNews );
 
         await Task.Delay( 1000 );
         string urlWeibo = String.Format( Api_Weibo, userId, token, projectId );
         string jsonWeibo = await client.DownloadStringTaskAsync( urlWeibo );
+        JToken weibo = JToken.Parse( jsonWeibo );
 
         await Task.Delay( 1000 );
         string urlWeixin = String.Format( Api_Weixin, userId, token, projectId );
         string jsonWeixin = await client.DownloadStringTaskAsync( urlWeixin );
+        JToken weixin = JToken.Parse( jsonWeixin );
 
         // save
-
+        await store.FellowPlus_SaveProjectInfo( projectId, project, company, invest, website, weibo, weixin, news, true, false );
+        await store.FellowPlus_UpdateTag_ProjectPreview( projectId, false );
+        int r = await store.FellowPlus_SaveChanges();
+        return r;
       }
       catch(Exception ex) {
         throw ex;
       }
+    }
+
+    public async Task<int> PickProject( string userId, string token ) {
+      string projectId = store.FellowPlus_SelectId_ProjectPreview_NotProcessed();
+      if ( string.IsNullOrWhiteSpace( projectId ) )
+        return 0;
+      return await PickProject( userId, token, projectId );
     }
 
   }
