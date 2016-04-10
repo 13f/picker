@@ -26,6 +26,7 @@ namespace Picker.ViewModels {
 
     bool firstTime = true;
     DispatcherTimer timer = null;
+    Random random = null;
 
     #endregion
 
@@ -114,6 +115,20 @@ namespace Picker.ViewModels {
     public static readonly PropertyData IsPickingDataProperty = RegisterProperty( "IsPickingUsers", typeof( bool ), false );
 
     /// <summary>
+    /// Gets or sets SkipRandomItemsWhenGetProjectPreviewNotProcessed.
+    /// </summary>
+    public bool SkipRandomItemsWhenGetProjectPreviewNotProcessed
+    {
+      get { return GetValue<bool>( SkipRandomItemsWhenGetProjectPreviewNotProcessedProperty ); }
+      set { SetValue( SkipRandomItemsWhenGetProjectPreviewNotProcessedProperty, value ); }
+    }
+
+    /// <summary>
+    /// Register the SkipRandomItemsWhenGetProjectPreviewNotProcessed property so it is known in the class.
+    /// </summary>
+    public static readonly PropertyData SkipRandomItemsWhenGetProjectPreviewNotProcessedProperty = RegisterProperty( "SkipRandomItemsWhenGetProjectPreviewNotProcessed", typeof( bool ), false );
+
+    /// <summary>
     /// Gets or sets StatisticsInfo.
     /// </summary>
     public ObservableCollection<StatisticsItem> StatisticsInfo
@@ -153,6 +168,8 @@ namespace Picker.ViewModels {
 
       CmdPickProjectsList = new AsynchronousCommand( OnCmdPickProjectsListExecute, OnCmdPickProjectsListCanExecute );
       CmdPickProjects = new AsynchronousCommand( OnCmdPickProjectsExecute, OnCmdPickProjectsCanExecute );
+
+      random = new Random( DateTime.Now.Millisecond );
 
       timer = new DispatcherTimer();
       timer.Tick += Timer_Tick;
@@ -255,7 +272,10 @@ namespace Picker.ViewModels {
     private async void Timer_Tick( object sender, EventArgs e ) {
       timer.Stop();
       try {
-        int r = await biz.PickProject( UserId, Token );
+        int skipRandomItems = 0;
+        if ( SkipRandomItemsWhenGetProjectPreviewNotProcessed )
+          skipRandomItems = random.Next( 1, 10 );
+        int r = await biz.PickProject( UserId, Token, skipRandomItems );
         if ( r > 0 )
           timer.Start();
         else {

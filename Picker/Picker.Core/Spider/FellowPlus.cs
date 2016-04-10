@@ -100,12 +100,13 @@ namespace Picker.Core.Spider {
         return r;
       }
       catch(Exception ex) {
+        Console.WriteLine( "Project ID: " + projectId );
         throw ex;
       }
     }
 
-    public async Task<int> PickProject( string userId, string token ) {
-      string projectId = store.FellowPlus_SelectId_ProjectPreview_NotProcessed();
+    public async Task<int> PickProject( string userId, string token, int skipRandomItems ) {
+      string projectId = store.FellowPlus_SelectId_ProjectPreview_NotProcessed( skipRandomItems );
       if ( string.IsNullOrWhiteSpace( projectId ) )
         return 0;
       return await PickProject( userId, token, projectId );

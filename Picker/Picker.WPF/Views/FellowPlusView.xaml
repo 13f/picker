@@ -70,13 +70,18 @@
                             <TextBlock VerticalAlignment="Center" Margin="5,0,0,0">秒后，开始新一轮查询</TextBlock>
                         </StackPanel>
                         <Button Margin="5" Width="150" Height="50" Content="Pick List" Command="{Binding CmdPickProjectsList}"/>
-                        <Button Margin="5" Width="150" Height="50" Content="Pick Projects" Command="{Binding CmdPickProjects}"/>
                     </StackPanel>
                 </metro:MetroContentControl>
             </TabItem>
 
             <TabItem Header="Project info">
                 <metro:MetroContentControl>
+                    <StackPanel>
+                        <CheckBox Margin="5" HorizontalAlignment="Center" IsThreeState="False"
+                                  Content="Skip RANDOM items when get ProjectPreview_NotProcessed"
+                                  IsChecked="{Binding SkipRandomItemsWhenGetProjectPreviewNotProcessed, Mode=TwoWay}"/>
+                        <Button Margin="5" Width="150" Height="50" Content="Pick Projects" Command="{Binding CmdPickProjects}"/>
+                    </StackPanel>
                 </metro:MetroContentControl>
             </TabItem>
         </TabControl>

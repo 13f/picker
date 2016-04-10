@@ -41,8 +41,14 @@ namespace Picker.Postgresql {
       return data;
     }
 
-    public string FellowPlus_SelectId_ProjectPreview_NotProcessed() {
-      FellowPlusProjectPreview item = fellowplusContext.FellowPlusProjectPreview.Where( i => i.ProcessedAt == null ).FirstOrDefault();
+    public string FellowPlus_SelectId_ProjectPreview_NotProcessed( int skipRandomItems ) {
+      int skip = skipRandomItems >= 0 ? skipRandomItems : 0;
+      FellowPlusProjectPreview item = fellowplusContext.FellowPlusProjectPreview
+        .Where( i => i.ProcessedAt == null &&
+        i.Id != "K_M36KR_PROJECT:186289" && i.Id != "K_M36KR_PROJECT:4895" )
+        .OrderByDescending( i => i.UpdatedAt )
+        .Skip( skip )
+        .FirstOrDefault();
       return item == null ? null : item.Id;
     }
 
@@ -212,10 +218,14 @@ namespace Picker.Postgresql {
           item.UpdatedAt = DateTime.UtcNow;
         }
         else if ( item == null ) {
+          string uri = (string)data["detail_url"];
+          // hack
+          if ( id == "17zuoye.com" )
+            uri = "http://www.17zuoye.com";
           item = new FellowPlusWebsite();
           item.ProjectId = projectId;
           item.Id = id;
-          item.Uri = (string)data["detail_url"];
+          item.Uri = uri;
           item.Content = data.ToString();
           item.CreatedAt = DateTime.UtcNow;
           item.UpdatedAt = DateTime.UtcNow;
@@ -328,6 +338,10 @@ namespace Picker.Postgresql {
         JArray array = (JArray)tokenCompany["companys"];
         foreach ( var item in array ) {
           string key = (string)item["name"];
+          if ( string.IsNullOrWhiteSpace( key ) ) // K_YCPAI_PROJECT:31030
+            continue;
+          key = key.Replace( "(", "（" )
+            .Replace( ")", "）" );
           if ( cache.Contains( key ) )
             continue;
           cache.Add( key );
@@ -344,6 +358,8 @@ namespace Picker.Postgresql {
         JArray array = (JArray)tokenWebsite["websites"];
         foreach ( var item in array ) {
           string key = (string)item["id"];
+          if ( string.IsNullOrWhiteSpace( key ) )
+            continue;
           if ( cache.Contains( key ) )
             continue;
           cache.Add( key );
@@ -356,6 +372,8 @@ namespace Picker.Postgresql {
         JArray array = (JArray)tokenNews["news"];
         foreach ( var item in array ) {
           string key = (string)item["detail_url"];
+          if ( string.IsNullOrWhiteSpace( key ) )
+            continue;
           if ( cache.Contains( key ) )
             continue;
           cache.Add( key );
