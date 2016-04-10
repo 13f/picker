@@ -53,14 +53,6 @@
                 <metro:MetroContentControl>
                     <StackPanel>
                         <StackPanel Orientation="Horizontal" VerticalAlignment="Top" Margin="10">
-                            <TextBlock VerticalAlignment="Center">User Id：</TextBlock>
-                            <TextBox Width="200" Height="30" Margin="10,0,0,0" Text="{Binding UserId, Mode=TwoWay}" IsReadOnly="True"/>
-                        </StackPanel>
-                        <StackPanel Orientation="Horizontal" VerticalAlignment="Top" Margin="10">
-                            <TextBlock VerticalAlignment="Center">Token  ：</TextBlock>
-                            <TextBox Width="200" Height="30" Margin="10,0,0,0" Text="{Binding Token, Mode=TwoWay}" IsReadOnly="True"/>
-                        </StackPanel>
-                        <StackPanel Orientation="Horizontal" VerticalAlignment="Top" Margin="10">
                             <TextBlock VerticalAlignment="Center">Skip/跳过：</TextBlock>
                             <TextBox Width="200" Height="30" Margin="10,0,0,0" Text="{Binding Skip, Mode=TwoWay}" IsReadOnly="True"/>
                         </StackPanel>
@@ -81,6 +73,27 @@
                                   Content="Skip RANDOM items when get ProjectPreview_NotProcessed"
                                   IsChecked="{Binding SkipRandomItemsWhenGetProjectPreviewNotProcessed, Mode=TwoWay}"/>
                         <Button Margin="5" Width="150" Height="50" Content="Pick Projects" Command="{Binding CmdPickProjects}"/>
+                        <Line Margin="5" Stroke="LightGray" Stretch="Fill" X2="1" />
+                        <StackPanel Orientation="Horizontal" VerticalAlignment="Top" Margin="10">
+                            <TextBlock VerticalAlignment="Center">Project Id：</TextBlock>
+                            <TextBox Width="200" Height="30" Margin="10,0,0,0" Text="{Binding ProjectId, Mode=TwoWay}" />
+                            <Button Margin="5" Width="150" Height="30" Content="Pick Project by id" Command="{Binding CmdPickProjectById}"/>
+                        </StackPanel>
+                    </StackPanel>
+                </metro:MetroContentControl>
+            </TabItem>
+
+            <TabItem Header="Config">
+                <metro:MetroContentControl>
+                    <StackPanel>
+                        <StackPanel Orientation="Horizontal" VerticalAlignment="Top" Margin="10">
+                            <TextBlock VerticalAlignment="Center">User Id：</TextBlock>
+                            <TextBox Width="200" Height="30" Margin="10,0,0,0" Text="{Binding UserId, Mode=TwoWay}"/>
+                        </StackPanel>
+                        <StackPanel Orientation="Horizontal" VerticalAlignment="Top" Margin="10">
+                            <TextBlock VerticalAlignment="Center">Token  ：</TextBlock>
+                            <TextBox Width="200" Height="30" Margin="10,0,0,0" Text="{Binding Token, Mode=TwoWay}"/>
+                        </StackPanel>
                     </StackPanel>
                 </metro:MetroContentControl>
             </TabItem>

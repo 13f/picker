@@ -38,6 +38,55 @@ namespace Picker.Postgresql {
         Count = projectsPreviewCount
       } );
 
+      long projectsCount = fellowplusContext.FellowPlusProject.LongCount();
+      data.Add( new StatisticsItem() {
+        Key = "projects",
+        Title = "Projects",
+        Count = projectsCount
+      } );
+
+      long companyCount = fellowplusContext.FellowPlusCompany.LongCount();
+      data.Add( new StatisticsItem() {
+        Key = "company",
+        Title = "Company",
+        Count = companyCount
+      } );
+
+      long investCount = fellowplusContext.FellowPlusInvest.LongCount();
+      data.Add( new StatisticsItem() {
+        Key = "invest",
+        Title = "Invest",
+        Count = investCount
+      } );
+
+      long websiteCount = fellowplusContext.FellowPlusWebsite.LongCount();
+      data.Add( new StatisticsItem() {
+        Key = "website",
+        Title = "Website",
+        Count = websiteCount
+      } );
+
+      long weiboCount = fellowplusContext.FellowPlusWeibo.LongCount();
+      data.Add( new StatisticsItem() {
+        Key = "weibo",
+        Title = "Weibo",
+        Count = weiboCount
+      } );
+
+      long weixinCount = fellowplusContext.FellowPlusWeixin.LongCount();
+      data.Add( new StatisticsItem() {
+        Key = "weixin",
+        Title = "Weixin",
+        Count = weixinCount
+      } );
+
+      long newsCount = fellowplusContext.FellowPlusNews.LongCount();
+      data.Add( new StatisticsItem() {
+        Key = "news",
+        Title = "News",
+        Count = newsCount
+      } );
+
       return data;
     }
 

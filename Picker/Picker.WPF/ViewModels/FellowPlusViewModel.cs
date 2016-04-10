@@ -129,6 +129,20 @@ namespace Picker.ViewModels {
     public static readonly PropertyData SkipRandomItemsWhenGetProjectPreviewNotProcessedProperty = RegisterProperty( "SkipRandomItemsWhenGetProjectPreviewNotProcessed", typeof( bool ), false );
 
     /// <summary>
+    /// Gets or sets ProjectId.
+    /// </summary>
+    public string ProjectId
+    {
+      get { return GetValue<string>( ProjectIdProperty ); }
+      set { SetValue( ProjectIdProperty, value ); }
+    }
+
+    /// <summary>
+    /// Register the ProjectId property so it is known in the class.
+    /// </summary>
+    public static readonly PropertyData ProjectIdProperty = RegisterProperty( "ProjectId", typeof( string ), null );
+
+    /// <summary>
     /// Gets or sets StatisticsInfo.
     /// </summary>
     public ObservableCollection<StatisticsItem> StatisticsInfo
@@ -168,6 +182,7 @@ namespace Picker.ViewModels {
 
       CmdPickProjectsList = new AsynchronousCommand( OnCmdPickProjectsListExecute, OnCmdPickProjectsListCanExecute );
       CmdPickProjects = new AsynchronousCommand( OnCmdPickProjectsExecute, OnCmdPickProjectsCanExecute );
+      CmdPickProjectById = new AsynchronousCommand( OnCmdPickProjectByIdExecute, OnCmdPickProjectByIdCanExecute );
 
       random = new Random( DateTime.Now.Millisecond );
 
@@ -233,6 +248,37 @@ namespace Picker.ViewModels {
       cmdPick = CmdPickProjects;
       timer.Interval = new TimeSpan( 0, 0, AutoLoopInterval );
       timer.Start();
+    }
+
+    /// <summary>
+    /// Gets the CmdPickProjectById command.
+    /// </summary>
+    public AsynchronousCommand CmdPickProjectById { get; private set; }
+
+    /// <summary>
+    /// Method to check whether the CmdPickProjectById command can be executed.
+    /// </summary>
+    /// <returns><c>true</c> if the command can be executed; otherwise <c>false</c></returns>
+    private bool OnCmdPickProjectByIdCanExecute() {
+      return !IsPickingData && !string.IsNullOrWhiteSpace( ProjectId );
+    }
+
+    /// <summary>
+    /// Method to invoke when the CmdPickProjectById command is executed.
+    /// </summary>
+    private async void OnCmdPickProjectByIdExecute() {
+      IsPickingData = true;
+      try {
+        await biz.PickProject( UserId, Token, ProjectId );
+      }
+      catch ( Exception ex ) {
+        Log = ex.Message;
+      }
+      finally {
+        IsPickingData = false;
+        // 更新统计数据
+        refreshStatistics();
+      }
     }
 
     #endregion Commands
