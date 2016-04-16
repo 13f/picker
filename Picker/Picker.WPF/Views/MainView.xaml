@@ -14,11 +14,14 @@
     </metro:MetroWindow.Resources>
 
     <Grid>
-        <metro:Tile Content="Parse HTML Table" Title="解析HTML Table" Margin="46,40,608,391"
+        <metro:Tile Content="Parse HTML" Title="解析HTML" Margin="30,40,624,391"
+                    Background="Purple"
+                    Command="{Binding CmdHtml}" />
+        <metro:Tile Content="Parse HTML Table" Title="解析HTML Table" Margin="199,40,455,391"
                     Background="OrangeRed"
                     Command="{Binding CmdHtmlTable}" />
 
-        <metro:Tile Content="Parse CSV" Title="解析CSV" Margin="222,40,432,391"
+        <metro:Tile Content="Parse CSV" Title="解析CSV" Margin="358,40,296,391"
                     Background="Orange"
                     Command="{Binding CmdCSV}" />
 

@@ -10,6 +10,20 @@ namespace Picker.ViewModels {
   public class MainViewModel : ViewModelBase {
 
     /// <summary>
+        /// Gets or sets HtmlViewOpened.
+        /// </summary>
+    public bool HtmlViewOpened
+    {
+      get { return GetValue<bool>( HtmlViewOpenedProperty ); }
+      set { SetValue( HtmlViewOpenedProperty, value ); }
+    }
+
+    /// <summary>
+    /// Register the HtmlViewOpened property so it is known in the class.
+    /// </summary>
+    public static readonly PropertyData HtmlViewOpenedProperty = RegisterProperty( "HtmlViewOpened", typeof( bool ), false );
+
+    /// <summary>
         /// Gets or sets HtmlTableViewOpend.
         /// </summary>
     public bool HtmlTableViewOpened
@@ -74,6 +88,7 @@ namespace Picker.ViewModels {
     public static readonly PropertyData FellowPlusViewOpenedProperty = RegisterProperty( "FellowPlusViewOpened", typeof( bool ), false );
 
     public MainViewModel() {
+      CmdHtml = new Command( OnCmdHtmlExecute, OnCmdHtmlCanExecute );
       CmdHtmlTable = new Command( OnCmdHtmlTableExecute, OnCmdHtmlTableCanExecute );
       CmdCSV = new Command( OnCmdCSVExecute, OnCmdCSVCanExecute );
 
@@ -83,6 +98,36 @@ namespace Picker.ViewModels {
 
 
     #region Commands
+
+    /// <summary>
+    /// Gets the CmdHtml command.
+    /// </summary>
+    public Command CmdHtml { get; private set; }
+    
+    /// <summary>
+    /// Method to check whether the CmdHtml command can be executed.
+    /// </summary>
+    /// <returns><c>true</c> if the command can be executed; otherwise <c>false</c></returns>
+    private bool OnCmdHtmlCanExecute() {
+      return !HtmlViewOpened;
+    }
+
+    /// <summary>
+    /// Method to invoke when the CmdHtml command is executed.
+    /// </summary>
+    private void OnCmdHtmlExecute() {
+      HtmlViewOpened = true;
+
+      //DoubanViewModel viewmodel = new DoubanViewModel();
+      Views.HtmlView view = new Views.HtmlView();
+      //view.DataContext = viewmodel;
+      view.Closed += HtmlView_Closed;
+      view.Show();
+    }
+
+    private void HtmlView_Closed( object sender, EventArgs e ) {
+      HtmlViewOpened = false;
+    }
 
     /// <summary>
     /// Gets the CmdHtmlTable command.

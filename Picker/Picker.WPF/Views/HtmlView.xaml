@@ -1,0 +1,49 @@
+﻿<metro:MetroWindow x:Class="Picker.Views.HtmlView"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:i="http://schemas.microsoft.com/expression/2010/interactivity"
+        xmlns:metro="http://metro.mahapps.com/winfx/xaml/controls"
+        xmlns:metroBehaviours="clr-namespace:MahApps.Metro.Behaviours;assembly=MahApps.Metro"
+        xmlns:catel="http://catel.codeplex.com"
+        xmlns:winFroms="clr-namespace:System.Windows.Forms;assembly=System.Windows.Forms"
+        Title="Html" Height="600" Width="800" ResizeMode="CanMinimize" WindowStartupLocation="CenterOwner">
+    <i:Interaction.Behaviors>
+        <metroBehaviours:BorderlessWindowBehavior/>
+    </i:Interaction.Behaviors>
+
+    <DockPanel>
+        <!--<StackPanel Orientation="Horizontal" DockPanel.Dock="Top" Margin="0,5,0,5">
+            <TextBox Width="200" />
+        </StackPanel>-->
+
+        <TabControl>
+            <TabItem Header="Browse">
+                <metro:MetroContentControl>
+                    <DockPanel>
+                        <DockPanel DockPanel.Dock="Top">
+                            <Button x:Name="tbClearHtml" Width="70" Height="30" Content="Clear" Visibility="Collapsed" DockPanel.Dock="Right" Click="tbClearHtml_Click"/>
+                            <Button x:Name="tbGo" Width="70" Height="30" Content="Go" DockPanel.Dock="Right" Click="tbGo_Click"/>
+                            <TextBox x:Name="tbUri" Height="30">
+                                <!--<i:Interaction.Behaviors>
+                                    <catel:UpdateBindingOnTextChanged UpdateDelay="300"/>
+                                </i:Interaction.Behaviors>-->
+                            </TextBox>
+                        </DockPanel>
+                        <WindowsFormsHost>
+                            <winFroms:WebBrowser x:Name="webBrowser" ScrollBarsEnabled="True" DocumentCompleted="webBrowser_DocumentCompleted"></winFroms:WebBrowser>
+                        </WindowsFormsHost>
+                    </DockPanel>
+                </metro:MetroContentControl>
+            </TabItem>
+
+            <TabItem Header="HTML">
+                <TextBox x:Name="tbHtml" AcceptsTab="True" AcceptsReturn="True" TextWrapping="Wrap"
+                         ScrollViewer.HorizontalScrollBarVisibility="Visible"
+                         ScrollViewer.VerticalScrollBarVisibility="Visible"
+                         metro:TextBoxHelper.Watermark="//html">
+                </TextBox>
+            </TabItem>
+        </TabControl>
+        
+    </DockPanel>
+</metro:MetroWindow>

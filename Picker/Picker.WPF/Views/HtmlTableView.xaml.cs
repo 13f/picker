@@ -11,6 +11,7 @@ using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
+using Picker.ViewModels;
 
 namespace Picker.Views {
   /// <summary>
@@ -20,5 +21,30 @@ namespace Picker.Views {
     public HtmlTableView() {
       InitializeComponent();
     }
+
+    private void btnProcess_Click( object sender, RoutedEventArgs e ) {
+      if ( tbIds.LineCount != tbIdsTitles.LineCount ) {
+        MessageBox.Show( "Ids.length != IdsTitles.length", "Error" );
+        return;
+      }
+
+      HtmlTableViewModel vm = this.DataContext as HtmlTableViewModel;
+      vm.IdsCount = tbIds.LineCount;
+
+      vm.Ids.Clear();
+      vm.IdsTitles.Clear();
+
+      for ( int i = 0; i < vm.IdsCount; i++ ) {
+        string id = tbIds.GetLineText( i );
+        vm.Ids.Add( id.Replace( "\r\n", "" ) );
+
+        string title = tbIdsTitles.GetLineText( i );
+        vm.IdsTitles.Add( title.Replace( "\r\n", "" ) );
+      }
+
+      vm.Process();
+    }
+
   }
+
 }

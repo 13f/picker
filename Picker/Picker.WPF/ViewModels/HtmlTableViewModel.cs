@@ -39,6 +39,52 @@ namespace Picker.ViewModels {
     /// </summary>
     public static readonly PropertyData JsonProperty = RegisterProperty( "Json", typeof( string ), null );
 
+    #region config
+
+    /// <summary>
+    /// Gets or sets IdsCount.
+    /// </summary>
+    public int IdsCount
+    {
+      get { return GetValue<int>( IdsCountProperty ); }
+      set { SetValue( IdsCountProperty, value ); }
+    }
+
+    /// <summary>
+    /// Register the IdsCount property so it is known in the class.
+    /// </summary>
+    public static readonly PropertyData IdsCountProperty = RegisterProperty( "IdsCount", typeof( int ), 0 );
+
+    /// <summary>
+    /// Gets or sets Ids.
+    /// </summary>
+    public List<string> Ids
+    {
+      get { return GetValue<List<string>>( IdsProperty ); }
+      set { SetValue( IdsProperty, value ); }
+    }
+
+    /// <summary>
+    /// Register the Ids property so it is known in the class.
+    /// </summary>
+    public static readonly PropertyData IdsProperty = RegisterProperty( "Ids", typeof( List<string> ), null );
+
+    /// <summary>
+    /// Gets or sets IdsTitles.
+    /// </summary>
+    public List<string> IdsTitles
+    {
+      get { return GetValue<List<string>>( IdsTitlesProperty ); }
+      set { SetValue( IdsTitlesProperty, value ); }
+    }
+
+    /// <summary>
+    /// Register the IdsTitles property so it is known in the class.
+    /// </summary>
+    public static readonly PropertyData IdsTitlesProperty = RegisterProperty( "IdsTitles", typeof( List<string> ), null );
+
+    #endregion config
+
     #region replace
 
     /// <summary>
@@ -73,12 +119,15 @@ namespace Picker.ViewModels {
 
 
     public HtmlTableViewModel() {
+      Ids = new List<string>();
+      IdsTitles = new List<string>();
+
       CmdFormatXml = new Command( OnCmdFormatXmlExecute );
       CmdFormatJson = new Command( OnCmdFormatJsonExecute );
 
       CmdReplaceXml = new Command( OnCmdReplaceXmlExecute );
 
-      CmdProcess = new Command( OnCmdProcessExecute );
+      //CmdProcess = new Command( OnCmdProcessExecute );
     }
 
     #region Commands
@@ -126,7 +175,7 @@ namespace Picker.ViewModels {
     /// Gets the CmdFormatJson command.
     /// </summary>
     public Command CmdFormatJson { get; private set; }
-    
+
     /// <summary>
     /// Method to invoke when the CmdFormatJson command is executed.
     /// </summary>
@@ -142,24 +191,77 @@ namespace Picker.ViewModels {
 
     #endregion Json
 
-    /// <summary>
-    /// Gets the CmdProcess command.
-    /// </summary>
-    public Command CmdProcess { get; private set; }
-    
-    /// <summary>
-    /// Method to invoke when the CmdProcess command is executed.
-    /// </summary>
-    private void OnCmdProcessExecute() {
-      
-    }
+    ///// <summary>
+    ///// Gets the CmdProcess command.
+    ///// </summary>
+    //public Command CmdProcess { get; private set; }
+
+    ///// <summary>
+    ///// Method to invoke when the CmdProcess command is executed.
+    ///// </summary>
+    //private void OnCmdProcessExecute() {
+
+    //}
 
     #endregion Commands
 
 
     #region Methods
 
+    public void Process() {
+      try {
+        XElement root = XElement.Parse( TableXml );
+        XElement tbody = root.Element( "tbody" );
+        var xeRows = tbody.Elements( "tr" );
 
+        JObject joRoot = new JObject();
+        joRoot["title"] = "";
+        joRoot["description"] = "";
+        // ids
+        JArray jaIds = new JArray();
+        for ( int i = 0; i < IdsCount; i++ ) {
+          JObject jo = new JObject();
+          jo["id"] = Ids[i];
+          jo["title"] = IdsTitles[i];
+          jaIds.Add( jo );
+        }
+        joRoot["config"] = jaIds;
+
+        // content
+        JArray jaItems = new JArray();
+        foreach ( var row in xeRows ) {
+          var cols = row.Elements( "td" );
+          JObject item = new JObject();
+          for ( int i = 0; i < IdsCount; i++ ) {
+            string id = Ids[i];
+            var tmp = cols.ElementAt( i );
+            if ( tmp == null )
+              item[id] = null;
+            else {
+              string v = tmp.Value.Trim();
+              if ( string.IsNullOrWhiteSpace( v ) )
+                item[id] = null;
+              else if(v.StartsWith("<a") && v.EndsWith( "</a>" ) ) { // <a...>...</a>
+                int start = v.IndexOf( ">" );
+                int end = v.IndexOf( "</a>", start );
+                item[id] = v.Substring( start + 1, end - start - 1 );
+              }
+              else
+                item[id] = v;
+            }
+          }
+          jaItems.Add( item );
+        }
+        joRoot["items"] = jaItems;
+
+        // to UI
+        Json = joRoot.ToString( Newtonsoft.Json.Formatting.Indented );
+      }
+      catch ( Exception ex ) {
+        System.Windows.MessageBox.Show( ex.Message, "Error" );
+      }
+
+    }
 
     #endregion Methods
 

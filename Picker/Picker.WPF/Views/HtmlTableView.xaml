@@ -12,7 +12,7 @@
 
     <Grid>
         <TabControl>
-            <TabItem Header="Table">
+            <TabItem Header="HTML Table">
                 <Grid>
                     <Grid.ColumnDefinitions>
                         <ColumnDefinition/>
@@ -23,9 +23,13 @@
                                  ScrollViewer.HorizontalScrollBarVisibility="Visible"
                                  ScrollViewer.VerticalScrollBarVisibility="Visible"
                                  metro:TextBoxHelper.Watermark="&lt;table .../&gt;"
-                                 Text="{Binding TableXml, Mode=TwoWay}"/>
+                                 Text="{Binding TableXml, Mode=TwoWay}">
+                        </TextBox>
                     </Grid>
                     <DockPanel Grid.Column="1">
+                        <TextBlock Margin="5" DockPanel.Dock="Top" Text="read [tbody] directly"/>
+                        <Line Margin="5" DockPanel.Dock="Top" Stroke="LightGray" X2="1" Stretch="Fill"/>
+                        
                         <StackPanel DockPanel.Dock="Top" Orientation="Horizontal" Margin="5">
                             <TextBlock VerticalAlignment="Center" Margin="5,0,5,0">Replace:</TextBlock>
                             <TextBox Width="100" metro:TextBoxHelper.Watermark="old"
@@ -33,6 +37,11 @@
                             <Button Margin="5,0,5,0" Content="--&gt;&gt;" Command="{Binding CmdReplaceXml}"/>
                             <TextBox Width="100" metro:TextBoxHelper.Watermark="new"
                                      Text="{Binding XmlNewString, Mode=TwoWay}"/>
+                        </StackPanel>
+                        <StackPanel DockPanel.Dock="Top" Orientation="Horizontal" Margin="5">
+                            <TextBlock VerticalAlignment="Center" Margin="5,0,5,0">e.g.</TextBlock>
+                            <TextBox Width="350"
+                                     Text="&lt;p align=&quot;center&quot;&gt; &lt;p align=&quot;left&quot;&gt; &lt;p align=&quot;right&quot;&gt; &lt;/p&gt;"/>
                         </StackPanel>
                         <metro:Tile Content="Format Code" Title="格式化代码" Height="110" Width="110"
                                     Background="Green"
@@ -42,16 +51,37 @@
             </TabItem>
             
             <TabItem Header="Config">
-                <DockPanel>
-                    
-                </DockPanel>
+                <Grid>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition/>
+                        <ColumnDefinition/>
+                    </Grid.ColumnDefinitions>
+
+                    <StackPanel Grid.Column="0" Margin="5">
+                        <TextBlock VerticalAlignment="Center" Margin="5">Title(s): // one title each line</TextBlock>
+                        <TextBox x:Name="tbIdsTitles" AcceptsTab="True" AcceptsReturn="True" TextWrapping="Wrap" Height="300"
+                                 ScrollViewer.HorizontalScrollBarVisibility="Visible"
+                                 ScrollViewer.VerticalScrollBarVisibility="Visible"
+                                 metro:TextBoxHelper.Watermark="one title each line"
+                                 Text="{Binding IdsTitlesString, Mode=TwoWay}"/>
+                    </StackPanel>
+
+                    <StackPanel Grid.Column="1" Margin="5">
+                        <TextBlock VerticalAlignment="Center" Margin="5">Id(s): // one id each line</TextBlock>
+                        <TextBox x:Name="tbIds" AcceptsTab="True" AcceptsReturn="True" TextWrapping="Wrap" Height="300"
+                                 ScrollViewer.HorizontalScrollBarVisibility="Visible"
+                                 ScrollViewer.VerticalScrollBarVisibility="Visible"
+                                 metro:TextBoxHelper.Watermark="one id each line"
+                                 Text="{Binding IdsString, Mode=TwoWay}"/>
+                    </StackPanel>
+                </Grid>
             </TabItem>
 
             <TabItem Header="Json">
                 <DockPanel>
                     <StackPanel Width="250" DockPanel.Dock="Right">
-                        <metro:Tile Content="Process" Title="处理" Height="110" Width="110"
-                                    Command="{Binding CmdProcess}"/>
+                        <metro:Tile x:Name="btnProcess" Content="Process" Title="处理" Height="110" Width="110"
+                                    Click="btnProcess_Click"/>
                         <metro:Tile Content="Format Code" Title="格式化代码" Height="110" Width="110"
                                     Background="Green"
                                     Command="{Binding CmdFormatJson}"/>
@@ -60,6 +90,7 @@
                         <TextBox AcceptsTab="True" AcceptsReturn="True" TextWrapping="Wrap"
                                  ScrollViewer.HorizontalScrollBarVisibility="Visible"
                                  ScrollViewer.VerticalScrollBarVisibility="Visible"
+                                 metro:TextBoxHelper.Watermark="// json"
                                  Text="{Binding Json, Mode=TwoWay}"/>
                     </Grid>
                 </DockPanel>
