@@ -57,7 +57,7 @@ namespace Picker.Core.Spider {
       }
     }
 
-    public async Task<int> PickProject( string userId, string token, string projectId ) {
+    public async Task<int> PickProject( string userId, string token, string projectId )      {
       try {
         string urlProject = String.Format( Api_Project, userId, token, projectId );
         string jsonProject = await client.DownloadStringTaskAsync( urlProject );

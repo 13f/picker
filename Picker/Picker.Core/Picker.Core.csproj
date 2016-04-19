@@ -57,6 +57,7 @@
     <Compile Include="Api\DoubanApi.cs" />
     <Compile Include="Spider\Douban.cs" />
     <Compile Include="Spider\FellowPlus.cs" />
+    <Compile Include="Spider\Qichacha.cs" />
     <Compile Include="Storage\Configuration.cs" />
     <Compile Include="Storage\IStorage.cs" />
     <Compile Include="Storage\IStorage.FellowPlus.cs" />

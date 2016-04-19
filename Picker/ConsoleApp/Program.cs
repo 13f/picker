@@ -60,9 +60,16 @@ namespace ConsoleApp {
       //Console.ReadKey();
 
       // Global-2012 // 
-      string tableKey = "<table class=\"rankingtable\" cellspacing=";
-      string file = @"E:\github\picker\data\organization\global500-2012";
-      Global500.PickToJsonBefore2013( "http://www.fortunechina.com/fortune500/c/2012-07/09/content_106535.htm", tableKey, "rank2012", "rank2011", file );
+      //string tableKey = "<table class=\"rankingtable\" cellspacing=";
+      //string file = @"E:\github\picker\data\organization\global500-2012";
+      //Global500.PickToJsonBefore2013( "http://www.fortunechina.com/fortune500/c/2012-07/09/content_106535.htm", tableKey, "rank2012", "rank2011", file );
+      //Console.ReadKey();
+
+      // test: qichacha.com
+      //testQichacha_Post_Trademark(); // ok
+      //testQichacha_Post_Patent(); // ok
+      //testQichacha_Post_Certificate(); // ok
+      Console.WriteLine( "Over..." );
       Console.ReadKey();
     }
 
@@ -102,6 +109,119 @@ namespace ConsoleApp {
     //  Task.WaitAll( task );
     //  Console.ReadKey();
     //}
+
+      /// <summary>
+      /// failed.
+      /// </summary>
+      /// <returns></returns>
+    static async Task<string> testQichacha() {
+      string urlShangbiao = "http://www.qichacha.com/company_shangbiaoView?id=TUQMTRULRNML";
+      System.Collections.Specialized.NameValueCollection query = new System.Collections.Specialized.NameValueCollection();
+      query.Add( "pspt", "%7B%22id%22%3A%221080040%22%2C%22pswd%22%3A%228835d2c1351d221b4ab016fbf9e8253f%22%2C%22_code%22%3A%22ead7a9fe7d7a71179c49b157d9cf3099%22%7D" );
+
+      System.Net.WebClient client = Picker.Core.Helpers.NetHelper.GetWebClient_UTF8();
+      client.QueryString = query;
+      string r = await client.DownloadStringTaskAsync( urlShangbiao );
+      Console.WriteLine( "====" );
+      Console.WriteLine( r );
+      Console.WriteLine( "====" );
+      return r;
+    }
+
+    static void testQichacha_Get() {
+      string urlShangbiao = "http://www.qichacha.com/company_shangbiaoView";
+
+      //System.Collections.Specialized.NameValueCollection cookie = new System.Collections.Specialized.NameValueCollection();
+      //cookie.Add( "pspt", "%7B%22id%22%3A%221080040%22%2C%22pswd%22%3A%228835d2c1351d221b4ab016fbf9e8253f%22%2C%22_code%22%3A%22ead7a9fe7d7a71179c49b157d9cf3099%22%7D" );
+
+      System.Collections.Specialized.NameValueCollection query = new System.Collections.Specialized.NameValueCollection();
+      query.Add( "id", "TUQMTRULRNML" );
+
+      System.Net.WebClient client = Picker.Core.Helpers.NetHelper.GetWebClient_UTF8();
+
+      byte[] buff = client.DownloadData( "http://qichacha.com/" );
+      string cookie = client.ResponseHeaders.Get( "Set-Cookie" );
+      cookie = cookie + ";pspt=%7B%22id%22%3A%221080040%22%2C%22pswd%22%3A%228835d2c1351d221b4ab016fbf9e8253f%22%2C%22_code%22%3A%22ead7a9fe7d7a71179c49b157d9cf3099%22%7D";
+
+      client.Headers.Add( "Cookie", cookie );
+      client.QueryString = query;
+      client.DownloadStringCompleted += Client_DownloadStringCompleted;
+      client.DownloadStringAsync( new Uri( urlShangbiao ) );
+    }
+
+    private static void Client_DownloadStringCompleted( object sender, System.Net.DownloadStringCompletedEventArgs e ) {
+      Console.WriteLine( "====" );
+      Console.WriteLine( e.Result );
+      Console.WriteLine( "====" );
+    }
+
+    static void testQichacha_Post_Trademark() {
+      string urlShangbiao = "http://www.qichacha.com/company_shangbiaoView";
+
+      string postString = "id=TUQMTRULRNML";
+      byte[] postData = Encoding.UTF8.GetBytes( postString );
+
+      System.Net.WebClient client = Picker.Core.Helpers.NetHelper.GetWebClient_UTF8();
+
+      byte[] buff = client.DownloadData( "http://qichacha.com/" );
+      string cookie = client.ResponseHeaders.Get( "Set-Cookie" );
+      cookie = cookie + ";pspt=%7B%22id%22%3A%221080040%22%2C%22pswd%22%3A%228835d2c1351d221b4ab016fbf9e8253f%22%2C%22_code%22%3A%22ead7a9fe7d7a71179c49b157d9cf3099%22%7D";
+
+      client.Headers.Add( "Content-Type", "application/x-www-form-urlencoded" ); // post
+      client.Headers.Add( "Cookie", cookie );
+
+      byte[] responseData = client.UploadData( urlShangbiao, "POST", postData ); // 得到返回字符流
+      string result = Encoding.UTF8.GetString( responseData ); // 解码
+      Console.WriteLine( "====" );
+      Console.WriteLine( result );
+      Console.WriteLine( "====" );
+    }
+
+    static void testQichacha_Post_Patent() {
+      string urlShangbiao = "http://www.qichacha.com/company_zhuanliView";
+
+      string postString = "id=P_SIPO-CN105427281A";
+      byte[] postData = Encoding.UTF8.GetBytes( postString );
+
+      System.Net.WebClient client = Picker.Core.Helpers.NetHelper.GetWebClient_UTF8();
+
+      byte[] buff = client.DownloadData( "http://qichacha.com/" );
+      string cookie = client.ResponseHeaders.Get( "Set-Cookie" );
+      cookie = cookie + ";pspt=%7B%22id%22%3A%221080040%22%2C%22pswd%22%3A%228835d2c1351d221b4ab016fbf9e8253f%22%2C%22_code%22%3A%22ead7a9fe7d7a71179c49b157d9cf3099%22%7D";
+
+      client.Headers.Add( "Content-Type", "application/x-www-form-urlencoded" ); // post
+      client.Headers.Add( "Cookie", cookie );
+
+      byte[] responseData = client.UploadData( urlShangbiao, "POST", postData ); // 得到返回字符流
+      string result = Encoding.UTF8.GetString( responseData ); // 解码
+      Console.WriteLine( "====" );
+      Console.WriteLine( result );
+      Console.WriteLine( "====" );
+    }
+
+    static void testQichacha_Post_Certificate() {
+      string urlShangbiao = "http://www.qichacha.com/company_zhuanliView";
+
+      string postString = "id=C_264-CQC13001103798";
+      byte[] postData = Encoding.UTF8.GetBytes( postString );
+
+      System.Net.WebClient client = Picker.Core.Helpers.NetHelper.GetWebClient_UTF8();
+
+      byte[] buff = client.DownloadData( "http://qichacha.com/" );
+      string cookie = client.ResponseHeaders.Get( "Set-Cookie" );
+      cookie = cookie + ";pspt=%7B%22id%22%3A%221080040%22%2C%22pswd%22%3A%228835d2c1351d221b4ab016fbf9e8253f%22%2C%22_code%22%3A%22ead7a9fe7d7a71179c49b157d9cf3099%22%7D";
+
+      client.Headers.Add( "Content-Type", "application/x-www-form-urlencoded" ); // post
+      client.Headers.Add( "Cookie", cookie );
+
+      byte[] responseData = client.UploadData( urlShangbiao, "POST", postData ); // 得到返回字符流
+      string result = Encoding.UTF8.GetString( responseData ); // 解码
+      Console.WriteLine( "====" );
+      Console.WriteLine( result );
+      Console.WriteLine( "====" );
+    }
+
+    
 
   }
 
