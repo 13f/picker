@@ -18,6 +18,15 @@ namespace Picker.Core.Helpers {
       return queryUri.Substring( index );
     }
 
+    public static int GetInt( string uri, string before, string after ) {
+      int start = uri.IndexOf( before ) + before.Length;
+      int end = uri.IndexOf( after );
+      string idString = uri.Substring( start, end - start );
+      int id = 0;
+      Int32.TryParse( idString, out id );
+      return id;
+    }
+
   }
 
 }

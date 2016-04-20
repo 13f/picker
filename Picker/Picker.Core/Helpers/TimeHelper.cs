@@ -99,6 +99,75 @@ namespace Picker.Core.Helpers {
     //    ( interval.HasValue && ( DateTime.UtcNow - lastTime.Value.UtcDateTime < interval.Value ) );
     //}
 
+
+    public static DateTime? GetDateTime(string data ) {
+      if ( string.IsNullOrWhiteSpace( data ) )
+        return null;
+      DateTime dtTmp = DateTime.MinValue;
+      try {
+        dtTmp = DateTime.Parse( data );
+        return dtTmp;
+      }
+      catch {
+        var dt = GetDateTimeFromChinese( data );
+        return dt;
+      }
+    }
+
+    public static DateTime? GetDateTimeFromChinese( string data ) {
+      try {
+        int start = data.IndexOf( " " );
+        data = data.Substring( 0, start );
+
+        int days = 0;
+        int hours = 0;
+        int minutes = 0;
+        DateTime dtTmp = DateTime.MinValue;
+        // 6天前
+        start = data.IndexOf( "天" );
+        if ( start > 0 ) {
+          string strDays = data.Substring( 0, start );
+          days = Int32.Parse( strDays );
+          dtTmp = DateTime.Now.AddDays( days * -1 );
+          return dtTmp.ToUniversalTime();
+        }
+        // 23时13分钟前
+        // hour
+        string keyHour = "小时";
+        start = data.IndexOf( keyHour );
+        if ( start < 0 ) {
+          keyHour = "时";
+          start = data.IndexOf( keyHour );
+        }
+        if ( start > 0 ) {
+          string strHours = data.Substring( 0, start );
+          if ( !string.IsNullOrWhiteSpace( strHours ) )
+            hours = Int32.Parse( strHours );
+        }
+
+        // minute
+        if ( start >= 0 )
+          data = data.Substring( start + keyHour.Length );
+
+        string keyMinute = "分钟";
+        start = data.IndexOf( keyMinute );
+        if ( start < 0 ) {
+          keyMinute = "分";
+          start = data.IndexOf( keyMinute );
+        }
+        if ( start > 0 ) {
+          string strMinutes = data.Substring( 0, start );
+          if ( !string.IsNullOrWhiteSpace( strMinutes ) )
+            minutes = Int32.Parse( strMinutes );
+        }
+        dtTmp = DateTime.Now.AddHours( hours * -1 ).AddMinutes( minutes * -1 );
+        return dtTmp.ToUniversalTime();
+      }
+      catch {
+        return null;
+      }
+    }
+
   }
 
 }

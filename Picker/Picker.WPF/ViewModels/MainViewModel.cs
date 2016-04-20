@@ -87,6 +87,20 @@ namespace Picker.ViewModels {
     /// </summary>
     public static readonly PropertyData FellowPlusViewOpenedProperty = RegisterProperty( "FellowPlusViewOpened", typeof( bool ), false );
 
+    /// <summary>
+        /// Gets or sets QichachaViewOpened.
+        /// </summary>
+    public bool QichachaViewOpened
+    {
+      get { return GetValue<bool>( nameProperty ); }
+      set { SetValue( nameProperty, value ); }
+    }
+
+    /// <summary>
+    /// Register the name property so it is known in the class.
+    /// </summary>
+    public static readonly PropertyData nameProperty = RegisterProperty( "name", typeof( bool ), false );
+
     public MainViewModel() {
       CmdHtml = new Command( OnCmdHtmlExecute, OnCmdHtmlCanExecute );
       CmdHtmlTable = new Command( OnCmdHtmlTableExecute, OnCmdHtmlTableCanExecute );
@@ -94,6 +108,7 @@ namespace Picker.ViewModels {
 
       CmdDouban = new Command( OnCmdDoubanExecute, OnCmdDoubanCanExecute );
       CmdFellowPlus = new Command( OnCmdFellowPlusExecute, OnCmdFellowPlusCanExecute );
+      CmdQichacha = new Command( OnCmdQichachaExecute, OnCmdQichachaCanExecute );
     }
 
 
@@ -212,6 +227,32 @@ namespace Picker.ViewModels {
     }
 
     /// <summary>
+    /// Gets the CmdQichacha command.
+    /// </summary>
+    public Command CmdQichacha { get; private set; }
+
+    /// <summary>
+    /// Method to check whether the CmdQichacha command can be executed.
+    /// </summary>
+    /// <returns><c>true</c> if the command can be executed; otherwise <c>false</c></returns>
+    private bool OnCmdQichachaCanExecute() {
+      return !QichachaViewOpened;
+    }
+
+    /// <summary>
+    /// Method to invoke when the CmdQichacha command is executed.
+    /// </summary>
+    private void OnCmdQichachaExecute() {
+      QichachaViewOpened = true;
+
+      QichachaViewModel viewmodel = new QichachaViewModel();
+      Views.QichachaView view = new Views.QichachaView();
+      view.DataContext = viewmodel;
+      view.Closed += QichachaView_Closed;
+      view.Show();
+    }
+
+    /// <summary>
     /// Gets the CmdCSV command.
     /// </summary>
     public Command CmdCSV { get; private set; }
@@ -247,6 +288,10 @@ namespace Picker.ViewModels {
 
     private void FellowPlusView_Closed( object sender, EventArgs e ) {
       FellowPlusViewOpened = false;
+    }
+
+    private void QichachaView_Closed( object sender, EventArgs e ) {
+      QichachaViewOpened = false;
     }
 
     #endregion Commands

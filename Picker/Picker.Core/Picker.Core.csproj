@@ -61,6 +61,7 @@
     <Compile Include="Storage\Configuration.cs" />
     <Compile Include="Storage\IStorage.cs" />
     <Compile Include="Storage\IStorage.FellowPlus.cs" />
+    <Compile Include="Storage\IStorage.Qichacha.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />

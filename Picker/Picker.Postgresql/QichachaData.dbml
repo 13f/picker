@@ -1,0 +1,117 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="qichacha" Class="QichachaDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="AppSettings" ConnectionString="Data Source=revenger\sqlexpress;Initial Catalog=qichacha;Persist Security Info=True;User ID=sa" SettingsObjectName="Picker.Postgresql.Properties.Settings" SettingsPropertyName="qichachaConnectionString" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.QichachaCertificate" Member="QichachaCertificate">
+    <Type Name="QichachaCertificate">
+      <Column Name="Id" Type="System.String" DbType="VarChar(100) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="CertificateId" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="CertificateType" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="Applicant" Type="System.String" DbType="NVarChar(500)" CanBeNull="true" />
+      <Column Name="Content" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="CreatedAt" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="UpdatedAt" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="ProcessedAt" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.QichachaWebsite" Member="QichachaWebsite">
+    <Type Name="QichachaWebsite">
+      <Column Name="Id" Type="System.String" DbType="NVarChar(400) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="Title" Type="System.String" DbType="NVarChar(1000)" CanBeNull="true" />
+      <Column Name="Content" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="CreatedAt" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="UpdatedAt" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="ProcessedAt" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.QichachaCompany" Member="QichachaCompany">
+    <Type Name="QichachaCompany">
+      <Column Name="Id" Type="System.String" DbType="VarChar(100) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="Name" Type="System.String" DbType="NVarChar(500)" CanBeNull="true" />
+      <Column Name="RegNum" Type="System.String" DbType="NVarChar(100)" CanBeNull="true" />
+      <Column Name="OrgCode" Type="System.String" DbType="NVarChar(100)" CanBeNull="true" />
+      <Column Name="Content" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="CreatedAt" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="UpdatedAt" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="ProcessedAt" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="CertificateUpdated" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="CopyrightUpdated" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="SoftwareCopyrightUpdated" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="InvestUpdated" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="PatentUpdated" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="TrademarkUpdated" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="WebsiteUpdated" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.QichachaCopyright" Member="QichachaCopyright">
+    <Type Name="QichachaCopyright">
+      <Column Name="Id" Type="System.String" DbType="NVarChar(400) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="Title" Type="System.String" DbType="NVarChar(1000)" CanBeNull="true" />
+      <Column Name="Content" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="CreatedAt" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="UpdatedAt" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="ProcessedAt" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.QichachaInvest" Member="QichachaInvest">
+    <Type Name="QichachaInvest">
+      <Column Name="InvestorId" Type="System.String" DbType="VarChar(100) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="InvestorName" Type="System.String" DbType="NVarChar(500)" CanBeNull="true" />
+      <Column Name="TargetId" Type="System.String" DbType="VarChar(100) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="TargetName" Type="System.String" DbType="NVarChar(500)" CanBeNull="true" />
+      <Column Name="Content" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="CreatedAt" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="UpdatedAt" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="ProcessedAt" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.QichachaPatent" Member="QichachaPatent">
+    <Type Name="QichachaPatent">
+      <Column Name="Id" Type="System.String" DbType="VarChar(100) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="PatentId" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="PatentType" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="Applicant" Type="System.String" DbType="NVarChar(500)" CanBeNull="true" />
+      <Column Name="Content" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="CreatedAt" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="UpdatedAt" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="ProcessedAt" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.QichachaSoftwareCopyright" Member="QichachaSoftwareCopyright">
+    <Type Name="QichachaSoftwareCopyright">
+      <Column Name="Id" Type="System.String" DbType="NVarChar(400) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="Title" Type="System.String" DbType="NVarChar(1000)" CanBeNull="true" />
+      <Column Name="Content" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="CreatedAt" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="UpdatedAt" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="ProcessedAt" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.QichachaTrademark" Member="QichachaTrademark">
+    <Type Name="QichachaTrademark">
+      <Column Name="Id" Type="System.String" DbType="VarChar(100) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="RegNo" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="Applicant" Type="System.String" DbType="NVarChar(500)" CanBeNull="true" />
+      <Column Name="Content" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="CreatedAt" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="UpdatedAt" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="ProcessedAt" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.QichachaAlbum" Member="QichachaAlbum">
+    <Type Name="QichachaAlbum">
+      <Column Name="Uri" Type="System.String" DbType="VarChar(500) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="Id" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="Title" Type="System.String" DbType="NVarChar(500)" CanBeNull="true" />
+      <Column Name="ModifiedAt" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="CreatedAt" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="ProcessedAt" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.QichachaCompanySearch" Member="QichachaCompanySearch">
+    <Type Name="QichachaCompanySearch">
+      <Column Name="Keyword" Type="System.String" DbType="NVarChar(400) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="CreatedAt" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="UpdatedAt" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="ProcessedPage" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+    </Type>
+  </Table>
+</Database>

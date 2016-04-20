@@ -23,6 +23,17 @@ namespace Picker.Core.Helpers {
       return client;
     }
 
+    public static string HttpPost( this WebClient client, string url, string postString ) {
+      byte[] postData = Encoding.UTF8.GetBytes( postString );
+
+      if ( client.Headers["Content-Type"] == null ) // post
+        client.Headers.Add( "Content-Type", "application/x-www-form-urlencoded" );
+
+      byte[] responseData = client.UploadData( url, "POST", postData ); // 得到返回字符流
+      string result = Encoding.UTF8.GetString( responseData ); // 解码
+      return result;
+    }
+
   }
 
 }

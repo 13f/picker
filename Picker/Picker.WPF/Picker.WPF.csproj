@@ -129,12 +129,16 @@
       <SubType>Designer</SubType>
     </ApplicationDefinition>
     <Compile Include="ViewModels\FellowPlusViewModel.cs" />
+    <Compile Include="ViewModels\QichachaViewModel.cs" />
     <Compile Include="ViewModels\TabularViewModel.cs" />
     <Compile Include="Views\FellowPlusView.xaml.cs">
       <DependentUpon>FellowPlusView.xaml</DependentUpon>
     </Compile>
     <Compile Include="Views\HtmlView.xaml.cs">
       <DependentUpon>HtmlView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\QichachaView.xaml.cs">
+      <DependentUpon>QichachaView.xaml</DependentUpon>
     </Compile>
     <Compile Include="Views\TabularView.xaml.cs">
       <DependentUpon>TabularView.xaml</DependentUpon>
@@ -179,6 +183,10 @@
       <DependentUpon>MainView.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
+    <Page Include="Views\QichachaView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="Views\TabularView.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>

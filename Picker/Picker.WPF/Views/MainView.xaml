@@ -25,9 +25,11 @@
                     Background="Orange"
                     Command="{Binding CmdCSV}" />
 
-        <metro:Tile Content="Douban" Title="豆瓣" Margin="631,396,23,35"
-                    Command="{Binding CmdDouban}" />
+        <metro:Tile Content="企查查" Title="Qichacha" Margin="316,396,338,35"
+        	Command="{Binding CmdQichacha}" />
         <metro:Tile Content="FellowPlus" Title="FellowPlus" Margin="473,396,181,35"
         	Command="{Binding CmdFellowPlus}" />
+        <metro:Tile Content="Douban" Title="豆瓣" Margin="631,396,23,35"
+                    Command="{Binding CmdDouban}" />
     </Grid>
 </metro:MetroWindow>

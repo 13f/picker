@@ -14,6 +14,8 @@ namespace Picker.Postgresql {
     //NpgsqlConnection conn = null;
     DoubanEntities doubanContext = null;
     pickerEntities fellowplusContext = null;
+    QichachaDataContext qichachaContext = null;
+
     const string propertyNameIsBanned = "is_banned";
     const string propertyNameType = "type";
     const string typeUser = "user";
