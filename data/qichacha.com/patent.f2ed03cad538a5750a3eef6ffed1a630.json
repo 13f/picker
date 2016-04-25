@@ -1,0 +1,42 @@
+{
+	"Result": {
+		"DocumentTypes": "[\"CN\",\"CNA\"]",
+		"Agent": "[\"鞠永善\"]",
+		"LegalStatusDate": "2016-04-06T00:00:00",
+		"PrimaryExaminer": null,
+		"AssiantExaminer": null,
+		"Cites": null,
+		"OtherReferences": null,
+		"PatentImage": "http:\/\/patent-image.qichacha.com\/c520a0d1c615fec55c424cd0f6bee2e9",
+		"IPCList": [
+			"H04"
+		],
+		"KeyNo": "f2ed03cad538a5750a3eef6ffed1a630",
+		"KindCode": "A",
+		"ApplicationNumber": "CN201510917838.1",
+		"ApplicationDate": "2015-12-10",
+		"PublicationNumber": "CN105472006A",
+		"PublicationDate": "2016-04-06",
+		"LegalStatus": "[\"1\"]",
+		"LegalStatusDesc": "",
+		"Title": "文件传输方法、装置和系统",
+		"Abstract": "本公开是关于一种文件传输方法、装置和系统，涉及通信技术领域。所述方法包括：在本端设备的预设信道上扫描WIFI热点，所述WIFI热点是由对端设备在所述对端设备的预设信道上创建的，本端设备的预设信道与对端设备的预设信道相同；采用在本端设备的预设信道上扫描到的WIFI热点与对端设备建立连接；采用所述连接与对端设备进行文件传输。在本公开中，由于对端设备在创建WIFI热点时采用的是对端设备的预设信道，而本端设备的预设信道与对端设备的预设信道相同，使得本端设备在进行WIFI连接时，只用扫描本端设备的预设信道即可实现与对端设备连接，而不用扫描所有的信道(数十个)，使扫描WIFI热点的时间从数秒降低到几十毫秒，大大降低了WIFI热点的扫描时间，提高了文件传输效率。",
+		"Agency": [
+			"北京三高永信知识产权代理有限责任公司"
+		],
+		"KindCodeDesc": "发明公布",
+		"IPCDesc": [
+			"电通信技术"
+		],
+		"InventorStringList": [
+			"万钰臻",
+			"林兆钦",
+			"王鑫"
+		],
+		"AssigneestringList": [
+			"小米科技有限责任公司"
+		]
+	},
+	"Status": 200,
+	"Message": null
+}

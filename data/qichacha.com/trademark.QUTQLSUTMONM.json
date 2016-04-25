@@ -1,0 +1,69 @@
+{
+	"Result": {
+		"Agent": "北京天驰知识产权代理有限公司",
+		"ListGroupItems": [
+			"可下载的手机铃音(0901)",
+			"可下载的音乐文件(0901)",
+			"可下载的影像文件(0901)",
+			"电子出版物(可下载)(0901)",
+			"计算机外围设备(0901)",
+			"计算机游戏软件(0901)",
+			"计算机软件(已录制)(0901)",
+			"计算机程序(可下载软件)(0901)",
+			"网络通讯设备(0907)",
+			"光盘(音像)(0908)"
+		],
+		"ValidPeriod": " - ",
+		"ApplyDate": "2012\/9\/12",
+		"FlowItems": [
+			{
+				"FlowId": "202",
+				"FlowItem": "商标无效",
+				"FlowDate": null
+			},
+			{
+				"FlowId": "24",
+				"FlowItem": "驳回复审完成",
+				"FlowDate": "2015-04-06"
+			},
+			{
+				"FlowId": "105",
+				"FlowItem": "驳回复审中",
+				"FlowDate": "2014-01-22"
+			},
+			{
+				"FlowId": "205",
+				"FlowItem": "驳回复审待审中",
+				"FlowDate": "2014-01-22"
+			},
+			{
+				"FlowId": "6",
+				"FlowItem": "收到驳回复审申请或补充材料,待审",
+				"FlowDate": "2014-01-22"
+			},
+			{
+				"FlowId": "1",
+				"FlowItem": "打印驳回或部分驳回通知书",
+				"FlowDate": "2013-12-30"
+			},
+			{
+				"FlowId": "101",
+				"FlowItem": "商标注册申请中",
+				"FlowDate": "2012-09-12"
+			}
+		],
+		"ID": "QUTQLSUTMONM",
+		"RegNo": "11485728",
+		"Name": "BAIDU 认证 OPTIMIZATION SEARCH MARKETING CREATIVE UNIQUE",
+		"CategoryId": 9,
+		"Category": "科学仪器",
+		"Person": "百度在线网络技术(北京)有限公司",
+		"HasImage": true,
+		"Flow": "",
+		"ImageUrl": "http:\/\/tm-image.qichacha.com\/a02831a13831402835f583111fba3ce5.jpg",
+		"FlowStatus": "商标无效",
+		"Status": 0
+	},
+	"Status": 200,
+	"Message": null
+}

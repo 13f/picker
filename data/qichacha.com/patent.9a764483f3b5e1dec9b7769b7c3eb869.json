@@ -1,0 +1,42 @@
+{
+	"Result": {
+		"DocumentTypes": "[\"CN\",\"CNA\"]",
+		"Agent": "[\"鞠永善\"]",
+		"LegalStatusDate": "2016-04-06T00:00:00",
+		"PrimaryExaminer": null,
+		"AssiantExaminer": null,
+		"Cites": null,
+		"OtherReferences": null,
+		"PatentImage": "http:\/\/patent-image.qichacha.com\/0950d30557b25e9660a315703ddc0ec0",
+		"IPCList": [
+			"G06"
+		],
+		"KeyNo": "9a764483f3b5e1dec9b7769b7c3eb869",
+		"KindCode": "A",
+		"ApplicationNumber": "CN201510977667.1",
+		"ApplicationDate": "2015-12-23",
+		"PublicationNumber": "CN105468783A",
+		"PublicationDate": "2016-04-06",
+		"LegalStatus": "[\"1\"]",
+		"LegalStatusDesc": "",
+		"Title": "信息收集方法及装置",
+		"Abstract": "本公开是关于一种信息收集方法及装置，属于终端技术领域。所述方法包括：在当前显示的场景页面中，提供信息收集选项；当检测到对该信息收集选项的选择操作时，从该场景页面中获取待收集的目标信息；在主页面中展示该目标信息。本公开通过在当前显示的场景页面中，提供信息收集选项，能够在检测到用户对该信息收集选项的选择操作时，从该场景页面中获取待收集的目标信息，并在主页面中展示该目标信息，使得用户可以自定义主页面展示的信息，满足了用户的个性化需求，方便用户的操作，提高了灵活性，扩展了终端的功能。",
+		"Agency": [
+			"北京三高永信知识产权代理有限责任公司"
+		],
+		"KindCodeDesc": "发明公布",
+		"IPCDesc": [
+			"计算；推算；计数"
+		],
+		"InventorStringList": [
+			"余鹏",
+			"朱瑞贤",
+			"王广建"
+		],
+		"AssigneestringList": [
+			"小米科技有限责任公司"
+		]
+	},
+	"Status": 200,
+	"Message": null
+}
