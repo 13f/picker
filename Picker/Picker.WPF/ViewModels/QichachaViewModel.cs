@@ -18,6 +18,9 @@ namespace Picker.ViewModels {
     IStorage store = null;
     Qichacha biz = null;
 
+    string company_name = null;
+    string company_id = null;
+
     /// <summary>
     /// AutoLoopInterval的毫秒数
     /// </summary>
@@ -188,6 +191,8 @@ namespace Picker.ViewModels {
       // company list
       CmdPickCompanyListByAlbum = new Command( OnCmdPickCompanyListByAlbumExecute, OnCmdPickCompanyListByAlbumCanExecute );
       CmdSearchCompany = new Command( OnCmdSearchCompanyExecute, OnCmdSearchCompanyCanExecute );
+
+      CmdBasicInfo = new Command( OnCmdBasicInfoExecute, OnCmdBasicInfoCanExecute );
       // assets
       CmdTrademark = new Command( OnCmdTrademarkExecute, OnCmdTrademarkCanExecute );
       CmdWebsite = new Command( OnCmdWebsiteExecute, OnCmdWebsiteCanExecute );
@@ -308,6 +313,47 @@ namespace Picker.ViewModels {
 
     #endregion
 
+    /// <summary>
+    /// Gets the CmdBasicInfo command.
+    /// </summary>
+    public Command CmdBasicInfo { get; private set; }
+
+    /// <summary>
+    /// Method to check whether the CmdBasicInfo command can be executed.
+    /// </summary>
+    /// <returns><c>true</c> if the command can be executed; otherwise <c>false</c></returns>
+    private bool OnCmdBasicInfoCanExecute() {
+      return !IsPickingData;
+    }
+
+    /// <summary>
+    /// Method to invoke when the CmdBasicInfo command is executed.
+    /// </summary>
+    private async void OnCmdBasicInfoExecute() {
+      company_id = store.Qichacha_GetTaskFromCompany_BasicInfo( out company_name );
+      if(string.IsNullOrWhiteSpace(company_id)) {
+        Log = "没有待处理数据";
+        return;
+      }
+
+      IsPickingData = true;
+      try {
+        await biz.PickCompanyBase( company_id, company_name, true );
+      }
+      catch ( Exception ex ) {
+        Log = ex.Message;
+      }
+      finally {
+        IsPickingData = false;
+        // 更新数据
+        refresh();
+
+        // continue
+        await Task.Delay( auto_loop_in_miliseconds );
+        OnCmdBasicInfoExecute();
+      }
+    }
+
     #region Assets
 
     /// <summary>
@@ -326,8 +372,42 @@ namespace Picker.ViewModels {
     /// <summary>
     /// Method to invoke when the CmdTrademark command is executed.
     /// </summary>
-    private void OnCmdTrademarkExecute() {
-      
+    private async void OnCmdTrademarkExecute() {
+      // 先从公司获取未处理的商标列表
+      // 如果没有数据，再获取商标详情
+      company_id = store.Qichacha_GetTaskFromCompany_Trademark( out company_name );
+      bool hasCompanyTask = !string.IsNullOrWhiteSpace( company_id );
+      bool hasDetailTask = false;
+
+      string tmpId = null;
+      if ( !hasCompanyTask ) {
+        tmpId = store.Qichacha_GetTask_Trademark();
+        hasDetailTask = !string.IsNullOrWhiteSpace( tmpId );
+        if ( !hasDetailTask ) {
+          Log = "没有待处理数据";
+          return;
+        }
+      }
+
+      IsPickingData = true;
+      try {
+        if ( hasCompanyTask )
+          await biz.PickList_Trademark( company_id, company_name );
+        else if ( hasDetailTask )
+          await biz.PickDetail_Trademark( tmpId );
+      }
+      catch ( Exception ex ) {
+        Log = ex.Message;
+      }
+      finally {
+        IsPickingData = false;
+        // 更新数据
+        refresh();
+
+        // continue
+        await Task.Delay( auto_loop_in_miliseconds );
+        OnCmdTrademarkExecute();
+      }
     }
 
     /// <summary>
@@ -457,6 +537,8 @@ namespace Picker.ViewModels {
 
     void raiseCommandsCanExecute() {
       CmdPickAlbums.RaiseCanExecuteChanged();
+      CmdBasicInfo.RaiseCanExecuteChanged();
+
       CmdTrademark.RaiseCanExecuteChanged();
       CmdWebsite.RaiseCanExecuteChanged();
       CmdPatent.RaiseCanExecuteChanged();

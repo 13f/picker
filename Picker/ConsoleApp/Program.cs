@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using System.Text.RegularExpressions;
 using System.Threading.Tasks;
 using Picker.Core;
 using Picker.Core.Spider;
@@ -66,8 +67,9 @@ namespace ConsoleApp {
       //Console.ReadKey();
 
       // test: qichacha.com
+      //testQichacha_GetTrademarkList();
       //testQichacha_Post_Trademark(); // ok
-      //testQichacha_Post_Patent(); // ok
+      testQichacha_Post_Patent(); // ok
       //testQichacha_Post_Certificate(); // ok
       Console.WriteLine( "Over..." );
       Console.ReadKey();
@@ -155,10 +157,42 @@ namespace ConsoleApp {
       Console.WriteLine( "====" );
     }
 
+    static void testQichacha_GetTrademarkList() {
+      string urlShangbiao = "http://www.qichacha.com/company_shangbiao?unique=3f603703d59a04cbe427e5825099a565&companyname=百度在线网络技术（北京）有限公司&p=1";
+      System.Net.WebClient clientTrademarkList = Picker.Core.Helpers.NetHelper.GetWebClient_UTF8();
+
+      byte[] buff = clientTrademarkList.DownloadData( "http://qichacha.com/" );
+      string cookie = clientTrademarkList.ResponseHeaders.Get( "Set-Cookie" );
+      cookie = cookie + ";pspt=%7B%22id%22%3A%221080040%22%2C%22pswd%22%3A%228835d2c1351d221b4ab016fbf9e8253f%22%2C%22_code%22%3A%22ead7a9fe7d7a71179c49b157d9cf3099%22%7D";
+
+      clientTrademarkList.Headers.Add( "Content-Type", "application/x-www-form-urlencoded" ); // post
+      clientTrademarkList.Headers.Add( "Cookie", cookie );
+
+      clientTrademarkList.DownloadStringCompleted += ClientTrademarkList_DownloadStringCompleted;
+      clientTrademarkList.DownloadStringAsync( new Uri( urlShangbiao ) );
+    }
+
+    private static void ClientTrademarkList_DownloadStringCompleted( object sender, System.Net.DownloadStringCompletedEventArgs e ) {
+      // sbview("PUNNRTSMUTQL")
+      string Regex_Trademark = "sbview\\(\"\\w+\"\\)";
+      string regex2 = "(?<=sbview\\(\")\\w+(?=\"\\))";
+      var matchlist = Regex.Matches( e.Result, Regex_Trademark );
+      if ( matchlist != null || matchlist.Count > 0 ) {
+        Console.WriteLine( "count: " + matchlist.Count );
+        foreach ( Match m in matchlist ) {
+          if ( !m.Success )
+            continue;
+          string itemId = m.Value.Substring( 8, m.Value.Length - 10 ); // 10 = 8 + 2
+          Console.WriteLine( itemId );
+        }
+      }
+
+    }
+
     static void testQichacha_Post_Trademark() {
       string urlShangbiao = "http://www.qichacha.com/company_shangbiaoView";
 
-      string postString = "id=TUQMTRULRNML";
+      string postString = "id=MLLLLLMQOPTMO"; // TUQMTRULRNML, QUTQLSUTMONM, MLLLLLMQOPTMO
       byte[] postData = Encoding.UTF8.GetBytes( postString );
 
       System.Net.WebClient client = Picker.Core.Helpers.NetHelper.GetWebClient_UTF8();
@@ -180,7 +214,7 @@ namespace ConsoleApp {
     static void testQichacha_Post_Patent() {
       string urlShangbiao = "http://www.qichacha.com/company_zhuanliView";
 
-      string postString = "id=P_SIPO-CN105427281A";
+      string postString = "id=f2ed03cad538a5750a3eef6ffed1a630";//P_SIPO-CN105427281A, 9a764483f3b5e1dec9b7769b7c3eb869
       byte[] postData = Encoding.UTF8.GetBytes( postString );
 
       System.Net.WebClient client = Picker.Core.Helpers.NetHelper.GetWebClient_UTF8();
@@ -200,9 +234,9 @@ namespace ConsoleApp {
     }
 
     static void testQichacha_Post_Certificate() {
-      string urlShangbiao = "http://www.qichacha.com/company_zhuanliView";
+      string urlShangbiao = "http://www.qichacha.com/company_zhengshuView";
 
-      string postString = "id=C_264-CQC13001103798";
+      string postString = "id=C_264-CQC13001103798"; // C_264-CQC13001103798, C_262-2016010101835848
       byte[] postData = Encoding.UTF8.GetBytes( postString );
 
       System.Net.WebClient client = Picker.Core.Helpers.NetHelper.GetWebClient_UTF8();

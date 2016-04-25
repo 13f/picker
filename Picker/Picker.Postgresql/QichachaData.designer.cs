@@ -45,21 +45,21 @@ namespace Picker.Postgresql
     partial void InsertQichachaInvest(QichachaInvest instance);
     partial void UpdateQichachaInvest(QichachaInvest instance);
     partial void DeleteQichachaInvest(QichachaInvest instance);
-    partial void InsertQichachaPatent(QichachaPatent instance);
-    partial void UpdateQichachaPatent(QichachaPatent instance);
-    partial void DeleteQichachaPatent(QichachaPatent instance);
     partial void InsertQichachaSoftwareCopyright(QichachaSoftwareCopyright instance);
     partial void UpdateQichachaSoftwareCopyright(QichachaSoftwareCopyright instance);
     partial void DeleteQichachaSoftwareCopyright(QichachaSoftwareCopyright instance);
-    partial void InsertQichachaTrademark(QichachaTrademark instance);
-    partial void UpdateQichachaTrademark(QichachaTrademark instance);
-    partial void DeleteQichachaTrademark(QichachaTrademark instance);
     partial void InsertQichachaAlbum(QichachaAlbum instance);
     partial void UpdateQichachaAlbum(QichachaAlbum instance);
     partial void DeleteQichachaAlbum(QichachaAlbum instance);
     partial void InsertQichachaCompanySearch(QichachaCompanySearch instance);
     partial void UpdateQichachaCompanySearch(QichachaCompanySearch instance);
     partial void DeleteQichachaCompanySearch(QichachaCompanySearch instance);
+    partial void InsertQichachaTrademark(QichachaTrademark instance);
+    partial void UpdateQichachaTrademark(QichachaTrademark instance);
+    partial void DeleteQichachaTrademark(QichachaTrademark instance);
+    partial void InsertQichachaPatent(QichachaPatent instance);
+    partial void UpdateQichachaPatent(QichachaPatent instance);
+    partial void DeleteQichachaPatent(QichachaPatent instance);
     #endregion
 		
 		public QichachaDataContext() : 
@@ -132,27 +132,11 @@ namespace Picker.Postgresql
 			}
 		}
 		
-		public System.Data.Linq.Table<QichachaPatent> QichachaPatent
-		{
-			get
-			{
-				return this.GetTable<QichachaPatent>();
-			}
-		}
-		
 		public System.Data.Linq.Table<QichachaSoftwareCopyright> QichachaSoftwareCopyright
 		{
 			get
 			{
 				return this.GetTable<QichachaSoftwareCopyright>();
-			}
-		}
-		
-		public System.Data.Linq.Table<QichachaTrademark> QichachaTrademark
-		{
-			get
-			{
-				return this.GetTable<QichachaTrademark>();
 			}
 		}
 		
@@ -169,6 +153,22 @@ namespace Picker.Postgresql
 			get
 			{
 				return this.GetTable<QichachaCompanySearch>();
+			}
+		}
+		
+		public System.Data.Linq.Table<QichachaTrademark> QichachaTrademark
+		{
+			get
+			{
+				return this.GetTable<QichachaTrademark>();
+			}
+		}
+		
+		public System.Data.Linq.Table<QichachaPatent> QichachaPatent
+		{
+			get
+			{
+				return this.GetTable<QichachaPatent>();
 			}
 		}
 	}
@@ -1395,236 +1395,6 @@ namespace Picker.Postgresql
 		}
 	}
 	
-	[global::System.Data.Linq.Mapping.TableAttribute(Name="dbo.QichachaPatent")]
-	public partial class QichachaPatent : INotifyPropertyChanging, INotifyPropertyChanged
-	{
-		
-		private static PropertyChangingEventArgs emptyChangingEventArgs = new PropertyChangingEventArgs(String.Empty);
-		
-		private string _Id;
-		
-		private string _PatentId;
-		
-		private string _PatentType;
-		
-		private string _Applicant;
-		
-		private string _Content;
-		
-		private System.Nullable<System.DateTime> _CreatedAt;
-		
-		private System.Nullable<System.DateTime> _UpdatedAt;
-		
-		private System.Nullable<System.DateTime> _ProcessedAt;
-		
-    #region Extensibility Method Definitions
-    partial void OnLoaded();
-    partial void OnValidate(System.Data.Linq.ChangeAction action);
-    partial void OnCreated();
-    partial void OnIdChanging(string value);
-    partial void OnIdChanged();
-    partial void OnPatentIdChanging(string value);
-    partial void OnPatentIdChanged();
-    partial void OnPatentTypeChanging(string value);
-    partial void OnPatentTypeChanged();
-    partial void OnApplicantChanging(string value);
-    partial void OnApplicantChanged();
-    partial void OnContentChanging(string value);
-    partial void OnContentChanged();
-    partial void OnCreatedAtChanging(System.Nullable<System.DateTime> value);
-    partial void OnCreatedAtChanged();
-    partial void OnUpdatedAtChanging(System.Nullable<System.DateTime> value);
-    partial void OnUpdatedAtChanged();
-    partial void OnProcessedAtChanging(System.Nullable<System.DateTime> value);
-    partial void OnProcessedAtChanged();
-    #endregion
-		
-		public QichachaPatent()
-		{
-			OnCreated();
-		}
-		
-		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_Id", DbType="VarChar(100) NOT NULL", CanBeNull=false, IsPrimaryKey=true)]
-		public string Id
-		{
-			get
-			{
-				return this._Id;
-			}
-			set
-			{
-				if ((this._Id != value))
-				{
-					this.OnIdChanging(value);
-					this.SendPropertyChanging();
-					this._Id = value;
-					this.SendPropertyChanged("Id");
-					this.OnIdChanged();
-				}
-			}
-		}
-		
-		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_PatentId", DbType="VarChar(50)")]
-		public string PatentId
-		{
-			get
-			{
-				return this._PatentId;
-			}
-			set
-			{
-				if ((this._PatentId != value))
-				{
-					this.OnPatentIdChanging(value);
-					this.SendPropertyChanging();
-					this._PatentId = value;
-					this.SendPropertyChanged("PatentId");
-					this.OnPatentIdChanged();
-				}
-			}
-		}
-		
-		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_PatentType", DbType="VarChar(50)")]
-		public string PatentType
-		{
-			get
-			{
-				return this._PatentType;
-			}
-			set
-			{
-				if ((this._PatentType != value))
-				{
-					this.OnPatentTypeChanging(value);
-					this.SendPropertyChanging();
-					this._PatentType = value;
-					this.SendPropertyChanged("PatentType");
-					this.OnPatentTypeChanged();
-				}
-			}
-		}
-		
-		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_Applicant", DbType="NVarChar(500)")]
-		public string Applicant
-		{
-			get
-			{
-				return this._Applicant;
-			}
-			set
-			{
-				if ((this._Applicant != value))
-				{
-					this.OnApplicantChanging(value);
-					this.SendPropertyChanging();
-					this._Applicant = value;
-					this.SendPropertyChanged("Applicant");
-					this.OnApplicantChanged();
-				}
-			}
-		}
-		
-		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_Content", DbType="NVarChar(MAX)")]
-		public string Content
-		{
-			get
-			{
-				return this._Content;
-			}
-			set
-			{
-				if ((this._Content != value))
-				{
-					this.OnContentChanging(value);
-					this.SendPropertyChanging();
-					this._Content = value;
-					this.SendPropertyChanged("Content");
-					this.OnContentChanged();
-				}
-			}
-		}
-		
-		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_CreatedAt", DbType="DateTime")]
-		public System.Nullable<System.DateTime> CreatedAt
-		{
-			get
-			{
-				return this._CreatedAt;
-			}
-			set
-			{
-				if ((this._CreatedAt != value))
-				{
-					this.OnCreatedAtChanging(value);
-					this.SendPropertyChanging();
-					this._CreatedAt = value;
-					this.SendPropertyChanged("CreatedAt");
-					this.OnCreatedAtChanged();
-				}
-			}
-		}
-		
-		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_UpdatedAt", DbType="DateTime")]
-		public System.Nullable<System.DateTime> UpdatedAt
-		{
-			get
-			{
-				return this._UpdatedAt;
-			}
-			set
-			{
-				if ((this._UpdatedAt != value))
-				{
-					this.OnUpdatedAtChanging(value);
-					this.SendPropertyChanging();
-					this._UpdatedAt = value;
-					this.SendPropertyChanged("UpdatedAt");
-					this.OnUpdatedAtChanged();
-				}
-			}
-		}
-		
-		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_ProcessedAt", DbType="DateTime")]
-		public System.Nullable<System.DateTime> ProcessedAt
-		{
-			get
-			{
-				return this._ProcessedAt;
-			}
-			set
-			{
-				if ((this._ProcessedAt != value))
-				{
-					this.OnProcessedAtChanging(value);
-					this.SendPropertyChanging();
-					this._ProcessedAt = value;
-					this.SendPropertyChanged("ProcessedAt");
-					this.OnProcessedAtChanged();
-				}
-			}
-		}
-		
-		public event PropertyChangingEventHandler PropertyChanging;
-		
-		public event PropertyChangedEventHandler PropertyChanged;
-		
-		protected virtual void SendPropertyChanging()
-		{
-			if ((this.PropertyChanging != null))
-			{
-				this.PropertyChanging(this, emptyChangingEventArgs);
-			}
-		}
-		
-		protected virtual void SendPropertyChanged(String propertyName)
-		{
-			if ((this.PropertyChanged != null))
-			{
-				this.PropertyChanged(this, new PropertyChangedEventArgs(propertyName));
-			}
-		}
-	}
-	
 	[global::System.Data.Linq.Mapping.TableAttribute(Name="dbo.QichachaSoftwareCopyright")]
 	public partial class QichachaSoftwareCopyright : INotifyPropertyChanging, INotifyPropertyChanged
 	{
@@ -1702,212 +1472,6 @@ namespace Picker.Postgresql
 					this._Title = value;
 					this.SendPropertyChanged("Title");
 					this.OnTitleChanged();
-				}
-			}
-		}
-		
-		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_Content", DbType="NVarChar(MAX)")]
-		public string Content
-		{
-			get
-			{
-				return this._Content;
-			}
-			set
-			{
-				if ((this._Content != value))
-				{
-					this.OnContentChanging(value);
-					this.SendPropertyChanging();
-					this._Content = value;
-					this.SendPropertyChanged("Content");
-					this.OnContentChanged();
-				}
-			}
-		}
-		
-		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_CreatedAt", DbType="DateTime")]
-		public System.Nullable<System.DateTime> CreatedAt
-		{
-			get
-			{
-				return this._CreatedAt;
-			}
-			set
-			{
-				if ((this._CreatedAt != value))
-				{
-					this.OnCreatedAtChanging(value);
-					this.SendPropertyChanging();
-					this._CreatedAt = value;
-					this.SendPropertyChanged("CreatedAt");
-					this.OnCreatedAtChanged();
-				}
-			}
-		}
-		
-		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_UpdatedAt", DbType="DateTime")]
-		public System.Nullable<System.DateTime> UpdatedAt
-		{
-			get
-			{
-				return this._UpdatedAt;
-			}
-			set
-			{
-				if ((this._UpdatedAt != value))
-				{
-					this.OnUpdatedAtChanging(value);
-					this.SendPropertyChanging();
-					this._UpdatedAt = value;
-					this.SendPropertyChanged("UpdatedAt");
-					this.OnUpdatedAtChanged();
-				}
-			}
-		}
-		
-		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_ProcessedAt", DbType="DateTime")]
-		public System.Nullable<System.DateTime> ProcessedAt
-		{
-			get
-			{
-				return this._ProcessedAt;
-			}
-			set
-			{
-				if ((this._ProcessedAt != value))
-				{
-					this.OnProcessedAtChanging(value);
-					this.SendPropertyChanging();
-					this._ProcessedAt = value;
-					this.SendPropertyChanged("ProcessedAt");
-					this.OnProcessedAtChanged();
-				}
-			}
-		}
-		
-		public event PropertyChangingEventHandler PropertyChanging;
-		
-		public event PropertyChangedEventHandler PropertyChanged;
-		
-		protected virtual void SendPropertyChanging()
-		{
-			if ((this.PropertyChanging != null))
-			{
-				this.PropertyChanging(this, emptyChangingEventArgs);
-			}
-		}
-		
-		protected virtual void SendPropertyChanged(String propertyName)
-		{
-			if ((this.PropertyChanged != null))
-			{
-				this.PropertyChanged(this, new PropertyChangedEventArgs(propertyName));
-			}
-		}
-	}
-	
-	[global::System.Data.Linq.Mapping.TableAttribute(Name="dbo.QichachaTrademark")]
-	public partial class QichachaTrademark : INotifyPropertyChanging, INotifyPropertyChanged
-	{
-		
-		private static PropertyChangingEventArgs emptyChangingEventArgs = new PropertyChangingEventArgs(String.Empty);
-		
-		private string _Id;
-		
-		private string _RegNo;
-		
-		private string _Applicant;
-		
-		private string _Content;
-		
-		private System.Nullable<System.DateTime> _CreatedAt;
-		
-		private System.Nullable<System.DateTime> _UpdatedAt;
-		
-		private System.Nullable<System.DateTime> _ProcessedAt;
-		
-    #region Extensibility Method Definitions
-    partial void OnLoaded();
-    partial void OnValidate(System.Data.Linq.ChangeAction action);
-    partial void OnCreated();
-    partial void OnIdChanging(string value);
-    partial void OnIdChanged();
-    partial void OnRegNoChanging(string value);
-    partial void OnRegNoChanged();
-    partial void OnApplicantChanging(string value);
-    partial void OnApplicantChanged();
-    partial void OnContentChanging(string value);
-    partial void OnContentChanged();
-    partial void OnCreatedAtChanging(System.Nullable<System.DateTime> value);
-    partial void OnCreatedAtChanged();
-    partial void OnUpdatedAtChanging(System.Nullable<System.DateTime> value);
-    partial void OnUpdatedAtChanged();
-    partial void OnProcessedAtChanging(System.Nullable<System.DateTime> value);
-    partial void OnProcessedAtChanged();
-    #endregion
-		
-		public QichachaTrademark()
-		{
-			OnCreated();
-		}
-		
-		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_Id", DbType="VarChar(100) NOT NULL", CanBeNull=false, IsPrimaryKey=true)]
-		public string Id
-		{
-			get
-			{
-				return this._Id;
-			}
-			set
-			{
-				if ((this._Id != value))
-				{
-					this.OnIdChanging(value);
-					this.SendPropertyChanging();
-					this._Id = value;
-					this.SendPropertyChanged("Id");
-					this.OnIdChanged();
-				}
-			}
-		}
-		
-		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_RegNo", DbType="VarChar(50)")]
-		public string RegNo
-		{
-			get
-			{
-				return this._RegNo;
-			}
-			set
-			{
-				if ((this._RegNo != value))
-				{
-					this.OnRegNoChanging(value);
-					this.SendPropertyChanging();
-					this._RegNo = value;
-					this.SendPropertyChanged("RegNo");
-					this.OnRegNoChanged();
-				}
-			}
-		}
-		
-		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_Applicant", DbType="NVarChar(500)")]
-		public string Applicant
-		{
-			get
-			{
-				return this._Applicant;
-			}
-			set
-			{
-				if ((this._Applicant != value))
-				{
-					this.OnApplicantChanging(value);
-					this.SendPropertyChanging();
-					this._Applicant = value;
-					this.SendPropertyChanged("Applicant");
-					this.OnApplicantChanged();
 				}
 			}
 		}
@@ -2304,6 +1868,466 @@ namespace Picker.Postgresql
 					this._ProcessedPage = value;
 					this.SendPropertyChanged("ProcessedPage");
 					this.OnProcessedPageChanged();
+				}
+			}
+		}
+		
+		public event PropertyChangingEventHandler PropertyChanging;
+		
+		public event PropertyChangedEventHandler PropertyChanged;
+		
+		protected virtual void SendPropertyChanging()
+		{
+			if ((this.PropertyChanging != null))
+			{
+				this.PropertyChanging(this, emptyChangingEventArgs);
+			}
+		}
+		
+		protected virtual void SendPropertyChanged(String propertyName)
+		{
+			if ((this.PropertyChanged != null))
+			{
+				this.PropertyChanged(this, new PropertyChangedEventArgs(propertyName));
+			}
+		}
+	}
+	
+	[global::System.Data.Linq.Mapping.TableAttribute(Name="dbo.QichachaTrademark")]
+	public partial class QichachaTrademark : INotifyPropertyChanging, INotifyPropertyChanged
+	{
+		
+		private static PropertyChangingEventArgs emptyChangingEventArgs = new PropertyChangingEventArgs(String.Empty);
+		
+		private string _Id;
+		
+		private string _Name;
+		
+		private string _RegNo;
+		
+		private string _Applicant;
+		
+		private string _Content;
+		
+		private System.Nullable<System.DateTime> _CreatedAt;
+		
+		private System.Nullable<System.DateTime> _UpdatedAt;
+		
+		private System.Nullable<System.DateTime> _ProcessedAt;
+		
+    #region Extensibility Method Definitions
+    partial void OnLoaded();
+    partial void OnValidate(System.Data.Linq.ChangeAction action);
+    partial void OnCreated();
+    partial void OnIdChanging(string value);
+    partial void OnIdChanged();
+    partial void OnNameChanging(string value);
+    partial void OnNameChanged();
+    partial void OnRegNoChanging(string value);
+    partial void OnRegNoChanged();
+    partial void OnApplicantChanging(string value);
+    partial void OnApplicantChanged();
+    partial void OnContentChanging(string value);
+    partial void OnContentChanged();
+    partial void OnCreatedAtChanging(System.Nullable<System.DateTime> value);
+    partial void OnCreatedAtChanged();
+    partial void OnUpdatedAtChanging(System.Nullable<System.DateTime> value);
+    partial void OnUpdatedAtChanged();
+    partial void OnProcessedAtChanging(System.Nullable<System.DateTime> value);
+    partial void OnProcessedAtChanged();
+    #endregion
+		
+		public QichachaTrademark()
+		{
+			OnCreated();
+		}
+		
+		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_Id", DbType="VarChar(100) NOT NULL", CanBeNull=false, IsPrimaryKey=true)]
+		public string Id
+		{
+			get
+			{
+				return this._Id;
+			}
+			set
+			{
+				if ((this._Id != value))
+				{
+					this.OnIdChanging(value);
+					this.SendPropertyChanging();
+					this._Id = value;
+					this.SendPropertyChanged("Id");
+					this.OnIdChanged();
+				}
+			}
+		}
+		
+		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_Name", DbType="NVarChar(500)")]
+		public string Name
+		{
+			get
+			{
+				return this._Name;
+			}
+			set
+			{
+				if ((this._Name != value))
+				{
+					this.OnNameChanging(value);
+					this.SendPropertyChanging();
+					this._Name = value;
+					this.SendPropertyChanged("Name");
+					this.OnNameChanged();
+				}
+			}
+		}
+		
+		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_RegNo", DbType="VarChar(50)")]
+		public string RegNo
+		{
+			get
+			{
+				return this._RegNo;
+			}
+			set
+			{
+				if ((this._RegNo != value))
+				{
+					this.OnRegNoChanging(value);
+					this.SendPropertyChanging();
+					this._RegNo = value;
+					this.SendPropertyChanged("RegNo");
+					this.OnRegNoChanged();
+				}
+			}
+		}
+		
+		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_Applicant", DbType="NVarChar(500)")]
+		public string Applicant
+		{
+			get
+			{
+				return this._Applicant;
+			}
+			set
+			{
+				if ((this._Applicant != value))
+				{
+					this.OnApplicantChanging(value);
+					this.SendPropertyChanging();
+					this._Applicant = value;
+					this.SendPropertyChanged("Applicant");
+					this.OnApplicantChanged();
+				}
+			}
+		}
+		
+		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_Content", DbType="NVarChar(MAX)")]
+		public string Content
+		{
+			get
+			{
+				return this._Content;
+			}
+			set
+			{
+				if ((this._Content != value))
+				{
+					this.OnContentChanging(value);
+					this.SendPropertyChanging();
+					this._Content = value;
+					this.SendPropertyChanged("Content");
+					this.OnContentChanged();
+				}
+			}
+		}
+		
+		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_CreatedAt", DbType="DateTime")]
+		public System.Nullable<System.DateTime> CreatedAt
+		{
+			get
+			{
+				return this._CreatedAt;
+			}
+			set
+			{
+				if ((this._CreatedAt != value))
+				{
+					this.OnCreatedAtChanging(value);
+					this.SendPropertyChanging();
+					this._CreatedAt = value;
+					this.SendPropertyChanged("CreatedAt");
+					this.OnCreatedAtChanged();
+				}
+			}
+		}
+		
+		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_UpdatedAt", DbType="DateTime")]
+		public System.Nullable<System.DateTime> UpdatedAt
+		{
+			get
+			{
+				return this._UpdatedAt;
+			}
+			set
+			{
+				if ((this._UpdatedAt != value))
+				{
+					this.OnUpdatedAtChanging(value);
+					this.SendPropertyChanging();
+					this._UpdatedAt = value;
+					this.SendPropertyChanged("UpdatedAt");
+					this.OnUpdatedAtChanged();
+				}
+			}
+		}
+		
+		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_ProcessedAt", DbType="DateTime")]
+		public System.Nullable<System.DateTime> ProcessedAt
+		{
+			get
+			{
+				return this._ProcessedAt;
+			}
+			set
+			{
+				if ((this._ProcessedAt != value))
+				{
+					this.OnProcessedAtChanging(value);
+					this.SendPropertyChanging();
+					this._ProcessedAt = value;
+					this.SendPropertyChanged("ProcessedAt");
+					this.OnProcessedAtChanged();
+				}
+			}
+		}
+		
+		public event PropertyChangingEventHandler PropertyChanging;
+		
+		public event PropertyChangedEventHandler PropertyChanged;
+		
+		protected virtual void SendPropertyChanging()
+		{
+			if ((this.PropertyChanging != null))
+			{
+				this.PropertyChanging(this, emptyChangingEventArgs);
+			}
+		}
+		
+		protected virtual void SendPropertyChanged(String propertyName)
+		{
+			if ((this.PropertyChanged != null))
+			{
+				this.PropertyChanged(this, new PropertyChangedEventArgs(propertyName));
+			}
+		}
+	}
+	
+	[global::System.Data.Linq.Mapping.TableAttribute(Name="dbo.QichachaPatent")]
+	public partial class QichachaPatent : INotifyPropertyChanging, INotifyPropertyChanged
+	{
+		
+		private static PropertyChangingEventArgs emptyChangingEventArgs = new PropertyChangingEventArgs(String.Empty);
+		
+		private string _Id;
+		
+		private string _ApplicationNum;
+		
+		private string _PublicationNum;
+		
+		private string _Title;
+		
+		private string _Content;
+		
+		private System.Nullable<System.DateTime> _CreatedAt;
+		
+		private System.Nullable<System.DateTime> _UpdatedAt;
+		
+		private System.Nullable<System.DateTime> _ProcessedAt;
+		
+    #region Extensibility Method Definitions
+    partial void OnLoaded();
+    partial void OnValidate(System.Data.Linq.ChangeAction action);
+    partial void OnCreated();
+    partial void OnIdChanging(string value);
+    partial void OnIdChanged();
+    partial void OnApplicationNumChanging(string value);
+    partial void OnApplicationNumChanged();
+    partial void OnPublicationNumChanging(string value);
+    partial void OnPublicationNumChanged();
+    partial void OnTitleChanging(string value);
+    partial void OnTitleChanged();
+    partial void OnContentChanging(string value);
+    partial void OnContentChanged();
+    partial void OnCreatedAtChanging(System.Nullable<System.DateTime> value);
+    partial void OnCreatedAtChanged();
+    partial void OnUpdatedAtChanging(System.Nullable<System.DateTime> value);
+    partial void OnUpdatedAtChanged();
+    partial void OnProcessedAtChanging(System.Nullable<System.DateTime> value);
+    partial void OnProcessedAtChanged();
+    #endregion
+		
+		public QichachaPatent()
+		{
+			OnCreated();
+		}
+		
+		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_Id", DbType="VarChar(100) NOT NULL", CanBeNull=false, IsPrimaryKey=true)]
+		public string Id
+		{
+			get
+			{
+				return this._Id;
+			}
+			set
+			{
+				if ((this._Id != value))
+				{
+					this.OnIdChanging(value);
+					this.SendPropertyChanging();
+					this._Id = value;
+					this.SendPropertyChanged("Id");
+					this.OnIdChanged();
+				}
+			}
+		}
+		
+		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_ApplicationNum", DbType="VarChar(50)")]
+		public string ApplicationNum
+		{
+			get
+			{
+				return this._ApplicationNum;
+			}
+			set
+			{
+				if ((this._ApplicationNum != value))
+				{
+					this.OnApplicationNumChanging(value);
+					this.SendPropertyChanging();
+					this._ApplicationNum = value;
+					this.SendPropertyChanged("ApplicationNum");
+					this.OnApplicationNumChanged();
+				}
+			}
+		}
+		
+		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_PublicationNum", DbType="VarChar(50)")]
+		public string PublicationNum
+		{
+			get
+			{
+				return this._PublicationNum;
+			}
+			set
+			{
+				if ((this._PublicationNum != value))
+				{
+					this.OnPublicationNumChanging(value);
+					this.SendPropertyChanging();
+					this._PublicationNum = value;
+					this.SendPropertyChanged("PublicationNum");
+					this.OnPublicationNumChanged();
+				}
+			}
+		}
+		
+		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_Title", DbType="NVarChar(500)")]
+		public string Title
+		{
+			get
+			{
+				return this._Title;
+			}
+			set
+			{
+				if ((this._Title != value))
+				{
+					this.OnTitleChanging(value);
+					this.SendPropertyChanging();
+					this._Title = value;
+					this.SendPropertyChanged("Title");
+					this.OnTitleChanged();
+				}
+			}
+		}
+		
+		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_Content", DbType="NVarChar(MAX)")]
+		public string Content
+		{
+			get
+			{
+				return this._Content;
+			}
+			set
+			{
+				if ((this._Content != value))
+				{
+					this.OnContentChanging(value);
+					this.SendPropertyChanging();
+					this._Content = value;
+					this.SendPropertyChanged("Content");
+					this.OnContentChanged();
+				}
+			}
+		}
+		
+		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_CreatedAt", DbType="DateTime")]
+		public System.Nullable<System.DateTime> CreatedAt
+		{
+			get
+			{
+				return this._CreatedAt;
+			}
+			set
+			{
+				if ((this._CreatedAt != value))
+				{
+					this.OnCreatedAtChanging(value);
+					this.SendPropertyChanging();
+					this._CreatedAt = value;
+					this.SendPropertyChanged("CreatedAt");
+					this.OnCreatedAtChanged();
+				}
+			}
+		}
+		
+		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_UpdatedAt", DbType="DateTime")]
+		public System.Nullable<System.DateTime> UpdatedAt
+		{
+			get
+			{
+				return this._UpdatedAt;
+			}
+			set
+			{
+				if ((this._UpdatedAt != value))
+				{
+					this.OnUpdatedAtChanging(value);
+					this.SendPropertyChanging();
+					this._UpdatedAt = value;
+					this.SendPropertyChanged("UpdatedAt");
+					this.OnUpdatedAtChanged();
+				}
+			}
+		}
+		
+		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_ProcessedAt", DbType="DateTime")]
+		public System.Nullable<System.DateTime> ProcessedAt
+		{
+			get
+			{
+				return this._ProcessedAt;
+			}
+			set
+			{
+				if ((this._ProcessedAt != value))
+				{
+					this.OnProcessedAtChanging(value);
+					this.SendPropertyChanging();
+					this._ProcessedAt = value;
+					this.SendPropertyChanged("ProcessedAt");
+					this.OnProcessedAtChanged();
 				}
 			}
 		}

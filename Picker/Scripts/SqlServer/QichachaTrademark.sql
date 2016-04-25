@@ -1,7 +1,7 @@
 USE [qichacha]
 GO
 
-/****** Object:  Table [dbo].[QichachaTrademark]    Script Date: 2016/4/19 21:58:25 ******/
+/****** Object:  Table [dbo].[QichachaTrademark]    Script Date: 2016/4/23 08:35:47 ******/
 SET ANSI_NULLS ON
 GO
 
@@ -13,6 +13,7 @@ GO
 
 CREATE TABLE [dbo].[QichachaTrademark](
 	[Id] [varchar](100) NOT NULL,
+	[Name] [nvarchar](500) NULL,
 	[RegNo] [varchar](50) NULL,
 	[Applicant] [nvarchar](500) NULL,
 	[Content] [nvarchar](max) NULL,

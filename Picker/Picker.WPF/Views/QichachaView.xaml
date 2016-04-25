@@ -7,7 +7,7 @@
         xmlns:catel="http://catel.codeplex.com"
         xmlns:winFroms="clr-namespace:System.Windows.Forms;assembly=System.Windows.Forms"
         xmlns:utility="clr-namespace:Picker.Utilities"
-        Title="豆瓣" Height="600" Width="800" ResizeMode="CanMinimize" WindowStartupLocation="CenterOwner">
+        Title="企查查" Height="600" Width="800" ResizeMode="CanMinimize" WindowStartupLocation="CenterOwner">
     <i:Interaction.Behaviors>
         <metroBehaviours:BorderlessWindowBehavior/>
     </i:Interaction.Behaviors>
@@ -32,9 +32,9 @@
                             <StackPanel Margin="5">
                                 <TextBlock Text="{Binding Title}" Margin="5" FontSize="22" FontWeight="Bold" Foreground="LightBlue"/>
                                 <StackPanel Orientation="Horizontal" Margin="5">
-                                    <TextBlock Text="{Binding Count}" Margin="5,0,0,0"/>
+                                    <TextBlock Text="{Binding ProcessedCount}" Margin="5,0,0,0"/>
                                     <TextBlock Text="（"/>
-                                    <TextBlock Text="{Binding ProcessedCount}"/>
+                                    <TextBlock Text="{Binding Count}"/>
                                     <TextBlock Text="/" Margin="5,0,5,0"/>
                                     <TextBlock Text="{Binding TaskCount}"/>
                                     <TextBlock Text="）"/>
@@ -95,7 +95,13 @@
                 </StackPanel>
             </TabItem>
 
-            <TabItem Header="Info"></TabItem>
+            <TabItem Header="Info">
+                <metro:MetroContentControl>
+                    <Grid>
+                        <metro:Tile Content="Basic Info" Title="基本信息" Margin="198,10,239,377" Command="{Binding CmdBasicInfo}" />
+                    </Grid>
+                </metro:MetroContentControl>
+            </TabItem>
             
             <TabItem Header="Invest"></TabItem>
 

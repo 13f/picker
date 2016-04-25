@@ -1,7 +1,7 @@
 USE [qichacha]
 GO
 
-/****** Object:  Table [dbo].[QichachaPatent]    Script Date: 2016/4/19 21:58:18 ******/
+/****** Object:  Table [dbo].[QichachaPatent]    Script Date: 2016/4/25 17:05:00 ******/
 SET ANSI_NULLS ON
 GO
 
@@ -13,9 +13,10 @@ GO
 
 CREATE TABLE [dbo].[QichachaPatent](
 	[Id] [varchar](100) NOT NULL,
-	[PatentId] [varchar](50) NULL,
-	[PatentType] [varchar](50) NULL,
-	[Applicant] [nvarchar](500) NULL,
+	[ApplicationNum] [varchar](50) NULL,
+	[PublicationNum] [varchar](50) NULL,
+	[Title] [nvarchar](500) NULL,
+	--[Applicant] [nvarchar](500) NULL,
 	[Content] [nvarchar](max) NULL,
 	[CreatedAt] [datetime] NULL,
 	[UpdatedAt] [datetime] NULL,

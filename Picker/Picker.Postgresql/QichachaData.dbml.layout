@@ -32,22 +32,10 @@
         <elementListCompartment Id="78e7d9e4-6990-4390-9d61-f3b6b68c785f" absoluteBounds="6.015, 1.085, 1.9700000000000002, 1.7164815266927085" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
       </nestedChildShapes>
     </classShape>
-    <classShape Id="8a7a363e-ed70-4576-93a5-124d51efaa1d" absoluteBounds="3.5, 4.5, 2, 2.2764815266927094">
-      <DataClassMoniker Name="/QichachaDataContext/QichachaPatent" />
-      <nestedChildShapes>
-        <elementListCompartment Id="8c696c6f-c0ab-452a-bb9c-47fbbaaf6213" absoluteBounds="3.5149999999999997, 4.9600000000000009, 1.9700000000000002, 1.7164815266927085" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
-      </nestedChildShapes>
-    </classShape>
     <classShape Id="b5483711-9725-4b6b-a581-cda6c86b0a9c" absoluteBounds="3.625, 8, 2, 1.9068933105468737">
       <DataClassMoniker Name="/QichachaDataContext/QichachaSoftwareCopyright" />
       <nestedChildShapes>
         <elementListCompartment Id="0a604240-2a5f-4e63-a836-1e58bd46c58f" absoluteBounds="3.64, 8.46, 1.9700000000000002, 1.346893310546875" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
-      </nestedChildShapes>
-    </classShape>
-    <classShape Id="30ebf7e0-0805-4522-bd8f-426688f9dbc4" absoluteBounds="6, 4.5, 2, 2.0916874186197916">
-      <DataClassMoniker Name="/QichachaDataContext/QichachaTrademark" />
-      <nestedChildShapes>
-        <elementListCompartment Id="02d021aa-dc9f-4e92-824c-6711b01ff9e3" absoluteBounds="6.0150000000000006, 4.96, 1.9700000000000002, 1.5316874186197915" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
       </nestedChildShapes>
     </classShape>
     <classShape Id="f992f949-98b4-4813-b27e-bf5ee672e9da" absoluteBounds="0.875, 10.875, 2, 1.9068933105468751">
@@ -60,6 +48,18 @@
       <DataClassMoniker Name="/QichachaDataContext/QichachaCompanySearch" />
       <nestedChildShapes>
         <elementListCompartment Id="93742b7c-2ae0-4a4d-afd8-4272bf409a58" absoluteBounds="3.64, 11.335, 1.9700000000000002, 0.97730509440104174" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="bd59588a-5bbb-48b7-883c-9583f9ae1636" absoluteBounds="6, 4.5, 2, 2.2764815266927085">
+      <DataClassMoniker Name="/QichachaDataContext/QichachaTrademark" />
+      <nestedChildShapes>
+        <elementListCompartment Id="31d57898-6fc3-4e24-a26d-c883a1f96502" absoluteBounds="6.015, 4.96, 1.9700000000000002, 1.7164815266927085" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="cdc7a5b3-459b-4f99-8f20-017efe9458ce" absoluteBounds="3.375, 4.5, 2, 2.2764815266927085">
+      <DataClassMoniker Name="/QichachaDataContext/QichachaPatent" />
+      <nestedChildShapes>
+        <elementListCompartment Id="bb6c5d55-5721-4f16-9659-27f25e3df457" absoluteBounds="3.39, 4.96, 1.9700000000000002, 1.7164815266927085" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
       </nestedChildShapes>
     </classShape>
   </nestedChildShapes>
