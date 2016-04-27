@@ -52,6 +52,7 @@
   <ItemGroup>
     <Compile Include="EmojiCheatSheet.cs" />
     <Compile Include="Food911cha.cs" />
+    <Compile Include="FoodSecurityStandard.cs" />
     <Compile Include="Global500.cs" />
     <Compile Include="PeopleComCN.cs" />
     <Compile Include="Program.cs" />

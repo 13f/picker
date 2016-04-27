@@ -23,6 +23,14 @@ namespace Picker.Core.Helpers {
       return client;
     }
 
+    public static WebClient GetWebClient_GBK() {
+      WebClient client = new WebClient();
+      client.Encoding = System.Text.Encoding.GetEncoding( "GBK" );
+      client.UseDefaultCredentials = true;
+      client.Headers.Add( "User-Agent", "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/39.0.2171.71 Safari/537.36 Edge/12.0" );
+      return client;
+    }
+
     public static string HttpPost( this WebClient client, string url, string postString ) {
       byte[] postData = Encoding.UTF8.GetBytes( postString );
 

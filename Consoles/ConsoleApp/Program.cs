@@ -60,9 +60,9 @@ namespace ConsoleApp {
       //string file = @"E:\github\picker\data\organization\global500-2012";
       //Global500.PickToJsonBefore2013( "http://www.fortunechina.com/fortune500/c/2012-07/09/content_106535.htm", tableKey, "rank2012", "rank2011", file );
 
-      // emoji // @2016-4-27
-      string targetDir = @"E:\github\picker\data\emotion\";
-      EmojiCheatSheet.Run( targetDir, targetDir + "images\\" );
+      // emoji // ok @2016-4-27
+      //string targetDir = @"E:\github\picker\data\emotion\";
+      //EmojiCheatSheet.Run( targetDir, targetDir + "images\\" );
 
       // test: qichacha.com
       //testQichacha_GetTrademarkList();
@@ -70,6 +70,11 @@ namespace ConsoleApp {
       //testQichacha_Post_Patent(); // ok
       //testQichacha_Post_Certificate(); // ok
       //Console.WriteLine( "Over..." );
+
+      // test: http://spaqbz.zjwst.gov.cn/zjfsdata/html/eStandardList.jsp
+      //testPost_EnterpriseStandard_Zhejiang_Food(); // ok
+      // @2016-4-27
+      FoodSecurityStandard.PickItems_Zhejiang( @"F:\Data\浙江食品安全标准\企业标准.json" );
 
       // wait for input
       Console.ReadKey();
@@ -255,6 +260,26 @@ namespace ConsoleApp {
       Console.WriteLine( "====" );
     }
 
+    static void testPost_EnterpriseStandard_Zhejiang_Food() {
+      string uri = "http://spaqbz.zjwst.gov.cn/zjfsdata/proxy/eStandProxy.jsp?startrecord=21&endrecord=40&perpage=20&totalRecord=5424";
+
+      var gbk = Encoding.GetEncoding( "gbk" );
+
+      string postString = "id2=F65FC0275F670896";
+      byte[] postData = gbk.GetBytes( postString );
+      
+      System.Net.WebClient client = Picker.Core.Helpers.NetHelper.GetWebClient_GBK();
+
+      string cookie = "JSESSIONID=94F92A1951D5D01F93A1633996047FD2";
+      client.Headers.Add( "Content-Type", "application/x-www-form-urlencoded" ); // post
+      client.Headers.Add( "Cookie", cookie );
+
+      byte[] responseData = client.UploadData( uri, "POST", postData ); // 得到返回字符流
+      string result = gbk.GetString( responseData ); // 解码
+      Console.WriteLine( "====" );
+      Console.WriteLine( result );
+      Console.WriteLine( "====" );
+    }
     
 
   }
