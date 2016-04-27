@@ -1,0 +1,4381 @@
+﻿{
+  "title": "Emoji",
+  "description": "",
+  "tags": "表情; emoji; emotion; 绘文字",
+  "url": "http://www.emoji-cheat-sheet.com/",
+  "project": "https://github.com/arvida/emoji-cheat-sheet.com",
+  "reference": [
+    "https://github.com/pladaria/emoji-shortnames"
+  ],
+  "data": [
+    {
+      "name": "people",
+      "items": [
+        {
+          "short-name": ":bowtie:",
+          "alternative-names": "classy, bow, face, formal, fashion, suit, magic, circus",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/bowtie.png"
+        },
+        {
+          "short-name": ":smile:",
+          "alternative-names": "happy, cheerful, face, joy, funny, haha, laugh, like",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/smile.png"
+        },
+        {
+          "short-name": ":laughing:",
+          "alternative-names": "lol, funny, happy, joy, satisfied, haha, face, glad",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/laughing.png"
+        },
+        {
+          "short-name": ":blush:",
+          "alternative-names": "face, smile, happy, flushed, crush, embarrassed, shy, joy",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/blush.png"
+        },
+        {
+          "short-name": ":smiley:",
+          "alternative-names": "funny, face, happy, joy, haha",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/smiley.png"
+        },
+        {
+          "short-name": ":relaxed:",
+          "alternative-names": "face, blush, massage, happiness",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/relaxed.png"
+        },
+        {
+          "short-name": ":smirk:",
+          "alternative-names": "face, smile, mean, prank, smug, sarcasm",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/smirk.png"
+        },
+        {
+          "short-name": ":heart_eyes:",
+          "alternative-names": "love, face, like, affection, valentines, infatuation, crush",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/heart_eyes.png"
+        },
+        {
+          "short-name": ":kissing_heart:",
+          "alternative-names": "kiss, face, love, like, affection, valentines, infatuation",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/kissing_heart.png"
+        },
+        {
+          "short-name": ":kissing_closed_eyes:",
+          "alternative-names": "face, love, like, affection, valentines, infatuation",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/kissing_closed_eyes.png"
+        },
+        {
+          "short-name": ":flushed:",
+          "alternative-names": "flustered, embarassed, face, blush, shy, flattered",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/flushed.png"
+        },
+        {
+          "short-name": ":relieved:",
+          "alternative-names": "face, relaxed, phew, massage, happiness",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/relieved.png"
+        },
+        {},
+        {
+          "short-name": ":grin:",
+          "alternative-names": "happy, smile, face, joy",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/grin.png"
+        },
+        {
+          "short-name": ":wink:",
+          "alternative-names": "flirt, face, happy, mischievous, secret",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/wink.png"
+        },
+        {
+          "short-name": ":stuck_out_tongue_winking_eye:",
+          "alternative-names": "face, prank, childish, playful, mischievous, smile",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/stuck_out_tongue_winking_eye.png"
+        },
+        {
+          "short-name": ":stuck_out_tongue_closed_eyes:",
+          "alternative-names": "face, prank, playful, mischievous, smile",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/stuck_out_tongue_closed_eyes.png"
+        },
+        {
+          "short-name": ":grinning:",
+          "alternative-names": "smiling, face, smile, happy, joy",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/grinning.png"
+        },
+        {
+          "short-name": ":kissing:",
+          "alternative-names": "love, like, face, 3, valentines, infatuation",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/kissing.png"
+        },
+        {
+          "short-name": ":kissing_smiling_eyes:",
+          "alternative-names": "smooch, face, affection, valentines, infatuation",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/kissing_smiling_eyes.png"
+        },
+        {
+          "short-name": ":stuck_out_tongue:",
+          "alternative-names": "face, prank, childish, playful, mischievous, smile",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/stuck_out_tongue.png"
+        },
+        {
+          "short-name": ":sleeping:",
+          "alternative-names": "asleep, face, tired, sleepy, night, zzz",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/sleeping.png"
+        },
+        {
+          "short-name": ":worried:",
+          "alternative-names": "frustrated, scared, face, concern, nervous",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/worried.png"
+        },
+        {
+          "short-name": ":frowning:",
+          "alternative-names": "face, aw, what",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/frowning.png"
+        },
+        {
+          "short-name": ":anguished:",
+          "alternative-names": "face, stunned, nervous",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/anguished.png"
+        },
+        {
+          "short-name": ":open_mouth:",
+          "alternative-names": "face, surprise, impressed, wow",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/open_mouth.png"
+        },
+        {
+          "short-name": ":grimacing:",
+          "alternative-names": "face, grimace, teeth",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/grimacing.png"
+        },
+        {
+          "short-name": ":confused:",
+          "alternative-names": "baffled, puzzled, face, indifference, huh, weird, hmmm",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/confused.png"
+        },
+        {
+          "short-name": ":hushed:",
+          "alternative-names": "face, woo, shh",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/hushed.png"
+        },
+        {
+          "short-name": ":expressionless:",
+          "alternative-names": "deadpan, face, indifferent, -_-, meh",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/expressionless.png"
+        },
+        {
+          "short-name": ":unamused:",
+          "alternative-names": "sarcasm, indifference, bored, straight face, serious",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/unamused.png"
+        },
+        {
+          "short-name": ":sweat_smile:",
+          "alternative-names": "happy, relief, face, hot, laugh",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/sweat_smile.png"
+        },
+        {
+          "short-name": ":sweat:",
+          "alternative-names": "worried, stressed, face, hot, sad, tired, exercise",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/sweat.png"
+        },
+        {
+          "short-name": ":disappointed_relieved:",
+          "alternative-names": "face, phew, sweat, nervous",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/disappointed_relieved.png"
+        },
+        {
+          "short-name": ":weary:",
+          "alternative-names": "tired, face, sleepy, sad, frustrated, upset",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/weary.png"
+        },
+        {
+          "short-name": ":pensive:",
+          "alternative-names": "face, sad, depressed, okay, upset",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/pensive.png"
+        },
+        {
+          "short-name": ":disappointed:",
+          "alternative-names": "sad, lonely, face, upset, depressed",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/disappointed.png"
+        },
+        {
+          "short-name": ":confounded:",
+          "alternative-names": "face, confused, sick, unwell, oops",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/confounded.png"
+        },
+        {
+          "short-name": ":fearful:",
+          "alternative-names": "scared, afraid, nervous, scared, face, terrified, oops, huh",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/fearful.png"
+        },
+        {
+          "short-name": ":cold_sweat:",
+          "alternative-names": "scared, frightened, nervous, scared, face",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/cold_sweat.png"
+        },
+        {
+          "short-name": ":persevere:",
+          "alternative-names": "face, sick, no, upset, oops",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/persevere.png"
+        },
+        {
+          "short-name": ":cry:",
+          "alternative-names": "sad, unhappy, tear, face, tears, depressed, upset",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/cry.png"
+        },
+        {
+          "short-name": ":sob:",
+          "alternative-names": "sad, unhappy, face, cry, tears, upset, depressed",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/sob.png"
+        },
+        {
+          "short-name": ":joy:",
+          "alternative-names": "happy, happytears, face, cry, tears, weep, haha",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/joy.png"
+        },
+        {
+          "short-name": ":astonished:",
+          "alternative-names": "face, xox, surprised, poisoned",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/astonished.png"
+        },
+        {
+          "short-name": ":scream:",
+          "alternative-names": "halloween, scary, scared, terrified, face, munch, omg",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/scream.png"
+        },
+        {
+          "short-name": ":neckbeard:",
+          "alternative-names": "nerd, geek, nerdy, face, custom_",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/neckbeard.png"
+        },
+        {
+          "short-name": ":tired_face:",
+          "alternative-names": "sick, whine, upset, frustrated",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/tired_face.png"
+        },
+        {
+          "short-name": ":angry:",
+          "alternative-names": "mad, face, annoyed, frustrated",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/angry.png"
+        },
+        {
+          "short-name": ":rage:",
+          "alternative-names": "furious, angry, mad, hate, despise",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/rage.png"
+        },
+        {
+          "short-name": ":triumph:",
+          "alternative-names": "face, gas, phew, proud, pride",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/triumph.png"
+        },
+        {
+          "short-name": ":sleepy:",
+          "alternative-names": "tired, zzz, face, rest, nap",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/sleepy.png"
+        },
+        {
+          "short-name": ":yum:",
+          "alternative-names": "delicious, happy, joy, tongue, smile, face, silly, yummy",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/yum.png"
+        },
+        {
+          "short-name": ":mask:",
+          "alternative-names": "face, sick, ill, disease",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/mask.png"
+        },
+        {
+          "short-name": ":sunglasses:",
+          "alternative-names": "shades, face, cool, smile, summer, beach",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/sunglasses.png"
+        },
+        {
+          "short-name": ":dizzy_face:",
+          "alternative-names": "ko, spent, unconscious, xox",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/dizzy_face.png"
+        },
+        {
+          "short-name": ":imp:",
+          "alternative-names": "devil, angry, horns",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/imp.png"
+        },
+        {
+          "short-name": ":smiling_imp:",
+          "alternative-names": "devil, horns",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/smiling_imp.png"
+        },
+        {
+          "short-name": ":neutral_face:",
+          "alternative-names": "indifference, meh",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/neutral_face.png"
+        },
+        {
+          "short-name": ":no_mouth:",
+          "alternative-names": "face, hellokitty",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/no_mouth.png"
+        },
+        {
+          "short-name": ":innocent:",
+          "alternative-names": "angel, face, heaven, halo",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/innocent.png"
+        },
+        {
+          "short-name": ":alien:",
+          "alternative-names": "extraterrestrial, UFO, paul, weird, outer_space",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/alien.png"
+        },
+        {
+          "short-name": ":yellow_heart:",
+          "alternative-names": "love, like, affection, valentines",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/yellow_heart.png"
+        },
+        {
+          "short-name": ":blue_heart:",
+          "alternative-names": "love, like, affection, valentines",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/blue_heart.png"
+        },
+        {
+          "short-name": ":purple_heart:",
+          "alternative-names": "love, like, affection, valentines",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/purple_heart.png"
+        },
+        {
+          "short-name": ":heart:",
+          "alternative-names": "love, like, valentines",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/heart.png"
+        },
+        {
+          "short-name": ":green_heart:",
+          "alternative-names": "love, like, affection, valentines",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/green_heart.png"
+        },
+        {
+          "short-name": ":broken_heart:",
+          "alternative-names": "heartbreak, sad, sorry, break",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/broken_heart.png"
+        },
+        {
+          "short-name": ":heartbeat:",
+          "alternative-names": "love, like, affection, valentines, pink",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/heartbeat.png"
+        },
+        {
+          "short-name": ":heartpulse:",
+          "alternative-names": "like, love, affection, valentines, pink",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/heartpulse.png"
+        },
+        {
+          "short-name": ":two_hearts:",
+          "alternative-names": "love, like, affection, valentines",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/two_hearts.png"
+        },
+        {
+          "short-name": ":revolving_hearts:",
+          "alternative-names": "love, like, affection, valentines",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/revolving_hearts.png"
+        },
+        {
+          "short-name": ":cupid:",
+          "alternative-names": "love, like, heart, affection, valentines",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/cupid.png"
+        },
+        {
+          "short-name": ":sparkling_heart:",
+          "alternative-names": "love, like, affection, valentines",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/sparkling_heart.png"
+        },
+        {
+          "short-name": ":sparkles:",
+          "alternative-names": "stars, shine, shiny, cool, awesome, good, magic",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/sparkles.png"
+        },
+        {
+          "short-name": ":star:",
+          "alternative-names": "night, yellow",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/star.png"
+        },
+        {
+          "short-name": ":star2:",
+          "alternative-names": "night, sparkle, awesome, good, magic",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/star2.png"
+        },
+        {
+          "short-name": ":dizzy:",
+          "alternative-names": "star, sparkle, shoot, magic",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/dizzy.png"
+        },
+        {
+          "short-name": ":boom:",
+          "alternative-names": "explosion, bomb, explode, collision, blown",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/boom.png"
+        },
+        {},
+        {
+          "short-name": ":anger:",
+          "alternative-names": "angry, mad",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/anger.png"
+        },
+        {
+          "short-name": ":exclamation:",
+          "alternative-names": "heavy_exclamation_mark, danger, surprise, punctuation, wow, warning",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/exclamation.png"
+        },
+        {
+          "short-name": ":question:",
+          "alternative-names": "doubt, confused",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/question.png"
+        },
+        {
+          "short-name": ":grey_exclamation:",
+          "alternative-names": "surprise, punctuation, gray, wow, warning",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/grey_exclamation.png"
+        },
+        {
+          "short-name": ":grey_question:",
+          "alternative-names": "doubts, gray, huh",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/grey_question.png"
+        },
+        {
+          "short-name": ":zzz:",
+          "alternative-names": "sleep, bored, sleepy, tired",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/zzz.png"
+        },
+        {
+          "short-name": ":dash:",
+          "alternative-names": "wind, air, fast, shoo, fart, smoke, puff",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/dash.png"
+        },
+        {
+          "short-name": ":sweat_drops:",
+          "alternative-names": "water, drip, oops",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/sweat_drops.png"
+        },
+        {
+          "short-name": ":notes:",
+          "alternative-names": null,
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/notes.png"
+        },
+        {
+          "short-name": ":musical_note:",
+          "alternative-names": "music, score, tone, sound",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/musical_note.png"
+        },
+        {
+          "short-name": ":fire:",
+          "alternative-names": "hot, cook, flame",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/fire.png"
+        },
+        {
+          "short-name": ":hankey:",
+          "alternative-names": "poop, shitface, fail, turd",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/hankey.png"
+        },
+        {
+          "short-name": ":poop:",
+          "alternative-names": "shit, turd",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/poop.png"
+        },
+        {
+          "short-name": ":shit:",
+          "alternative-names": "poop",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/shit.png"
+        },
+        {
+          "short-name": ":+1:",
+          "alternative-names": "thumbsup, yes, awesome, good, agree, accept, cool, hand, like",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/plus1.png"
+        },
+        {
+          "short-name": ":thumbsup:",
+          "alternative-names": "like",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/thumbsup.png"
+        },
+        {
+          "short-name": ":-1:",
+          "alternative-names": "thumbsdown, no, dislike, hand",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/-1.png"
+        },
+        {
+          "short-name": ":thumbsdown:",
+          "alternative-names": "dislike",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/thumbsdown.png"
+        },
+        {
+          "short-name": ":ok_hand:",
+          "alternative-names": "fingers, limbs, perfect",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/ok_hand.png"
+        },
+        {
+          "short-name": ":punch:",
+          "alternative-names": "pound",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/punch.png"
+        },
+        {
+          "short-name": ":facepunch:",
+          "alternative-names": "angry, violence, fist, hit, attack, hand",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/facepunch.png"
+        },
+        {
+          "short-name": ":fist:",
+          "alternative-names": "fingers, hand, grasp",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/fist.png"
+        },
+        {
+          "short-name": ":v:",
+          "alternative-names": "peace, deuces, fingers, ohyeah, hand, victory, two",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/v.png"
+        },
+        {
+          "short-name": ":wave:",
+          "alternative-names": "hi, hello, bye, hands, gesture, goodbye, solong, farewell, palm",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/wave.png"
+        },
+        {
+          "short-name": ":hand:",
+          "alternative-names": "stop, fingers, highfive, palm, ban, raised_hand",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/hand.png"
+        },
+        {
+          "short-name": ":raised_hand:",
+          "alternative-names": "stop",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/raised_hand.png"
+        },
+        {
+          "short-name": ":open_hands:",
+          "alternative-names": "fingers, butterfly",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/open_hands.png"
+        },
+        {
+          "short-name": ":point_up:",
+          "alternative-names": "hand, fingers, direction",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/point_up.png"
+        },
+        {
+          "short-name": ":point_down:",
+          "alternative-names": "fingers, hand, direction",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/point_down.png"
+        },
+        {
+          "short-name": ":point_left:",
+          "alternative-names": "direction, fingers, hand",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/point_left.png"
+        },
+        {
+          "short-name": ":point_right:",
+          "alternative-names": "fingers, hand, direction",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/point_right.png"
+        },
+        {
+          "short-name": ":raised_hands:",
+          "alternative-names": "gesture, hooray, yea, celebration",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/raised_hands.png"
+        },
+        {
+          "short-name": ":pray:",
+          "alternative-names": "please, hope, wish, namaste, highfive",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/pray.png"
+        },
+        {
+          "short-name": ":point_up_2:",
+          "alternative-names": "fingers, hand, direction",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/point_up_2.png"
+        },
+        {
+          "short-name": ":clap:",
+          "alternative-names": "hands, praise, applause, congrats, yay",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/clap.png"
+        },
+        {
+          "short-name": ":muscle:",
+          "alternative-names": "arm, flex, hand, summer, strong",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/muscle.png"
+        },
+        {
+          "short-name": ":metal:",
+          "alternative-names": "fingers, rocknroll, concert, band, custom_",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/metal.png"
+        },
+        {
+          "short-name": ":fu:",
+          "alternative-names": "fuck, finger, dislike, thumbsdown, disapprove, no, custom_",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/fu.png"
+        },
+        {
+          "short-name": ":runner:",
+          "alternative-names": "sport, man, walking, exercise, race, running",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/runner.png"
+        },
+        {
+          "short-name": ":running:",
+          "alternative-names": "sport",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/running.png"
+        },
+        {
+          "short-name": ":couple:",
+          "alternative-names": "pair, people, human, love, date, dating, like, affection, valentines, marriage",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/couple.png"
+        },
+        {
+          "short-name": ":family:",
+          "alternative-names": "home, parents, child, mom, dad, father, mother, people, human",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/family.png"
+        },
+        {
+          "short-name": ":two_men_holding_hands:",
+          "alternative-names": "gay, pair, couple, love, like, bromance, friendship, people, human",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/two_men_holding_hands.png"
+        },
+        {
+          "short-name": ":two_women_holding_hands:",
+          "alternative-names": "gay, pair, friendship, couple, love, like, female, people, human, lesbian",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/two_women_holding_hands.png"
+        },
+        {
+          "short-name": ":dancer:",
+          "alternative-names": "party, female, girl, woman, fun",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/dancer.png"
+        },
+        {
+          "short-name": ":dancers:",
+          "alternative-names": "party, female, bunny, women, girls",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/dancers.png"
+        },
+        {
+          "short-name": ":ok_woman:",
+          "alternative-names": "women, girl, female, pink, human",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/ok_woman.png"
+        },
+        {
+          "short-name": ":no_good:",
+          "alternative-names": "female, girl, woman, nope",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/no_good.png"
+        },
+        {
+          "short-name": ":information_desk_person:",
+          "alternative-names": "female, girl, woman, human",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/information_desk_person.png"
+        },
+        {
+          "short-name": ":raising_hand:",
+          "alternative-names": "female, girl, woman",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/raising_hand.png"
+        },
+        {
+          "short-name": ":bride_with_veil:",
+          "alternative-names": "couple, marriage, wedding",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/bride_with_veil.png"
+        },
+        {
+          "short-name": ":person_with_pouting_face:",
+          "alternative-names": "female, girl, woman",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/person_with_pouting_face.png"
+        },
+        {
+          "short-name": ":person_frowning:",
+          "alternative-names": "female, girl, woman, sad, depressed, discouraged, unhappy",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/person_frowning.png"
+        },
+        {
+          "short-name": ":bow:",
+          "alternative-names": "man, male, boy",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/bow.png"
+        },
+        {
+          "short-name": ":couplekiss:",
+          "alternative-names": "pair, valentines, love, like, dating, marriage",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/couplekiss.png"
+        },
+        {
+          "short-name": ":couple_with_heart:",
+          "alternative-names": "pair, love, like, affection, human, dating, valentines, marriage",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/couple_with_heart.png"
+        },
+        {
+          "short-name": ":massage:",
+          "alternative-names": "female, girl, woman, head",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/massage.png"
+        },
+        {
+          "short-name": ":haircut:",
+          "alternative-names": "female, girl, woman",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/haircut.png"
+        },
+        {
+          "short-name": ":nail_care:",
+          "alternative-names": "manicure, beauty, finger, fashion",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/nail_care.png"
+        },
+        {
+          "short-name": ":boy:",
+          "alternative-names": "man, male, guy, teenager",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/boy.png"
+        },
+        {
+          "short-name": ":girl:",
+          "alternative-names": "female, woman, teenager",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/girl.png"
+        },
+        {
+          "short-name": ":woman:",
+          "alternative-names": "female, girls, lady",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/woman.png"
+        },
+        {
+          "short-name": ":man:",
+          "alternative-names": "guy, mustache, father, dad, classy, sir, moustache",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/man.png"
+        },
+        {
+          "short-name": ":baby:",
+          "alternative-names": "infant, child, boy, girl, toddler",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/baby.png"
+        },
+        {
+          "short-name": ":older_woman:",
+          "alternative-names": "grandma, granny, female, women, girl, lady",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/older_woman.png"
+        },
+        {
+          "short-name": ":older_man:",
+          "alternative-names": "grandpa, grandad, human, male, men",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/older_man.png"
+        },
+        {
+          "short-name": ":person_with_blond_hair:",
+          "alternative-names": "man, male, boy, blonde, guy",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/person_with_blond_hair.png"
+        },
+        {
+          "short-name": ":man_with_gua_pi_mao:",
+          "alternative-names": "male, boy",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/man_with_gua_pi_mao.png"
+        },
+        {
+          "short-name": ":man_with_turban:",
+          "alternative-names": "male, indian, hinduism, arabs",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/man_with_turban.png"
+        },
+        {
+          "short-name": ":construction_worker:",
+          "alternative-names": "male, human, wip, guy, build",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/construction_worker.png"
+        },
+        {
+          "short-name": ":cop:",
+          "alternative-names": "police, policeman, man, law, legal, enforcement, arrest, 911",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/cop.png"
+        },
+        {
+          "short-name": ":angel:",
+          "alternative-names": "heaven, wings, halo",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/angel.png"
+        },
+        {
+          "short-name": ":princess:",
+          "alternative-names": "girl, woman, female, blond, crown, royal, queen",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/princess.png"
+        },
+        {
+          "short-name": ":smiley_cat:",
+          "alternative-names": "animal, happy, cats",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/smiley_cat.png"
+        },
+        {
+          "short-name": ":smile_cat:",
+          "alternative-names": "animal, happy, cats",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/smile_cat.png"
+        },
+        {
+          "short-name": ":heart_eyes_cat:",
+          "alternative-names": "animal, love, like, affection, cats, valentines",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/heart_eyes_cat.png"
+        },
+        {
+          "short-name": ":kissing_cat:",
+          "alternative-names": "animal, love, cats",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/kissing_cat.png"
+        },
+        {
+          "short-name": ":smirk_cat:",
+          "alternative-names": "animal, cats",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/smirk_cat.png"
+        },
+        {
+          "short-name": ":scream_cat:",
+          "alternative-names": "animal, cats, munch, scared",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/scream_cat.png"
+        },
+        {
+          "short-name": ":crying_cat_face:",
+          "alternative-names": "animal, sad, tears, weep, cats, upset",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/crying_cat_face.png"
+        },
+        {
+          "short-name": ":joy_cat:",
+          "alternative-names": "animal, happy, cats, haha, tears",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/joy_cat.png"
+        },
+        {
+          "short-name": ":pouting_cat:",
+          "alternative-names": "animal, sad, unhappy, angry, cats",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/pouting_cat.png"
+        },
+        {
+          "short-name": ":japanese_ogre:",
+          "alternative-names": "namahage, monster, red, mask, halloween, scary, creepy, devil, demon",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/japanese_ogre.png"
+        },
+        {
+          "short-name": ":japanese_goblin:",
+          "alternative-names": "tengu, red, evil, mask, monster, scary, creepy",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/japanese_goblin.png"
+        },
+        {
+          "short-name": ":see_no_evil:",
+          "alternative-names": "monkey, animal, nature, haha",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/see_no_evil.png"
+        },
+        {
+          "short-name": ":hear_no_evil:",
+          "alternative-names": "animal, monkey, nature",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/hear_no_evil.png"
+        },
+        {
+          "short-name": ":speak_no_evil:",
+          "alternative-names": "monkey, animal, nature, omg",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/speak_no_evil.png"
+        },
+        {
+          "short-name": ":guardsman:",
+          "alternative-names": "uk, gb, british, male, guy, royal",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/guardsman.png"
+        },
+        {
+          "short-name": ":skull:",
+          "alternative-names": "scary, halloween, dead, skeleton, creepy",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/skull.png"
+        },
+        {
+          "short-name": ":feet:",
+          "alternative-names": "animal, tracking, footprints, dog, cat, pet, paw_prints",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/feet.png"
+        },
+        {
+          "short-name": ":lips:",
+          "alternative-names": "mouth, kiss",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/lips.png"
+        },
+        {
+          "short-name": ":kiss:",
+          "alternative-names": "face, lips, love, like, affection, valentines",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/kiss.png"
+        },
+        {
+          "short-name": ":droplet:",
+          "alternative-names": "water, drip, faucet, spring",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/droplet.png"
+        },
+        {
+          "short-name": ":ear:",
+          "alternative-names": "face, hear, sound, listen",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/ear.png"
+        },
+        {
+          "short-name": ":eyes:",
+          "alternative-names": "eye-rolling, look, watch, stalk, peek, see",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/eyes.png"
+        },
+        {
+          "short-name": ":nose:",
+          "alternative-names": "smell, sniff",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/nose.png"
+        },
+        {
+          "short-name": ":tongue:",
+          "alternative-names": "mouth, playful",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/tongue.png"
+        },
+        {
+          "short-name": ":love_letter:",
+          "alternative-names": "email, like, affection, envelope, valentines",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/love_letter.png"
+        },
+        {
+          "short-name": ":bust_in_silhouette:",
+          "alternative-names": "user, person, human",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/bust_in_silhouette.png"
+        },
+        {
+          "short-name": ":busts_in_silhouette:",
+          "alternative-names": "user, person, human, group, team",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/busts_in_silhouette.png"
+        },
+        {
+          "short-name": ":speech_balloon:",
+          "alternative-names": "bubble, words, message, talk, chatting",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/speech_balloon.png"
+        },
+        {
+          "short-name": ":thought_balloon:",
+          "alternative-names": "bubble, cloud, speech, thinking",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/thought_balloon.png"
+        },
+        {
+          "short-name": ":feelsgood:",
+          "alternative-names": "doom, oldschool",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/feelsgood.png"
+        },
+        {
+          "short-name": ":finnadie:",
+          "alternative-names": "doom, oldschool",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/finnadie.png"
+        },
+        {
+          "short-name": ":goberserk:",
+          "alternative-names": "doom, rage, bloody, hurt",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/goberserk.png"
+        },
+        {
+          "short-name": ":godmode:",
+          "alternative-names": "doom, oldschool",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/godmode.png"
+        },
+        {
+          "short-name": ":hurtrealbad:",
+          "alternative-names": "mad, injured, doom, oldschool, custom_",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/hurtrealbad.png"
+        },
+        {
+          "short-name": ":rage1:",
+          "alternative-names": "angry, mad, hate, despise",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/rage1.png"
+        },
+        {
+          "short-name": ":rage2:",
+          "alternative-names": "angry, mad, hate, despise",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/rage2.png"
+        },
+        {
+          "short-name": ":rage3:",
+          "alternative-names": "angry, mad, hate, despise",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/rage3.png"
+        },
+        {
+          "short-name": ":rage4:",
+          "alternative-names": "angry, mad, hate, despise",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/rage4.png"
+        },
+        {
+          "short-name": ":suspect:",
+          "alternative-names": "mad, custom_",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/suspect.png"
+        },
+        {
+          "short-name": ":trollface:",
+          "alternative-names": "internet, meme, custom_",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/trollface.png"
+        }
+      ]
+    },
+    {
+      "name": "nature",
+      "items": [
+        {
+          "short-name": ":sunny:",
+          "alternative-names": "weather, sun, nature, brightness, summer, beach, spring",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/sunny.png"
+        },
+        {
+          "short-name": ":umbrella:",
+          "alternative-names": "water, rain, rainy, weather, spring",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/umbrella.png"
+        },
+        {
+          "short-name": ":cloud:",
+          "alternative-names": "weather, sky",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/cloud.png"
+        },
+        {
+          "short-name": ":snowflake:",
+          "alternative-names": "winter, season, cold, weather, christmas, xmas",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/snowflake.png"
+        },
+        {
+          "short-name": ":snowman:",
+          "alternative-names": "winter, season, cold, weather, christmas, xmas, frozen",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/snowman.png"
+        },
+        {
+          "short-name": ":zap:",
+          "alternative-names": "weather, lightning, thunder, lightning bolt, fast",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/zap.png"
+        },
+        {
+          "short-name": ":cyclone:",
+          "alternative-names": "weather, swirl, blue, cloud",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/cyclone.png"
+        },
+        {
+          "short-name": ":foggy:",
+          "alternative-names": "weather, fog, photo, mountain",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/foggy.png"
+        },
+        {
+          "short-name": ":ocean:",
+          "alternative-names": "waves, sea, water, wave, nature, tsunami, disaster",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/ocean.png"
+        },
+        {
+          "short-name": ":cat:",
+          "alternative-names": "animal, meow, nature, pet",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/cat.png"
+        },
+        {
+          "short-name": ":dog:",
+          "alternative-names": "animal, friend, nature, woof, puppy, pet, faithful",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/dog.png"
+        },
+        {
+          "short-name": ":mouse:",
+          "alternative-names": "animal, nature, cheese",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/mouse.png"
+        },
+        {
+          "short-name": ":hamster:",
+          "alternative-names": "animal, nature",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/hamster.png"
+        },
+        {
+          "short-name": ":rabbit:",
+          "alternative-names": "animal, nature, pet, spring, magic",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/rabbit.png"
+        },
+        {
+          "short-name": ":wolf:",
+          "alternative-names": "animal,dog, animal, nature, wild",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/wolf.png"
+        },
+        {
+          "short-name": ":frog:",
+          "alternative-names": "animal, nature, croak",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/frog.png"
+        },
+        {
+          "short-name": ":tiger:",
+          "alternative-names": "animal, cat, danger, wild, nature, roar",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/tiger.png"
+        },
+        {
+          "short-name": ":koala:",
+          "alternative-names": "animal, nature",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/koala.png"
+        },
+        {
+          "short-name": ":bear:",
+          "alternative-names": "animal, nature, wild",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/bear.png"
+        },
+        {
+          "short-name": ":pig:",
+          "alternative-names": "animal, oink, nature",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/pig.png"
+        },
+        {
+          "short-name": ":pig_nose:",
+          "alternative-names": "animal, oink",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/pig_nose.png"
+        },
+        {
+          "short-name": ":cow:",
+          "alternative-names": "animal, beef, ox, nature, moo, milk",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/cow.png"
+        },
+        {
+          "short-name": ":boar:",
+          "alternative-names": "animal, nature",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/boar.png"
+        },
+        {
+          "short-name": ":monkey_face:",
+          "alternative-names": "animal, nature, circus, ape",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/monkey_face.png"
+        },
+        {
+          "short-name": ":monkey:",
+          "alternative-names": "animal, nature, banana, circus, ape",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/monkey.png"
+        },
+        {
+          "short-name": ":horse:",
+          "alternative-names": "animal, brown, nature, unicorn",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/horse.png"
+        },
+        {
+          "short-name": ":racehorse:",
+          "alternative-names": "animal, gamble, luck",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/racehorse.png"
+        },
+        {
+          "short-name": ":camel:",
+          "alternative-names": "animal, nature, hot, desert, hump",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/camel.png"
+        },
+        {
+          "short-name": ":sheep:",
+          "alternative-names": "animal, nature, wool, shipit",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/sheep.png"
+        },
+        {
+          "short-name": ":elephant:",
+          "alternative-names": "animal, nature, nose, thailand, circus",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/elephant.png"
+        },
+        {
+          "short-name": ":panda_face:",
+          "alternative-names": "animal, nature",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/panda_face.png"
+        },
+        {
+          "short-name": ":snake:",
+          "alternative-names": "animal,serpent, animal, evil, nature, hiss",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/snake.png"
+        },
+        {
+          "short-name": ":bird:",
+          "alternative-names": "animal, nature, fly, tweet, spring",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/bird.png"
+        },
+        {
+          "short-name": ":baby_chick:",
+          "alternative-names": "animal, bird, chicken",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/baby_chick.png"
+        },
+        {
+          "short-name": ":hatched_chick:",
+          "alternative-names": "animal, bird, chicken, baby",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/hatched_chick.png"
+        },
+        {
+          "short-name": ":hatching_chick:",
+          "alternative-names": "animal, bird,egg, chicken, egg, born, baby, bird",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/hatching_chick.png"
+        },
+        {
+          "short-name": ":chicken:",
+          "alternative-names": "animal, bird, cluck, nature",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/chicken.png"
+        },
+        {
+          "short-name": ":penguin:",
+          "alternative-names": "animal, bird, nature",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/penguin.png"
+        },
+        {
+          "short-name": ":turtle:",
+          "alternative-names": "animal, tortoise, slow, nature",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/turtle.png"
+        },
+        {
+          "short-name": ":bug:",
+          "alternative-names": "animal, insect, nature, worm",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/bug.png"
+        },
+        {
+          "short-name": ":honeybee:",
+          "alternative-names": "animal",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/honeybee.png"
+        },
+        {
+          "short-name": ":ant:",
+          "alternative-names": "animal, insect, nature, bug",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/ant.png"
+        },
+        {
+          "short-name": ":beetle:",
+          "alternative-names": "animal, insect, nature, bug",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/beetle.png"
+        },
+        {
+          "short-name": ":snail:",
+          "alternative-names": "animal, slow, shell",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/snail.png"
+        },
+        {
+          "short-name": ":octopus:",
+          "alternative-names": "animal, creature, ocean, sea, nature, beach",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/octopus.png"
+        },
+        {
+          "short-name": ":tropical_fish:",
+          "alternative-names": "animal, swim, ocean, beach, nemo",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/tropical_fish.png"
+        },
+        {
+          "short-name": ":fish:",
+          "alternative-names": "animal, food, nature",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/fish.png"
+        },
+        {
+          "short-name": ":whale:",
+          "alternative-names": "animal, nature, sea, ocean",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/whale.png"
+        },
+        {
+          "short-name": ":whale2:",
+          "alternative-names": "animal, nature, sea, ocean",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/whale2.png"
+        },
+        {
+          "short-name": ":dolphin:",
+          "alternative-names": "animal, nature, fish, sea, ocean, flipper, fins, beach",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/dolphin.png"
+        },
+        {
+          "short-name": ":cow2:",
+          "alternative-names": "animal, beef, ox, nature, moo, milk",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/cow2.png"
+        },
+        {
+          "short-name": ":ram:",
+          "alternative-names": "animal, sheep, nature",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/ram.png"
+        },
+        {
+          "short-name": ":rat:",
+          "alternative-names": "animal, mouse, rodent",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/rat.png"
+        },
+        {
+          "short-name": ":water_buffalo:",
+          "alternative-names": "animal, nature, ox, cow",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/water_buffalo.png"
+        },
+        {
+          "short-name": ":tiger2:",
+          "alternative-names": "animal, nature, roar",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/tiger2.png"
+        },
+        {
+          "short-name": ":rabbit2:",
+          "alternative-names": "animal, bunny, nature, pet, magic, spring",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/rabbit2.png"
+        },
+        {
+          "short-name": ":dragon:",
+          "alternative-names": "animal, myth, nature, chinese, green",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/dragon.png"
+        },
+        {
+          "short-name": ":goat:",
+          "alternative-names": "animal, nature",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/goat.png"
+        },
+        {
+          "short-name": ":rooster:",
+          "alternative-names": "animal, chicken, nature",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/rooster.png"
+        },
+        {
+          "short-name": ":dog2:",
+          "alternative-names": "animal, nature, friend, doge, pet, faithful",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/dog2.png"
+        },
+        {
+          "short-name": ":pig2:",
+          "alternative-names": "animal, nature",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/pig2.png"
+        },
+        {
+          "short-name": ":mouse2:",
+          "alternative-names": "animal, nature, rodent",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/mouse2.png"
+        },
+        {
+          "short-name": ":ox:",
+          "alternative-names": "animal, cow, beef",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/ox.png"
+        },
+        {
+          "short-name": ":dragon_face:",
+          "alternative-names": "animal, myth, nature, chinese, green",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/dragon_face.png"
+        },
+        {
+          "short-name": ":blowfish:",
+          "alternative-names": "animal, nature, food, sea, ocean",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/blowfish.png"
+        },
+        {
+          "short-name": ":crocodile:",
+          "alternative-names": "animal, alligator, nature, reptile",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/crocodile.png"
+        },
+        {
+          "short-name": ":dromedary_camel:",
+          "alternative-names": "animal, hot, desert, hump",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/dromedary_camel.png"
+        },
+        {
+          "short-name": ":leopard:",
+          "alternative-names": "animal, nature",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/leopard.png"
+        },
+        {
+          "short-name": ":cat2:",
+          "alternative-names": "animal, kitty, kitten, meow, pet, cats",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/cat2.png"
+        },
+        {
+          "short-name": ":poodle:",
+          "alternative-names": "animal, dog, 101, nature, pet",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/poodle.png"
+        },
+        {
+          "short-name": ":paw_prints:",
+          "alternative-names": "animal",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/paw_prints.png"
+        },
+        {
+          "short-name": ":bouquet:",
+          "alternative-names": "flowers, nature, spring",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/bouquet.png"
+        },
+        {
+          "short-name": ":cherry_blossom:",
+          "alternative-names": "floral, nature, plant, spring, flower",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/cherry_blossom.png"
+        },
+        {
+          "short-name": ":tulip:",
+          "alternative-names": "floral, flowers, plant, nature, summer, spring",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/tulip.png"
+        },
+        {
+          "short-name": ":four_leaf_clover:",
+          "alternative-names": "vegetable, plant, nature, lucky",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/four_leaf_clover.png"
+        },
+        {
+          "short-name": ":rose:",
+          "alternative-names": "floral, flowers, valentines, love, spring",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/rose.png"
+        },
+        {
+          "short-name": ":sunflower:",
+          "alternative-names": "floral, nature, plant, fall",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/sunflower.png"
+        },
+        {
+          "short-name": ":hibiscus:",
+          "alternative-names": "floral, plant, vegetable, flowers, beach",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/hibiscus.png"
+        },
+        {
+          "short-name": ":maple_leaf:",
+          "alternative-names": "nature, plant, vegetable, canada, fall",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/maple_leaf.png"
+        },
+        {
+          "short-name": ":leaves:",
+          "alternative-names": "nature, plant, tree, vegetable, grass, lawn, spring",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/leaves.png"
+        },
+        {
+          "short-name": ":fallen_leaf:",
+          "alternative-names": "nature, plant, vegetable, leaves",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/fallen_leaf.png"
+        },
+        {
+          "short-name": ":herb:",
+          "alternative-names": "vegetable, plant, medicine, weed, grass, lawn",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/herb.png"
+        },
+        {
+          "short-name": ":mushroom:",
+          "alternative-names": "plant, vegetable",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/mushroom.png"
+        },
+        {
+          "short-name": ":cactus:",
+          "alternative-names": "vegetable, plant, nature",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/cactus.png"
+        },
+        {
+          "short-name": ":palm_tree:",
+          "alternative-names": "plant, vegetable, nature, summer, beach",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/palm_tree.png"
+        },
+        {
+          "short-name": ":evergreen_tree:",
+          "alternative-names": "plant, nature",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/evergreen_tree.png"
+        },
+        {
+          "short-name": ":deciduous_tree:",
+          "alternative-names": "plant, nature",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/deciduous_tree.png"
+        },
+        {
+          "short-name": ":chestnut:",
+          "alternative-names": "food, squirrel",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/chestnut.png"
+        },
+        {
+          "short-name": ":seedling:",
+          "alternative-names": "plant, nature, grass, lawn, spring",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/seedling.png"
+        },
+        {
+          "short-name": ":blossom:",
+          "alternative-names": "nature, flowers, yellow",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/blossom.png"
+        },
+        {
+          "short-name": ":ear_of_rice:",
+          "alternative-names": "nature, plant",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/ear_of_rice.png"
+        },
+        {
+          "short-name": ":shell:",
+          "alternative-names": "nature, sea, beach",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/shell.png"
+        },
+        {
+          "short-name": ":globe_with_meridians:",
+          "alternative-names": "earth, international, world, internet, interweb, i18n",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/globe_with_meridians.png"
+        },
+        {
+          "short-name": ":sun_with_face:",
+          "alternative-names": "nature, morning, sky",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/sun_with_face.png"
+        },
+        {
+          "short-name": ":full_moon_with_face:",
+          "alternative-names": "nature, twilight, planet, space, night, evening, sleep",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/full_moon_with_face.png"
+        },
+        {
+          "short-name": ":new_moon_with_face:",
+          "alternative-names": "nature, twilight, planet, space, night, evening, sleep",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/new_moon_with_face.png"
+        },
+        {
+          "short-name": ":new_moon:",
+          "alternative-names": "nature, twilight, planet, space, night, evening, sleep",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/new_moon.png"
+        },
+        {
+          "short-name": ":waxing_crescent_moon:",
+          "alternative-names": "nature, twilight, planet, space, night, evening, sleep",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/waxing_crescent_moon.png"
+        },
+        {
+          "short-name": ":first_quarter_moon:",
+          "alternative-names": "nature, twilight, planet, space, night, evening, sleep",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/first_quarter_moon.png"
+        },
+        {},
+        {
+          "short-name": ":full_moon:",
+          "alternative-names": "nature, yellow, twilight, planet, space, night, evening, sleep",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/full_moon.png"
+        },
+        {
+          "short-name": ":waning_gibbous_moon:",
+          "alternative-names": "nature, twilight, planet, space, night, evening, sleep, waxing_gibbous_moon",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/waning_gibbous_moon.png"
+        },
+        {
+          "short-name": ":last_quarter_moon:",
+          "alternative-names": "nature, twilight, planet, space, night, evening, sleep",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/last_quarter_moon.png"
+        },
+        {
+          "short-name": ":waning_crescent_moon:",
+          "alternative-names": "nature, twilight, planet, space, night, evening, sleep",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/waning_crescent_moon.png"
+        },
+        {
+          "short-name": ":last_quarter_moon_with_face:",
+          "alternative-names": "nature, twilight, planet, space, night, evening, sleep",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/last_quarter_moon_with_face.png"
+        },
+        {
+          "short-name": ":first_quarter_moon_with_face:",
+          "alternative-names": "nature, twilight, planet, space, night, evening, sleep",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/first_quarter_moon_with_face.png"
+        },
+        {
+          "short-name": ":crescent_moon:",
+          "alternative-names": "night, sleep, sky, evening, magic",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/crescent_moon.png"
+        },
+        {
+          "short-name": ":earth_africa:",
+          "alternative-names": "europe, emea, globe, world, international",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/earth_africa.png"
+        },
+        {
+          "short-name": ":earth_americas:",
+          "alternative-names": "globe, world, USA, international",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/earth_americas.png"
+        },
+        {
+          "short-name": ":earth_asia:",
+          "alternative-names": "globe, world, east, international",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/earth_asia.png"
+        },
+        {
+          "short-name": ":volcano:",
+          "alternative-names": "photo, nature, disaster",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/volcano.png"
+        },
+        {
+          "short-name": ":milky_way:",
+          "alternative-names": "photo, space, stars",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/milky_way.png"
+        },
+        {
+          "short-name": ":partly_sunny:",
+          "alternative-names": "weather, nature, cloudy, morning, fall, spring",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/partly_sunny.png"
+        },
+        {
+          "short-name": ":octocat:",
+          "alternative-names": "github, animal, octopus, custom_",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/octocat.png"
+        },
+        {
+          "short-name": ":squirrel:",
+          "alternative-names": "animal",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/squirrel.png"
+        }
+      ]
+    },
+    {
+      "name": "objects",
+      "items": [
+        {
+          "short-name": ":bamboo:",
+          "alternative-names": "plant, nature, vegetable, panda",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/bamboo.png"
+        },
+        {
+          "short-name": ":gift_heart:",
+          "alternative-names": "love, valentines",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/gift_heart.png"
+        },
+        {
+          "short-name": ":dolls:",
+          "alternative-names": "japanese, toy, kimono",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/dolls.png"
+        },
+        {
+          "short-name": ":school_satchel:",
+          "alternative-names": "student, education, bag",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/school_satchel.png"
+        },
+        {
+          "short-name": ":mortar_board:",
+          "alternative-names": "edu, university, school, college, degree, graduation, cap, hat, legal, learn, education",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/mortar_board.png"
+        },
+        {
+          "short-name": ":flags:",
+          "alternative-names": "fish, japanese, koinobori, carp, banner",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/flags.png"
+        },
+        {
+          "short-name": ":fireworks:",
+          "alternative-names": "photo, festival, carnival, congratulations",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/fireworks.png"
+        },
+        {
+          "short-name": ":sparkler:",
+          "alternative-names": "stars, night, shine",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/sparkler.png"
+        },
+        {
+          "short-name": ":wind_chime:",
+          "alternative-names": "nature, ding, spring, bell",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/wind_chime.png"
+        },
+        {
+          "short-name": ":rice_scene:",
+          "alternative-names": "photo, japan, asia, tsukimi",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/rice_scene.png"
+        },
+        {
+          "short-name": ":jack_o_lantern:",
+          "alternative-names": "halloween, light, pumpkin, creepy, fall",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/jack_o_lantern.png"
+        },
+        {
+          "short-name": ":ghost:",
+          "alternative-names": "boom, halloween, spooky, scary",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/ghost.png"
+        },
+        {
+          "short-name": ":santa:",
+          "alternative-names": "christmas, festival, man, male, xmas, father christmas",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/santa.png"
+        },
+        {
+          "short-name": ":christmas_tree:",
+          "alternative-names": "festival, vacation, december, xmas, celebration",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/christmas_tree.png"
+        },
+        {
+          "short-name": ":gift:",
+          "alternative-names": "present, birthday, christmas, xmas",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/gift.png"
+        },
+        {
+          "short-name": ":bell:",
+          "alternative-names": "sound, notification, christmas, xmas, chime",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/bell.png"
+        },
+        {
+          "short-name": ":no_bell:",
+          "alternative-names": "sound, volume, mute, quiet, silent",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/no_bell.png"
+        },
+        {
+          "short-name": ":tanabata_tree:",
+          "alternative-names": "plant, nature, branch, summer",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/tanabata_tree.png"
+        },
+        {
+          "short-name": ":tada:",
+          "alternative-names": "party, contulations, birthday, magic, circus",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/tada.png"
+        },
+        {
+          "short-name": ":confetti_ball:",
+          "alternative-names": "celebration, festival, party, birthday, circus",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/confetti_ball.png"
+        },
+        {
+          "short-name": ":balloon:",
+          "alternative-names": "party, celebration, birthday, circus",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/balloon.png"
+        },
+        {
+          "short-name": ":crystal_ball:",
+          "alternative-names": "disco, party, magic, circus, fortune_teller",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/crystal_ball.png"
+        },
+        {
+          "short-name": ":cd:",
+          "alternative-names": "technology, dvd, disk, disc, 90s",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/cd.png"
+        },
+        {
+          "short-name": ":dvd:",
+          "alternative-names": "cd, disk, disc",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/dvd.png"
+        },
+        {
+          "short-name": ":floppy_disk:",
+          "alternative-names": "oldschool, technology, save, 90s, 80s",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/floppy_disk.png"
+        },
+        {
+          "short-name": ":camera:",
+          "alternative-names": "gadgets, photo",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/camera.png"
+        },
+        {
+          "short-name": ":video_camera:",
+          "alternative-names": "film, record",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/video_camera.png"
+        },
+        {
+          "short-name": ":movie_camera:",
+          "alternative-names": "film, record",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/movie_camera.png"
+        },
+        {
+          "short-name": ":computer:",
+          "alternative-names": "tech, laptop, screen, display, monitor",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/computer.png"
+        },
+        {
+          "short-name": ":tv:",
+          "alternative-names": "television, technology, program, oldschool, show",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/tv.png"
+        },
+        {
+          "short-name": ":iphone:",
+          "alternative-names": "technology, apple, gadgets, dial",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/iphone.png"
+        },
+        {
+          "short-name": ":phone:",
+          "alternative-names": "technology, communication, dial, telephone",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/phone.png"
+        },
+        {},
+        {
+          "short-name": ":telephone_receiver:",
+          "alternative-names": "technology, communication, dial",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/telephone_receiver.png"
+        },
+        {
+          "short-name": ":pager:",
+          "alternative-names": "bbcall, oldschool, 90s",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/pager.png"
+        },
+        {
+          "short-name": ":fax:",
+          "alternative-names": "communication, technology",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/fax.png"
+        },
+        {
+          "short-name": ":minidisc:",
+          "alternative-names": "technology, record, data, disk, 90s",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/minidisc.png"
+        },
+        {
+          "short-name": ":vhs:",
+          "alternative-names": "record, video, oldschool, 90s, 80s",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/vhs.png"
+        },
+        {
+          "short-name": ":sound:",
+          "alternative-names": "loud, noise, volume, speaker, broadcast",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/sound.png"
+        },
+        {
+          "short-name": ":speaker:",
+          "alternative-names": "sound, volume, silence, broadcast",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/speaker.png"
+        },
+        {
+          "short-name": ":mute:",
+          "alternative-names": "sound, volume, silence, quiet",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/mute.png"
+        },
+        {
+          "short-name": ":loudspeaker:",
+          "alternative-names": "volume, sound",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/loudspeaker.png"
+        },
+        {
+          "short-name": ":mega:",
+          "alternative-names": "sound, speaker, volume",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/mega.png"
+        },
+        {
+          "short-name": ":hourglass:",
+          "alternative-names": "time, clock, oldschool, limit, exam, quiz, test",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/hourglass.png"
+        },
+        {
+          "short-name": ":hourglass_flowing_sand:",
+          "alternative-names": "oldschool, time, countdown",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/hourglass_flowing_sand.png"
+        },
+        {
+          "short-name": ":alarm_clock:",
+          "alternative-names": "time, wake",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/alarm_clock.png"
+        },
+        {
+          "short-name": ":watch:",
+          "alternative-names": "clock, time, accessories",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/watch.png"
+        },
+        {
+          "short-name": ":radio:",
+          "alternative-names": "communication, music, podcast, program",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/radio.png"
+        },
+        {
+          "short-name": ":satellite:",
+          "alternative-names": "communication, future, radio, space",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/satellite.png"
+        },
+        {
+          "short-name": ":loop:",
+          "alternative-names": "tape, cassette",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/loop.png"
+        },
+        {
+          "short-name": ":mag:",
+          "alternative-names": "magnifying, glass, search, zoom, find, detective",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/mag.png"
+        },
+        {
+          "short-name": ":mag_right:",
+          "alternative-names": "magnifying, glass, search, zoom, find, detective",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/mag_right.png"
+        },
+        {
+          "short-name": ":unlock:",
+          "alternative-names": "privacy, security",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/unlock.png"
+        },
+        {
+          "short-name": ":lock:",
+          "alternative-names": "security, password, padlock",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/lock.png"
+        },
+        {
+          "short-name": ":lock_with_ink_pen:",
+          "alternative-names": "security, secret",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/lock_with_ink_pen.png"
+        },
+        {
+          "short-name": ":closed_lock_with_key:",
+          "alternative-names": "security, privacy",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/closed_lock_with_key.png"
+        },
+        {
+          "short-name": ":key:",
+          "alternative-names": "lock, door, password",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/key.png"
+        },
+        {
+          "short-name": ":bulb:",
+          "alternative-names": "light, electricity, idea",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/bulb.png"
+        },
+        {
+          "short-name": ":flashlight:",
+          "alternative-names": "dark, camping, sight, night",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/flashlight.png"
+        },
+        {
+          "short-name": ":high_brightness:",
+          "alternative-names": "sun, light",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/high_brightness.png"
+        },
+        {
+          "short-name": ":low_brightness:",
+          "alternative-names": "sun, afternoon, warm, summer",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/low_brightness.png"
+        },
+        {
+          "short-name": ":electric_plug:",
+          "alternative-names": "charger, power",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/electric_plug.png"
+        },
+        {
+          "short-name": ":battery:",
+          "alternative-names": "power, energy, sustain",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/battery.png"
+        },
+        {
+          "short-name": ":calling:",
+          "alternative-names": "iphone, incoming",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/calling.png"
+        },
+        {
+          "short-name": ":email:",
+          "alternative-names": "envelope, letter, postal, inbox, communication",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/email.png"
+        },
+        {
+          "short-name": ":mailbox:",
+          "alternative-names": "email, inbox, communication",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/mailbox.png"
+        },
+        {
+          "short-name": ":postbox:",
+          "alternative-names": "email, letter, envelope",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/postbox.png"
+        },
+        {
+          "short-name": ":bath:",
+          "alternative-names": "clean, shower, bathroom",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/bath.png"
+        },
+        {
+          "short-name": ":bathtub:",
+          "alternative-names": "clean, shower, bathroom",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/bathtub.png"
+        },
+        {
+          "short-name": ":shower:",
+          "alternative-names": "water, clean, bathroom",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/shower.png"
+        },
+        {
+          "short-name": ":toilet:",
+          "alternative-names": "restroom, wc, washroom, bathroom, potty",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/toilet.png"
+        },
+        {
+          "short-name": ":wrench:",
+          "alternative-names": "tools, diy, ikea, fix, maintainer",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/wrench.png"
+        },
+        {
+          "short-name": ":nut_and_bolt:",
+          "alternative-names": "tools, handy, fix",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/nut_and_bolt.png"
+        },
+        {
+          "short-name": ":hammer:",
+          "alternative-names": "tools, verdict, judge, done, law, legal, ruling, gavel",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/hammer.png"
+        },
+        {
+          "short-name": ":seat:",
+          "alternative-names": "sit, airplane, transport, bus, flight, fly",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/seat.png"
+        },
+        {
+          "short-name": ":moneybag:",
+          "alternative-names": "dollar, payment, coins, sale",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/moneybag.png"
+        },
+        {
+          "short-name": ":yen:",
+          "alternative-names": "bill cash currency money, money, sales, japanese, dollar, currency",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/yen.png"
+        },
+        {
+          "short-name": ":dollar:",
+          "alternative-names": "bill cash currency money, money, sales, bill, currency",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/dollar.png"
+        },
+        {
+          "short-name": ":pound:",
+          "alternative-names": "bill cash currency money, british, sterling, money, sales, bills, uk, england, currency",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/pound.png"
+        },
+        {
+          "short-name": ":euro:",
+          "alternative-names": "bill cash currency money, money, sales, dollar, currency",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/euro.png"
+        },
+        {
+          "short-name": ":credit_card:",
+          "alternative-names": "money, sales, dollar, bill, payment, shopping",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/credit_card.png"
+        },
+        {
+          "short-name": ":money_with_wings:",
+          "alternative-names": "money, dollar, bills, payment, sale",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/money_with_wings.png"
+        },
+        {
+          "short-name": ":e-mail:",
+          "alternative-names": "mail, send, communication, inbox, email",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/e-mail.png"
+        },
+        {
+          "short-name": ":inbox_tray:",
+          "alternative-names": "email, documents",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/inbox_tray.png"
+        },
+        {
+          "short-name": ":outbox_tray:",
+          "alternative-names": "inbox, email",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/outbox_tray.png"
+        },
+        {},
+        {
+          "short-name": ":incoming_envelope:",
+          "alternative-names": "email, inbox",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/incoming_envelope.png"
+        },
+        {
+          "short-name": ":postal_horn:",
+          "alternative-names": "instrument, music",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/postal_horn.png"
+        },
+        {
+          "short-name": ":mailbox_closed:",
+          "alternative-names": "email, communication, inbox",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/mailbox_closed.png"
+        },
+        {
+          "short-name": ":mailbox_with_mail:",
+          "alternative-names": "email, inbox, communication",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/mailbox_with_mail.png"
+        },
+        {
+          "short-name": ":mailbox_with_no_mail:",
+          "alternative-names": "email, inbox",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/mailbox_with_no_mail.png"
+        },
+        {
+          "short-name": ":package:",
+          "alternative-names": "box, mail, gift, cardboard, moving",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/package.png"
+        },
+        {
+          "short-name": ":door:",
+          "alternative-names": "house, entry, exit",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/door.png"
+        },
+        {
+          "short-name": ":smoking:",
+          "alternative-names": "smoke, kills, tobacco, cigarette, joint",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/smoking.png"
+        },
+        {
+          "short-name": ":bomb:",
+          "alternative-names": "boom, explode, explosion, terrorism",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/bomb.png"
+        },
+        {
+          "short-name": ":gun:",
+          "alternative-names": "violence, weapon, pistol, revolver",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/gun.png"
+        },
+        {
+          "short-name": ":hocho:",
+          "alternative-names": "knife, blade, cutlery, kitchen, weapon",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/hocho.png"
+        },
+        {
+          "short-name": ":pill:",
+          "alternative-names": "health, medicine, doctor, pharmacy, drug",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/pill.png"
+        },
+        {
+          "short-name": ":syringe:",
+          "alternative-names": "health, hospital, drugs, blood, medicine, needle, doctor, nurse",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/syringe.png"
+        },
+        {
+          "short-name": ":page_facing_up:",
+          "alternative-names": "documents, office, paper, information",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/page_facing_up.png"
+        },
+        {
+          "short-name": ":page_with_curl:",
+          "alternative-names": "documents, office, paper",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/page_with_curl.png"
+        },
+        {
+          "short-name": ":bookmark_tabs:",
+          "alternative-names": "favorite, save, order, tidy",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/bookmark_tabs.png"
+        },
+        {
+          "short-name": ":bar_chart:",
+          "alternative-names": "graph, presentation, stats",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/bar_chart.png"
+        },
+        {
+          "short-name": ":chart_with_upwards_trend:",
+          "alternative-names": "graph, presenetation, stats, recovery, business, economics, money, sales, good, success",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/chart_with_upwards_trend.png"
+        },
+        {
+          "short-name": ":chart_with_downwards_trend:",
+          "alternative-names": "graph, presentation, stats, recession, business, economics, money, sales, bad, failure",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/chart_with_downwards_trend.png"
+        },
+        {
+          "short-name": ":scroll:",
+          "alternative-names": "documents, ancient, history, paper",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/scroll.png"
+        },
+        {
+          "short-name": ":clipboard:",
+          "alternative-names": "stationery, documents",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/clipboard.png"
+        },
+        {
+          "short-name": ":calendar:",
+          "alternative-names": "schedule, date, planning",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/calendar.png"
+        },
+        {
+          "short-name": ":date:",
+          "alternative-names": "calendar, schedule",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/date.png"
+        },
+        {
+          "short-name": ":card_index:",
+          "alternative-names": "business, stationery",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/card_index.png"
+        },
+        {
+          "short-name": ":file_folder:",
+          "alternative-names": "documents, business, office",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/file_folder.png"
+        },
+        {
+          "short-name": ":open_file_folder:",
+          "alternative-names": "documents, load",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/open_file_folder.png"
+        },
+        {
+          "short-name": ":scissors:",
+          "alternative-names": "stationery, cut",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/scissors.png"
+        },
+        {
+          "short-name": ":pushpin:",
+          "alternative-names": "stationery, mark, here",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/pushpin.png"
+        },
+        {
+          "short-name": ":paperclip:",
+          "alternative-names": "documents, stationery",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/paperclip.png"
+        },
+        {
+          "short-name": ":black_nib:",
+          "alternative-names": "pen, stationery, writing, write",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/black_nib.png"
+        },
+        {
+          "short-name": ":pencil2:",
+          "alternative-names": "stationery, write, paper, writing, school, study",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/pencil2.png"
+        },
+        {
+          "short-name": ":straight_ruler:",
+          "alternative-names": "stationery, calculate, length, math, school, drawing, architect, sketch",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/straight_ruler.png"
+        },
+        {
+          "short-name": ":triangular_ruler:",
+          "alternative-names": "stationery, math, architect, sketch",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/triangular_ruler.png"
+        },
+        {
+          "short-name": ":closed_book:",
+          "alternative-names": "read, library, knowledge, textbook, learn",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/closed_book.png"
+        },
+        {
+          "short-name": ":green_book:",
+          "alternative-names": "read, library, knowledge, study",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/green_book.png"
+        },
+        {
+          "short-name": ":blue_book:",
+          "alternative-names": "read, library, knowledge, learn, study",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/blue_book.png"
+        },
+        {
+          "short-name": ":orange_book:",
+          "alternative-names": "read, library, knowledge, textbook, study",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/orange_book.png"
+        },
+        {
+          "short-name": ":notebook:",
+          "alternative-names": "stationery, record, notes, paper, study",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/notebook.png"
+        },
+        {
+          "short-name": ":notebook_with_decorative_cover:",
+          "alternative-names": "classroom, notes, record, paper, study",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/notebook_with_decorative_cover.png"
+        },
+        {
+          "short-name": ":ledger:",
+          "alternative-names": "notes, paper",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/ledger.png"
+        },
+        {
+          "short-name": ":books:",
+          "alternative-names": "literature, library, study",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/books.png"
+        },
+        {
+          "short-name": ":bookmark:",
+          "alternative-names": "favorite, label, save",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/bookmark.png"
+        },
+        {
+          "short-name": ":name_badge:",
+          "alternative-names": "fire, forbid",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/name_badge.png"
+        },
+        {
+          "short-name": ":microscope:",
+          "alternative-names": "laboratory, experiment, zoomin, science, study",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/microscope.png"
+        },
+        {
+          "short-name": ":telescope:",
+          "alternative-names": "stars, space, zoom",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/telescope.png"
+        },
+        {
+          "short-name": ":newspaper:",
+          "alternative-names": "press, headline",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/newspaper.png"
+        },
+        {
+          "short-name": ":football:",
+          "alternative-names": "sport, sports, balls, NFL",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/football.png"
+        },
+        {
+          "short-name": ":basketball:",
+          "alternative-names": "sport, sports, balls, NBA",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/basketball.png"
+        },
+        {
+          "short-name": ":soccer:",
+          "alternative-names": "sport, sports, balls, football, fifa",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/soccer.png"
+        },
+        {
+          "short-name": ":baseball:",
+          "alternative-names": "sport, sports, balls, MLB",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/baseball.png"
+        },
+        {
+          "short-name": ":tennis:",
+          "alternative-names": "sport, sports, balls, green",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/tennis.png"
+        },
+        {
+          "short-name": ":8ball:",
+          "alternative-names": "magic_ball, pool, hobby, game, luck, magic",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/8ball.png"
+        },
+        {
+          "short-name": ":rugby_football:",
+          "alternative-names": "sport, sports, team",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/rugby_football.png"
+        },
+        {
+          "short-name": ":bowling:",
+          "alternative-names": "sport, sports, fun, play",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/bowling.png"
+        },
+        {
+          "short-name": ":golf:",
+          "alternative-names": "sport, sports, business, flag, hole, summer",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/golf.png"
+        },
+        {
+          "short-name": ":mountain_bicyclist:",
+          "alternative-names": "sport, vehicle, transportation, sports, human, race, bike",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/mountain_bicyclist.png"
+        },
+        {
+          "short-name": ":bicyclist:",
+          "alternative-names": "sport, vehicle, sports, bike, exercise, hipster",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/bicyclist.png"
+        },
+        {
+          "short-name": ":horse_racing:",
+          "alternative-names": "sport, animal, betting, competition, gambling, luck",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/horse_racing.png"
+        },
+        {
+          "short-name": ":snowboarder:",
+          "alternative-names": "sport, sports, winter",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/snowboarder.png"
+        },
+        {
+          "short-name": ":swimmer:",
+          "alternative-names": "sport, sports, exercise, human, athlete, water, summer",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/swimmer.png"
+        },
+        {
+          "short-name": ":surfer:",
+          "alternative-names": "sport, sports, ocean, sea, summer, beach",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/surfer.png"
+        },
+        {
+          "short-name": ":ski:",
+          "alternative-names": "sport, sports, winter, cold, snow",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/ski.png"
+        },
+        {
+          "short-name": ":spades:",
+          "alternative-names": "cards, suit, poker, suits, magic",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/spades.png"
+        },
+        {
+          "short-name": ":hearts:",
+          "alternative-names": "cards, suit, poker, magic, suits",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/hearts.png"
+        },
+        {
+          "short-name": ":clubs:",
+          "alternative-names": "cards, suit, poker, magic, suits",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/clubs.png"
+        },
+        {
+          "short-name": ":diamonds:",
+          "alternative-names": "cards, suit, poker, magic, suits",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/diamonds.png"
+        },
+        {
+          "short-name": ":gem:",
+          "alternative-names": "jewelery, blue, ruby, diamond, jewelry",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/gem.png"
+        },
+        {
+          "short-name": ":ring:",
+          "alternative-names": "jewelery, wedding, propose, marriage, valentines, diamond, fashion, jewelry, gem",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/ring.png"
+        },
+        {
+          "short-name": ":trophy:",
+          "alternative-names": "win, award, contest, place, ftw, ceremony",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/trophy.png"
+        },
+        {
+          "short-name": ":musical_score:",
+          "alternative-names": "treble, clef",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/musical_score.png"
+        },
+        {
+          "short-name": ":musical_keyboard:",
+          "alternative-names": "piano, instrument",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/musical_keyboard.png"
+        },
+        {
+          "short-name": ":violin:",
+          "alternative-names": "music, instrument, orchestra, symphony",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/violin.png"
+        },
+        {
+          "short-name": ":space_invader:",
+          "alternative-names": "game, arcade, play",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/space_invader.png"
+        },
+        {
+          "short-name": ":video_game:",
+          "alternative-names": "controller, play, console, PS4",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/video_game.png"
+        },
+        {
+          "short-name": ":black_joker:",
+          "alternative-names": "poker, cards, game, play, magic",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/black_joker.png"
+        },
+        {
+          "short-name": ":flower_playing_cards:",
+          "alternative-names": "floral, game, sunset, red",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/flower_playing_cards.png"
+        },
+        {
+          "short-name": ":game_die:",
+          "alternative-names": "dice, random, tabbletop, play, luck",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/game_die.png"
+        },
+        {
+          "short-name": ":dart:",
+          "alternative-names": "game, play, bar",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/dart.png"
+        },
+        {
+          "short-name": ":mahjong:",
+          "alternative-names": "game, play, chinese, kanji",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/mahjong.png"
+        },
+        {
+          "short-name": ":clapper:",
+          "alternative-names": "movie, film, record",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/clapper.png"
+        },
+        {
+          "short-name": ":memo:",
+          "alternative-names": "write, documents, stationery, pencil, paper, writing, legal, exam, quiz, test, study",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/memo.png"
+        },
+        {},
+        {
+          "short-name": ":book:",
+          "alternative-names": "open_book, read, library, knowledge, literature, learn, study",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/book.png"
+        },
+        {
+          "short-name": ":art:",
+          "alternative-names": "design, paint, draw",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/art.png"
+        },
+        {
+          "short-name": ":microphone:",
+          "alternative-names": "sound, music, PA",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/microphone.png"
+        },
+        {
+          "short-name": ":headphones:",
+          "alternative-names": "music, score, gadgets",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/headphones.png"
+        },
+        {
+          "short-name": ":trumpet:",
+          "alternative-names": "music, brass",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/trumpet.png"
+        },
+        {
+          "short-name": ":saxophone:",
+          "alternative-names": "music, instrument, jazz, blues",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/saxophone.png"
+        },
+        {
+          "short-name": ":guitar:",
+          "alternative-names": "music, instrument",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/guitar.png"
+        },
+        {},
+        {
+          "short-name": ":sandal:",
+          "alternative-names": "shoes, fashion, flip flops",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/sandal.png"
+        },
+        {
+          "short-name": ":high_heel:",
+          "alternative-names": "fashion, shoes, female, pumps, stiletto",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/high_heel.png"
+        },
+        {
+          "short-name": ":lipstick:",
+          "alternative-names": "female, girl, fashion, woman",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/lipstick.png"
+        },
+        {
+          "short-name": ":boot:",
+          "alternative-names": "shoes, fashion",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/boot.png"
+        },
+        {
+          "short-name": ":shirt:",
+          "alternative-names": "fashion, cloth, casual, tshirt, tee",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/shirt.png"
+        },
+        {},
+        {
+          "short-name": ":necktie:",
+          "alternative-names": "shirt, suitup, formal, fashion, cloth, business",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/necktie.png"
+        },
+        {
+          "short-name": ":womans_clothes:",
+          "alternative-names": "fashion, shopping, female",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/womans_clothes.png"
+        },
+        {
+          "short-name": ":dress:",
+          "alternative-names": "clothes, fashion, shopping",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/dress.png"
+        },
+        {
+          "short-name": ":running_shirt_with_sash:",
+          "alternative-names": "play, pageant",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/running_shirt_with_sash.png"
+        },
+        {
+          "short-name": ":jeans:",
+          "alternative-names": "fashion, shopping",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/jeans.png"
+        },
+        {
+          "short-name": ":kimono:",
+          "alternative-names": "dress, fashion, women, female, japanese",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/kimono.png"
+        },
+        {
+          "short-name": ":bikini:",
+          "alternative-names": "swimming, female, woman, girl, fashion, beach, summer",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/bikini.png"
+        },
+        {
+          "short-name": ":ribbon:",
+          "alternative-names": "decoration, pink, girl, bowtie",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/ribbon.png"
+        },
+        {
+          "short-name": ":tophat:",
+          "alternative-names": "magic, gentleman, classy, circus",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/tophat.png"
+        },
+        {
+          "short-name": ":crown:",
+          "alternative-names": "king, kod, leader, royalty, lord",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/crown.png"
+        },
+        {
+          "short-name": ":womans_hat:",
+          "alternative-names": "fashion, accessories, female, lady, spring",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/womans_hat.png"
+        },
+        {
+          "short-name": ":mans_shoe:",
+          "alternative-names": "fashion, male",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/mans_shoe.png"
+        },
+        {
+          "short-name": ":closed_umbrella:",
+          "alternative-names": "weather, rain, drizzle",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/closed_umbrella.png"
+        },
+        {
+          "short-name": ":briefcase:",
+          "alternative-names": "business, documents, work, law, legal",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/briefcase.png"
+        },
+        {
+          "short-name": ":handbag:",
+          "alternative-names": "fashion, accessory, accessories, shopping",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/handbag.png"
+        },
+        {
+          "short-name": ":pouch:",
+          "alternative-names": "bag, accessories, shopping",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/pouch.png"
+        },
+        {
+          "short-name": ":purse:",
+          "alternative-names": "pocketbook, fashion, accessories, money, sales, shopping",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/purse.png"
+        },
+        {
+          "short-name": ":eyeglasses:",
+          "alternative-names": "fashion, accessories, eyesight, nerd, dork, geek",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/eyeglasses.png"
+        },
+        {
+          "short-name": ":fishing_pole_and_fish:",
+          "alternative-names": "food, hobby, summer",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/fishing_pole_and_fish.png"
+        },
+        {
+          "short-name": ":coffee:",
+          "alternative-names": "drink, beverage, cafe, espresso",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/coffee.png"
+        },
+        {
+          "short-name": ":tea:",
+          "alternative-names": "drink, bowl, breakfast, green, british",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/tea.png"
+        },
+        {
+          "short-name": ":sake:",
+          "alternative-names": "drink alcohol, wine, drink, drunk, beverage, japanese, alcohol, booze",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/sake.png"
+        },
+        {
+          "short-name": ":baby_bottle:",
+          "alternative-names": "food, container, milk",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/baby_bottle.png"
+        },
+        {
+          "short-name": ":beer:",
+          "alternative-names": "drink alcohol, relax, beverage, drink, drunk, party, pub, summer, alcohol, booze",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/beer.png"
+        },
+        {
+          "short-name": ":beers:",
+          "alternative-names": "drink alcohol, relax, beverage, drink, drunk, party, pub, summer, alcohol, booze",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/beers.png"
+        },
+        {
+          "short-name": ":cocktail:",
+          "alternative-names": "drink alcohol, drink, drunk, alcohol, beverage, booze",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/cocktail.png"
+        },
+        {
+          "short-name": ":tropical_drink:",
+          "alternative-names": "beverage, cocktail, summer, beach, alcohol, booze",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/tropical_drink.png"
+        },
+        {
+          "short-name": ":wine_glass:",
+          "alternative-names": "drink alcohol, drink, beverage, drunk, alcohol, booze",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/wine_glass.png"
+        },
+        {
+          "short-name": ":fork_and_knife:",
+          "alternative-names": "cutlery, kitchen",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/fork_and_knife.png"
+        },
+        {
+          "short-name": ":pizza:",
+          "alternative-names": "food, italian dairy, party",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/pizza.png"
+        },
+        {
+          "short-name": ":hamburger:",
+          "alternative-names": "food, american meat, meat, fast food, beef, cheeseburger, mcdonalds, burger king",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/hamburger.png"
+        },
+        {
+          "short-name": ":fries:",
+          "alternative-names": "food, american, chips, snack, fast food",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/fries.png"
+        },
+        {
+          "short-name": ":poultry_leg:",
+          "alternative-names": "food, meat, drumstick, bird, chicken, turkey",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/poultry_leg.png"
+        },
+        {
+          "short-name": ":meat_on_bone:",
+          "alternative-names": "food, meat, good, drumstick",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/meat_on_bone.png"
+        },
+        {
+          "short-name": ":spaghetti:",
+          "alternative-names": "food, italian noodles, italian, noodle",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/spaghetti.png"
+        },
+        {
+          "short-name": ":curry:",
+          "alternative-names": "food, indian, spicy, hot",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/curry.png"
+        },
+        {
+          "short-name": ":fried_shrimp:",
+          "alternative-names": "food, seafood, animal, appetizer, summer",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/fried_shrimp.png"
+        },
+        {
+          "short-name": ":bento:",
+          "alternative-names": "food, japanese, box",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/bento.png"
+        },
+        {
+          "short-name": ":sushi:",
+          "alternative-names": "food, japanese, fish, rice",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/sushi.png"
+        },
+        {
+          "short-name": ":fish_cake:",
+          "alternative-names": "food, japanese seafood, naruto, japan, sea, beach",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/fish_cake.png"
+        },
+        {
+          "short-name": ":rice_ball:",
+          "alternative-names": "food, japanese",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/rice_ball.png"
+        },
+        {
+          "short-name": ":rice_cracker:",
+          "alternative-names": "food, japanese",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/rice_cracker.png"
+        },
+        {
+          "short-name": ":rice:",
+          "alternative-names": "food, china, asian",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/rice.png"
+        },
+        {
+          "short-name": ":ramen:",
+          "alternative-names": "food noodles, food, japanese, noodle, chipsticks",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/ramen.png"
+        },
+        {
+          "short-name": ":stew:",
+          "alternative-names": "food, meat, soup",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/stew.png"
+        },
+        {
+          "short-name": ":oden:",
+          "alternative-names": "food, japanese",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/oden.png"
+        },
+        {
+          "short-name": ":dango:",
+          "alternative-names": "food, japanese, barbecue, meat",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/dango.png"
+        },
+        {
+          "short-name": ":egg:",
+          "alternative-names": "food,, food, breakfast, kitchen",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/egg.png"
+        },
+        {
+          "short-name": ":bread:",
+          "alternative-names": "food,, food, wheat, breakfast, toast",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/bread.png"
+        },
+        {
+          "short-name": ":doughnut:",
+          "alternative-names": "food, dessert, snack, sweet, donut",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/doughnut.png"
+        },
+        {
+          "short-name": ":custard:",
+          "alternative-names": "food, dessert",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/custard.png"
+        },
+        {
+          "short-name": ":icecream:",
+          "alternative-names": "food, dessert, hot, summer",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/icecream.png"
+        },
+        {
+          "short-name": ":ice_cream:",
+          "alternative-names": "food, dessert, hot",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/ice_cream.png"
+        },
+        {
+          "short-name": ":shaved_ice:",
+          "alternative-names": "food, dessert, hot, summer",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/shaved_ice.png"
+        },
+        {
+          "short-name": ":birthday:",
+          "alternative-names": "party, cake, celebration",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/birthday.png"
+        },
+        {
+          "short-name": ":cake:",
+          "alternative-names": "food, dessert",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/cake.png"
+        },
+        {
+          "short-name": ":cookie:",
+          "alternative-names": "food, dessert, snack, oreo, chocolate, sweet",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/cookie.png"
+        },
+        {
+          "short-name": ":chocolate_bar:",
+          "alternative-names": "food, dessert, snack, sweet",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/chocolate_bar.png"
+        },
+        {
+          "short-name": ":candy:",
+          "alternative-names": "food, dessert, snack, sweet",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/candy.png"
+        },
+        {
+          "short-name": ":lollipop:",
+          "alternative-names": "food, dessert, snack, candy, sweet",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/lollipop.png"
+        },
+        {
+          "short-name": ":honey_pot:",
+          "alternative-names": "food, dessert, bees, sweet, kitchen",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/honey_pot.png"
+        },
+        {
+          "short-name": ":apple:",
+          "alternative-names": "food, fruit, mac, school",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/apple.png"
+        },
+        {
+          "short-name": ":green_apple:",
+          "alternative-names": "food, fruit, nature",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/green_apple.png"
+        },
+        {
+          "short-name": ":tangerine:",
+          "alternative-names": "food, fruit, nature",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/tangerine.png"
+        },
+        {
+          "short-name": ":lemon:",
+          "alternative-names": "food, fruit, nature",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/lemon.png"
+        },
+        {
+          "short-name": ":cherries:",
+          "alternative-names": "food, fruit",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/cherries.png"
+        },
+        {
+          "short-name": ":grapes:",
+          "alternative-names": "food, fruit, wine",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/grapes.png"
+        },
+        {
+          "short-name": ":watermelon:",
+          "alternative-names": "food, fruit, picnic, summer",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/watermelon.png"
+        },
+        {
+          "short-name": ":strawberry:",
+          "alternative-names": "food, fruit, nature",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/strawberry.png"
+        },
+        {
+          "short-name": ":peach:",
+          "alternative-names": "food, fruit, nature",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/peach.png"
+        },
+        {
+          "short-name": ":melon:",
+          "alternative-names": "food, fruit, nature",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/melon.png"
+        },
+        {
+          "short-name": ":banana:",
+          "alternative-names": "food, fruit, monkey",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/banana.png"
+        },
+        {
+          "short-name": ":pear:",
+          "alternative-names": "food, fruit, nature",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/pear.png"
+        },
+        {
+          "short-name": ":pineapple:",
+          "alternative-names": "food, fruit, nature",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/pineapple.png"
+        },
+        {
+          "short-name": ":sweet_potato:",
+          "alternative-names": "food, vegetable, nature",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/sweet_potato.png"
+        },
+        {
+          "short-name": ":eggplant:",
+          "alternative-names": "food, vegetable, nature, aubergine",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/eggplant.png"
+        },
+        {
+          "short-name": ":tomato:",
+          "alternative-names": "food, fruit, vegetable, nature",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/tomato.png"
+        },
+        {
+          "short-name": ":corn:",
+          "alternative-names": "food, vegetable, plant",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/corn.png"
+        }
+      ]
+    },
+    {
+      "name": "places",
+      "items": [
+        {
+          "short-name": ":house:",
+          "alternative-names": "building, home",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/house.png"
+        },
+        {
+          "short-name": ":house_with_garden:",
+          "alternative-names": "building, home, plant, nature",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/house_with_garden.png"
+        },
+        {
+          "short-name": ":school:",
+          "alternative-names": "building, student, education, learn, teach",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/school.png"
+        },
+        {
+          "short-name": ":office:",
+          "alternative-names": "building, unit, bureau, work",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/office.png"
+        },
+        {
+          "short-name": ":post_office:",
+          "alternative-names": "building, email, communication",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/post_office.png"
+        },
+        {
+          "short-name": ":hospital:",
+          "alternative-names": "building, health, surgery, doctor",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/hospital.png"
+        },
+        {
+          "short-name": ":bank:",
+          "alternative-names": "building, money, sales, cash, business, enterprise",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/bank.png"
+        },
+        {
+          "short-name": ":convenience_store:",
+          "alternative-names": "building, shopping, groceries",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/convenience_store.png"
+        },
+        {
+          "short-name": ":love_hotel:",
+          "alternative-names": "building, like, affection, dating",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/love_hotel.png"
+        },
+        {
+          "short-name": ":hotel:",
+          "alternative-names": "building, whotel, accomodation, checkin",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/hotel.png"
+        },
+        {
+          "short-name": ":wedding:",
+          "alternative-names": "building, love, like, affection, couple, marriage, bride, groom",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/wedding.png"
+        },
+        {
+          "short-name": ":church:",
+          "alternative-names": "building, religion, christ",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/church.png"
+        },
+        {
+          "short-name": ":department_store:",
+          "alternative-names": "building, shopping, mall",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/department_store.png"
+        },
+        {
+          "short-name": ":european_post_office:",
+          "alternative-names": "building, email",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/european_post_office.png"
+        },
+        {
+          "short-name": ":city_sunrise:",
+          "alternative-names": "photo, good morning, dawn",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/city_sunrise.png"
+        },
+        {
+          "short-name": ":city_sunset:",
+          "alternative-names": "photo, evening, sky, buildings",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/city_sunset.png"
+        },
+        {
+          "short-name": ":japanese_castle:",
+          "alternative-names": "photo, building",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/japanese_castle.png"
+        },
+        {
+          "short-name": ":european_castle:",
+          "alternative-names": "building, royalty, history",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/european_castle.png"
+        },
+        {
+          "short-name": ":tent:",
+          "alternative-names": "camping, photo, camp, outdoors",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/tent.png"
+        },
+        {
+          "short-name": ":factory:",
+          "alternative-names": "building, industry, pollution, smoke",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/factory.png"
+        },
+        {
+          "short-name": ":tokyo_tower:",
+          "alternative-names": "photo, japanese",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/tokyo_tower.png"
+        },
+        {
+          "short-name": ":japan:",
+          "alternative-names": "nation, country, japanese, asia",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/japan.png"
+        },
+        {
+          "short-name": ":mount_fuji:",
+          "alternative-names": "photo, mountain, nature, japanese",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/mount_fuji.png"
+        },
+        {
+          "short-name": ":sunrise_over_mountains:",
+          "alternative-names": "view, vacation, photo",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/sunrise_over_mountains.png"
+        },
+        {
+          "short-name": ":sunrise:",
+          "alternative-names": "morning, view, vacation, photo",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/sunrise.png"
+        },
+        {
+          "short-name": ":stars:",
+          "alternative-names": "night, photo",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/stars.png"
+        },
+        {
+          "short-name": ":statue_of_liberty:",
+          "alternative-names": "american, newyork",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/statue_of_liberty.png"
+        },
+        {
+          "short-name": ":bridge_at_night:",
+          "alternative-names": "photo, sanfrancisco",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/bridge_at_night.png"
+        },
+        {
+          "short-name": ":carousel_horse:",
+          "alternative-names": "photo, carnival",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/carousel_horse.png"
+        },
+        {
+          "short-name": ":rainbow:",
+          "alternative-names": "nature, happy, unicorn, photo, sky, spring",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/rainbow.png"
+        },
+        {
+          "short-name": ":ferris_wheel:",
+          "alternative-names": "photo, carnival, londoneye",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/ferris_wheel.png"
+        },
+        {
+          "short-name": ":fountain:",
+          "alternative-names": "photo, summer, water, fresh",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/fountain.png"
+        },
+        {
+          "short-name": ":roller_coaster:",
+          "alternative-names": "carnival, playground, photo, fun",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/roller_coaster.png"
+        },
+        {
+          "short-name": ":ship:",
+          "alternative-names": "vehicle, transportation, titanic, deploy",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/ship.png"
+        },
+        {
+          "short-name": ":speedboat:",
+          "alternative-names": "vehicle, ship, transportation, summer",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/speedboat.png"
+        },
+        {
+          "short-name": ":boat:",
+          "alternative-names": "vehicle, ship, summer, transportation, water, sailing, sailboat",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/boat.png"
+        },
+        {
+          "short-name": ":sailboat:",
+          "alternative-names": "vehicle",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/sailboat.png"
+        },
+        {
+          "short-name": ":rowboat:",
+          "alternative-names": "vehicle, sports, hobby, water, ship",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/rowboat.png"
+        },
+        {
+          "short-name": ":anchor:",
+          "alternative-names": "ship, ferry, sea, boat",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/anchor.png"
+        },
+        {
+          "short-name": ":rocket:",
+          "alternative-names": "launch, ship, staffmode, NASA, outer space, outer_space, fly",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/rocket.png"
+        },
+        {
+          "short-name": ":airplane:",
+          "alternative-names": "vehicle, transportation, flight, fly",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/airplane.png"
+        },
+        {
+          "short-name": ":helicopter:",
+          "alternative-names": "vehicle, transportation, fly",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/helicopter.png"
+        },
+        {
+          "short-name": ":steam_locomotive:",
+          "alternative-names": "vehicle, transportation, train",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/steam_locomotive.png"
+        },
+        {
+          "short-name": ":tram:",
+          "alternative-names": "vehicle, transportation",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/tram.png"
+        },
+        {
+          "short-name": ":mountain_railway:",
+          "alternative-names": "vehicle, transportation",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/mountain_railway.png"
+        },
+        {
+          "short-name": ":bike:",
+          "alternative-names": "vehicle, sports, bicycle, exercise, hipster",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/bike.png"
+        },
+        {
+          "short-name": ":aerial_tramway:",
+          "alternative-names": "vehicle, transportation, ski",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/aerial_tramway.png"
+        },
+        {
+          "short-name": ":suspension_railway:",
+          "alternative-names": "vehicle, transportation",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/suspension_railway.png"
+        },
+        {
+          "short-name": ":mountain_cableway:",
+          "alternative-names": "vehicle, transportation, ski",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/mountain_cableway.png"
+        },
+        {
+          "short-name": ":tractor:",
+          "alternative-names": "vehicle, car, farming, agriculture",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/tractor.png"
+        },
+        {
+          "short-name": ":blue_car:",
+          "alternative-names": "vehicle, transportation",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/blue_car.png"
+        },
+        {
+          "short-name": ":oncoming_automobile:",
+          "alternative-names": "vehicle, car, transportation",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/oncoming_automobile.png"
+        },
+        {
+          "short-name": ":car:",
+          "alternative-names": "vehicle, car, red, transportation",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/car.png"
+        },
+        {
+          "short-name": ":red_car:",
+          "alternative-names": "vehicle",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/red_car.png"
+        },
+        {
+          "short-name": ":taxi:",
+          "alternative-names": "vehicle, car, uber, cars, transportation",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/taxi.png"
+        },
+        {
+          "short-name": ":oncoming_taxi:",
+          "alternative-names": "vehicle, car, cars, uber",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/oncoming_taxi.png"
+        },
+        {
+          "short-name": ":articulated_lorry:",
+          "alternative-names": "vehicle, cars, transportation, express",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/articulated_lorry.png"
+        },
+        {
+          "short-name": ":bus:",
+          "alternative-names": "vehicle, car, transportation",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/bus.png"
+        },
+        {
+          "short-name": ":oncoming_bus:",
+          "alternative-names": "vehicle, transportation",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/oncoming_bus.png"
+        },
+        {
+          "short-name": ":rotating_light:",
+          "alternative-names": "police, ambulance, 911, emergency, alert, error, pinged, law, legal",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/rotating_light.png"
+        },
+        {
+          "short-name": ":police_car:",
+          "alternative-names": "vehicle, cars, transportation, law, legal, enforcement",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/police_car.png"
+        },
+        {
+          "short-name": ":oncoming_police_car:",
+          "alternative-names": "vehicle, law, legal, enforcement, 911",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/oncoming_police_car.png"
+        },
+        {
+          "short-name": ":fire_engine:",
+          "alternative-names": "vehicle, transportation, cars",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/fire_engine.png"
+        },
+        {
+          "short-name": ":ambulance:",
+          "alternative-names": "vehicle, health, 911, hospital",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/ambulance.png"
+        },
+        {
+          "short-name": ":minibus:",
+          "alternative-names": "vehicle, car, transportation",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/minibus.png"
+        },
+        {
+          "short-name": ":truck:",
+          "alternative-names": "vehicle, cars, transportation",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/truck.png"
+        },
+        {
+          "short-name": ":train:",
+          "alternative-names": "vehicle, transportation, carriage, public, travel",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/train.png"
+        },
+        {
+          "short-name": ":station:",
+          "alternative-names": "transportation, vehicle, public",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/station.png"
+        },
+        {
+          "short-name": ":train2:",
+          "alternative-names": "vehicle, transportation",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/train2.png"
+        },
+        {
+          "short-name": ":bullettrain_front:",
+          "alternative-names": "vehicle, transportation, speed, fast, public, travel",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/bullettrain_front.png"
+        },
+        {
+          "short-name": ":bullettrain_side:",
+          "alternative-names": "vehicle, transportation",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/bullettrain_side.png"
+        },
+        {
+          "short-name": ":light_rail:",
+          "alternative-names": "vehicle, transportation",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/light_rail.png"
+        },
+        {
+          "short-name": ":monorail:",
+          "alternative-names": "vehicle, transportation",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/monorail.png"
+        },
+        {
+          "short-name": ":railway_car:",
+          "alternative-names": "vehicle, transportation",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/railway_car.png"
+        },
+        {
+          "short-name": ":trolleybus:",
+          "alternative-names": "vehicle, bart, transportation",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/trolleybus.png"
+        },
+        {
+          "short-name": ":ticket:",
+          "alternative-names": "event, concert, pass",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/ticket.png"
+        },
+        {
+          "short-name": ":fuelpump:",
+          "alternative-names": "gas station, petroleum",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/fuelpump.png"
+        },
+        {
+          "short-name": ":vertical_traffic_light:",
+          "alternative-names": "transportation, driving",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/vertical_traffic_light.png"
+        },
+        {
+          "short-name": ":traffic_light:",
+          "alternative-names": "stoplight, transportation, signal",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/traffic_light.png"
+        },
+        {
+          "short-name": ":warning:",
+          "alternative-names": "exclamation, wip, alert, error, problem, issue",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/warning.png"
+        },
+        {
+          "short-name": ":construction:",
+          "alternative-names": "wip, progress, caution, warning",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/construction.png"
+        },
+        {
+          "short-name": ":beginner:",
+          "alternative-names": "badge, shield",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/beginner.png"
+        },
+        {
+          "short-name": ":atm:",
+          "alternative-names": "money, sales, cash, blue-square, payment, bank",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/atm.png"
+        },
+        {
+          "short-name": ":slot_machine:",
+          "alternative-names": "bet, gamble, vegas, fruit machine, luck, casino",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/slot_machine.png"
+        },
+        {
+          "short-name": ":busstop:",
+          "alternative-names": "transportation, wait",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/busstop.png"
+        },
+        {
+          "short-name": ":barber:",
+          "alternative-names": "hair, salon, style",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/barber.png"
+        },
+        {
+          "short-name": ":hotsprings:",
+          "alternative-names": "bath, warm, relax",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/hotsprings.png"
+        },
+        {
+          "short-name": ":checkered_flag:",
+          "alternative-names": "contest, finishline, rase, gokart",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/checkered_flag.png"
+        },
+        {
+          "short-name": ":crossed_flags:",
+          "alternative-names": "japanese, nation, country, border",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/crossed_flags.png"
+        },
+        {
+          "short-name": ":izakaya_lantern:",
+          "alternative-names": "light, paper, halloween, spooky",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/izakaya_lantern.png"
+        },
+        {
+          "short-name": ":moyai:",
+          "alternative-names": "stone, easter island, beach, statue",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/moyai.png"
+        },
+        {
+          "short-name": ":circus_tent:",
+          "alternative-names": "festival, carnival, party",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/circus_tent.png"
+        },
+        {
+          "short-name": ":performing_arts:",
+          "alternative-names": "acting, theater, drama",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/performing_arts.png"
+        },
+        {
+          "short-name": ":round_pushpin:",
+          "alternative-names": "stationery, location, map, here",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/round_pushpin.png"
+        },
+        {
+          "short-name": ":triangular_flag_on_post:",
+          "alternative-names": "mark, milestone, place",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/triangular_flag_on_post.png"
+        },
+        {
+          "short-name": ":jp:",
+          "alternative-names": "japan, nippon, nihon, japanese, nation, flag, country, banner",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/jp.png"
+        },
+        {
+          "short-name": ":kr:",
+          "alternative-names": "korea, hanguk, nation, flag, country, banner",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/kr.png"
+        },
+        {
+          "short-name": ":cn:",
+          "alternative-names": "china, prc, chinese, flag, country, nation, banner",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/cn.png"
+        },
+        {
+          "short-name": ":us:",
+          "alternative-names": "usa, america, united states, nation, flag, american, country, banner",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/us.png"
+        },
+        {
+          "short-name": ":fr:",
+          "alternative-names": "france, banner, flag, nation, french, country",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/fr.png"
+        },
+        {
+          "short-name": ":es:",
+          "alternative-names": "spain, espana, flag, nation, country, banner",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/es.png"
+        },
+        {
+          "short-name": ":it:",
+          "alternative-names": "italy, italia, flag, nation, country, banner",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/it.png"
+        },
+        {
+          "short-name": ":ru:",
+          "alternative-names": "russia, russian, nation, flag, country, banner",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/ru.png"
+        },
+        {
+          "short-name": ":gb:",
+          "alternative-names": "great britain, united kingdom, banner, nation, flag, british, UK, country, english, england, union jack",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/gb.png"
+        },
+        {
+          "short-name": ":uk:",
+          "alternative-names": "great britain, united kingdom",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/uk.png"
+        },
+        {
+          "short-name": ":de:",
+          "alternative-names": "germany, deutschland, german, nation, flag, country, banner",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/de.png"
+        }
+      ]
+    },
+    {
+      "name": "symbols",
+      "items": [
+        {
+          "short-name": ":one:",
+          "alternative-names": "1, blue-square, numbers",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/one.png"
+        },
+        {
+          "short-name": ":two:",
+          "alternative-names": "2, numbers, prime, blue-square",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/two.png"
+        },
+        {
+          "short-name": ":three:",
+          "alternative-names": "3, numbers, prime, blue-square",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/three.png"
+        },
+        {
+          "short-name": ":four:",
+          "alternative-names": "4, numbers, blue-square",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/four.png"
+        },
+        {
+          "short-name": ":five:",
+          "alternative-names": "5, numbers, blue-square, prime",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/five.png"
+        },
+        {
+          "short-name": ":six:",
+          "alternative-names": "6, numbers, blue-square",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/six.png"
+        },
+        {
+          "short-name": ":seven:",
+          "alternative-names": "7, numbers, blue-square, prime",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/seven.png"
+        },
+        {
+          "short-name": ":eight:",
+          "alternative-names": "8, blue-square, numbers",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/eight.png"
+        },
+        {
+          "short-name": ":nine:",
+          "alternative-names": "9, blue-square, numbers",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/nine.png"
+        },
+        {
+          "short-name": ":keycap_ten:",
+          "alternative-names": "10, numbers, blue-square",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/keycap_ten.png"
+        },
+        {
+          "short-name": ":1234:",
+          "alternative-names": "numbers, blue-square",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/1234.png"
+        },
+        {
+          "short-name": ":zero:",
+          "alternative-names": "0, numbers, blue-square, null",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/zero.png"
+        },
+        {
+          "short-name": ":hash:",
+          "alternative-names": "symbol, blue-square, twitter",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/hash.png"
+        },
+        {
+          "short-name": ":symbols:",
+          "alternative-names": "blue-square, music, note, ampersand, percent, glyphs, characters",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/symbols.png"
+        },
+        {
+          "short-name": ":arrow_backward:",
+          "alternative-names": "left, blue-square, direction",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/arrow_backward.png"
+        },
+        {
+          "short-name": ":arrow_down:",
+          "alternative-names": "blue-square, direction, bottom",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/arrow_down.png"
+        },
+        {
+          "short-name": ":arrow_forward:",
+          "alternative-names": "right, blue-square, direction",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/arrow_forward.png"
+        },
+        {
+          "short-name": ":arrow_left:",
+          "alternative-names": "blue-square, previous, back",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/arrow_left.png"
+        },
+        {
+          "short-name": ":capital_abcd:",
+          "alternative-names": "alphabet, words, blue-square",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/capital_abcd.png"
+        },
+        {
+          "short-name": ":abcd:",
+          "alternative-names": "blue-square, alphabet",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/abcd.png"
+        },
+        {
+          "short-name": ":abc:",
+          "alternative-names": "blue-square, alphabet",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/abc.png"
+        },
+        {
+          "short-name": ":arrow_lower_left:",
+          "alternative-names": "blue-square, direction",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/arrow_lower_left.png"
+        },
+        {
+          "short-name": ":arrow_lower_right:",
+          "alternative-names": "blue-square, direction",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/arrow_lower_right.png"
+        },
+        {
+          "short-name": ":arrow_right:",
+          "alternative-names": "blue-square, next",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/arrow_right.png"
+        },
+        {
+          "short-name": ":arrow_up:",
+          "alternative-names": "blue-square, continue, top, direction",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/arrow_up.png"
+        },
+        {
+          "short-name": ":arrow_upper_left:",
+          "alternative-names": "blue-square, point, direction",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/arrow_upper_left.png"
+        },
+        {
+          "short-name": ":arrow_upper_right:",
+          "alternative-names": "blue-square, point, direction",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/arrow_upper_right.png"
+        },
+        {
+          "short-name": ":arrow_double_down:",
+          "alternative-names": "blue-square, direction, bottom",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/arrow_double_down.png"
+        },
+        {
+          "short-name": ":arrow_double_up:",
+          "alternative-names": "blue-square, direction, top",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/arrow_double_up.png"
+        },
+        {
+          "short-name": ":arrow_down_small:",
+          "alternative-names": "blue-square, direction, bottom",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/arrow_down_small.png"
+        },
+        {
+          "short-name": ":arrow_heading_down:",
+          "alternative-names": "blue-square, direction, bottom",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/arrow_heading_down.png"
+        },
+        {
+          "short-name": ":arrow_heading_up:",
+          "alternative-names": "blue-square, direction, top",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/arrow_heading_up.png"
+        },
+        {
+          "short-name": ":leftwards_arrow_with_hook:",
+          "alternative-names": "back, return, blue-square, undo",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/leftwards_arrow_with_hook.png"
+        },
+        {
+          "short-name": ":arrow_right_hook:",
+          "alternative-names": "blue-square, return, rotade, direction",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/arrow_right_hook.png"
+        },
+        {
+          "short-name": ":left_right_arrow:",
+          "alternative-names": "shape, direction",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/left_right_arrow.png"
+        },
+        {
+          "short-name": ":arrow_up_down:",
+          "alternative-names": "blue-square, direction, way",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/arrow_up_down.png"
+        },
+        {
+          "short-name": ":arrow_up_small:",
+          "alternative-names": "blue-square, triangle, direction, point, forward, top",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/arrow_up_small.png"
+        },
+        {
+          "short-name": ":arrows_clockwise:",
+          "alternative-names": "sync, cycle, round, repeat",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/arrows_clockwise.png"
+        },
+        {
+          "short-name": ":arrows_counterclockwise:",
+          "alternative-names": "blue-square, sync, cycle",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/arrows_counterclockwise.png"
+        },
+        {
+          "short-name": ":rewind:",
+          "alternative-names": "play, blue-square",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/rewind.png"
+        },
+        {
+          "short-name": ":fast_forward:",
+          "alternative-names": "blue-square, play, speed, continue",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/fast_forward.png"
+        },
+        {
+          "short-name": ":information_source:",
+          "alternative-names": "blue-square, alphabet, letter",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/information_source.png"
+        },
+        {
+          "short-name": ":ok:",
+          "alternative-names": "good, agree, yes, blue-square",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/ok.png"
+        },
+        {
+          "short-name": ":twisted_rightwards_arrows:",
+          "alternative-names": "blue-square, shuffle, music, random",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/twisted_rightwards_arrows.png"
+        },
+        {
+          "short-name": ":repeat:",
+          "alternative-names": "loop, record",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/repeat.png"
+        },
+        {
+          "short-name": ":repeat_one:",
+          "alternative-names": "blue-square, loop",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/repeat_one.png"
+        },
+        {
+          "short-name": ":new:",
+          "alternative-names": "blue-square, words, start",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/new.png"
+        },
+        {
+          "short-name": ":top:",
+          "alternative-names": "words, blue-square",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/top.png"
+        },
+        {
+          "short-name": ":up:",
+          "alternative-names": "blue-square, above, high",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/up.png"
+        },
+        {
+          "short-name": ":cool:",
+          "alternative-names": "words, blue-square",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/cool.png"
+        },
+        {
+          "short-name": ":free:",
+          "alternative-names": "blue-square, words",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/free.png"
+        },
+        {
+          "short-name": ":ng:",
+          "alternative-names": "blue-square, words, shape, icon",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/ng.png"
+        },
+        {
+          "short-name": ":cinema:",
+          "alternative-names": "movie, blue-square, record, film",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/cinema.png"
+        },
+        {
+          "short-name": ":koko:",
+          "alternative-names": "blue-square, here, katakana, japanese, destination",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/koko.png"
+        },
+        {
+          "short-name": ":signal_strength:",
+          "alternative-names": "blue-square, reception, phone, internet, connection, wifi, bluetooth",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/signal_strength.png"
+        },
+        {
+          "short-name": ":u5272:",
+          "alternative-names": "wari, cut, divide, chinese, kanji, pink-square",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/u5272.png"
+        },
+        {
+          "short-name": ":u5408:",
+          "alternative-names": "japanese, chinese, join, kanji, red-square",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/u5408.png"
+        },
+        {
+          "short-name": ":u55b6:",
+          "alternative-names": "ying, japanese, opening hours, orange-square",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/u55b6.png"
+        },
+        {
+          "short-name": ":u6307:",
+          "alternative-names": "zhǐ, zhi, chinese, point, green-square, kanji",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/u6307.png"
+        },
+        {
+          "short-name": ":u6708:",
+          "alternative-names": "yuè, yue, chinese, month, moon, japanese, orange-square, kanji",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/u6708.png"
+        },
+        {
+          "short-name": ":u6709:",
+          "alternative-names": "yǒu, you, orange-square, chinese, have, kanji",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/u6709.png"
+        },
+        {
+          "short-name": ":u6e80:",
+          "alternative-names": "mitsuru, full, chinese, japanese, red-square, kanji",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/u6e80.png"
+        },
+        {
+          "short-name": ":u7121:",
+          "alternative-names": "wú, wu, nothing, chinese, kanji, japanese, orange-square",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/u7121.png"
+        },
+        {
+          "short-name": ":u7533:",
+          "alternative-names": "shēn, shen, chinese, japanese, kanji, orange-square",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/u7533.png"
+        },
+        {
+          "short-name": ":u7a7a:",
+          "alternative-names": "kōng, kong, kanji, japanese, chinese, empty, sky, blue-square",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/u7a7a.png"
+        },
+        {
+          "short-name": ":u7981:",
+          "alternative-names": "jìn, jin, kanji, japanese, chinese, forbidden, limit, restricted, red-square",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/u7981.png"
+        },
+        {
+          "short-name": ":sa:",
+          "alternative-names": "japanese, blue-square, katakana",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/sa.png"
+        },
+        {
+          "short-name": ":restroom:",
+          "alternative-names": "blue-square, toilet, refresh, wc, gender",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/restroom.png"
+        },
+        {
+          "short-name": ":mens:",
+          "alternative-names": "toilet, restroom, wc, blue-square, gender, male",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/mens.png"
+        },
+        {
+          "short-name": ":womens:",
+          "alternative-names": "purple-square, woman, female, toilet, loo, restroom, gender",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/womens.png"
+        },
+        {
+          "short-name": ":baby_symbol:",
+          "alternative-names": "orange-square, child",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/baby_symbol.png"
+        },
+        {
+          "short-name": ":no_smoking:",
+          "alternative-names": "cigarette, blue-square, smell, smoke",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/no_smoking.png"
+        },
+        {
+          "short-name": ":parking:",
+          "alternative-names": "cars, blue-square, alphabet, letter",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/parking.png"
+        },
+        {
+          "short-name": ":wheelchair:",
+          "alternative-names": "blue-square, disabled, a11y, accessibility",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/wheelchair.png"
+        },
+        {
+          "short-name": ":metro:",
+          "alternative-names": "transportation, blue-square, mrt, underground, tube",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/metro.png"
+        },
+        {
+          "short-name": ":baggage_claim:",
+          "alternative-names": "blue-square, airport, transport",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/baggage_claim.png"
+        },
+        {
+          "short-name": ":accept:",
+          "alternative-names": "ok, good, chinese, kanji, agree, yes, orange-circle",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/accept.png"
+        },
+        {
+          "short-name": ":wc:",
+          "alternative-names": "toilet, restroom, blue-square",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/wc.png"
+        },
+        {
+          "short-name": ":potable_water:",
+          "alternative-names": "blue-square, liquid, restroom, cleaning, faucet",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/potable_water.png"
+        },
+        {
+          "short-name": ":put_litter_in_its_place:",
+          "alternative-names": "blue-square, sign, human, info",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/put_litter_in_its_place.png"
+        },
+        {
+          "short-name": ":secret:",
+          "alternative-names": "privacy, chinese, sshh, kanji, red-circle",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/secret.png"
+        },
+        {
+          "short-name": ":congratulations:",
+          "alternative-names": "chinese, kanji, japanese, red-circle",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/congratulations.png"
+        },
+        {
+          "short-name": ":m:",
+          "alternative-names": "alphabet, blue-circle, letter",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/m.png"
+        },
+        {
+          "short-name": ":passport_control:",
+          "alternative-names": "custom, blue-square",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/passport_control.png"
+        },
+        {
+          "short-name": ":left_luggage:",
+          "alternative-names": "blue-square, travel",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/left_luggage.png"
+        },
+        {
+          "short-name": ":customs:",
+          "alternative-names": "passport, border, blue-square",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/customs.png"
+        },
+        {
+          "short-name": ":ideograph_advantage:",
+          "alternative-names": "chinese, kanji, obtain, get, circle",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/ideograph_advantage.png"
+        },
+        {
+          "short-name": ":cl:",
+          "alternative-names": "alphabet, words, red-square",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/cl.png"
+        },
+        {
+          "short-name": ":sos:",
+          "alternative-names": "help, red-square, words, emergency, 911",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/sos.png"
+        },
+        {
+          "short-name": ":id:",
+          "alternative-names": "purple-square, words",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/id.png"
+        },
+        {
+          "short-name": ":no_entry_sign:",
+          "alternative-names": "forbid, stop, limit, denied, disallow, circle",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/no_entry_sign.png"
+        },
+        {
+          "short-name": ":underage:",
+          "alternative-names": "18, drink, pub, night, minor, circle",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/underage.png"
+        },
+        {
+          "short-name": ":no_mobile_phones:",
+          "alternative-names": "iphone, mute, circle",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/no_mobile_phones.png"
+        },
+        {
+          "short-name": ":do_not_litter:",
+          "alternative-names": "trash, bin, garbage, circle",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/do_not_litter.png"
+        },
+        {
+          "short-name": ":non-potable_water:",
+          "alternative-names": "drink, faucet, tap, circle",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/non-potable_water.png"
+        },
+        {
+          "short-name": ":no_bicycles:",
+          "alternative-names": "cyclist, prohibited, circle",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/no_bicycles.png"
+        },
+        {
+          "short-name": ":no_pedestrians:",
+          "alternative-names": "rules, crossing, walking, circle",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/no_pedestrians.png"
+        },
+        {
+          "short-name": ":children_crossing:",
+          "alternative-names": "school, warning, danger, sign, driving, yellow-diamond",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/children_crossing.png"
+        },
+        {
+          "short-name": ":no_entry:",
+          "alternative-names": "limit, security, privacy, bad, denied, stop, circle",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/no_entry.png"
+        },
+        {
+          "short-name": ":eight_spoked_asterisk:",
+          "alternative-names": "star, sparkle, green-square",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/eight_spoked_asterisk.png"
+        },
+        {
+          "short-name": ":sparkle:",
+          "alternative-names": "stars, green-square, awesome, good, fireworks",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/sparkle.png"
+        },
+        {
+          "short-name": ":eight_pointed_black_star:",
+          "alternative-names": "orange-square, shape, polygon",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/eight_pointed_black_star.png"
+        },
+        {
+          "short-name": ":heart_decoration:",
+          "alternative-names": "purple-square, love, like",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/heart_decoration.png"
+        },
+        {
+          "short-name": ":vs:",
+          "alternative-names": "words, orange-square",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/vs.png"
+        },
+        {
+          "short-name": ":vibration_mode:",
+          "alternative-names": "orange-square, phone",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/vibration_mode.png"
+        },
+        {
+          "short-name": ":mobile_phone_off:",
+          "alternative-names": "mute, orange-square, silence, quiet",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/mobile_phone_off.png"
+        },
+        {
+          "short-name": ":chart:",
+          "alternative-names": "yen, green-square, graph, presentation, stats",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/chart.png"
+        },
+        {
+          "short-name": ":currency_exchange:",
+          "alternative-names": "money, sales, dollar, travel",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/currency_exchange.png"
+        },
+        {
+          "short-name": ":aries:",
+          "alternative-names": "zodiac, sign, purple-square, astrology",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/aries.png"
+        },
+        {
+          "short-name": ":taurus:",
+          "alternative-names": "zodiac, purple-square, sign, astrology",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/taurus.png"
+        },
+        {
+          "short-name": ":gemini:",
+          "alternative-names": "zodiac, sign, purple-square, astrology",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/gemini.png"
+        },
+        {
+          "short-name": ":cancer:",
+          "alternative-names": "zodiac, sign, purple-square, astrology",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/cancer.png"
+        },
+        {
+          "short-name": ":leo:",
+          "alternative-names": "zodiac, sign, purple-square, astrology",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/leo.png"
+        },
+        {
+          "short-name": ":virgo:",
+          "alternative-names": "zodiac, sign, purple-square, astrology",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/virgo.png"
+        },
+        {
+          "short-name": ":libra:",
+          "alternative-names": "zodiac, sign, purple-square, astrology",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/libra.png"
+        },
+        {
+          "short-name": ":scorpius:",
+          "alternative-names": "zodiac, sign, purple-square, astrology, scorpio",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/scorpius.png"
+        },
+        {
+          "short-name": ":sagittarius:",
+          "alternative-names": "zodiac, sign, purple-square, astrology",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/sagittarius.png"
+        },
+        {
+          "short-name": ":capricorn:",
+          "alternative-names": "zodiac, sign, purple-square, astrology",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/capricorn.png"
+        },
+        {
+          "short-name": ":aquarius:",
+          "alternative-names": "zodiac, sign, purple-square, astrology",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/aquarius.png"
+        },
+        {
+          "short-name": ":pisces:",
+          "alternative-names": "zodiac, purple-square, sign, astrology",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/pisces.png"
+        },
+        {
+          "short-name": ":ophiuchus:",
+          "alternative-names": "zodiac, sign, purple-square, constellation, astrology",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/ophiuchus.png"
+        },
+        {
+          "short-name": ":six_pointed_star:",
+          "alternative-names": "purple-square, religion, jewish, hexagram",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/six_pointed_star.png"
+        },
+        {
+          "short-name": ":negative_squared_cross_mark:",
+          "alternative-names": "x, green-square, no, deny",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/negative_squared_cross_mark.png"
+        },
+        {
+          "short-name": ":a:",
+          "alternative-names": "red-square, alphabet, letter",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/a.png"
+        },
+        {
+          "short-name": ":b:",
+          "alternative-names": "red-square, alphabet, letter",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/b.png"
+        },
+        {
+          "short-name": ":ab:",
+          "alternative-names": "red-square, alphabet",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/ab.png"
+        },
+        {
+          "short-name": ":o2:",
+          "alternative-names": "alphabet, red-square, letter",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/o2.png"
+        },
+        {
+          "short-name": ":diamond_shape_with_a_dot_inside:",
+          "alternative-names": "jewel, blue, gem, crystal, fancy",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/diamond_shape_with_a_dot_inside.png"
+        },
+        {
+          "short-name": ":recycle:",
+          "alternative-names": "arrow, environment, garbage, trash",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/recycle.png"
+        },
+        {
+          "short-name": ":end:",
+          "alternative-names": "words, arrow",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/end.png"
+        },
+        {
+          "short-name": ":back:",
+          "alternative-names": "arrow, words, return",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/back.png"
+        },
+        {
+          "short-name": ":on:",
+          "alternative-names": "arrow, words",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/on.png"
+        },
+        {
+          "short-name": ":soon:",
+          "alternative-names": "arrow, words",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/soon.png"
+        },
+        {
+          "short-name": ":clock1:",
+          "alternative-names": "time, late, early, schedule",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/clock1.png"
+        },
+        {
+          "short-name": ":clock130:",
+          "alternative-names": "time, late, early, schedule",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/clock130.png"
+        },
+        {
+          "short-name": ":clock10:",
+          "alternative-names": "time, late, early, schedule",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/clock10.png"
+        },
+        {
+          "short-name": ":clock1030:",
+          "alternative-names": "time, late, early, schedule",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/clock1030.png"
+        },
+        {
+          "short-name": ":clock11:",
+          "alternative-names": "time, late, early, schedule",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/clock11.png"
+        },
+        {
+          "short-name": ":clock1130:",
+          "alternative-names": "time, late, early, schedule",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/clock1130.png"
+        },
+        {
+          "short-name": ":clock12:",
+          "alternative-names": "midnight, noon, time, late, early, schedule",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/clock12.png"
+        },
+        {
+          "short-name": ":clock1230:",
+          "alternative-names": "time, late, early, schedule",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/clock1230.png"
+        },
+        {
+          "short-name": ":clock2:",
+          "alternative-names": "time, late, early, schedule",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/clock2.png"
+        },
+        {
+          "short-name": ":clock230:",
+          "alternative-names": "time, late, early, schedule",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/clock230.png"
+        },
+        {
+          "short-name": ":clock3:",
+          "alternative-names": "time, late, early, schedule",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/clock3.png"
+        },
+        {
+          "short-name": ":clock330:",
+          "alternative-names": "time, late, early, schedule",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/clock330.png"
+        },
+        {
+          "short-name": ":clock4:",
+          "alternative-names": "time, late, early, schedule",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/clock4.png"
+        },
+        {
+          "short-name": ":clock430:",
+          "alternative-names": "time, late, early, schedule",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/clock430.png"
+        },
+        {
+          "short-name": ":clock5:",
+          "alternative-names": "time, late, early, schedule",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/clock5.png"
+        },
+        {
+          "short-name": ":clock530:",
+          "alternative-names": "time, late, early, schedule",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/clock530.png"
+        },
+        {
+          "short-name": ":clock6:",
+          "alternative-names": "time, late, early, schedule, dawn, dusk",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/clock6.png"
+        },
+        {
+          "short-name": ":clock630:",
+          "alternative-names": "time, late, early, schedule",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/clock630.png"
+        },
+        {
+          "short-name": ":clock7:",
+          "alternative-names": "time, late, early, schedule",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/clock7.png"
+        },
+        {
+          "short-name": ":clock730:",
+          "alternative-names": "time, late, early, schedule",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/clock730.png"
+        },
+        {
+          "short-name": ":clock8:",
+          "alternative-names": "time, late, early, schedule",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/clock8.png"
+        },
+        {
+          "short-name": ":clock830:",
+          "alternative-names": "time, late, early, schedule",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/clock830.png"
+        },
+        {
+          "short-name": ":clock9:",
+          "alternative-names": "time, late, early, schedule",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/clock9.png"
+        },
+        {
+          "short-name": ":clock930:",
+          "alternative-names": "time, late, early, schedule",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/clock930.png"
+        },
+        {
+          "short-name": ":heavy_dollar_sign:",
+          "alternative-names": "money, sales, payment, currency",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/heavy_dollar_sign.png"
+        },
+        {
+          "short-name": ":copyright:",
+          "alternative-names": "ip, license, circle, law, legal",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/copyright.png"
+        },
+        {
+          "short-name": ":registered:",
+          "alternative-names": "alphabet, circle",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/registered.png"
+        },
+        {
+          "short-name": ":tm:",
+          "alternative-names": "trademark, brand, law, legal",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/tm.png"
+        },
+        {
+          "short-name": ":x:",
+          "alternative-names": "no, delete, remove",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/x.png"
+        },
+        {},
+        {
+          "short-name": ":bangbang:",
+          "alternative-names": "exclamation, surprise",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/bangbang.png"
+        },
+        {
+          "short-name": ":interrobang:",
+          "alternative-names": "wat, punctuation, surprise",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/interrobang.png"
+        },
+        {
+          "short-name": ":o:",
+          "alternative-names": "circle, round",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/o.png"
+        },
+        {
+          "short-name": ":heavy_multiplication_x:",
+          "alternative-names": "math, calculation",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/heavy_multiplication_x.png"
+        },
+        {
+          "short-name": ":heavy_plus_sign:",
+          "alternative-names": "math, calculation, addition, more, increase",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/heavy_plus_sign.png"
+        },
+        {
+          "short-name": ":heavy_minus_sign:",
+          "alternative-names": "math, calculation, subtract, less",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/heavy_minus_sign.png"
+        },
+        {
+          "short-name": ":heavy_division_sign:",
+          "alternative-names": "divide, math, calculation",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/heavy_division_sign.png"
+        },
+        {
+          "short-name": ":white_flower:",
+          "alternative-names": "floral, japanese, spring",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/white_flower.png"
+        },
+        {
+          "short-name": ":100:",
+          "alternative-names": "score, perfect, numbers, century, exam, quiz, test, pass, hundred",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/100.png"
+        },
+        {
+          "short-name": ":heavy_check_mark:",
+          "alternative-names": "ok, nike",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/heavy_check_mark.png"
+        },
+        {
+          "short-name": ":ballot_box_with_check:",
+          "alternative-names": "ok, agree, confirm, black-square, vote, election",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/ballot_box_with_check.png"
+        },
+        {
+          "short-name": ":radio_button:",
+          "alternative-names": "input, old, music, circle",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/radio_button.png"
+        },
+        {
+          "short-name": ":link:",
+          "alternative-names": "rings, url",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/link.png"
+        },
+        {
+          "short-name": ":curly_loop:",
+          "alternative-names": "scribble, draw, shape, squiggle",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/curly_loop.png"
+        },
+        {
+          "short-name": ":wavy_dash:",
+          "alternative-names": "draw, line, moustache, mustache, squiggle, scribble",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/wavy_dash.png"
+        },
+        {
+          "short-name": ":part_alternation_mark:",
+          "alternative-names": "graph, presentation, stats, business, economics, bad",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/part_alternation_mark.png"
+        },
+        {
+          "short-name": ":trident:",
+          "alternative-names": "weapon, spear",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/trident.png"
+        },
+        {
+          "short-name": ":black_small_square:",
+          "alternative-names": "shape, icon",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/black_small_square.png"
+        },
+        {
+          "short-name": ":white_small_square:",
+          "alternative-names": "shape, icon",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/white_small_square.png"
+        },
+        {
+          "short-name": ":black_medium_small_square:",
+          "alternative-names": "icon, shape, button",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/black_medium_small_square.png"
+        },
+        {
+          "short-name": ":white_medium_small_square:",
+          "alternative-names": "shape, stone, icon, button",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/white_medium_small_square.png"
+        },
+        {
+          "short-name": ":black_medium_square:",
+          "alternative-names": "shape, button, icon",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/black_medium_square.png"
+        },
+        {
+          "short-name": ":white_medium_square:",
+          "alternative-names": "shape, stone, icon",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/white_medium_square.png"
+        },
+        {
+          "short-name": ":black_large_square:",
+          "alternative-names": "shape, icon, button",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/black_square.png"
+        },
+        {
+          "short-name": ":white_large_square:",
+          "alternative-names": "shape, icon, stone, button",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/white_large_square.png"
+        },
+        {
+          "short-name": ":white_check_mark:",
+          "alternative-names": "green-square, ok, agree, vote, election",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/white_check_mark.png"
+        },
+        {
+          "short-name": ":black_square_button:",
+          "alternative-names": "shape, input, frame",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/black_square_button.png"
+        },
+        {
+          "short-name": ":white_square_button:",
+          "alternative-names": "shape, input",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/white_square_button.png"
+        },
+        {
+          "short-name": ":black_circle:",
+          "alternative-names": "shape, button, round",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/black_circle.png"
+        },
+        {
+          "short-name": ":white_circle:",
+          "alternative-names": "shape, round",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/white_circle.png"
+        },
+        {
+          "short-name": ":red_circle:",
+          "alternative-names": "shape, error, danger",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/red_circle.png"
+        },
+        {
+          "short-name": ":large_blue_circle:",
+          "alternative-names": "shape, icon, button",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/large_blue_circle.png"
+        },
+        {
+          "short-name": ":large_blue_diamond:",
+          "alternative-names": "shape, jewel, gem",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/large_blue_diamond.png"
+        },
+        {
+          "short-name": ":large_orange_diamond:",
+          "alternative-names": "shape, jewel, gem",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/large_orange_diamond.png"
+        },
+        {
+          "short-name": ":small_blue_diamond:",
+          "alternative-names": "shape, jewel, gem",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/small_blue_diamond.png"
+        },
+        {
+          "short-name": ":small_orange_diamond:",
+          "alternative-names": "shape, jewel, gem",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/small_orange_diamond.png"
+        },
+        {
+          "short-name": ":small_red_triangle:",
+          "alternative-names": "shape, direction, up, top",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/small_red_triangle.png"
+        },
+        {
+          "short-name": ":small_red_triangle_down:",
+          "alternative-names": "shape, direction, bottom",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/small_red_triangle_down.png"
+        },
+        {
+          "short-name": ":shipit:",
+          "alternative-names": "squirrel, detective, animal, sherlock, inspector, custom_",
+          "image": "http://www.emoji-cheat-sheet.com/graphics/emojis/shipit.png"
+        }
+      ]
+    }
+  ]
+}

@@ -78,11 +78,11 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Picker.Core\Picker.Core.csproj">
+    <ProjectReference Include="..\..\Picker\Picker.Core\Picker.Core.csproj">
       <Project>{45c926f8-e055-4225-9792-b00912c3cd70}</Project>
       <Name>Picker.Core</Name>
     </ProjectReference>
-    <ProjectReference Include="..\Picker.Postgresql\Picker.Postgresql.csproj">
+    <ProjectReference Include="..\..\Picker\Picker.Postgresql\Picker.Postgresql.csproj">
       <Project>{e91d0981-23cf-40cf-abc8-60cbe57b8515}</Project>
       <Name>Picker.Postgresql</Name>
     </ProjectReference>

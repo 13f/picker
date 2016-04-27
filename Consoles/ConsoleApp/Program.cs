@@ -26,7 +26,6 @@ namespace ConsoleApp {
       //Console.WriteLine( source + " -> " + target );
       //Food911cha.XmlToJson( source, target );
       //Console.WriteLine( "Over..." );
-      //Console.ReadKey();
 
       // 2 food: xml->json // ok @2015-12-26
       //string source = @"E:\github\picker\data\food\food.xml";
@@ -34,7 +33,6 @@ namespace ConsoleApp {
       //Console.WriteLine( source + " -> " + target );
       //Food911cha.XmlToJson2( source, target );
       //Console.WriteLine( "Over..." );
-      //Console.ReadKey();
 
       // Global-2015 // ok @2015-12-17
       //string tableKey = "<table id=\"yytable\" class=\"rankingtable\"";
@@ -44,7 +42,6 @@ namespace ConsoleApp {
       //Console.WriteLine( xmlFile + " -> " + jsonFile );
       //XElementHelper.XmlToJson( xmlFile, jsonFile, true );
       //Console.WriteLine( "Over..." );
-      //Console.ReadKey();
 
       // Global-2014 // ok @2015-12-17
       //string source = @"E:\github\picker\data\organization\global500-2014.xml";
@@ -52,26 +49,29 @@ namespace ConsoleApp {
       //Console.WriteLine( source + " -> " + target );
       //XElementHelper.XmlToJson( source, target, true );
       //Console.WriteLine( "Over..." );
-      //Console.ReadKey();
 
       //// Global-2013 // ok @2016-1-23
       //string tableKey = "<table class=\"rankingtable\" id=\"yytable\"";
       //string file = @"E:\github\picker\data\organization\global500-2013";
       //Global500.PickToJson( "http://www.fortunechina.com/fortune500/c/2013-07/08/2013G500.htm", tableKey, "rank2013", "rank2012", file );
-      //Console.ReadKey();
 
       // Global-2012 // 
       //string tableKey = "<table class=\"rankingtable\" cellspacing=";
       //string file = @"E:\github\picker\data\organization\global500-2012";
       //Global500.PickToJsonBefore2013( "http://www.fortunechina.com/fortune500/c/2012-07/09/content_106535.htm", tableKey, "rank2012", "rank2011", file );
-      //Console.ReadKey();
+
+      // emoji // @2016-4-27
+      string targetDir = @"E:\github\picker\data\emotion\";
+      EmojiCheatSheet.Run( targetDir, targetDir + "images\\" );
 
       // test: qichacha.com
       //testQichacha_GetTrademarkList();
       //testQichacha_Post_Trademark(); // ok
-      testQichacha_Post_Patent(); // ok
+      //testQichacha_Post_Patent(); // ok
       //testQichacha_Post_Certificate(); // ok
-      Console.WriteLine( "Over..." );
+      //Console.WriteLine( "Over..." );
+
+      // wait for input
       Console.ReadKey();
     }
 
