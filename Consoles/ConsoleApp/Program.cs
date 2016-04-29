@@ -74,7 +74,17 @@ namespace ConsoleApp {
       // test: http://spaqbz.zjwst.gov.cn/zjfsdata/html/eStandardList.jsp
       //testPost_EnterpriseStandard_Zhejiang_Food(); // ok
       // @2016-4-27
-      FoodSecurityStandard.PickItems_Zhejiang( @"F:\Data\浙江食品安全标准\企业标准.json" );
+      //FoodSecurityStandard.PickItems_Zhejiang( @"F:\Data\浙江食品安全标准\企业标准.json" ); // ok
+      //FoodSecurityStandard.PickList_Standards( @"F:\Data\食品安全标准\list.json" ); // ok
+      //FoodSecurityStandard.PickDetails_Standards( @"F:\Data\食品安全标准\GB-list-v6.json", @"F:\Data\食品安全标准\国家标准\", 3000 ); // ok
+      //FoodSecurityStandard.DownloadPdf_Standard( @"F:\Data\食品安全标准\GB-list-v1.json", @"F:\Data\食品安全标准\国家标准\", "GB 1886.148-2015" ); // ok
+      // @2016-4-28
+      //FoodSecurityStandard.CheckNotDownloaded_Standards( @"F:\Data\食品安全标准\GB-list-v6.json", @"F:\Data\食品安全标准\国家标准\" ); // ok
+      // @2016-4-29
+      //FoodSecurityStandard.PickList_LocalStandards( @"F:\Data\食品安全标准\DB-list.json" ); // ok
+      //FoodSecurityStandard.PickDetails_Standards( @"F:\Data\食品安全标准\DB-list-v2.json", @"F:\Data\食品安全标准\地方标准\", true, 3000 ); // ok
+      //FoodSecurityStandard.UpdateReplaceOrReference_Standards( @"F:\Data\食品安全标准\GB-list-v7.json", 3000 ); // ok
+      //FoodSecurityStandard.UpdateReplaceOrReference_Standards( @"F:\Data\食品安全标准\DB-list-v3.json", 3000 );
 
       // wait for input
       Console.ReadKey();
