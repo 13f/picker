@@ -86,6 +86,19 @@ namespace ConsoleApp {
       //FoodSecurityStandard.UpdateReplaceOrReference_Standards( @"F:\Data\食品安全标准\GB-list-v7.json", 3000 ); // ok
       //FoodSecurityStandard.UpdateReplaceOrReference_Standards( @"F:\Data\食品安全标准\DB-list-v3.json", 3000 );
 
+      // @2016-4-30
+      //Additives_GB2760.PickAdditivesList( @"F:\Data\食品安全标准\GB 2760-2014_additives.json", 3000 ); // ok
+      //Additives_GB2760.PickAdditivesDetail( @"F:\Data\食品安全标准\GB 2760-2014_additives-v2.json", 3000 ); // ok
+      //Additives_GB2760.PickFoodsList( @"F:\Data\食品安全标准\GB 2760-2014_foods-v1.json", 3000 ); // ok
+      //Additives_GB2760.PickFoodsDetail( @"F:\Data\食品安全标准\GB 2760-2014_foods-v2.json", 3000 ); // ok
+
+      // @2016-5-1
+      //Additives_GB2760.PickProcessingAids( @"F:\Data\食品安全标准\GB 2760-2014_加工助剂-v1.json" ); // ok
+      //Additives_GB2760.PickEnzymeList( @"F:\Data\食品安全标准\GB 2760-2014_酶制剂-v1.json" ); // ok
+      //Additives_GB2760.PickSpices1List( @"F:\Data\食品安全标准\GB 2760-2014_表B.1_不得添加食品用香料香精的食品名单-v1.json" ); // ok
+      //Additives_GB2760.PickSpices2List( @"F:\Data\食品安全标准\GB 2760-2014_表B.2_允许使用的食品用天然香料名单-v1.json" ); // ok
+      //Additives_GB2760.PickSpices3List( @"F:\Data\食品安全标准\GB 2760-2014_表B.3_允许使用的食品用合成香料名单-v1.json" ); // ok
+
       // wait for input
       Console.ReadKey();
     }
@@ -127,10 +140,10 @@ namespace ConsoleApp {
     //  Console.ReadKey();
     //}
 
-      /// <summary>
-      /// failed.
-      /// </summary>
-      /// <returns></returns>
+    /// <summary>
+    /// failed.
+    /// </summary>
+    /// <returns></returns>
     static async Task<string> testQichacha() {
       string urlShangbiao = "http://www.qichacha.com/company_shangbiaoView?id=TUQMTRULRNML";
       System.Collections.Specialized.NameValueCollection query = new System.Collections.Specialized.NameValueCollection();
