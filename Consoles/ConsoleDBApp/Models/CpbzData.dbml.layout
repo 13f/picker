@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11, 8.5" name="CpbzData">
+  <DataContextMoniker Name="/CpbzDataContext" />
+  <nestedChildShapes>
+    <classShape Id="fa0401fe-ac4f-41d3-b165-9ce1304b362b" absoluteBounds="1.375, 1.125, 2, 2.0916874186197916">
+      <DataClassMoniker Name="/CpbzDataContext/Area" />
+      <nestedChildShapes>
+        <elementListCompartment Id="b1df61ee-952f-46b9-b85d-529d6219c22b" absoluteBounds="1.3899999999999997, 1.585, 1.9700000000000002, 1.5316874186197915" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="7d1c955e-aabc-4d41-a7ba-af6ff1241e8e" absoluteBounds="4.25, 1.125, 2, 1.9068933105468753">
+      <DataClassMoniker Name="/CpbzDataContext/CpbzCompanyTask" />
+      <nestedChildShapes>
+        <elementListCompartment Id="ac31408e-93a2-40fe-9dee-37f5f24efe6e" absoluteBounds="4.265, 1.585, 1.9700000000000002, 1.346893310546875" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="74957a1f-b8ec-46c0-b7b6-1845a0cb1d88" absoluteBounds="7.375, 1.125, 2, 2.6460697428385416">
+      <DataClassMoniker Name="/CpbzDataContext/CpbzStandard" />
+      <nestedChildShapes>
+        <elementListCompartment Id="15fcee0a-649f-460a-8d89-15b213d003c5" absoluteBounds="7.39, 1.585, 1.9700000000000002, 2.0860697428385415" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+  </nestedChildShapes>
+</ordesignerObjectsDiagram>

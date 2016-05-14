@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11, 8.5" name="SacData">
+  <DataContextMoniker Name="/SacDataContext" />
+  <nestedChildShapes>
+    <classShape Id="aa93a6e7-88d6-421f-8cd5-0e126c298269" absoluteBounds="1.25, 0.75, 2, 3.3852461751302081">
+      <DataClassMoniker Name="/SacDataContext/SACChinaStandard" />
+      <nestedChildShapes>
+        <elementListCompartment Id="f407fb82-52f2-4183-a93d-502adf06cdb2" absoluteBounds="1.2650000000000001, 1.21, 1.9700000000000002, 2.825246175130208" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="a92e5dcf-77c9-498a-96d5-253d459e130c" absoluteBounds="4.25, 0.75, 2, 1.5373050944010416">
+      <DataClassMoniker Name="/SacDataContext/SACQueryState" />
+      <nestedChildShapes>
+        <elementListCompartment Id="e33f3cfe-e681-4833-aa4a-ce7e1e3bbe9f" absoluteBounds="4.265, 1.21, 1.9700000000000002, 0.97730509440104174" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+  </nestedChildShapes>
+</ordesignerObjectsDiagram>
