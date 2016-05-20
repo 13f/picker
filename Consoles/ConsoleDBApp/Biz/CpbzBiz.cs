@@ -94,12 +94,18 @@ namespace ConsoleDBApp.Biz {
     }
 
     public KeyValuePair<string, int> GetStandardToProcess() {
-      // skip: 
-      // 070422567:114863
       var item = db.CpbzStandard.Where( i => i.Content == null ).FirstOrDefault();
       if ( item == null )
         return new KeyValuePair<string, int>( null, -1 );
       return new KeyValuePair<string, int>( item.OrgCode, item.StandardId );
+    }
+
+    public Tuple<string, int, string> GetStandardToUpdateOriginalPdfUri() {
+      DateTime dt = DateTime.Parse( "2016-5-14 12:00" );
+      var item = db.CpbzStandard.Where( i => i.UpdatedAt != null && i.UpdatedAt.Value < dt && i.Content!= "----" ).FirstOrDefault();
+      if ( item == null )
+        return new Tuple<string, int, string>( null, -1, null );
+      return new Tuple<string, int, string>( item.OrgCode, item.StandardId, item.Content );
     }
 
     public void SaveKey_Area( string code, string name, bool saveChanges ) {
@@ -187,6 +193,18 @@ namespace ConsoleDBApp.Biz {
       if ( saveChanges )
         db.SubmitChanges();
     }
+
+    public void UpdateStandard_Content( string orgCode, int standardId, string json, bool saveChanges ) {
+      var item = db.CpbzStandard.Where( i => i.OrgCode == orgCode && i.StandardId == standardId ).FirstOrDefault();
+      if ( item == null )
+        return;
+      item.Content = json;
+      item.UpdatedAt = DateTime.UtcNow;
+
+      if ( saveChanges )
+        db.SubmitChanges();
+    }
+
 
     /// <summary>
     /// 从inputIds中过滤出数据库中每有的id

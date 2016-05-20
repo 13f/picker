@@ -55,7 +55,7 @@
   <ItemGroup>
     <Compile Include="Biz\CpbzBiz.cs" />
     <Compile Include="Biz\SacBiz.cs" />
-    <Compile Include="CPBZ.cs" />
+    <Compile Include="Biz\CPBZ.cs" />
     <Compile Include="Models\CpbzData.designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
@@ -68,7 +68,7 @@
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
       <DependentUpon>Settings.settings</DependentUpon>
     </Compile>
-    <Compile Include="SAC.cs" />
+    <Compile Include="Biz\SAC.cs" />
     <Compile Include="Models\SacData.designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>

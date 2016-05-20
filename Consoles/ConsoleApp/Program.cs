@@ -99,6 +99,16 @@ namespace ConsoleApp {
       //Additives_GB2760.PickSpices2List( @"F:\Data\食品安全标准\GB 2760-2014_表B.2_允许使用的食品用天然香料名单-v1.json" ); // ok
       //Additives_GB2760.PickSpices3List( @"F:\Data\食品安全标准\GB 2760-2014_表B.3_允许使用的食品用合成香料名单-v1.json" ); // ok
 
+      // @2016-5-16
+      //GallantlabHuth2016.FilterDistinctData( @"F:\Data\gallantlab.org\huth2016\pragmatic_areas.v0.json", @"F:\Data\gallantlab.org\huth2016\pragmatic_areas.v1.json" ); // ok
+      //GallantlabHuth2016.PickAreasData( @"F:\Data\gallantlab.org\huth2016\pragmatic_areas.v1.json", @"F:\Data\gallantlab.org\huth2016\areas-data\" ); // ok
+      //GallantlabHuth2016.MergeParts( @"F:\Data\gallantlab.org\huth2016\areas-data\", @"F:\Data\gallantlab.org\huth2016\areas-data\" ); // ok
+
+      // @2016-5-17,18,19
+      //JBK39.PickSymptomList( @"F:\Data\jbk.39.net\" ); // ok
+      //JBK39.PickSymptomDetails( @"F:\Data\jbk.39.net\symptom-data-v3.json", @"F:\Data\jbk.39.net\symptom-data-v4.json" ); // ok
+      //JBK39.PickDiseaseList( @"F:\Data\jbk.39.net\" ); // ok
+
       // wait for input
       Console.ReadKey();
     }

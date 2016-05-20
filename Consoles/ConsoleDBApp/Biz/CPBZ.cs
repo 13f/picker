@@ -107,15 +107,17 @@ namespace ConsoleDBApp {
           Console.WriteLine( "all standards data is processed..." );
           break;
         }
+
         try {
           Console.WriteLine( "==> org_code = " + kvp.Key + ", standard_id = " + kvp.Value + " ..." );
           await pickDetail( client, kvp.Key, kvp.Value, directory );
         }
-        catch( System.Net.WebException ) {
+        catch ( System.Net.WebException ) {
           Console.WriteLine( "  got System.Net.WebException o(╯□╰)o " );
-          Console.WriteLine( "  wait 10 seconds, and continue..." );
-          await Task.Delay( 10 * 1000 );
-          continue;
+          //Console.WriteLine( "  wait 10 seconds, and continue..." );
+          //await Task.Delay( 10 * 1000 );
+          //continue;
+          break;
         }
 
         Console.WriteLine( "wait some seconds, and continue..." );
@@ -125,6 +127,33 @@ namespace ConsoleDBApp {
       Console.WriteLine( "over..." );
     }
 
+    public static async Task UpdateStandard_OrginalPdfUri( string directory, int millisecondsDelay = 2000 ) {
+      WebClient client = NetHelper.GetWebClient_UTF8();
+      while ( true ) {
+        var kvp = biz.GetStandardToUpdateOriginalPdfUri();
+        if ( kvp.Item1 == null ) {
+          Console.WriteLine( "all standards data is processed..." );
+          break;
+        }
+
+        try {
+          Console.WriteLine( "==> org_code = " + kvp.Item1 + ", standard_id = " + kvp.Item2 + " ..." );
+          await updateOriginalPdfUri( client, kvp.Item1, kvp.Item2, kvp.Item3 );
+        }
+        catch ( System.Net.WebException ) {
+          Console.WriteLine( "  got System.Net.WebException o(╯□╰)o " );
+          //Console.WriteLine( "  wait 10 seconds, and continue..." );
+          //await Task.Delay( 10 * 1000 );
+          //continue;
+          break;
+        }
+
+        Console.WriteLine( "wait some seconds, and continue..." );
+        await Task.Delay( millisecondsDelay );
+      }
+
+      Console.WriteLine( "over..." );
+    }
 
 
     static async Task PickSubAreas( WebClient client, string code, bool hasSubAreas ) {
@@ -362,6 +391,50 @@ namespace ConsoleDBApp {
       Console.WriteLine( "  ... √" );
     }
 
+    static async Task updateOriginalPdfUri( WebClient client, string orgCode, int standardId, string json ) {
+      string uri = string.Format( UriTemplate_OrgStandardDetail, orgCode, standardId );
+      string html = await client.DownloadStringTaskAsync( uri );
+      Console.WriteLine( "  got html." );
+      HtmlDocument doc = new HtmlDocument();
+      doc.LoadHtml( html );
+      doc.RemoveComments();
+
+      var root = doc.DocumentNode;
+      JObject standard = JObject.Parse( json );
+
+      var tables = root.SelectNodes( "//table" );
+      foreach ( var table in tables ) {
+        var tbody = table.SelectSingleNode( "./tbody" );
+        var rows = tbody == null ? table.SelectNodes( "./tr" ) : tbody.SelectNodes( "./tr" );
+        var firstRow = rows.FirstOrDefault();
+        // get table head
+        string tableHead = null;
+        var th = firstRow.SelectSingleNode( "./th" );
+        if ( th != null )
+          tableHead = th.InnerText
+            .Trim( '\r', '\n', '\t' )
+            .Trim();
+        else {
+          var td = firstRow.SelectSingleNode( "./td[@class='tab-color8']" );
+          var strong = td.SelectSingleNode( "./strong" );
+          tableHead = strong.InnerText
+            .Trim( '\r', '\n', '\t' )
+            .Trim();
+        }
+
+        if ( tableHead == "标准信息" ) {
+          parseStandard_OriginalPdfUri( standard, table );
+        }
+      } // foreach(var table in tables )
+
+      Console.WriteLine( "  save standard..." );
+      string jsonStandard = standard.ToString( Formatting.Indented );
+      biz.UpdateStandard_Content( orgCode, standardId, jsonStandard, false );
+
+      biz.SaveChanges();
+      Console.WriteLine( "  ... √" );
+    }
+
     static string getVotum( HtmlNode root ) {
       var divVotum = root.SelectSingleNode( "//div[@class='cl-w-top2']" );
       if ( divVotum == null )
@@ -465,14 +538,23 @@ namespace ConsoleDBApp {
               var a = div.SelectSingleNode( "./a" );
               if(a != null ) {
                 string href = a.Attributes["href"].Value;
-                string filename = standard_code + " " + name + "(" + orgCode + ")" + ".pdf";
-                filename = filename.Replace( "/", "%2F" )
-                  .Replace( "\\", "%5C" )
-                  .Replace( "*", "" )
-                  .Replace( "\u001f", "" );
-                await client.DownloadFileTaskAsync( "http://www.cpbz.gov.cn" + href, directory + filename );
-                jo["file_name"] = filename;
-                Console.WriteLine( "  PDF downloaded." );
+                string pdfUri = "http://www.cpbz.gov.cn" + href;
+                jo["original_pdf_uri"] = pdfUri;
+                try {
+                  string filename = standard_code + " " + name + "(" + orgCode + ")" + ".pdf";
+                  filename = filename.Replace( "/", "%2F" )
+                    .Replace( "\\", "%5C" )
+                    .Replace( ":", "：" )
+                    .Replace( "*", "" )
+                    .Replace( "\u001f", "" );
+                  await client.DownloadFileTaskAsync( pdfUri, directory + filename );
+                  jo["file_name"] = filename;
+                  Console.WriteLine( "  PDF downloaded." );
+                }
+                catch {
+                  Console.WriteLine( "  failed to download PDF -_-" );
+                }
+                
               }
             }
             
@@ -480,6 +562,32 @@ namespace ConsoleDBApp {
         } // index == 3
       } // foreach(var row in rows )
       return jo;
+    }
+
+    static void parseStandard_OriginalPdfUri( JObject jo, HtmlNode table ) {
+      var tbody = table.SelectSingleNode( "./tbody" );
+      var rows = tbody.SelectNodes( "./tr" ).Skip( 1 ); // skip head row
+      int index = 0;
+      foreach ( var row in rows ) {
+        index++;
+        if ( index != 3 )
+          continue;
+        var columns = row.SelectNodes( "./td" );
+        // get pdf
+        var td2 = columns.Skip( 1 ).FirstOrDefault();
+        if ( td2 != null ) {
+          var div = td2.SelectSingleNode( "./div" );
+          if ( div != null ) {
+            var a = div.SelectSingleNode( "./a" );
+            if ( a != null ) {
+              string href = a.Attributes["href"].Value;
+              string pdfUri = "http://www.cpbz.gov.cn" + href;
+              jo["original_pdf_uri"] = pdfUri;
+            }
+          }
+        }
+        break;
+      } // foreach(var row in rows )
     }
 
     static JArray parseTechnical( HtmlNode table ) {

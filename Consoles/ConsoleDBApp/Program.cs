@@ -23,10 +23,11 @@ namespace ConsoleDBApp {
       // 2016-5-2
       //CPBZ.PickAreas(); // ok
       //CPBZ.PickListByArea(); // ok
-      // 2016-5-12
+      // 2016-5-12,13
       //CPBZ.PickRecentList( DateTime.UtcNow ); // ok
-      // 2016-5-13
-      CPBZ.PickDetails( @"F:\Data\企业标准信息公共服务平台\企业标准\" );
+      //CPBZ.PickDetails( @"F:\Data\企业标准信息公共服务平台\企业标准\" ); // ok
+      // 2016-5-19
+      //CPBZ.UpdateStandard_OrginalPdfUri( @"F:\Data\企业标准信息公共服务平台\企业标准\" ); // ok
 
       // wait...
       Console.ReadKey();
