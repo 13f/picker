@@ -109,6 +109,11 @@ namespace ConsoleApp {
       //JBK39.PickSymptomDetails( @"F:\Data\jbk.39.net\symptom-data-v3.json", @"F:\Data\jbk.39.net\symptom-data-v4.json" ); // ok
       //JBK39.PickDiseaseList( @"F:\Data\jbk.39.net\" ); // ok
 
+      // @2016-5-27
+      //Facemood.PickList( @"F:\Data\emotion\facemood.grtimed.com\" ); // ok
+      // @2016-6-9
+      //Facemood.PickCategoryDetails( @"F:\Data\emotion\facemood.grtimed.com\facemood-v2.json", @"F:\Data\emotion\facemood.grtimed.com\facemood-v3.json" ); // ok
+
       // wait for input
       Console.ReadKey();
     }
