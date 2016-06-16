@@ -165,6 +165,25 @@ namespace ConsoleDBApp {
       Console.WriteLine( "over..." );
     }
 
+    public static async Task Update201605( int millisecondsDelay = 500 ) {
+      Console.WriteLine( "ready..." );
+      DateTime dt = DateTime.Parse( "2016-5-18 23:59:59" );
+      int countPerPage = 50;
+      int page = 0;
+      int count = 0;
+      while ( true ) {
+        int tmpCount = biz.UpdateStandards( page, countPerPage, dt );
+        count = count + tmpCount;
+        Console.WriteLine( "  " + count.ToString() + " items processed." );
+        if ( tmpCount < countPerPage )
+          break;
+        Console.WriteLine( "wait and continue..." );
+        await Task.Delay( millisecondsDelay );
+      }
+
+      Console.WriteLine( "over..." );
+    }
+
     static async Task<string> getDetailHtml( WebClient client, string code ) {
       string param1 = code.Replace( " ", "%20" );
       string param2 = null;

@@ -102,6 +102,19 @@ namespace ConsoleDBApp.Biz {
         db.SubmitChanges();
     }
 
+    public int UpdateStandards( int page, int countPerPage, DateTime updatedAtMaxValue ) {
+      var list = db.SACChinaStandard.Where( i => i.UpdatedAt < updatedAtMaxValue )
+        .Skip( page * countPerPage )
+        .Take( countPerPage );
+      int count = 0;
+      foreach(var item in list ) {
+        updateStandard( item );
+        count++;
+      }
+      db.SubmitChanges();
+      return count;
+    }
+
     public void SaveKey_ChinaStandard( string code, string remark, bool isRevocative, bool saveChanges ) {
       var item = db.SACChinaStandard.Where( i => i.StandardCode == code ).FirstOrDefault();
       if ( item != null )
@@ -117,6 +130,82 @@ namespace ConsoleDBApp.Biz {
 
       if ( saveChanges )
         db.SubmitChanges();
+    }
+
+    public List<SACChinaStandard> SelectStandards( int page, int countPerPage ) {
+      var list = db.SACChinaStandard
+        .Skip( page * countPerPage )
+        .Take( countPerPage )
+        .ToList();
+      return list;
+    }
+
+    public List<SACChinaStandard> SelectStandards( int page, int countPerPage, DateTime updatedAtMaxValue ) {
+      var list = db.SACChinaStandard.Where( i => i.UpdatedAt < updatedAtMaxValue )
+        .Skip( page * countPerPage )
+        .Take( countPerPage )
+        .ToList();
+      return list;
+    }
+
+    void updateStandard( SACChinaStandard standard ) {
+      JObject jo = JObject.Parse( standard.Content );
+      jo["state"] = standard.Revocative ? "废止" : "现行";
+      // remark
+      string remark = null;
+      if( jo["remark"] != null ) {
+        remark = (string)jo["remark"];
+        remark = remark.Trim( '\r', '\n', '\t' )
+        .Trim();
+        jo["remark"] = remark;
+      }
+      if ( jo["first_issuance_date"] != null && jo["first_issuance_date"].Type != JTokenType.Null && (DateTime)jo["first_issuance_date"] == DateTime.MaxValue )
+        jo["first_issuance_date"] = null;
+
+      if ( jo["review_affirmance_date"] != null && jo["review_affirmance_date"].Type != JTokenType.Null && (DateTime)jo["review_affirmance_date"] == DateTime.MaxValue )
+        jo["review_affirmance_date"] = null;
+
+      if ( jo["revocatory_date"] != null && jo["revocatory_date"].Type != JTokenType.Null && (DateTime)jo["revocatory_date"] == DateTime.MaxValue )
+        jo["revocatory_date"] = null;
+
+      if ( jo["plan_number"] != null && jo["plan_number"].Type != JTokenType.Null && string.IsNullOrWhiteSpace( (string)jo["plan_number"] ) )
+        jo["plan_number"] = null;
+
+      if ( jo["price"] != null && jo["price"].Type != JTokenType.Null && string.IsNullOrWhiteSpace( (string)jo["price"] ) )
+        jo["price"] = null;
+
+      if ( jo["replaces"] != null && jo["replaces"].Type != JTokenType.Null && string.IsNullOrWhiteSpace( (string)jo["replaces"] ) )
+        jo["replaces"] = null;
+
+      if ( jo["replaced_by"] != null && jo["replaced_by"].Type != JTokenType.Null && string.IsNullOrWhiteSpace( (string)jo["replaced_by"] ) )
+        jo["replaced_by"] = null;
+
+      if ( jo["adopted_international_standard_number"] != null && jo["adopted_international_standard_number"].Type != JTokenType.Null && string.IsNullOrWhiteSpace( (string)jo["adopted_international_standard_number"] ) )
+        jo["adopted_international_standard_number"] = null;
+
+      if ( jo["adopted_international_standard_name"] != null && jo["adopted_international_standard_name"].Type != JTokenType.Null && string.IsNullOrWhiteSpace( (string)jo["adopted_international_standard_name"] ) )
+        jo["adopted_international_standard_name"] = null;
+
+      if ( jo["adopted_international_standard"] != null && jo["adopted_international_standard"].Type != JTokenType.Null && string.IsNullOrWhiteSpace( (string)jo["adopted_international_standard"] ) )
+        jo["adopted_international_standard"] = null;
+
+      if ( jo["application_degree"] != null && jo["application_degree"].Type != JTokenType.Null && string.IsNullOrWhiteSpace( (string)jo["application_degree"] ) )
+        jo["application_degree"] = null;
+
+      // technical_committees
+      if ( jo["technical_committees"] != null && jo["technical_committees"].Type != JTokenType.Null ) {
+        string technical_committees = (string)jo["technical_committees"];
+        int start = technical_committees.IndexOf( "<!--" );
+        if( start >= 0 ) {
+          jo["technical_committees"] = technical_committees.Substring(0, start)
+            .Trim( '\r', '\n', '\t' )
+            .Trim();
+        }
+      }
+
+      standard.Remark = remark;
+      standard.Content = jo.ToString( Formatting.Indented );
+      standard.UpdatedAt = DateTime.UtcNow;
     }
 
   }
