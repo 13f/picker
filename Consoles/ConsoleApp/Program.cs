@@ -114,6 +114,10 @@ namespace ConsoleApp {
       // @2016-6-9
       //Facemood.PickCategoryDetails( @"F:\Data\emotion\facemood.grtimed.com\facemood-v2.json", @"F:\Data\emotion\facemood.grtimed.com\facemood-v3.json" ); // ok
 
+      // 2016-6-20
+      //BrainNetomeAtlas.GetImages_Connectogram( @"F:\Data\atlas.brainnetome.org\images\connectogram\" ); // ok
+      //BrainNetomeAtlas.GetImages_Probabilities( @"F:\Data\atlas.brainnetome.org\images\probabilities\" ); // ok
+
       // wait for input
       Console.ReadKey();
     }

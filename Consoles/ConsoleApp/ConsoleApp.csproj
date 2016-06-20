@@ -50,6 +50,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Projects\BrainNetomeAtlas.cs" />
     <Compile Include="Facemood.cs" />
     <Compile Include="JBK39.cs" />
     <Compile Include="Projects\GallantlabHuth2016.cs" />
