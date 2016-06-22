@@ -101,7 +101,7 @@ namespace ConsoleApp {
           images.Add( image );
 
         var spanName = div.SelectSingleNode( "./span[@class='name']" );
-        string names = spanName == null ? null : spanName.Attributes["data-alternative-name"].Value;
+        string names = spanName != null && spanName.Attributes["data-alternative-name"] != null ? spanName.Attributes["data-alternative-name"].Value : null;
 
         item.Add( "short-name", shortName );
         item.Add( "alternative-names", names );
