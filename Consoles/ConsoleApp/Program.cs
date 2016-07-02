@@ -33,6 +33,8 @@ namespace ConsoleApp {
       //Console.WriteLine( source + " -> " + target );
       //Food911cha.XmlToJson2( source, target );
       //Console.WriteLine( "Over..." );
+      // 2016-7-2
+      //Airport911cha.Run( @"F:\Data\911cha.com\airport\data.json" ); // ok
 
       // Global-2015 // ok @2015-12-17
       //string tableKey = "<table id=\"yytable\" class=\"rankingtable\"";
