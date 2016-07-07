@@ -124,6 +124,14 @@ namespace ConsoleApp {
       //  @"F:\Data\atlas.brainnetome.org\data_centers-ind.json",
       //  @"F:\Data\atlas.brainnetome.org\data_centers-v2.json" ); // ok
 
+      // Technology Review
+      //TechnologyReview.Pick2016( @"F:\Data\technologyreview.com\2016.json" ); // 2016-7-7 ok
+      //TechnologyReview.Pick2015( @"F:\Data\technologyreview.com\2015.json" ); // 2016-7-7 ok
+      //TechnologyReview.Pick2014( @"F:\Data\technologyreview.com\2014.json" ); // 2016-7-7 ok
+      //TechnologyReview.Pick2013( @"F:\Data\technologyreview.com\2013.json" ); // 2016-7-7 ok
+      //TechnologyReview.Pick2012( @"F:\Data\technologyreview.com\2012.json" ); // 2016-7-7 ok
+      //TechnologyReview.Pick2011( @"F:\Data\technologyreview.com\2011.json" ); // 2016-7-7 ok
+
       // wait for input
       Console.ReadKey();
     }

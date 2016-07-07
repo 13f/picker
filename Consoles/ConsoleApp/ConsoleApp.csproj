@@ -63,6 +63,7 @@
     <Compile Include="Projects\PeopleComCN.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Projects\TechnologyReview.cs" />
     <Compile Include="XElementHelper.cs" />
   </ItemGroup>
   <ItemGroup>
