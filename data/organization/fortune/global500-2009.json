@@ -1,0 +1,4543 @@
+﻿{
+  "title": "2009年财富世界500强排行榜",
+  "url": "http://www.fortunechina.com/fortune500/c/2009-07/08/content_21391.htm",
+  "tags": [
+    {
+      "content": "2009; fortune; world; global; 500",
+      "language": "us"
+    },
+    {
+      "content": "2009年; 财富; 世界; 500强",
+      "language": "zh-hans"
+    }
+  ],
+  "publishedAt": "2009-7-8",
+  "config": [
+    {
+      "name": "rank2009",
+      "title": "rank2009"
+    },
+    {
+      "name": "rank2008",
+      "title": "rank2008"
+    },
+    {
+      "name": "name",
+      "title": "名称"
+    },
+    {
+      "name": "operating_receipt_in_million_dollars",
+      "title": "营业收入（百万美元）"
+    },
+    {
+      "name": "profit_in_million_dollars",
+      "title": "利润（百万美元）"
+    },
+    {
+      "name": "country",
+      "title": "国家"
+    }
+  ],
+  "data": [
+    {
+      "url": "http://www.fortunechina.com/global500/1/",
+      "rank2009": "1",
+      "rank2008": "3",
+      "name": "Royal Dutch Shell",
+      "country": "荷兰",
+      "operating_receipt_in_million_dollars": "458361.0",
+      "profit_in_million_dollars": "26277.0"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/2/",
+      "rank2009": "2",
+      "rank2008": "2",
+      "name": "Exxon Mobil",
+      "country": "美国",
+      "operating_receipt_in_million_dollars": "442851.0",
+      "profit_in_million_dollars": "45220.0"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/3/",
+      "rank2009": "3",
+      "rank2008": "1",
+      "name": "Wal-Mart Stores",
+      "country": "美国",
+      "operating_receipt_in_million_dollars": "405607.0",
+      "profit_in_million_dollars": "13400.0"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/4/",
+      "rank2009": "4",
+      "rank2008": "4",
+      "name": "BP",
+      "country": "英国",
+      "operating_receipt_in_million_dollars": "367053.0",
+      "profit_in_million_dollars": "21157.0"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/5/",
+      "rank2009": "5",
+      "rank2008": "6",
+      "name": "Chevron",
+      "country": "美国",
+      "operating_receipt_in_million_dollars": "263159.0",
+      "profit_in_million_dollars": "23931.0"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/6/",
+      "rank2009": "6",
+      "rank2008": "8",
+      "name": "Total",
+      "country": "法国",
+      "operating_receipt_in_million_dollars": "234674.1",
+      "profit_in_million_dollars": "15500.4"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/7/",
+      "rank2009": "7",
+      "rank2008": "10",
+      "name": "ConocoPhillips",
+      "country": "美国",
+      "operating_receipt_in_million_dollars": "230764.0",
+      "profit_in_million_dollars": "-16998.0"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/8/",
+      "rank2009": "8",
+      "rank2008": "7",
+      "name": "ING Group",
+      "country": "荷兰",
+      "operating_receipt_in_million_dollars": "226577.0",
+      "profit_in_million_dollars": "-1067.0"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/9/",
+      "rank2009": "9",
+      "rank2008": "16",
+      "name": "Sinopec",
+      "country": "中国",
+      "operating_receipt_in_million_dollars": "207814.5",
+      "profit_in_million_dollars": "1961.2"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/10/",
+      "rank2009": "10",
+      "rank2008": "5",
+      "name": "Toyota Motor",
+      "country": "日本",
+      "operating_receipt_in_million_dollars": "204352.3",
+      "profit_in_million_dollars": "-4349.3"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/11/",
+      "rank2009": "11",
+      "rank2008": ".",
+      "name": "Japan Post Holdings",
+      "country": "日本",
+      "operating_receipt_in_million_dollars": "198699.8",
+      "profit_in_million_dollars": "4208.5"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/12/",
+      "rank2009": "12",
+      "rank2008": "12",
+      "name": "General Electric",
+      "country": "美国",
+      "operating_receipt_in_million_dollars": "183207.0",
+      "profit_in_million_dollars": "17410.0"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/13/",
+      "rank2009": "13",
+      "rank2008": "25",
+      "name": "China National Petroleum",
+      "country": "中国",
+      "operating_receipt_in_million_dollars": "181122.6",
+      "profit_in_million_dollars": "10270.8"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/14/",
+      "rank2009": "14",
+      "rank2008": "18",
+      "name": "Volkswagen",
+      "country": "德国",
+      "operating_receipt_in_million_dollars": "166579.1",
+      "profit_in_million_dollars": "6956.9"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/15/",
+      "rank2009": "15",
+      "rank2008": "24",
+      "name": "State Grid",
+      "country": "中国",
+      "operating_receipt_in_million_dollars": "164135.9",
+      "profit_in_million_dollars": "664.5"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/16/",
+      "rank2009": "16",
+      "rank2008": "19",
+      "name": "Dexia Group",
+      "country": "比利时",
+      "operating_receipt_in_million_dollars": "161268.8",
+      "profit_in_million_dollars": "-4868.2"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/17/",
+      "rank2009": "17",
+      "rank2008": "27",
+      "name": "ENI",
+      "country": "意大利",
+      "operating_receipt_in_million_dollars": "159348.5",
+      "profit_in_million_dollars": "12917.0"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/18/",
+      "rank2009": "18",
+      "rank2008": "9",
+      "name": "General Motors",
+      "country": "美国",
+      "operating_receipt_in_million_dollars": "148979.0",
+      "profit_in_million_dollars": "-30860.0"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/19/",
+      "rank2009": "19",
+      "rank2008": "13",
+      "name": "Ford Motor",
+      "country": "美国",
+      "operating_receipt_in_million_dollars": "146277.0",
+      "profit_in_million_dollars": "-14672.0"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/20/",
+      "rank2009": "20",
+      "rank2008": "22",
+      "name": "Allianz",
+      "country": "德国",
+      "operating_receipt_in_million_dollars": "142394.6",
+      "profit_in_million_dollars": "-3577.2"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/21/",
+      "rank2009": "21",
+      "rank2008": "20",
+      "name": "HSBC Holdings",
+      "country": "英国",
+      "operating_receipt_in_million_dollars": "142049.0",
+      "profit_in_million_dollars": "5728.0"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/22/",
+      "rank2009": "22",
+      "rank2008": "47",
+      "name": "Gazprom",
+      "country": "俄罗斯",
+      "operating_receipt_in_million_dollars": "141454.7",
+      "profit_in_million_dollars": "29864.1"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/23/",
+      "rank2009": "23",
+      "rank2008": "11",
+      "name": "Daimler",
+      "country": "德国",
+      "operating_receipt_in_million_dollars": "140327.9",
+      "profit_in_million_dollars": "1973.0"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/24/",
+      "rank2009": "24",
+      "rank2008": "21",
+      "name": "BNP Paribas",
+      "country": "法国",
+      "operating_receipt_in_million_dollars": "136096.4",
+      "profit_in_million_dollars": "4421.8"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/25/",
+      "rank2009": "25",
+      "rank2008": "33",
+      "name": "Carrefour",
+      "country": "法国",
+      "operating_receipt_in_million_dollars": "129133.9",
+      "profit_in_million_dollars": "1861.5"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/26/",
+      "rank2009": "26",
+      "rank2008": "52",
+      "name": "E.ON",
+      "country": "德国",
+      "operating_receipt_in_million_dollars": "127277.7",
+      "profit_in_million_dollars": "1853.0"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/27/",
+      "rank2009": "27",
+      "rank2008": ".",
+      "name": "PDVSA",
+      "country": "委内瑞拉",
+      "operating_receipt_in_million_dollars": "126364.0",
+      "profit_in_million_dollars": "7451.0"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/28/",
+      "rank2009": "28",
+      "rank2008": "39",
+      "name": "ArcelorMittal",
+      "country": "卢森堡",
+      "operating_receipt_in_million_dollars": "124936.0",
+      "profit_in_million_dollars": "9399.0"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/29/",
+      "rank2009": "29",
+      "rank2008": "29",
+      "name": "AT&T",
+      "country": "美国",
+      "operating_receipt_in_million_dollars": "124028.0",
+      "profit_in_million_dollars": "12867.0"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/30/",
+      "rank2009": "30",
+      "rank2008": "37",
+      "name": "Siemens",
+      "country": "德国",
+      "operating_receipt_in_million_dollars": "123595.4",
+      "profit_in_million_dollars": "8595.1"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/31/",
+      "rank2009": "31",
+      "rank2008": "42",
+      "name": "Pemex",
+      "country": "墨西哥",
+      "operating_receipt_in_million_dollars": "119234.6",
+      "profit_in_million_dollars": "-10055.6"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/32/",
+      "rank2009": "32",
+      "rank2008": "41",
+      "name": "Hewlett-Packard",
+      "country": "美国",
+      "operating_receipt_in_million_dollars": "118364.0",
+      "profit_in_million_dollars": "8329.0"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/33/",
+      "rank2009": "33",
+      "rank2008": "49",
+      "name": "Valero Energy",
+      "country": "美国",
+      "operating_receipt_in_million_dollars": "118298.0",
+      "profit_in_million_dollars": "-1131.0"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/34/",
+      "rank2009": "34",
+      "rank2008": "63",
+      "name": "Petrobras",
+      "country": "巴西",
+      "operating_receipt_in_million_dollars": "118257.0",
+      "profit_in_million_dollars": "18879.0"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/35/",
+      "rank2009": "35",
+      "rank2008": "58",
+      "name": "Banco Santander",
+      "country": "西班牙",
+      "operating_receipt_in_million_dollars": "117803.0",
+      "profit_in_million_dollars": "12992.3"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/36/",
+      "rank2009": "36",
+      "rank2008": "59",
+      "name": "Statoil Hydro",
+      "country": "挪威",
+      "operating_receipt_in_million_dollars": "116210.9",
+      "profit_in_million_dollars": "7664.2"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/37/",
+      "rank2009": "37",
+      "rank2008": "28",
+      "name": "Bank of America Corp.",
+      "country": "美国",
+      "operating_receipt_in_million_dollars": "113106.0",
+      "profit_in_million_dollars": "4008.0"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/38/",
+      "rank2009": "38",
+      "rank2008": "36",
+      "name": "Royal Bank of Scotland",
+      "country": "英国",
+      "operating_receipt_in_million_dollars": "113087.4",
+      "profit_in_million_dollars": "-43166.9"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/39/",
+      "rank2009": "39",
+      "rank2008": "17",
+      "name": "Citigroup",
+      "country": "美国",
+      "operating_receipt_in_million_dollars": "112372.0",
+      "profit_in_million_dollars": "-27684.0"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/40/",
+      "rank2009": "40",
+      "rank2008": "38",
+      "name": "Samsung Electronics",
+      "country": "韩国",
+      "operating_receipt_in_million_dollars": "110350.0",
+      "profit_in_million_dollars": "5027.3"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/41/",
+      "rank2009": "41",
+      "rank2008": "30",
+      "name": "Berkshire Hathaway",
+      "country": "美国",
+      "operating_receipt_in_million_dollars": "107786.0",
+      "profit_in_million_dollars": "4994.0"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/42/",
+      "rank2009": "42",
+      "rank2008": "44",
+      "name": "McKesson",
+      "country": "美国",
+      "operating_receipt_in_million_dollars": "106632.0",
+      "profit_in_million_dollars": "823.0"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/43/",
+      "rank2009": "43",
+      "rank2008": "43",
+      "name": "Société Générale",
+      "country": "法国",
+      "operating_receipt_in_million_dollars": "104378.3",
+      "profit_in_million_dollars": "2942.0"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/44/",
+      "rank2009": "44",
+      "rank2008": "54",
+      "name": "Nippon Telegraph & Telephone",
+      "country": "日本",
+      "operating_receipt_in_million_dollars": "103684.4",
+      "profit_in_million_dollars": "5362.0"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/45/",
+      "rank2009": "45",
+      "rank2008": "46",
+      "name": "International Business Machines",
+      "country": "美国",
+      "operating_receipt_in_million_dollars": "103630.0",
+      "profit_in_million_dollars": "12334.0"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/46/",
+      "rank2009": "46",
+      "rank2008": "23",
+      "name": "Crédit Agricole",
+      "country": "法国",
+      "operating_receipt_in_million_dollars": "103582.1",
+      "profit_in_million_dollars": "1498.8"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/47/",
+      "rank2009": "47",
+      "rank2008": "34",
+      "name": "Assicurazioni Generali",
+      "country": "意大利",
+      "operating_receipt_in_million_dollars": "103103.0",
+      "profit_in_million_dollars": "1260.1"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/48/",
+      "rank2009": "48",
+      "rank2008": "57",
+      "name": "Nestlé",
+      "country": "瑞士",
+      "operating_receipt_in_million_dollars": "101564.6",
+      "profit_in_million_dollars": "16669.6"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/49/",
+      "rank2009": "49",
+      "rank2008": "32",
+      "name": "J.P. Morgan Chase & Co.",
+      "country": "美国",
+      "operating_receipt_in_million_dollars": "101491.0",
+      "profit_in_million_dollars": "5605.0"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/50/",
+      "rank2009": "50",
+      "rank2008": "56",
+      "name": "Metro",
+      "country": "德国",
+      "operating_receipt_in_million_dollars": "101216.7",
+      "profit_in_million_dollars": "589.9"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/51/",
+      "rank2009": "51",
+      "rank2008": "40",
+      "name": "Honda Motor",
+      "country": "日本",
+      "operating_receipt_in_million_dollars": "99652.4",
+      "profit_in_million_dollars": "1363.8"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/52/",
+      "rank2009": "52",
+      "rank2008": "48",
+      "name": "Hitachi",
+      "country": "日本",
+      "operating_receipt_in_million_dollars": "99544.2",
+      "profit_in_million_dollars": "-7837.2"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/53/",
+      "rank2009": "53",
+      "rank2008": "193",
+      "name": "GDF Suez",
+      "country": "法国",
+      "operating_receipt_in_million_dollars": "99419.1",
+      "profit_in_million_dollars": "7109.3"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/54/",
+      "rank2009": "54",
+      "rank2008": "55",
+      "name": "Deutsche Post",
+      "country": "德国",
+      "operating_receipt_in_million_dollars": "98708.0",
+      "profit_in_million_dollars": "-2470.7"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/55/",
+      "rank2009": "55",
+      "rank2008": "53",
+      "name": "Verizon Communications",
+      "country": "美国",
+      "operating_receipt_in_million_dollars": "97354.0",
+      "profit_in_million_dollars": "6428.0"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/56/",
+      "rank2009": "56",
+      "rank2008": "51",
+      "name": "Tesco",
+      "country": "英国",
+      "operating_receipt_in_million_dollars": "94300.4",
+      "profit_in_million_dollars": "3751.0"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/57/",
+      "rank2009": "57",
+      "rank2008": "68",
+      "name": "électricité de France",
+      "country": "法国",
+      "operating_receipt_in_million_dollars": "94084.2",
+      "profit_in_million_dollars": "4976.5"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/58/",
+      "rank2009": "58",
+      "rank2008": "77",
+      "name": "UniCredit Group?",
+      "country": "意大利",
+      "operating_receipt_in_million_dollars": "94036.0",
+      "profit_in_million_dollars": "5872.0"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/59/",
+      "rank2009": "59",
+      "rank2008": "73",
+      "name": "BASF",
+      "country": "德国",
+      "operating_receipt_in_million_dollars": "91193.4",
+      "profit_in_million_dollars": "4262.3"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/60/",
+      "rank2009": "60",
+      "rank2008": "60",
+      "name": "Cardinal Health",
+      "country": "美国",
+      "operating_receipt_in_million_dollars": "91091.4",
+      "profit_in_million_dollars": "1300.6"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/61/",
+      "rank2009": "61",
+      "rank2008": "64",
+      "name": "Deutsche Telekom",
+      "country": "德国",
+      "operating_receipt_in_million_dollars": "90259.6",
+      "profit_in_million_dollars": "2170.6"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/62/",
+      "rank2009": "62",
+      "rank2008": "109",
+      "name": "Enel",
+      "country": "意大利",
+      "operating_receipt_in_million_dollars": "90004.9",
+      "profit_in_million_dollars": "7747.3"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/63/",
+      "rank2009": "63",
+      "rank2008": "80",
+      "name": "CVS Caremark",
+      "country": "美国",
+      "operating_receipt_in_million_dollars": "87471.9",
+      "profit_in_million_dollars": "3212.1"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/64/",
+      "rank2009": "64",
+      "rank2008": "71",
+      "name": "Fiat",
+      "country": "意大利",
+      "operating_receipt_in_million_dollars": "86913.6",
+      "profit_in_million_dollars": "2359.5"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/65/",
+      "rank2009": "65",
+      "rank2008": "90",
+      "name": "Lukoil",
+      "country": "俄罗斯",
+      "operating_receipt_in_million_dollars": "86340.0",
+      "profit_in_million_dollars": "9144.0"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/66/",
+      "rank2009": "66",
+      "rank2008": "76",
+      "name": "Telefónica?",
+      "country": "西班牙",
+      "operating_receipt_in_million_dollars": "84814.7",
+      "profit_in_million_dollars": "11112.3"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/67/",
+      "rank2009": "67",
+      "rank2008": "50",
+      "name": "Nissan Motor",
+      "country": "日本",
+      "operating_receipt_in_million_dollars": "83982.0",
+      "profit_in_million_dollars": "-2326.4"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/68/",
+      "rank2009": "68",
+      "rank2008": "79",
+      "name": "Procter & Gamble",
+      "country": "美国",
+      "operating_receipt_in_million_dollars": "83503.0",
+      "profit_in_million_dollars": "12075.0"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/69/",
+      "rank2009": "69",
+      "rank2008": "67",
+      "name": "LG",
+      "country": "韩国",
+      "operating_receipt_in_million_dollars": "82081.8",
+      "profit_in_million_dollars": "829.8"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/70/",
+      "rank2009": "70",
+      "rank2008": "26",
+      "name": "Deutsche Bank",
+      "country": "德国",
+      "operating_receipt_in_million_dollars": "81360.4",
+      "profit_in_million_dollars": "-5613.2"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/71/",
+      "rank2009": "71",
+      "rank2008": "81",
+      "name": "UnitedHealth Group",
+      "country": "美国",
+      "operating_receipt_in_million_dollars": "81186.0",
+      "profit_in_million_dollars": "2977.0"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/72/",
+      "rank2009": "72",
+      "rank2008": "86",
+      "name": "SK Holdings?",
+      "country": "韩国",
+      "operating_receipt_in_million_dollars": "80810.4",
+      "profit_in_million_dollars": "259.3"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/73/",
+      "rank2009": "73",
+      "rank2008": "15",
+      "name": "AXA",
+      "country": "法国",
+      "operating_receipt_in_million_dollars": "80256.8",
+      "profit_in_million_dollars": "1351.0"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/74/",
+      "rank2009": "74",
+      "rank2008": "89",
+      "name": "ThyssenKrupp",
+      "country": "德国",
+      "operating_receipt_in_million_dollars": "80210.0",
+      "profit_in_million_dollars": "3295.4"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/75/",
+      "rank2009": "75",
+      "rank2008": "66",
+      "name": "Peugeot",
+      "country": "法国",
+      "operating_receipt_in_million_dollars": "79560.1",
+      "profit_in_million_dollars": "-502.0"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/76/",
+      "rank2009": "76",
+      "rank2008": "92",
+      "name": "Repsol YPF",
+      "country": "西班牙",
+      "operating_receipt_in_million_dollars": "79176.6",
+      "profit_in_million_dollars": "3968.1"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/77/",
+      "rank2009": "77",
+      "rank2008": "84",
+      "name": "France Télécom?",
+      "country": "法国",
+      "operating_receipt_in_million_dollars": "78289.6",
+      "profit_in_million_dollars": "5955.7"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/78/",
+      "rank2009": "78",
+      "rank2008": "78",
+      "name": "BMW",
+      "country": "德国",
+      "operating_receipt_in_million_dollars": "77863.7",
+      "profit_in_million_dollars": "474.2"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/79/",
+      "rank2009": "79",
+      "rank2008": "72",
+      "name": "Panasonic",
+      "country": "日本",
+      "operating_receipt_in_million_dollars": "77298.2",
+      "profit_in_million_dollars": "-3772.2"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/80/",
+      "rank2009": "80",
+      "rank2008": "95",
+      "name": "Petronas",
+      "country": "马来西亚",
+      "operating_receipt_in_million_dollars": "76965.4",
+      "profit_in_million_dollars": "15308.9"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/81/",
+      "rank2009": "81",
+      "rank2008": "75",
+      "name": "Sony",
+      "country": "日本",
+      "operating_receipt_in_million_dollars": "76944.7",
+      "profit_in_million_dollars": "-984.8"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/82/",
+      "rank2009": "82",
+      "rank2008": "87",
+      "name": "Kroger",
+      "country": "美国",
+      "operating_receipt_in_million_dollars": "76000.0",
+      "profit_in_million_dollars": "1249.4"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/83/",
+      "rank2009": "83",
+      "rank2008": "70",
+      "name": "Barclays",
+      "country": "英国",
+      "operating_receipt_in_million_dollars": "75135.5",
+      "profit_in_million_dollars": "8035.2"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/84/",
+      "rank2009": "84",
+      "rank2008": "83",
+      "name": "U.S. Postal Service",
+      "country": "美国",
+      "operating_receipt_in_million_dollars": "74932.0",
+      "profit_in_million_dollars": "-2806.0"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/85/",
+      "rank2009": "85",
+      "rank2008": "88",
+      "name": "Nokia",
+      "country": "芬兰",
+      "operating_receipt_in_million_dollars": "74223.5",
+      "profit_in_million_dollars": "5837.2"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/86/",
+      "rank2009": "86",
+      "rank2008": "108",
+      "name": "Marathon Oil",
+      "country": "美国",
+      "operating_receipt_in_million_dollars": "73504.0",
+      "profit_in_million_dollars": "3528.0"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/87/",
+      "rank2009": "87",
+      "rank2008": "82",
+      "name": "Hyundai Motor",
+      "country": "韩国",
+      "operating_receipt_in_million_dollars": "72541.8",
+      "profit_in_million_dollars": "780.4"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/88/",
+      "rank2009": "88",
+      "rank2008": "99",
+      "name": "Costco Wholesale",
+      "country": "美国",
+      "operating_receipt_in_million_dollars": "72483.0",
+      "profit_in_million_dollars": "1282.7"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/89/",
+      "rank2009": "89",
+      "rank2008": "114",
+      "name": "Rwe",
+      "country": "德国",
+      "operating_receipt_in_million_dollars": "71850.8",
+      "profit_in_million_dollars": "3744.1"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/90/",
+      "rank2009": "90",
+      "rank2008": "65",
+      "name": "Home Depot",
+      "country": "美国",
+      "operating_receipt_in_million_dollars": "71288.0",
+      "profit_in_million_dollars": "2260.0"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/91/",
+      "rank2009": "91",
+      "rank2008": "96",
+      "name": "AmerisourceBergen",
+      "country": "美国",
+      "operating_receipt_in_million_dollars": "70593.5",
+      "profit_in_million_dollars": "250.6"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/92/",
+      "rank2009": "92",
+      "rank2008": "133",
+      "name": "Industrial & Commercial Bank of China",
+      "country": "中国",
+      "operating_receipt_in_million_dollars": "70567.5",
+      "profit_in_million_dollars": "15948.5"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/93/",
+      "rank2009": "93",
+      "rank2008": "158",
+      "name": "Archer Daniels Midland",
+      "country": "美国",
+      "operating_receipt_in_million_dollars": "69816.0",
+      "profit_in_million_dollars": "1802.0"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/94/",
+      "rank2009": "94",
+      "rank2008": "85",
+      "name": "Vodafone",
+      "country": "英国",
+      "operating_receipt_in_million_dollars": "69138.4",
+      "profit_in_million_dollars": "5188.3"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/95/",
+      "rank2009": "95",
+      "rank2008": "98",
+      "name": "Munich Re Group",
+      "country": "德国",
+      "operating_receipt_in_million_dollars": "67515.4",
+      "profit_in_million_dollars": "2199.9"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/96/",
+      "rank2009": "96",
+      "rank2008": "115",
+      "name": "Nippon Life Insurance",
+      "country": "日本",
+      "operating_receipt_in_million_dollars": "66621.1",
+      "profit_in_million_dollars": "1513.9"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/97/",
+      "rank2009": "97",
+      "rank2008": "91",
+      "name": "Toshiba",
+      "country": "日本",
+      "operating_receipt_in_million_dollars": "66239.4",
+      "profit_in_million_dollars": "-3419.8"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/98/",
+      "rank2009": "98",
+      "rank2008": "101",
+      "name": "Robert Bosch",
+      "country": "德国",
+      "operating_receipt_in_million_dollars": "66051.7",
+      "profit_in_million_dollars": "503.5"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/99/",
+      "rank2009": "99",
+      "rank2008": "148",
+      "name": "China Mobile Communications",
+      "country": "中国",
+      "operating_receipt_in_million_dollars": "65015.1",
+      "profit_in_million_dollars": "11442.0"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/100/",
+      "rank2009": "100",
+      "rank2008": "102",
+      "name": "Target",
+      "country": "美国",
+      "operating_receipt_in_million_dollars": "64948.0",
+      "profit_in_million_dollars": "2214.0"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/101/",
+      "rank2009": "101",
+      "rank2008": "117",
+      "name": "Nippon Oil",
+      "country": "日本",
+      "operating_receipt_in_million_dollars": "64197.5",
+      "profit_in_million_dollars": "-2504.6"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/102/",
+      "rank2009": "102",
+      "rank2008": "110",
+      "name": "Saint-Gobain",
+      "country": "法国",
+      "operating_receipt_in_million_dollars": "64109.4",
+      "profit_in_million_dollars": "2017.0"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/103/",
+      "rank2009": "103",
+      "rank2008": "107",
+      "name": "Johnson & Johnson",
+      "country": "美国",
+      "operating_receipt_in_million_dollars": "63747.0",
+      "profit_in_million_dollars": "12949.0"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/104/",
+      "rank2009": "104",
+      "rank2008": "127",
+      "name": "EADS",
+      "country": "荷兰",
+      "operating_receipt_in_million_dollars": "63326.3",
+      "profit_in_million_dollars": "2300.9"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/105/",
+      "rank2009": "105",
+      "rank2008": "116",
+      "name": "Indian Oil",
+      "country": "印度",
+      "operating_receipt_in_million_dollars": "62993.2",
+      "profit_in_million_dollars": "564.9"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/106/",
+      "rank2009": "106",
+      "rank2008": "131",
+      "name": "A.P. M?ller-M?rsk Group?",
+      "country": "丹麦",
+      "operating_receipt_in_million_dollars": "62636.6",
+      "profit_in_million_dollars": "3329.5"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/107/",
+      "rank2009": "107",
+      "rank2008": "45",
+      "name": "HBOS",
+      "country": "英国",
+      "operating_receipt_in_million_dollars": "62400.5",
+      "profit_in_million_dollars": "-13750.8"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/108/",
+      "rank2009": "108",
+      "rank2008": "62",
+      "name": "Morgan Stanley",
+      "country": "美国",
+      "operating_receipt_in_million_dollars": "62262.0",
+      "profit_in_million_dollars": "1707.0"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/109/",
+      "rank2009": "109",
+      "rank2008": "132",
+      "name": "Hon Hai Precision Industry",
+      "country": "中国台湾",
+      "operating_receipt_in_million_dollars": "61860.6",
+      "profit_in_million_dollars": "1748.6"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/110/",
+      "rank2009": "110",
+      "rank2008": "124",
+      "name": "Groupe Caisse d'épargne",
+      "country": "法国",
+      "operating_receipt_in_million_dollars": "61550.9",
+      "profit_in_million_dollars": "-2949.3"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/111/",
+      "rank2009": "111",
+      "rank2008": "104",
+      "name": "State Farm Insurance Cos.",
+      "country": "美国",
+      "operating_receipt_in_million_dollars": "61343.4",
+      "profit_in_million_dollars": "-541.8"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/112/",
+      "rank2009": "112",
+      "rank2008": "105",
+      "name": "WellPoint",
+      "country": "美国",
+      "operating_receipt_in_million_dollars": "61251.1",
+      "profit_in_million_dollars": "2490.7"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/113/",
+      "rank2009": "113",
+      "rank2008": "134",
+      "name": "Banco Bilbao Vizcaya Argentaria",
+      "country": "西班牙",
+      "operating_receipt_in_million_dollars": "61183.5",
+      "profit_in_million_dollars": "7347.7"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/114/",
+      "rank2009": "114",
+      "rank2008": "130",
+      "name": "Mitsubishi",
+      "country": "日本",
+      "operating_receipt_in_million_dollars": "61181.6",
+      "profit_in_million_dollars": "3682.4"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/115/",
+      "rank2009": "115",
+      "rank2008": "106",
+      "name": "Dell",
+      "country": "美国",
+      "operating_receipt_in_million_dollars": "61101.0",
+      "profit_in_million_dollars": "2478.0"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/116/",
+      "rank2009": "116",
+      "rank2008": "93",
+      "name": "Boeing",
+      "country": "美国",
+      "operating_receipt_in_million_dollars": "60909.0",
+      "profit_in_million_dollars": "2672.0"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/117/",
+      "rank2009": "117",
+      "rank2008": "136",
+      "name": "Microsoft",
+      "country": "美国",
+      "operating_receipt_in_million_dollars": "60420.0",
+      "profit_in_million_dollars": "17681.0"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/118/",
+      "rank2009": "118",
+      "rank2008": "135",
+      "name": "PTT",
+      "country": "泰国",
+      "operating_receipt_in_million_dollars": "59984.6",
+      "profit_in_million_dollars": "1550.1"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/119/",
+      "rank2009": "119",
+      "rank2008": "31",
+      "name": "UBS",
+      "country": "瑞士",
+      "operating_receipt_in_million_dollars": "59881.8",
+      "profit_in_million_dollars": "-19301.4"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/120/",
+      "rank2009": "120",
+      "rank2008": "183",
+      "name": "BHP Billiton",
+      "country": "澳大利亚",
+      "operating_receipt_in_million_dollars": "59473.0",
+      "profit_in_million_dollars": "15390.0"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/121/",
+      "rank2009": "121",
+      "rank2008": "122",
+      "name": "Unilever",
+      "country": "英国/荷兰",
+      "operating_receipt_in_million_dollars": "59312.9",
+      "profit_in_million_dollars": "7357.9"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/122/",
+      "rank2009": "122",
+      "rank2008": "125",
+      "name": "Walgreen",
+      "country": "美国",
+      "operating_receipt_in_million_dollars": "59034.0",
+      "profit_in_million_dollars": "2157.0"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/123/",
+      "rank2009": "123",
+      "rank2008": "123",
+      "name": "United Technologies",
+      "country": "美国",
+      "operating_receipt_in_million_dollars": "58681.0",
+      "profit_in_million_dollars": "4689.0"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/124/",
+      "rank2009": "124",
+      "rank2008": "146",
+      "name": "Tokyo Electric Power",
+      "country": "日本",
+      "operating_receipt_in_million_dollars": "58605.2",
+      "profit_in_million_dollars": "-841.3"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/125/",
+      "rank2009": "125",
+      "rank2008": "171",
+      "name": "China Construction Bank",
+      "country": "中国",
+      "operating_receipt_in_million_dollars": "57976.9",
+      "profit_in_million_dollars": "13323.7"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/126/",
+      "rank2009": "126",
+      "rank2008": "139",
+      "name": "Groupe Auchan",
+      "country": "法国",
+      "operating_receipt_in_million_dollars": "57792.1",
+      "profit_in_million_dollars": "1064.1"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/127/",
+      "rank2009": "127",
+      "rank2008": "128",
+      "name": "Dow Chemical",
+      "country": "美国",
+      "operating_receipt_in_million_dollars": "57514.0",
+      "profit_in_million_dollars": "579.0"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/128/",
+      "rank2009": "128",
+      "rank2008": "118",
+      "name": "Mitsubishi UFJ Financial Group",
+      "country": "日本",
+      "operating_receipt_in_million_dollars": "56513.7",
+      "profit_in_million_dollars": "-2557.7"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/129/",
+      "rank2009": "129",
+      "rank2008": "141",
+      "name": "Seven & I Holdings",
+      "country": "日本",
+      "operating_receipt_in_million_dollars": "56107.1",
+      "profit_in_million_dollars": "916.9"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/130/",
+      "rank2009": "130",
+      "rank2008": "119",
+      "name": "Renault",
+      "country": "法国",
+      "operating_receipt_in_million_dollars": "55314.1",
+      "profit_in_million_dollars": "835.8"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/131/",
+      "rank2009": "131",
+      "rank2008": "140",
+      "name": "Mitsui",
+      "country": "日本",
+      "operating_receipt_in_million_dollars": "55097.9",
+      "profit_in_million_dollars": "1767.9"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/132/",
+      "rank2009": "132",
+      "rank2008": "129",
+      "name": "MetLife",
+      "country": "美国",
+      "operating_receipt_in_million_dollars": "55085.0",
+      "profit_in_million_dollars": "3209.0"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/133/",
+      "rank2009": "133",
+      "rank2008": "159",
+      "name": "China Life Insurance",
+      "country": "中国",
+      "operating_receipt_in_million_dollars": "54534.1",
+      "profit_in_million_dollars": "473.0"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/134/",
+      "rank2009": "134",
+      "rank2008": "263",
+      "name": "Rio Tinto Group",
+      "country": "英国",
+      "operating_receipt_in_million_dollars": "54264.0",
+      "profit_in_million_dollars": "3676.0"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/135/",
+      "rank2009": "135",
+      "rank2008": "153",
+      "name": "Veolia Environnement",
+      "country": "法国",
+      "operating_receipt_in_million_dollars": "53901.1",
+      "profit_in_million_dollars": "592.9"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/136/",
+      "rank2009": "136",
+      "rank2008": "61",
+      "name": "Goldman Sachs Group",
+      "country": "美国",
+      "operating_receipt_in_million_dollars": "53579.0",
+      "profit_in_million_dollars": "2322.0"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/137/",
+      "rank2009": "137",
+      "rank2008": "144",
+      "name": "Intesa Sanpaolo?",
+      "country": "意大利",
+      "operating_receipt_in_million_dollars": "52947.3",
+      "profit_in_million_dollars": "3736.8"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/138/",
+      "rank2009": "138",
+      "rank2008": "191",
+      "name": "Bunge",
+      "country": "美国",
+      "operating_receipt_in_million_dollars": "52574.0",
+      "profit_in_million_dollars": "1064.0"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/139/",
+      "rank2009": "139",
+      "rank2008": "180",
+      "name": "Dai-ichi Mutual Life Insurance",
+      "country": "日本",
+      "operating_receipt_in_million_dollars": "52012.5",
+      "profit_in_million_dollars": "864.1"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/140/",
+      "rank2009": "140",
+      "rank2008": "154",
+      "name": "AEON",
+      "country": "日本",
+      "operating_receipt_in_million_dollars": "51944.6",
+      "profit_in_million_dollars": "-27.4"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/141/",
+      "rank2009": "141",
+      "rank2008": "168",
+      "name": "Sunoco",
+      "country": "美国",
+      "operating_receipt_in_million_dollars": "51652.0",
+      "profit_in_million_dollars": "776.0"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/142/",
+      "rank2009": "141",
+      "rank2008": "126",
+      "name": "Wells Fargo",
+      "country": "美国",
+      "operating_receipt_in_million_dollars": "51652.0",
+      "profit_in_million_dollars": "2655.0"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/143/",
+      "rank2009": "143",
+      "rank2008": "142",
+      "name": "United Parcel Service",
+      "country": "美国",
+      "operating_receipt_in_million_dollars": "51486.0",
+      "profit_in_million_dollars": "3003.0"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/144/",
+      "rank2009": "144",
+      "rank2008": "152",
+      "name": "Caterpillar",
+      "country": "美国",
+      "operating_receipt_in_million_dollars": "51324.0",
+      "profit_in_million_dollars": "3557.0"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/145/",
+      "rank2009": "145",
+      "rank2008": "187",
+      "name": "Bank of China",
+      "country": "中国",
+      "operating_receipt_in_million_dollars": "51317.2",
+      "profit_in_million_dollars": "9260.5"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/146/",
+      "rank2009": "146",
+      "rank2008": "156",
+      "name": "Medco Health Solutions",
+      "country": "美国",
+      "operating_receipt_in_million_dollars": "51258.0",
+      "profit_in_million_dollars": "1102.9"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/147/",
+      "rank2009": "147",
+      "rank2008": "492",
+      "name": "LyondellBasell Industries?",
+      "country": "荷兰",
+      "operating_receipt_in_million_dollars": "50996.0",
+      "profit_in_million_dollars": "-7321.0"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/148/",
+      "rank2009": "148",
+      "rank2008": "204",
+      "name": "Banco Bradesco",
+      "country": "巴西",
+      "operating_receipt_in_million_dollars": "50930.1",
+      "profit_in_million_dollars": "4156.7"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/149/",
+      "rank2009": "149",
+      "rank2008": "273",
+      "name": "Itaúsa-Investimentos Itaú?",
+      "country": "巴西",
+      "operating_receipt_in_million_dollars": "50215.7",
+      "profit_in_million_dollars": "1472.6"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/150/",
+      "rank2009": "150",
+      "rank2008": "169",
+      "name": "Vinci",
+      "country": "法国",
+      "operating_receipt_in_million_dollars": "48971.7",
+      "profit_in_million_dollars": "2329.3"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/151/",
+      "rank2009": "151",
+      "rank2008": "163",
+      "name": "Deutsche Bahn",
+      "country": "德国",
+      "operating_receipt_in_million_dollars": "48963.2",
+      "profit_in_million_dollars": "1913.0"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/152/",
+      "rank2009": "152",
+      "rank2008": "143",
+      "name": "Pfizer",
+      "country": "美国",
+      "operating_receipt_in_million_dollars": "48296.0",
+      "profit_in_million_dollars": "8104.0"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/153/",
+      "rank2009": "153",
+      "rank2008": "145",
+      "name": "Lowe's",
+      "country": "美国",
+      "operating_receipt_in_million_dollars": "48230.0",
+      "profit_in_million_dollars": "2195.0"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/154/",
+      "rank2009": "154",
+      "rank2008": "155",
+      "name": "Bayer",
+      "country": "德国",
+      "operating_receipt_in_million_dollars": "48181.6",
+      "profit_in_million_dollars": "2516.1"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/155/",
+      "rank2009": "155",
+      "rank2008": "223",
+      "name": "Agricultural Bank of China",
+      "country": "中国",
+      "operating_receipt_in_million_dollars": "48063.2",
+      "profit_in_million_dollars": "7406.4"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/156/",
+      "rank2009": "156",
+      "rank2008": "172",
+      "name": "Bouygues",
+      "country": "法国",
+      "operating_receipt_in_million_dollars": "47881.5",
+      "profit_in_million_dollars": "2197.0"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/157/",
+      "rank2009": "157",
+      "rank2008": "165",
+      "name": "Nippon Steel",
+      "country": "日本",
+      "operating_receipt_in_million_dollars": "47479.0",
+      "profit_in_million_dollars": "1543.6"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/158/",
+      "rank2009": "158",
+      "rank2008": "203",
+      "name": "Rosneft Oil",
+      "country": "俄罗斯",
+      "operating_receipt_in_million_dollars": "46985.0",
+      "profit_in_million_dollars": "11120.0"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/159/",
+      "rank2009": "159",
+      "rank2008": "150",
+      "name": "Time Warner",
+      "country": "美国",
+      "operating_receipt_in_million_dollars": "46984.0",
+      "profit_in_million_dollars": "-13402.0"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/160/",
+      "rank2009": "160",
+      "rank2008": "138",
+      "name": "Sears Holdings",
+      "country": "美国",
+      "operating_receipt_in_million_dollars": "46770.0",
+      "profit_in_million_dollars": "53.0"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/161/",
+      "rank2009": "161",
+      "rank2008": "149",
+      "name": "Fujitsu",
+      "country": "日本",
+      "operating_receipt_in_million_dollars": "46714.3",
+      "profit_in_million_dollars": "-1118.7"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/162/",
+      "rank2009": "162",
+      "rank2008": "185",
+      "name": "Landesbank Baden-Württemberg",
+      "country": "德国",
+      "operating_receipt_in_million_dollars": "46136.8",
+      "profit_in_million_dollars": "-2972.7"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/163/",
+      "rank2009": "163",
+      "rank2008": "167",
+      "name": "Volvo",
+      "country": "瑞典",
+      "operating_receipt_in_million_dollars": "46057.2",
+      "profit_in_million_dollars": "1507.9"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/164/",
+      "rank2009": "164",
+      "rank2008": "74",
+      "name": "Credit Suisse",
+      "country": "瑞士",
+      "operating_receipt_in_million_dollars": "45296.0",
+      "profit_in_million_dollars": "-7594.1"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/165/",
+      "rank2009": "165",
+      "rank2008": "147",
+      "name": "Rabobank",
+      "country": "荷兰",
+      "operating_receipt_in_million_dollars": "45214.7",
+      "profit_in_million_dollars": "3804.1"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/166/",
+      "rank2009": "166",
+      "rank2008": "160",
+      "name": "Telecom Italia",
+      "country": "意大利",
+      "operating_receipt_in_million_dollars": "45118.1",
+      "profit_in_million_dollars": "3240.6"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/167/",
+      "rank2009": "167",
+      "rank2008": "177",
+      "name": "Best Buy",
+      "country": "美国",
+      "operating_receipt_in_million_dollars": "45015.0",
+      "profit_in_million_dollars": "1003.0"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/168/",
+      "rank2009": "168",
+      "rank2008": "151",
+      "name": "GlaxoSmithKline",
+      "country": "英国",
+      "operating_receipt_in_million_dollars": "44654.0",
+      "profit_in_million_dollars": "8438.6"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/169/",
+      "rank2009": "169",
+      "rank2008": "157",
+      "name": "Supervalu",
+      "country": "美国",
+      "operating_receipt_in_million_dollars": "44564.0",
+      "profit_in_million_dollars": "-2855.0"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/170/",
+      "rank2009": "170",
+      "rank2008": "257",
+      "name": "Sinochem",
+      "country": "中国",
+      "operating_receipt_in_million_dollars": "44457.2",
+      "profit_in_million_dollars": "672.3"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/171/",
+      "rank2009": "171",
+      "rank2008": "175",
+      "name": "Roche Group",
+      "country": "瑞士",
+      "operating_receipt_in_million_dollars": "44267.5",
+      "profit_in_million_dollars": "8288.1"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/172/",
+      "rank2009": "172",
+      "rank2008": "186",
+      "name": "Ko? Holding",
+      "country": "土耳其",
+      "operating_receipt_in_million_dollars": "44167.9",
+      "profit_in_million_dollars": "1552.5"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/173/",
+      "rank2009": "173",
+      "rank2008": "164",
+      "name": "Safeway",
+      "country": "美国",
+      "operating_receipt_in_million_dollars": "44104.0",
+      "profit_in_million_dollars": "965.3"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/174/",
+      "rank2009": "174",
+      "rank2008": "282",
+      "name": "Banco do Brasil",
+      "country": "巴西",
+      "operating_receipt_in_million_dollars": "43984.2",
+      "profit_in_million_dollars": "4801.8"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/175/",
+      "rank2009": "175",
+      "rank2008": "184",
+      "name": "PepsiCo",
+      "country": "美国",
+      "operating_receipt_in_million_dollars": "43251.0",
+      "profit_in_million_dollars": "5142.0"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/176/",
+      "rank2009": "176",
+      "rank2008": "205",
+      "name": "Foncière Euris",
+      "country": "法国",
+      "operating_receipt_in_million_dollars": "43133.3",
+      "profit_in_million_dollars": "-152.2"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/177/",
+      "rank2009": "177",
+      "rank2008": "195",
+      "name": "Kraft Foods",
+      "country": "美国",
+      "operating_receipt_in_million_dollars": "42867.0",
+      "profit_in_million_dollars": "2901.0"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/178/",
+      "rank2009": "178",
+      "rank2008": "253",
+      "name": "Scottish & Southern Energy",
+      "country": "英国",
+      "operating_receipt_in_million_dollars": "42855.1",
+      "profit_in_million_dollars": "189.3"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/179/",
+      "rank2009": "179",
+      "rank2008": "170",
+      "name": "Lockheed Martin",
+      "country": "美国",
+      "operating_receipt_in_million_dollars": "42731.0",
+      "profit_in_million_dollars": "3217.0"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/180/",
+      "rank2009": "180",
+      "rank2008": "228",
+      "name": "Woolworths",
+      "country": "澳大利亚",
+      "operating_receipt_in_million_dollars": "42195.7",
+      "profit_in_million_dollars": "1455.6"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/181/",
+      "rank2009": "181",
+      "rank2008": "178",
+      "name": "Sanofi-Aventis",
+      "country": "法国",
+      "operating_receipt_in_million_dollars": "42179.0",
+      "profit_in_million_dollars": "5636.7"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/182/",
+      "rank2009": "182",
+      "rank2008": "174",
+      "name": "NEC",
+      "country": "日本",
+      "operating_receipt_in_million_dollars": "41962.3",
+      "profit_in_million_dollars": "-2952.8"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/183/",
+      "rank2009": "183",
+      "rank2008": "181",
+      "name": "Novartis",
+      "country": "瑞士",
+      "operating_receipt_in_million_dollars": "41459.0",
+      "profit_in_million_dollars": "8195.0"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/184/",
+      "rank2009": "184",
+      "rank2008": "240",
+      "name": "Hess",
+      "country": "美国",
+      "operating_receipt_in_million_dollars": "41094.0",
+      "profit_in_million_dollars": "2360.0"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/185/",
+      "rank2009": "185",
+      "rank2008": "226",
+      "name": "China Southern Power Grid",
+      "country": "中国",
+      "operating_receipt_in_million_dollars": "41083.0",
+      "profit_in_million_dollars": "560.0"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/186/",
+      "rank2009": "186",
+      "rank2008": "227",
+      "name": "Sabic",
+      "country": "沙特阿拉伯",
+      "operating_receipt_in_million_dollars": "40202.9",
+      "profit_in_million_dollars": "5872.7"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/187/",
+      "rank2009": "187",
+      "rank2008": "137",
+      "name": "Royal Ahold",
+      "country": "荷兰",
+      "operating_receipt_in_million_dollars": "40116.7",
+      "profit_in_million_dollars": "1572.0"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/188/",
+      "rank2009": "188",
+      "rank2008": "179",
+      "name": "Franz Haniel",
+      "country": "德国",
+      "operating_receipt_in_million_dollars": "40001.0",
+      "profit_in_million_dollars": "146.4"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/189/",
+      "rank2009": "189",
+      "rank2008": "201",
+      "name": "Marubeni",
+      "country": "日本",
+      "operating_receipt_in_million_dollars": "39839.1",
+      "profit_in_million_dollars": "1107.0"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/190/",
+      "rank2009": "190",
+      "rank2008": "189",
+      "name": "Canon",
+      "country": "日本",
+      "operating_receipt_in_million_dollars": "39610.6",
+      "profit_in_million_dollars": "2991.0"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/191/",
+      "rank2009": "191",
+      "rank2008": "218",
+      "name": "Cisco Systems",
+      "country": "美国",
+      "operating_receipt_in_million_dollars": "39540.0",
+      "profit_in_million_dollars": "8052.0"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/192/",
+      "rank2009": "192",
+      "rank2008": "199",
+      "name": "KFW Bankengruppe",
+      "country": "德国",
+      "operating_receipt_in_million_dollars": "39370.2",
+      "profit_in_million_dollars": "-3889.0"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/193/",
+      "rank2009": "193",
+      "rank2008": "231",
+      "name": "Centrica",
+      "country": "英国",
+      "operating_receipt_in_million_dollars": "39140.1",
+      "profit_in_million_dollars": "-265.9"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/194/",
+      "rank2009": "194",
+      "rank2008": "246",
+      "name": "JFE Holdings",
+      "country": "日本",
+      "operating_receipt_in_million_dollars": "38903.2",
+      "profit_in_million_dollars": "1933.4"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/195/",
+      "rank2009": "195",
+      "rank2008": "197",
+      "name": "Royal Philips Electronics",
+      "country": "荷兰",
+      "operating_receipt_in_million_dollars": "38806.7",
+      "profit_in_million_dollars": "-272.2"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/196/",
+      "rank2009": "196",
+      "rank2008": "112",
+      "name": "CNP Assurances",
+      "country": "法国",
+      "operating_receipt_in_million_dollars": "38481.7",
+      "profit_in_million_dollars": "1069.4"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/197/",
+      "rank2009": "197",
+      "rank2008": "242",
+      "name": "Meiji Yasuda Life Insurance",
+      "country": "日本",
+      "operating_receipt_in_million_dollars": "38082.5",
+      "profit_in_million_dollars": "1239.4"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/198/",
+      "rank2009": "198",
+      "rank2008": "219",
+      "name": "Johnson Controls",
+      "country": "美国",
+      "operating_receipt_in_million_dollars": "38062.0",
+      "profit_in_million_dollars": "979.0"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/199/",
+      "rank2009": "199",
+      "rank2008": "224",
+      "name": "POSCO",
+      "country": "韩国",
+      "operating_receipt_in_million_dollars": "37976.2",
+      "profit_in_million_dollars": "3983.7"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/200/",
+      "rank2009": "200",
+      "rank2008": "214",
+      "name": "FedEx",
+      "country": "美国",
+      "operating_receipt_in_million_dollars": "37953.0",
+      "profit_in_million_dollars": "1125.0"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/201/",
+      "rank2009": "201",
+      "rank2008": "207",
+      "name": "Walt Disney",
+      "country": "美国",
+      "operating_receipt_in_million_dollars": "37843.0",
+      "profit_in_million_dollars": "4427.0"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/202/",
+      "rank2009": "202",
+      "rank2008": "188",
+      "name": "Intel",
+      "country": "美国",
+      "operating_receipt_in_million_dollars": "37586.0",
+      "profit_in_million_dollars": "5292.0"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/203/",
+      "rank2009": "203",
+      "rank2008": "215",
+      "name": "Nippon Mining Holdings",
+      "country": "日本",
+      "operating_receipt_in_million_dollars": "37532.6",
+      "profit_in_million_dollars": "-406.1"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/204/",
+      "rank2009": "204",
+      "rank2008": "217",
+      "name": "Sysco",
+      "country": "美国",
+      "operating_receipt_in_million_dollars": "37522.1",
+      "profit_in_million_dollars": "1106.2"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/205/",
+      "rank2009": "205",
+      "rank2008": "235",
+      "name": "CVRD",
+      "country": "巴西",
+      "operating_receipt_in_million_dollars": "37426.0",
+      "profit_in_million_dollars": "13218.0"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/206/",
+      "rank2009": "206",
+      "rank2008": "295",
+      "name": "OMV Group",
+      "country": "奥地利",
+      "operating_receipt_in_million_dollars": "37386.3",
+      "profit_in_million_dollars": "2011.7"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/207/",
+      "rank2009": "207",
+      "rank2008": "264",
+      "name": "Vivendi?",
+      "country": "法国",
+      "operating_receipt_in_million_dollars": "37165.9",
+      "profit_in_million_dollars": "3810.0"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/208/",
+      "rank2009": "208",
+      "rank2008": "339",
+      "name": "Iberdrola",
+      "country": "西班牙",
+      "operating_receipt_in_million_dollars": "36879.3",
+      "profit_in_million_dollars": "4187.0"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/209/",
+      "rank2009": "209",
+      "rank2008": "233",
+      "name": "SNCF",
+      "country": "法国",
+      "operating_receipt_in_million_dollars": "36867.3",
+      "profit_in_million_dollars": "841.6"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/210/",
+      "rank2009": "210",
+      "rank2008": "166",
+      "name": "BT",
+      "country": "英国",
+      "operating_receipt_in_million_dollars": "36626.5",
+      "profit_in_million_dollars": "-139.9"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/211/",
+      "rank2009": "211",
+      "rank2008": "194",
+      "name": "Royal Bank of Canada",
+      "country": "加拿大",
+      "operating_receipt_in_million_dollars": "36615.5",
+      "profit_in_million_dollars": "4439.7"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/212/",
+      "rank2009": "212",
+      "rank2008": "220",
+      "name": "Honeywell International",
+      "country": "美国",
+      "operating_receipt_in_million_dollars": "36556.0",
+      "profit_in_million_dollars": "2792.0"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/213/",
+      "rank2009": "213",
+      "rank2008": "267",
+      "name": "GS Holdings",
+      "country": "韩国",
+      "operating_receipt_in_million_dollars": "36502.8",
+      "profit_in_million_dollars": "102.1"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/214/",
+      "rank2009": "214",
+      "rank2008": "260",
+      "name": "TUI",
+      "country": "德国",
+      "operating_receipt_in_million_dollars": "36495.7",
+      "profit_in_million_dollars": "-177.5"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/215/",
+      "rank2009": "215",
+      "rank2008": "210",
+      "name": "Mitsubishi Electric",
+      "country": "日本",
+      "operating_receipt_in_million_dollars": "36482.8",
+      "profit_in_million_dollars": "121.1"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/216/",
+      "rank2009": "216",
+      "rank2008": "250",
+      "name": "Lufthansa Group",
+      "country": "德国",
+      "operating_receipt_in_million_dollars": "36401.8",
+      "profit_in_million_dollars": "876.7"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/217/",
+      "rank2009": "217",
+      "rank2008": "269",
+      "name": "Sumitomo Life Insurance",
+      "country": "日本",
+      "operating_receipt_in_million_dollars": "36307.6",
+      "profit_in_million_dollars": "1037.6"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/218/",
+      "rank2009": "218",
+      "rank2008": "349",
+      "name": "Noble Group",
+      "country": "中国",
+      "operating_receipt_in_million_dollars": "36090.2",
+      "profit_in_million_dollars": "577.3"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/219/",
+      "rank2009": "219",
+      "rank2008": "176",
+      "name": "Sprint Nextel",
+      "country": "美国",
+      "operating_receipt_in_million_dollars": "35635.0",
+      "profit_in_million_dollars": "-2796.0"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/220/",
+      "rank2009": "220",
+      "rank2008": "259",
+      "name": "Baosteel Group",
+      "country": "中国",
+      "operating_receipt_in_million_dollars": "35516.6",
+      "profit_in_million_dollars": "2313.8"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/221/",
+      "rank2009": "221",
+      "rank2008": "69",
+      "name": "Aviva",
+      "country": "英国",
+      "operating_receipt_in_million_dollars": "35505.8",
+      "profit_in_million_dollars": "-1677.8"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/222/",
+      "rank2009": "222",
+      "rank2008": "369",
+      "name": "Continental",
+      "country": "德国",
+      "operating_receipt_in_million_dollars": "35477.8",
+      "profit_in_million_dollars": "-1644.5"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/223/",
+      "rank2009": "223",
+      "rank2008": "301",
+      "name": "Enterprise GP Holdings",
+      "country": "美国",
+      "operating_receipt_in_million_dollars": "35469.6",
+      "profit_in_million_dollars": "164.1"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/224/",
+      "rank2009": "224",
+      "rank2008": "244",
+      "name": "GMAC",
+      "country": "美国",
+      "operating_receipt_in_million_dollars": "35445.0",
+      "profit_in_million_dollars": "1868.0"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/225/",
+      "rank2009": "225",
+      "rank2008": "173",
+      "name": "Sumitomo Mitsui Financial Group",
+      "country": "日本",
+      "operating_receipt_in_million_dollars": "35365.2",
+      "profit_in_million_dollars": "-3717.4"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/226/",
+      "rank2009": "226",
+      "rank2008": "271",
+      "name": "Power Corp. of Canada",
+      "country": "加拿大",
+      "operating_receipt_in_million_dollars": "35125.1",
+      "profit_in_million_dollars": "813.9"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/227/",
+      "rank2009": "227",
+      "rank2008": "331",
+      "name": "GasTerra",
+      "country": "荷兰",
+      "operating_receipt_in_million_dollars": "35059.1",
+      "profit_in_million_dollars": "52.7"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/228/",
+      "rank2009": "228",
+      "rank2008": "182",
+      "name": "Mizuho Financial Group",
+      "country": "日本",
+      "operating_receipt_in_million_dollars": "34982.8",
+      "profit_in_million_dollars": "-5861.1"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/229/",
+      "rank2009": "229",
+      "rank2008": "236",
+      "name": "Sumitomo",
+      "country": "日本",
+      "operating_receipt_in_million_dollars": "34954.4",
+      "profit_in_million_dollars": "2140.9"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/230/",
+      "rank2009": "230",
+      "rank2008": "256",
+      "name": "ABB",
+      "country": "瑞士",
+      "operating_receipt_in_million_dollars": "34944.0",
+      "profit_in_million_dollars": "3118.0"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/231/",
+      "rank2009": "231",
+      "rank2008": "232",
+      "name": "Tokio Marine Holdings?",
+      "country": "日本",
+      "operating_receipt_in_million_dollars": "34870.0",
+      "profit_in_million_dollars": "230.3"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/232/",
+      "rank2009": "232",
+      "rank2008": "243",
+      "name": "KDDI",
+      "country": "日本",
+      "operating_receipt_in_million_dollars": "34814.4",
+      "profit_in_million_dollars": "2217.1"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/233/",
+      "rank2009": "233",
+      "rank2008": "196",
+      "name": "Commerzbank",
+      "country": "德国",
+      "operating_receipt_in_million_dollars": "34775.7",
+      "profit_in_million_dollars": "4.4"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/234/",
+      "rank2009": "234",
+      "rank2008": ".",
+      "name": "TNK-BP Holding",
+      "country": "俄罗斯",
+      "operating_receipt_in_million_dollars": "34668.0",
+      "profit_in_million_dollars": "6384.0"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/235/",
+      "rank2009": "235",
+      "rank2008": "216",
+      "name": "Ingram Micro",
+      "country": "美国",
+      "operating_receipt_in_million_dollars": "34362.2",
+      "profit_in_million_dollars": "-394.9"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/236/",
+      "rank2009": "236",
+      "rank2008": "238",
+      "name": "Danske Bank Group",
+      "country": "丹麦",
+      "operating_receipt_in_million_dollars": "34291.3",
+      "profit_in_million_dollars": "198.5"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/237/",
+      "rank2009": "237",
+      "rank2008": "248",
+      "name": "Comcast",
+      "country": "美国",
+      "operating_receipt_in_million_dollars": "34256.0",
+      "profit_in_million_dollars": "2547.0"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/238/",
+      "rank2009": "238",
+      "rank2008": "322",
+      "name": "Itochu",
+      "country": "日本",
+      "operating_receipt_in_million_dollars": "34033.5",
+      "profit_in_million_dollars": "1646.3"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/239/",
+      "rank2009": "239",
+      "rank2008": "237",
+      "name": "Northrop Grumman",
+      "country": "美国",
+      "operating_receipt_in_million_dollars": "33940.0",
+      "profit_in_million_dollars": "-1262.0"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/240/",
+      "rank2009": "240",
+      "rank2008": "222",
+      "name": "Air France-KLM Group",
+      "country": "法国",
+      "operating_receipt_in_million_dollars": "33854.6",
+      "profit_in_million_dollars": "-1149.4"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/241/",
+      "rank2009": "241",
+      "rank2008": "270",
+      "name": "ACS",
+      "country": "西班牙",
+      "operating_receipt_in_million_dollars": "33825.1",
+      "profit_in_million_dollars": "2642.0"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/242/",
+      "rank2009": "242",
+      "rank2008": "341",
+      "name": "China Railway Group",
+      "country": "中国",
+      "operating_receipt_in_million_dollars": "33758.4",
+      "profit_in_million_dollars": "160.5"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/243/",
+      "rank2009": "243",
+      "rank2008": "285",
+      "name": "Mitsubishi Heavy Industries",
+      "country": "日本",
+      "operating_receipt_in_million_dollars": "33601.6",
+      "profit_in_million_dollars": "241.1"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/244/",
+      "rank2009": "244",
+      "rank2008": "262",
+      "name": "Idemitsu Kosan",
+      "country": "日本",
+      "operating_receipt_in_million_dollars": "33521.5",
+      "profit_in_million_dollars": "33.1"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/245/",
+      "rank2009": "245",
+      "rank2008": "229",
+      "name": "DZ Bank",
+      "country": "德国",
+      "operating_receipt_in_million_dollars": "33484.7",
+      "profit_in_million_dollars": "-1771.1"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/246/",
+      "rank2009": "246",
+      "rank2008": "313",
+      "name": "Cepsa",
+      "country": "西班牙",
+      "operating_receipt_in_million_dollars": "33417.4",
+      "profit_in_million_dollars": "402.5"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/247/",
+      "rank2009": "247",
+      "rank2008": "326",
+      "name": "Australia & New Zealand Banking",
+      "country": "澳大利亚",
+      "operating_receipt_in_million_dollars": "33396.0",
+      "profit_in_million_dollars": "3002.8"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/248/",
+      "rank2009": "248",
+      "rank2008": "241",
+      "name": "Wolseley",
+      "country": "英国",
+      "operating_receipt_in_million_dollars": "33083.7",
+      "profit_in_million_dollars": "147.9"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/249/",
+      "rank2009": "249",
+      "rank2008": "477",
+      "name": "PKN Orlen Group",
+      "country": "波兰",
+      "operating_receipt_in_million_dollars": "33043.0",
+      "profit_in_million_dollars": "-1040.8"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/250/",
+      "rank2009": "250",
+      "rank2008": "280",
+      "name": "News Corp.",
+      "country": "美国",
+      "operating_receipt_in_million_dollars": "32996.0",
+      "profit_in_million_dollars": "5387.0"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/251/",
+      "rank2009": "251",
+      "rank2008": "213",
+      "name": "KBC Group",
+      "country": "比利时",
+      "operating_receipt_in_million_dollars": "32606.5",
+      "profit_in_million_dollars": "-3635.8"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/252/",
+      "rank2009": "252",
+      "rank2008": "356",
+      "name": "China Railway Construction",
+      "country": "中国",
+      "operating_receipt_in_million_dollars": "32538.4",
+      "profit_in_million_dollars": "524.3"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/253/",
+      "rank2009": "253",
+      "rank2008": "337",
+      "name": "Apple?",
+      "country": "美国",
+      "operating_receipt_in_million_dollars": "32479.0",
+      "profit_in_million_dollars": "4834.0"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/254/",
+      "rank2009": "254",
+      "rank2008": "254",
+      "name": "George Weston",
+      "country": "加拿大",
+      "operating_receipt_in_million_dollars": "32360.6",
+      "profit_in_million_dollars": "780.2"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/255/",
+      "rank2009": "255",
+      "rank2008": "121",
+      "name": "Zurich Financial Services",
+      "country": "瑞士",
+      "operating_receipt_in_million_dollars": "32349.0",
+      "profit_in_million_dollars": "3039.0"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/256/",
+      "rank2009": "256",
+      "rank2008": "111",
+      "name": "Lloyds Banking Group",
+      "country": "英国",
+      "operating_receipt_in_million_dollars": "32195.9",
+      "profit_in_million_dollars": "1501.8"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/257/",
+      "rank2009": "257",
+      "rank2008": "490",
+      "name": "CHS",
+      "country": "美国",
+      "operating_receipt_in_million_dollars": "32167.5",
+      "profit_in_million_dollars": "803.0"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/258/",
+      "rank2009": "258",
+      "rank2008": "315",
+      "name": "Tata Steel",
+      "country": "印度",
+      "operating_receipt_in_million_dollars": "32018.0",
+      "profit_in_million_dollars": "1075.9"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/259/",
+      "rank2009": "259",
+      "rank2008": "275",
+      "name": "Coca-Cola",
+      "country": "美国",
+      "operating_receipt_in_million_dollars": "31944.0",
+      "profit_in_million_dollars": "5807.0"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/260/",
+      "rank2009": "260",
+      "rank2008": "234",
+      "name": "American Express",
+      "country": "美国",
+      "operating_receipt_in_million_dollars": "31877.0",
+      "profit_in_million_dollars": "2699.0"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/261/",
+      "rank2009": "261",
+      "rank2008": "208",
+      "name": "J. Sainsbury",
+      "country": "英国",
+      "operating_receipt_in_million_dollars": "31876.4",
+      "profit_in_million_dollars": "487.1"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/262/",
+      "rank2009": "262",
+      "rank2008": "252",
+      "name": "DuPont",
+      "country": "美国",
+      "operating_receipt_in_million_dollars": "31836.0",
+      "profit_in_million_dollars": "2007.0"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/263/",
+      "rank2009": "263",
+      "rank2008": "288",
+      "name": "China Telecommunications",
+      "country": "中国",
+      "operating_receipt_in_million_dollars": "31813.6",
+      "profit_in_million_dollars": "-50.6"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/264/",
+      "rank2009": "264",
+      "rank2008": "206",
+      "name": "Reliance Industries",
+      "country": "印度",
+      "operating_receipt_in_million_dollars": "31792.3",
+      "profit_in_million_dollars": "3320.5"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/265/",
+      "rank2009": "265",
+      "rank2008": "289",
+      "name": "L.M. Ericsson",
+      "country": "瑞典",
+      "operating_receipt_in_million_dollars": "31688.4",
+      "profit_in_million_dollars": "1709.8"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/266/",
+      "rank2009": "266",
+      "rank2008": ".",
+      "name": "Showa Shell Sekiyu",
+      "country": "日本",
+      "operating_receipt_in_million_dollars": "31664.0",
+      "profit_in_million_dollars": "-156.9"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/267/",
+      "rank2009": "267",
+      "rank2008": "319",
+      "name": "Commonwealth Bank of Australia",
+      "country": "澳大利亚",
+      "operating_receipt_in_million_dollars": "31654.3",
+      "profit_in_million_dollars": "4286.9"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/268/",
+      "rank2009": "268",
+      "rank2008": "265",
+      "name": "AstraZeneca",
+      "country": "英国",
+      "operating_receipt_in_million_dollars": "31601.0",
+      "profit_in_million_dollars": "6101.0"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/269/",
+      "rank2009": "269",
+      "rank2008": "268",
+      "name": "New York Life Insurance",
+      "country": "美国",
+      "operating_receipt_in_million_dollars": "31416.2",
+      "profit_in_million_dollars": "-949.7"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/270/",
+      "rank2009": "270",
+      "rank2008": "276",
+      "name": "Bridgestone",
+      "country": "日本",
+      "operating_receipt_in_million_dollars": "31292.5",
+      "profit_in_million_dollars": "100.7"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/271/",
+      "rank2009": "271",
+      "rank2008": "212",
+      "name": "Denso",
+      "country": "日本",
+      "operating_receipt_in_million_dollars": "31282.2",
+      "profit_in_million_dollars": "-837.0"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/272/",
+      "rank2009": "272",
+      "rank2008": "211",
+      "name": "National Australia Bank",
+      "country": "澳大利亚",
+      "operating_receipt_in_million_dollars": "31212.9",
+      "profit_in_million_dollars": "4103.8"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/273/",
+      "rank2009": "273",
+      "rank2008": "283",
+      "name": "América Móvil?",
+      "country": "墨西哥",
+      "operating_receipt_in_million_dollars": "31012.5",
+      "profit_in_million_dollars": "5337.1"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/274/",
+      "rank2009": "274",
+      "rank2008": "291",
+      "name": "Aetna",
+      "country": "美国",
+      "operating_receipt_in_million_dollars": "30950.7",
+      "profit_in_million_dollars": "1384.1"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/275/",
+      "rank2009": "275",
+      "rank2008": "292",
+      "name": "Flextronics International",
+      "country": "新加坡",
+      "operating_receipt_in_million_dollars": "30948.6",
+      "profit_in_million_dollars": "-6086.1"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/276/",
+      "rank2009": "276",
+      "rank2008": "230",
+      "name": "Manulife Financial",
+      "country": "加拿大",
+      "operating_receipt_in_million_dollars": "30947.5",
+      "profit_in_million_dollars": "484.8"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/277/",
+      "rank2009": "277",
+      "rank2008": "284",
+      "name": "PPR",
+      "country": "法国",
+      "operating_receipt_in_million_dollars": "30663.3",
+      "profit_in_million_dollars": "1352.7"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/278/",
+      "rank2009": "278",
+      "rank2008": "277",
+      "name": "CRH",
+      "country": "爱尔兰",
+      "operating_receipt_in_million_dollars": "30572.0",
+      "profit_in_million_dollars": "1826.7"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/279/",
+      "rank2009": "279",
+      "rank2008": "281",
+      "name": "BAE Systems",
+      "country": "英国",
+      "operating_receipt_in_million_dollars": "30569.5",
+      "profit_in_million_dollars": "3199.8"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/280/",
+      "rank2009": "280",
+      "rank2008": "239",
+      "name": "La Poste",
+      "country": "法国",
+      "operating_receipt_in_million_dollars": "30487.1",
+      "profit_in_million_dollars": "774.3"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/281/",
+      "rank2009": "281",
+      "rank2008": "286",
+      "name": "Hutchison Whampoa",
+      "country": "中国",
+      "operating_receipt_in_million_dollars": "30239.6",
+      "profit_in_million_dollars": "2268.5"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/282/",
+      "rank2009": "282",
+      "rank2008": "200",
+      "name": "Motorola",
+      "country": "美国",
+      "operating_receipt_in_million_dollars": "30146.0",
+      "profit_in_million_dollars": "-4244.0"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/283/",
+      "rank2009": "283",
+      "rank2008": "402",
+      "name": "Westpac Banking",
+      "country": "澳大利亚",
+      "operating_receipt_in_million_dollars": "30108.2",
+      "profit_in_million_dollars": "3491.3"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/284/",
+      "rank2009": "284",
+      "rank2008": "393",
+      "name": "EnCana",
+      "country": "加拿大",
+      "operating_receipt_in_million_dollars": "30064.0",
+      "profit_in_million_dollars": "5944.0"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/285/",
+      "rank2009": "285",
+      "rank2008": "394",
+      "name": "Arcandor",
+      "country": "德国",
+      "operating_receipt_in_million_dollars": "30063.4",
+      "profit_in_million_dollars": "-1119.5"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/286/",
+      "rank2009": "286",
+      "rank2008": "416",
+      "name": "Plains All American Pipeline",
+      "country": "美国",
+      "operating_receipt_in_million_dollars": "30061.0",
+      "profit_in_million_dollars": "437.0"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/287/",
+      "rank2009": "287",
+      "rank2008": ".",
+      "name": "Wesfarmers?",
+      "country": "澳大利亚",
+      "operating_receipt_in_million_dollars": "30050.0",
+      "profit_in_million_dollars": "939.5"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/288/",
+      "rank2009": "288",
+      "rank2008": "354",
+      "name": "Nordea Bank",
+      "country": "瑞典",
+      "operating_receipt_in_million_dollars": "30018.7",
+      "profit_in_million_dollars": "3909.5"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/289/",
+      "rank2009": "289",
+      "rank2008": "287",
+      "name": "Bharat Petroleum",
+      "country": "印度",
+      "operating_receipt_in_million_dollars": "29989.0",
+      "profit_in_million_dollars": "137.7"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/290/",
+      "rank2009": "290",
+      "rank2008": "251",
+      "name": "Suzuki Motor",
+      "country": "日本",
+      "operating_receipt_in_million_dollars": "29910.8",
+      "profit_in_million_dollars": "273.0"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/291/",
+      "rank2009": "291",
+      "rank2008": "300",
+      "name": "Cathay Life Insurance",
+      "country": "中国台湾",
+      "operating_receipt_in_million_dollars": "29852.2",
+      "profit_in_million_dollars": "-62.6"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/292/",
+      "rank2009": "292",
+      "rank2008": "385",
+      "name": "China State Construction Engineering",
+      "country": "中国",
+      "operating_receipt_in_million_dollars": "29806.7",
+      "profit_in_million_dollars": "350.2"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/293/",
+      "rank2009": "293",
+      "rank2008": "302",
+      "name": "Cosmo Oil",
+      "country": "日本",
+      "operating_receipt_in_million_dollars": "29710.3",
+      "profit_in_million_dollars": "-920.0"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/294/",
+      "rank2009": "294",
+      "rank2008": "312",
+      "name": "Abbott Laboratories",
+      "country": "美国",
+      "operating_receipt_in_million_dollars": "29527.6",
+      "profit_in_million_dollars": "4880.7"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/295/",
+      "rank2009": "295",
+      "rank2008": "198",
+      "name": "Allstate",
+      "country": "美国",
+      "operating_receipt_in_million_dollars": "29394.0",
+      "profit_in_million_dollars": "-1679.0"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/296/",
+      "rank2009": "296",
+      "rank2008": "294",
+      "name": "TIAA-CREF",
+      "country": "美国",
+      "operating_receipt_in_million_dollars": "29362.5",
+      "profit_in_million_dollars": "-3344.9"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/297/",
+      "rank2009": "297",
+      "rank2008": "296",
+      "name": "General Dynamics",
+      "country": "美国",
+      "operating_receipt_in_million_dollars": "29302.0",
+      "profit_in_million_dollars": "2459.0"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/298/",
+      "rank2009": "298",
+      "rank2008": "221",
+      "name": "Prudential Financial",
+      "country": "美国",
+      "operating_receipt_in_million_dollars": "29275.0",
+      "profit_in_million_dollars": "-1073.0"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/299/",
+      "rank2009": "299",
+      "rank2008": "274",
+      "name": "Adecco",
+      "country": "瑞士",
+      "operating_receipt_in_million_dollars": "29222.5",
+      "profit_in_million_dollars": "724.5"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/300/",
+      "rank2009": "300",
+      "rank2008": ".",
+      "name": "Wilmar International",
+      "country": "新加坡",
+      "operating_receipt_in_million_dollars": "29145.2",
+      "profit_in_million_dollars": "1531.0"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/301/",
+      "rank2009": "301",
+      "rank2008": "340",
+      "name": "Alliance Boots",
+      "country": "瑞士",
+      "operating_receipt_in_million_dollars": "28983.9",
+      "profit_in_million_dollars": "170.2"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/302/",
+      "rank2009": "302",
+      "rank2008": "317",
+      "name": "Mitsubishi Chemical Holdings",
+      "country": "日本",
+      "operating_receipt_in_million_dollars": "28956.6",
+      "profit_in_million_dollars": "-668.7"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/303/",
+      "rank2009": "303",
+      "rank2008": "320",
+      "name": "Humana",
+      "country": "美国",
+      "operating_receipt_in_million_dollars": "28946.4",
+      "profit_in_million_dollars": "647.2"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/304/",
+      "rank2009": "304",
+      "rank2008": "309",
+      "name": "Liberty Mutual Insurance Group",
+      "country": "美国",
+      "operating_receipt_in_million_dollars": "28855.0",
+      "profit_in_million_dollars": "1140.0"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/305/",
+      "rank2009": "305",
+      "rank2008": "245",
+      "name": "Korea Electric Power",
+      "country": "韩国",
+      "operating_receipt_in_million_dollars": "28712.5",
+      "profit_in_million_dollars": "-2688.7"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/306/",
+      "rank2009": "306",
+      "rank2008": "324",
+      "name": "CPC",
+      "country": "中国台湾",
+      "operating_receipt_in_million_dollars": "28451.9",
+      "profit_in_million_dollars": "-3823.8"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/307/",
+      "rank2009": "307",
+      "rank2008": "334",
+      "name": "Deere",
+      "country": "美国",
+      "operating_receipt_in_million_dollars": "28437.6",
+      "profit_in_million_dollars": "2052.8"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/308/",
+      "rank2009": "308",
+      "rank2008": "299",
+      "name": "HCA",
+      "country": "美国",
+      "operating_receipt_in_million_dollars": "28374.0",
+      "profit_in_million_dollars": "673.0"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/309/",
+      "rank2009": "309",
+      "rank2008": "261",
+      "name": "Sharp",
+      "country": "日本",
+      "operating_receipt_in_million_dollars": "28341.4",
+      "profit_in_million_dollars": "-1252.4"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/310/",
+      "rank2009": "310",
+      "rank2008": "406",
+      "name": "Sberbank",
+      "country": "俄罗斯",
+      "operating_receipt_in_million_dollars": "28309.4",
+      "profit_in_million_dollars": "3929.2"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/311/",
+      "rank2009": "311",
+      "rank2008": "290",
+      "name": "Hindustan Petroleum",
+      "country": "印度",
+      "operating_receipt_in_million_dollars": "28247.3",
+      "profit_in_million_dollars": "164.6"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/312/",
+      "rank2009": "312",
+      "rank2008": "371",
+      "name": "Japan Tobacco",
+      "country": "日本",
+      "operating_receipt_in_million_dollars": "28141.1",
+      "profit_in_million_dollars": "1228.3"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/313/",
+      "rank2009": "313",
+      "rank2008": "298",
+      "name": "Tyson Foods",
+      "country": "美国",
+      "operating_receipt_in_million_dollars": "28130.0",
+      "profit_in_million_dollars": "86.0"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/314/",
+      "rank2009": "314",
+      "rank2008": "249",
+      "name": "Alcoa",
+      "country": "美国",
+      "operating_receipt_in_million_dollars": "28119.0",
+      "profit_in_million_dollars": "-74.0"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/315/",
+      "rank2009": "315",
+      "rank2008": "297",
+      "name": "Bayerische Landesbank",
+      "country": "德国",
+      "operating_receipt_in_million_dollars": "28111.5",
+      "profit_in_million_dollars": "-7441.4"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/316/",
+      "rank2009": "316",
+      "rank2008": ".",
+      "name": "Petroplus Holdings",
+      "country": "瑞士",
+      "operating_receipt_in_million_dollars": "28047.6",
+      "profit_in_million_dollars": "-495.1"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/317/",
+      "rank2009": "317",
+      "rank2008": "388",
+      "name": "Tesoro",
+      "country": "美国",
+      "operating_receipt_in_million_dollars": "28031.0",
+      "profit_in_million_dollars": "278.0"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/318/",
+      "rank2009": "318",
+      "rank2008": "409",
+      "name": "China National Offshore Oil",
+      "country": "中国",
+      "operating_receipt_in_million_dollars": "28027.4",
+      "profit_in_million_dollars": "4816.4"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/319/",
+      "rank2009": "319",
+      "rank2008": "377",
+      "name": "Hochtief",
+      "country": "德国",
+      "operating_receipt_in_million_dollars": "27960.8",
+      "profit_in_million_dollars": "256.3"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/320/",
+      "rank2009": "320",
+      "rank2008": "272",
+      "name": "Xstrata",
+      "country": "瑞士",
+      "operating_receipt_in_million_dollars": "27942.0",
+      "profit_in_million_dollars": "3595.0"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/321/",
+      "rank2009": "321",
+      "rank2008": "306",
+      "name": "Delhaize Group",
+      "country": "比利时",
+      "operating_receipt_in_million_dollars": "27874.4",
+      "profit_in_million_dollars": "683.5"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/322/",
+      "rank2009": "322",
+      "rank2008": "333",
+      "name": "Lafarge",
+      "country": "法国",
+      "operating_receipt_in_million_dollars": "27858.3",
+      "profit_in_million_dollars": "2339.0"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/323/",
+      "rank2009": "323",
+      "rank2008": "395",
+      "name": "Formosa Petrochemical",
+      "country": "中国台湾",
+      "operating_receipt_in_million_dollars": "27769.3",
+      "profit_in_million_dollars": "481.9"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/324/",
+      "rank2009": "324",
+      "rank2008": "347",
+      "name": "Kansai Electric Power",
+      "country": "日本",
+      "operating_receipt_in_million_dollars": "27767.6",
+      "profit_in_million_dollars": "-87.6"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/325/",
+      "rank2009": "325",
+      "rank2008": ".",
+      "name": "Suncor Energy",
+      "country": "加拿大",
+      "operating_receipt_in_million_dollars": "27680.5",
+      "profit_in_million_dollars": "2003.9"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/326/",
+      "rank2009": "326",
+      "rank2008": "456",
+      "name": "Murphy Oil",
+      "country": "美国",
+      "operating_receipt_in_million_dollars": "27512.5",
+      "profit_in_million_dollars": "1740.0"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/327/",
+      "rank2009": "327",
+      "rank2008": "405",
+      "name": "China Ocean Shipping",
+      "country": "中国",
+      "operating_receipt_in_million_dollars": "27430.3",
+      "profit_in_million_dollars": "1892.8"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/328/",
+      "rank2009": "328",
+      "rank2008": "358",
+      "name": "Schlumberger",
+      "country": "美国",
+      "operating_receipt_in_million_dollars": "27162.9",
+      "profit_in_million_dollars": "5434.8"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/329/",
+      "rank2009": "329",
+      "rank2008": "343",
+      "name": "East Japan Railway",
+      "country": "日本",
+      "operating_receipt_in_million_dollars": "26846.1",
+      "profit_in_million_dollars": "1864.3"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/330/",
+      "rank2009": "330",
+      "rank2008": "342",
+      "name": "Schneider Electric",
+      "country": "法国",
+      "operating_receipt_in_million_dollars": "26801.5",
+      "profit_in_million_dollars": "2461.9"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/331/",
+      "rank2009": "331",
+      "rank2008": "412",
+      "name": "China Minmetals",
+      "country": "中国",
+      "operating_receipt_in_million_dollars": "26667.2",
+      "profit_in_million_dollars": "542.2"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/332/",
+      "rank2009": "332",
+      "rank2008": "330",
+      "name": "Softbank?",
+      "country": "日本",
+      "operating_receipt_in_million_dollars": "26607.5",
+      "profit_in_million_dollars": "429.7"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/333/",
+      "rank2009": "333",
+      "rank2008": "351",
+      "name": "National Grid?",
+      "country": "英国",
+      "operating_receipt_in_million_dollars": "26605.6",
+      "profit_in_million_dollars": "1591.2"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/334/",
+      "rank2009": "334",
+      "rank2008": "338",
+      "name": "Alstom",
+      "country": "法国",
+      "operating_receipt_in_million_dollars": "26461.0",
+      "profit_in_million_dollars": "1566.0"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/335/",
+      "rank2009": "335",
+      "rank2008": "398",
+      "name": "COFCO",
+      "country": "中国",
+      "operating_receipt_in_million_dollars": "26445.6",
+      "profit_in_million_dollars": "500.9"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/336/",
+      "rank2009": "336",
+      "rank2008": "266",
+      "name": "Anglo American",
+      "country": "英国",
+      "operating_receipt_in_million_dollars": "26311.0",
+      "profit_in_million_dollars": "5215.0"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/337/",
+      "rank2009": "337",
+      "rank2008": "328",
+      "name": "Rite Aid",
+      "country": "美国",
+      "operating_receipt_in_million_dollars": "26289.5",
+      "profit_in_million_dollars": "-2915.4"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/338/",
+      "rank2009": "338",
+      "rank2008": "346",
+      "name": "Christian Dior",
+      "country": "法国",
+      "operating_receipt_in_million_dollars": "26248.3",
+      "profit_in_million_dollars": "1165.1"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/339/",
+      "rank2009": "339",
+      "rank2008": "348",
+      "name": "Poste Italiane",
+      "country": "意大利",
+      "operating_receipt_in_million_dollars": "26129.0",
+      "profit_in_million_dollars": "1291.8"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/340/",
+      "rank2009": "340",
+      "rank2008": "430",
+      "name": "Petro-Canada",
+      "country": "加拿大",
+      "operating_receipt_in_million_dollars": "26054.5",
+      "profit_in_million_dollars": "2938.8"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/341/",
+      "rank2009": "341",
+      "rank2008": "426",
+      "name": "China Communications Construction",
+      "country": "中国",
+      "operating_receipt_in_million_dollars": "25982.8",
+      "profit_in_million_dollars": "601.8"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/342/",
+      "rank2009": "342",
+      "rank2008": "344",
+      "name": "Quanta Computer",
+      "country": "中国台湾",
+      "operating_receipt_in_million_dollars": "25966.7",
+      "profit_in_million_dollars": "641.6"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/343/",
+      "rank2009": "343",
+      "rank2008": "336",
+      "name": "Bank of Nova Scotia",
+      "country": "加拿大",
+      "operating_receipt_in_million_dollars": "25944.5",
+      "profit_in_million_dollars": "3060.6"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/344/",
+      "rank2009": "344",
+      "rank2008": "310",
+      "name": "William Morrison Supermarkets",
+      "country": "英国",
+      "operating_receipt_in_million_dollars": "25908.7",
+      "profit_in_million_dollars": "820.3"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/345/",
+      "rank2009": "345",
+      "rank2008": ".",
+      "name": "Philip Morris International",
+      "country": "美国",
+      "operating_receipt_in_million_dollars": "25705.0",
+      "profit_in_million_dollars": "6890.0"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/346/",
+      "rank2009": "346",
+      "rank2008": "355",
+      "name": "L'Oréal?",
+      "country": "法国",
+      "operating_receipt_in_million_dollars": "25675.7",
+      "profit_in_million_dollars": "2851.7"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/347/",
+      "rank2009": "347",
+      "rank2008": "316",
+      "name": "Bertelsmann",
+      "country": "德国",
+      "operating_receipt_in_million_dollars": "25646.7",
+      "profit_in_million_dollars": "207.8"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/348/",
+      "rank2009": "348",
+      "rank2008": "392",
+      "name": "Accenture",
+      "country": "美国",
+      "operating_receipt_in_million_dollars": "25313.8",
+      "profit_in_million_dollars": "1691.8"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/349/",
+      "rank2009": "349",
+      "rank2008": "415",
+      "name": "T&D Holdings",
+      "country": "日本",
+      "operating_receipt_in_million_dollars": "25281.9",
+      "profit_in_million_dollars": "-886.9"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/350/",
+      "rank2009": "350",
+      "rank2008": "375",
+      "name": "Emerson Electric",
+      "country": "美国",
+      "operating_receipt_in_million_dollars": "25281.0",
+      "profit_in_million_dollars": "2412.0"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/351/",
+      "rank2009": "351",
+      "rank2008": "327",
+      "name": "3M",
+      "country": "美国",
+      "operating_receipt_in_million_dollars": "25269.0",
+      "profit_in_million_dollars": "3460.0"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/352/",
+      "rank2009": "352",
+      "rank2008": "255",
+      "name": "Mazda Motor",
+      "country": "日本",
+      "operating_receipt_in_million_dollars": "25242.5",
+      "profit_in_million_dollars": "-711.6"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/353/",
+      "rank2009": "353",
+      "rank2008": "386",
+      "name": "Onex",
+      "country": "加拿大",
+      "operating_receipt_in_million_dollars": "25206.8",
+      "profit_in_million_dollars": "-265.4"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/354/",
+      "rank2009": "354",
+      "rank2008": "367",
+      "name": "Toronto-Dominion Bank",
+      "country": "加拿大",
+      "operating_receipt_in_million_dollars": "25070.2",
+      "profit_in_million_dollars": "3736.0"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/355/",
+      "rank2009": "355",
+      "rank2008": "378",
+      "name": "Hyundai Heavy Industries",
+      "country": "韩国",
+      "operating_receipt_in_million_dollars": "25003.8",
+      "profit_in_million_dollars": "2050.7"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/356/",
+      "rank2009": "356",
+      "rank2008": "391",
+      "name": "Chubu Electric Power",
+      "country": "日本",
+      "operating_receipt_in_million_dollars": "24984.5",
+      "profit_in_million_dollars": "-188.8"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/357/",
+      "rank2009": "357",
+      "rank2008": "396",
+      "name": "Vattenfall",
+      "country": "瑞典",
+      "operating_receipt_in_million_dollars": "24957.2",
+      "profit_in_million_dollars": "2592.8"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/358/",
+      "rank2009": "358",
+      "rank2008": "304",
+      "name": "Macy's",
+      "country": "美国",
+      "operating_receipt_in_million_dollars": "24892.0",
+      "profit_in_million_dollars": "-4803.0"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/359/",
+      "rank2009": "359",
+      "rank2008": "373",
+      "name": "Shanghai Automotive",
+      "country": "中国",
+      "operating_receipt_in_million_dollars": "24882.2",
+      "profit_in_million_dollars": "52.9"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/360/",
+      "rank2009": "360",
+      "rank2008": "325",
+      "name": "Alcatel-Lucent",
+      "country": "法国",
+      "operating_receipt_in_million_dollars": "24859.2",
+      "profit_in_million_dollars": "-7633.1"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/361/",
+      "rank2009": "361",
+      "rank2008": "382",
+      "name": "International Paper",
+      "country": "美国",
+      "operating_receipt_in_million_dollars": "24829.0",
+      "profit_in_million_dollars": "-1282.0"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/362/",
+      "rank2009": "362",
+      "rank2008": "329",
+      "name": "Hanwha",
+      "country": "韩国",
+      "operating_receipt_in_million_dollars": "24782.1",
+      "profit_in_million_dollars": "266.5"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/363/",
+      "rank2009": "363",
+      "rank2008": "380",
+      "name": "State Bank of India",
+      "country": "印度",
+      "operating_receipt_in_million_dollars": "24577.7",
+      "profit_in_million_dollars": "2380.8"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/364/",
+      "rank2009": "364",
+      "rank2008": "432",
+      "name": "Mediceo Paltac Holdings",
+      "country": "日本",
+      "operating_receipt_in_million_dollars": "24522.5",
+      "profit_in_million_dollars": "124.5"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/365/",
+      "rank2009": "365",
+      "rank2008": "420",
+      "name": "Occidental Petroleum",
+      "country": "美国",
+      "operating_receipt_in_million_dollars": "24480.0",
+      "profit_in_million_dollars": "6857.0"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/366/",
+      "rank2009": "366",
+      "rank2008": "308",
+      "name": "Travelers Cos.",
+      "country": "美国",
+      "operating_receipt_in_million_dollars": "24477.0",
+      "profit_in_million_dollars": "2924.0"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/367/",
+      "rank2009": "367",
+      "rank2008": "247",
+      "name": "Samsung Life Insurance",
+      "country": "韩国",
+      "operating_receipt_in_million_dollars": "24419.5",
+      "profit_in_million_dollars": "93.2"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/368/",
+      "rank2009": "368",
+      "rank2008": "370",
+      "name": "MAN Group",
+      "country": "德国",
+      "operating_receipt_in_million_dollars": "24275.2",
+      "profit_in_million_dollars": "1804.7"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/369/",
+      "rank2009": "369",
+      "rank2008": "323",
+      "name": "Fujifilm Holdings",
+      "country": "日本",
+      "operating_receipt_in_million_dollars": "24231.6",
+      "profit_in_million_dollars": "104.8"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/370/",
+      "rank2009": "370",
+      "rank2008": "408",
+      "name": "CFE",
+      "country": "墨西哥",
+      "operating_receipt_in_million_dollars": "24196.1",
+      "profit_in_million_dollars": "-1750.5"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/371/",
+      "rank2009": "371",
+      "rank2008": "372",
+      "name": "Nippon Yusen",
+      "country": "日本",
+      "operating_receipt_in_million_dollars": "24188.1",
+      "profit_in_million_dollars": "558.9"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/372/",
+      "rank2009": "372",
+      "rank2008": ".",
+      "name": "Sinosteel",
+      "country": "中国",
+      "operating_receipt_in_million_dollars": "24163.6",
+      "profit_in_million_dollars": "155.9"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/373/",
+      "rank2009": "373",
+      "rank2008": "360",
+      "name": "Publix Super Markets",
+      "country": "美国",
+      "operating_receipt_in_million_dollars": "24109.6",
+      "profit_in_million_dollars": "1089.8"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/374/",
+      "rank2009": "374",
+      "rank2008": "353",
+      "name": "Tech Data",
+      "country": "美国",
+      "operating_receipt_in_million_dollars": "24080.5",
+      "profit_in_million_dollars": "123.6"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/375/",
+      "rank2009": "375",
+      "rank2008": ".",
+      "name": "Hebei Iron & Steel Group",
+      "country": "中国",
+      "operating_receipt_in_million_dollars": "24033.7",
+      "profit_in_million_dollars": "129.7"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/376/",
+      "rank2009": "376",
+      "rank2008": "362",
+      "name": "Michelin",
+      "country": "法国",
+      "operating_receipt_in_million_dollars": "24016.1",
+      "profit_in_million_dollars": "526.9"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/377/",
+      "rank2009": "377",
+      "rank2008": "418",
+      "name": "Energie Baden-Württemberg?",
+      "country": "德国",
+      "operating_receipt_in_million_dollars": "23866.0",
+      "profit_in_million_dollars": "1276.0"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/378/",
+      "rank2009": "378",
+      "rank2008": "332",
+      "name": "Merck",
+      "country": "美国",
+      "operating_receipt_in_million_dollars": "23850.3",
+      "profit_in_million_dollars": "7808.4"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/379/",
+      "rank2009": "379",
+      "rank2008": "445",
+      "name": "Migros",
+      "country": "瑞士",
+      "operating_receipt_in_million_dollars": "23795.1",
+      "profit_in_million_dollars": "648.1"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/380/",
+      "rank2009": "380",
+      "rank2008": "480",
+      "name": "China Metallurgical Group",
+      "country": "中国",
+      "operating_receipt_in_million_dollars": "23767.3",
+      "profit_in_million_dollars": "413.6"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/381/",
+      "rank2009": "381",
+      "rank2008": "366",
+      "name": "AMR",
+      "country": "美国",
+      "operating_receipt_in_million_dollars": "23766.0",
+      "profit_in_million_dollars": "-2071.0"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/382/",
+      "rank2009": "382",
+      "rank2008": "495",
+      "name": "United States Steel",
+      "country": "美国",
+      "operating_receipt_in_million_dollars": "23754.0",
+      "profit_in_million_dollars": "2112.0"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/383/",
+      "rank2009": "383",
+      "rank2008": "368",
+      "name": "Evonik Industries",
+      "country": "德国",
+      "operating_receipt_in_million_dollars": "23717.6",
+      "profit_in_million_dollars": "417.2"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/384/",
+      "rank2009": "384",
+      "rank2008": "307",
+      "name": "Magna International",
+      "country": "加拿大",
+      "operating_receipt_in_million_dollars": "23704.0",
+      "profit_in_million_dollars": "71.0"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/385/",
+      "rank2009": "385",
+      "rank2008": "303",
+      "name": "China FAW Group",
+      "country": "中国",
+      "operating_receipt_in_million_dollars": "23664.4",
+      "profit_in_million_dollars": "555.8"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/386/",
+      "rank2009": "386",
+      "rank2008": ".",
+      "name": "Nucor",
+      "country": "美国",
+      "operating_receipt_in_million_dollars": "23663.3",
+      "profit_in_million_dollars": "1831.0"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/387/",
+      "rank2009": "387",
+      "rank2008": "431",
+      "name": "Anheuser-Busch InBev",
+      "country": "比利时",
+      "operating_receipt_in_million_dollars": "23568.3",
+      "profit_in_million_dollars": "1885.2"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/388/",
+      "rank2009": "388",
+      "rank2008": "359",
+      "name": "McDonald's",
+      "country": "美国",
+      "operating_receipt_in_million_dollars": "23522.4",
+      "profit_in_million_dollars": "4313.2"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/389/",
+      "rank2009": "389",
+      "rank2008": "390",
+      "name": "Standard Chartered Group",
+      "country": "英国",
+      "operating_receipt_in_million_dollars": "23438.0",
+      "profit_in_million_dollars": "3408.0"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/390/",
+      "rank2009": "390",
+      "rank2008": ".",
+      "name": "BG Group",
+      "country": "英国",
+      "operating_receipt_in_million_dollars": "23396.1",
+      "profit_in_million_dollars": "5734.0"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/391/",
+      "rank2009": "391",
+      "rank2008": "365",
+      "name": "Edeka Zentrale",
+      "country": "德国",
+      "operating_receipt_in_million_dollars": "23349.3",
+      "profit_in_million_dollars": "384.7"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/392/",
+      "rank2009": "392",
+      "rank2008": ".",
+      "name": "Heraeus Holding",
+      "country": "德国",
+      "operating_receipt_in_million_dollars": "23292.4",
+      "profit_in_million_dollars": "243.7"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/393/",
+      "rank2009": "393",
+      "rank2008": "376",
+      "name": "Holcim",
+      "country": "瑞士",
+      "operating_receipt_in_million_dollars": "23247.3",
+      "profit_in_million_dollars": "1646.7"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/394/",
+      "rank2009": "394",
+      "rank2008": "463",
+      "name": "Mapfre Group",
+      "country": "西班牙",
+      "operating_receipt_in_million_dollars": "23185.9",
+      "profit_in_million_dollars": "1318.3"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/395/",
+      "rank2009": "395",
+      "rank2008": "379",
+      "name": "Raytheon",
+      "country": "美国",
+      "operating_receipt_in_million_dollars": "23174.0",
+      "profit_in_million_dollars": "1672.0"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/396/",
+      "rank2009": "396",
+      "rank2008": ".",
+      "name": "Husky Energy",
+      "country": "加拿大",
+      "operating_receipt_in_million_dollars": "23162.5",
+      "profit_in_million_dollars": "3520.2"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/397/",
+      "rank2009": "397",
+      "rank2008": "439",
+      "name": "Staples",
+      "country": "美国",
+      "operating_receipt_in_million_dollars": "23083.8",
+      "profit_in_million_dollars": "805.3"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/398/",
+      "rank2009": "398",
+      "rank2008": "209",
+      "name": "Swiss Reinsurance",
+      "country": "瑞士",
+      "operating_receipt_in_million_dollars": "23081.8",
+      "profit_in_million_dollars": "-798.4"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/399/",
+      "rank2009": "399",
+      "rank2008": "428",
+      "name": "Finmeccanica",
+      "country": "意大利",
+      "operating_receipt_in_million_dollars": "23036.9",
+      "profit_in_million_dollars": "835.8"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/400/",
+      "rank2009": "400",
+      "rank2008": ".",
+      "name": "Metalúrgica Gerdau",
+      "country": "巴西",
+      "operating_receipt_in_million_dollars": "22859.7",
+      "profit_in_million_dollars": "989.7"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/401/",
+      "rank2009": "401",
+      "rank2008": "381",
+      "name": "Wyeth",
+      "country": "美国",
+      "operating_receipt_in_million_dollars": "22833.9",
+      "profit_in_million_dollars": "4417.8"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/402/",
+      "rank2009": "402",
+      "rank2008": "335",
+      "name": "Oil & Natural Gas",
+      "country": "印度",
+      "operating_receipt_in_million_dollars": "22725.3",
+      "profit_in_million_dollars": "4302.0"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/403/",
+      "rank2009": "403",
+      "rank2008": "441",
+      "name": "Delta Air Lines",
+      "country": "美国",
+      "operating_receipt_in_million_dollars": "22697.0",
+      "profit_in_million_dollars": "-8922.0"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/404/",
+      "rank2009": "404",
+      "rank2008": "470",
+      "name": "Cie Nationale à Portefeuille",
+      "country": "比利时",
+      "operating_receipt_in_million_dollars": "22655.6",
+      "profit_in_million_dollars": "-255.2"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/405/",
+      "rank2009": "405",
+      "rank2008": "161",
+      "name": "Fannie Mae",
+      "country": "美国",
+      "operating_receipt_in_million_dollars": "22652.0",
+      "profit_in_million_dollars": "-58707.0"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/406/",
+      "rank2009": "406",
+      "rank2008": "455",
+      "name": "Akzo Nobel",
+      "country": "荷兰",
+      "operating_receipt_in_million_dollars": "22562.7",
+      "profit_in_million_dollars": "-1589.6"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/407/",
+      "rank2009": "407",
+      "rank2008": "401",
+      "name": "Compass Group",
+      "country": "英国",
+      "operating_receipt_in_million_dollars": "22521.8",
+      "profit_in_million_dollars": "872.1"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/408/",
+      "rank2009": "408",
+      "rank2008": "462",
+      "name": "Oracle",
+      "country": "美国",
+      "operating_receipt_in_million_dollars": "22430.0",
+      "profit_in_million_dollars": "5521.0"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/409/",
+      "rank2009": "409",
+      "rank2008": ".",
+      "name": "SeverStal",
+      "country": "俄罗斯",
+      "operating_receipt_in_million_dollars": "22392.7",
+      "profit_in_million_dollars": "2034.0"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/410/",
+      "rank2009": "410",
+      "rank2008": "448",
+      "name": "Telstra",
+      "country": "澳大利亚",
+      "operating_receipt_in_million_dollars": "22371.1",
+      "profit_in_million_dollars": "3303.5"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/411/",
+      "rank2009": "411",
+      "rank2008": "437",
+      "name": "Jardine Matheson",
+      "country": "中国",
+      "operating_receipt_in_million_dollars": "22362.0",
+      "profit_in_million_dollars": "666.0"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/412/",
+      "rank2009": "412",
+      "rank2008": "500",
+      "name": "Fluor",
+      "country": "美国",
+      "operating_receipt_in_million_dollars": "22325.9",
+      "profit_in_million_dollars": "720.5"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/413/",
+      "rank2009": "413",
+      "rank2008": "423",
+      "name": "Groupe Danone",
+      "country": "法国",
+      "operating_receipt_in_million_dollars": "22277.3",
+      "profit_in_million_dollars": "1921.8"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/414/",
+      "rank2009": "414",
+      "rank2008": "484",
+      "name": "Galp Energia",
+      "country": "葡萄牙",
+      "operating_receipt_in_million_dollars": "22230.4",
+      "profit_in_million_dollars": "171.3"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/415/",
+      "rank2009": "415",
+      "rank2008": ".",
+      "name": "Citic Group",
+      "country": "中国",
+      "operating_receipt_in_million_dollars": "22229.1",
+      "profit_in_million_dollars": "2050.2"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/416/",
+      "rank2009": "416",
+      "rank2008": "425",
+      "name": "British American Tobacco",
+      "country": "英国",
+      "operating_receipt_in_million_dollars": "22228.0",
+      "profit_in_million_dollars": "4505.4"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/417/",
+      "rank2009": "417",
+      "rank2008": "345",
+      "name": "Aisin Seiki",
+      "country": "日本",
+      "operating_receipt_in_million_dollars": "22043.2",
+      "profit_in_million_dollars": "-250.3"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/418/",
+      "rank2009": "418",
+      "rank2008": "457",
+      "name": "Express Scripts",
+      "country": "美国",
+      "operating_receipt_in_million_dollars": "22022.7",
+      "profit_in_million_dollars": "776.1"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/419/",
+      "rank2009": "419",
+      "rank2008": ".",
+      "name": "China United Telecommunications?",
+      "country": "中国",
+      "operating_receipt_in_million_dollars": "21980.6",
+      "profit_in_million_dollars": "2840.5"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/420/",
+      "rank2009": "420",
+      "rank2008": "357",
+      "name": "Surgutneftegas",
+      "country": "俄罗斯",
+      "operating_receipt_in_million_dollars": "21976.0",
+      "profit_in_million_dollars": "5785.2"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/421/",
+      "rank2009": "421",
+      "rank2008": "389",
+      "name": "Cemex",
+      "country": "墨西哥",
+      "operating_receipt_in_million_dollars": "21820.2",
+      "profit_in_million_dollars": "204.4"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/422/",
+      "rank2009": "422",
+      "rank2008": "403",
+      "name": "Coca-Cola Enterprises",
+      "country": "美国",
+      "operating_receipt_in_million_dollars": "21807.0",
+      "profit_in_million_dollars": "-4394.0"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/423/",
+      "rank2009": "423",
+      "rank2008": ".",
+      "name": "Google",
+      "country": "美国",
+      "operating_receipt_in_million_dollars": "21795.6",
+      "profit_in_million_dollars": "4226.9"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/424/",
+      "rank2009": "424",
+      "rank2008": "411",
+      "name": "Skanska",
+      "country": "瑞典",
+      "operating_receipt_in_million_dollars": "21791.1",
+      "profit_in_million_dollars": "470.5"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/425/",
+      "rank2009": "425",
+      "rank2008": ".",
+      "name": "China Huaneng Group",
+      "country": "中国",
+      "operating_receipt_in_million_dollars": "21780.7",
+      "profit_in_million_dollars": "-512.6"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/426/",
+      "rank2009": "426",
+      "rank2008": ".",
+      "name": "Aviation Industry Corp. of China",
+      "country": "中国",
+      "operating_receipt_in_million_dollars": "21737.5",
+      "profit_in_million_dollars": "568.4"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/427/",
+      "rank2009": "427",
+      "rank2008": "374",
+      "name": "Northwestern Mutual",
+      "country": "美国",
+      "operating_receipt_in_million_dollars": "21734.4",
+      "profit_in_million_dollars": "483.2"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/428/",
+      "rank2009": "428",
+      "rank2008": ".",
+      "name": "China South Industries Group",
+      "country": "中国",
+      "operating_receipt_in_million_dollars": "21675.4",
+      "profit_in_million_dollars": "296.9"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/429/",
+      "rank2009": "429",
+      "rank2008": "451",
+      "name": "Kobe Steel",
+      "country": "日本",
+      "operating_receipt_in_million_dollars": "21672.8",
+      "profit_in_million_dollars": "-312.9"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/430/",
+      "rank2009": "430",
+      "rank2008": ".",
+      "name": "Hypo Real Estate Holding",
+      "country": "德国",
+      "operating_receipt_in_million_dollars": "21630.3",
+      "profit_in_million_dollars": "-7993.2"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/431/",
+      "rank2009": "431",
+      "rank2008": "421",
+      "name": "Crédit Industriel & Commercial",
+      "country": "法国",
+      "operating_receipt_in_million_dollars": "21582.0",
+      "profit_in_million_dollars": "248.8"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/432/",
+      "rank2009": "432",
+      "rank2008": "413",
+      "name": "Manpower",
+      "country": "美国",
+      "operating_receipt_in_million_dollars": "21552.8",
+      "profit_in_million_dollars": "218.9"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/433/",
+      "rank2009": "433",
+      "rank2008": "192",
+      "name": "Tyco International",
+      "country": "瑞士",
+      "operating_receipt_in_million_dollars": "21420.0",
+      "profit_in_million_dollars": "1553.0"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/434/",
+      "rank2009": "434",
+      "rank2008": "486",
+      "name": "Royal KPN",
+      "country": "荷兰",
+      "operating_receipt_in_million_dollars": "21372.7",
+      "profit_in_million_dollars": "1949.6"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/435/",
+      "rank2009": "435",
+      "rank2008": "427",
+      "name": "Bristol-Myers Squibb",
+      "country": "美国",
+      "operating_receipt_in_million_dollars": "21366.0",
+      "profit_in_million_dollars": "5247.0"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/436/",
+      "rank2009": "436",
+      "rank2008": "363",
+      "name": "Asustek Computer",
+      "country": "中国台湾",
+      "operating_receipt_in_million_dollars": "21173.9",
+      "profit_in_million_dollars": "521.9"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/437/",
+      "rank2009": "437",
+      "rank2008": "383",
+      "name": "Sumitomo Electric Industries",
+      "country": "日本",
+      "operating_receipt_in_million_dollars": "21122.3",
+      "profit_in_million_dollars": "171.6"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/438/",
+      "rank2009": "438",
+      "rank2008": ".",
+      "name": "Korea Gas",
+      "country": "韩国",
+      "operating_receipt_in_million_dollars": "21075.8",
+      "profit_in_million_dollars": "300.9"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/439/",
+      "rank2009": "439",
+      "rank2008": "314",
+      "name": "Groupama",
+      "country": "法国",
+      "operating_receipt_in_million_dollars": "21056.6",
+      "profit_in_million_dollars": "399.6"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/440/",
+      "rank2009": "440",
+      "rank2008": ".",
+      "name": "HeidelbergCement",
+      "country": "德国",
+      "operating_receipt_in_million_dollars": "21041.3",
+      "profit_in_million_dollars": "2646.6"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/441/",
+      "rank2009": "441",
+      "rank2008": ".",
+      "name": "S-Oil",
+      "country": "韩国",
+      "operating_receipt_in_million_dollars": "21019.9",
+      "profit_in_million_dollars": "406.0"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/442/",
+      "rank2009": "442",
+      "rank2008": "491",
+      "name": "Heineken Holding",
+      "country": "荷兰",
+      "operating_receipt_in_million_dollars": "21005.3",
+      "profit_in_million_dollars": "153.7"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/443/",
+      "rank2009": "443",
+      "rank2008": ".",
+      "name": "Acciona",
+      "country": "西班牙",
+      "operating_receipt_in_million_dollars": "20949.7",
+      "profit_in_million_dollars": "679.1"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/444/",
+      "rank2009": "444",
+      "rank2008": ".",
+      "name": "Jiangsu Shagang Group",
+      "country": "中国",
+      "operating_receipt_in_million_dollars": "20896.9",
+      "profit_in_million_dollars": "483.9"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/445/",
+      "rank2009": "445",
+      "rank2008": "438",
+      "name": "Ricoh",
+      "country": "日本",
+      "operating_receipt_in_million_dollars": "20820.8",
+      "profit_in_million_dollars": "65.0"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/446/",
+      "rank2009": "446",
+      "rank2008": "447",
+      "name": "Erste Group Bank",
+      "country": "奥地利",
+      "operating_receipt_in_million_dollars": "20811.2",
+      "profit_in_million_dollars": "1258.2"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/447/",
+      "rank2009": "447",
+      "rank2008": "424",
+      "name": "Grupo Ferrovial",
+      "country": "西班牙",
+      "operating_receipt_in_million_dollars": "20705.3",
+      "profit_in_million_dollars": "-1226.6"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/448/",
+      "rank2009": "448",
+      "rank2008": "468",
+      "name": "Henkel",
+      "country": "德国",
+      "operating_receipt_in_million_dollars": "20683.3",
+      "profit_in_million_dollars": "1787.2"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/449/",
+      "rank2009": "449",
+      "rank2008": ".",
+      "name": "Mol Hungarian Oil & Gas",
+      "country": "匈牙利",
+      "operating_receipt_in_million_dollars": "20644.3",
+      "profit_in_million_dollars": "821.3"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/450/",
+      "rank2009": "450",
+      "rank2008": ".",
+      "name": "Randstad Holding?",
+      "country": "荷兰",
+      "operating_receipt_in_million_dollars": "20547.8",
+      "profit_in_million_dollars": "26.6"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/451/",
+      "rank2009": "451",
+      "rank2008": "440",
+      "name": "Fomento de Construcciones",
+      "country": "西班牙",
+      "operating_receipt_in_million_dollars": "20515.4",
+      "profit_in_million_dollars": "493.6"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/452/",
+      "rank2009": "452",
+      "rank2008": ".",
+      "name": "Maruhan",
+      "country": "日本",
+      "operating_receipt_in_million_dollars": "20464.6",
+      "profit_in_million_dollars": "213.2"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/453/",
+      "rank2009": "453",
+      "rank2008": "305",
+      "name": "Delphi",
+      "country": "美国",
+      "operating_receipt_in_million_dollars": "20383.0",
+      "profit_in_million_dollars": "3037.0"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/454/",
+      "rank2009": "454",
+      "rank2008": ".",
+      "name": "Evraz Group",
+      "country": "俄罗斯",
+      "operating_receipt_in_million_dollars": "20380.0",
+      "profit_in_million_dollars": "1868.0"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/455/",
+      "rank2009": "455",
+      "rank2008": "453",
+      "name": "Eli Lilly",
+      "country": "美国",
+      "operating_receipt_in_million_dollars": "20378.0",
+      "profit_in_million_dollars": "-2071.9"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/456/",
+      "rank2009": "456",
+      "rank2008": "473",
+      "name": "Sodexo",
+      "country": "法国",
+      "operating_receipt_in_million_dollars": "20377.0",
+      "profit_in_million_dollars": "562.9"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/457/",
+      "rank2009": "457",
+      "rank2008": ".",
+      "name": "EDP-Energias de Portugal",
+      "country": "葡萄牙",
+      "operating_receipt_in_million_dollars": "20336.6",
+      "profit_in_million_dollars": "1598.2"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/458/",
+      "rank2009": "458",
+      "rank2008": "450",
+      "name": "Mitsui Sumitomo Insurance Group Holdings",
+      "country": "日本",
+      "operating_receipt_in_million_dollars": "20306.4",
+      "profit_in_million_dollars": "81.5"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/459/",
+      "rank2009": "459",
+      "rank2008": "422",
+      "name": "UAL",
+      "country": "美国",
+      "operating_receipt_in_million_dollars": "20194.0",
+      "profit_in_million_dollars": "-5348.0"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/460/",
+      "rank2009": "460",
+      "rank2008": "434",
+      "name": "Komatsu",
+      "country": "日本",
+      "operating_receipt_in_million_dollars": "20124.5",
+      "profit_in_million_dollars": "784.3"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/461/",
+      "rank2009": "461",
+      "rank2008": ".",
+      "name": "Imperial Tobacco Group",
+      "country": "英国",
+      "operating_receipt_in_million_dollars": "19915.2",
+      "profit_in_million_dollars": "842.6"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/462/",
+      "rank2009": "462",
+      "rank2008": ".",
+      "name": "Marquard & Bahls",
+      "country": "德国",
+      "operating_receipt_in_million_dollars": "19851.1",
+      "profit_in_million_dollars": "118.7"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/463/",
+      "rank2009": "463",
+      "rank2008": "364",
+      "name": "Nationwide",
+      "country": "美国",
+      "operating_receipt_in_million_dollars": "19848.0",
+      "profit_in_million_dollars": "-342.0"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/464/",
+      "rank2009": "464",
+      "rank2008": ".",
+      "name": "Gas Natural SDG",
+      "country": "西班牙",
+      "operating_receipt_in_million_dollars": "19824.2",
+      "profit_in_million_dollars": "1547.1"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/465/",
+      "rank2009": "465",
+      "rank2008": "399",
+      "name": "Constellation Energy",
+      "country": "美国",
+      "operating_receipt_in_million_dollars": "19818.3",
+      "profit_in_million_dollars": "-1314.4"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/466/",
+      "rank2009": "466",
+      "rank2008": ".",
+      "name": "Israel Corp.",
+      "country": "以色列",
+      "operating_receipt_in_million_dollars": "19802.0",
+      "profit_in_million_dollars": "320.0"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/467/",
+      "rank2009": "467",
+      "rank2008": ".",
+      "name": "Caltex Australia",
+      "country": "澳大利亚",
+      "operating_receipt_in_million_dollars": "19769.7",
+      "profit_in_million_dollars": "28.6"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/468/",
+      "rank2009": "468",
+      "rank2008": "481",
+      "name": "Bombardier",
+      "country": "加拿大",
+      "operating_receipt_in_million_dollars": "19721.0",
+      "profit_in_million_dollars": "1008.0"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/469/",
+      "rank2009": "469",
+      "rank2008": "487",
+      "name": "DirecTV Group",
+      "country": "美国",
+      "operating_receipt_in_million_dollars": "19693.0",
+      "profit_in_million_dollars": "1521.0"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/470/",
+      "rank2009": "470",
+      "rank2008": "350",
+      "name": "Mitsubishi Motors",
+      "country": "日本",
+      "operating_receipt_in_million_dollars": "19645.0",
+      "profit_in_million_dollars": "-546.3"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/471/",
+      "rank2009": "471",
+      "rank2008": ".",
+      "name": "Doosan",
+      "country": "韩国",
+      "operating_receipt_in_million_dollars": "19494.5",
+      "profit_in_million_dollars": "97.9"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/472/",
+      "rank2009": "472",
+      "rank2008": "410",
+      "name": "Goodyear Tire & Rubber",
+      "country": "美国",
+      "operating_receipt_in_million_dollars": "19488.0",
+      "profit_in_million_dollars": "-77.0"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/473/",
+      "rank2009": "473",
+      "rank2008": "488",
+      "name": "Eiffage",
+      "country": "法国",
+      "operating_receipt_in_million_dollars": "19462.6",
+      "profit_in_million_dollars": "440.6"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/474/",
+      "rank2009": "474",
+      "rank2008": "435",
+      "name": "Japan Airlines",
+      "country": "日本",
+      "operating_receipt_in_million_dollars": "19421.9",
+      "profit_in_million_dollars": "-629.0"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/475/",
+      "rank2009": "475",
+      "rank2008": "458",
+      "name": "Kimberly-Clark",
+      "country": "美国",
+      "operating_receipt_in_million_dollars": "19415.0",
+      "profit_in_million_dollars": "1690.0"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/476/",
+      "rank2009": "476",
+      "rank2008": ".",
+      "name": "Norddeutsche Landesbank",
+      "country": "德国",
+      "operating_receipt_in_million_dollars": "19409.9",
+      "profit_in_million_dollars": "219.6"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/477/",
+      "rank2009": "477",
+      "rank2008": "471",
+      "name": "Skandinaviska Enskilda Banken",
+      "country": "瑞典",
+      "operating_receipt_in_million_dollars": "19405.6",
+      "profit_in_million_dollars": "1522.9"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/478/",
+      "rank2009": "478",
+      "rank2008": ".",
+      "name": "Kajima",
+      "country": "日本",
+      "operating_receipt_in_million_dollars": "19395.9",
+      "profit_in_million_dollars": "-62.7"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/479/",
+      "rank2009": "479",
+      "rank2008": "454",
+      "name": "Bank of Montreal",
+      "country": "加拿大",
+      "operating_receipt_in_million_dollars": "19365.3",
+      "profit_in_million_dollars": "1928.0"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/480/",
+      "rank2009": "480",
+      "rank2008": ".",
+      "name": "AREVA",
+      "country": "法国",
+      "operating_receipt_in_million_dollars": "19308.9",
+      "profit_in_million_dollars": "862.1"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/481/",
+      "rank2009": "481",
+      "rank2008": ".",
+      "name": "Neste Oil",
+      "country": "芬兰",
+      "operating_receipt_in_million_dollars": "19298.7",
+      "profit_in_million_dollars": "142.0"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/482/",
+      "rank2009": "482",
+      "rank2008": ".",
+      "name": "Alfresa Holdings",
+      "country": "日本",
+      "operating_receipt_in_million_dollars": "19259.8",
+      "profit_in_million_dollars": "55.4"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/483/",
+      "rank2009": "483",
+      "rank2008": "417",
+      "name": "U.S. Bancorp",
+      "country": "美国",
+      "operating_receipt_in_million_dollars": "19229.0",
+      "profit_in_million_dollars": "2946.0"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/484/",
+      "rank2009": "484",
+      "rank2008": ".",
+      "name": "L'Air Liquide",
+      "country": "法国",
+      "operating_receipt_in_million_dollars": "19178.8",
+      "profit_in_million_dollars": "1785.7"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/485/",
+      "rank2009": "485",
+      "rank2008": ".",
+      "name": "Amazon.com",
+      "country": "美国",
+      "operating_receipt_in_million_dollars": "19166.0",
+      "profit_in_million_dollars": "645.0"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/486/",
+      "rank2009": "486",
+      "rank2008": "452",
+      "name": "TJX",
+      "country": "美国",
+      "operating_receipt_in_million_dollars": "19147.5",
+      "profit_in_million_dollars": "880.6"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/487/",
+      "rank2009": "487",
+      "rank2008": "474",
+      "name": "Cigna",
+      "country": "美国",
+      "operating_receipt_in_million_dollars": "19101.0",
+      "profit_in_million_dollars": "292.0"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/488/",
+      "rank2009": "488",
+      "rank2008": "436",
+      "name": "Whirlpool",
+      "country": "美国",
+      "operating_receipt_in_million_dollars": "18907.0",
+      "profit_in_million_dollars": "418.0"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/489/",
+      "rank2009": "489",
+      "rank2008": "444",
+      "name": "Exelon",
+      "country": "美国",
+      "operating_receipt_in_million_dollars": "18859.0",
+      "profit_in_million_dollars": "2737.0"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/490/",
+      "rank2009": "490",
+      "rank2008": ".",
+      "name": "Rexel",
+      "country": "法国",
+      "operating_receipt_in_million_dollars": "18825.3",
+      "profit_in_million_dollars": "336.9"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/491/",
+      "rank2009": "491",
+      "rank2008": ".",
+      "name": "Shimizu",
+      "country": "日本",
+      "operating_receipt_in_million_dollars": "18789.0",
+      "profit_in_million_dollars": "62.6"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/492/",
+      "rank2009": "492",
+      "rank2008": "467",
+      "name": "Premafin Finanziaria",
+      "country": "意大利",
+      "operating_receipt_in_million_dollars": "18766.2",
+      "profit_in_million_dollars": "9.7"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/493/",
+      "rank2009": "493",
+      "rank2008": "321",
+      "name": "Massachusetts Mutual Life Insurance",
+      "country": "美国",
+      "operating_receipt_in_million_dollars": "18744.6",
+      "profit_in_million_dollars": "-923.8"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/494/",
+      "rank2009": "494",
+      "rank2008": ".",
+      "name": "Bank of Communications",
+      "country": "中国",
+      "operating_receipt_in_million_dollars": "18677.0",
+      "profit_in_million_dollars": "4085.4"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/495/",
+      "rank2009": "495",
+      "rank2008": "475",
+      "name": "Samsung C&T?",
+      "country": "韩国",
+      "operating_receipt_in_million_dollars": "18635.2",
+      "profit_in_million_dollars": "314.5"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/496/",
+      "rank2009": "496",
+      "rank2008": ".",
+      "name": "Yamada Denki",
+      "country": "日本",
+      "operating_receipt_in_million_dollars": "18632.3",
+      "profit_in_million_dollars": "330.5"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/497/",
+      "rank2009": "497",
+      "rank2008": ".",
+      "name": "Nike",
+      "country": "美国",
+      "operating_receipt_in_million_dollars": "18627.0",
+      "profit_in_million_dollars": "1883.4"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/498/",
+      "rank2009": "498",
+      "rank2008": ".",
+      "name": "Kirin Holdings?",
+      "country": "日本",
+      "operating_receipt_in_million_dollars": "18603.6",
+      "profit_in_million_dollars": "775.8"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/499/",
+      "rank2009": "499",
+      "rank2008": "476",
+      "name": "Aluminum Corp. of China",
+      "country": "中国",
+      "operating_receipt_in_million_dollars": "18578.7",
+      "profit_in_million_dollars": "-744.0"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/500/",
+      "rank2009": "500",
+      "rank2008": "494",
+      "name": "Mitsui OSK Lines",
+      "country": "日本",
+      "operating_receipt_in_million_dollars": "18572.3",
+      "profit_in_million_dollars": "1264.0"
+    }
+  ]
+}

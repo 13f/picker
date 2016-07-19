@@ -1,0 +1,4547 @@
+﻿{
+  "title": "2014年财富世界500强排行榜",
+  "url": "http://www.fortunechina.com/fortune500/c/2014-07/07/content_212535.htm",
+  "tags": [
+    {
+      "content": "2014; fortune; world; global; 500",
+      "language": "us"
+    },
+    {
+      "content": "2014年; 财富; 世界; 500强",
+      "language": "zh-hans"
+    }
+  ],
+  "publishedAt": "2014-7-7",
+  "config": [
+    {
+      "name": "rank2014",
+      "title": "2014年排名"
+    },
+    {
+      "name": "rank2013",
+      "title": "2013年排名"
+    },
+    {
+      "name": "name",
+      "title": "名称"
+    },
+    {
+      "name": "operating_receipt_in_million_dollars",
+      "title": "营业收入（百万美元）"
+    },
+    {
+      "name": "profit_in_million_dollars",
+      "title": "利润（百万美元）"
+    },
+    {
+      "name": "country",
+      "title": "国家"
+    },
+    {
+      "name": "",
+      "title": ""
+    }
+  ],
+  "data": [
+    {
+      "url": "http://www.fortunechina.com/global500/3/2014",
+      "rank2014": 1,
+      "rank2013": 2,
+      "name": "沃尔玛（WAL-MART STORES)",
+      "operating_receipt_in_million_dollars": "476294.0",
+      "profit_in_million_dollars": "16022.0",
+      "country": "美国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/1/2014",
+      "rank2014": 2,
+      "rank2013": 1,
+      "name": "荷兰皇家壳牌石油公司（ROYAL DUTCH SHELL)",
+      "operating_receipt_in_million_dollars": "459599.0",
+      "profit_in_million_dollars": "16371.0",
+      "country": "荷兰"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/9/2014",
+      "rank2014": 3,
+      "rank2013": 4,
+      "name": "中国石油化工集团公司（SINOPEC GROUP)",
+      "operating_receipt_in_million_dollars": "457201.1",
+      "profit_in_million_dollars": "8932.1",
+      "country": "中国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/13/2014",
+      "rank2014": 4,
+      "rank2013": 5,
+      "name": "中国石油天然气集团公司（CHINA NATIONAL PETROLEUM)",
+      "operating_receipt_in_million_dollars": "432007.7",
+      "profit_in_million_dollars": "18504.8",
+      "country": "中国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/2/2014",
+      "rank2014": 5,
+      "rank2013": 3,
+      "name": "埃克森美孚（EXXON MOBIL)",
+      "operating_receipt_in_million_dollars": "407666.0",
+      "profit_in_million_dollars": "32580.0",
+      "country": "美国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/4/2014",
+      "rank2014": 6,
+      "rank2013": 6,
+      "name": "英国石油公司（BP)",
+      "operating_receipt_in_million_dollars": "396217.0",
+      "profit_in_million_dollars": "23451.0",
+      "country": "英国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/15/2014",
+      "rank2014": 7,
+      "rank2013": 7,
+      "name": "国家电网公司（STATE GRID)",
+      "operating_receipt_in_million_dollars": "333386.5",
+      "profit_in_million_dollars": "7982.8",
+      "country": "中国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/14/2014",
+      "rank2014": 8,
+      "rank2013": 9,
+      "name": "大众公司（VOLKSWAGEN)",
+      "operating_receipt_in_million_dollars": "261539.1",
+      "profit_in_million_dollars": "12071.5",
+      "country": "德国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/10/2014",
+      "rank2014": 9,
+      "rank2013": 8,
+      "name": "丰田汽车公司（TOYOTA MOTOR)",
+      "operating_receipt_in_million_dollars": "256454.8",
+      "profit_in_million_dollars": "18198.2",
+      "country": "日本"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/550/2014",
+      "rank2014": 10,
+      "rank2013": 12,
+      "name": "嘉能可（GLENCORE)",
+      "operating_receipt_in_million_dollars": "232694.0",
+      "profit_in_million_dollars": "-7402.0",
+      "country": "瑞士"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/6/2014",
+      "rank2014": 11,
+      "rank2013": 10,
+      "name": "道达尔公司（TOTAL)",
+      "operating_receipt_in_million_dollars": "227882.7",
+      "profit_in_million_dollars": "11204.6",
+      "country": "法国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/5/2014",
+      "rank2014": 12,
+      "rank2013": 11,
+      "name": "雪佛龙（CHEVRON)",
+      "operating_receipt_in_million_dollars": "220356.0",
+      "profit_in_million_dollars": "21423.0",
+      "country": "美国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/40/2014",
+      "rank2014": 13,
+      "rank2013": 14,
+      "name": "三星电子（SAMSUNG ELECTRONICS)",
+      "operating_receipt_in_million_dollars": "208938.4",
+      "profit_in_million_dollars": "27245.3",
+      "country": "韩国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/41/2014",
+      "rank2014": 14,
+      "rank2013": 18,
+      "name": "伯克希尔－哈撒韦公司（BERKSHIRE HATHAWAY)",
+      "operating_receipt_in_million_dollars": "182150.0",
+      "profit_in_million_dollars": "19476.0",
+      "country": "美国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/253/2014",
+      "rank2014": 15,
+      "rank2013": 19,
+      "name": "苹果公司（APPLE)",
+      "operating_receipt_in_million_dollars": "170910.0",
+      "profit_in_million_dollars": "37037.0",
+      "country": "美国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/73/2014",
+      "rank2014": 16,
+      "rank2013": 20,
+      "name": "安盛（AXA)",
+      "operating_receipt_in_million_dollars": "165893.5",
+      "profit_in_million_dollars": "5950.1",
+      "country": "法国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/22/2014",
+      "rank2014": 17,
+      "rank2013": 21,
+      "name": "俄罗斯天然气工业股份公司（GAZPROM)",
+      "operating_receipt_in_million_dollars": "165016.7",
+      "profit_in_million_dollars": "35769.4",
+      "country": "俄罗斯"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/26/2014",
+      "rank2014": 18,
+      "rank2013": 15,
+      "name": "意昂集团（E.ON)",
+      "operating_receipt_in_million_dollars": "162560.0",
+      "profit_in_million_dollars": "2843.6",
+      "country": "德国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/608/2014",
+      "rank2014": 19,
+      "rank2013": 16,
+      "name": "Phillips 66公司（Phillips 66)",
+      "operating_receipt_in_million_dollars": "161175.0",
+      "profit_in_million_dollars": "3726.0",
+      "country": "美国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/23/2014",
+      "rank2014": 20,
+      "rank2013": 23,
+      "name": "戴姆勒股份公司（DAIMLER)",
+      "operating_receipt_in_million_dollars": "156628.4",
+      "profit_in_million_dollars": "9083.2",
+      "country": "德国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/18/2014",
+      "rank2014": 21,
+      "rank2013": 22,
+      "name": "通用汽车公司（GENERAL MOTORS)",
+      "operating_receipt_in_million_dollars": "155427.0",
+      "profit_in_million_dollars": "5346.0",
+      "country": "美国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/17/2014",
+      "rank2014": 22,
+      "rank2013": 17,
+      "name": "埃尼石油公司（ENI)",
+      "operating_receipt_in_million_dollars": "154108.7",
+      "profit_in_million_dollars": "6850.2",
+      "country": "意大利"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/11/2014",
+      "rank2014": 23,
+      "rank2013": 13,
+      "name": "日本邮政控股公司（JAPAN POST HOLDINGS)",
+      "operating_receipt_in_million_dollars": "152125.8",
+      "profit_in_million_dollars": "4782.1",
+      "country": "日本"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/551/2014",
+      "rank2014": 24,
+      "rank2013": 26,
+      "name": "EXOR集团（EXOR GROUP)",
+      "operating_receipt_in_million_dollars": "150996.9",
+      "profit_in_million_dollars": "2768.0",
+      "country": "意大利"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/92/2014",
+      "rank2014": 25,
+      "rank2013": 29,
+      "name": "中国工商银行（INDUSTRIAL & COMMERCIAL BANK OF CHINA)",
+      "operating_receipt_in_million_dollars": "148802.6",
+      "profit_in_million_dollars": "42718.1",
+      "country": "中国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/19/2014",
+      "rank2014": 26,
+      "rank2013": 28,
+      "name": "福特汽车公司（FORD MOTOR)",
+      "operating_receipt_in_million_dollars": "146917.0",
+      "profit_in_million_dollars": "7155.0",
+      "country": "美国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/12/2014",
+      "rank2014": 27,
+      "rank2013": 24,
+      "name": "通用电气公司（GENERAL ELECTRIC)",
+      "operating_receipt_in_million_dollars": "146231.0",
+      "profit_in_million_dollars": "13057.0",
+      "country": "美国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/34/2014",
+      "rank2014": 28,
+      "rank2013": 25,
+      "name": "巴西国家石油公司（PETROBRAS)",
+      "operating_receipt_in_million_dollars": "141462.0",
+      "profit_in_million_dollars": "11094.0",
+      "country": "巴西"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/42/2014",
+      "rank2014": 29,
+      "rank2013": 42,
+      "name": "麦克森公司（MCKESSON)",
+      "operating_receipt_in_million_dollars": "138030.0",
+      "profit_in_million_dollars": "1263.0",
+      "country": "美国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/33/2014",
+      "rank2014": 30,
+      "rank2013": 27,
+      "name": "瓦莱罗能源公司（VALERO ENERGY)",
+      "operating_receipt_in_million_dollars": "137758.0",
+      "profit_in_million_dollars": "2720.0",
+      "country": "美国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/20/2014",
+      "rank2014": 31,
+      "rank2013": 31,
+      "name": "安联保险集团（ALLIANZ)",
+      "operating_receipt_in_million_dollars": "134636.1",
+      "profit_in_million_dollars": "7960.1",
+      "country": "德国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/109/2014",
+      "rank2014": 32,
+      "rank2013": 30,
+      "name": "鸿海精密工业股份有限公司（HON HAI PRECISION INDUSTRY)",
+      "operating_receipt_in_million_dollars": "133161.7",
+      "profit_in_million_dollars": "3594.8",
+      "country": "中国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/43/2014",
+      "rank2014": 33,
+      "rank2013": 61,
+      "name": "法国兴业银行（SOCIÉTÉ GÉNÉRALE)",
+      "operating_receipt_in_million_dollars": "132711.1",
+      "profit_in_million_dollars": "2887.4",
+      "country": "法国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/29/2014",
+      "rank2014": 34,
+      "rank2013": 34,
+      "name": "美国电话电报公司（AT&T)",
+      "operating_receipt_in_million_dollars": "128752.0",
+      "profit_in_million_dollars": "18249.0",
+      "country": "美国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/63/2014",
+      "rank2014": 35,
+      "rank2013": 40,
+      "name": "CVS Caremark公司（CVS CAREMARK)",
+      "operating_receipt_in_million_dollars": "126761.0",
+      "profit_in_million_dollars": "4592.0",
+      "country": "美国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/31/2014",
+      "rank2014": 36,
+      "rank2013": 36,
+      "name": "墨西哥石油公司（PEMEX)",
+      "operating_receipt_in_million_dollars": "125943.9",
+      "profit_in_million_dollars": "-13302.7",
+      "country": "墨西哥"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/405/2014",
+      "rank2014": 37,
+      "rank2013": 35,
+      "name": "房利美（FANNIE MAE)",
+      "operating_receipt_in_million_dollars": "125696.0",
+      "profit_in_million_dollars": "83963.0",
+      "country": "美国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/125/2014",
+      "rank2014": 38,
+      "rank2013": 50,
+      "name": "中国建设银行（CHINA CONSTRUCTION BANK)",
+      "operating_receipt_in_million_dollars": "125397.7",
+      "profit_in_million_dollars": "34912.5",
+      "country": "中国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/71/2014",
+      "rank2014": 39,
+      "rank2013": 51,
+      "name": "联合健康集团（UNITEDHEALTH GROUP)",
+      "operating_receipt_in_million_dollars": "122489.0",
+      "profit_in_million_dollars": "5625.0",
+      "country": "美国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/24/2014",
+      "rank2014": 40,
+      "rank2013": 41,
+      "name": "法国巴黎银行（BNP PARIBAS)",
+      "operating_receipt_in_million_dollars": "121939.2",
+      "profit_in_million_dollars": "6414.8",
+      "country": "法国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/27/2014",
+      "rank2014": 41,
+      "rank2013": 38,
+      "name": "委内瑞拉国家石油公司（PDVSA)",
+      "operating_receipt_in_million_dollars": "120979.0",
+      "profit_in_million_dollars": "12933.0",
+      "country": "委内瑞拉"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/55/2014",
+      "rank2014": 42,
+      "rank2013": 48,
+      "name": "威瑞森电信（VERIZON COMMUNICATIONS)",
+      "operating_receipt_in_million_dollars": "120550.0",
+      "profit_in_million_dollars": "11497.0",
+      "country": "美国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/65/2014",
+      "rank2014": 43,
+      "rank2013": 46,
+      "name": "卢克石油公司（LUKOIL)",
+      "operating_receipt_in_million_dollars": "119118.0",
+      "profit_in_million_dollars": "7832.0",
+      "country": "俄罗斯"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/53/2014",
+      "rank2014": 44,
+      "rank2013": 37,
+      "name": "苏伊士集团（GDF SUEZ)",
+      "operating_receipt_in_million_dollars": "118551.3",
+      "profit_in_million_dollars": "-12331.7",
+      "country": "法国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/51/2014",
+      "rank2014": 45,
+      "rank2013": 45,
+      "name": "本田汽车（HONDA MOTOR)",
+      "operating_receipt_in_million_dollars": "118210.5",
+      "profit_in_million_dollars": "5730.7",
+      "country": "日本"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/158/2014",
+      "rank2014": 46,
+      "rank2013": 99,
+      "name": "俄罗斯石油公司（ROSNEFT OIL)",
+      "operating_receipt_in_million_dollars": "117079.3",
+      "profit_in_million_dollars": "17111.4",
+      "country": "俄罗斯"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/155/2014",
+      "rank2014": 47,
+      "rank2013": 64,
+      "name": "中国农业银行（AGRICULTURAL BANK OF CHINA)",
+      "operating_receipt_in_million_dollars": "115392.1",
+      "profit_in_million_dollars": "27050.0",
+      "country": "中国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/47/2014",
+      "rank2014": 48,
+      "rank2013": 49,
+      "name": "意大利忠利保险公司（ASSICURAZIONI GENERALI)",
+      "operating_receipt_in_million_dollars": "115224.4",
+      "profit_in_million_dollars": "2542.3",
+      "country": "意大利"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/8/2014",
+      "rank2014": 49,
+      "rank2013": 33,
+      "name": "荷兰国际集团（ING GROUP)",
+      "operating_receipt_in_million_dollars": "114295.1",
+      "profit_in_million_dollars": "6076.3",
+      "country": "荷兰"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/32/2014",
+      "rank2014": 50,
+      "rank2013": 43,
+      "name": "惠普（HEWLETT-PACKARD)",
+      "operating_receipt_in_million_dollars": "112298.0",
+      "profit_in_million_dollars": "5113.0",
+      "country": "美国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/101/2014",
+      "rank2014": 51,
+      "rank2013": 44,
+      "name": "JX控股公司（JX HOLDINGS)",
+      "operating_receipt_in_million_dollars": "111014.1",
+      "profit_in_million_dollars": "1068.5",
+      "country": "日本"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/292/2014",
+      "rank2014": 52,
+      "rank2013": 80,
+      "name": "中国建筑股份有限公司（CHINA STATE CONSTRUCTION ENGINEERING)",
+      "operating_receipt_in_million_dollars": "110811.6",
+      "profit_in_million_dollars": "1853.2",
+      "country": "中国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/44/2014",
+      "rank2014": 53,
+      "rank2013": 32,
+      "name": "日本电报电话公司（NIPPON TELEGRAPH & TELEPHONE)",
+      "operating_receipt_in_million_dollars": "109054.3",
+      "profit_in_million_dollars": "5844.1",
+      "country": "日本"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/36/2014",
+      "rank2014": 54,
+      "rank2013": 39,
+      "name": "挪威国家石油公司（STATOIL)",
+      "operating_receipt_in_million_dollars": "108459.4",
+      "profit_in_million_dollars": "6789.3",
+      "country": "挪威"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/99/2014",
+      "rank2014": 55,
+      "rank2013": 71,
+      "name": "中国移动通信集团公司（CHINA MOBILE COMMUNICATIONS)",
+      "operating_receipt_in_million_dollars": "107647.3",
+      "profit_in_million_dollars": "9197.9",
+      "country": "中国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/62/2014",
+      "rank2014": 56,
+      "rank2013": 52,
+      "name": "意大利国家电力公司（ENEL)",
+      "operating_receipt_in_million_dollars": "106915.2",
+      "profit_in_million_dollars": "4294.7",
+      "country": "意大利"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/49/2014",
+      "rank2014": 57,
+      "rank2013": 55,
+      "name": "摩根大通（J.P. MORGAN CHASE & CO.)",
+      "operating_receipt_in_million_dollars": "106283.0",
+      "profit_in_million_dollars": "17923.0",
+      "country": "美国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/30/2014",
+      "rank2014": 58,
+      "rank2013": 53,
+      "name": "西门子（SIEMENS)",
+      "operating_receipt_in_million_dollars": "106124.0",
+      "profit_in_million_dollars": "5620.0",
+      "country": "德国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/145/2014",
+      "rank2014": 59,
+      "rank2013": 70,
+      "name": "中国银行（BANK OF CHINA)",
+      "operating_receipt_in_million_dollars": "105622.6",
+      "profit_in_million_dollars": "25520.5",
+      "country": "中国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/88/2014",
+      "rank2014": 60,
+      "rank2013": 67,
+      "name": "好市多（COSTCO WHOLESALE)",
+      "operating_receipt_in_million_dollars": "105156.0",
+      "profit_in_million_dollars": "2039.0",
+      "country": "美国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/67/2014",
+      "rank2014": 61,
+      "rank2013": 47,
+      "name": "日产汽车（NISSAN MOTOR)",
+      "operating_receipt_in_million_dollars": "104635.8",
+      "profit_in_million_dollars": "3883.3",
+      "country": "日本"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/418/2014",
+      "rank2014": 62,
+      "rank2013": 74,
+      "name": "美国快捷药方控股公司（EXPRESS SCRIPTS HOLDING)",
+      "operating_receipt_in_million_dollars": "104620.0",
+      "profit_in_million_dollars": "1844.6",
+      "country": "美国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/56/2014",
+      "rank2014": 63,
+      "rank2013": 63,
+      "name": "乐购（TESCO)",
+      "operating_receipt_in_million_dollars": "103278.1",
+      "profit_in_million_dollars": "1534.8",
+      "country": "英国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/72/2014",
+      "rank2014": 64,
+      "rank2013": 57,
+      "name": "SK集团（SK HOLDINGS)",
+      "operating_receipt_in_million_dollars": "102122.1",
+      "profit_in_million_dollars": "258.2",
+      "country": "韩国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/25/2014",
+      "rank2014": 65,
+      "rank2013": 59,
+      "name": "家乐福（CARREFOUR)",
+      "operating_receipt_in_million_dollars": "101790.8",
+      "profit_in_million_dollars": "1676.7",
+      "country": "法国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/37/2014",
+      "rank2014": 66,
+      "rank2013": 66,
+      "name": "美国银行（BANK OF AMERICA CORP.)",
+      "operating_receipt_in_million_dollars": "101697.0",
+      "profit_in_million_dollars": "11431.0",
+      "country": "美国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/60/2014",
+      "rank2014": 67,
+      "rank2013": 56,
+      "name": "康德乐（CARDINAL HEALTH)",
+      "operating_receipt_in_million_dollars": "101093.0",
+      "profit_in_million_dollars": "334.0",
+      "country": "美国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/78/2014",
+      "rank2014": 68,
+      "rank2013": 68,
+      "name": "宝马集团（BMW Group)",
+      "operating_receipt_in_million_dollars": "100971.7",
+      "profit_in_million_dollars": "7054.7",
+      "country": "德国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/80/2014",
+      "rank2014": 69,
+      "rank2013": 75,
+      "name": "马来西亚国家石油公司（PETRONAS)",
+      "operating_receipt_in_million_dollars": "100744.9",
+      "profit_in_million_dollars": "17180.8",
+      "country": "马来西亚"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/57/2014",
+      "rank2014": 70,
+      "rank2013": 77,
+      "name": "法国电力公司（ÉLECTRICITÉ DE FRANCE)",
+      "operating_receipt_in_million_dollars": "100355.7",
+      "profit_in_million_dollars": "4669.0",
+      "country": "法国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/45/2014",
+      "rank2014": 71,
+      "rank2013": 62,
+      "name": "国际商业机器公司（INTERNATIONAL BUSINESS MACHINES)",
+      "operating_receipt_in_million_dollars": "99751.0",
+      "profit_in_million_dollars": "16483.0",
+      "country": "美国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/48/2014",
+      "rank2014": 72,
+      "rank2013": 69,
+      "name": "雀巢公司（NESTLÉ)",
+      "operating_receipt_in_million_dollars": "99453.6",
+      "profit_in_million_dollars": "10807.8",
+      "country": "瑞士"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/35/2014",
+      "rank2014": 73,
+      "rank2013": 58,
+      "name": "西班牙国家银行（BANCO SANTANDER)",
+      "operating_receipt_in_million_dollars": "98506.4",
+      "profit_in_million_dollars": "5801.4",
+      "country": "西班牙"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/82/2014",
+      "rank2014": 74,
+      "rank2013": 72,
+      "name": "克罗格（KROGER)",
+      "operating_receipt_in_million_dollars": "98375.0",
+      "profit_in_million_dollars": "1519.0",
+      "country": "美国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/59/2014",
+      "rank2014": 75,
+      "rank2013": 65,
+      "name": "巴斯夫公司（BASF)",
+      "operating_receipt_in_million_dollars": "98203.8",
+      "profit_in_million_dollars": "6428.1",
+      "country": "德国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/218/2014",
+      "rank2014": 76,
+      "rank2013": 76,
+      "name": "来宝集团（NOBLE GROUP)",
+      "operating_receipt_in_million_dollars": "97878.3",
+      "profit_in_million_dollars": "243.5",
+      "country": "中国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/21/2014",
+      "rank2014": 77,
+      "rank2013": 60,
+      "name": "汇丰银行控股公司（HSBC HOLDINGS)",
+      "operating_receipt_in_million_dollars": "97529.0",
+      "profit_in_million_dollars": "16204.0",
+      "country": "英国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/52/2014",
+      "rank2014": 78,
+      "rank2013": 54,
+      "name": "日立（HITACHI)",
+      "operating_receipt_in_million_dollars": "95988.2",
+      "profit_in_million_dollars": "2645.0",
+      "country": "日本"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/318/2014",
+      "rank2014": 79,
+      "rank2013": 93,
+      "name": "中国海洋石油总公司（CHINA NATIONAL OFFSHORE OIL)",
+      "operating_receipt_in_million_dollars": "95971.5",
+      "profit_in_million_dollars": "7700.8",
+      "country": "中国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/252/2014",
+      "rank2014": 80,
+      "rank2013": 100,
+      "name": "中国铁道建筑总公司（CHINA RAILWAY CONSTRUCTION)",
+      "operating_receipt_in_million_dollars": "95746.8",
+      "profit_in_million_dollars": "986.5",
+      "country": "中国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/578/2014",
+      "rank2014": 81,
+      "rank2013": 101,
+      "name": "马拉松原油公司（MARATHON PETROLEUM)",
+      "operating_receipt_in_million_dollars": "93991.0",
+      "profit_in_million_dollars": "2112.0",
+      "country": "美国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/39/2014",
+      "rank2014": 82,
+      "rank2013": 79,
+      "name": "花旗集团（CITIGROUP)",
+      "operating_receipt_in_million_dollars": "93629.0",
+      "profit_in_million_dollars": "13673.0",
+      "country": "美国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/46/2014",
+      "rank2014": 83,
+      "rank2013": 73,
+      "name": "法国农业信贷银行（CRÉDIT AGRICOLE)",
+      "operating_receipt_in_million_dollars": "93618.4",
+      "profit_in_million_dollars": "3325.5",
+      "country": "法国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/118/2014",
+      "rank2014": 84,
+      "rank2013": 81,
+      "name": "泰国国家石油有限公司（PTT)",
+      "operating_receipt_in_million_dollars": "92556.6",
+      "profit_in_million_dollars": "3081.8",
+      "country": "泰国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/579/2014",
+      "rank2014": 85,
+      "rank2013": 103,
+      "name": "上海汽车集团股份有限公司（SAIC MOTOR)",
+      "operating_receipt_in_million_dollars": "92024.8",
+      "profit_in_million_dollars": "4034.1",
+      "country": "中国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/242/2014",
+      "rank2014": 86,
+      "rank2013": 102,
+      "name": "中国中铁股份有限公司（CHINA RAILWAY GROUP)",
+      "operating_receipt_in_million_dollars": "91152.6",
+      "profit_in_million_dollars": "1524.7",
+      "country": "中国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/93/2014",
+      "rank2014": 87,
+      "rank2013": 82,
+      "name": "ADM公司（ARCHER DANIELS MIDLAND)",
+      "operating_receipt_in_million_dollars": "89804.0",
+      "profit_in_million_dollars": "1342.0",
+      "country": "美国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/91/2014",
+      "rank2014": 88,
+      "rank2013": 98,
+      "name": "美源伯根公司（AMERISOURCEBERGEN)",
+      "operating_receipt_in_million_dollars": "89140.4",
+      "profit_in_million_dollars": "433.7",
+      "country": "美国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/142/2014",
+      "rank2014": 89,
+      "rank2013": 78,
+      "name": "美国富国银行（WELLS FARGO)",
+      "operating_receipt_in_million_dollars": "88069.0",
+      "profit_in_million_dollars": "21878.0",
+      "country": "美国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/116/2014",
+      "rank2014": 90,
+      "rank2013": 95,
+      "name": "波音（BOEING)",
+      "operating_receipt_in_million_dollars": "86623.0",
+      "profit_in_million_dollars": "4585.0",
+      "country": "美国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/50/2014",
+      "rank2014": 91,
+      "rank2013": 87,
+      "name": "麦德龙（METRO)",
+      "operating_receipt_in_million_dollars": "86347.3",
+      "profit_in_million_dollars": "504.5",
+      "country": "德国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/68/2014",
+      "rank2014": 92,
+      "rank2013": 89,
+      "name": "宝洁公司（PROCTER & GAMBLE)",
+      "operating_receipt_in_million_dollars": "84167.0",
+      "profit_in_million_dollars": "11312.0",
+      "country": "美国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/95/2014",
+      "rank2014": 93,
+      "rank2013": 92,
+      "name": "慕尼黑再保险公司（MUNICH RE GROUP)",
+      "operating_receipt_in_million_dollars": "83844.8",
+      "profit_in_million_dollars": "4398.2",
+      "country": "德国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/256/2014",
+      "rank2014": 94,
+      "rank2013": 85,
+      "name": "英国劳埃德银行集团（LLOYDS BANKING GROUP)",
+      "operating_receipt_in_million_dollars": "83149.5",
+      "profit_in_million_dollars": "-1309.9",
+      "country": "英国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/503/2014",
+      "rank2014": 95,
+      "rank2013": 84,
+      "name": "英国保诚集团（PRUDENTIAL)",
+      "operating_receipt_in_million_dollars": "81867.7",
+      "profit_in_million_dollars": "2103.9",
+      "country": "英国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/105/2014",
+      "rank2014": 96,
+      "rank2013": 88,
+      "name": "印度石油公司（INDIAN OIL)",
+      "operating_receipt_in_million_dollars": "81323.9",
+      "profit_in_million_dollars": "1171.7",
+      "country": "印度"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/508/2014",
+      "rank2014": 97,
+      "rank2013": 96,
+      "name": "房地美（FREDDIE MAC)",
+      "operating_receipt_in_million_dollars": "81221.0",
+      "profit_in_million_dollars": "48668.0",
+      "country": "美国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/133/2014",
+      "rank2014": 98,
+      "rank2013": 111,
+      "name": "中国人寿保险（集团）公司（CHINA LIFE INSURANCE)",
+      "operating_receipt_in_million_dollars": "80909.4",
+      "profit_in_million_dollars": "594.8",
+      "country": "中国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/61/2014",
+      "rank2014": 99,
+      "rank2013": 105,
+      "name": "德国电信（DEUTSCHE TELEKOM)",
+      "operating_receipt_in_million_dollars": "79829.0",
+      "profit_in_million_dollars": "1234.6",
+      "country": "德国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/87/2014",
+      "rank2014": 100,
+      "rank2013": 104,
+      "name": "现代汽车（HYUNDAI MOTOR)",
+      "operating_receipt_in_million_dollars": "79766.1",
+      "profit_in_million_dollars": "7804.0",
+      "country": "韩国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/28/2014",
+      "rank2014": 101,
+      "rank2013": 91,
+      "name": "安赛乐米塔尔（ARCELORMITTAL)",
+      "operating_receipt_in_million_dollars": "79440.0",
+      "profit_in_million_dollars": "-2545.0",
+      "country": "卢森堡"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/90/2014",
+      "rank2014": 102,
+      "rank2013": 106,
+      "name": "家得宝（HOME DEPOT)",
+      "operating_receipt_in_million_dollars": "78812.0",
+      "profit_in_million_dollars": "5385.0",
+      "country": "美国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/104/2014",
+      "rank2014": 103,
+      "rank2013": 114,
+      "name": "空中客车集团（Airbus Group)",
+      "operating_receipt_in_million_dollars": "78666.0",
+      "profit_in_million_dollars": "1944.9",
+      "country": "荷兰"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/117/2014",
+      "rank2014": 104,
+      "rank2013": 110,
+      "name": "微软（MICROSOFT)",
+      "operating_receipt_in_million_dollars": "77849.0",
+      "profit_in_million_dollars": "21863.0",
+      "country": "美国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/81/2014",
+      "rank2014": 105,
+      "rank2013": 94,
+      "name": "索尼（SONY)",
+      "operating_receipt_in_million_dollars": "77532.3",
+      "profit_in_million_dollars": "-1281.4",
+      "country": "日本"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/79/2014",
+      "rank2014": 106,
+      "rank2013": 83,
+      "name": "松下（PANASONIC)",
+      "operating_receipt_in_million_dollars": "77225.6",
+      "profit_in_million_dollars": "1202.2",
+      "country": "日本"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/170/2014",
+      "rank2014": 107,
+      "rank2013": 119,
+      "name": "中国中化集团公司（SINOCHEM GROUP)",
+      "operating_receipt_in_million_dollars": "75939.0",
+      "profit_in_million_dollars": "755.1",
+      "country": "中国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/114/2014",
+      "rank2014": 108,
+      "rank2013": 118,
+      "name": "三菱商事株式会社（MITSUBISHI)",
+      "operating_receipt_in_million_dollars": "75755.4",
+      "profit_in_million_dollars": "4439.9",
+      "country": "日本"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/66/2014",
+      "rank2014": 109,
+      "rank2013": 97,
+      "name": "西班牙电话公司（TELEFÓNICA)",
+      "operating_receipt_in_million_dollars": "75752.0",
+      "profit_in_million_dollars": "6097.5",
+      "country": "西班牙"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/54/2014",
+      "rank2014": 110,
+      "rank2013": 108,
+      "name": "德国邮政（DEUTSCHE POST)",
+      "operating_receipt_in_million_dollars": "75732.1",
+      "profit_in_million_dollars": "2775.9",
+      "country": "德国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/385/2014",
+      "rank2014": 111,
+      "rank2013": 141,
+      "name": "中国第一汽车集团公司（CHINA FAW GROUP)",
+      "operating_receipt_in_million_dollars": "75005.6",
+      "profit_in_million_dollars": "3263.6",
+      "country": "中国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/485/2014",
+      "rank2014": 112,
+      "rank2013": 149,
+      "name": "亚马逊（AMAZON.COM)",
+      "operating_receipt_in_million_dollars": "74452.0",
+      "profit_in_million_dollars": "274.0",
+      "country": "美国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/507/2014",
+      "rank2014": 113,
+      "rank2013": 146,
+      "name": "东风汽车集团（DONGFENG MOTOR GROUP)",
+      "operating_receipt_in_million_dollars": "74008.2",
+      "profit_in_million_dollars": "1448.4",
+      "country": "中国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/264/2014",
+      "rank2014": 114,
+      "rank2013": 107,
+      "name": "信实工业公司（RELIANCE INDUSTRIES)",
+      "operating_receipt_in_million_dollars": "73332.4",
+      "profit_in_million_dollars": "3719.5",
+      "country": "印度"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/185/2014",
+      "rank2014": 115,
+      "rank2013": 134,
+      "name": "中国南方电网有限责任公司（CHINA SOUTHERN POWER GRID)",
+      "operating_receipt_in_million_dollars": "72697.1",
+      "profit_in_million_dollars": "1325.5",
+      "country": "中国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/100/2014",
+      "rank2014": 116,
+      "rank2013": 113,
+      "name": "塔吉特公司（TARGET)",
+      "operating_receipt_in_million_dollars": "72596.0",
+      "profit_in_million_dollars": "1971.0",
+      "country": "美国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/122/2014",
+      "rank2014": 117,
+      "rank2013": 120,
+      "name": "沃尔格林公司（WALGREEN)",
+      "operating_receipt_in_million_dollars": "72217.0",
+      "profit_in_million_dollars": "2450.0",
+      "country": "美国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/255/2014",
+      "rank2014": 118,
+      "rank2013": 123,
+      "name": "苏黎世保险集团（ZURICH INSURANCE GROUP)",
+      "operating_receipt_in_million_dollars": "72045.0",
+      "profit_in_million_dollars": "4028.0",
+      "country": "瑞士"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/75/2014",
+      "rank2014": 119,
+      "rank2013": 121,
+      "name": "标致（PEUGEOT)",
+      "operating_receipt_in_million_dollars": "71807.8",
+      "profit_in_million_dollars": "-3076.0",
+      "country": "法国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/112/2014",
+      "rank2014": 120,
+      "rank2013": 147,
+      "name": "Wellpoint公司（WELLPOINT)",
+      "operating_receipt_in_million_dollars": "71458.2",
+      "profit_in_million_dollars": "2489.7",
+      "country": "美国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/103/2014",
+      "rank2014": 121,
+      "rank2013": 132,
+      "name": "强生（JOHNSON & JOHNSON)",
+      "operating_receipt_in_million_dollars": "71312.0",
+      "profit_in_million_dollars": "13831.0",
+      "country": "美国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/636/2014",
+      "rank2014": 122,
+      "rank2013": null,
+      "name": "国家开发银行（China Development Bank)",
+      "operating_receipt_in_million_dollars": "71305.6",
+      "profit_in_million_dollars": "12949.8",
+      "country": "中国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/610/2014",
+      "rank2014": 123,
+      "rank2013": 122,
+      "name": "印尼国家石油公司（Pertamina)",
+      "operating_receipt_in_million_dollars": "71102.1",
+      "profit_in_million_dollars": "3061.6",
+      "country": "印度尼西亚"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/189/2014",
+      "rank2014": 124,
+      "rank2013": 160,
+      "name": "丸红株式会社（MARUBENI)",
+      "operating_receipt_in_million_dollars": "70429.5",
+      "profit_in_million_dollars": "2105.6",
+      "country": "日本"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/174/2014",
+      "rank2014": 125,
+      "rank2013": 116,
+      "name": "巴西银行（BANCO DO BRASIL)",
+      "operating_receipt_in_million_dollars": "69642.7",
+      "profit_in_million_dollars": "7302.0",
+      "country": "巴西"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/76/2014",
+      "rank2014": 126,
+      "rank2013": 112,
+      "name": "雷普索尔公司（REPSOL)",
+      "operating_receipt_in_million_dollars": "69148.7",
+      "profit_in_million_dollars": "258.9",
+      "country": "西班牙"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/501/2014",
+      "rank2014": 127,
+      "rank2013": 125,
+      "name": "美国国际集团（AMERICAN INTERNATIONAL GROUP)",
+      "operating_receipt_in_million_dollars": "68678.0",
+      "profit_in_million_dollars": "9085.0",
+      "country": "美国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/517/2014",
+      "rank2014": 128,
+      "rank2013": 181,
+      "name": "中国平安保险（集团）股份有限公司（PING AN INSURANCE)",
+      "operating_receipt_in_million_dollars": "68508.8",
+      "profit_in_million_dollars": "4579.1",
+      "country": "中国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/111/2014",
+      "rank2014": 129,
+      "rank2013": 138,
+      "name": "州立农业保险公司（STATE FARM INSURANCE COS.)",
+      "operating_receipt_in_million_dollars": "68291.3",
+      "profit_in_million_dollars": "5189.2",
+      "country": "美国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/89/2014",
+      "rank2014": 130,
+      "rank2013": 139,
+      "name": "莱茵集团（RWE)",
+      "operating_receipt_in_million_dollars": "68227.4",
+      "profit_in_million_dollars": "-3522.0",
+      "country": "德国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/132/2014",
+      "rank2014": 131,
+      "rank2013": 129,
+      "name": "大都会人寿（METLIFE)",
+      "operating_receipt_in_million_dollars": "68202.0",
+      "profit_in_million_dollars": "3368.0",
+      "country": "美国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/96/2014",
+      "rank2014": 132,
+      "rank2013": 86,
+      "name": "日本生命保险公司（NIPPON LIFE INSURANCE)",
+      "operating_receipt_in_million_dollars": "68168.9",
+      "profit_in_million_dollars": "2467.1",
+      "country": "日本"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/331/2014",
+      "rank2014": 133,
+      "rank2013": 192,
+      "name": "中国五矿集团公司（CHINA MINMETALS)",
+      "operating_receipt_in_million_dollars": "67440.2",
+      "profit_in_million_dollars": "402.0",
+      "country": "中国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/84/2014",
+      "rank2014": 134,
+      "rank2013": 140,
+      "name": "美国邮政（U.S. POSTAL SERVICE)",
+      "operating_receipt_in_million_dollars": "67318.0",
+      "profit_in_million_dollars": "-4977.0",
+      "country": "美国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/332/2014",
+      "rank2014": 135,
+      "rank2013": 257,
+      "name": "软银（SOFTBANK)",
+      "operating_receipt_in_million_dollars": "66546.0",
+      "profit_in_million_dollars": "5850.9",
+      "country": "日本"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/502/2014",
+      "rank2014": 136,
+      "rank2013": 133,
+      "name": "法国BPCE银行集团（GROUPE BPCE)",
+      "operating_receipt_in_million_dollars": "66428.6",
+      "profit_in_million_dollars": "3543.3",
+      "country": "法国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/175/2014",
+      "rank2014": 137,
+      "rank2013": 137,
+      "name": "百事公司（PEPSICO)",
+      "operating_receipt_in_million_dollars": "66415.0",
+      "profit_in_million_dollars": "6740.0",
+      "country": "美国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/637/2014",
+      "rank2014": 138,
+      "rank2013": null,
+      "name": "伊塔乌联合银行控股公司（Itaú Unibanco Holding)",
+      "operating_receipt_in_million_dollars": "66217.2",
+      "profit_in_million_dollars": "7610.6",
+      "country": "巴西"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/124/2014",
+      "rank2014": 139,
+      "rank2013": 117,
+      "name": "东京电力公司（TOKYO ELECTRIC POWER)",
+      "operating_receipt_in_million_dollars": "66194.4",
+      "profit_in_million_dollars": "4378.5",
+      "country": "日本"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/121/2014",
+      "rank2014": 140,
+      "rank2013": 135,
+      "name": "联合利华（UNILEVER)",
+      "operating_receipt_in_million_dollars": "66108.6",
+      "profit_in_million_dollars": "6428.1",
+      "country": "英国/荷兰"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/94/2014",
+      "rank2014": 141,
+      "rank2013": 124,
+      "name": "沃达丰集团（VODAFONE GROUP)",
+      "operating_receipt_in_million_dollars": "65986.5",
+      "profit_in_million_dollars": "94132.0",
+      "country": "英国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/120/2014",
+      "rank2014": 142,
+      "rank2013": 115,
+      "name": "必和必拓（BHP BILLITON)",
+      "operating_receipt_in_million_dollars": "65968.0",
+      "profit_in_million_dollars": "10876.0",
+      "country": "澳大利亚"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/518/2014",
+      "rank2014": 143,
+      "rank2013": 187,
+      "name": "中国华润总公司（CHINA RESOURCES NATIONAL)",
+      "operating_receipt_in_million_dollars": "65959.9",
+      "profit_in_million_dollars": "2029.5",
+      "country": "中国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/176/2014",
+      "rank2014": 144,
+      "rank2013": 175,
+      "name": "法切莱公司（FONCIÈRE EURIS)",
+      "operating_receipt_in_million_dollars": "65463.4",
+      "profit_in_million_dollars": "119.5",
+      "country": "法国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/97/2014",
+      "rank2014": 145,
+      "rank2013": 126,
+      "name": "东芝（TOSHIBA)",
+      "operating_receipt_in_million_dollars": "64907.9",
+      "profit_in_million_dollars": "507.3",
+      "country": "日本"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/237/2014",
+      "rank2014": 146,
+      "rank2013": 145,
+      "name": "美国康卡斯特电信公司（COMCAST)",
+      "operating_receipt_in_million_dollars": "64657.0",
+      "profit_in_million_dollars": "6816.0",
+      "country": "美国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/505/2014",
+      "rank2014": 147,
+      "rank2013": 151,
+      "name": "荷兰全球保险集团（AEGON)",
+      "operating_receipt_in_million_dollars": "64293.8",
+      "profit_in_million_dollars": "1298.4",
+      "country": "荷兰"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/140/2014",
+      "rank2014": 148,
+      "rank2013": 127,
+      "name": "日本永旺集团（AEON)",
+      "operating_receipt_in_million_dollars": "64240.5",
+      "profit_in_million_dollars": "458.1",
+      "country": "日本"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/126/2014",
+      "rank2014": 149,
+      "rank2013": 152,
+      "name": "欧尚集团（GROUPE AUCHAN)",
+      "operating_receipt_in_million_dollars": "63825.2",
+      "profit_in_million_dollars": "1018.2",
+      "country": "法国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/638/2014",
+      "rank2014": 150,
+      "rank2013": null,
+      "name": "路易达孚（Louis Dreyfus Commodities)",
+      "operating_receipt_in_million_dollars": "63596.2",
+      "profit_in_million_dollars": "640.1",
+      "country": "荷兰"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/123/2014",
+      "rank2014": 151,
+      "rank2013": 154,
+      "name": "联合技术公司（UNITED TECHNOLOGIES)",
+      "operating_receipt_in_million_dollars": "62935.0",
+      "profit_in_million_dollars": "5721.0",
+      "country": "美国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/513/2014",
+      "rank2014": 152,
+      "rank2013": 161,
+      "name": "中国兵器工业集团公司（CHINA NORTH INDUSTRIES GROUP)",
+      "operating_receipt_in_million_dollars": "62659.1",
+      "profit_in_million_dollars": "715.5",
+      "country": "中国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/138/2014",
+      "rank2014": 153,
+      "rank2013": 143,
+      "name": "邦吉公司（BUNGE)",
+      "operating_receipt_in_million_dollars": "62564.0",
+      "profit_in_million_dollars": "306.0",
+      "country": "美国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/263/2014",
+      "rank2014": 154,
+      "rank2013": 182,
+      "name": "中国电信集团公司（CHINA TELECOMMUNICATIONS)",
+      "operating_receipt_in_million_dollars": "62046.8",
+      "profit_in_million_dollars": "1555.8",
+      "country": "中国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/98/2014",
+      "rank2014": 155,
+      "rank2013": 131,
+      "name": "博世公司（ROBERT BOSCH)",
+      "operating_receipt_in_million_dollars": "61632.1",
+      "profit_in_million_dollars": "1455.0",
+      "country": "德国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/273/2014",
+      "rank2014": 156,
+      "rank2013": 158,
+      "name": "美洲电信（AMÉRICA MÓVIL)",
+      "operating_receipt_in_million_dollars": "61562.2",
+      "profit_in_million_dollars": "5844.1",
+      "country": "墨西哥"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/221/2014",
+      "rank2014": 157,
+      "rank2013": 109,
+      "name": "英杰华集团（AVIVA)",
+      "operating_receipt_in_million_dollars": "61447.3",
+      "profit_in_million_dollars": "3138.7",
+      "country": "英国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/287/2014",
+      "rank2014": 158,
+      "rank2013": 153,
+      "name": "西农（WESFARMERS)",
+      "operating_receipt_in_million_dollars": "61355.7",
+      "profit_in_million_dollars": "2318.6",
+      "country": "澳大利亚"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/504/2014",
+      "rank2014": 159,
+      "rank2013": 173,
+      "name": "英国法通保险公司（LEGAL & GENERAL GROUP)",
+      "operating_receipt_in_million_dollars": "61353.5",
+      "profit_in_million_dollars": "1395.9",
+      "country": "英国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/415/2014",
+      "rank2014": 160,
+      "rank2013": 172,
+      "name": "中国中信集团有限公司（CITIC GROUP)",
+      "operating_receipt_in_million_dollars": "61005.7",
+      "profit_in_million_dollars": "6154.3",
+      "country": "中国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/180/2014",
+      "rank2014": 161,
+      "rank2013": 159,
+      "name": "澳大利亚伍尔沃斯公司（WOOLWORTHS)",
+      "operating_receipt_in_million_dollars": "60826.2",
+      "profit_in_million_dollars": "2316.9",
+      "country": "澳大利亚"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/423/2014",
+      "rank2014": 162,
+      "rank2013": 189,
+      "name": "谷歌（GOOGLE)",
+      "operating_receipt_in_million_dollars": "60629.0",
+      "profit_in_million_dollars": "12920.0",
+      "country": "美国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/70/2014",
+      "rank2014": 163,
+      "rank2013": 130,
+      "name": "德意志银行（DEUTSCHE BANK)",
+      "operating_receipt_in_million_dollars": "60571.4",
+      "profit_in_million_dollars": "884.2",
+      "country": "德国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/139/2014",
+      "rank2014": 164,
+      "rank2013": 142,
+      "name": "日本第一生命保险（DAI-ICHI LIFE INSURANCE)",
+      "operating_receipt_in_million_dollars": "60340.3",
+      "profit_in_million_dollars": "777.9",
+      "country": "日本"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/514/2014",
+      "rank2014": 165,
+      "rank2013": 178,
+      "name": "神华集团（SHENHUA GROUP)",
+      "operating_receipt_in_million_dollars": "59823.0",
+      "profit_in_million_dollars": "5940.1",
+      "country": "中国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/639/2014",
+      "rank2014": 166,
+      "rank2013": null,
+      "name": "太平洋建设集团（Pacific Construction Group)",
+      "operating_receipt_in_million_dollars": "59622.2",
+      "profit_in_million_dollars": "2772.6",
+      "country": "中国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/7/2014",
+      "rank2014": 167,
+      "rank2013": 144,
+      "name": "康菲石油公司（CONOCOPHILLIPS)",
+      "operating_receipt_in_million_dollars": "59433.0",
+      "profit_in_million_dollars": "9156.0",
+      "country": "美国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/556/2014",
+      "rank2014": 168,
+      "rank2013": 196,
+      "name": "中国邮政集团公司（CHINA POST GROUP)",
+      "operating_receipt_in_million_dollars": "58964.6",
+      "profit_in_million_dollars": "4114.9",
+      "country": "中国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/428/2014",
+      "rank2014": 169,
+      "rank2013": 209,
+      "name": "中国南方工业集团公司（CHINA SOUTH INDUSTRIES GROUP)",
+      "operating_receipt_in_million_dollars": "58837.1",
+      "profit_in_million_dollars": "22.6",
+      "country": "中国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/183/2014",
+      "rank2014": 170,
+      "rank2013": 162,
+      "name": "诺华公司（NOVARTIS)",
+      "operating_receipt_in_million_dollars": "58831.0",
+      "profit_in_million_dollars": "9175.0",
+      "country": "瑞士"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/83/2014",
+      "rank2014": 171,
+      "rank2013": 177,
+      "name": "巴克莱（BARCLAYS)",
+      "operating_receipt_in_million_dollars": "57689.6",
+      "profit_in_million_dollars": "844.1",
+      "country": "英国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/106/2014",
+      "rank2014": 172,
+      "rank2013": 157,
+      "name": "马士基集团（A.P. MØLLER-MÆRSK GROUP)",
+      "operating_receipt_in_million_dollars": "57523.7",
+      "profit_in_million_dollars": "3450.8",
+      "country": "丹麦"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/131/2014",
+      "rank2014": 173,
+      "rank2013": 156,
+      "name": "三井物产株式会社（MITSUI)",
+      "operating_receipt_in_million_dollars": "57302.7",
+      "profit_in_million_dollars": "4214.0",
+      "country": "日本"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/127/2014",
+      "rank2014": 174,
+      "rank2013": 166,
+      "name": "陶氏化学（DOW CHEMICAL)",
+      "operating_receipt_in_million_dollars": "57080.0",
+      "profit_in_million_dollars": "4787.0",
+      "country": "美国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/196/2014",
+      "rank2014": 175,
+      "rank2013": 169,
+      "name": "法国国家人寿保险公司（CNP ASSURANCES)",
+      "operating_receipt_in_million_dollars": "56590.3",
+      "profit_in_million_dollars": "1367.7",
+      "country": "法国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/129/2014",
+      "rank2014": 176,
+      "rank2013": 150,
+      "name": "Seven & I 控股公司（SEVEN & I HOLDINGS)",
+      "operating_receipt_in_million_dollars": "56572.8",
+      "profit_in_million_dollars": "1764.9",
+      "country": "日本"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/199/2014",
+      "rank2014": 177,
+      "rank2013": 167,
+      "name": "韩国浦项制铁公司（POSCO)",
+      "operating_receipt_in_million_dollars": "56520.8",
+      "profit_in_million_dollars": "1257.5",
+      "country": "韩国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/426/2014",
+      "rank2014": 178,
+      "rank2013": 212,
+      "name": "中国航空工业集团公司（AVIATION INDUSTRY CORP. OF CHINA)",
+      "operating_receipt_in_million_dollars": "56472.1",
+      "profit_in_million_dollars": "746.4",
+      "country": "中国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/206/2014",
+      "rank2014": 179,
+      "rank2013": 176,
+      "name": "奥地利石油天然气集团（OMV GROUP)",
+      "operating_receipt_in_million_dollars": "56308.2",
+      "profit_in_million_dollars": "1593.5",
+      "country": "奥地利"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/102/2014",
+      "rank2014": 180,
+      "rank2013": 171,
+      "name": "圣戈班集团（SAINT-GOBAIN)",
+      "operating_receipt_in_million_dollars": "55790.8",
+      "profit_in_million_dollars": "789.9",
+      "country": "法国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/144/2014",
+      "rank2014": 181,
+      "rank2013": 136,
+      "name": "卡特彼勒（CATERPILLAR)",
+      "operating_receipt_in_million_dollars": "55656.0",
+      "profit_in_million_dollars": "3789.0",
+      "country": "美国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/143/2014",
+      "rank2014": 182,
+      "rank2013": 179,
+      "name": "联合包裹速递服务公司（UNITED PARCEL SERVICE)",
+      "operating_receipt_in_million_dollars": "55438.0",
+      "profit_in_million_dollars": "4372.0",
+      "country": "美国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/238/2014",
+      "rank2014": 183,
+      "rank2013": 174,
+      "name": "日本伊藤忠商事株式会社（ITOCHU)",
+      "operating_receipt_in_million_dollars": "55209.0",
+      "profit_in_million_dollars": "3097.1",
+      "country": "日本"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/157/2014",
+      "rank2014": 184,
+      "rank2013": 185,
+      "name": "新日铁住金（NIPPON STEEL & SUMITOMO METAL)",
+      "operating_receipt_in_million_dollars": "55062.1",
+      "profit_in_million_dollars": "2423.1",
+      "country": "日本"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/588/2014",
+      "rank2014": 185,
+      "rank2013": 343,
+      "name": "天津市物资集团总公司（TEWOO GROUP)",
+      "operating_receipt_in_million_dollars": "54963.7",
+      "profit_in_million_dollars": "227.9",
+      "country": "中国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/310/2014",
+      "rank2014": 186,
+      "rank2013": 228,
+      "name": "俄罗斯联邦储蓄银行（SBERBANK)",
+      "operating_receipt_in_million_dollars": "54778.3",
+      "profit_in_million_dollars": "11422.2",
+      "country": "俄罗斯"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/341/2014",
+      "rank2014": 187,
+      "rank2013": 213,
+      "name": "中国交通建设集团有限公司（CHINA COMMUNICATIONS CONSTRUCTION)",
+      "operating_receipt_in_million_dollars": "54609.8",
+      "profit_in_million_dollars": "1335.8",
+      "country": "中国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/150/2014",
+      "rank2014": 188,
+      "rank2013": 203,
+      "name": "万喜集团（VINCI)",
+      "operating_receipt_in_million_dollars": "54420.8",
+      "profit_in_million_dollars": "2604.7",
+      "country": "法国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/77/2014",
+      "rank2014": 189,
+      "rank2013": 170,
+      "name": "Orange公司（ORANGE)",
+      "operating_receipt_in_million_dollars": "54404.8",
+      "profit_in_million_dollars": "2486.5",
+      "country": "法国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/130/2014",
+      "rank2014": 190,
+      "rank2013": 184,
+      "name": "雷诺（RENAULT)",
+      "operating_receipt_in_million_dollars": "54339.8",
+      "profit_in_million_dollars": "778.0",
+      "country": "法国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/152/2014",
+      "rank2014": 191,
+      "rank2013": 148,
+      "name": "辉瑞制药有限公司（PFIZER)",
+      "operating_receipt_in_million_dollars": "53785.0",
+      "profit_in_million_dollars": "22003.0",
+      "country": "美国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/153/2014",
+      "rank2014": 192,
+      "rank2013": 198,
+      "name": "美国劳氏公司（LOWE'S)",
+      "operating_receipt_in_million_dollars": "53417.0",
+      "profit_in_million_dollars": "2286.0",
+      "country": "美国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/154/2014",
+      "rank2014": 193,
+      "rank2013": 194,
+      "name": "拜耳集团（BAYER)",
+      "operating_receipt_in_million_dollars": "53310.9",
+      "profit_in_million_dollars": "4233.6",
+      "country": "德国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/552/2014",
+      "rank2014": 194,
+      "rank2013": 225,
+      "name": "LG电子（LG ELECTRONICS)",
+      "operating_receipt_in_million_dollars": "53118.3",
+      "profit_in_million_dollars": "161.5",
+      "country": "韩国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/202/2014",
+      "rank2014": 195,
+      "rank2013": 183,
+      "name": "英特尔公司（INTEL)",
+      "operating_receipt_in_million_dollars": "52708.0",
+      "profit_in_million_dollars": "9620.0",
+      "country": "美国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/171/2014",
+      "rank2014": 196,
+      "rank2013": 197,
+      "name": "瑞士罗氏公司（ROCHE GROUP)",
+      "operating_receipt_in_million_dollars": "52460.3",
+      "profit_in_million_dollars": "12047.8",
+      "country": "瑞士"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/74/2014",
+      "rank2014": 197,
+      "rank2013": 155,
+      "name": "蒂森克虏伯（THYSSENKRUPP)",
+      "operating_receipt_in_million_dollars": "52247.3",
+      "profit_in_million_dollars": "-1831.4",
+      "country": "德国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/151/2014",
+      "rank2014": 198,
+      "rank2013": 199,
+      "name": "德国联邦铁路公司（DEUTSCHE BAHN)",
+      "operating_receipt_in_million_dollars": "51917.0",
+      "profit_in_million_dollars": "872.2",
+      "country": "德国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/128/2014",
+      "rank2014": 199,
+      "rank2013": 163,
+      "name": "三菱日联金融集团（MITSUBISHI UFJ FINANCIAL GROUP)",
+      "operating_receipt_in_million_dollars": "51667.5",
+      "profit_in_million_dollars": "9830.7",
+      "country": "日本"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/137/2014",
+      "rank2014": 200,
+      "rank2013": 221,
+      "name": "意大利联合圣保罗银行（INTESA SANPAOLO)",
+      "operating_receipt_in_million_dollars": "51506.8",
+      "profit_in_million_dollars": "-6040.4",
+      "country": "意大利"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/134/2014",
+      "rank2014": 201,
+      "rank2013": 195,
+      "name": "力拓集团（RIO TINTO GROUP)",
+      "operating_receipt_in_million_dollars": "51171.0",
+      "profit_in_million_dollars": "3665.0",
+      "country": "英国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/241/2014",
+      "rank2014": 202,
+      "rank2013": 202,
+      "name": "西班牙ACS集团（ACS)",
+      "operating_receipt_in_million_dollars": "50941.9",
+      "profit_in_million_dollars": "931.3",
+      "country": "西班牙"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/148/2014",
+      "rank2014": 203,
+      "rank2013": 168,
+      "name": "巴西布拉德斯科银行（BANCO BRADESCO)",
+      "operating_receipt_in_million_dollars": "50838.7",
+      "profit_in_million_dollars": "5744.1",
+      "country": "巴西"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/58/2014",
+      "rank2014": 204,
+      "rank2013": 188,
+      "name": "联合信贷集团（UNICREDIT GROUP)",
+      "operating_receipt_in_million_dollars": "50800.7",
+      "profit_in_million_dollars": "-18539.2",
+      "country": "意大利"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/186/2014",
+      "rank2014": 205,
+      "rank2013": 201,
+      "name": "沙特基础工业公司（SABIC)",
+      "operating_receipt_in_million_dollars": "50405.8",
+      "profit_in_million_dollars": "6740.6",
+      "country": "沙特阿拉伯"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/113/2014",
+      "rank2014": 206,
+      "rank2013": 193,
+      "name": "西班牙对外银行（BANCO BILBAO VIZCAYA ARGENTARIA)",
+      "operating_receipt_in_million_dollars": "49966.8",
+      "profit_in_million_dollars": "2957.8",
+      "country": "西班牙"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/582/2014",
+      "rank2014": 207,
+      "rank2013": 204,
+      "name": "国际石油投资公司（INTERNATIONAL PETROLEUM INVESTMENT)",
+      "operating_receipt_in_million_dollars": "49714.7",
+      "profit_in_million_dollars": "1917.6",
+      "country": "阿拉伯联合酋长国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/516/2014",
+      "rank2014": 208,
+      "rank2013": 256,
+      "name": "中国人民保险集团股份有限公司（PEOPLE'S INSURANCE COMPANY OF CHINA)",
+      "operating_receipt_in_million_dollars": "49563.6",
+      "profit_in_million_dollars": "1320.8",
+      "country": "中国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/355/2014",
+      "rank2014": 209,
+      "rank2013": 206,
+      "name": "韩国现代重工集团（HYUNDAI HEAVY INDUSTRIES)",
+      "operating_receipt_in_million_dollars": "49507.4",
+      "profit_in_million_dollars": "254.6",
+      "country": "韩国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/419/2014",
+      "rank2014": 210,
+      "rank2013": 258,
+      "name": "中国联合网络通信股份有限公司（CHINA UNITED NETWORK COMMUNICATIONS)",
+      "operating_receipt_in_million_dollars": "49399.2",
+      "profit_in_million_dollars": "560.0",
+      "country": "中国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/220/2014",
+      "rank2014": 211,
+      "rank2013": 222,
+      "name": "宝钢集团有限公司（BAOSTEEL GROUP)",
+      "operating_receipt_in_million_dollars": "49297.3",
+      "profit_in_million_dollars": "925.0",
+      "country": "中国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/305/2014",
+      "rank2014": 212,
+      "rank2013": 235,
+      "name": "韩国电力公司（KOREA ELECTRIC POWER)",
+      "operating_receipt_in_million_dollars": "49072.9",
+      "profit_in_million_dollars": "54.8",
+      "country": "韩国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/640/2014",
+      "rank2014": 213,
+      "rank2013": null,
+      "name": "Energy Transfer Equity公司（Energy Transfer Equity)",
+      "operating_receipt_in_million_dollars": "48750.0",
+      "profit_in_million_dollars": "196.0",
+      "country": "美国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/191/2014",
+      "rank2014": 214,
+      "rank2013": 220,
+      "name": "思科公司（CISCO SYSTEMS)",
+      "operating_receipt_in_million_dollars": "48607.0",
+      "profit_in_million_dollars": "9983.0",
+      "country": "美国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/178/2014",
+      "rank2014": 215,
+      "rank2013": 230,
+      "name": "南苏格兰电力（SSE)",
+      "operating_receipt_in_million_dollars": "48587.9",
+      "profit_in_million_dollars": "513.3",
+      "country": "英国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/272/2014",
+      "rank2014": 216,
+      "rank2013": 205,
+      "name": "澳大利亚国民银行（NATIONAL AUSTRALIA BANK)",
+      "operating_receipt_in_million_dollars": "48444.8",
+      "profit_in_million_dollars": "5411.7",
+      "country": "澳大利亚"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/494/2014",
+      "rank2014": 217,
+      "rank2013": 243,
+      "name": "交通银行（BANK OF COMMUNICATIONS)",
+      "operating_receipt_in_million_dollars": "48321.2",
+      "profit_in_million_dollars": "10131.9",
+      "country": "中国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/205/2014",
+      "rank2014": 218,
+      "rank2013": 210,
+      "name": "巴西淡水河谷公司（VALE)",
+      "operating_receipt_in_million_dollars": "48050.0",
+      "profit_in_million_dollars": "584.0",
+      "country": "巴西"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/197/2014",
+      "rank2014": 219,
+      "rank2013": 164,
+      "name": "日本明治安田生命保险公司（MEIJI YASUDA LIFE INSURANCE)",
+      "operating_receipt_in_million_dollars": "47727.8",
+      "profit_in_million_dollars": "2401.8",
+      "country": "日本"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/553/2014",
+      "rank2014": 220,
+      "rank2013": 246,
+      "name": "ENTERPRISE PRODUCTS PARTNERS公司（ENTERPRISE PRODUCTS PARTNERS)",
+      "operating_receipt_in_million_dollars": "47727.0",
+      "profit_in_million_dollars": "2596.9",
+      "country": "美国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/425/2014",
+      "rank2014": 221,
+      "rank2013": 231,
+      "name": "中国华能集团公司（CHINA HUANENG GROUP)",
+      "operating_receipt_in_million_dollars": "47681.1",
+      "profit_in_million_dollars": "426.6",
+      "country": "中国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/161/2014",
+      "rank2014": 222,
+      "rank2013": 186,
+      "name": "富士通（FUJITSU)",
+      "operating_receipt_in_million_dollars": "47538.4",
+      "profit_in_million_dollars": "485.2",
+      "country": "日本"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/274/2014",
+      "rank2014": 223,
+      "rank2013": 304,
+      "name": "安泰保险（AETNA)",
+      "operating_receipt_in_million_dollars": "47294.6",
+      "profit_in_million_dollars": "1913.6",
+      "country": "美国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/259/2014",
+      "rank2014": 224,
+      "rank2013": 208,
+      "name": "可口可乐公司（COCA-COLA)",
+      "operating_receipt_in_million_dollars": "46854.0",
+      "profit_in_million_dollars": "8584.0",
+      "country": "美国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/225/2014",
+      "rank2014": 225,
+      "rank2013": 190,
+      "name": "日本三井住友金融集团（SUMITOMO MITSUI FINANCIAL GROUP)",
+      "operating_receipt_in_million_dollars": "46334.9",
+      "profit_in_million_dollars": "8338.5",
+      "country": "日本"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/267/2014",
+      "rank2014": 226,
+      "rank2013": 207,
+      "name": "澳洲联邦银行（COMMONWEALTH BANK OF AUSTRALIA)",
+      "operating_receipt_in_million_dollars": "46009.6",
+      "profit_in_million_dollars": "7872.5",
+      "country": "澳大利亚"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/499/2014",
+      "rank2014": 227,
+      "rank2013": 273,
+      "name": "中国铝业公司（ALUMINUM CORP. OF CHINA)",
+      "operating_receipt_in_million_dollars": "45445.7",
+      "profit_in_million_dollars": "-1142.9",
+      "country": "中国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/328/2014",
+      "rank2014": 228,
+      "rank2013": 241,
+      "name": "斯伦贝谢公司（SCHLUMBERGER)",
+      "operating_receipt_in_million_dollars": "45368.0",
+      "profit_in_million_dollars": "6732.0",
+      "country": "美国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/179/2014",
+      "rank2014": 229,
+      "rank2013": 216,
+      "name": "洛克希德－马丁（LOCKHEED MARTIN)",
+      "operating_receipt_in_million_dollars": "45358.0",
+      "profit_in_million_dollars": "2981.0",
+      "country": "美国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/167/2014",
+      "rank2014": 230,
+      "rank2013": 226,
+      "name": "百思买（BEST BUY)",
+      "operating_receipt_in_million_dollars": "45225.0",
+      "profit_in_million_dollars": "532.0",
+      "country": "美国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/244/2014",
+      "rank2014": 231,
+      "rank2013": 215,
+      "name": "日本出光兴产株式会社（IDEMITSU KOSAN)",
+      "operating_receipt_in_million_dollars": "45103.6",
+      "profit_in_million_dollars": "362.3",
+      "country": "日本"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/201/2014",
+      "rank2014": 232,
+      "rank2013": 248,
+      "name": "华特迪士尼公司（WALT DISNEY)",
+      "operating_receipt_in_million_dollars": "45041.0",
+      "profit_in_million_dollars": "6136.0",
+      "country": "美国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/257/2014",
+      "rank2014": 233,
+      "rank2013": 259,
+      "name": "CHS公司（CHS)",
+      "operating_receipt_in_million_dollars": "44479.9",
+      "profit_in_million_dollars": "992.4",
+      "country": "美国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/204/2014",
+      "rank2014": 234,
+      "rank2013": 247,
+      "name": "西斯科公司（SYSCO)",
+      "operating_receipt_in_million_dollars": "44411.2",
+      "profit_in_million_dollars": "992.4",
+      "country": "美国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/156/2014",
+      "rank2014": 235,
+      "rank2013": 240,
+      "name": "法国布伊格集团（BOUYGUES)",
+      "operating_receipt_in_million_dollars": "44395.0",
+      "profit_in_million_dollars": "-1005.0",
+      "country": "法国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/200/2014",
+      "rank2014": 236,
+      "rank2013": 245,
+      "name": "联邦快递（FEDEX)",
+      "operating_receipt_in_million_dollars": "44287.0",
+      "profit_in_million_dollars": "1561.0",
+      "country": "美国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/222/2014",
+      "rank2014": 237,
+      "rank2013": 250,
+      "name": "德国大陆集团（CONTINENTAL)",
+      "operating_receipt_in_million_dollars": "44249.0",
+      "profit_in_million_dollars": "2553.0",
+      "country": "德国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/181/2014",
+      "rank2014": 238,
+      "rank2013": 219,
+      "name": "赛诺菲（SANOFI)",
+      "operating_receipt_in_million_dollars": "44215.8",
+      "profit_in_million_dollars": "4934.5",
+      "country": "法国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/300/2014",
+      "rank2014": 239,
+      "rank2013": 224,
+      "name": "丰益国际（WILMAR INTERNATIONAL)",
+      "operating_receipt_in_million_dollars": "44085.0",
+      "profit_in_million_dollars": "1318.9",
+      "country": "新加坡"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/147/2014",
+      "rank2014": 240,
+      "rank2013": 223,
+      "name": "利安德巴塞尔工业公司（LYONDELLBASELL INDUSTRIES)",
+      "operating_receipt_in_million_dollars": "44071.0",
+      "profit_in_million_dollars": "3857.0",
+      "country": "荷兰"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/378/2014",
+      "rank2014": 241,
+      "rank2013": 214,
+      "name": "默沙东（MERCK)",
+      "operating_receipt_in_million_dollars": "44033.0",
+      "profit_in_million_dollars": "4404.0",
+      "country": "美国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/289/2014",
+      "rank2014": 242,
+      "rank2013": 229,
+      "name": "巴拉特石油公司（BHARAT PETROLEUM)",
+      "operating_receipt_in_million_dollars": "43954.8",
+      "profit_in_million_dollars": "646.7",
+      "country": "印度"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/506/2014",
+      "rank2014": 243,
+      "rank2013": 128,
+      "name": "国际资产控股公司（INTL FCSTONE)",
+      "operating_receipt_in_million_dollars": "43768.3",
+      "profit_in_million_dollars": "19.3",
+      "country": "美国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/208/2014",
+      "rank2014": 244,
+      "rank2013": 234,
+      "name": "Iberdrola公司（IBERDROLA)",
+      "operating_receipt_in_million_dollars": "43554.6",
+      "profit_in_million_dollars": "3414.2",
+      "country": "西班牙"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/458/2014",
+      "rank2014": 245,
+      "rank2013": 191,
+      "name": "MS&AD保险集团控股有限公司（MS&AD INSURANCE GROUP HOLDINGS)",
+      "operating_receipt_in_million_dollars": "43548.7",
+      "profit_in_million_dollars": "932.8",
+      "country": "日本"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/581/2014",
+      "rank2014": 246,
+      "rank2013": 252,
+      "name": "起亚汽车（KIA MOTORS)",
+      "operating_receipt_in_million_dollars": "43486.4",
+      "profit_in_million_dollars": "3487.3",
+      "country": "韩国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/187/2014",
+      "rank2014": 247,
+      "rank2013": 249,
+      "name": "荷兰皇家阿霍德集团（ROYAL AHOLD)",
+      "operating_receipt_in_million_dollars": "43483.0",
+      "profit_in_million_dollars": "3368.0",
+      "country": "荷兰"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/614/2014",
+      "rank2014": 248,
+      "rank2013": 336,
+      "name": "北京汽车集团（Beijing Automotive Group)",
+      "operating_receipt_in_million_dollars": "43323.9",
+      "profit_in_million_dollars": "918.2",
+      "country": "中国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/232/2014",
+      "rank2014": 249,
+      "rank2013": 233,
+      "name": "日本KDDI电信公司（KDDI)",
+      "operating_receipt_in_million_dollars": "43258.0",
+      "profit_in_million_dollars": "3214.6",
+      "country": "日本"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/387/2014",
+      "rank2014": 250,
+      "rank2013": 264,
+      "name": "安海斯-布希英博（ANHEUSER-BUSCH INBEV)",
+      "operating_receipt_in_million_dollars": "43195.0",
+      "profit_in_million_dollars": "14394.0",
+      "country": "比利时"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/547/2014",
+      "rank2014": 251,
+      "rank2013": 275,
+      "name": "巴西JBS公司（JBS)",
+      "operating_receipt_in_million_dollars": "43049.7",
+      "profit_in_million_dollars": "429.5",
+      "country": "巴西"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/173/2014",
+      "rank2014": 252,
+      "rank2013": 232,
+      "name": "美国西夫韦公司（SAFEWAY)",
+      "operating_receipt_in_million_dollars": "42981.8",
+      "profit_in_million_dollars": "3507.5",
+      "country": "美国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/209/2014",
+      "rank2014": 253,
+      "rank2013": 238,
+      "name": "法国国营铁路公司（SNCF)",
+      "operating_receipt_in_million_dollars": "42790.0",
+      "profit_in_million_dollars": "-239.0",
+      "country": "法国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/198/2014",
+      "rank2014": 254,
+      "rank2013": 251,
+      "name": "江森自控有限公司（JOHNSON CONTROLS)",
+      "operating_receipt_in_million_dollars": "42730.0",
+      "profit_in_million_dollars": "1178.0",
+      "country": "美国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/38/2014",
+      "rank2014": 255,
+      "rank2013": 211,
+      "name": "苏格兰皇家银行集团（ROYAL BANK OF SCOTLAND GROUP)",
+      "operating_receipt_in_million_dollars": "42586.9",
+      "profit_in_million_dollars": "-13438.0",
+      "country": "英国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/235/2014",
+      "rank2014": 256,
+      "rank2013": 285,
+      "name": "美国英格雷姆麦克罗公司（INGRAM MICRO)",
+      "operating_receipt_in_million_dollars": "42553.9",
+      "profit_in_million_dollars": "310.6",
+      "country": "美国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/641/2014",
+      "rank2014": 257,
+      "rank2013": null,
+      "name": "Plains GP Holdings公司（Plains GP Holdings)",
+      "operating_receipt_in_million_dollars": "42249.0",
+      "profit_in_million_dollars": "15.0",
+      "country": "美国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/163/2014",
+      "rank2014": 258,
+      "rank2013": 227,
+      "name": "沃尔沃集团（VOLVO)",
+      "operating_receipt_in_million_dollars": "41863.1",
+      "profit_in_million_dollars": "550.2",
+      "country": "瑞典"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/230/2014",
+      "rank2014": 259,
+      "rank2013": 268,
+      "name": "瑞士ABB集团（ABB)",
+      "operating_receipt_in_million_dollars": "41848.0",
+      "profit_in_million_dollars": "2787.0",
+      "country": "瑞士"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/580/2014",
+      "rank2014": 260,
+      "rank2013": 239,
+      "name": "GS加德士（GS CALTEX)",
+      "operating_receipt_in_million_dollars": "41715.7",
+      "profit_in_million_dollars": "341.4",
+      "country": "韩国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/231/2014",
+      "rank2014": 261,
+      "rank2013": 218,
+      "name": "东京海上日动火灾保险公司（TOKIO MARINE HOLDINGS)",
+      "operating_receipt_in_million_dollars": "41586.0",
+      "profit_in_million_dollars": "1837.8",
+      "country": "日本"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/583/2014",
+      "rank2014": 262,
+      "rank2013": 272,
+      "name": "全球燃料服务公司（WORLD FUEL SERVICES)",
+      "operating_receipt_in_million_dollars": "41561.9",
+      "profit_in_million_dollars": "203.1",
+      "country": "美国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/193/2014",
+      "rank2014": 263,
+      "rank2013": 284,
+      "name": "英国森特理克集团（CENTRICA)",
+      "operating_receipt_in_million_dollars": "41533.3",
+      "profit_in_million_dollars": "1485.0",
+      "country": "英国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/298/2014",
+      "rank2014": 264,
+      "rank2013": 90,
+      "name": "保德信金融集团（PRUDENTIAL FINANCIAL)",
+      "operating_receipt_in_million_dollars": "41471.0",
+      "profit_in_million_dollars": "-667.0",
+      "country": "美国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/168/2014",
+      "rank2014": 265,
+      "rank2013": 253,
+      "name": "英国葛兰素史克公司（GLAXOSMITHKLINE)",
+      "operating_receipt_in_million_dollars": "41430.2",
+      "profit_in_million_dollars": "8497.1",
+      "country": "英国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/303/2014",
+      "rank2014": 266,
+      "rank2013": 270,
+      "name": "哈门那公司（HUMANA)",
+      "operating_receipt_in_million_dollars": "41313.0",
+      "profit_in_million_dollars": "1231.0",
+      "country": "美国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/574/2014",
+      "rank2014": 267,
+      "rank2013": 319,
+      "name": "中国建筑材料集团有限公司（CHINA NATIONAL BUILDING MATERIALS GROUP)",
+      "operating_receipt_in_million_dollars": "41027.9",
+      "profit_in_million_dollars": "435.3",
+      "country": "中国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/600/2014",
+      "rank2014": 268,
+      "rank2013": 359,
+      "name": "绿地控股集团有限公司（GREENLAND HOLDING GROUP)",
+      "operating_receipt_in_million_dollars": "41015.7",
+      "profit_in_million_dollars": "1331.3",
+      "country": "中国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/271/2014",
+      "rank2014": 269,
+      "rank2013": 242,
+      "name": "电装公司（DENSO)",
+      "operating_receipt_in_million_dollars": "40885.2",
+      "profit_in_million_dollars": "2868.7",
+      "country": "日本"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/136/2014",
+      "rank2014": 270,
+      "rank2013": 254,
+      "name": "高盛（GOLDMAN SACHS GROUP)",
+      "operating_receipt_in_million_dollars": "40874.0",
+      "profit_in_million_dollars": "8040.0",
+      "country": "美国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/375/2014",
+      "rank2014": 271,
+      "rank2013": 269,
+      "name": "河北钢铁集团（HEBEI IRON & STEEL GROUP)",
+      "operating_receipt_in_million_dollars": "40829.2",
+      "profit_in_million_dollars": "-138.2",
+      "country": "中国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/164/2014",
+      "rank2014": 272,
+      "rank2013": 255,
+      "name": "瑞士信贷（CREDIT SUISSE GROUP)",
+      "operating_receipt_in_million_dollars": "40501.0",
+      "profit_in_million_dollars": "2510.1",
+      "country": "瑞士"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/215/2014",
+      "rank2014": 273,
+      "rank2013": 244,
+      "name": "三菱电机股份有限公司（MITSUBISHI ELECTRIC)",
+      "operating_receipt_in_million_dollars": "40470.3",
+      "profit_in_million_dollars": "1532.0",
+      "country": "日本"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/119/2014",
+      "rank2014": 274,
+      "rank2013": 263,
+      "name": "瑞银集团（UBS)",
+      "operating_receipt_in_million_dollars": "39898.9",
+      "profit_in_million_dollars": "3643.3",
+      "country": "瑞士"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/216/2014",
+      "rank2014": 275,
+      "rank2013": 271,
+      "name": "汉莎集团（LUFTHANSA GROUP)",
+      "operating_receipt_in_million_dollars": "39864.0",
+      "profit_in_million_dollars": "415.5",
+      "country": "德国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/572/2014",
+      "rank2014": 276,
+      "rank2013": 355,
+      "name": "中国化工集团公司（CHEMCHINA)",
+      "operating_receipt_in_million_dollars": "39690.9",
+      "profit_in_million_dollars": "-139.4",
+      "country": "中国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/411/2014",
+      "rank2014": 277,
+      "rank2013": 266,
+      "name": "怡和集团（JARDINE MATHESON)",
+      "operating_receipt_in_million_dollars": "39465.0",
+      "profit_in_million_dollars": "1566.0",
+      "country": "中国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/561/2014",
+      "rank2014": 278,
+      "rank2013": 326,
+      "name": "中国机械工业集团有限公司（SINOMACH)",
+      "operating_receipt_in_million_dollars": "39418.4",
+      "profit_in_million_dollars": "249.4",
+      "country": "中国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/590/2014",
+      "rank2014": 279,
+      "rank2013": 388,
+      "name": "山东魏桥创业集团有限公司（SHANDONG WEIQIAO PIONEERING GROUP)",
+      "operating_receipt_in_million_dollars": "39259.9",
+      "profit_in_million_dollars": "1102.9",
+      "country": "中国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/317/2014",
+      "rank2014": 280,
+      "rank2013": 348,
+      "name": "Tesoro公司（TESORO)",
+      "operating_receipt_in_million_dollars": "39193.0",
+      "profit_in_million_dollars": "412.0",
+      "country": "美国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/304/2014",
+      "rank2014": 281,
+      "rank2013": 296,
+      "name": "美国利宝互助保险集团（LIBERTY MUTUAL INSURANCE GROUP)",
+      "operating_receipt_in_million_dollars": "39133.0",
+      "profit_in_million_dollars": "1743.0",
+      "country": "美国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/325/2014",
+      "rank2014": 282,
+      "rank2013": 276,
+      "name": "森科能源公司（SUNCOR ENERGY)",
+      "operating_receipt_in_million_dollars": "39116.1",
+      "profit_in_million_dollars": "3796.4",
+      "country": "加拿大"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/212/2014",
+      "rank2014": 283,
+      "rank2013": 287,
+      "name": "霍尼韦尔国际公司（HONEYWELL INTERNATIONAL)",
+      "operating_receipt_in_million_dollars": "39055.0",
+      "profit_in_million_dollars": "3924.0",
+      "country": "美国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/311/2014",
+      "rank2014": 284,
+      "rank2013": 260,
+      "name": "印度斯坦石油公司（HINDUSTAN PETROLEUM)",
+      "operating_receipt_in_million_dollars": "38958.3",
+      "profit_in_million_dollars": "178.7",
+      "country": "印度"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/519/2014",
+      "rank2014": 285,
+      "rank2013": 315,
+      "name": "华为投资控股有限公司（HUAWEI INVESTMENT & HOLDING)",
+      "operating_receipt_in_million_dollars": "38875.8",
+      "profit_in_million_dollars": "3402.3",
+      "country": "中国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/563/2014",
+      "rank2014": 286,
+      "rank2013": 329,
+      "name": "联想集团（LENOVO GROUP)",
+      "operating_receipt_in_million_dollars": "38707.1",
+      "profit_in_million_dollars": "817.2",
+      "country": "中国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/524/2014",
+      "rank2014": 287,
+      "rank2013": 316,
+      "name": "印度塔塔汽车公司（TATA MOTORS)",
+      "operating_receipt_in_million_dollars": "38502.3",
+      "profit_in_million_dollars": "2313.6",
+      "country": "印度"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/283/2014",
+      "rank2014": 288,
+      "rank2013": 237,
+      "name": "西太平洋银行（WESTPAC BANKING)",
+      "operating_receipt_in_million_dollars": "38496.0",
+      "profit_in_million_dollars": "6765.6",
+      "country": "澳大利亚"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/338/2014",
+      "rank2014": 289,
+      "rank2013": 288,
+      "name": "迪奥（CHRISTIAN DIOR)",
+      "operating_receipt_in_million_dollars": "38431.9",
+      "profit_in_million_dollars": "1840.5",
+      "country": "法国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/618/2014",
+      "rank2014": 290,
+      "rank2013": 403,
+      "name": "山西焦煤集团有限责任公司（Shanxi Coking Coal Group)",
+      "operating_receipt_in_million_dollars": "38398.1",
+      "profit_in_million_dollars": "74.7",
+      "country": "中国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/566/2014",
+      "rank2014": 291,
+      "rank2013": 293,
+      "name": "美国联合大陆控股有限公司（UNITED CONTINENTAL HOLDINGS)",
+      "operating_receipt_in_million_dollars": "38279.0",
+      "profit_in_million_dollars": "571.0",
+      "country": "美国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/190/2014",
+      "rank2014": 292,
+      "rank2013": 236,
+      "name": "佳能（CANON)",
+      "operating_receipt_in_million_dollars": "38247.2",
+      "profit_in_million_dollars": "2362.5",
+      "country": "日本"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/261/2014",
+      "rank2014": 293,
+      "rank2013": 300,
+      "name": "森宝利（J. SAINSBURY)",
+      "operating_receipt_in_million_dollars": "38045.8",
+      "profit_in_million_dollars": "1137.5",
+      "country": "英国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/308/2014",
+      "rank2014": 294,
+      "rank2013": 301,
+      "name": "HCA公司（HCA HOLDINGS)",
+      "operating_receipt_in_million_dollars": "38040.0",
+      "profit_in_million_dollars": "1556.0",
+      "country": "美国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/617/2014",
+      "rank2014": 295,
+      "rank2013": 387,
+      "name": "正威国际集团（Amer International Group)",
+      "operating_receipt_in_million_dollars": "38030.2",
+      "profit_in_million_dollars": "833.3",
+      "country": "中国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/211/2014",
+      "rank2014": 296,
+      "rank2013": 282,
+      "name": "加拿大皇家银行（ROYAL BANK OF CANADA)",
+      "operating_receipt_in_million_dollars": "38016.6",
+      "profit_in_million_dollars": "8170.0",
+      "country": "加拿大"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/536/2014",
+      "rank2014": 297,
+      "rank2013": 299,
+      "name": "中国国电集团公司（CHINA GUODIAN)",
+      "operating_receipt_in_million_dollars": "37857.5",
+      "profit_in_million_dollars": "571.3",
+      "country": "中国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/307/2014",
+      "rank2014": 298,
+      "rank2013": 307,
+      "name": "迪尔公司（DEERE)",
+      "operating_receipt_in_million_dollars": "37795.4",
+      "profit_in_million_dollars": "3537.3",
+      "country": "美国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/403/2014",
+      "rank2014": 299,
+      "rank2013": 303,
+      "name": "达美航空（DELTA AIR LINES)",
+      "operating_receipt_in_million_dollars": "37773.0",
+      "profit_in_million_dollars": "10540.0",
+      "country": "美国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/306/2014",
+      "rank2014": 300,
+      "rank2013": 305,
+      "name": "台湾中油股份有限公司（CPC)",
+      "operating_receipt_in_million_dollars": "37689.7",
+      "profit_in_million_dollars": "110.9",
+      "country": "中国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/564/2014",
+      "rank2014": 301,
+      "rank2013": 280,
+      "name": "哥伦比亚国家石油公司（ECOPETROL)",
+      "operating_receipt_in_million_dollars": "37684.3",
+      "profit_in_million_dollars": "7012.9",
+      "country": "哥伦比亚"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/642/2014",
+      "rank2014": 302,
+      "rank2013": null,
+      "name": "Talanx公司（Talanx)",
+      "operating_receipt_in_million_dollars": "37547.4",
+      "profit_in_million_dollars": "1011.6",
+      "country": "德国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/363/2014",
+      "rank2014": 303,
+      "rank2013": 298,
+      "name": "印度国家银行（STATE BANK OF INDIA)",
+      "operating_receipt_in_million_dollars": "37528.4",
+      "profit_in_million_dollars": "2343.8",
+      "country": "印度"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/569/2014",
+      "rank2014": 304,
+      "rank2013": 311,
+      "name": "冀中能源集团（JIZHONG ENERGY GROUP)",
+      "operating_receipt_in_million_dollars": "37392.2",
+      "profit_in_million_dollars": "-254.8",
+      "country": "中国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/595/2014",
+      "rank2014": 305,
+      "rank2013": 373,
+      "name": "山东能源集团有限公司（SHANDONG ENERGY GROUP)",
+      "operating_receipt_in_million_dollars": "37362.9",
+      "profit_in_million_dollars": "223.0",
+      "country": "中国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/408/2014",
+      "rank2014": 306,
+      "rank2013": 294,
+      "name": "甲骨文公司（ORACLE)",
+      "operating_receipt_in_million_dollars": "37180.0",
+      "profit_in_million_dollars": "10925.0",
+      "country": "美国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/301/2014",
+      "rank2014": 307,
+      "rank2013": 309,
+      "name": "联合博姿（ALLIANCE BOOTS)",
+      "operating_receipt_in_million_dollars": "37121.3",
+      "profit_in_million_dollars": "1486.9",
+      "country": "瑞士"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/444/2014",
+      "rank2014": 308,
+      "rank2013": 318,
+      "name": "江苏沙钢集团（JIANGSU SHAGANG GROUP)",
+      "operating_receipt_in_million_dollars": "37095.3",
+      "profit_in_million_dollars": "172.9",
+      "country": "中国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/592/2014",
+      "rank2014": 309,
+      "rank2013": 390,
+      "name": "晋能集团（JINNENG GROUP)",
+      "operating_receipt_in_million_dollars": "37085.6",
+      "profit_in_million_dollars": "-2.4",
+      "country": "中国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/521/2014",
+      "rank2014": 310,
+      "rank2013": 328,
+      "name": "武汉钢铁(集团)公司（WUHAN IRON & STEEL)",
+      "operating_receipt_in_million_dollars": "36927.8",
+      "profit_in_million_dollars": "12.2",
+      "country": "中国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/398/2014",
+      "rank2014": 311,
+      "rank2013": 334,
+      "name": "瑞士再保险股份有限公司（SWISS RE)",
+      "operating_receipt_in_million_dollars": "36902.0",
+      "profit_in_million_dollars": "4444.0",
+      "country": "瑞士"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/108/2014",
+      "rank2014": 312,
+      "rank2013": 350,
+      "name": "摩根士丹利（MORGAN STANLEY)",
+      "operating_receipt_in_million_dollars": "36848.0",
+      "profit_in_million_dollars": "2932.0",
+      "country": "美国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/585/2014",
+      "rank2014": 313,
+      "rank2013": 354,
+      "name": "中国电力建设集团有限公司（POWER CHINA)",
+      "operating_receipt_in_million_dollars": "36806.9",
+      "profit_in_million_dollars": "832.8",
+      "country": "中国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/560/2014",
+      "rank2014": 314,
+      "rank2013": 277,
+      "name": "中国航空油料集团公司（CHINA NATIONAL AVIATION FUEL GROUP)",
+      "operating_receipt_in_million_dollars": "36729.8",
+      "profit_in_million_dollars": "152.7",
+      "country": "中国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/184/2014",
+      "rank2014": 315,
+      "rank2013": 279,
+      "name": "美国阿美拉达赫斯公司（HESS)",
+      "operating_receipt_in_million_dollars": "36694.0",
+      "profit_in_million_dollars": "5052.0",
+      "country": "美国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/194/2014",
+      "rank2014": 316,
+      "rank2013": 278,
+      "name": "日本钢铁工程控股公司（JFE HOLDINGS)",
+      "operating_receipt_in_million_dollars": "36602.3",
+      "profit_in_million_dollars": "1022.0",
+      "country": "日本"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/270/2014",
+      "rank2014": 317,
+      "rank2013": 283,
+      "name": "普利司通（BRIDGESTONE)",
+      "operating_receipt_in_million_dollars": "36573.4",
+      "profit_in_million_dollars": "2071.1",
+      "country": "日本"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/250/2014",
+      "rank2014": 318,
+      "rank2013": 332,
+      "name": "二十一世纪福克斯（TWENTY-FIRST CENTURY FOX)",
+      "operating_receipt_in_million_dollars": "36566.0",
+      "profit_in_million_dollars": "7097.0",
+      "country": "美国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/166/2014",
+      "rank2014": 319,
+      "rank2013": 281,
+      "name": "意大利电信（TELECOM ITALIA)",
+      "operating_receipt_in_million_dollars": "36493.4",
+      "profit_in_million_dollars": "-894.8",
+      "country": "意大利"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/262/2014",
+      "rank2014": 320,
+      "rank2013": 267,
+      "name": "杜邦公司（DUPONT)",
+      "operating_receipt_in_million_dollars": "36475.0",
+      "profit_in_million_dollars": "4848.0",
+      "country": "美国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/391/2014",
+      "rank2014": 321,
+      "rank2013": 339,
+      "name": "德国艾德卡公司（EDEKA ZENTRALE)",
+      "operating_receipt_in_million_dollars": "36225.7",
+      "profit_in_million_dollars": "239.2",
+      "country": "德国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/160/2014",
+      "rank2014": 322,
+      "rank2013": 262,
+      "name": "西尔斯控股（SEARS HOLDINGS)",
+      "operating_receipt_in_million_dollars": "36188.0",
+      "profit_in_million_dollars": "-1365.0",
+      "country": "美国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/249/2014",
+      "rank2014": 323,
+      "rank2013": 297,
+      "name": "波兰国营石油公司（PKN ORLEN GROUP)",
+      "operating_receipt_in_million_dollars": "36037.9",
+      "profit_in_million_dollars": "55.7",
+      "country": "波兰"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/269/2014",
+      "rank2014": 324,
+      "rank2013": 324,
+      "name": "美国纽约人寿保险公司（NEW YORK LIFE INSURANCE)",
+      "operating_receipt_in_million_dollars": "36026.3",
+      "profit_in_million_dollars": "1326.4",
+      "country": "美国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/207/2014",
+      "rank2014": 325,
+      "rank2013": 289,
+      "name": "法国维旺迪集团（VIVENDI)",
+      "operating_receipt_in_million_dollars": "35873.4",
+      "profit_in_million_dollars": "2611.3",
+      "country": "法国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/245/2014",
+      "rank2014": 326,
+      "rank2013": 335,
+      "name": "德国中央合作银行（DZ BANK)",
+      "operating_receipt_in_million_dollars": "35860.1",
+      "profit_in_million_dollars": "1551.9",
+      "country": "德国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/643/2014",
+      "rank2014": 327,
+      "rank2013": null,
+      "name": "渤海钢铁集团（Bohai Steel Group)",
+      "operating_receipt_in_million_dollars": "35795.6",
+      "profit_in_million_dollars": "64.3",
+      "country": "中国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/562/2014",
+      "rank2014": 328,
+      "rank2013": 404,
+      "name": "河南能源化工集团（HENAN ENERGY & CHEMICAL)",
+      "operating_receipt_in_million_dollars": "35761.8",
+      "profit_in_million_dollars": "-372.1",
+      "country": "中国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/644/2014",
+      "rank2014": 329,
+      "rank2013": null,
+      "name": "Alimentation Couche-Tard公司（Alimentation Couche-Tard)",
+      "operating_receipt_in_million_dollars": "35543.4",
+      "profit_in_million_dollars": "572.8",
+      "country": "加拿大"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/620/2014",
+      "rank2014": 330,
+      "rank2013": 411,
+      "name": "中国民生银行（CHINA MINSHENG BANKING)",
+      "operating_receipt_in_million_dollars": "35474.5",
+      "profit_in_million_dollars": "6876.2",
+      "country": "中国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/362/2014",
+      "rank2014": 331,
+      "rank2013": null,
+      "name": "韩华集团（HANWHA)",
+      "operating_receipt_in_million_dollars": "35379.9",
+      "profit_in_million_dollars": "118.8",
+      "country": "韩国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/177/2014",
+      "rank2014": 332,
+      "rank2013": 313,
+      "name": "亿滋国际（MONDELEZ INTERNATIONAL)",
+      "operating_receipt_in_million_dollars": "35299.0",
+      "profit_in_million_dollars": "3915.0",
+      "country": "美国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/260/2014",
+      "rank2014": 333,
+      "rank2013": 331,
+      "name": "美国运通公司（AMERICAN EXPRESS)",
+      "operating_receipt_in_million_dollars": "34932.0",
+      "profit_in_million_dollars": "5359.0",
+      "country": "美国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/302/2014",
+      "rank2014": 334,
+      "rank2013": 290,
+      "name": "三菱化学控股（MITSUBISHI CHEMICAL HOLDINGS)",
+      "operating_receipt_in_million_dollars": "34925.1",
+      "profit_in_million_dollars": "321.9",
+      "country": "日本"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/265/2014",
+      "rank2014": 335,
+      "rank2013": 333,
+      "name": "爱立信（L.M. ERICSSON)",
+      "operating_receipt_in_million_dollars": "34915.3",
+      "profit_in_million_dollars": "1843.5",
+      "country": "瑞典"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/339/2014",
+      "rank2014": 336,
+      "rank2013": 368,
+      "name": "意大利邮政集团（POSTE ITALIANE)",
+      "operating_receipt_in_million_dollars": "34872.7",
+      "profit_in_million_dollars": "1334.0",
+      "country": "意大利"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/384/2014",
+      "rank2014": 337,
+      "rank2013": 370,
+      "name": "麦格纳国际（MAGNA INTERNATIONAL)",
+      "operating_receipt_in_million_dollars": "34835.0",
+      "profit_in_million_dollars": "1561.0",
+      "country": "加拿大"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/622/2014",
+      "rank2014": 338,
+      "rank2013": 428,
+      "name": "兴业银行（Industrial Bank)",
+      "operating_receipt_in_million_dollars": "34808.6",
+      "profit_in_million_dollars": "6702.7",
+      "country": "中国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/528/2014",
+      "rank2014": 339,
+      "rank2013": 308,
+      "name": "俄罗斯Sistema公司（SISTEMA)",
+      "operating_receipt_in_million_dollars": "34792.0",
+      "profit_in_million_dollars": "2257.5",
+      "country": "俄罗斯"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/438/2014",
+      "rank2014": 340,
+      "rank2013": 365,
+      "name": "韩国天然气公司（KOREA GAS)",
+      "operating_receipt_in_million_dollars": "34774.9",
+      "profit_in_million_dollars": "-183.4",
+      "country": "韩国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/172/2014",
+      "rank2014": 341,
+      "rank2013": 217,
+      "name": "KOC集团（KOÇ HOLDING)",
+      "operating_receipt_in_million_dollars": "34734.3",
+      "profit_in_million_dollars": "1406.4",
+      "country": "土耳其"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/217/2014",
+      "rank2014": 342,
+      "rank2013": 200,
+      "name": "住友生命保险公司（SUMITOMO LIFE INSURANCE)",
+      "operating_receipt_in_million_dollars": "34571.0",
+      "profit_in_million_dollars": "1224.9",
+      "country": "日本"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/463/2014",
+      "rank2014": 343,
+      "rank2013": 377,
+      "name": "美国全国保险公司（NATIONWIDE)",
+      "operating_receipt_in_million_dollars": "34542.0",
+      "profit_in_million_dollars": "797.2",
+      "country": "美国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/295/2014",
+      "rank2014": 344,
+      "rank2013": 337,
+      "name": "好事达（ALLSTATE)",
+      "operating_receipt_in_million_dollars": "34507.0",
+      "profit_in_million_dollars": "2280.0",
+      "country": "美国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/573/2014",
+      "rank2014": 345,
+      "rank2013": 364,
+      "name": "浙江物产集团（ZHEJIANG MATERIALS INDUSTRY GROUP)",
+      "operating_receipt_in_million_dollars": "34500.7",
+      "profit_in_million_dollars": "59.2",
+      "country": "中国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/313/2014",
+      "rank2014": 346,
+      "rank2013": 338,
+      "name": "泰森食品（TYSON FOODS)",
+      "operating_receipt_in_million_dollars": "34482.0",
+      "profit_in_million_dollars": "778.0",
+      "country": "美国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/165/2014",
+      "rank2014": 347,
+      "rank2013": 314,
+      "name": "荷兰合作银行（RABOBANK GROUP)",
+      "operating_receipt_in_million_dollars": "34349.3",
+      "profit_in_million_dollars": "1233.3",
+      "country": "荷兰"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/555/2014",
+      "rank2014": 348,
+      "rank2013": 322,
+      "name": "首钢集团（SHOUGANG GROUP)",
+      "operating_receipt_in_million_dollars": "34292.2",
+      "profit_in_million_dollars": "-144.1",
+      "country": "中国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/645/2014",
+      "rank2014": 349,
+      "rank2013": null,
+      "name": "中国华信能源有限公司（CEFC China Energy)",
+      "operating_receipt_in_million_dollars": "34133.6",
+      "profit_in_million_dollars": "345.5",
+      "country": "中国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/605/2014",
+      "rank2014": 350,
+      "rank2013": 412,
+      "name": "招商银行（CHINA MERCHANTS BANK)",
+      "operating_receipt_in_million_dollars": "34121.5",
+      "profit_in_million_dollars": "8415.7",
+      "country": "中国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/240/2014",
+      "rank2014": 351,
+      "rank2013": 340,
+      "name": "法国航空－荷兰皇家航空集团（AIR FRANCE-KLM GROUP)",
+      "operating_receipt_in_million_dollars": "34091.8",
+      "profit_in_million_dollars": "-2425.5",
+      "country": "法国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/247/2014",
+      "rank2014": 352,
+      "rank2013": 291,
+      "name": "澳新银行集团（AUSTRALIA & NEW ZEALAND BANKING GROUP)",
+      "operating_receipt_in_million_dollars": "34061.0",
+      "profit_in_million_dollars": "6225.6",
+      "country": "澳大利亚"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/296/2014",
+      "rank2014": 353,
+      "rank2013": 352,
+      "name": "美国教师退休基金会（TIAA-CREF)",
+      "operating_receipt_in_million_dollars": "33817.4",
+      "profit_in_million_dollars": "1722.1",
+      "country": "美国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/380/2014",
+      "rank2014": 354,
+      "rank2013": 302,
+      "name": "中国冶金科工集团有限公司（CHINA METALLURGICAL GROUP)",
+      "operating_receipt_in_million_dollars": "33697.7",
+      "profit_in_million_dollars": "-754.4",
+      "country": "中国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/243/2014",
+      "rank2014": 355,
+      "rank2013": 327,
+      "name": "日本三菱重工业股份有限公司（MITSUBISHI HEAVY INDUSTRIES)",
+      "operating_receipt_in_million_dollars": "33435.4",
+      "profit_in_million_dollars": "1601.4",
+      "country": "日本"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/493/2014",
+      "rank2014": 356,
+      "rank2013": 342,
+      "name": "万通互惠理财（MASSACHUSETTS MUTUAL LIFE INSURANCE)",
+      "operating_receipt_in_million_dollars": "33350.1",
+      "profit_in_million_dollars": "193.4",
+      "country": "美国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/628/2014",
+      "rank2014": 357,
+      "rank2013": 446,
+      "name": "中国医药集团（Sinopharm)",
+      "operating_receipt_in_million_dollars": "33271.6",
+      "profit_in_million_dollars": "343.8",
+      "country": "中国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/324/2014",
+      "rank2014": 358,
+      "rank2013": 320,
+      "name": "关西电力（KANSAI ELECTRIC POWER)",
+      "operating_receipt_in_million_dollars": "33214.7",
+      "profit_in_million_dollars": "-972.3",
+      "country": "日本"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/188/2014",
+      "rank2014": 359,
+      "rank2013": 317,
+      "name": "弗朗茨海涅尔公司（FRANZ HANIEL)",
+      "operating_receipt_in_million_dollars": "33198.3",
+      "profit_in_million_dollars": "200.5",
+      "country": "德国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/464/2014",
+      "rank2014": 360,
+      "rank2013": 353,
+      "name": "西班牙天然气公司（GAS NATURAL FENOSA)",
+      "operating_receipt_in_million_dollars": "33147.9",
+      "profit_in_million_dollars": "1918.3",
+      "country": "西班牙"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/354/2014",
+      "rank2014": 361,
+      "rank2013": 378,
+      "name": "多伦多道明银行（TORONTO-DOMINION BANK)",
+      "operating_receipt_in_million_dollars": "33146.6",
+      "profit_in_million_dollars": "6430.2",
+      "country": "加拿大"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/229/2014",
+      "rank2014": 362,
+      "rank2013": 306,
+      "name": "住友商事（SUMITOMO)",
+      "operating_receipt_in_million_dollars": "33114.1",
+      "profit_in_million_dollars": "2226.6",
+      "country": "日本"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/281/2014",
+      "rank2014": 363,
+      "rank2013": 363,
+      "name": "和记黄埔有限公司（HUTCHISON WHAMPOA)",
+      "operating_receipt_in_million_dollars": "33035.2",
+      "profit_in_million_dollars": "4011.1",
+      "country": "中国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/280/2014",
+      "rank2014": 364,
+      "rank2013": 349,
+      "name": "法国邮政（LA POSTE)",
+      "operating_receipt_in_million_dollars": "32936.8",
+      "profit_in_million_dollars": "832.4",
+      "country": "法国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/601/2014",
+      "rank2014": 365,
+      "rank2013": 406,
+      "name": "新兴际华集团（XINXING CATHAY INTERNATIONAL GROUP)",
+      "operating_receipt_in_million_dollars": "32789.8",
+      "profit_in_million_dollars": "385.8",
+      "country": "中国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/634/2014",
+      "rank2014": 366,
+      "rank2013": 483,
+      "name": "广州汽车工业集团（Guangzhou Automobile Industry Group)",
+      "operating_receipt_in_million_dollars": "32775.6",
+      "profit_in_million_dollars": "207.9",
+      "country": "中国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/254/2014",
+      "rank2014": 367,
+      "rank2013": 344,
+      "name": "加拿大乔治威斯顿公司（GEORGE WESTON)",
+      "operating_receipt_in_million_dollars": "32597.9",
+      "profit_in_million_dollars": "597.9",
+      "country": "加拿大"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/589/2014",
+      "rank2014": 368,
+      "rank2013": 389,
+      "name": "中国华电集团公司（CHINA HUADIAN)",
+      "operating_receipt_in_million_dollars": "32548.7",
+      "profit_in_million_dollars": "800.7",
+      "country": "中国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/624/2014",
+      "rank2014": 369,
+      "rank2013": 432,
+      "name": "大同煤矿集团有限责任公司（Datong Coal Mine Group)",
+      "operating_receipt_in_million_dollars": "32458.1",
+      "profit_in_million_dollars": "-267.2",
+      "country": "中国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/195/2014",
+      "rank2014": 370,
+      "rank2013": 347,
+      "name": "荷兰皇家飞利浦公司（ROYAL PHILIPS)",
+      "operating_receipt_in_million_dollars": "32449.6",
+      "profit_in_million_dollars": "1551.9",
+      "country": "荷兰"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/487/2014",
+      "rank2014": 371,
+      "rank2013": 393,
+      "name": "信诺（CIGNA)",
+      "operating_receipt_in_million_dollars": "32380.0",
+      "profit_in_million_dollars": "1476.0",
+      "country": "美国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/623/2014",
+      "rank2014": 372,
+      "rank2013": 430,
+      "name": "潞安集团（Shanxi LuAn Mining Group)",
+      "operating_receipt_in_million_dollars": "32332.4",
+      "profit_in_million_dollars": "-182.2",
+      "country": "中国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/227/2014",
+      "rank2014": 373,
+      "rank2013": 380,
+      "name": "荷兰GasTerra能源公司（GASTERRA)",
+      "operating_receipt_in_million_dollars": "32250.2",
+      "profit_in_million_dollars": "47.8",
+      "country": "荷兰"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/510/2014",
+      "rank2014": 374,
+      "rank2013": 375,
+      "name": "英国标准人寿保险公司（STANDARD LIFE)",
+      "operating_receipt_in_million_dollars": "32114.0",
+      "profit_in_million_dollars": "728.4",
+      "country": "英国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/616/2014",
+      "rank2014": 375,
+      "rank2013": 384,
+      "name": "和硕（Pegatron)",
+      "operating_receipt_in_million_dollars": "31999.1",
+      "profit_in_million_dollars": "321.9",
+      "country": "中国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/135/2014",
+      "rank2014": 376,
+      "rank2013": 265,
+      "name": "法国威立雅环境集团（VEOLIA ENVIRONNEMENT)",
+      "operating_receipt_in_million_dollars": "31989.7",
+      "profit_in_million_dollars": "-179.6",
+      "country": "法国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/646/2014",
+      "rank2014": 377,
+      "rank2013": null,
+      "name": "Enbridge公司（Enbridge)",
+      "operating_receipt_in_million_dollars": "31978.6",
+      "profit_in_million_dollars": "610.6",
+      "country": "加拿大"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/162/2014",
+      "rank2014": 378,
+      "rank2013": 180,
+      "name": "德国巴登-符腾堡州银行（LANDESBANK BADEN-WÜRTTEMBERG)",
+      "operating_receipt_in_million_dollars": "31809.7",
+      "profit_in_million_dollars": "455.4",
+      "country": "德国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/469/2014",
+      "rank2014": 379,
+      "rank2013": 386,
+      "name": "DirecTV公司（DIRECTV)",
+      "operating_receipt_in_million_dollars": "31754.0",
+      "profit_in_million_dollars": "2859.0",
+      "country": "美国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/370/2014",
+      "rank2014": 380,
+      "rank2013": 491,
+      "name": "CFE公司（CFE)",
+      "operating_receipt_in_million_dollars": "31652.7",
+      "profit_in_million_dollars": "-2940.9",
+      "country": "墨西哥"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/621/2014",
+      "rank2014": 381,
+      "rank2013": 414,
+      "name": "江西铜业集团公司（Jiangxi Copper)",
+      "operating_receipt_in_million_dollars": "31638.1",
+      "profit_in_million_dollars": "92.8",
+      "country": "中国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/558/2014",
+      "rank2014": 382,
+      "rank2013": 395,
+      "name": "中国电子信息产业集团有限公司（CHINA ELECTRONICS)",
+      "operating_receipt_in_million_dollars": "31517.8",
+      "profit_in_million_dollars": "282.2",
+      "country": "中国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/629/2014",
+      "rank2014": 383,
+      "rank2013": 460,
+      "name": "上海浦东发展银行股份有限公司（Shanghai Pudong Development Bank)",
+      "operating_receipt_in_million_dollars": "31440.8",
+      "profit_in_million_dollars": "6655.7",
+      "country": "中国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/571/2014",
+      "rank2014": 384,
+      "rank2013": 429,
+      "name": "中国太平洋保险（集团）股份有限公司（CHINA PACIFIC INSURANCE (GROUP))",
+      "operating_receipt_in_million_dollars": "31412.5",
+      "profit_in_million_dollars": "1506.2",
+      "country": "中国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/323/2014",
+      "rank2014": 385,
+      "rank2013": 379,
+      "name": "台塑石化股份有限公司（FORMOSA PETROCHEMICAL)",
+      "operating_receipt_in_million_dollars": "31333.2",
+      "profit_in_million_dollars": "904.9",
+      "country": "中国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/626/2014",
+      "rank2014": 386,
+      "rank2013": 435,
+      "name": "山西晋城无烟煤矿业集团有限责任公司（Shanxi Jincheng Anthracite Coal Mining Group)",
+      "operating_receipt_in_million_dollars": "31324.3",
+      "profit_in_million_dollars": "169.5",
+      "country": "中国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/330/2014",
+      "rank2014": 387,
+      "rank2013": 372,
+      "name": "施耐德电气（SCHNEIDER ELECTRIC)",
+      "operating_receipt_in_million_dollars": "31265.4",
+      "profit_in_million_dollars": "2506.4",
+      "country": "法国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/597/2014",
+      "rank2014": 388,
+      "rank2013": 426,
+      "name": "现代摩比斯公司（HYUNDAI MOBIS)",
+      "operating_receipt_in_million_dollars": "31244.5",
+      "profit_in_million_dollars": "3126.0",
+      "country": "韩国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/297/2014",
+      "rank2014": 389,
+      "rank2013": 361,
+      "name": "通用动力（GENERAL DYNAMICS)",
+      "operating_receipt_in_million_dollars": "31218.0",
+      "profit_in_million_dollars": "2357.0",
+      "country": "美国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/345/2014",
+      "rank2014": 390,
+      "rank2013": 362,
+      "name": "菲利普－莫里斯国际公司（PHILIP MORRIS INTERNATIONAL)",
+      "operating_receipt_in_million_dollars": "31217.0",
+      "profit_in_million_dollars": "8576.0",
+      "country": "美国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/619/2014",
+      "rank2014": 391,
+      "rank2013": 407,
+      "name": "山西阳泉煤业(集团)有限责任公司（Yangquan Coal Industry Group)",
+      "operating_receipt_in_million_dollars": "31193.5",
+      "profit_in_million_dollars": "-38.6",
+      "country": "中国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/85/2014",
+      "rank2014": 392,
+      "rank2013": 274,
+      "name": "诺基亚（NOKIA)",
+      "operating_receipt_in_million_dollars": "31123.4",
+      "profit_in_million_dollars": "-816.5",
+      "country": "芬兰"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/594/2014",
+      "rank2014": 393,
+      "rank2013": 408,
+      "name": "中国电力投资集团公司（CHINA POWER INVESTMENT)",
+      "operating_receipt_in_million_dollars": "31066.6",
+      "profit_in_million_dollars": "465.7",
+      "country": "中国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/602/2014",
+      "rank2014": 394,
+      "rank2013": 415,
+      "name": "开滦集团（KAILUAN GROUP)",
+      "operating_receipt_in_million_dollars": "31062.9",
+      "profit_in_million_dollars": "-26.5",
+      "country": "中国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/647/2014",
+      "rank2014": 395,
+      "rank2013": null,
+      "name": "Achmea公司（Achmea)",
+      "operating_receipt_in_million_dollars": "30986.6",
+      "profit_in_million_dollars": "460.7",
+      "country": "荷兰"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/520/2014",
+      "rank2014": 396,
+      "rank2013": 376,
+      "name": "中国大唐集团公司（CHINA DATANG)",
+      "operating_receipt_in_million_dollars": "30980.2",
+      "profit_in_million_dollars": "199.2",
+      "country": "中国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/509/2014",
+      "rank2014": 397,
+      "rank2013": 346,
+      "name": "英国耆卫保险公司（OLD MUTUAL)",
+      "operating_receipt_in_million_dollars": "30965.2",
+      "profit_in_million_dollars": "1102.0",
+      "country": "英国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/633/2014",
+      "rank2014": 398,
+      "rank2013": 482,
+      "name": "中国有色矿业集团有限公司（China Nonferrous Metal Mining (Group))",
+      "operating_receipt_in_million_dollars": "30903.7",
+      "profit_in_million_dollars": "-67.9",
+      "country": "中国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/351/2014",
+      "rank2014": 399,
+      "rank2013": 382,
+      "name": "3M公司（3M)",
+      "operating_receipt_in_million_dollars": "30871.0",
+      "profit_in_million_dollars": "4659.0",
+      "country": "美国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/293/2014",
+      "rank2014": 400,
+      "rank2013": 345,
+      "name": "科斯莫石油（COSMO OIL)",
+      "operating_receipt_in_million_dollars": "30863.6",
+      "profit_in_million_dollars": "43.4",
+      "country": "日本"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/335/2014",
+      "rank2014": 401,
+      "rank2013": 357,
+      "name": "中粮集团有限公司（COFCO)",
+      "operating_receipt_in_million_dollars": "30748.0",
+      "profit_in_million_dollars": "41.6",
+      "country": "中国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/346/2014",
+      "rank2014": 402,
+      "rank2013": 396,
+      "name": "欧莱雅（L'ORÉAL)",
+      "operating_receipt_in_million_dollars": "30502.9",
+      "profit_in_million_dollars": "3927.2",
+      "country": "法国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/570/2014",
+      "rank2014": 403,
+      "rank2013": 417,
+      "name": "中国船舶重工集团公司（CHINA SHIPBUILDING INDUSTRY)",
+      "operating_receipt_in_million_dollars": "30478.8",
+      "profit_in_million_dollars": "1158.3",
+      "country": "中国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/348/2014",
+      "rank2014": 404,
+      "rank2013": 385,
+      "name": "埃森哲（ACCENTURE)",
+      "operating_receipt_in_million_dollars": "30394.3",
+      "profit_in_million_dollars": "3281.9",
+      "country": "爱尔兰"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/182/2014",
+      "rank2014": 405,
+      "rank2013": 295,
+      "name": "日本电气公司（NEC)",
+      "operating_receipt_in_million_dollars": "30376.1",
+      "profit_in_million_dollars": "336.8",
+      "country": "日本"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/526/2014",
+      "rank2014": 406,
+      "rank2013": 325,
+      "name": "日本NKSJ控股（NKSJ HOLDINGS)",
+      "operating_receipt_in_million_dollars": "30029.0",
+      "profit_in_million_dollars": "440.9",
+      "country": "日本"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/321/2014",
+      "rank2014": 407,
+      "rank2013": 391,
+      "name": "德尔海兹集团（DELHAIZE GROUP)",
+      "operating_receipt_in_million_dollars": "29818.4",
+      "profit_in_million_dollars": "237.6",
+      "country": "比利时"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/159/2014",
+      "rank2014": 408,
+      "rank2013": 402,
+      "name": "时代华纳（TIME WARNER)",
+      "operating_receipt_in_million_dollars": "29795.0",
+      "profit_in_million_dollars": "3691.0",
+      "country": "美国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/342/2014",
+      "rank2014": 409,
+      "rank2013": 321,
+      "name": "广达电脑（QUANTA COMPUTER)",
+      "operating_receipt_in_million_dollars": "29662.6",
+      "profit_in_million_dollars": "627.3",
+      "country": "中国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/353/2014",
+      "rank2014": 410,
+      "rank2013": 424,
+      "name": "Onex公司（ONEX)",
+      "operating_receipt_in_million_dollars": "29637.0",
+      "profit_in_million_dollars": "-354.0",
+      "country": "加拿大"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/364/2014",
+      "rank2014": 411,
+      "rank2013": 330,
+      "name": "Medipal控股公司（MEDIPAL HOLDINGS)",
+      "operating_receipt_in_million_dollars": "29424.7",
+      "profit_in_million_dollars": "254.4",
+      "country": "日本"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/591/2014",
+      "rank2014": 412,
+      "rank2013": 410,
+      "name": "哈里伯顿公司（HALLIBURTON)",
+      "operating_receipt_in_million_dollars": "29402.0",
+      "profit_in_million_dollars": "2125.0",
+      "country": "美国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/336/2014",
+      "rank2014": 413,
+      "rank2013": 399,
+      "name": "英美资源集团（ANGLO AMERICAN)",
+      "operating_receipt_in_million_dollars": "29342.0",
+      "profit_in_million_dollars": "-961.0",
+      "country": "英国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/290/2014",
+      "rank2014": 414,
+      "rank2013": 367,
+      "name": "铃木汽车（SUZUKI MOTOR)",
+      "operating_receipt_in_million_dollars": "29330.0",
+      "profit_in_million_dollars": "1072.9",
+      "country": "日本"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/394/2014",
+      "rank2014": 415,
+      "rank2013": 405,
+      "name": "曼弗雷集团（MAPFRE GROUP)",
+      "operating_receipt_in_million_dollars": "29264.1",
+      "profit_in_million_dollars": "1049.4",
+      "country": "西班牙"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/228/2014",
+      "rank2014": 416,
+      "rank2013": 312,
+      "name": "日本瑞穗金融集团（MIZUHO FINANCIAL GROUP)",
+      "operating_receipt_in_million_dollars": "29224.7",
+      "profit_in_million_dollars": "6871.7",
+      "country": "日本"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/309/2014",
+      "rank2014": 417,
+      "rank2013": 383,
+      "name": "夏普（SHARP)",
+      "operating_receipt_in_million_dollars": "29219.0",
+      "profit_in_million_dollars": "115.4",
+      "country": "日本"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/373/2014",
+      "rank2014": 418,
+      "rank2013": 418,
+      "name": "大众超级市场公司（PUBLIX SUPER MARKETS)",
+      "operating_receipt_in_million_dollars": "29147.5",
+      "profit_in_million_dollars": "1654.0",
+      "country": "美国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/584/2014",
+      "rank2014": 419,
+      "rank2013": 409,
+      "name": "Coop集团（COOP GROUP)",
+      "operating_receipt_in_million_dollars": "29101.8",
+      "profit_in_million_dollars": "498.6",
+      "country": "瑞士"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/361/2014",
+      "rank2014": 420,
+      "rank2013": 416,
+      "name": "国际纸业（INTERNATIONAL PAPER)",
+      "operating_receipt_in_million_dollars": "29080.0",
+      "profit_in_million_dollars": "1395.0",
+      "country": "美国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/210/2014",
+      "rank2014": 421,
+      "rank2013": 394,
+      "name": "英国电信集团（BT GROUP)",
+      "operating_receipt_in_million_dollars": "29051.1",
+      "profit_in_million_dollars": "3205.8",
+      "country": "英国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/557/2014",
+      "rank2014": 422,
+      "rank2013": 425,
+      "name": "PHOENIX PHARMAHANDEL公司（PHOENIX PHARMAHANDEL)",
+      "operating_receipt_in_million_dollars": "28988.7",
+      "profit_in_million_dollars": "66.7",
+      "country": "德国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/379/2014",
+      "rank2014": 423,
+      "rank2013": 438,
+      "name": "Migros集团（MIGROS GROUP)",
+      "operating_receipt_in_million_dollars": "28853.6",
+      "profit_in_million_dollars": "845.4",
+      "country": "瑞士"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/402/2014",
+      "rank2014": 424,
+      "rank2013": 369,
+      "name": "印度石油天然气公司（OIL & NATURAL GAS)",
+      "operating_receipt_in_million_dollars": "28850.5",
+      "profit_in_million_dollars": "4383.2",
+      "country": "印度"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/226/2014",
+      "rank2014": 425,
+      "rank2013": 341,
+      "name": "加拿大鲍尔集团（POWER CORP. OF CANADA)",
+      "operating_receipt_in_million_dollars": "28773.3",
+      "profit_in_million_dollars": "998.8",
+      "country": "加拿大"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/343/2014",
+      "rank2014": 426,
+      "rank2013": 431,
+      "name": "加拿大丰业银行（BANK OF NOVA SCOTIA)",
+      "operating_receipt_in_million_dollars": "28534.5",
+      "profit_in_million_dollars": "6297.9",
+      "country": "加拿大"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/441/2014",
+      "rank2014": 427,
+      "rank2013": 371,
+      "name": "S-OIL公司（S-OIL)",
+      "operating_receipt_in_million_dollars": "28467.1",
+      "profit_in_million_dollars": "264.6",
+      "country": "韩国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/356/2014",
+      "rank2014": 428,
+      "rank2013": 356,
+      "name": "日本中部电力（CHUBU ELECTRIC POWER)",
+      "operating_receipt_in_million_dollars": "28370.5",
+      "profit_in_million_dollars": "-652.1",
+      "country": "日本"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/413/2014",
+      "rank2014": 429,
+      "rank2013": 433,
+      "name": "达能（DANONE)",
+      "operating_receipt_in_million_dollars": "28274.4",
+      "profit_in_million_dollars": "1887.8",
+      "country": "法国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/532/2014",
+      "rank2014": 430,
+      "rank2013": 420,
+      "name": "Ultrapar控股公司（ULTRAPAR HOLDINGS)",
+      "operating_receipt_in_million_dollars": "28238.8",
+      "profit_in_million_dollars": "567.7",
+      "country": "巴西"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/417/2014",
+      "rank2014": 431,
+      "rank2013": 374,
+      "name": "爱信精机（AISIN SEIKI)",
+      "operating_receipt_in_million_dollars": "28171.1",
+      "profit_in_million_dollars": "899.3",
+      "country": "日本"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/630/2014",
+      "rank2014": 432,
+      "rank2013": 464,
+      "name": "陕西延长石油（集团）有限责任公司（Shaanxi Yanchang Petroleum (Group))",
+      "operating_receipt_in_million_dollars": "28146.3",
+      "profit_in_million_dollars": "1580.7",
+      "country": "中国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/388/2014",
+      "rank2014": 433,
+      "rank2013": 423,
+      "name": "麦当劳（MCDONALD'S)",
+      "operating_receipt_in_million_dollars": "28105.7",
+      "profit_in_million_dollars": "5585.9",
+      "country": "美国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/358/2014",
+      "rank2014": 434,
+      "rank2013": 419,
+      "name": "梅西百货（MACY'S)",
+      "operating_receipt_in_million_dollars": "27931.0",
+      "profit_in_million_dollars": "1486.0",
+      "country": "美国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/344/2014",
+      "rank2014": 435,
+      "rank2013": 397,
+      "name": "威廉莫里森超市连锁公司（WM. MORRISON SUPERMARKETS)",
+      "operating_receipt_in_million_dollars": "27704.8",
+      "profit_in_million_dollars": "-372.9",
+      "country": "英国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/486/2014",
+      "rank2014": 436,
+      "rank2013": 453,
+      "name": "TJX公司（TJX)",
+      "operating_receipt_in_million_dollars": "27422.7",
+      "profit_in_million_dollars": "2137.4",
+      "country": "美国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/407/2014",
+      "rank2014": 437,
+      "rank2013": 439,
+      "name": "金巴斯集团（COMPASS GROUP)",
+      "operating_receipt_in_million_dollars": "27390.0",
+      "profit_in_million_dollars": "669.3",
+      "country": "英国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/412/2014",
+      "rank2014": 438,
+      "rank2013": 422,
+      "name": "福陆公司（FLUOR)",
+      "operating_receipt_in_million_dollars": "27351.6",
+      "profit_in_million_dollars": "667.7",
+      "country": "美国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/648/2014",
+      "rank2014": 439,
+      "rank2013": null,
+      "name": "Unipol公司（Unipol)",
+      "operating_receipt_in_million_dollars": "27349.1",
+      "profit_in_million_dollars": "-104.3",
+      "country": "意大利"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/377/2014",
+      "rank2014": 440,
+      "rank2013": 472,
+      "name": "巴登-符滕堡州能源公司（ENERGIE BADEN-WÜRTTEMBERG)",
+      "operating_receipt_in_million_dollars": "27268.5",
+      "profit_in_million_dollars": "67.7",
+      "country": "德国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/334/2014",
+      "rank2014": 441,
+      "rank2013": 448,
+      "name": "阿尔斯通（ALSTOM)",
+      "operating_receipt_in_million_dollars": "27160.6",
+      "profit_in_million_dollars": "745.0",
+      "country": "法国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/559/2014",
+      "rank2014": 442,
+      "rank2013": 292,
+      "name": "中国铁路物资股份有限公司（CHINA RAILWAY MATERIALS)",
+      "operating_receipt_in_million_dollars": "27151.5",
+      "profit_in_million_dollars": "-1255.8",
+      "country": "中国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/649/2014",
+      "rank2014": 443,
+      "rank2013": null,
+      "name": "VTB Bank公司（VTB Bank)",
+      "operating_receipt_in_million_dollars": "27001.4",
+      "profit_in_million_dollars": "3186.8",
+      "country": "俄罗斯"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/523/2014",
+      "rank2014": 444,
+      "rank2013": 470,
+      "name": "费森尤斯集团（FRESENIUS)",
+      "operating_receipt_in_million_dollars": "26990.7",
+      "profit_in_million_dollars": "1342.2",
+      "country": "德国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/329/2014",
+      "rank2014": 445,
+      "rank2013": 351,
+      "name": "东日本旅客铁道株式会社（EAST JAPAN RAILWAY)",
+      "operating_receipt_in_million_dollars": "26980.3",
+      "profit_in_million_dollars": "1995.8",
+      "country": "日本"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/427/2014",
+      "rank2014": 446,
+      "rank2013": 452,
+      "name": "西北互助人寿保险公司（NORTHWESTERN MUTUAL)",
+      "operating_receipt_in_million_dollars": "26978.0",
+      "profit_in_million_dollars": "802.0",
+      "country": "美国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/544/2014",
+      "rank2014": 447,
+      "rank2013": 481,
+      "name": "大和房建（DAIWA HOUSE INDUSTRY)",
+      "operating_receipt_in_million_dollars": "26954.4",
+      "profit_in_million_dollars": "1019.1",
+      "country": "日本"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/376/2014",
+      "rank2014": 448,
+      "rank2013": 421,
+      "name": "米其林公司（MICHELIN)",
+      "operating_receipt_in_million_dollars": "26879.2",
+      "profit_in_million_dollars": "1496.2",
+      "country": "法国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/352/2014",
+      "rank2014": 449,
+      "rank2013": 440,
+      "name": "马自达汽车株式会社（MAZDA MOTOR)",
+      "operating_receipt_in_million_dollars": "26873.7",
+      "profit_in_million_dollars": "1354.5",
+      "country": "日本"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/374/2014",
+      "rank2014": 450,
+      "rank2013": 463,
+      "name": "Tech Data公司（TECH DATA)",
+      "operating_receipt_in_million_dollars": "26821.9",
+      "profit_in_million_dollars": "179.9",
+      "country": "美国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/327/2014",
+      "rank2014": 451,
+      "rank2013": 401,
+      "name": "中国远洋运输（集团）总公司（CHINA OCEAN SHIPPING)",
+      "operating_receipt_in_million_dollars": "26805.5",
+      "profit_in_million_dollars": "-373.2",
+      "country": "中国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/381/2014",
+      "rank2014": 452,
+      "rank2013": 469,
+      "name": "美国航空集团（AMERICAN AIRLINES GROUP)",
+      "operating_receipt_in_million_dollars": "26743.0",
+      "profit_in_million_dollars": "-1834.0",
+      "country": "美国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/410/2014",
+      "rank2014": 453,
+      "rank2013": 444,
+      "name": "澳大利亚电信（TELSTRA)",
+      "operating_receipt_in_million_dollars": "26641.6",
+      "profit_in_million_dollars": "3910.1",
+      "country": "澳大利亚"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/357/2014",
+      "rank2014": 454,
+      "rank2013": 473,
+      "name": "Vattenfall公司（VATTENFALL)",
+      "operating_receipt_in_million_dollars": "26363.4",
+      "profit_in_million_dollars": "-2098.8",
+      "country": "瑞典"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/279/2014",
+      "rank2014": 455,
+      "rank2013": 441,
+      "name": "BAE系统公司（BAE SYSTEMS)",
+      "operating_receipt_in_million_dollars": "26360.2",
+      "profit_in_million_dollars": "262.6",
+      "country": "英国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/627/2014",
+      "rank2014": 456,
+      "rank2013": 442,
+      "name": "哈特福德金融服务集团（Hartford Financial Services Group)",
+      "operating_receipt_in_million_dollars": "26341.0",
+      "profit_in_million_dollars": "176.0",
+      "country": "美国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/366/2014",
+      "rank2014": 457,
+      "rank2013": 454,
+      "name": "Travelers Cos.公司（TRAVELERS COS.)",
+      "operating_receipt_in_million_dollars": "26191.0",
+      "profit_in_million_dollars": "3673.0",
+      "country": "美国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/367/2014",
+      "rank2014": 458,
+      "rank2013": 427,
+      "name": "三星人寿保险（SAMSUNG LIFE INSURANCE)",
+      "operating_receipt_in_million_dollars": "26167.4",
+      "profit_in_million_dollars": "832.6",
+      "country": "韩国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/275/2014",
+      "rank2014": 459,
+      "rank2013": 492,
+      "name": "伟创力（FLEXTRONICS INTERNATIONAL)",
+      "operating_receipt_in_million_dollars": "26108.6",
+      "profit_in_million_dollars": "365.6",
+      "country": "新加坡"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/495/2014",
+      "rank2014": 460,
+      "rank2013": null,
+      "name": "三星C&T公司（SAMSUNG C&T)",
+      "operating_receipt_in_million_dollars": "25977.3",
+      "profit_in_million_dollars": "221.5",
+      "country": "韩国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/299/2014",
+      "rank2014": 461,
+      "rank2013": 443,
+      "name": "德科集团（ADECCO GROUP)",
+      "operating_receipt_in_million_dollars": "25891.4",
+      "profit_in_million_dollars": "739.5",
+      "country": "瑞士"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/497/2014",
+      "rank2014": 462,
+      "rank2013": 484,
+      "name": "耐克公司（NIKE)",
+      "operating_receipt_in_million_dollars": "25836.0",
+      "profit_in_million_dollars": "2485.0",
+      "country": "美国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/442/2014",
+      "rank2014": 463,
+      "rank2013": 458,
+      "name": "喜力控股公司（HEINEKEN HOLDING)",
+      "operating_receipt_in_million_dollars": "25793.2",
+      "profit_in_million_dollars": "906.7",
+      "country": "荷兰"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/650/2014",
+      "rank2014": 464,
+      "rank2013": null,
+      "name": "乐天百货（Lotte Shopping)",
+      "operating_receipt_in_million_dollars": "25774.8",
+      "profit_in_million_dollars": "720.3",
+      "country": "韩国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/651/2014",
+      "rank2014": 465,
+      "rank2013": null,
+      "name": "中国能源建设集团有限公司（China Energy Engineering Group)",
+      "operating_receipt_in_million_dollars": "25769.0",
+      "profit_in_million_dollars": "256.4",
+      "country": "中国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/599/2014",
+      "rank2014": 466,
+      "rank2013": 477,
+      "name": "浙江吉利控股集团（ZHEJIANG GEELY HOLDING GROUP)",
+      "operating_receipt_in_million_dollars": "25767.5",
+      "profit_in_million_dollars": "118.1",
+      "country": "中国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/365/2014",
+      "rank2014": 467,
+      "rank2013": 480,
+      "name": "西方石油公司（OCCIDENTAL PETROLEUM)",
+      "operating_receipt_in_million_dollars": "25736.0",
+      "profit_in_million_dollars": "5903.0",
+      "country": "美国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/268/2014",
+      "rank2014": 468,
+      "rank2013": 413,
+      "name": "阿斯利康（ASTRAZENECA)",
+      "operating_receipt_in_million_dollars": "25711.0",
+      "profit_in_million_dollars": "2556.0",
+      "country": "英国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/652/2014",
+      "rank2014": 469,
+      "rank2013": null,
+      "name": "中国通用技术(集团)控股有限责任公司（China General Technology)",
+      "operating_receipt_in_million_dollars": "25702.0",
+      "profit_in_million_dollars": "446.7",
+      "country": "中国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/389/2014",
+      "rank2014": 470,
+      "rank2013": 434,
+      "name": "渣打银行（STANDARD CHARTERED)",
+      "operating_receipt_in_million_dollars": "25694.0",
+      "profit_in_million_dollars": "4090.0",
+      "country": "英国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/437/2014",
+      "rank2014": 471,
+      "rank2013": 450,
+      "name": "住友电工（SUMITOMO ELECTRIC INDUSTRIES)",
+      "operating_receipt_in_million_dollars": "25641.4",
+      "profit_in_million_dollars": "666.3",
+      "country": "日本"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/420/2014",
+      "rank2014": 472,
+      "rank2013": 445,
+      "name": "Surgutneftegas公司（SURGUTNEFTEGAS)",
+      "operating_receipt_in_million_dollars": "25563.0",
+      "profit_in_million_dollars": "8053.8",
+      "country": "俄罗斯"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/337/2014",
+      "rank2014": 473,
+      "rank2013": 461,
+      "name": "来德爱（RITE AID)",
+      "operating_receipt_in_million_dollars": "25526.4",
+      "profit_in_million_dollars": "249.4",
+      "country": "美国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/587/2014",
+      "rank2014": 474,
+      "rank2013": 457,
+      "name": "安富利公司（AVNET)",
+      "operating_receipt_in_million_dollars": "25458.9",
+      "profit_in_million_dollars": "450.1",
+      "country": "美国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/596/2014",
+      "rank2014": 475,
+      "rank2013": 493,
+      "name": "鞍钢集团公司（ANSTEEL GROUP)",
+      "operating_receipt_in_million_dollars": "25230.5",
+      "profit_in_million_dollars": "-1031.4",
+      "country": "中国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/266/2014",
+      "rank2014": 476,
+      "rank2013": 436,
+      "name": "昭和壳牌石油公司（SHOWA SHELL SEKIYU)",
+      "operating_receipt_in_million_dollars": "25151.9",
+      "profit_in_million_dollars": "618.0",
+      "country": "日本"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/653/2014",
+      "rank2014": 477,
+      "rank2013": null,
+      "name": "Perusahaan Listrik Negara公司（Perusahaan Listrik Negara)",
+      "operating_receipt_in_million_dollars": "25026.3",
+      "profit_in_million_dollars": "-2874.4",
+      "country": "印度尼西亚"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/482/2014",
+      "rank2014": 478,
+      "rank2013": 400,
+      "name": "阿弗瑞萨控股公司（ALFRESA HOLDINGS)",
+      "operating_receipt_in_million_dollars": "24999.8",
+      "profit_in_million_dollars": "255.2",
+      "country": "日本"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/489/2014",
+      "rank2014": 479,
+      "rank2013": 495,
+      "name": "Exelon公司（EXELON)",
+      "operating_receipt_in_million_dollars": "24888.0",
+      "profit_in_million_dollars": "1719.0",
+      "country": "美国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/654/2014",
+      "rank2014": 480,
+      "rank2013": null,
+      "name": "高通（Qualcomm)",
+      "operating_receipt_in_million_dollars": "24866.0",
+      "profit_in_million_dollars": "6853.0",
+      "country": "美国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/565/2014",
+      "rank2014": 481,
+      "rank2013": 447,
+      "name": "LG DISPLAY公司（LG DISPLAY)",
+      "operating_receipt_in_million_dollars": "24697.9",
+      "profit_in_million_dollars": "389.3",
+      "country": "韩国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/350/2014",
+      "rank2014": 482,
+      "rank2013": 478,
+      "name": "艾默生电气（EMERSON ELECTRIC)",
+      "operating_receipt_in_million_dollars": "24669.0",
+      "profit_in_million_dollars": "2004.0",
+      "country": "美国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/239/2014",
+      "rank2014": 483,
+      "rank2013": 465,
+      "name": "美国诺斯洛普格拉曼公司（NORTHROP GRUMMAN)",
+      "operating_receipt_in_million_dollars": "24661.0",
+      "profit_in_million_dollars": "1952.0",
+      "country": "美国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/603/2014",
+      "rank2014": 484,
+      "rank2013": 497,
+      "name": "国际航空集团（INTERNATIONAL AIRLINES GROUP)",
+      "operating_receipt_in_million_dollars": "24651.5",
+      "profit_in_million_dollars": "162.0",
+      "country": "英国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/655/2014",
+      "rank2014": 485,
+      "rank2013": null,
+      "name": "杜克能源（Duke Energy)",
+      "operating_receipt_in_million_dollars": "24598.0",
+      "profit_in_million_dollars": "2665.0",
+      "country": "美国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/258/2014",
+      "rank2014": 486,
+      "rank2013": 471,
+      "name": "塔塔钢铁（TATA STEEL)",
+      "operating_receipt_in_million_dollars": "24575.3",
+      "profit_in_million_dollars": "594.5",
+      "country": "印度"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/369/2014",
+      "rank2014": 487,
+      "rank2013": 437,
+      "name": "富士胶片控股株式会社（FUJIFILM HOLDINGS)",
+      "operating_receipt_in_million_dollars": "24355.4",
+      "profit_in_million_dollars": "808.5",
+      "country": "日本"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/656/2014",
+      "rank2014": 488,
+      "rank2013": null,
+      "name": "AntarChile公司（AntarChile)",
+      "operating_receipt_in_million_dollars": "24346.0",
+      "profit_in_million_dollars": "458.6",
+      "country": "智利"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/657/2014",
+      "rank2014": 489,
+      "rank2013": null,
+      "name": "罗尔斯·罗伊斯公司（Rolls-Royce Holdings)",
+      "operating_receipt_in_million_dollars": "24248.5",
+      "profit_in_million_dollars": "2136.8",
+      "country": "英国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/214/2014",
+      "rank2014": 490,
+      "rank2013": 488,
+      "name": "途易（TUI)",
+      "operating_receipt_in_million_dollars": "24239.8",
+      "profit_in_million_dollars": "5.6",
+      "country": "德国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/658/2014",
+      "rank2014": 491,
+      "rank2013": null,
+      "name": "中国农业发展银行（Agricultural Development Bank of China)",
+      "operating_receipt_in_million_dollars": "24213.3",
+      "profit_in_million_dollars": "2299.2",
+      "country": "中国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/635/2014",
+      "rank2014": 492,
+      "rank2013": 489,
+      "name": "第一资本金融公司（Capital One Financial)",
+      "operating_receipt_in_million_dollars": "24176.0",
+      "profit_in_million_dollars": "4159.0",
+      "country": "美国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/456/2014",
+      "rank2014": 493,
+      "rank2013": 487,
+      "name": "索迪斯（SODEXO)",
+      "operating_receipt_in_million_dollars": "24060.5",
+      "profit_in_million_dollars": "574.1",
+      "country": "法国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/659/2014",
+      "rank2014": 494,
+      "rank2013": null,
+      "name": "富士重工（Fuji Heavy Industries)",
+      "operating_receipt_in_million_dollars": "24037.8",
+      "profit_in_million_dollars": "2062.4",
+      "country": "日本"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/312/2014",
+      "rank2014": 495,
+      "rank2013": 459,
+      "name": "日本烟草（JAPAN TOBACCO)",
+      "operating_receipt_in_million_dollars": "23955.0",
+      "profit_in_million_dollars": "4272.1",
+      "country": "日本"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/531/2014",
+      "rank2014": 496,
+      "rank2013": 462,
+      "name": "美国家庭人寿保险公司（AFLAC)",
+      "operating_receipt_in_million_dollars": "23939.0",
+      "profit_in_million_dollars": "3158.0",
+      "country": "美国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/278/2014",
+      "rank2014": 497,
+      "rank2013": 486,
+      "name": "CRH公司（CRH)",
+      "operating_receipt_in_million_dollars": "23937.3",
+      "profit_in_million_dollars": "-393.0",
+      "country": "爱尔兰"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/660/2014",
+      "rank2014": 498,
+      "rank2013": null,
+      "name": "俄罗斯电网公司（Russian Grids)",
+      "operating_receipt_in_million_dollars": "23854.8",
+      "profit_in_million_dollars": "-4147.9",
+      "country": "俄罗斯"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/416/2014",
+      "rank2014": 499,
+      "rank2013": 485,
+      "name": "英美烟草集团（BRITISH AMERICAN TOBACCO)",
+      "operating_receipt_in_million_dollars": "23853.0",
+      "profit_in_million_dollars": "6102.4",
+      "country": "英国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/395/2014",
+      "rank2014": 500,
+      "rank2013": 479,
+      "name": "雷神公司（RAYTHEON)",
+      "operating_receipt_in_million_dollars": "23706.0",
+      "profit_in_million_dollars": "1996.0",
+      "country": "美国"
+    }
+  ]
+}

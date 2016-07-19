@@ -85,6 +85,35 @@ namespace Picker.Core.Extensions {
       return source.Replace( "&nbsp;", "" );
     }
 
+
+
+    public static HtmlNode NextSibling(this HtmlNode current, string nodeName ) {
+      var node = current;
+      while ( true ) {
+        var tmp = node.NextSibling;
+        if ( tmp == null )
+          return null;
+
+        if ( tmp.NodeType == HtmlNodeType.Element && tmp.OriginalName == nodeName )
+          return tmp;
+        // continue
+        node = tmp;
+      }
+    }
+    public static HtmlNode NextSibling( this HtmlNode current, string nodeName, string attrName, string attrValue ) {
+      var node = current;
+      while ( true ) {
+        var tmp = node.NextSibling;
+        if ( tmp == null )
+          return null;
+
+        if ( tmp.NodeType == HtmlNodeType.Element && tmp.OriginalName == nodeName && tmp.Attributes[attrName] != null && tmp.Attributes[attrName].Value == attrValue )
+          return tmp;
+        // continue
+        node = tmp;
+      }
+    }
+
   }
 
 }

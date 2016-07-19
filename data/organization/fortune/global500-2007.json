@@ -1,0 +1,4051 @@
+﻿{
+  "title": "2007年财富世界500强排行榜",
+  "url": "http://www.fortunechina.com/fortune500/c/2007-10/15/content_9517.htm",
+  "tags": [
+    {
+      "content": "2007; fortune; world; global; 500",
+      "language": "us"
+    },
+    {
+      "content": "2007年; 财富; 世界; 500强",
+      "language": "zh-hans"
+    }
+  ],
+  "publishedAt": "2007-10-15",
+  "config": [
+    {
+      "name": "rank2007",
+      "title": "rank2007"
+    },
+    {
+      "name": "name",
+      "title": "名称"
+    },
+    {
+      "name": "operating_receipt_in_million_dollars",
+      "title": "营业收入（百万美元）"
+    },
+    {
+      "name": "profit_in_million_dollars",
+      "title": "利润（百万美元）"
+    },
+    {
+      "name": "asset_in_million_dollars",
+      "title": "资产（百万美元）"
+    },
+    {
+      "name": "shareholders_equity_in_million_dollars",
+      "title": "股东权益（百万美元）"
+    },
+    {
+      "name": "employees",
+      "title": "雇员人数"
+    },
+    {
+      "name": "region",
+      "title": "国家/地区"
+    }
+  ],
+  "data": [
+    {
+      "rank2007": "1",
+      "name": "WAL-MART STORES",
+      "region": "美国",
+      "operating_receipt_in_million_dollars": "351,139.00",
+      "profit_in_million_dollars": "11,284.00",
+      "employees": "1,900,000"
+    },
+    {
+      "rank2007": "2",
+      "name": "EXXON MOBIL",
+      "region": "美国",
+      "operating_receipt_in_million_dollars": "347,254.00",
+      "profit_in_million_dollars": "39,500.00",
+      "employees": "106,400"
+    },
+    {
+      "rank2007": "3",
+      "name": "ROYAL DUTCH SHELL",
+      "region": "荷兰",
+      "operating_receipt_in_million_dollars": "318,845.00",
+      "profit_in_million_dollars": "25,442.00",
+      "employees": "108,000"
+    },
+    {
+      "rank2007": "4",
+      "name": "BP",
+      "region": "英国",
+      "operating_receipt_in_million_dollars": "274,316.00",
+      "profit_in_million_dollars": "22,000.00",
+      "employees": "97,000"
+    },
+    {
+      "rank2007": "5",
+      "name": "GENERAL MOTORS",
+      "region": "美国",
+      "operating_receipt_in_million_dollars": "207,349.00",
+      "profit_in_million_dollars": "-1,978.00",
+      "employees": "280,000"
+    },
+    {
+      "rank2007": "6",
+      "name": "TOYOTA MOTOR",
+      "region": "日本",
+      "operating_receipt_in_million_dollars": "204,746.40",
+      "profit_in_million_dollars": "14,055.80",
+      "employees": "299,394"
+    },
+    {
+      "rank2007": "7",
+      "name": "CHEVRON",
+      "region": "美国",
+      "operating_receipt_in_million_dollars": "200,567.00",
+      "profit_in_million_dollars": "17,138.00",
+      "employees": "62,500"
+    },
+    {
+      "rank2007": "8",
+      "name": "DAIMLERCHRYSLER",
+      "region": "德国",
+      "operating_receipt_in_million_dollars": "190,191.40",
+      "profit_in_million_dollars": "4,048.80",
+      "employees": "360,385"
+    },
+    {
+      "rank2007": "9",
+      "name": "CONOCOPHILLIPS",
+      "region": "美国",
+      "operating_receipt_in_million_dollars": "172,451.00",
+      "profit_in_million_dollars": "15,550.00",
+      "employees": "38,400"
+    },
+    {
+      "rank2007": "10",
+      "name": "TOTAL",
+      "region": "法国",
+      "operating_receipt_in_million_dollars": "168,356.70",
+      "profit_in_million_dollars": "14,764.70",
+      "employees": "95,070"
+    },
+    {
+      "rank2007": "11",
+      "name": "GENERAL ELECTRIC",
+      "region": "美国",
+      "operating_receipt_in_million_dollars": "168,307.00",
+      "profit_in_million_dollars": "20,826.00",
+      "employees": "319,000"
+    },
+    {
+      "rank2007": "12",
+      "name": "FORD MOTOR",
+      "region": "美国",
+      "operating_receipt_in_million_dollars": "160,126.00",
+      "profit_in_million_dollars": "-12,613.00",
+      "employees": "283,000"
+    },
+    {
+      "rank2007": "13",
+      "name": "ING GROUP",
+      "region": "荷兰",
+      "operating_receipt_in_million_dollars": "158,274.30",
+      "profit_in_million_dollars": "9,650.80",
+      "employees": "119,952"
+    },
+    {
+      "rank2007": "14",
+      "name": "CITIGROUP",
+      "region": "美国",
+      "operating_receipt_in_million_dollars": "146,777.00",
+      "profit_in_million_dollars": "21,538.00",
+      "employees": "332,000"
+    },
+    {
+      "rank2007": "15",
+      "name": "AXA",
+      "region": "法国",
+      "operating_receipt_in_million_dollars": "139,738.10",
+      "profit_in_million_dollars": "6,379.90",
+      "employees": "96,009"
+    },
+    {
+      "rank2007": "16",
+      "name": "VOLKSWAGEN",
+      "region": "德国",
+      "operating_receipt_in_million_dollars": "132,323.10",
+      "profit_in_million_dollars": "3,449.00",
+      "employees": "324,875"
+    },
+    {
+      "rank2007": "17",
+      "name": "SINOPEC",
+      "region": "中国",
+      "operating_receipt_in_million_dollars": "131,636.00",
+      "profit_in_million_dollars": "3,703.10",
+      "employees": "681,900"
+    },
+    {
+      "rank2007": "18",
+      "name": "CREDIT AGERICOLE",
+      "region": "法国",
+      "operating_receipt_in_million_dollars": "128,481.30",
+      "profit_in_million_dollars": "8,975.80",
+      "employees": "152,909"
+    },
+    {
+      "rank2007": "19",
+      "name": "ALLIANZ",
+      "region": "德国",
+      "operating_receipt_in_million_dollars": "125,346.00",
+      "profit_in_million_dollars": "8,808.90",
+      "employees": "166,505"
+    },
+    {
+      "rank2007": "20",
+      "name": "FORTIS",
+      "region": "比利时、荷兰",
+      "operating_receipt_in_million_dollars": "121,201.80",
+      "profit_in_million_dollars": "5,459.00",
+      "employees": "56,886"
+    },
+    {
+      "rank2007": "21",
+      "name": "BANK OF AMERICA CORP.",
+      "region": "美国",
+      "operating_receipt_in_million_dollars": "117,017.00",
+      "profit_in_million_dollars": "21,133.00",
+      "employees": "203,425"
+    },
+    {
+      "rank2007": "22",
+      "name": "HSBC HOLDINGS",
+      "region": "英国",
+      "operating_receipt_in_million_dollars": "115,361.00",
+      "profit_in_million_dollars": "15,789.00",
+      "employees": "296,197"
+    },
+    {
+      "rank2007": "23",
+      "name": "AMERICAN INTERNATIONAL GROUP",
+      "region": "美国",
+      "operating_receipt_in_million_dollars": "113,194.00",
+      "profit_in_million_dollars": "14,048.00",
+      "employees": "106,000"
+    },
+    {
+      "rank2007": "24",
+      "name": "CHINA NATIONAL PETROLEUM",
+      "region": "中国",
+      "operating_receipt_in_million_dollars": "110,520.20",
+      "profit_in_million_dollars": "13,265.30",
+      "employees": "1,086,966"
+    },
+    {
+      "rank2007": "25",
+      "name": "BNP PARIBAS",
+      "region": "法国",
+      "operating_receipt_in_million_dollars": "109,213.60",
+      "profit_in_million_dollars": "9,169.00",
+      "employees": "141,911"
+    },
+    {
+      "rank2007": "26",
+      "name": "ENI",
+      "region": "意大利",
+      "operating_receipt_in_million_dollars": "109,014.20",
+      "profit_in_million_dollars": "11,564.10",
+      "employees": "73,572"
+    },
+    {
+      "rank2007": "27",
+      "name": "UBS",
+      "region": "瑞士",
+      "operating_receipt_in_million_dollars": "107,834.80",
+      "profit_in_million_dollars": "9,776.60",
+      "employees": "78,140"
+    },
+    {
+      "rank2007": "28",
+      "name": "SIEMENS",
+      "region": "德国",
+      "operating_receipt_in_million_dollars": "107,341.70",
+      "profit_in_million_dollars": "3,728.20",
+      "employees": "475,000"
+    },
+    {
+      "rank2007": "29",
+      "name": "STATE GRID",
+      "region": "中国",
+      "operating_receipt_in_million_dollars": "107,185.50",
+      "profit_in_million_dollars": "2,237.70",
+      "employees": "1,504,000"
+    },
+    {
+      "rank2007": "30",
+      "name": "ASSICURAZIONI GENERALI",
+      "region": "意大利",
+      "operating_receipt_in_million_dollars": "101,810.70",
+      "profit_in_million_dollars": "3,017.20",
+      "employees": "66,003"
+    },
+    {
+      "rank2007": "31",
+      "name": "J.P. MORGAN CHASE & CO.",
+      "region": "美国",
+      "operating_receipt_in_million_dollars": "99,973.00",
+      "profit_in_million_dollars": "14,444.00",
+      "employees": "174,360"
+    },
+    {
+      "rank2007": "32",
+      "name": "CARREFOUR",
+      "region": "法国",
+      "operating_receipt_in_million_dollars": "99,014.70",
+      "profit_in_million_dollars": "2,846.20",
+      "employees": "456,295"
+    },
+    {
+      "rank2007": "33",
+      "name": "BERKSHIRE HATHAWAY",
+      "region": "美国",
+      "operating_receipt_in_million_dollars": "98,539.00",
+      "profit_in_million_dollars": "11,015.00",
+      "employees": "217,550"
+    },
+    {
+      "rank2007": "34",
+      "name": "PEMEX",
+      "region": "墨西哥",
+      "operating_receipt_in_million_dollars": "97,469.30",
+      "profit_in_million_dollars": "4,151.20",
+      "employees": "141,886"
+    },
+    {
+      "rank2007": "35",
+      "name": "DEUTSCHE BANK",
+      "region": "德国",
+      "operating_receipt_in_million_dollars": "96,151.50",
+      "profit_in_million_dollars": "7,510.30",
+      "employees": "68,849"
+    },
+    {
+      "rank2007": "36",
+      "name": "EDXIA GROUP",
+      "region": "比利时",
+      "operating_receipt_in_million_dollars": "95,846.60",
+      "profit_in_million_dollars": "3,450.30",
+      "employees": "33,321"
+    },
+    {
+      "rank2007": "37",
+      "name": "HONDA MOTOR",
+      "region": "日本",
+      "operating_receipt_in_million_dollars": "94,790.50",
+      "profit_in_million_dollars": "5,064.10",
+      "employees": "167,231"
+    },
+    {
+      "rank2007": "38",
+      "name": "MCKESSON",
+      "region": "美国",
+      "operating_receipt_in_million_dollars": "93,574.00",
+      "profit_in_million_dollars": "913",
+      "employees": "31,800"
+    },
+    {
+      "rank2007": "39",
+      "name": "VERIZON COMMUNICATIONS",
+      "region": "美国",
+      "operating_receipt_in_million_dollars": "93,221.00",
+      "profit_in_million_dollars": "6,197.00",
+      "employees": "242,000"
+    },
+    {
+      "rank2007": "40",
+      "name": "NIPPON TELEGRAPH & TELEPHONE",
+      "region": "日本",
+      "operating_receipt_in_million_dollars": "91,998.30",
+      "profit_in_million_dollars": "4,077.40",
+      "employees": "199,733"
+    },
+    {
+      "rank2007": "41",
+      "name": "HEWLETT-PAKARD",
+      "region": "美国",
+      "operating_receipt_in_million_dollars": "91,658.00",
+      "profit_in_million_dollars": "6,198.00",
+      "employees": "156,000"
+    },
+    {
+      "rank2007": "42",
+      "name": "INTERNATIONAL BUSINESS MACHINES",
+      "region": "美国",
+      "operating_receipt_in_million_dollars": "91,424.00",
+      "profit_in_million_dollars": "9,492.00",
+      "employees": "355,766"
+    },
+    {
+      "rank2007": "43",
+      "name": "VALERO ENERGY",
+      "region": "美国",
+      "operating_receipt_in_million_dollars": "91,051.00",
+      "profit_in_million_dollars": "5,463.00",
+      "employees": "21,836"
+    },
+    {
+      "rank2007": "44",
+      "name": "HOME DEPOT",
+      "region": "美国",
+      "operating_receipt_in_million_dollars": "90,837.00",
+      "profit_in_million_dollars": "5,761.00",
+      "employees": "305,760"
+    },
+    {
+      "rank2007": "45",
+      "name": "NISSAN MOTOR",
+      "region": "日本",
+      "operating_receipt_in_million_dollars": "89,502.10",
+      "profit_in_million_dollars": "3,939.60",
+      "employees": "165,729"
+    },
+    {
+      "rank2007": "46",
+      "name": "SAMSUNG ELECTRONICS",
+      "region": "韩国",
+      "operating_receipt_in_million_dollars": "89,476.20",
+      "profit_in_million_dollars": "8,301.90",
+      "employees": "138,000"
+    },
+    {
+      "rank2007": "47",
+      "name": "CREDIT SUISSE",
+      "region": "瑞士",
+      "operating_receipt_in_million_dollars": "89,354.40",
+      "profit_in_million_dollars": "9,034.80",
+      "employees": "44,000"
+    },
+    {
+      "rank2007": "48",
+      "name": "HITACHI",
+      "region": "日本",
+      "operating_receipt_in_million_dollars": "87,615.40",
+      "profit_in_million_dollars": "-280.4",
+      "employees": "384,444"
+    },
+    {
+      "rank2007": "49",
+      "name": "SOCIETE GENERALE",
+      "region": "法国",
+      "operating_receipt_in_million_dollars": "84,485.70",
+      "profit_in_million_dollars": "6,550.50",
+      "employees": "119,799"
+    },
+    {
+      "rank2007": "50",
+      "name": "AVIVA",
+      "region": "英国",
+      "operating_receipt_in_million_dollars": "83,487.00",
+      "profit_in_million_dollars": "4,075.30",
+      "employees": "58,019 "
+    },
+    {
+      "rank2007": "51",
+      "name": "CARDINAL HEALTH",
+      "region": "美国",
+      "operating_receipt_in_million_dollars": "81,895.10",
+      "profit_in_million_dollars": "1,000.10",
+      "employees": "55,000"
+    },
+    {
+      "rank2007": "52",
+      "name": "GAZPROM",
+      "region": "俄罗斯",
+      "operating_receipt_in_million_dollars": "81,115.00",
+      "profit_in_million_dollars": "20,321.30",
+      "employees": "432,230"
+    },
+    {
+      "rank2007": "53",
+      "name": "E.ON",
+      "region": "德国",
+      "operating_receipt_in_million_dollars": "80,994.00",
+      "profit_in_million_dollars": "6,344.80",
+      "employees": "80,612"
+    },
+    {
+      "rank2007": "54",
+      "name": "ROYAL BANK OF SCOTLAND",
+      "region": "英国",
+      "operating_receipt_in_million_dollars": "80,983.00",
+      "profit_in_million_dollars": "11,762.20",
+      "employees": "135,000"
+    },
+    {
+      "rank2007": "55",
+      "name": "TESCO",
+      "region": "英国",
+      "operating_receipt_in_million_dollars": "79,978.80",
+      "profit_in_million_dollars": "3,544.90",
+      "employees": "318,283"
+    },
+    {
+      "rank2007": "56",
+      "name": "NESTLE",
+      "region": "瑞士",
+      "operating_receipt_in_million_dollars": "79,827.10",
+      "profit_in_million_dollars": "7,335.90",
+      "employees": "625,000"
+    },
+    {
+      "rank2007": "57",
+      "name": "DEUTSCHE POST",
+      "region": "德国",
+      "operating_receipt_in_million_dollars": "79,502.20",
+      "profit_in_million_dollars": "2,403.90",
+      "employees": "463,350"
+    },
+    {
+      "rank2007": "58",
+      "name": "HBOS",
+      "region": "英国",
+      "operating_receipt_in_million_dollars": "79,238.80",
+      "profit_in_million_dollars": "7,136.80",
+      "employees": "66,068"
+    },
+    {
+      "rank2007": "59",
+      "name": "MATSUSHITA ELECRTIC INDUSTRIAL",
+      "region": "日本",
+      "operating_receipt_in_million_dollars": "77,871.10",
+      "profit_in_million_dollars": "1,856.80",
+      "employees": "328,645"
+    },
+    {
+      "rank2007": "60",
+      "name": "DEUTSCHE TELEKOM",
+      "region": "德国",
+      "operating_receipt_in_million_dollars": "76,969.10",
+      "profit_in_million_dollars": "3,971.00",
+      "employees": "248,800"
+    },
+    {
+      "rank2007": "61",
+      "name": "MORGAN STANLEY",
+      "region": "美国",
+      "operating_receipt_in_million_dollars": "76,688.00",
+      "profit_in_million_dollars": "7,472.00",
+      "employees": "55,310"
+    },
+    {
+      "rank2007": "62",
+      "name": "METRO",
+      "region": "德国",
+      "operating_receipt_in_million_dollars": "75,131.00",
+      "profit_in_million_dollars": "1,324.90",
+      "employees": "222,741"
+    },
+    {
+      "rank2007": "63",
+      "name": "ELECTRICITE DE FRANCE",
+      "region": "法国",
+      "operating_receipt_in_million_dollars": "73,939.10",
+      "profit_in_million_dollars": "7,032.30",
+      "employees": "165,524"
+    },
+    {
+      "rank2007": "64",
+      "name": "U.S. POSTAL SERVICE",
+      "region": "美国",
+      "operating_receipt_in_million_dollars": "72,650.00",
+      "profit_in_million_dollars": "900",
+      "employees": "796,199"
+    },
+    {
+      "rank2007": "65",
+      "name": "PETROBRAS",
+      "region": "巴西",
+      "operating_receipt_in_million_dollars": "72,347.00",
+      "profit_in_million_dollars": "12,826.00",
+      "employees": "62,266"
+    },
+    {
+      "rank2007": "66",
+      "name": "UNITEDHEALTH GROUP",
+      "region": "美国",
+      "operating_receipt_in_million_dollars": "71,542.00",
+      "profit_in_million_dollars": "4,159.00",
+      "employees": "58,000"
+    },
+    {
+      "rank2007": "67",
+      "name": "ABN AMRO HOLDINGS",
+      "region": "荷兰",
+      "operating_receipt_in_million_dollars": "71,217.80",
+      "profit_in_million_dollars": "5,997.20",
+      "employees": "107,000"
+    },
+    {
+      "rank2007": "68",
+      "name": "PEUGEOT",
+      "region": "法国",
+      "operating_receipt_in_million_dollars": "71,005.70",
+      "profit_in_million_dollars": "200.8",
+      "employees": "211,800"
+    },
+    {
+      "rank2007": "69",
+      "name": "SONY",
+      "region": "日本",
+      "operating_receipt_in_million_dollars": "70,924.80",
+      "profit_in_million_dollars": "1,080.10",
+      "employees": "163,000"
+    },
+    {
+      "rank2007": "70",
+      "name": "MERRILLYNCH",
+      "region": "美国",
+      "operating_receipt_in_million_dollars": "70,591.00",
+      "profit_in_million_dollars": "7,499.00",
+      "employees": "56,200"
+    },
+    {
+      "rank2007": "71",
+      "name": "ALTRIA GROUP",
+      "region": "美国",
+      "operating_receipt_in_million_dollars": "70,324.00",
+      "profit_in_million_dollars": "12,022.00",
+      "employees": "175,000"
+    },
+    {
+      "rank2007": "72",
+      "name": "GOLDMAN SACHS GROUP",
+      "region": "美国",
+      "operating_receipt_in_million_dollars": "69,353.00",
+      "profit_in_million_dollars": "9,537.00",
+      "employees": "26,467"
+    },
+    {
+      "rank2007": "73",
+      "name": "LG",
+      "region": "韩国",
+      "operating_receipt_in_million_dollars": "68,754.10",
+      "profit_in_million_dollars": "481.6",
+      "employees": "158,000"
+    },
+    {
+      "rank2007": "74",
+      "name": "PROCTER & GAMBLE",
+      "region": "美国",
+      "operating_receipt_in_million_dollars": "68,222.00",
+      "profit_in_million_dollars": "8,684.00",
+      "employees": "138,000"
+    },
+    {
+      "rank2007": "75",
+      "name": "SANTANDER CENTRAL HISPANO GROUP",
+      "region": "西班牙",
+      "operating_receipt_in_million_dollars": "68,050.60",
+      "profit_in_million_dollars": "9,530.30",
+      "employees": "129,749"
+    },
+    {
+      "rank2007": "76",
+      "name": "HYUNDAI MOTOR",
+      "region": "韩国",
+      "operating_receipt_in_million_dollars": "66,666.00",
+      "profit_in_million_dollars": "1,319.00",
+      "employees": "54,711"
+    },
+    {
+      "rank2007": "77",
+      "name": "TELEFONICA",
+      "region": "西班牙",
+      "operating_receipt_in_million_dollars": "66,372.30",
+      "profit_in_million_dollars": "7,820.20",
+      "employees": "234,900"
+    },
+    {
+      "rank2007": "78",
+      "name": "STATOIL",
+      "region": "挪威",
+      "operating_receipt_in_million_dollars": "66,280.30",
+      "profit_in_million_dollars": "6,331.60",
+      "employees": "25,435"
+    },
+    {
+      "rank2007": "79",
+      "name": "PRUDENTIAL",
+      "region": "英国",
+      "operating_receipt_in_million_dollars": "66,133.50",
+      "profit_in_million_dollars": "1,608.00",
+      "employees": "34,789"
+    },
+    {
+      "rank2007": "80",
+      "name": "KROGER",
+      "region": "美国",
+      "operating_receipt_in_million_dollars": "66,111.20",
+      "profit_in_million_dollars": "1,114.90",
+      "employees": "310,000"
+    },
+    {
+      "rank2007": "81",
+      "name": "BASF",
+      "region": "德国",
+      "operating_receipt_in_million_dollars": "66,006.80",
+      "profit_in_million_dollars": "4,034.00",
+      "employees": "95,247"
+    },
+    {
+      "rank2007": "82",
+      "name": "FRANCE TELECOM",
+      "region": "法国",
+      "operating_receipt_in_million_dollars": "65,899.30",
+      "profit_in_million_dollars": "5,193.00",
+      "employees": "191,036"
+    },
+    {
+      "rank2007": "83",
+      "name": "BARCLAYS",
+      "region": "英国",
+      "operating_receipt_in_million_dollars": "65,609.10",
+      "profit_in_million_dollars": "8,410.00",
+      "employees": "118,600"
+    },
+    {
+      "rank2007": "84",
+      "name": "FIAT",
+      "region": "意大利",
+      "operating_receipt_in_million_dollars": "65,031.10",
+      "profit_in_million_dollars": "1,336.20",
+      "employees": "172,012"
+    },
+    {
+      "rank2007": "85",
+      "name": "ZURICH FINANCIAL SERVICES",
+      "region": "瑞士",
+      "operating_receipt_in_million_dollars": "65,000.00",
+      "profit_in_million_dollars": "4,527.00",
+      "employees": "52,286"
+    },
+    {
+      "rank2007": "86",
+      "name": "AT&T",
+      "region": "美国",
+      "operating_receipt_in_million_dollars": "63,055.00",
+      "profit_in_million_dollars": "7,356.00",
+      "employees": "302,700"
+    },
+    {
+      "rank2007": "87",
+      "name": "BOEING",
+      "region": "美国",
+      "operating_receipt_in_million_dollars": "61,530.00",
+      "profit_in_million_dollars": "2,215.00",
+      "employees": "154,000"
+    },
+    {
+      "rank2007": "88",
+      "name": "BMW",
+      "region": "德国",
+      "operating_receipt_in_million_dollars": "61,476.70",
+      "profit_in_million_dollars": "3,598.30",
+      "employees": "106,575"
+    },
+    {
+      "rank2007": "89",
+      "name": "AMERISOURCEBERGEN",
+      "region": "美国",
+      "operating_receipt_in_million_dollars": "61,203.10",
+      "profit_in_million_dollars": "467.7",
+      "employees": "13,950"
+    },
+    {
+      "rank2007": "90",
+      "name": "REPSOL YPF",
+      "region": "西班牙",
+      "operating_receipt_in_million_dollars": "60,920.90",
+      "profit_in_million_dollars": "3,919.50",
+      "employees": "36,931"
+    },
+    {
+      "rank2007": "91",
+      "name": "TOSHIBA",
+      "region": "日本",
+      "operating_receipt_in_million_dollars": "60,841.90",
+      "profit_in_million_dollars": "1,175.00",
+      "employees": "190,708"
+    },
+    {
+      "rank2007": "92",
+      "name": "MARATHON OIL",
+      "region": "美国",
+      "operating_receipt_in_million_dollars": "60,643.00",
+      "profit_in_million_dollars": "5,234.00",
+      "employees": "28,195"
+    },
+    {
+      "rank2007": "93",
+      "name": "STATE FARM INSURANCE COS.",
+      "region": "美国",
+      "operating_receipt_in_million_dollars": "60,528.00",
+      "profit_in_million_dollars": "5,315.50",
+      "employees": "67,877"
+    },
+    {
+      "rank2007": "94",
+      "name": "COSTCO WHOLESALE",
+      "region": "美国",
+      "operating_receipt_in_million_dollars": "60,151.20",
+      "profit_in_million_dollars": "1,103.20",
+      "employees": "99,000"
+    },
+    {
+      "rank2007": "95",
+      "name": "VODAFONE",
+      "region": "英国",
+      "operating_receipt_in_million_dollars": "59,811.30",
+      "profit_in_million_dollars": "-10,262.30",
+      "employees": "66,000"
+    },
+    {
+      "rank2007": "96",
+      "name": "TARGET",
+      "region": "美国",
+      "operating_receipt_in_million_dollars": "59,490.00",
+      "profit_in_million_dollars": "2,787.00",
+      "employees": "352,000"
+    },
+    {
+      "rank2007": "97",
+      "name": "UNICREDIT GROUP",
+      "region": "意大利",
+      "operating_receipt_in_million_dollars": "59,119.30",
+      "profit_in_million_dollars": "6,835.00",
+      "employees": "139,061"
+    },
+    {
+      "rank2007": "98",
+      "name": "SK",
+      "region": "韩国",
+      "operating_receipt_in_million_dollars": "59,001.90",
+      "profit_in_million_dollars": "1,461.00",
+      "employees": "24,632"
+    },
+    {
+      "rank2007": "99",
+      "name": "MITTAL STEEL",
+      "region": "荷兰",
+      "operating_receipt_in_million_dollars": "58,870.00",
+      "profit_in_million_dollars": "5,226.00",
+      "employees": "320,000"
+    },
+    {
+      "rank2007": "100",
+      "name": "MUNICH RE GROUP",
+      "region": "德国",
+      "operating_receipt_in_million_dollars": "58,183.20",
+      "profit_in_million_dollars": "4,316.00",
+      "employees": "37,210 "
+    },
+    {
+      "rank2007": "101",
+      "name": "THYSSENKRUPP",
+      "region": "德国",
+      "operating_receipt_in_million_dollars": "57,927.00",
+      "profit_in_million_dollars": "2,019.60",
+      "employees": "187,586"
+    },
+    {
+      "rank2007": "102",
+      "name": "DELL",
+      "region": "美国",
+      "operating_receipt_in_million_dollars": "57,095.00",
+      "profit_in_million_dollars": "2,614.00",
+      "employees": "82,290"
+    },
+    {
+      "rank2007": "103",
+      "name": "WELLPOINT",
+      "region": "美国",
+      "operating_receipt_in_million_dollars": "56,953.00",
+      "profit_in_million_dollars": "3,094.90",
+      "employees": "42,000"
+    },
+    {
+      "rank2007": "104",
+      "name": "ROYAL AHOLD",
+      "region": "荷兰",
+      "operating_receipt_in_million_dollars": "56,944.90",
+      "profit_in_million_dollars": "1,127.90",
+      "employees": "164,078"
+    },
+    {
+      "rank2007": "105",
+      "name": "SUEZ",
+      "region": "法国",
+      "operating_receipt_in_million_dollars": "56,721.30",
+      "profit_in_million_dollars": "4,524.60",
+      "employees": "138,678"
+    },
+    {
+      "rank2007": "106",
+      "name": "RWE",
+      "region": "德国",
+      "operating_receipt_in_million_dollars": "56,646.30",
+      "profit_in_million_dollars": "4,826.60",
+      "employees": "68,534"
+    },
+    {
+      "rank2007": "107",
+      "name": "NIPPON LIFE INSURANCE",
+      "region": "日本",
+      "operating_receipt_in_million_dollars": "56,624.00",
+      "profit_in_million_dollars": "2,610.90",
+      "employees": "64,845"
+    },
+    {
+      "rank2007": "108",
+      "name": "CNP ASSURANCES",
+      "region": "法国",
+      "operating_receipt_in_million_dollars": "55,583.80",
+      "profit_in_million_dollars": "1,437.00",
+      "employees": "3,247"
+    },
+    {
+      "rank2007": "109",
+      "name": "ROBERT BOSCH",
+      "region": "德国",
+      "operating_receipt_in_million_dollars": "54,808.20",
+      "profit_in_million_dollars": "2,575.80",
+      "employees": "261,291"
+    },
+    {
+      "rank2007": "110",
+      "name": "LUKOIL",
+      "region": "俄罗斯",
+      "operating_receipt_in_million_dollars": "54,539.00",
+      "profit_in_million_dollars": "7,484.00",
+      "employees": "150,000"
+    },
+    {
+      "rank2007": "111",
+      "name": "LLOYDS TSB GROUP",
+      "region": "英国",
+      "operating_receipt_in_million_dollars": "53,904.00",
+      "profit_in_million_dollars": "5,157.10",
+      "employees": "62,630"
+    },
+    {
+      "rank2007": "112",
+      "name": "JOHNSON & JOHNSON",
+      "region": "美国",
+      "operating_receipt_in_million_dollars": "53,324.00",
+      "profit_in_million_dollars": "11,053.00",
+      "employees": "122,200"
+    },
+    {
+      "rank2007": "113",
+      "name": "METLIFE",
+      "region": "美国",
+      "operating_receipt_in_million_dollars": "53,275.00",
+      "profit_in_million_dollars": "6,293.00",
+      "employees": "47,000"
+    },
+    {
+      "rank2007": "114",
+      "name": "SEARS HOLDINGS",
+      "region": "美国",
+      "operating_receipt_in_million_dollars": "53,012.00",
+      "profit_in_million_dollars": "1,490.00",
+      "employees": "352,000"
+    },
+    {
+      "rank2007": "115",
+      "name": "PFIZER",
+      "region": "美国",
+      "operating_receipt_in_million_dollars": "52,415.00",
+      "profit_in_million_dollars": "19,337.00",
+      "employees": "98,000"
+    },
+    {
+      "rank2007": "116",
+      "name": "SAINT-GOBAIN",
+      "region": "法国",
+      "operating_receipt_in_million_dollars": "52,188.50",
+      "profit_in_million_dollars": "2,053.90",
+      "employees": "206,940"
+    },
+    {
+      "rank2007": "117",
+      "name": "RENAULT",
+      "region": "法国",
+      "operating_receipt_in_million_dollars": "52,103.20",
+      "profit_in_million_dollars": "3,599.60",
+      "employees": "128,893"
+    },
+    {
+      "rank2007": "118",
+      "name": "MITSUBISHI UFJ FINANCIAL GROUP",
+      "region": "日本",
+      "operating_receipt_in_million_dollars": "52,101.50",
+      "profit_in_million_dollars": "7,532.20",
+      "employees": "78,286"
+    },
+    {
+      "rank2007": "119",
+      "name": "NOKIA",
+      "region": "芬兰",
+      "operating_receipt_in_million_dollars": "51,592.50",
+      "profit_in_million_dollars": "5,402.50",
+      "employees": "68,483"
+    },
+    {
+      "rank2007": "120",
+      "name": "UNILEVER",
+      "region": "英/荷",
+      "operating_receipt_in_million_dollars": "51,032.90",
+      "profit_in_million_dollars": "5,953.30",
+      "employees": "179,000"
+    },
+    {
+      "rank2007": "121",
+      "name": "PRTRONAS",
+      "region": "马来西亚",
+      "operating_receipt_in_million_dollars": "50,987.50",
+      "profit_in_million_dollars": "12,862.80",
+      "employees": "33,439"
+    },
+    {
+      "rank2007": "122",
+      "name": "EADS",
+      "region": "荷兰",
+      "operating_receipt_in_million_dollars": "49,475.90",
+      "profit_in_million_dollars": "124.2",
+      "employees": "116,805"
+    },
+    {
+      "rank2007": "123",
+      "name": "DOW CHEMICAL",
+      "region": "美国",
+      "operating_receipt_in_million_dollars": "49,124.00",
+      "profit_in_million_dollars": "3,724.00",
+      "employees": "42,578"
+    },
+    {
+      "rank2007": "124",
+      "name": "ENEL",
+      "region": "意大利",
+      "operating_receipt_in_million_dollars": "48,320.40",
+      "profit_in_million_dollars": "3,809.10",
+      "employees": "58,548"
+    },
+    {
+      "rank2007": "125",
+      "name": "NIPPON OIL",
+      "region": "日本",
+      "operating_receipt_in_million_dollars": "48,012.60",
+      "profit_in_million_dollars": "600.4",
+      "employees": "13,214"
+    },
+    {
+      "rank2007": "126",
+      "name": "WELLS FARGO",
+      "region": "美国",
+      "operating_receipt_in_million_dollars": "47,979.00",
+      "profit_in_million_dollars": "8,482.00",
+      "employees": "158,000"
+    },
+    {
+      "rank2007": "127",
+      "name": "UNITED TECHNOLOGIES",
+      "region": "美国",
+      "operating_receipt_in_million_dollars": "47,829.00",
+      "profit_in_million_dollars": "3,732.00",
+      "employees": "214,500"
+    },
+    {
+      "rank2007": "128",
+      "name": "UNITED PARCEL SERVICE",
+      "region": "美国",
+      "operating_receipt_in_million_dollars": "47,547.00",
+      "profit_in_million_dollars": "4,202.00",
+      "employees": "428,000"
+    },
+    {
+      "rank2007": "129",
+      "name": "WALGREEN",
+      "region": "美国",
+      "operating_receipt_in_million_dollars": "47,409.00",
+      "profit_in_million_dollars": "1,750.60",
+      "employees": "168,600"
+    },
+    {
+      "rank2007": "130",
+      "name": "LOWE'S",
+      "region": "美国",
+      "operating_receipt_in_million_dollars": "46,927.00",
+      "profit_in_million_dollars": "3,105.00",
+      "employees": "183,500"
+    },
+    {
+      "rank2007": "131",
+      "name": "WACHOVIA CORP.",
+      "region": "美国",
+      "operating_receipt_in_million_dollars": "46,810.00",
+      "profit_in_million_dollars": "7,791.00",
+      "employees": "108,238"
+    },
+    {
+      "rank2007": "132",
+      "name": "LEHMAN BROTHERS HOLDINGS",
+      "region": "美国",
+      "operating_receipt_in_million_dollars": "46,709.00",
+      "profit_in_million_dollars": "4,007.00",
+      "employees": "25,936"
+    },
+    {
+      "rank2007": "133",
+      "name": "AEGON",
+      "region": "荷兰",
+      "operating_receipt_in_million_dollars": "45,939.10",
+      "profit_in_million_dollars": "3,499.20",
+      "employees": "28,726"
+    },
+    {
+      "rank2007": "134",
+      "name": "SEVEN & I HOLDINGS",
+      "region": "日本",
+      "operating_receipt_in_million_dollars": "45,635.20",
+      "profit_in_million_dollars": "1,140.70",
+      "employees": "54,088"
+    },
+    {
+      "rank2007": "135",
+      "name": "INDIAN OIL",
+      "region": "印度",
+      "operating_receipt_in_million_dollars": "45,216.60",
+      "profit_in_million_dollars": "1,739.60",
+      "employees": "35,611"
+    },
+    {
+      "rank2007": "136",
+      "name": "TOKYO ELECTRIC POWER",
+      "region": "日本",
+      "operating_receipt_in_million_dollars": "45,167.80",
+      "profit_in_million_dollars": "2,549.10",
+      "employees": "52,584"
+    },
+    {
+      "rank2007": "137",
+      "name": "TIME WARNER",
+      "region": "美国",
+      "operating_receipt_in_million_dollars": "44,788.00",
+      "profit_in_million_dollars": "6,552.00",
+      "employees": "92,700"
+    },
+    {
+      "rank2007": "138",
+      "name": "A.P. MOLLER-MAERSK GROUP",
+      "region": "丹麦",
+      "operating_receipt_in_million_dollars": "44,705.90",
+      "profit_in_million_dollars": "2,616.70",
+      "employees": "108,530"
+    },
+    {
+      "rank2007": "139",
+      "name": "MICROSOFT",
+      "region": "美国",
+      "operating_receipt_in_million_dollars": "44,282.00",
+      "profit_in_million_dollars": "12,599.00",
+      "employees": "71,000"
+    },
+    {
+      "rank2007": "140",
+      "name": "FREDDIE MAC",
+      "region": "美国",
+      "operating_receipt_in_million_dollars": "44,002.00",
+      "profit_in_million_dollars": "2,211.00",
+      "employees": "5,468"
+    },
+    {
+      "rank2007": "141",
+      "name": "GROUPE AUCHAN",
+      "region": "法国",
+      "operating_receipt_in_million_dollars": "43,900.30",
+      "profit_in_million_dollars": "936",
+      "employees": "174,644"
+    },
+    {
+      "rank2007": "142",
+      "name": "CVS/CAREMARK",
+      "region": "美国",
+      "operating_receipt_in_million_dollars": "43,813.80",
+      "profit_in_million_dollars": "1,368.90",
+      "employees": "136,000"
+    },
+    {
+      "rank2007": "143",
+      "name": "MOTOROLA",
+      "region": "美国",
+      "operating_receipt_in_million_dollars": "43,739.00",
+      "profit_in_million_dollars": "3,661.00",
+      "employees": "66,000"
+    },
+    {
+      "rank2007": "144",
+      "name": "FUJITSU",
+      "region": "日本",
+      "operating_receipt_in_million_dollars": "43,604.30",
+      "profit_in_million_dollars": "875.6",
+      "employees": "160,977"
+    },
+    {
+      "rank2007": "145",
+      "name": "SPRINT NEXTEL",
+      "region": "美国",
+      "operating_receipt_in_million_dollars": "43,531.00",
+      "profit_in_million_dollars": "1,329.00",
+      "employees": "64,600"
+    },
+    {
+      "rank2007": "146",
+      "name": "MITSUBISHI",
+      "region": "日本",
+      "operating_receipt_in_million_dollars": "43,490.10",
+      "profit_in_million_dollars": "3,555.70",
+      "employees": "55,867"
+    },
+    {
+      "rank2007": "147",
+      "name": "GLAXOSMITHKLINE",
+      "region": "英国",
+      "operating_receipt_in_million_dollars": "42,730.60",
+      "profit_in_million_dollars": "9,915.00",
+      "employees": "102,695"
+    },
+    {
+      "rank2007": "148",
+      "name": "MEDCO HEALTH SOLUTIONS",
+      "region": "美国",
+      "operating_receipt_in_million_dollars": "42,543.70",
+      "profit_in_million_dollars": "630.2",
+      "employees": "15,450"
+    },
+    {
+      "rank2007": "149",
+      "name": "TYCO INTERNATIONAL",
+      "region": "美国",
+      "operating_receipt_in_million_dollars": "42,155.00",
+      "profit_in_million_dollars": "3,590.00",
+      "employees": "238,200"
+    },
+    {
+      "rank2007": "150",
+      "name": "MITSUI",
+      "region": "日本",
+      "operating_receipt_in_million_dollars": "41,728.30",
+      "profit_in_million_dollars": "2,577.70",
+      "employees": "41,761 "
+    },
+    {
+      "rank2007": "151",
+      "name": "CATERPILLAR",
+      "region": "美国",
+      "operating_receipt_in_million_dollars": "41,517.00",
+      "profit_in_million_dollars": "3,537.00",
+      "employees": "94,593"
+    },
+    {
+      "rank2007": "152",
+      "name": "AEON ",
+      "region": "日本",
+      "operating_receipt_in_million_dollars": "41,249.10",
+      "profit_in_million_dollars": "492.9",
+      "employees": "63,163"
+    },
+    {
+      "rank2007": "153",
+      "name": "GROUPE CAISSE D'EPARGNE",
+      "region": "法国",
+      "operating_receipt_in_million_dollars": "41,015.80",
+      "profit_in_million_dollars": "4,807.80",
+      "employees": "55,800"
+    },
+    {
+      "rank2007": "154",
+      "name": "HON HAI PRECISION INDUSTRY",
+      "region": "中国台湾",
+      "operating_receipt_in_million_dollars": "40,595.60",
+      "profit_in_million_dollars": "1,840.50",
+      "employees": "382,000"
+    },
+    {
+      "rank2007": "155",
+      "name": "SAFEWAY",
+      "region": "美国",
+      "operating_receipt_in_million_dollars": "40,185.00",
+      "profit_in_million_dollars": "870.6",
+      "employees": "207,000"
+    },
+    {
+      "rank2007": "156",
+      "name": "TELECOM ITALIA",
+      "region": "意大利",
+      "operating_receipt_in_million_dollars": "40,150.10",
+      "profit_in_million_dollars": "3,781.50",
+      "employees": "83,209"
+    },
+    {
+      "rank2007": "157",
+      "name": "DAI-ICHI MUTUAL LIFE INSURANCE",
+      "region": "日本",
+      "operating_receipt_in_million_dollars": "40,145.50",
+      "profit_in_million_dollars": "1,512.00",
+      "employees": "52,566"
+    },
+    {
+      "rank2007": "158",
+      "name": "BAYER",
+      "region": "德国",
+      "operating_receipt_in_million_dollars": "39,899.20",
+      "profit_in_million_dollars": "2,111.60",
+      "employees": "106,000"
+    },
+    {
+      "rank2007": "159",
+      "name": "NEC",
+      "region": "日本",
+      "operating_receipt_in_million_dollars": "39,778.20",
+      "profit_in_million_dollars": "78",
+      "employees": "154,786"
+    },
+    {
+      "rank2007": "160",
+      "name": "LOCKHEED MARTIN",
+      "region": "美国",
+      "operating_receipt_in_million_dollars": "39,620.00",
+      "profit_in_million_dollars": "2,529.00",
+      "employees": "140,000"
+    },
+    {
+      "rank2007": "161",
+      "name": "ROYAL PHILIPS ELETRONICS",
+      "region": "荷兰",
+      "operating_receipt_in_million_dollars": "38,707.30",
+      "profit_in_million_dollars": "6,753.80",
+      "employees": "121,732"
+    },
+    {
+      "rank2007": "162",
+      "name": "LEGAL & GENERAL GROUP",
+      "region": "英国",
+      "operating_receipt_in_million_dollars": "38,574.40",
+      "profit_in_million_dollars": "2,877.50",
+      "employees": "9,742"
+    },
+    {
+      "rank2007": "163",
+      "name": "BANCO BILBAO VIZCAYA ARGENTARIA",
+      "region": "西班牙",
+      "operating_receipt_in_million_dollars": "38,308.80",
+      "profit_in_million_dollars": "5,941.90",
+      "employees": "98,553"
+    },
+    {
+      "rank2007": "164",
+      "name": "BT",
+      "region": "英国",
+      "operating_receipt_in_million_dollars": "38,248.30",
+      "profit_in_million_dollars": "5,390.30",
+      "employees": "106,200"
+    },
+    {
+      "rank2007": "165",
+      "name": "DZ BANK",
+      "region": "德国",
+      "operating_receipt_in_million_dollars": "37,780.10",
+      "profit_in_million_dollars": "1,465.40",
+      "employees": "22,334"
+    },
+    {
+      "rank2007": "166",
+      "name": "DEUTSCHE BAHN",
+      "region": "德国",
+      "operating_receipt_in_million_dollars": "37,706.00",
+      "profit_in_million_dollars": "2,089.00",
+      "employees": "229,200"
+    },
+    {
+      "rank2007": "167",
+      "name": "SUPERVALU",
+      "region": "美国",
+      "operating_receipt_in_million_dollars": "37,406.00",
+      "profit_in_million_dollars": "452",
+      "employees": "191,400"
+    },
+    {
+      "rank2007": "168",
+      "name": "NAVARTIS",
+      "region": "瑞士",
+      "operating_receipt_in_million_dollars": "37,020.00",
+      "profit_in_million_dollars": "7,175.00",
+      "employees": "100,735"
+    },
+    {
+      "rank2007": "169",
+      "name": "SANOFI-AVENTIS",
+      "region": "法国",
+      "operating_receipt_in_million_dollars": "36,998.40",
+      "profit_in_million_dollars": "5,026.10",
+      "employees": "100,000"
+    },
+    {
+      "rank2007": "170",
+      "name": "INDUSTRIAL & COMMERCIAL BANK OF CHINA",
+      "region": "中国",
+      "operating_receipt_in_million_dollars": "36,832.90",
+      "profit_in_million_dollars": "6,179.20",
+      "employees": "351,448"
+    },
+    {
+      "rank2007": "171",
+      "name": "NIPPON STEEL",
+      "region": "日本",
+      "operating_receipt_in_million_dollars": "36,781.60",
+      "profit_in_million_dollars": "3,002.50",
+      "employees": "47,257"
+    },
+    {
+      "rank2007": "172",
+      "name": "CAREMARK RX",
+      "region": "美国",
+      "operating_receipt_in_million_dollars": "36,750.20",
+      "profit_in_million_dollars": "1,074.00",
+      "employees": "13,360"
+    },
+    {
+      "rank2007": "173",
+      "name": "OLD MUTUAL",
+      "region": "英国",
+      "operating_receipt_in_million_dollars": "36,646.20",
+      "profit_in_million_dollars": "1,538.10",
+      "employees": "53,152"
+    },
+    {
+      "rank2007": "174",
+      "name": "ARCHER DANIELS MIDLAND",
+      "region": "美国",
+      "operating_receipt_in_million_dollars": "36,596.10",
+      "profit_in_million_dollars": "1,312.10",
+      "employees": "26,800"
+    },
+    {
+      "rank2007": "175",
+      "name": "RABOBANK",
+      "region": "荷兰",
+      "operating_receipt_in_million_dollars": "36,486.50",
+      "profit_in_million_dollars": "2,690.00",
+      "employees": "50,573"
+    },
+    {
+      "rank2007": "176",
+      "name": "SUNOCO",
+      "region": "美国",
+      "operating_receipt_in_million_dollars": "36,081.00",
+      "profit_in_million_dollars": "979",
+      "employees": "14,000"
+    },
+    {
+      "rank2007": "177",
+      "name": "MILLEA HOLDINGS",
+      "region": "日本",
+      "operating_receipt_in_million_dollars": "36,066.90",
+      "profit_in_million_dollars": "795.2",
+      "employees": "23,280"
+    },
+    {
+      "rank2007": "178",
+      "name": "VEOLIA ENVIRONNEMENT",
+      "region": "法国",
+      "operating_receipt_in_million_dollars": "36,044.40",
+      "profit_in_million_dollars": "951.9",
+      "employees": "298,498"
+    },
+    {
+      "rank2007": "179",
+      "name": "BEST BUY",
+      "region": "美国",
+      "operating_receipt_in_million_dollars": "35,934.00",
+      "profit_in_million_dollars": "1,377.00",
+      "employees": "140,000"
+    },
+    {
+      "rank2007": "180",
+      "name": "CHINA MOBIL COMMUNICATIONS",
+      "region": "中国",
+      "operating_receipt_in_million_dollars": "35,913.70",
+      "profit_in_million_dollars": "6,256.70",
+      "employees": "130,637"
+    },
+    {
+      "rank2007": "181",
+      "name": "ALLSTATE",
+      "region": "美国",
+      "operating_receipt_in_million_dollars": "35,796.00",
+      "profit_in_million_dollars": "4,993.00",
+      "employees": "37,350"
+    },
+    {
+      "rank2007": "182",
+      "name": "CANON",
+      "region": "日本",
+      "operating_receipt_in_million_dollars": "35,727.00",
+      "profit_in_million_dollars": "3,913.50",
+      "employees": "118,499"
+    },
+    {
+      "rank2007": "183",
+      "name": "INTEL",
+      "region": "美国",
+      "operating_receipt_in_million_dollars": "35,382.00",
+      "profit_in_million_dollars": "5,044.00",
+      "employees": "94,100"
+    },
+    {
+      "rank2007": "184",
+      "name": "PEPSICO",
+      "region": "美国",
+      "operating_receipt_in_million_dollars": "35,137.00",
+      "profit_in_million_dollars": "5,642.00",
+      "employees": "168,000"
+    },
+    {
+      "rank2007": "185",
+      "name": "VOLVO",
+      "region": "瑞典",
+      "operating_receipt_in_million_dollars": "35,091.00",
+      "profit_in_million_dollars": "2,205.50",
+      "employees": "83,187"
+    },
+    {
+      "rank2007": "186",
+      "name": "MUZUHO FINANCIAL GROUP",
+      "region": "日本",
+      "operating_receipt_in_million_dollars": "35,050.40",
+      "profit_in_million_dollars": "5,309.00",
+      "employees": "47,449"
+    },
+    {
+      "rank2007": "187",
+      "name": "FRANZ HANIEL",
+      "region": "德国",
+      "operating_receipt_in_million_dollars": "34,809.10",
+      "profit_in_million_dollars": "805.5",
+      "employees": "55,889"
+    },
+    {
+      "rank2007": "188",
+      "name": "ROCHE GROUP",
+      "region": "瑞士",
+      "operating_receipt_in_million_dollars": "34,702.80",
+      "profit_in_million_dollars": "6,285.40",
+      "employees": "74,372"
+    },
+    {
+      "rank2007": "189",
+      "name": "GAZ DE FRANCE",
+      "region": "法国",
+      "operating_receipt_in_million_dollars": "34,681.10",
+      "profit_in_million_dollars": "2,883.20",
+      "employees": "50,244"
+    },
+    {
+      "rank2007": "190",
+      "name": "KOC HOLDINGS",
+      "region": "土耳其",
+      "operating_receipt_in_million_dollars": "34,389.80",
+      "profit_in_million_dollars": "390.5",
+      "employees": "56,595"
+    },
+    {
+      "rank2007": "191",
+      "name": "WALT DISNEY",
+      "region": "美国",
+      "operating_receipt_in_million_dollars": "34,285.00",
+      "profit_in_million_dollars": "3,374.00",
+      "employees": "133,000"
+    },
+    {
+      "rank2007": "192",
+      "name": "CHINA LIFE INSURANCE",
+      "region": "中国",
+      "operating_receipt_in_million_dollars": "33,711.50",
+      "profit_in_million_dollars": "173.9",
+      "employees": "77,660"
+    },
+    {
+      "rank2007": "193",
+      "name": "BOUYGUES",
+      "region": "法国",
+      "operating_receipt_in_million_dollars": "33,693.70",
+      "profit_in_million_dollars": "1,563.30",
+      "employees": "122,561"
+    },
+    {
+      "rank2007": "194",
+      "name": "SUMITOMO MITSUI FINANCIAL GROUP",
+      "region": "日本",
+      "operating_receipt_in_million_dollars": "33,354.20",
+      "profit_in_million_dollars": "3,773.40",
+      "employees": "41,428"
+    },
+    {
+      "rank2007": "195",
+      "name": "ANGLO AMEIRICAN",
+      "region": "英国",
+      "operating_receipt_in_million_dollars": "33,072.00",
+      "profit_in_million_dollars": "6,186.00",
+      "employees": "162,000"
+    },
+    {
+      "rank2007": "196",
+      "name": "MITSUBISHI ELECTRIC",
+      "region": "日本",
+      "operating_receipt_in_million_dollars": "32,965.00",
+      "profit_in_million_dollars": "1,052.30",
+      "employees": "102,835"
+    },
+    {
+      "rank2007": "197",
+      "name": "VINCI",
+      "region": "法国",
+      "operating_receipt_in_million_dollars": "32,681.50",
+      "profit_in_million_dollars": "1,593.90",
+      "employees": "138,524"
+    },
+    {
+      "rank2007": "198",
+      "name": "SYSCO",
+      "region": "美国",
+      "operating_receipt_in_million_dollars": "32,628.40",
+      "profit_in_million_dollars": "855.3",
+      "employees": "49,600"
+    },
+    {
+      "rank2007": "199",
+      "name": "PRUDENTIAL FINANCIAL",
+      "region": "美国",
+      "operating_receipt_in_million_dollars": "32,488.00",
+      "profit_in_million_dollars": "3,428.00",
+      "employees": "39,814"
+    },
+    {
+      "rank2007": "200",
+      "name": "J.SAINSBURY",
+      "region": "英国",
+      "operating_receipt_in_million_dollars": "32,438.10",
+      "profit_in_million_dollars": "614.7",
+      "employees": "95,500 "
+    },
+    {
+      "rank2007": "201",
+      "name": "JOHNSON CONTROLS",
+      "region": "美国",
+      "operating_receipt_in_million_dollars": "32,413.00",
+      "profit_in_million_dollars": "1,028.00",
+      "employees": "136,000"
+    },
+    {
+      "rank2007": "202",
+      "name": "SUMITOMO LIFE INSURANCE",
+      "region": "日本",
+      "operating_receipt_in_million_dollars": "32,320.00",
+      "profit_in_million_dollars": "735.9",
+      "employees": "45,834"
+    },
+    {
+      "rank2007": "203",
+      "name": "FEDEX",
+      "region": "美国",
+      "operating_receipt_in_million_dollars": "32,294.00",
+      "profit_in_million_dollars": "1,806.00",
+      "employees": "221,677"
+    },
+    {
+      "rank2007": "204",
+      "name": "FONCIERE EURIS",
+      "region": "法国",
+      "operating_receipt_in_million_dollars": "32,237.00",
+      "profit_in_million_dollars": "95.4",
+      "employees": "152,956"
+    },
+    {
+      "rank2007": "205",
+      "name": "BHP BILLITON",
+      "region": "澳大利亚",
+      "operating_receipt_in_million_dollars": "32,153.00",
+      "profit_in_million_dollars": "10,450.00",
+      "employees": "33,184"
+    },
+    {
+      "rank2007": "206",
+      "name": "SWISS REINSURANCE",
+      "region": "瑞士",
+      "operating_receipt_in_million_dollars": "32,117.60",
+      "profit_in_million_dollars": "3,637.20",
+      "employees": "10,891"
+    },
+    {
+      "rank2007": "207",
+      "name": "PTT",
+      "region": "泰国",
+      "operating_receipt_in_million_dollars": "32,045.60",
+      "profit_in_million_dollars": "2,514.60",
+      "employees": "8,533"
+    },
+    {
+      "rank2007": "208",
+      "name": "ROYAL BANK OF CANADA",
+      "region": "加拿大",
+      "operating_receipt_in_million_dollars": "31,642.60",
+      "profit_in_million_dollars": "4,150.50",
+      "employees": "60,858"
+    },
+    {
+      "rank2007": "209",
+      "name": "HONEYWELL INTERNATIONAL",
+      "region": "美国",
+      "operating_receipt_in_million_dollars": "31,367.00",
+      "profit_in_million_dollars": "2,083.00",
+      "employees": "118,000"
+    },
+    {
+      "rank2007": "210",
+      "name": "INGRAM MICRO",
+      "region": "美国",
+      "operating_receipt_in_million_dollars": "31,357.50",
+      "profit_in_million_dollars": "265.8",
+      "employees": "13,700"
+    },
+    {
+      "rank2007": "211",
+      "name": "MARUBENI",
+      "region": "日本",
+      "operating_receipt_in_million_dollars": "31,281.70",
+      "profit_in_million_dollars": "1,020.40",
+      "employees": "28,442"
+    },
+    {
+      "rank2007": "212",
+      "name": "NORSK HYDRO",
+      "region": "挪威",
+      "operating_receipt_in_million_dollars": "31,197.70",
+      "profit_in_million_dollars": "2,711.10",
+      "employees": "33,000"
+    },
+    {
+      "rank2007": "213",
+      "name": "ALCOA ",
+      "region": "美国",
+      "operating_receipt_in_million_dollars": "30,896.00",
+      "profit_in_million_dollars": "2,248.00",
+      "employees": "123,000"
+    },
+    {
+      "rank2007": "214",
+      "name": "DENSO",
+      "region": "日本",
+      "operating_receipt_in_million_dollars": "30,861.50",
+      "profit_in_million_dollars": "1,754.10",
+      "employees": "112,262"
+    },
+    {
+      "rank2007": "215",
+      "name": "BANK OF CHINA",
+      "region": "中国",
+      "operating_receipt_in_million_dollars": "30,750.80",
+      "profit_in_million_dollars": "5,372.30",
+      "employees": "232,632"
+    },
+    {
+      "rank2007": "216",
+      "name": "COMMERZBANK",
+      "region": "德国",
+      "operating_receipt_in_million_dollars": "30,352.50",
+      "profit_in_million_dollars": "2,003.70",
+      "employees": "35,975"
+    },
+    {
+      "rank2007": "217",
+      "name": "NORTHROP GRUMMAN",
+      "region": "美国",
+      "operating_receipt_in_million_dollars": "30,304.00",
+      "profit_in_million_dollars": "1,542.00",
+      "employees": "122,200"
+    },
+    {
+      "rank2007": "218",
+      "name": "CENTRICA",
+      "region": "英国",
+      "operating_receipt_in_million_dollars": "30,265.60",
+      "profit_in_million_dollars": "-285.2",
+      "employees": "33,393"
+    },
+    {
+      "rank2007": "219",
+      "name": "MANULIFE FINANCIAL",
+      "region": "加拿大",
+      "operating_receipt_in_million_dollars": "30,136.90",
+      "profit_in_million_dollars": "3,449.00",
+      "employees": "21,000"
+    },
+    {
+      "rank2007": "220",
+      "name": "MEIJI YASUDA LIFE INSURANCE",
+      "region": "日本",
+      "operating_receipt_in_million_dollars": "29,979.30",
+      "profit_in_million_dollars": "2,127.60",
+      "employees": "39,776"
+    },
+    {
+      "rank2007": "221",
+      "name": "NIPPON MINING HOLDINGS",
+      "region": "日本",
+      "operating_receipt_in_million_dollars": "29,713.70",
+      "profit_in_million_dollars": "909.9",
+      "employees": "9,969"
+    },
+    {
+      "rank2007": "222",
+      "name": "AIR FRANCE-KLM GROUP",
+      "region": "法国",
+      "operating_receipt_in_million_dollars": "29,592.10",
+      "profit_in_million_dollars": "1,142.50",
+      "employees": "103,050"
+    },
+    {
+      "rank2007": "223",
+      "name": "LA POSTE",
+      "region": "法国",
+      "operating_receipt_in_million_dollars": "29,466.70",
+      "profit_in_million_dollars": "989.9",
+      "employees": "303,401"
+    },
+    {
+      "rank2007": "224",
+      "name": "BANCO BRADESCO",
+      "region": "巴西",
+      "operating_receipt_in_million_dollars": "29,301.20",
+      "profit_in_million_dollars": "2,324.10",
+      "employees": "79,306"
+    },
+    {
+      "rank2007": "225",
+      "name": "DUPONT",
+      "region": "美国",
+      "operating_receipt_in_million_dollars": "28,982.00",
+      "profit_in_million_dollars": "3,148.00",
+      "employees": "59,000"
+    },
+    {
+      "rank2007": "226",
+      "name": "HESS",
+      "region": "美国",
+      "operating_receipt_in_million_dollars": "28,720.00",
+      "profit_in_million_dollars": "1,916.00",
+      "employees": "13,700"
+    },
+    {
+      "rank2007": "227",
+      "name": "MACY'S",
+      "region": "美国",
+      "operating_receipt_in_million_dollars": "28,711.00",
+      "profit_in_million_dollars": "995",
+      "employees": "188,000"
+    },
+    {
+      "rank2007": "228",
+      "name": "KOREA ELECTRIC POWER",
+      "region": "韩国",
+      "operating_receipt_in_million_dollars": "28,708.40",
+      "profit_in_million_dollars": "2,331.10",
+      "employees": "20,388"
+    },
+    {
+      "rank2007": "229",
+      "name": "SAMSUNG LIFE INSURANCE",
+      "region": "韩国",
+      "operating_receipt_in_million_dollars": "28,639.20",
+      "profit_in_million_dollars": "544.3",
+      "employees": "6,410"
+    },
+    {
+      "rank2007": "230",
+      "name": "CHINA CONSTRUCTION BANK",
+      "region": "中国",
+      "operating_receipt_in_million_dollars": "28,532.30",
+      "profit_in_million_dollars": "5,810.30",
+      "employees": "297,506"
+    },
+    {
+      "rank2007": "231",
+      "name": "KDDI",
+      "region": "日本",
+      "operating_receipt_in_million_dollars": "28,515.10",
+      "profit_in_million_dollars": "1,596.60",
+      "employees": "14,358"
+    },
+    {
+      "rank2007": "232",
+      "name": "CISCO SYSTEMS",
+      "region": "美国",
+      "operating_receipt_in_million_dollars": "28,484.00",
+      "profit_in_million_dollars": "5,580.00",
+      "employees": "49,926"
+    },
+    {
+      "rank2007": "233",
+      "name": "NEW YORK LIFE INSURANCE",
+      "region": "美国",
+      "operating_receipt_in_million_dollars": "28,365.10",
+      "profit_in_million_dollars": "1,035.40",
+      "employees": "14,141"
+    },
+    {
+      "rank2007": "234",
+      "name": "GEORGE WESTON",
+      "region": "加拿大",
+      "operating_receipt_in_million_dollars": "28,350.40",
+      "profit_in_million_dollars": "106.6",
+      "employees": "150,000"
+    },
+    {
+      "rank2007": "235",
+      "name": "WOOLWORTHS",
+      "region": "澳大利亚",
+      "operating_receipt_in_million_dollars": "28,275.50",
+      "profit_in_million_dollars": "758",
+      "employees": "94,408"
+    },
+    {
+      "rank2007": "236",
+      "name": "STANDARD LIFE ASSURANCE",
+      "region": "英国",
+      "operating_receipt_in_million_dollars": "28,239.90",
+      "profit_in_million_dollars": "520.7",
+      "employees": "10,860"
+    },
+    {
+      "rank2007": "237",
+      "name": "CHINA SOUTHERN POWER GRID",
+      "region": "中国",
+      "operating_receipt_in_million_dollars": "27,966.10",
+      "profit_in_million_dollars": "1,074.10",
+      "employees": "178,053"
+    },
+    {
+      "rank2007": "238",
+      "name": "JFE HOLDINGS",
+      "region": "日本",
+      "operating_receipt_in_million_dollars": "27,875.50",
+      "profit_in_million_dollars": "2,562.20",
+      "employees": "53,610"
+    },
+    {
+      "rank2007": "239",
+      "name": "NATIONAL AUSTRALIA BANK",
+      "region": "澳大利亚",
+      "operating_receipt_in_million_dollars": "27,789.70",
+      "profit_in_million_dollars": "3,278.00",
+      "employees": "38,433"
+    },
+    {
+      "rank2007": "240",
+      "name": "MAZDA MOTOR",
+      "region": "日本",
+      "operating_receipt_in_million_dollars": "27,764.70",
+      "profit_in_million_dollars": "630.5",
+      "employees": "38,004"
+    },
+    {
+      "rank2007": "241",
+      "name": "COLES GROUP",
+      "region": "澳大利亚",
+      "operating_receipt_in_million_dollars": "27,516.00",
+      "profit_in_million_dollars": "869.3",
+      "employees": "115,616"
+    },
+    {
+      "rank2007": "242",
+      "name": "SNCF",
+      "region": "法国",
+      "operating_receipt_in_million_dollars": "27,444.20",
+      "profit_in_million_dollars": "818",
+      "employees": "20,742"
+    },
+    {
+      "rank2007": "243",
+      "name": "AMERICAN EXPRESS",
+      "region": "美国",
+      "operating_receipt_in_million_dollars": "27,145.00",
+      "profit_in_million_dollars": "3,707.00",
+      "employees": "65,400"
+    },
+    {
+      "rank2007": "244",
+      "name": "POSCO",
+      "region": "韩国",
+      "operating_receipt_in_million_dollars": "27,067.70",
+      "profit_in_million_dollars": "3,471.30",
+      "employees": "17,523"
+    },
+    {
+      "rank2007": "245",
+      "name": "SUZUKI MOTOR",
+      "region": "日本",
+      "operating_receipt_in_million_dollars": "27,048.10",
+      "profit_in_million_dollars": "641.3",
+      "employees": "45,510"
+    },
+    {
+      "rank2007": "246",
+      "name": "KBC GROUP",
+      "region": "比利时",
+      "operating_receipt_in_million_dollars": "26,896.00",
+      "profit_in_million_dollars": "4,303.50",
+      "employees": "50,189"
+    },
+    {
+      "rank2007": "247",
+      "name": "TIAA-CREF",
+      "region": "美国",
+      "operating_receipt_in_million_dollars": "26,756.80",
+      "profit_in_million_dollars": "2,333.80",
+      "employees": "6,547"
+    },
+    {
+      "rank2007": "248",
+      "name": "SHARP",
+      "region": "日本",
+      "operating_receipt_in_million_dollars": "26,741.20",
+      "profit_in_million_dollars": "869.6",
+      "employees": "48,927"
+    },
+    {
+      "rank2007": "249",
+      "name": "POWER CORP. OF CANADA",
+      "region": "加拿大",
+      "operating_receipt_in_million_dollars": "26,708.50",
+      "profit_in_million_dollars": "1,227.70",
+      "employees": "31,500"
+    },
+    {
+      "rank2007": "250",
+      "name": "WASHINGTON MUTUAL",
+      "region": "美国",
+      "operating_receipt_in_million_dollars": "26,561.00",
+      "profit_in_million_dollars": "3,558.00",
+      "employees": "49,824 "
+    },
+    {
+      "rank2007": "251",
+      "name": "HARTFORD FINANCIAL SERVICES",
+      "region": "美国",
+      "operating_receipt_in_million_dollars": "26,500.00",
+      "profit_in_million_dollars": "2,745.00",
+      "employees": "31,000"
+    },
+    {
+      "rank2007": "252",
+      "name": "ASTRAZENECA",
+      "region": "英国",
+      "operating_receipt_in_million_dollars": "26,475.00",
+      "profit_in_million_dollars": "6,043.00",
+      "employees": "66,000"
+    },
+    {
+      "rank2007": "253",
+      "name": "DELPHI ",
+      "region": "美国",
+      "operating_receipt_in_million_dollars": "26,392.00",
+      "profit_in_million_dollars": "-5,464.00",
+      "employees": "171,400"
+    },
+    {
+      "rank2007": "254",
+      "name": "SUMITOMO",
+      "region": "日本",
+      "operating_receipt_in_million_dollars": "26,308.90",
+      "profit_in_million_dollars": "1,804.00",
+      "employees": "61,490"
+    },
+    {
+      "rank2007": "255",
+      "name": "BUNGE",
+      "region": "美国",
+      "operating_receipt_in_million_dollars": "26,274.00",
+      "profit_in_million_dollars": "521",
+      "employees": "22,524"
+    },
+    {
+      "rank2007": "256",
+      "name": "TUI",
+      "region": "德国",
+      "operating_receipt_in_million_dollars": "26,241.80",
+      "profit_in_million_dollars": "-1,120.80",
+      "employees": "53,930"
+    },
+    {
+      "rank2007": "257",
+      "name": "MITSUBISHI HEAVY INDUSTRIES",
+      "region": "日本",
+      "operating_receipt_in_million_dollars": "26,234.50",
+      "profit_in_million_dollars": "417.6",
+      "employees": "62,940"
+    },
+    {
+      "rank2007": "258",
+      "name": "ENDESA",
+      "region": "西班牙",
+      "operating_receipt_in_million_dollars": "25,820.70",
+      "profit_in_million_dollars": "3,725.10",
+      "employees": "26,758"
+    },
+    {
+      "rank2007": "259",
+      "name": "BRIDGESTONE",
+      "region": "日本",
+      "operating_receipt_in_million_dollars": "25,709.70",
+      "profit_in_million_dollars": "731.6",
+      "employees": "126,326"
+    },
+    {
+      "rank2007": "260",
+      "name": "COMCAST",
+      "region": "美国",
+      "operating_receipt_in_million_dollars": "25,700.00",
+      "profit_in_million_dollars": "2,533.00",
+      "employees": "90,000"
+    },
+    {
+      "rank2007": "261",
+      "name": "ADECCO",
+      "region": "瑞士",
+      "operating_receipt_in_million_dollars": "25,616.20",
+      "profit_in_million_dollars": "766.6",
+      "employees": "37,000"
+    },
+    {
+      "rank2007": "262",
+      "name": "LANDESBANK BADEN-WURTTEMBERG",
+      "region": "德国",
+      "operating_receipt_in_million_dollars": "25,583.10",
+      "profit_in_million_dollars": "1,026.20",
+      "employees": "12,252"
+    },
+    {
+      "rank2007": "263",
+      "name": "AETNA",
+      "region": "美国",
+      "operating_receipt_in_million_dollars": "25,568.60",
+      "profit_in_million_dollars": "1,701.70",
+      "employees": "30,000"
+    },
+    {
+      "rank2007": "264",
+      "name": "TYSON FOODS",
+      "region": "美国",
+      "operating_receipt_in_million_dollars": "25,559.00",
+      "profit_in_million_dollars": "-196",
+      "employees": "107,000"
+    },
+    {
+      "rank2007": "265",
+      "name": "HCA",
+      "region": "美国",
+      "operating_receipt_in_million_dollars": "25,477.00",
+      "profit_in_million_dollars": "1,036.00",
+      "employees": "161,500"
+    },
+    {
+      "rank2007": "266",
+      "name": "NEWS CROP.",
+      "region": "美国",
+      "operating_receipt_in_million_dollars": "25,327.00",
+      "profit_in_million_dollars": "2,314.00",
+      "employees": "47,300"
+    },
+    {
+      "rank2007": "267",
+      "name": "WHOLSELEY",
+      "region": "英国",
+      "operating_receipt_in_million_dollars": "25,263.10",
+      "profit_in_million_dollars": "958.2",
+      "employees": "65,223"
+    },
+    {
+      "rank2007": "268",
+      "name": "IDEMITSY KOSAN",
+      "region": "日本",
+      "operating_receipt_in_million_dollars": "25,159.20",
+      "profit_in_million_dollars": "355.6",
+      "employees": "7,474"
+    },
+    {
+      "rank2007": "269",
+      "name": "RELIANCE INDUSTRIES",
+      "region": "印度",
+      "operating_receipt_in_million_dollars": "25,158.90",
+      "profit_in_million_dollars": "2,665.20",
+      "employees": "38,731"
+    },
+    {
+      "rank2007": "270",
+      "name": "VIVENDI",
+      "region": "法国",
+      "operating_receipt_in_million_dollars": "25,148.20",
+      "profit_in_million_dollars": "5,060.00",
+      "employees": "34,694"
+    },
+    {
+      "rank2007": "271",
+      "name": "TRAVELERS COS.",
+      "region": "美国",
+      "operating_receipt_in_million_dollars": "25,090.00",
+      "profit_in_million_dollars": "4,208.00",
+      "employees": "32,800"
+    },
+    {
+      "rank2007": "272",
+      "name": "LUFTHANSA GROUP",
+      "region": "德国",
+      "operating_receipt_in_million_dollars": "24,903.60",
+      "profit_in_million_dollars": "1,007.50",
+      "employees": "93,541"
+    },
+    {
+      "rank2007": "273",
+      "name": "ABB",
+      "region": "瑞士",
+      "operating_receipt_in_million_dollars": "24,883.00",
+      "profit_in_million_dollars": "1,390.00",
+      "employees": "108,200"
+    },
+    {
+      "rank2007": "274",
+      "name": "MASSACHUSETTS MUTUAL LIFE INSURANCE",
+      "region": "美国",
+      "operating_receipt_in_million_dollars": "24,863.40",
+      "profit_in_million_dollars": "1,266.00",
+      "employees": "11,969"
+    },
+    {
+      "rank2007": "275",
+      "name": "CHINA TELECOMMUNICATIONS",
+      "region": "中国",
+      "operating_receipt_in_million_dollars": "24,791.30",
+      "profit_in_million_dollars": "2,279.70",
+      "employees": "400,299"
+    },
+    {
+      "rank2007": "276",
+      "name": "EDLHAIZE GROUP",
+      "region": "比利时",
+      "operating_receipt_in_million_dollars": "24,481.80",
+      "profit_in_million_dollars": "441.5",
+      "employees": "106,600"
+    },
+    {
+      "rank2007": "277",
+      "name": "AGRICULTURAL BANK OF CHINA",
+      "region": "中国",
+      "operating_receipt_in_million_dollars": "24,475.50",
+      "profit_in_million_dollars": "728.4",
+      "employees": "452,464"
+    },
+    {
+      "rank2007": "278",
+      "name": "COUNTRYWIDE FINANCIAL",
+      "region": "美国",
+      "operating_receipt_in_million_dollars": "24,444.60",
+      "profit_in_million_dollars": "2,674.80",
+      "employees": "54,655"
+    },
+    {
+      "rank2007": "279",
+      "name": "DANSKE BANK GROUP",
+      "region": "丹麦",
+      "operating_receipt_in_million_dollars": "24,337.50",
+      "profit_in_million_dollars": "2,280.30",
+      "employees": "19,253"
+    },
+    {
+      "rank2007": "280",
+      "name": "GENERAL DYNAMICS",
+      "region": "美国",
+      "operating_receipt_in_million_dollars": "24,212.00",
+      "profit_in_million_dollars": "1,856.00",
+      "employees": "81,000"
+    },
+    {
+      "rank2007": "281",
+      "name": "BERTELSMANN",
+      "region": "德国",
+      "operating_receipt_in_million_dollars": "24,211.00",
+      "profit_in_million_dollars": "2,636.00",
+      "employees": "97,132"
+    },
+    {
+      "rank2007": "282",
+      "name": "INTERNATIONAL PAPER",
+      "region": "美国",
+      "operating_receipt_in_million_dollars": "24,186.00",
+      "profit_in_million_dollars": "1,050.00",
+      "employees": "60,600"
+    },
+    {
+      "rank2007": "283",
+      "name": "MAGNA INTERNATIONAL",
+      "region": "加拿大",
+      "operating_receipt_in_million_dollars": "24,180.00",
+      "profit_in_million_dollars": "528",
+      "employees": "83,000"
+    },
+    {
+      "rank2007": "284",
+      "name": "L.M. ERICSSON",
+      "region": "瑞典",
+      "operating_receipt_in_million_dollars": "24,102.60",
+      "profit_in_million_dollars": "3,558.90",
+      "employees": "63,781"
+    },
+    {
+      "rank2007": "285",
+      "name": "COCA-COLA",
+      "region": "美国",
+      "operating_receipt_in_million_dollars": "24,088.00",
+      "profit_in_million_dollars": "5,080.00",
+      "employees": "71,000"
+    },
+    {
+      "rank2007": "286",
+      "name": "OMV GROUP",
+      "region": "奥地利",
+      "operating_receipt_in_million_dollars": "23,855.70",
+      "profit_in_million_dollars": "1,734.70",
+      "employees": "40,993"
+    },
+    {
+      "rank2007": "287",
+      "name": "FUJIFILM HOLDINGS",
+      "region": "日本",
+      "operating_receipt_in_million_dollars": "23,789.50",
+      "profit_in_million_dollars": "294.5",
+      "employees": "76,358"
+    },
+    {
+      "rank2007": "288",
+      "name": "ITAUSA-INVESTIMENTOS ITAU",
+      "region": "巴西",
+      "operating_receipt_in_million_dollars": "23,761.60",
+      "profit_in_million_dollars": "2,062.70",
+      "employees": "71,774"
+    },
+    {
+      "rank2007": "289",
+      "name": "ALCAN",
+      "region": "加拿大",
+      "operating_receipt_in_million_dollars": "23,696.00",
+      "profit_in_million_dollars": "1,786.00",
+      "employees": "64,700"
+    },
+    {
+      "rank2007": "290",
+      "name": "HUTCHISON WHAMPOA",
+      "region": "中国香港",
+      "operating_receipt_in_million_dollars": "23,661.00",
+      "profit_in_million_dollars": "2,578.30",
+      "employees": "220,000"
+    },
+    {
+      "rank2007": "291",
+      "name": "BANCO DO BRASIL",
+      "region": "巴西",
+      "operating_receipt_in_million_dollars": "23,531.60",
+      "profit_in_million_dollars": "2,779.20",
+      "employees": "62,672"
+    },
+    {
+      "rank2007": "292",
+      "name": "LIBERTY MUTUAL INSURANCE GROUP",
+      "region": "美国",
+      "operating_receipt_in_million_dollars": "23,520.00",
+      "profit_in_million_dollars": "1,626.00",
+      "employees": "39,000"
+    },
+    {
+      "rank2007": "293",
+      "name": "CRH",
+      "region": "爱尔兰",
+      "operating_receipt_in_million_dollars": "23,508.90",
+      "profit_in_million_dollars": "1,518.40",
+      "employees": "79,560"
+    },
+    {
+      "rank2007": "294",
+      "name": "RAYTHEON",
+      "region": "美国",
+      "operating_receipt_in_million_dollars": "23,274.00",
+      "profit_in_million_dollars": "1,283.00",
+      "employees": "80,000"
+    },
+    {
+      "rank2007": "295",
+      "name": "LAFARGE",
+      "region": "法国",
+      "operating_receipt_in_million_dollars": "23,252.50",
+      "profit_in_million_dollars": "1,721.40",
+      "employees": "82,734"
+    },
+    {
+      "rank2007": "296",
+      "name": "PPR",
+      "region": "法国",
+      "operating_receipt_in_million_dollars": "23,191.60",
+      "profit_in_million_dollars": "859.8",
+      "employees": "78,453"
+    },
+    {
+      "rank2007": "297",
+      "name": "CEPSA",
+      "region": "西班牙",
+      "operating_receipt_in_million_dollars": "23,178.60",
+      "profit_in_million_dollars": "1,018.30",
+      "employees": "11,096"
+    },
+    {
+      "rank2007": "298",
+      "name": "WILLIAM MORRISON SUPERMARKETS",
+      "region": "英国",
+      "operating_receipt_in_million_dollars": "23,125.30",
+      "profit_in_million_dollars": "459.5",
+      "employees": "84,653"
+    },
+    {
+      "rank2007": "299",
+      "name": "SINOCHEM",
+      "region": "中国",
+      "operating_receipt_in_million_dollars": "23,109.20",
+      "profit_in_million_dollars": "344.7",
+      "employees": "20,343"
+    },
+    {
+      "rank2007": "300",
+      "name": "GASTERRA",
+      "region": "荷兰",
+      "operating_receipt_in_million_dollars": "23,085.60",
+      "profit_in_million_dollars": "45.2",
+      "employees": "169 "
+    },
+    {
+      "rank2007": "301",
+      "name": "SABIC",
+      "region": "沙特阿拉伯",
+      "operating_receipt_in_million_dollars": "23,019.00",
+      "profit_in_million_dollars": "5,411.30",
+      "employees": "19,000"
+    },
+    {
+      "rank2007": "302",
+      "name": "3M",
+      "region": "美国",
+      "operating_receipt_in_million_dollars": "22,923.00",
+      "profit_in_million_dollars": "3,851.00",
+      "employees": "75,333"
+    },
+    {
+      "rank2007": "303",
+      "name": "SAN PAOLO MIMI",
+      "region": "意大利",
+      "operating_receipt_in_million_dollars": "22,793.30",
+      "profit_in_million_dollars": "2,695.00",
+      "employees": "50,071"
+    },
+    {
+      "rank2007": "304",
+      "name": "DEERE",
+      "region": "美国",
+      "operating_receipt_in_million_dollars": "22,768.90",
+      "profit_in_million_dollars": "1,693.80",
+      "employees": "46,549"
+    },
+    {
+      "rank2007": "305",
+      "name": "EAST JAPAN RAILWAY",
+      "region": "日本",
+      "operating_receipt_in_million_dollars": "22,719.20",
+      "profit_in_million_dollars": "1,503.60",
+      "employees": "71,316"
+    },
+    {
+      "rank2007": "306",
+      "name": "BAE SYSTEMS",
+      "region": "英国",
+      "operating_receipt_in_million_dollars": "22,690.90",
+      "profit_in_million_dollars": "3,010.00",
+      "employees": "79,000"
+    },
+    {
+      "rank2007": "307",
+      "name": "BAOSTEEL GROUP",
+      "region": "中国",
+      "operating_receipt_in_million_dollars": "22,663.40",
+      "profit_in_million_dollars": "1,622.20",
+      "employees": "91,308"
+    },
+    {
+      "rank2007": "308",
+      "name": "MERCK",
+      "region": "美国",
+      "operating_receipt_in_million_dollars": "22,636.00",
+      "profit_in_million_dollars": "4,433.80",
+      "employees": "60,000"
+    },
+    {
+      "rank2007": "309",
+      "name": "ITOCHU",
+      "region": "日本",
+      "operating_receipt_in_million_dollars": "22,632.50",
+      "profit_in_million_dollars": "1,513.80",
+      "employees": "45,690"
+    },
+    {
+      "rank2007": "310",
+      "name": "HALLIBURTON",
+      "region": "美国",
+      "operating_receipt_in_million_dollars": "22,576.00",
+      "profit_in_million_dollars": "2,348.00",
+      "employees": "104,000"
+    },
+    {
+      "rank2007": "311",
+      "name": "AMR",
+      "region": "美国",
+      "operating_receipt_in_million_dollars": "22,563.00",
+      "profit_in_million_dollars": "231",
+      "employees": "86,600"
+    },
+    {
+      "rank2007": "312",
+      "name": "ABBOTT LABORATORIES",
+      "region": "美国",
+      "operating_receipt_in_million_dollars": "22,476.30",
+      "profit_in_million_dollars": "1,716.80",
+      "employees": "66,663"
+    },
+    {
+      "rank2007": "313",
+      "name": "RIO TINTO GROUP",
+      "region": "英国",
+      "operating_receipt_in_million_dollars": "22,465.00",
+      "profit_in_million_dollars": "7,438.00",
+      "employees": "30,642"
+    },
+    {
+      "rank2007": "314",
+      "name": "SCOTTISH & SOUTHERN ENERGY",
+      "region": "英国",
+      "operating_receipt_in_million_dollars": "22,444.60",
+      "profit_in_million_dollars": "1,570.70",
+      "employees": "13,427"
+    },
+    {
+      "rank2007": "315",
+      "name": "PLAINS ALL AMERICAN PIPELINE",
+      "region": "美国",
+      "operating_receipt_in_million_dollars": "22,444.40",
+      "profit_in_million_dollars": "285.1",
+      "employees": "2,900"
+    },
+    {
+      "rank2007": "316",
+      "name": "GROUPAMA",
+      "region": "法国",
+      "operating_receipt_in_million_dollars": "22,442.00",
+      "profit_in_million_dollars": "944.8",
+      "employees": "30,493"
+    },
+    {
+      "rank2007": "317",
+      "name": "MITSUBISHI CHEMICAL HOLDINGS",
+      "region": "日本",
+      "operating_receipt_in_million_dollars": "22,424.00",
+      "profit_in_million_dollars": "857.8",
+      "employees": "33,447"
+    },
+    {
+      "rank2007": "318",
+      "name": "NATIONWIDE",
+      "region": "美国",
+      "operating_receipt_in_million_dollars": "22,253.00",
+      "profit_in_million_dollars": "2,113.00",
+      "employees": "35,877"
+    },
+    {
+      "rank2007": "319",
+      "name": "WEYERHAEUSER",
+      "region": "美国",
+      "operating_receipt_in_million_dollars": "22,250.00",
+      "profit_in_million_dollars": "453",
+      "employees": "46,700"
+    },
+    {
+      "rank2007": "320",
+      "name": "LYONDELL CHEMICAL",
+      "region": "美国",
+      "operating_receipt_in_million_dollars": "22,228.00",
+      "profit_in_million_dollars": "186",
+      "employees": "10,905"
+    },
+    {
+      "rank2007": "321",
+      "name": "KANSAI ELECTRIC POWER",
+      "region": "日本",
+      "operating_receipt_in_million_dollars": "22,197.90",
+      "profit_in_million_dollars": "1,264.80",
+      "employees": "29,805"
+    },
+    {
+      "rank2007": "322",
+      "name": "COMPASS GROUP",
+      "region": "英国",
+      "operating_receipt_in_million_dollars": "22,053.60",
+      "profit_in_million_dollars": "512.5",
+      "employees": "406,924"
+    },
+    {
+      "rank2007": "323",
+      "name": "ROSNEFT OIL",
+      "region": "俄罗斯",
+      "operating_receipt_in_million_dollars": "21,959.00",
+      "profit_in_million_dollars": "3,533.00",
+      "employees": "70,000"
+    },
+    {
+      "rank2007": "324",
+      "name": "COSMO OIL",
+      "region": "日本",
+      "operating_receipt_in_million_dollars": "21,956.60",
+      "profit_in_million_dollars": "226.9",
+      "employees": "6,103"
+    },
+    {
+      "rank2007": "325",
+      "name": "BHARAT PETROLEUM",
+      "region": "印度",
+      "operating_receipt_in_million_dollars": "21,862.20",
+      "profit_in_million_dollars": "473.1",
+      "employees": "14,654"
+    },
+    {
+      "rank2007": "326",
+      "name": "PUBLIX SUPER MARKETS",
+      "region": "美国",
+      "operating_receipt_in_million_dollars": "21,819.70",
+      "profit_in_million_dollars": "1,097.20",
+      "employees": "103,000"
+    },
+    {
+      "rank2007": "327",
+      "name": "CPC",
+      "region": "中国台湾",
+      "operating_receipt_in_million_dollars": "21,796.10",
+      "profit_in_million_dollars": "-429.1",
+      "employees": "14,729"
+    },
+    {
+      "rank2007": "328",
+      "name": "ALLIANCE BOOTS",
+      "region": "英国",
+      "operating_receipt_in_million_dollars": "21,754.00",
+      "profit_in_million_dollars": "731.9",
+      "employees": "100,000"
+    },
+    {
+      "rank2007": "329",
+      "name": "MODONALD'S",
+      "region": "美国",
+      "operating_receipt_in_million_dollars": "21,586.40",
+      "profit_in_million_dollars": "3,544.20",
+      "employees": "465,000"
+    },
+    {
+      "rank2007": "330",
+      "name": "AMERICA MOVIL",
+      "region": "墨西哥",
+      "operating_receipt_in_million_dollars": "21,486.60",
+      "profit_in_million_dollars": "3,927.80",
+      "employees": "60,815"
+    },
+    {
+      "rank2007": "331",
+      "name": "TECH DATA",
+      "region": "美国",
+      "operating_receipt_in_million_dollars": "21,446.10",
+      "profit_in_million_dollars": "-97",
+      "employees": "8,000"
+    },
+    {
+      "rank2007": "332",
+      "name": "HUMANA",
+      "region": "美国",
+      "operating_receipt_in_million_dollars": "21,416.50",
+      "profit_in_million_dollars": "487.4",
+      "employees": "22,300"
+    },
+    {
+      "rank2007": "333",
+      "name": "SUN LIFE FINANCIAL",
+      "region": "加拿大",
+      "operating_receipt_in_million_dollars": "21,405.40",
+      "profit_in_million_dollars": "1,883.40",
+      "employees": "14,264"
+    },
+    {
+      "rank2007": "334",
+      "name": "POSTE ITALIANE",
+      "region": "意大利",
+      "operating_receipt_in_million_dollars": "21,398.80",
+      "profit_in_million_dollars": "847.7",
+      "employees": "147,808"
+    },
+    {
+      "rank2007": "335",
+      "name": "ELECTRONIC DATA SYSTEMS",
+      "region": "美国",
+      "operating_receipt_in_million_dollars": "21,337.00",
+      "profit_in_million_dollars": "470",
+      "employees": "131,000"
+    },
+    {
+      "rank2007": "336",
+      "name": "HINDUSTAN PETROLEUM",
+      "region": "印度",
+      "operating_receipt_in_million_dollars": "20,935.60",
+      "profit_in_million_dollars": "370.2",
+      "employees": "10,891"
+    },
+    {
+      "rank2007": "337",
+      "name": "INTESA SANPAOLO",
+      "region": "意大利",
+      "operating_receipt_in_million_dollars": "20,790.80",
+      "profit_in_million_dollars": "3,210.70",
+      "employees": "55,665"
+    },
+    {
+      "rank2007": "338",
+      "name": "EDEKA ZENTRALE",
+      "region": "德国",
+      "operating_receipt_in_million_dollars": "20,733.10",
+      "profit_in_million_dollars": "170.9",
+      "employees": "253,000"
+    },
+    {
+      "rank2007": "339",
+      "name": "NORTHWESTERN MUTUAL",
+      "region": "美国",
+      "operating_receipt_in_million_dollars": "20,726.20",
+      "profit_in_million_dollars": "829.4",
+      "employees": "4,840"
+    },
+    {
+      "rank2007": "340",
+      "name": "COMMONWEALEH BANK OF AUSTRALIA",
+      "region": "澳大利亚",
+      "operating_receipt_in_million_dollars": "20,614.00",
+      "profit_in_million_dollars": "2,934.40",
+      "employees": "36,664"
+    },
+    {
+      "rank2007": "341",
+      "name": "MICHELIN",
+      "region": "法国",
+      "operating_receipt_in_million_dollars": "20,556.20",
+      "profit_in_million_dollars": "717.7",
+      "employees": "115,755"
+    },
+    {
+      "rank2007": "342",
+      "name": "CHINA RAILWAY ENGENEERING",
+      "region": "中国",
+      "operating_receipt_in_million_dollars": "20,520.40",
+      "profit_in_million_dollars": "142.6",
+      "employees": "275,866"
+    },
+    {
+      "rank2007": "343",
+      "name": "CATHAY FINANCIAL HOLDINGS",
+      "region": "中国台湾",
+      "operating_receipt_in_million_dollars": "20,436.40",
+      "profit_in_million_dollars": "325.2",
+      "employees": "34,782"
+    },
+    {
+      "rank2007": "344",
+      "name": "SUMITOMO ELECTRIC INDUSTRIES",
+      "region": "日本",
+      "operating_receipt_in_million_dollars": "20,385.60",
+      "profit_in_million_dollars": "650",
+      "employees": "133,853"
+    },
+    {
+      "rank2007": "345",
+      "name": "RAG",
+      "region": "德国",
+      "operating_receipt_in_million_dollars": "20,365.00",
+      "profit_in_million_dollars": "1,311.50",
+      "employees": "43,175"
+    },
+    {
+      "rank2007": "346",
+      "name": "WYETH ",
+      "region": "美国",
+      "operating_receipt_in_million_dollars": "30,350.70",
+      "profit_in_million_dollars": "4,196.70",
+      "employees": "50,060"
+    },
+    {
+      "rank2007": "347",
+      "name": "AISIN SEIKI",
+      "region": "日本",
+      "operating_receipt_in_million_dollars": "20,336.20",
+      "profit_in_million_dollars": "571.9",
+      "employees": "66,383"
+    },
+    {
+      "rank2007": "348",
+      "name": "GOODYEAR TIRE & RUBBER",
+      "region": "美国",
+      "operating_receipt_in_million_dollars": "20,258.00",
+      "profit_in_million_dollars": "-330",
+      "employees": "77,000"
+    },
+    {
+      "rank2007": "349",
+      "name": "KOOKMIN BANK",
+      "region": "韩国",
+      "operating_receipt_in_million_dollars": "20,224.10",
+      "profit_in_million_dollars": "2,589.30",
+      "employees": "24,854"
+    },
+    {
+      "rank2007": "350",
+      "name": "EMERSON ELECTRIC",
+      "region": "美国",
+      "operating_receipt_in_million_dollars": "20,133.00",
+      "profit_in_million_dollars": "1,845.00",
+      "employees": "127,800 "
+    },
+    {
+      "rank2007": "351",
+      "name": "CHRISTIAN DIOR",
+      "region": "法国",
+      "operating_receipt_in_million_dollars": "20,094.50",
+      "profit_in_million_dollars": "1,000.00",
+      "employees": "62,115"
+    },
+    {
+      "rank2007": "352",
+      "name": "J.C. PRNNEY",
+      "region": "美国",
+      "operating_receipt_in_million_dollars": "19,903.00",
+      "profit_in_million_dollars": "1,153.00",
+      "employees": "155,000"
+    },
+    {
+      "rank2007": "353",
+      "name": "L'OREAL",
+      "region": "法国",
+      "operating_receipt_in_million_dollars": "19,811.10",
+      "profit_in_million_dollars": "2,585.80",
+      "employees": "60,851"
+    },
+    {
+      "rank2007": "354",
+      "name": "COCA-COLA INTERPRISES",
+      "region": "美国",
+      "operating_receipt_in_million_dollars": "19,804.00",
+      "profit_in_million_dollars": "-1,143.00",
+      "employees": "74,000"
+    },
+    {
+      "rank2007": "355",
+      "name": "VATTENFALL",
+      "region": "瑞典",
+      "operating_receipt_in_million_dollars": "19,768.60",
+      "profit_in_million_dollars": "2,539.10",
+      "employees": "32,308"
+    },
+    {
+      "rank2007": "356",
+      "name": "SANYO ELECTRIC",
+      "region": "日本",
+      "operating_receipt_in_million_dollars": "19,737.80",
+      "profit_in_million_dollars": "-387.8",
+      "employees": "94,906"
+    },
+    {
+      "rank2007": "357",
+      "name": "BANK OF NOVA SCOTIA",
+      "region": "加拿大",
+      "operating_receipt_in_million_dollars": "19,736.20",
+      "profit_in_million_dollars": "3,141.90",
+      "employees": "57,000"
+    },
+    {
+      "rank2007": "358",
+      "name": "JAPAN AIRLINES",
+      "region": "日本",
+      "operating_receipt_in_million_dollars": "19,680.40",
+      "profit_in_million_dollars": "-139.1",
+      "employees": "51,497"
+    },
+    {
+      "rank2007": "359",
+      "name": "CVRD",
+      "region": "巴西",
+      "operating_receipt_in_million_dollars": "19,651.00",
+      "profit_in_million_dollars": "6,528.00",
+      "employees": "52,646"
+    },
+    {
+      "rank2007": "360",
+      "name": "TORONTO-DOMINION BANK",
+      "region": "加拿大",
+      "operating_receipt_in_million_dollars": "19,578.10",
+      "profit_in_million_dollars": "4,040.80",
+      "employees": "51,147"
+    },
+    {
+      "rank2007": "361",
+      "name": "T&D HOLDINGS",
+      "region": "日本",
+      "operating_receipt_in_million_dollars": "19,544.70",
+      "profit_in_million_dollars": "331.5",
+      "employees": "21,569"
+    },
+    {
+      "rank2007": "362",
+      "name": "HOCHTIEF",
+      "region": "德国",
+      "operating_receipt_in_million_dollars": "19,457.20",
+      "profit_in_million_dollars": "111.8",
+      "employees": "46,847"
+    },
+    {
+      "rank2007": "363",
+      "name": "CONSTELLATION ENERGY",
+      "region": "美国",
+      "operating_receipt_in_million_dollars": "19,446.10",
+      "profit_in_million_dollars": "936.4",
+      "employees": "9,645"
+    },
+    {
+      "rank2007": "364",
+      "name": "CFE",
+      "region": "墨西哥",
+      "operating_receipt_in_million_dollars": "19,405.10",
+      "profit_in_million_dollars": "190.8",
+      "employees": "78,890"
+    },
+    {
+      "rank2007": "365",
+      "name": "OTTO GROUP",
+      "region": "德国",
+      "operating_receipt_in_million_dollars": "19,397.50",
+      "profit_in_million_dollars": "208.9",
+      "employees": "53,051"
+    },
+    {
+      "rank2007": "366",
+      "name": "UAL ",
+      "region": "美国",
+      "operating_receipt_in_million_dollars": "19,340.00",
+      "profit_in_million_dollars": "22,876.00",
+      "employees": "55,000"
+    },
+    {
+      "rank2007": "367",
+      "name": "APPLE",
+      "region": "美国",
+      "operating_receipt_in_million_dollars": "19,315.00",
+      "profit_in_million_dollars": "1,989.00",
+      "employees": "18,987"
+    },
+    {
+      "rank2007": "368",
+      "name": "AUTONATION",
+      "region": "美国",
+      "operating_receipt_in_million_dollars": "19,314.40",
+      "profit_in_million_dollars": "316.9",
+      "employees": "26,000"
+    },
+    {
+      "rank2007": "369",
+      "name": "OIL & NATRUAL GAS",
+      "region": "印度",
+      "operating_receipt_in_million_dollars": "19,237.40",
+      "profit_in_million_dollars": "3,929.20",
+      "employees": "34,807"
+    },
+    {
+      "rank2007": "370",
+      "name": "SCHLUMBERGER",
+      "region": "美国",
+      "operating_receipt_in_million_dollars": "19,230.50",
+      "profit_in_million_dollars": "3,709.90",
+      "employees": "70,000"
+    },
+    {
+      "rank2007": "371",
+      "name": "CORUS GROUP",
+      "region": "英国",
+      "operating_receipt_in_million_dollars": "19,171.30",
+      "profit_in_million_dollars": "410.3",
+      "employees": "41,200"
+    },
+    {
+      "rank2007": "372",
+      "name": "HOLCIM",
+      "region": "瑞士",
+      "operating_receipt_in_million_dollars": "19,118.50",
+      "profit_in_million_dollars": "1,678.20",
+      "employees": "88,783"
+    },
+    {
+      "rank2007": "373",
+      "name": "U.S. BANCORP",
+      "region": "美国",
+      "operating_receipt_in_million_dollars": "19,109.00",
+      "profit_in_million_dollars": "4,751.00",
+      "employees": "50,423"
+    },
+    {
+      "rank2007": "374",
+      "name": "HANWHA",
+      "region": "韩国",
+      "operating_receipt_in_million_dollars": "19,085.50",
+      "profit_in_million_dollars": "286.5",
+      "employees": "2,796"
+    },
+    {
+      "rank2007": "375",
+      "name": "MAN GROUP",
+      "region": "德国",
+      "operating_receipt_in_million_dollars": "19,051.90",
+      "profit_in_million_dollars": "1,160.60",
+      "employees": "53,715"
+    },
+    {
+      "rank2007": "376",
+      "name": "AUSTRALIA & NEW ZEALAND BANKING",
+      "region": "澳大利亚",
+      "operating_receipt_in_million_dollars": "19,039.50",
+      "profit_in_million_dollars": "2,752.60",
+      "employees": "32,256"
+    },
+    {
+      "rank2007": "377",
+      "name": "OCCIDENTAL PETROLEUM",
+      "region": "美国",
+      "operating_receipt_in_million_dollars": "19,029.00",
+      "profit_in_million_dollars": "4,182.00",
+      "employees": "8,886"
+    },
+    {
+      "rank2007": "378",
+      "name": "FLEXTRONICS INTERNATIONAL",
+      "region": "新加坡",
+      "operating_receipt_in_million_dollars": "18,968.00",
+      "profit_in_million_dollars": "508.6",
+      "employees": "116,000"
+    },
+    {
+      "rank2007": "379",
+      "name": "SHV HOLDINGS",
+      "region": "荷兰",
+      "operating_receipt_in_million_dollars": "18,962.00",
+      "profit_in_million_dollars": "521.9",
+      "employees": "34,600"
+    },
+    {
+      "rank2007": "380",
+      "name": "CHUBU ELETRIC POWER",
+      "region": "日本",
+      "operating_receipt_in_million_dollars": "18,927.00",
+      "profit_in_million_dollars": "774.2",
+      "employees": "28,697"
+    },
+    {
+      "rank2007": "381",
+      "name": "KARSTADT QUELLE",
+      "region": "德国",
+      "operating_receipt_in_million_dollars": "18,920.30",
+      "profit_in_million_dollars": "433.6",
+      "employees": "55,272"
+    },
+    {
+      "rank2007": "382",
+      "name": "MITSUBISHI MOTORS",
+      "region": "日本",
+      "operating_receipt_in_million_dollars": "18,833.60",
+      "profit_in_million_dollars": "74.8",
+      "employees": "33,739"
+    },
+    {
+      "rank2007": "383",
+      "name": "ALSTOM ",
+      "region": "法国",
+      "operating_receipt_in_million_dollars": "18,754.00",
+      "profit_in_million_dollars": "574.5",
+      "employees": "66,569"
+    },
+    {
+      "rank2007": "384",
+      "name": "CHINA RAILWAY CONSTRUCTION",
+      "region": "中国",
+      "operating_receipt_in_million_dollars": "18,735.70",
+      "profit_in_million_dollars": "70.2",
+      "employees": "245,540"
+    },
+    {
+      "rank2007": "385",
+      "name": "CHINA FAW GROUP",
+      "region": "中国",
+      "operating_receipt_in_million_dollars": "18,710.70",
+      "profit_in_million_dollars": "70",
+      "employees": "136,010"
+    },
+    {
+      "rank2007": "386",
+      "name": "CONTINENTAL",
+      "region": "德国",
+      "operating_receipt_in_million_dollars": "18,678.00",
+      "profit_in_million_dollars": "1,231.90",
+      "employees": "85,224"
+    },
+    {
+      "rank2007": "387",
+      "name": "BAYERISCHE LANDESBANK",
+      "region": "德国",
+      "operating_receipt_in_million_dollars": "18,617.90",
+      "profit_in_million_dollars": "696.7",
+      "employees": "10,080"
+    },
+    {
+      "rank2007": "388",
+      "name": "KT",
+      "region": "韩国",
+      "operating_receipt_in_million_dollars": "18,598.10",
+      "profit_in_million_dollars": "1,353.10",
+      "employees": "37,514"
+    },
+    {
+      "rank2007": "389",
+      "name": "SARA LEE",
+      "region": "美国",
+      "operating_receipt_in_million_dollars": "18,539.00",
+      "profit_in_million_dollars": "555",
+      "employees": "109,000"
+    },
+    {
+      "rank2007": "390",
+      "name": "MEDICEO PALTAC HOLDINGS",
+      "region": "日本",
+      "operating_receipt_in_million_dollars": "18,524.90",
+      "profit_in_million_dollars": "163.3",
+      "employees": "10,664"
+    },
+    {
+      "rank2007": "391",
+      "name": "NIPPON YUSEN ",
+      "region": "日本",
+      "operating_receipt_in_million_dollars": "18,503.70",
+      "profit_in_million_dollars": "556",
+      "employees": "29,841"
+    },
+    {
+      "rank2007": "392",
+      "name": "SURGUTNEFTEGAS",
+      "region": "俄罗斯",
+      "operating_receipt_in_million_dollars": "18,413.10",
+      "profit_in_million_dollars": "2,836.60",
+      "employees": "85,390"
+    },
+    {
+      "rank2007": "393",
+      "name": "STORA ENSO",
+      "region": "芬兰",
+      "operating_receipt_in_million_dollars": "18,310.30",
+      "profit_in_million_dollars": "734",
+      "employees": "45,631"
+    },
+    {
+      "rank2007": "394",
+      "name": "ACCENTURE",
+      "region": "美国",
+      "operating_receipt_in_million_dollars": "18,228.40",
+      "profit_in_million_dollars": "973.3",
+      "employees": "140,000"
+    },
+    {
+      "rank2007": "395",
+      "name": "LAGARDERE GROUP",
+      "region": "法国",
+      "operating_receipt_in_million_dollars": "18,187.40",
+      "profit_in_million_dollars": "365.1",
+      "employees": "50,519"
+    },
+    {
+      "rank2007": "396",
+      "name": "CHINA STATE CONSTRUCTION",
+      "region": "中国",
+      "operating_receipt_in_million_dollars": "18,163.20",
+      "profit_in_million_dollars": "281.3",
+      "employees": "294,309"
+    },
+    {
+      "rank2007": "397",
+      "name": "STAPLES",
+      "region": "美国",
+      "operating_receipt_in_million_dollars": "18,160.80",
+      "profit_in_million_dollars": "973.7",
+      "employees": "56,542"
+    },
+    {
+      "rank2007": "398",
+      "name": "CEMEX",
+      "region": "墨西哥",
+      "operating_receipt_in_million_dollars": "18,135.60",
+      "profit_in_million_dollars": "2,356.00",
+      "employees": "50,000"
+    },
+    {
+      "rank2007": "399",
+      "name": "MITSUI SUMITOMO INSURANCE",
+      "region": "日本",
+      "operating_receipt_in_million_dollars": "18,100.10",
+      "profit_in_million_dollars": "519.8",
+      "employees": "18,882"
+    },
+    {
+      "rank2007": "400",
+      "name": "WHIRLPOOL",
+      "region": "美国",
+      "operating_receipt_in_million_dollars": "18,080.00",
+      "profit_in_million_dollars": "433",
+      "employees": "73,416 "
+    },
+    {
+      "rank2007": "401",
+      "name": "ALCATEL-LUCENT",
+      "region": "法国",
+      "operating_receipt_in_million_dollars": "18,043.10",
+      "profit_in_million_dollars": "-220.8",
+      "employees": "89,370"
+    },
+    {
+      "rank2007": "402",
+      "name": "SHANGHAI AUTOMOTIVE",
+      "region": "中国",
+      "operating_receipt_in_million_dollars": "18,010.10",
+      "profit_in_million_dollars": "89.7",
+      "employees": "72,416"
+    },
+    {
+      "rank2007": "403",
+      "name": "TESORO",
+      "region": "美国",
+      "operating_receipt_in_million_dollars": "18,002.00",
+      "profit_in_million_dollars": "801",
+      "employees": "3,950"
+    },
+    {
+      "rank2007": "404",
+      "name": "BRITISH AMERICAN TOBACCO",
+      "region": "英国",
+      "operating_receipt_in_million_dollars": "17,960.60",
+      "profit_in_million_dollars": "3,488.40",
+      "employees": "55,145"
+    },
+    {
+      "rank2007": "405",
+      "name": "COFCO",
+      "region": "中国",
+      "operating_receipt_in_million_dollars": "17,953.20",
+      "profit_in_million_dollars": "281",
+      "employees": "82,481"
+    },
+    {
+      "rank2007": "406",
+      "name": "BRISTOL-MAYERS SQUIBB",
+      "region": "美国",
+      "operating_receipt_in_million_dollars": "17,914.00",
+      "profit_in_million_dollars": "1,585.00",
+      "employees": "43,000"
+    },
+    {
+      "rank2007": "407",
+      "name": "LEAR",
+      "region": "美国",
+      "operating_receipt_in_million_dollars": "17,838.90",
+      "profit_in_million_dollars": "-707.5",
+      "employees": "104,000"
+    },
+    {
+      "rank2007": "408",
+      "name": "MANPOWER",
+      "region": "美国",
+      "operating_receipt_in_million_dollars": "17,786.50",
+      "profit_in_million_dollars": "398",
+      "employees": "30,000"
+    },
+    {
+      "rank2007": "409",
+      "name": "CANADIAN IMPERIAL BANK OF COMMERCE",
+      "region": "加拿大",
+      "operating_receipt_in_million_dollars": "17,703.00",
+      "profit_in_million_dollars": "2,322.80",
+      "employees": "37,016"
+    },
+    {
+      "rank2007": "410",
+      "name": "RICOH",
+      "region": "日本",
+      "operating_receipt_in_million_dollars": "17,688.50",
+      "profit_in_million_dollars": "955.2",
+      "employees": "81,939"
+    },
+    {
+      "rank2007": "411",
+      "name": "EXPRESS SCRIPTS",
+      "region": "美国",
+      "operating_receipt_in_million_dollars": "17,660.00",
+      "profit_in_million_dollars": "474.4",
+      "employees": "11,300"
+    },
+    {
+      "rank2007": "412",
+      "name": "GROUPE DANONE",
+      "region": "法国",
+      "operating_receipt_in_million_dollars": "17,656.70",
+      "profit_in_million_dollars": "1,697.50",
+      "employees": "88,124"
+    },
+    {
+      "rank2007": "413",
+      "name": "ACS",
+      "region": "西班牙",
+      "operating_receipt_in_million_dollars": "17,649.40",
+      "profit_in_million_dollars": "1,568.40",
+      "employees": "123,652"
+    },
+    {
+      "rank2007": "414",
+      "name": "XSTRATA",
+      "region": "瑞士",
+      "operating_receipt_in_million_dollars": "17,632.00",
+      "profit_in_million_dollars": "1,947.00",
+      "employees": "28,198"
+    },
+    {
+      "rank2007": "415",
+      "name": "JAPAN TOBACCO",
+      "region": "日本",
+      "operating_receipt_in_million_dollars": "17,536.00",
+      "profit_in_million_dollars": "1,802.00",
+      "employees": "33,428"
+    },
+    {
+      "rank2007": "416",
+      "name": "NOMURA HOLDINGS",
+      "region": "日本",
+      "operating_receipt_in_million_dollars": "17,519.00",
+      "profit_in_million_dollars": "1,503.30",
+      "employees": "16,144"
+    },
+    {
+      "rank2007": "417",
+      "name": "TJX",
+      "region": "美国",
+      "operating_receipt_in_million_dollars": "17,516.40",
+      "profit_in_million_dollars": "738",
+      "employees": "125,000"
+    },
+    {
+      "rank2007": "418",
+      "name": "RITE AID",
+      "region": "美国",
+      "operating_receipt_in_million_dollars": "17,507.70",
+      "profit_in_million_dollars": "26.8",
+      "employees": "53,669"
+    },
+    {
+      "rank2007": "419",
+      "name": "KFW BANKENGRUPPE",
+      "region": "德国",
+      "operating_receipt_in_million_dollars": "17,397.30",
+      "profit_in_million_dollars": "1,221.50",
+      "employees": "3,580"
+    },
+    {
+      "rank2007": "420",
+      "name": "TNT",
+      "region": "荷兰",
+      "operating_receipt_in_million_dollars": "17,360.60",
+      "profit_in_million_dollars": "840.6",
+      "employees": "44,984"
+    },
+    {
+      "rank2007": "421",
+      "name": "NATIONAL GRID",
+      "region": "英国",
+      "operating_receipt_in_million_dollars": "17,326.40",
+      "profit_in_million_dollars": "2,636.50",
+      "employees": "19,511"
+    },
+    {
+      "rank2007": "422",
+      "name": "HYUNDAI HEAVY INDUSTRIES",
+      "region": "韩国",
+      "operating_receipt_in_million_dollars": "17,298.00",
+      "profit_in_million_dollars": "736.9",
+      "employees": "38,867"
+    },
+    {
+      "rank2007": "423",
+      "name": "TELSTRA",
+      "region": "澳大利亚",
+      "operating_receipt_in_million_dollars": "17,256.80",
+      "profit_in_million_dollars": "2,376.40",
+      "employees": "44,452"
+    },
+    {
+      "rank2007": "424",
+      "name": "AKZO NOBEL",
+      "region": "荷兰",
+      "operating_receipt_in_million_dollars": "17,235.10",
+      "profit_in_million_dollars": "1,446.60",
+      "employees": "61,900"
+    },
+    {
+      "rank2007": "425",
+      "name": "LOEWS",
+      "region": "美国",
+      "operating_receipt_in_million_dollars": "17,227.60",
+      "profit_in_million_dollars": "2,491.30",
+      "employees": "21,600"
+    },
+    {
+      "rank2007": "426",
+      "name": "SCHINEIDER ELECTRIC",
+      "region": "法国",
+      "operating_receipt_in_million_dollars": "17,226.00",
+      "profit_in_million_dollars": "1,642.80",
+      "employees": "100,078"
+    },
+    {
+      "rank2007": "427",
+      "name": "ASUSTEK COMPUTER",
+      "region": "中国台湾",
+      "operating_receipt_in_million_dollars": "17,224.70",
+      "profit_in_million_dollars": "591",
+      "employees": "9,587"
+    },
+    {
+      "rank2007": "428",
+      "name": "SWISS LIFE",
+      "region": "瑞士",
+      "operating_receipt_in_million_dollars": "17,173.90",
+      "profit_in_million_dollars": "744.3",
+      "employees": "8,693"
+    },
+    {
+      "rank2007": "429",
+      "name": "DELTA AIR LINES",
+      "region": "美国",
+      "operating_receipt_in_million_dollars": "17,171.00",
+      "profit_in_million_dollars": "-6,203.00",
+      "employees": "51,300"
+    },
+    {
+      "rank2007": "430",
+      "name": "NORDEA BANK",
+      "region": "瑞典",
+      "operating_receipt_in_million_dollars": "17,169.90",
+      "profit_in_million_dollars": "3,945.90",
+      "employees": "29,248"
+    },
+    {
+      "rank2007": "431",
+      "name": "ENCANA",
+      "region": "加拿大",
+      "operating_receipt_in_million_dollars": "17,081.00",
+      "profit_in_million_dollars": "5,652.00",
+      "employees": "4,678"
+    },
+    {
+      "rank2007": "432",
+      "name": "PKN ORLEN GROUP",
+      "region": "波兰",
+      "operating_receipt_in_million_dollars": "17,055.00",
+      "profit_in_million_dollars": "664.6",
+      "employees": "24,113"
+    },
+    {
+      "rank2007": "433",
+      "name": "SKANSKA",
+      "region": "瑞典",
+      "operating_receipt_in_million_dollars": "17,028.40",
+      "profit_in_million_dollars": "492.8",
+      "employees": "56,085"
+    },
+    {
+      "rank2007": "434",
+      "name": "ONEX",
+      "region": "加拿大",
+      "operating_receipt_in_million_dollars": "16,905.20",
+      "profit_in_million_dollars": "883.1",
+      "employees": "167,000"
+    },
+    {
+      "rank2007": "435",
+      "name": "CHINA MINMETALS",
+      "region": "中国",
+      "operating_receipt_in_million_dollars": "16,902.20",
+      "profit_in_million_dollars": "154.4",
+      "employees": "32,594"
+    },
+    {
+      "rank2007": "436",
+      "name": "SAMSUNG",
+      "region": "韩国",
+      "operating_receipt_in_million_dollars": "16,778.80",
+      "profit_in_million_dollars": "204.8",
+      "employees": "4,473"
+    },
+    {
+      "rank2007": "437",
+      "name": "KIMBERLY-CLARK",
+      "region": "美国",
+      "operating_receipt_in_million_dollars": "16,746.90",
+      "profit_in_million_dollars": "1,499.50",
+      "employees": "55,000"
+    },
+    {
+      "rank2007": "438",
+      "name": "SK NETWORKS",
+      "region": "韩国",
+      "operating_receipt_in_million_dollars": "16,733.90",
+      "profit_in_million_dollars": "494.9",
+      "employees": "2,559"
+    },
+    {
+      "rank2007": "439",
+      "name": "INBEV",
+      "region": "比利时",
+      "operating_receipt_in_million_dollars": "16,696.90",
+      "profit_in_million_dollars": "1,770.30",
+      "employees": "85,617"
+    },
+    {
+      "rank2007": "440",
+      "name": "ENERGIE BADEN-WURTTEMBERG",
+      "region": "德国",
+      "operating_receipt_in_million_dollars": "16,644.20",
+      "profit_in_million_dollars": "1,258.90",
+      "employees": "20,282"
+    },
+    {
+      "rank2007": "441",
+      "name": "GRUPO FERROVIAL",
+      "region": "西班牙",
+      "operating_receipt_in_million_dollars": "16,634.40",
+      "profit_in_million_dollars": "1,731.30",
+      "employees": "88,902"
+    },
+    {
+      "rank2007": "442",
+      "name": "CIE NATIONALE A PORTEFEUILLE",
+      "region": "比利时",
+      "operating_receipt_in_million_dollars": "16,615.40",
+      "profit_in_million_dollars": "1,144.70",
+      "employees": "16,038"
+    },
+    {
+      "rank2007": "443",
+      "name": "PETRO-CANADA",
+      "region": "加拿大",
+      "operating_receipt_in_million_dollars": "16,602.00",
+      "profit_in_million_dollars": "1,533.60",
+      "employees": "5,165"
+    },
+    {
+      "rank2007": "444",
+      "name": "JAPAN POST",
+      "region": "日本",
+      "operating_receipt_in_million_dollars": "16,590.50",
+      "profit_in_million_dollars": "37.6",
+      "employees": "110,579"
+    },
+    {
+      "rank2007": "445",
+      "name": "BEARS STEARNS",
+      "region": "美国",
+      "operating_receipt_in_million_dollars": "16,551.40",
+      "profit_in_million_dollars": "2,053.90",
+      "employees": "13,566"
+    },
+    {
+      "rank2007": "446",
+      "name": "CIGNA",
+      "region": "美国",
+      "operating_receipt_in_million_dollars": "16,547.00",
+      "profit_in_million_dollars": "1,155.00",
+      "employees": "27,100"
+    },
+    {
+      "rank2007": "447",
+      "name": "QUANTA COMPUTER",
+      "region": "中国台湾",
+      "operating_receipt_in_million_dollars": "16,531.30",
+      "profit_in_million_dollars": "397.2",
+      "employees": "34,077"
+    },
+    {
+      "rank2007": "448",
+      "name": "DOMINION RESOURCES",
+      "region": "美国",
+      "operating_receipt_in_million_dollars": "16,524.00",
+      "profit_in_million_dollars": "1,380.00",
+      "employees": "17,500"
+    },
+    {
+      "rank2007": "449",
+      "name": "BRITISH AIRWAYS",
+      "region": "英国",
+      "operating_receipt_in_million_dollars": "16,501.80",
+      "profit_in_million_dollars": "548.5",
+      "employees": "48,070"
+    },
+    {
+      "rank2007": "450",
+      "name": "BCE",
+      "region": "加拿大",
+      "operating_receipt_in_million_dollars": "16,483.00",
+      "profit_in_million_dollars": "1,768.90",
+      "employees": "54,434 "
+    },
+    {
+      "rank2007": "451",
+      "name": "MIGROS",
+      "region": "瑞士",
+      "operating_receipt_in_million_dollars": "16,466.40",
+      "profit_in_million_dollars": "601.4",
+      "employees": "79,194"
+    },
+    {
+      "rank2007": "452",
+      "name": "PACCAR",
+      "region": "美国",
+      "operating_receipt_in_million_dollars": "16,454.10",
+      "profit_in_million_dollars": "1,496.00",
+      "employees": "21,000"
+    },
+    {
+      "rank2007": "453",
+      "name": "ELETROLUX",
+      "region": "瑞典",
+      "operating_receipt_in_million_dollars": "16,382.10",
+      "profit_in_million_dollars": "521.5",
+      "employees": "55,471"
+    },
+    {
+      "rank2007": "454",
+      "name": "FINMECCANICA",
+      "region": "意大利",
+      "operating_receipt_in_million_dollars": "16,348.10",
+      "profit_in_million_dollars": "1,239.60",
+      "employees": "58,059"
+    },
+    {
+      "rank2007": "455",
+      "name": "KOBE STEEL",
+      "region": "日本",
+      "operating_receipt_in_million_dollars": "16,332.20",
+      "profit_in_million_dollars": "937.6",
+      "employees": "31,828"
+    },
+    {
+      "rank2007": "456",
+      "name": "FORMOSA PETROCHEMICAL",
+      "region": "中国台湾",
+      "operating_receipt_in_million_dollars": "16,281.80",
+      "profit_in_million_dollars": "1,367.40",
+      "employees": "3,854"
+    },
+    {
+      "rank2007": "457",
+      "name": "JARDINE MATHESON",
+      "region": "中国香港",
+      "operating_receipt_in_million_dollars": "16,281.00",
+      "profit_in_million_dollars": "1,348.00",
+      "employees": "240,000"
+    },
+    {
+      "rank2007": "458",
+      "name": "MARKS & SPENCER",
+      "region": "英国",
+      "operating_receipt_in_million_dollars": "16,267.50",
+      "profit_in_million_dollars": "1,248.10",
+      "employees": "52,670"
+    },
+    {
+      "rank2007": "459",
+      "name": "LENNAR",
+      "region": "美国",
+      "operating_receipt_in_million_dollars": "16,266.70",
+      "profit_in_million_dollars": "593.9",
+      "employees": "12,605"
+    },
+    {
+      "rank2007": "460",
+      "name": "SOMPO JAPAN INSURANCE",
+      "region": "日本",
+      "operating_receipt_in_million_dollars": "16,257.90",
+      "profit_in_million_dollars": "529.6",
+      "employees": "16,615"
+    },
+    {
+      "rank2007": "461",
+      "name": "CREDIT INDUSTRIEL & COMMERCIAL",
+      "region": "法国",
+      "operating_receipt_in_million_dollars": "16,254.00",
+      "profit_in_million_dollars": "1,598.40",
+      "employees": "23,012"
+    },
+    {
+      "rank2007": "462",
+      "name": "KOMATSU",
+      "region": "日本",
+      "operating_receipt_in_million_dollars": "16,187.30",
+      "profit_in_million_dollars": "1,407.60",
+      "employees": "33,863"
+    },
+    {
+      "rank2007": "463",
+      "name": "KAJIMA",
+      "region": "日本",
+      "operating_receipt_in_million_dollars": "16,171.30",
+      "profit_in_million_dollars": "354.3",
+      "employees": "14,837"
+    },
+    {
+      "rank2007": "464",
+      "name": "WESTPAC BANKING",
+      "region": "澳大利亚",
+      "operating_receipt_in_million_dollars": "16,170.50",
+      "profit_in_million_dollars": "2,292.10",
+      "employees": "27,224"
+    },
+    {
+      "rank2007": "465",
+      "name": "ROYAL MAIL HOLDINGS",
+      "region": "英国",
+      "operating_receipt_in_million_dollars": "16,153.70",
+      "profit_in_million_dollars": "704.6",
+      "employees": "208,866"
+    },
+    {
+      "rank2007": "466",
+      "name": "KINGFISHER",
+      "region": "英国",
+      "operating_receipt_in_million_dollars": "16,100.20",
+      "profit_in_million_dollars": "625",
+      "employees": "69,929"
+    },
+    {
+      "rank2007": "467",
+      "name": "TOYOTA INDUSTRIES",
+      "region": "日本",
+      "operating_receipt_in_million_dollars": "16,059.50",
+      "profit_in_million_dollars": "508.4",
+      "employees": "36,096"
+    },
+    {
+      "rank2007": "468",
+      "name": "CARSO GLOBAL TELECOM",
+      "region": "墨西哥",
+      "operating_receipt_in_million_dollars": "16,054.40",
+      "profit_in_million_dollars": "1,149.20",
+      "employees": "67,500"
+    },
+    {
+      "rank2007": "469",
+      "name": "CHINA NATIONAL OFFSHORE OIL",
+      "region": "中国",
+      "operating_receipt_in_million_dollars": "16,038.90",
+      "profit_in_million_dollars": "3,007.10",
+      "employees": "44,000"
+    },
+    {
+      "rank2007": "470",
+      "name": "TAISEI",
+      "region": "日本",
+      "operating_receipt_in_million_dollars": "16,016.20",
+      "profit_in_million_dollars": "224.2",
+      "employees": "16,052"
+    },
+    {
+      "rank2007": "471",
+      "name": "HENKEL",
+      "region": "德国",
+      "operating_receipt_in_million_dollars": "15,984.30",
+      "profit_in_million_dollars": "1,072.70",
+      "employees": "51,716"
+    },
+    {
+      "rank2007": "472",
+      "name": "NESTE OIL",
+      "region": "芬兰",
+      "operating_receipt_in_million_dollars": "15,976.70",
+      "profit_in_million_dollars": "791.7",
+      "employees": "4,545"
+    },
+    {
+      "rank2007": "473",
+      "name": "DUKE ENERGY",
+      "region": "美国",
+      "operating_receipt_in_million_dollars": "15,967.00",
+      "profit_in_million_dollars": "1,863.00",
+      "employees": "25,600"
+    },
+    {
+      "rank2007": "474",
+      "name": "NIPPON EXPRESS",
+      "region": "日本",
+      "operating_receipt_in_million_dollars": "15,955.80",
+      "profit_in_million_dollars": "283.9",
+      "employees": "67,773"
+    },
+    {
+      "rank2007": "475",
+      "name": "GAP",
+      "region": "美国",
+      "operating_receipt_in_million_dollars": "15,943.00",
+      "profit_in_million_dollars": "778",
+      "employees": "154,000"
+    },
+    {
+      "rank2007": "476",
+      "name": "BANK OF MONTREAL",
+      "region": "加拿大",
+      "operating_receipt_in_million_dollars": "15,935.90",
+      "profit_in_million_dollars": "2,337.80",
+      "employees": "34,942"
+    },
+    {
+      "rank2007": "477",
+      "name": "XEROX",
+      "region": "美国",
+      "operating_receipt_in_million_dollars": "15,895.00",
+      "profit_in_million_dollars": "1,210.00",
+      "employees": "53,700"
+    },
+    {
+      "rank2007": "478",
+      "name": "ANHEUSER-BUSCH",
+      "region": "美国",
+      "operating_receipt_in_million_dollars": "15,717.10",
+      "profit_in_million_dollars": "1,965.20",
+      "employees": "30,183"
+    },
+    {
+      "rank2007": "479",
+      "name": "UNITED STATES STEEL",
+      "region": "美国",
+      "operating_receipt_in_million_dollars": "15,715.00",
+      "profit_in_million_dollars": "1,374.00",
+      "employees": "44,000"
+    },
+    {
+      "rank2007": "480",
+      "name": "FPL GROUP",
+      "region": "美国",
+      "operating_receipt_in_million_dollars": "15,710.00",
+      "profit_in_million_dollars": "1,281.00",
+      "employees": "13,160"
+    },
+    {
+      "rank2007": "481",
+      "name": "ELI LILLY",
+      "region": "美国",
+      "operating_receipt_in_million_dollars": "15,691.00",
+      "profit_in_million_dollars": "2,662.70",
+      "employees": "41,500"
+    },
+    {
+      "rank2007": "482",
+      "name": "ALTADIS",
+      "region": "西班牙",
+      "operating_receipt_in_million_dollars": "15,687.40",
+      "profit_in_million_dollars": "567.9",
+      "employees": "28,103"
+    },
+    {
+      "rank2007": "483",
+      "name": "SODEXHO ALLIANCE",
+      "region": "法国",
+      "operating_receipt_in_million_dollars": "15,683.00",
+      "profit_in_million_dollars": "395.8",
+      "employees": "332,096"
+    },
+    {
+      "rank2007": "484",
+      "name": "EXELON",
+      "region": "美国",
+      "operating_receipt_in_million_dollars": "15,654.00",
+      "profit_in_million_dollars": "1,592.00",
+      "employees": "17,200"
+    },
+    {
+      "rank2007": "485",
+      "name": "LINDE GROUP",
+      "region": "德国",
+      "operating_receipt_in_million_dollars": "15,606.60",
+      "profit_in_million_dollars": "2,306.00",
+      "employees": "55,445"
+    },
+    {
+      "rank2007": "486",
+      "name": "UNION PACIFIC",
+      "region": "美国",
+      "operating_receipt_in_million_dollars": "15,578.00",
+      "profit_in_million_dollars": "1,606.00",
+      "employees": "50,739"
+    },
+    {
+      "rank2007": "487",
+      "name": "KOHL'S",
+      "region": "美国",
+      "operating_receipt_in_million_dollars": "15,544.20",
+      "profit_in_million_dollars": "1,108.70",
+      "employees": "86,500"
+    },
+    {
+      "rank2007": "488",
+      "name": "CHINA OCEAN SHIPPING",
+      "region": "中国",
+      "operating_receipt_in_million_dollars": "15,413.50",
+      "profit_in_million_dollars": "1,092.90",
+      "employees": "79,161"
+    },
+    {
+      "rank2007": "489",
+      "name": "SUMITOMO CHEMICAL",
+      "region": "日本",
+      "operating_receipt_in_million_dollars": "15,304.00",
+      "profit_in_million_dollars": "802.5",
+      "employees": "24,691"
+    },
+    {
+      "rank2007": "490",
+      "name": "BANK OF IRELAND GROUP",
+      "region": "爱尔兰",
+      "operating_receipt_in_million_dollars": "15,296.80",
+      "profit_in_million_dollars": "2,117.10",
+      "employees": "15,952"
+    },
+    {
+      "rank2007": "491",
+      "name": "S-OIL",
+      "region": "韩国",
+      "operating_receipt_in_million_dollars": "15,246.10",
+      "profit_in_million_dollars": "794.5",
+      "employees": "2,348"
+    },
+    {
+      "rank2007": "492",
+      "name": "CAPITAL ONE FINANCIAL",
+      "region": "美国",
+      "operating_receipt_in_million_dollars": "15,191.00",
+      "profit_in_million_dollars": "2,414.50",
+      "employees": "31,800"
+    },
+    {
+      "rank2007": "493",
+      "name": "HERAEUS HOLDING",
+      "region": "德国",
+      "operating_receipt_in_million_dollars": "15,155.60",
+      "profit_in_million_dollars": "212.5",
+      "employees": "11,275"
+    },
+    {
+      "rank2007": "494",
+      "name": "ROYAL KPN",
+      "region": "荷兰",
+      "operating_receipt_in_million_dollars": "15,127.30",
+      "profit_in_million_dollars": "1,986.10",
+      "employees": "25,976"
+    },
+    {
+      "rank2007": "495",
+      "name": "STATE BANK OF INDIA",
+      "region": "印度",
+      "operating_receipt_in_million_dollars": "15,119.40",
+      "profit_in_million_dollars": "1,407.30",
+      "employees": "185,388"
+    },
+    {
+      "rank2007": "496",
+      "name": "D.R. HORTON",
+      "region": "美国",
+      "operating_receipt_in_million_dollars": "15,051.30",
+      "profit_in_million_dollars": "1,233.30",
+      "employees": "8,722"
+    },
+    {
+      "rank2007": "497",
+      "name": "OFFICE DEPOT",
+      "region": "美国",
+      "operating_receipt_in_million_dollars": "15,010.80",
+      "profit_in_million_dollars": "516.1",
+      "employees": "39,000"
+    },
+    {
+      "rank2007": "498",
+      "name": "BURLINGTON NORTHERN SANTA FE",
+      "region": "美国",
+      "operating_receipt_in_million_dollars": "14,985.00",
+      "profit_in_million_dollars": "1,887.00",
+      "employees": "41,000"
+    },
+    {
+      "rank2007": "499",
+      "name": "NIKE",
+      "region": "美国",
+      "operating_receipt_in_million_dollars": "14,954.90",
+      "profit_in_million_dollars": "1,392.00",
+      "employees": "28,000"
+    },
+    {
+      "rank2007": "500",
+      "name": "BOMBARDIER",
+      "region": "加拿大",
+      "operating_receipt_in_million_dollars": "14,880.00",
+      "profit_in_million_dollars": "268",
+      "employees": "56,000 "
+    }
+  ]
+}

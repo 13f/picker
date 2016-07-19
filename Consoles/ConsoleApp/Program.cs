@@ -36,31 +36,88 @@ namespace ConsoleApp {
       // 2016-7-2
       //Airport911cha.Run( @"F:\Data\911cha.com\airport\data.json" ); // ok
 
+      #region Fortune Global 500
+
       // Global-2015 // ok @2015-12-17
       //string tableKey = "<table id=\"yytable\" class=\"rankingtable\"";
-      //string xmlFile = @"E:\github\picker\data\organization\global500-2015.xml";
-      //string jsonFile = @"E:\github\picker\data\organization\global500-2015.json";
-      //Global500.PickCatalog( xmlFile, tableKey );
+      //string xmlFile = @"E:\github\picker\data\organization\fortune\global500-2015.xml";
+      //string jsonFile = @"E:\github\picker\data\organization\fortune\global500-2015.json";
+      //Fortune.PickCatalog( xmlFile, tableKey );
       //Console.WriteLine( xmlFile + " -> " + jsonFile );
       //XElementHelper.XmlToJson( xmlFile, jsonFile, true );
       //Console.WriteLine( "Over..." );
 
       // Global-2014 // ok @2015-12-17
-      //string source = @"E:\github\picker\data\organization\global500-2014.xml";
-      //string target = @"E:\github\picker\data\organization\global500-2014.json";
+      //string source = @"E:\github\picker\data\organization\fortune\global500-2014.xml";
+      //string target = @"E:\github\picker\data\organization\fortune\global500-2014.json";
       //Console.WriteLine( source + " -> " + target );
       //XElementHelper.XmlToJson( source, target, true );
-      //Console.WriteLine( "Over..." );
-
       //// Global-2013 // ok @2016-1-23
       //string tableKey = "<table class=\"rankingtable\" id=\"yytable\"";
-      //string file = @"E:\github\picker\data\organization\global500-2013";
-      //Global500.PickToJson( "http://www.fortunechina.com/fortune500/c/2013-07/08/2013G500.htm", tableKey, "rank2013", "rank2012", file );
+      //string file = @"E:\github\picker\data\organization\fortune\global500-2013";
+      //Fortune.PickToJson( "http://www.fortunechina.com/fortune500/c/2013-07/08/2013G500.htm", tableKey, "rank2013", "rank2012", file );
 
-      // Global-2012 // 
+      // @2016-7-18
+      // Global-2012 // ok
       //string tableKey = "<table class=\"rankingtable\" cellspacing=";
-      //string file = @"E:\github\picker\data\organization\global500-2012";
-      //Global500.PickToJsonBefore2013( "http://www.fortunechina.com/fortune500/c/2012-07/09/content_106535.htm", tableKey, "rank2012", "rank2011", file );
+      //string file = @"E:\github\picker\data\organization\fortune\global500-2012";
+      //Fortune.PickToJsonBefore2013( "http://www.fortunechina.com/fortune500/c/2012-07/09/content_106535.htm", tableKey, "rank2012", "rank2011", file );
+      // global-2011 // ok
+      //string tableKey = "<table class=\"rankingtable\" cellspacing=";
+      //string file = @"E:\github\picker\data\organization\fortune\global500-2011";
+      //Fortune.PickToJsonBefore2013( "http://www.fortunechina.com/fortune500/c/2011-07/07/content_62335.htm", tableKey, "rank2011", "rank2010", file, 2 );
+      // global 2010 // ok
+      //string tableKey = "<table class=\"rankingtable\" cellspacing=";
+      //string file = @"E:\github\picker\data\organization\fortune\global500-2010";
+      //Fortune.PickToJsonBefore2013( "http://www.fortunechina.com/fortune500/c/2010-07/09/content_38195.htm", tableKey, "rank2010", "rank2009", file, 2 );
+      // global 2009 // ok
+      //string tableKey = "<table cellspacing=";
+      //string file = @"E:\github\picker\data\organization\fortune\global500-2009";
+      //Fortune.PickToJsonBefore2010( "http://www.fortunechina.com/fortune500/c/2009-07/08/content_21391.htm", tableKey, "rank2009", "rank2008", file, 10, 1 );
+      // global 2008 // ok
+      //string tableKey = "<table border=";
+      //string file = @"E:\github\picker\data\organization\fortune\global500-2008";
+      //Fortune.PickToJson2008( "http://www.fortunechina.com/fortune500/c/2008-10/15/content_12413.htm", tableKey, "rank2008", "rank2007", file, 10, 1 );
+      // global 2007 // ok
+      //string tableKey = "<table class=\"rankingtable\"";
+      //string file = @"E:\github\picker\data\organization\fortune\global500-2007";
+      //Fortune.PickToJson2007( "http://www.fortunechina.com/fortune500/c/2007-10/15/content_9517.htm", tableKey, "rank2007", file, 10 );
+
+      #endregion Fortune Global 500
+
+      #region Fortune China 500
+
+      // @2016-7-18
+      //Fortune.PickToJson( "http://www.fortunechina.com/fortune500/c/2016-07/13/content_266415.htm",
+      //  "<table id=\"yytable\"",
+      //  "rank2016", "rank2015",
+      //  @"E:\github\picker\data\organization\fortune\china500-2016" ); // ok
+      //Fortune.PickToJson( "http://www.fortunechina.com/fortune500/c/2015-07/08/content_242835.htm",
+      //  "<table class=\"rankingtable\"",
+      //  "rank2015", "rank2014",
+      //  @"E:\github\picker\data\organization\fortune\china500-2015" ); // ok
+      //Fortune.PickToJson( "http://www.fortunechina.com/fortune500/c/2014-07/14/content_212975.htm",
+      //  "<table class=\"rankingtable\"",
+      //  "rank2014", "rank2013",
+      //  @"E:\github\picker\data\organization\fortune\china500-2014" ); // ok
+      //Fortune.PickToJson( "http://www.fortunechina.com/fortune500/c/2013-07/16/2013C500.htm",
+      //  "<table class=\"rankingtable\"",
+      //  "rank2013", "rank2012",
+      //  @"E:\github\picker\data\organization\fortune\china500-2013" ); // ok
+      //Fortune.PickToJsonBefore2013( "http://www.fortunechina.com/fortune500/c/2012-07/13/content_107377.htm",
+      //  "<table class=\"rankingtable\"",
+      //  "rank2012", "rank2011",
+      //  @"E:\github\picker\data\organization\fortune\china500-2012" ); // ok
+      //Fortune.PickToJsonBefore2013( "http://www.fortunechina.com/fortune500/c/2011-07/13/content_62684.htm",
+      //  "<table class=\"rankingtable\"",
+      //  "rank2011", "rank2010",
+      //  @"E:\github\picker\data\organization\fortune\china500-2011", 2 ); // ok
+      //Fortune.PickToJson2010_China( "http://www.fortunechina.com/fortune500/c/2010-07/13/content_38379.htm",
+      //  "<table style=",
+      //  "rank2010",
+      //  @"E:\github\picker\data\organization\fortune\china500-2010" ); // ok
+
+      #endregion Fortune China 500
 
       // emoji // ok @2016-4-27
       //string targetDir = @"E:\github\picker\data\emotion\";

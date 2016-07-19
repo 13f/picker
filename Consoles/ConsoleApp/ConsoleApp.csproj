@@ -59,7 +59,7 @@
     <Compile Include="Projects\EmojiCheatSheet.cs" />
     <Compile Include="Projects\Food911cha.cs" />
     <Compile Include="Projects\FoodSecurityStandard.cs" />
-    <Compile Include="Projects\Global500.cs" />
+    <Compile Include="Projects\Fortune.cs" />
     <Compile Include="Projects\PeopleComCN.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

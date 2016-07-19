@@ -1,0 +1,4055 @@
+﻿{
+  "title": "2012年中国世界500强排行榜",
+  "url": "http://www.fortunechina.com/fortune500/c/2012-07/13/content_107377.htm",
+  "tags": [
+    {
+      "content": "2012; fortune; china; 500",
+      "language": "us"
+    },
+    {
+      "content": "2012年; 财富; 中国; 500强",
+      "language": "zh-hans"
+    }
+  ],
+  "published_at": "2012-7-13",
+  "config": [
+    {
+      "name": "rank2012",
+      "title": "rank2012"
+    },
+    {
+      "name": "rank2011",
+      "title": "rank2011"
+    },
+    {
+      "name": "name",
+      "title": "名称"
+    },
+    {
+      "name": "operating_receipt_in_million_rmb",
+      "title": "营业收入（百万人民币）"
+    },
+    {
+      "name": "net_profit_in_million_rmb",
+      "title": "净利润（百万人民币）"
+    },
+    {
+      "name": "asset_in_million_rmb",
+      "title": "资产（百万人民币）"
+    },
+    {
+      "name": "shareholders_equity_in_million_rmb",
+      "title": "股东权益（百万人民币）"
+    },
+    {
+      "name": "employees",
+      "title": "雇员人数"
+    },
+    {
+      "name": "region",
+      "title": "区域"
+    }
+  ],
+  "data": [
+    {
+      "url": "http://www.fortunechina.com/china500/1/2012",
+      "rank2012": "1",
+      "rank2011": "1",
+      "name": "中国石油化工股份有限公司",
+      "operating_receipt_in_million_rmb": "2505683",
+      "net_profit_in_million_rmb": "71697"
+    },
+    {
+      "url": "http://www.fortunechina.com/china500/2/2012",
+      "rank2012": "2",
+      "rank2011": "2",
+      "name": "中国石油天然气股份有限公司",
+      "operating_receipt_in_million_rmb": "2003843",
+      "net_profit_in_million_rmb": "132984"
+    },
+    {
+      "url": "http://www.fortunechina.com/china500/3/2012",
+      "rank2012": "3",
+      "rank2011": "3",
+      "name": "中国移动有限公司",
+      "operating_receipt_in_million_rmb": "555038",
+      "net_profit_in_million_rmb": "125870"
+    },
+    {
+      "url": "http://www.fortunechina.com/china500/9/2012",
+      "rank2012": "4",
+      "rank2011": "8",
+      "name": "中国建筑股份有限公司",
+      "operating_receipt_in_million_rmb": "482837",
+      "net_profit_in_million_rmb": "13537"
+    },
+    {
+      "url": "http://www.fortunechina.com/china500/7/2012",
+      "rank2012": "5",
+      "rank2011": "7",
+      "name": "中国工商银行股份有限公司",
+      "operating_receipt_in_million_rmb": "475214",
+      "net_profit_in_million_rmb": "208265"
+    },
+    {
+      "url": "http://www.fortunechina.com/china500/5/2012",
+      "rank2012": "6",
+      "rank2011": "4",
+      "name": "中国中铁股份有限公司",
+      "operating_receipt_in_million_rmb": "460720",
+      "net_profit_in_million_rmb": "6690"
+    },
+    {
+      "url": "http://www.fortunechina.com/china500/4/2012",
+      "rank2012": "7",
+      "rank2011": "5",
+      "name": "中国铁建股份有限公司",
+      "operating_receipt_in_million_rmb": "457366",
+      "net_profit_in_million_rmb": "7854"
+    },
+    {
+      "url": "http://www.fortunechina.com/china500/17/2012",
+      "rank2012": "8",
+      "rank2011": "10",
+      "name": "上海汽车集团股份有限公司",
+      "operating_receipt_in_million_rmb": "434804",
+      "net_profit_in_million_rmb": "20222"
+    },
+    {
+      "url": "http://www.fortunechina.com/china500/8/2012",
+      "rank2012": "9",
+      "rank2011": "9",
+      "name": "中国建设银行股份有限公司",
+      "operating_receipt_in_million_rmb": "397090",
+      "net_profit_in_million_rmb": "169258"
+    },
+    {
+      "url": "http://www.fortunechina.com/china500/6/2012",
+      "rank2012": "10",
+      "rank2011": "6",
+      "name": "中国人寿保险股份有限公司",
+      "operating_receipt_in_million_rmb": "385388",
+      "net_profit_in_million_rmb": "18331"
+    },
+    {
+      "url": "http://www.fortunechina.com/china500/501/2012",
+      "rank2012": "11",
+      "rank2011": "11",
+      "name": "中国农业银行股份有限公司",
+      "operating_receipt_in_million_rmb": "377731",
+      "net_profit_in_million_rmb": "121927"
+    },
+    {
+      "url": "http://www.fortunechina.com/china500/10/2012",
+      "rank2012": "12",
+      "rank2011": "12",
+      "name": "中国银行股份有限公司",
+      "operating_receipt_in_million_rmb": "328166",
+      "net_profit_in_million_rmb": "124182"
+    },
+    {
+      "url": "http://www.fortunechina.com/china500/11/2012",
+      "rank2012": "13",
+      "rank2011": "13",
+      "name": "中国交通建设股份有限公司",
+      "operating_receipt_in_million_rmb": "295370",
+      "net_profit_in_million_rmb": "11601"
+    },
+    {
+      "url": "http://www.fortunechina.com/china500/16/2012",
+      "rank2012": "14",
+      "rank2011": "17",
+      "name": "中国平安保险(集团)股份有限公司",
+      "operating_receipt_in_million_rmb": "248915",
+      "net_profit_in_million_rmb": "19475"
+    },
+    {
+      "url": "http://www.fortunechina.com/china500/12/2012",
+      "rank2012": "15",
+      "rank2011": "14",
+      "name": "中国电信股份有限公司",
+      "operating_receipt_in_million_rmb": "245041",
+      "net_profit_in_million_rmb": "16502"
+    },
+    {
+      "url": "http://www.fortunechina.com/china500/13/2012",
+      "rank2012": "16",
+      "rank2011": "15",
+      "name": "中国冶金科工股份有限公司",
+      "operating_receipt_in_million_rmb": "230178",
+      "net_profit_in_million_rmb": "4243"
+    },
+    {
+      "url": "http://www.fortunechina.com/china500/15/2012",
+      "rank2012": "17",
+      "rank2011": "16",
+      "name": "宝山钢铁股份有限公司",
+      "operating_receipt_in_million_rmb": "222857",
+      "net_profit_in_million_rmb": "7362"
+    },
+    {
+      "url": "http://www.fortunechina.com/china500/14/2012",
+      "rank2012": "18",
+      "rank2011": "19",
+      "name": "中国联合网络通信股份有限公司",
+      "operating_receipt_in_million_rmb": "215519",
+      "net_profit_in_million_rmb": "1412"
+    },
+    {
+      "url": "http://www.fortunechina.com/china500/18/2012",
+      "rank2012": "19",
+      "rank2011": "21",
+      "name": "中国神华能源股份有限公司",
+      "operating_receipt_in_million_rmb": "208197",
+      "net_profit_in_million_rmb": "44822"
+    },
+    {
+      "url": "http://www.fortunechina.com/china500/21/2012",
+      "rank2012": "20",
+      "rank2011": "18",
+      "name": "中国海洋石油有限公司",
+      "operating_receipt_in_million_rmb": "198630",
+      "net_profit_in_million_rmb": "70255"
+    },
+    {
+      "url": "http://www.fortunechina.com/china500/20/2012",
+      "rank2012": "21",
+      "rank2011": "22",
+      "name": "联想集团有限公司",
+      "operating_receipt_in_million_rmb": "186415",
+      "net_profit_in_million_rmb": "2980"
+    },
+    {
+      "url": "http://www.fortunechina.com/china500/23/2012",
+      "rank2012": "22",
+      "rank2011": "24",
+      "name": "五矿发展股份有限公司",
+      "operating_receipt_in_million_rmb": "162053",
+      "net_profit_in_million_rmb": "538"
+    },
+    {
+      "url": "http://www.fortunechina.com/china500/22/2012",
+      "rank2012": "23",
+      "rank2011": "23",
+      "name": "中国太平洋保险(集团)股份有限公司",
+      "operating_receipt_in_million_rmb": "157934",
+      "net_profit_in_million_rmb": "8313"
+    },
+    {
+      "url": "http://www.fortunechina.com/china500/29/2012",
+      "rank2012": "24",
+      "rank2011": "26",
+      "name": "中国铝业股份有限公司",
+      "operating_receipt_in_million_rmb": "145874",
+      "net_profit_in_million_rmb": "238"
+    },
+    {
+      "url": "http://www.fortunechina.com/china500/19/2012",
+      "rank2012": "25",
+      "rank2011": "20",
+      "name": "中国人民财产保险股份有限公司",
+      "operating_receipt_in_million_rmb": "137091",
+      "net_profit_in_million_rmb": "8027"
+    },
+    {
+      "url": "http://www.fortunechina.com/china500/27/2012",
+      "rank2012": "26",
+      "rank2011": "29",
+      "name": "华能国际电力股份有限公司",
+      "operating_receipt_in_million_rmb": "133421",
+      "net_profit_in_million_rmb": "1268"
+    },
+    {
+      "url": "http://www.fortunechina.com/china500/25/2012",
+      "rank2012": "27",
+      "rank2011": "27",
+      "name": "河北钢铁股份有限公司",
+      "operating_receipt_in_million_rmb": "133344",
+      "net_profit_in_million_rmb": "1383"
+    },
+    {
+      "url": "http://www.fortunechina.com/china500/24/2012",
+      "rank2012": "28",
+      "rank2011": "25",
+      "name": "东风汽车集团股份有限公司",
+      "operating_receipt_in_million_rmb": "132482",
+      "net_profit_in_million_rmb": "10481"
+    },
+    {
+      "url": "http://www.fortunechina.com/china500/26/2012",
+      "rank2012": "29",
+      "rank2011": "30",
+      "name": "交通银行股份有限公司",
+      "operating_receipt_in_million_rmb": "126956",
+      "net_profit_in_million_rmb": "50735"
+    },
+    {
+      "url": "http://www.fortunechina.com/china500/41/2012",
+      "rank2012": "30",
+      "rank2011": "38",
+      "name": "江西铜业股份有限公司",
+      "operating_receipt_in_million_rmb": "117641",
+      "net_profit_in_million_rmb": "6549"
+    },
+    {
+      "url": "http://www.fortunechina.com/china500/510/2012",
+      "rank2012": "31",
+      "rank2011": "214",
+      "name": "中国旺旺控股有限公司",
+      "operating_receipt_in_million_rmb": "117578",
+      "net_profit_in_million_rmb": "2643"
+    },
+    {
+      "url": "http://www.fortunechina.com/china500/547/2012",
+      "rank2012": "32",
+      "rank2011": null,
+      "name": "中国水利水电建设股份有限公司",
+      "operating_receipt_in_million_rmb": "113471",
+      "net_profit_in_million_rmb": "3619"
+    },
+    {
+      "url": "http://www.fortunechina.com/china500/548/2012",
+      "rank2012": "33",
+      "rank2011": null,
+      "name": "新华人寿保险股份有限公司",
+      "operating_receipt_in_million_rmb": "109209",
+      "net_profit_in_million_rmb": "2799"
+    },
+    {
+      "url": "http://www.fortunechina.com/china500/48/2012",
+      "rank2012": "34",
+      "rank2011": "48",
+      "name": "国药控股股份有限公司",
+      "operating_receipt_in_million_rmb": "102225",
+      "net_profit_in_million_rmb": "1561"
+    },
+    {
+      "url": "http://www.fortunechina.com/china500/38/2012",
+      "rank2012": "35",
+      "rank2011": "40",
+      "name": "武汉钢铁股份有限公司",
+      "operating_receipt_in_million_rmb": "101058",
+      "net_profit_in_million_rmb": "1084"
+    },
+    {
+      "url": "http://www.fortunechina.com/china500/43/2012",
+      "rank2012": "36",
+      "rank2011": "34",
+      "name": "中国国际航空股份有限公司",
+      "operating_receipt_in_million_rmb": "97139",
+      "net_profit_in_million_rmb": "7477"
+    },
+    {
+      "url": "http://www.fortunechina.com/china500/28/2012",
+      "rank2012": "37",
+      "rank2011": "32",
+      "name": "山西太钢不锈钢股份有限公司",
+      "operating_receipt_in_million_rmb": "96220",
+      "net_profit_in_million_rmb": "1805"
+    },
+    {
+      "url": "http://www.fortunechina.com/china500/42/2012",
+      "rank2012": "38",
+      "rank2011": "44",
+      "name": "招商银行股份有限公司",
+      "operating_receipt_in_million_rmb": "96157",
+      "net_profit_in_million_rmb": "36129"
+    },
+    {
+      "url": "http://www.fortunechina.com/china500/40/2012",
+      "rank2012": "39",
+      "rank2011": "37",
+      "name": "中国石化上海石油化工股份有限公司",
+      "operating_receipt_in_million_rmb": "95601",
+      "net_profit_in_million_rmb": "944"
+    },
+    {
+      "url": "http://www.fortunechina.com/china500/68/2012",
+      "rank2012": "40",
+      "rank2011": "28",
+      "name": "长城科技股份有限公司",
+      "operating_receipt_in_million_rmb": "95103",
+      "net_profit_in_million_rmb": "157"
+    },
+    {
+      "url": "http://www.fortunechina.com/china500/33/2012",
+      "rank2012": "41",
+      "rank2011": "41",
+      "name": "苏宁电器股份有限公司",
+      "operating_receipt_in_million_rmb": "93889",
+      "net_profit_in_million_rmb": "4821"
+    },
+    {
+      "url": "http://www.fortunechina.com/china500/47/2012",
+      "rank2012": "42",
+      "rank2011": "43",
+      "name": "广东美的电器股份有限公司",
+      "operating_receipt_in_million_rmb": "93108",
+      "net_profit_in_million_rmb": "3699"
+    },
+    {
+      "url": "http://www.fortunechina.com/china500/35/2012",
+      "rank2012": "43",
+      "rank2011": "36",
+      "name": "中国南方航空股份有限公司",
+      "operating_receipt_in_million_rmb": "92707",
+      "net_profit_in_million_rmb": "5075"
+    },
+    {
+      "url": "http://www.fortunechina.com/china500/30/2012",
+      "rank2012": "44",
+      "rank2011": "31",
+      "name": "鞍钢股份有限公司",
+      "operating_receipt_in_million_rmb": "90423",
+      "net_profit_in_million_rmb": "-2146"
+    },
+    {
+      "url": "http://www.fortunechina.com/china500/61/2012",
+      "rank2012": "45",
+      "rank2011": "54",
+      "name": "中国北车股份有限公司",
+      "operating_receipt_in_million_rmb": "89353",
+      "net_profit_in_million_rmb": "2985"
+    },
+    {
+      "url": "http://www.fortunechina.com/china500/31/2012",
+      "rank2012": "46",
+      "rank2011": "39",
+      "name": "华润创业有限公司",
+      "operating_receipt_in_million_rmb": "89310",
+      "net_profit_in_million_rmb": "2296"
+    },
+    {
+      "url": "http://www.fortunechina.com/china500/37/2012",
+      "rank2012": "47",
+      "rank2011": "45",
+      "name": "中国中煤能源股份有限公司",
+      "operating_receipt_in_million_rmb": "88872",
+      "net_profit_in_million_rmb": "9504"
+    },
+    {
+      "url": "http://www.fortunechina.com/china500/39/2012",
+      "rank2012": "48",
+      "rank2011": "50",
+      "name": "马鞍山钢铁股份有限公司",
+      "operating_receipt_in_million_rmb": "86842",
+      "net_profit_in_million_rmb": "70"
+    },
+    {
+      "url": "http://www.fortunechina.com/china500/32/2012",
+      "rank2012": "49",
+      "rank2011": "47",
+      "name": "中兴通讯股份有限公司",
+      "operating_receipt_in_million_rmb": "86254",
+      "net_profit_in_million_rmb": "2060"
+    },
+    {
+      "url": "http://www.fortunechina.com/china500/63/2012",
+      "rank2012": "50",
+      "rank2011": "42",
+      "name": "中国东方航空股份有限公司",
+      "operating_receipt_in_million_rmb": "83975",
+      "net_profit_in_million_rmb": "4887"
+    },
+    {
+      "url": "http://www.fortunechina.com/china500/54/2012",
+      "rank2012": "51",
+      "rank2011": "56",
+      "name": "珠海格力电器股份有限公司",
+      "operating_receipt_in_million_rmb": "83517",
+      "net_profit_in_million_rmb": "5237"
+    },
+    {
+      "url": "http://www.fortunechina.com/china500/62/2012",
+      "rank2012": "52",
+      "rank2011": "46",
+      "name": "上海建工集团股份有限公司",
+      "operating_receipt_in_million_rmb": "82857",
+      "net_profit_in_million_rmb": "1357"
+    },
+    {
+      "url": "http://www.fortunechina.com/china500/55/2012",
+      "rank2012": "53",
+      "rank2011": "63",
+      "name": "中国民生银行股份有限公司",
+      "operating_receipt_in_million_rmb": "82368",
+      "net_profit_in_million_rmb": "27920"
+    },
+    {
+      "url": "http://www.fortunechina.com/china500/59/2012",
+      "rank2012": "54",
+      "rank2011": "55",
+      "name": "中信泰富有限公司",
+      "operating_receipt_in_million_rmb": "81750",
+      "net_profit_in_million_rmb": "7485"
+    },
+    {
+      "url": "http://www.fortunechina.com/china500/49/2012",
+      "rank2012": "55",
+      "rank2011": "51",
+      "name": "中国南车股份有限公司",
+      "operating_receipt_in_million_rmb": "80711",
+      "net_profit_in_million_rmb": "3864"
+    },
+    {
+      "url": "http://www.fortunechina.com/china500/50/2012",
+      "rank2012": "56",
+      "rank2011": "61",
+      "name": "上海物资贸易股份有限公司",
+      "operating_receipt_in_million_rmb": "80572",
+      "net_profit_in_million_rmb": "106"
+    },
+    {
+      "url": "http://www.fortunechina.com/china500/60/2012",
+      "rank2012": "57",
+      "rank2011": "49",
+      "name": "厦门建发股份有限公司",
+      "operating_receipt_in_million_rmb": "80254",
+      "net_profit_in_million_rmb": "2250"
+    },
+    {
+      "url": "http://www.fortunechina.com/china500/75/2012",
+      "rank2012": "58",
+      "rank2011": "66",
+      "name": "中国建材股份有限公司",
+      "operating_receipt_in_million_rmb": "80226",
+      "net_profit_in_million_rmb": "8015"
+    },
+    {
+      "url": "http://www.fortunechina.com/china500/57/2012",
+      "rank2012": "59",
+      "rank2011": "62",
+      "name": "中信银行股份有限公司",
+      "operating_receipt_in_million_rmb": "76948",
+      "net_profit_in_million_rmb": "30819"
+    },
+    {
+      "url": "http://www.fortunechina.com/china500/118/2012",
+      "rank2012": "60",
+      "rank2011": "33",
+      "name": "中国长城计算机深圳股份有限公司",
+      "operating_receipt_in_million_rmb": "76468",
+      "net_profit_in_million_rmb": "101"
+    },
+    {
+      "url": "http://www.fortunechina.com/china500/56/2012",
+      "rank2012": "61",
+      "rank2011": "58",
+      "name": "湖南华菱钢铁股份有限公司",
+      "operating_receipt_in_million_rmb": "73859",
+      "net_profit_in_million_rmb": "70"
+    },
+    {
+      "url": "http://www.fortunechina.com/china500/78/2012",
+      "rank2012": "62",
+      "rank2011": "59",
+      "name": "青岛海尔股份有限公司",
+      "operating_receipt_in_million_rmb": "73663",
+      "net_profit_in_million_rmb": "2690"
+    },
+    {
+      "url": "http://www.fortunechina.com/china500/46/2012",
+      "rank2012": "63",
+      "rank2011": "57",
+      "name": "大唐国际发电股份有限公司",
+      "operating_receipt_in_million_rmb": "72382",
+      "net_profit_in_million_rmb": "1910"
+    },
+    {
+      "url": "http://www.fortunechina.com/china500/45/2012",
+      "rank2012": "64",
+      "rank2011": "71",
+      "name": "万科企业股份有限公司",
+      "operating_receipt_in_million_rmb": "71783",
+      "net_profit_in_million_rmb": "9625"
+    },
+    {
+      "url": "http://www.fortunechina.com/china500/289/2012",
+      "rank2012": "65",
+      "rank2011": "342",
+      "name": "新希望六和股份有限公司",
+      "operating_receipt_in_million_rmb": "71640",
+      "net_profit_in_million_rmb": "2643"
+    },
+    {
+      "url": "http://www.fortunechina.com/china500/82/2012",
+      "rank2012": "66",
+      "rank2011": "69",
+      "name": "铜陵有色金属集团股份有限公司",
+      "operating_receipt_in_million_rmb": "70741",
+      "net_profit_in_million_rmb": "1432"
+    },
+    {
+      "url": "http://www.fortunechina.com/china500/124/2012",
+      "rank2012": "67",
+      "rank2011": "97",
+      "name": "山煤国际能源集团股份有限公司",
+      "operating_receipt_in_million_rmb": "69761",
+      "net_profit_in_million_rmb": "1116"
+    },
+    {
+      "url": "http://www.fortunechina.com/china500/549/2012",
+      "rank2012": "68",
+      "rank2011": null,
+      "name": "冠捷科技有限公司",
+      "operating_receipt_in_million_rmb": "69675",
+      "net_profit_in_million_rmb": "759"
+    },
+    {
+      "url": "http://www.fortunechina.com/china500/36/2012",
+      "rank2012": "69",
+      "rank2011": "35",
+      "name": "中国远洋控股股份有限公司",
+      "operating_receipt_in_million_rmb": "68908",
+      "net_profit_in_million_rmb": "-10449"
+    },
+    {
+      "url": "http://www.fortunechina.com/china500/34/2012",
+      "rank2012": "70",
+      "rank2011": "53",
+      "name": "上海电气集团股份有限公司",
+      "operating_receipt_in_million_rmb": "68302",
+      "net_profit_in_million_rmb": "3310"
+    },
+    {
+      "url": "http://www.fortunechina.com/china500/69/2012",
+      "rank2012": "71",
+      "rank2011": "72",
+      "name": "上海浦东发展银行股份有限公司",
+      "operating_receipt_in_million_rmb": "67918",
+      "net_profit_in_million_rmb": "27286"
+    },
+    {
+      "url": "http://www.fortunechina.com/china500/67/2012",
+      "rank2012": "72",
+      "rank2011": "74",
+      "name": "中国粮油控股有限公司",
+      "operating_receipt_in_million_rmb": "66908",
+      "net_profit_in_million_rmb": "1920"
+    },
+    {
+      "url": "http://www.fortunechina.com/china500/128/2012",
+      "rank2012": "73",
+      "rank2011": "68",
+      "name": "中国国际海运集装箱(集团)股份有限公司",
+      "operating_receipt_in_million_rmb": "64125",
+      "net_profit_in_million_rmb": "3691"
+    },
+    {
+      "url": "http://www.fortunechina.com/china500/53/2012",
+      "rank2012": "74",
+      "rank2011": "70",
+      "name": "国美电器控股有限公司",
+      "operating_receipt_in_million_rmb": "62917",
+      "net_profit_in_million_rmb": "1840"
+    },
+    {
+      "url": "http://www.fortunechina.com/china500/338/2012",
+      "rank2012": "75",
+      "rank2011": "76",
+      "name": "恒大地产集团有限公司",
+      "operating_receipt_in_million_rmb": "62396",
+      "net_profit_in_million_rmb": "11382"
+    },
+    {
+      "url": "http://www.fortunechina.com/china500/52/2012",
+      "rank2012": "76",
+      "rank2011": "67",
+      "name": "TCL集团股份有限公司",
+      "operating_receipt_in_million_rmb": "60834",
+      "net_profit_in_million_rmb": "1013"
+    },
+    {
+      "url": "http://www.fortunechina.com/china500/73/2012",
+      "rank2012": "77",
+      "rank2011": "52",
+      "name": "潍柴动力股份有限公司",
+      "operating_receipt_in_million_rmb": "60019",
+      "net_profit_in_million_rmb": "5597"
+    },
+    {
+      "url": "http://www.fortunechina.com/china500/80/2012",
+      "rank2012": "78",
+      "rank2011": "84",
+      "name": "兴业银行股份有限公司",
+      "operating_receipt_in_million_rmb": "59870",
+      "net_profit_in_million_rmb": "25505"
+    },
+    {
+      "url": "http://www.fortunechina.com/china500/58/2012",
+      "rank2012": "79",
+      "rank2011": "64",
+      "name": "中铁二局股份有限公司",
+      "operating_receipt_in_million_rmb": "59521",
+      "net_profit_in_million_rmb": "523"
+    },
+    {
+      "url": "http://www.fortunechina.com/china500/142/2012",
+      "rank2012": "80",
+      "rank2011": "168",
+      "name": "中国船舶重工股份有限公司",
+      "operating_receipt_in_million_rmb": "58045",
+      "net_profit_in_million_rmb": "4706"
+    },
+    {
+      "url": "http://www.fortunechina.com/china500/550/2012",
+      "rank2012": "81",
+      "rank2011": null,
+      "name": "庞大汽贸集团股份有限公司",
+      "operating_receipt_in_million_rmb": "55455",
+      "net_profit_in_million_rmb": "650"
+    },
+    {
+      "url": "http://www.fortunechina.com/china500/117/2012",
+      "rank2012": "82",
+      "rank2011": "93",
+      "name": "中化国际(控股)股份有限公司",
+      "operating_receipt_in_million_rmb": "55291",
+      "net_profit_in_million_rmb": "775"
+    },
+    {
+      "url": "http://www.fortunechina.com/china500/71/2012",
+      "rank2012": "83",
+      "rank2011": "95",
+      "name": "甘肃酒钢集团宏兴钢铁股份有限公司",
+      "operating_receipt_in_million_rmb": "55153",
+      "net_profit_in_million_rmb": "1519"
+    },
+    {
+      "url": "http://www.fortunechina.com/china500/136/2012",
+      "rank2012": "84",
+      "rank2011": "100",
+      "name": "上海医药集团股份有限公司",
+      "operating_receipt_in_million_rmb": "54900",
+      "net_profit_in_million_rmb": "2042"
+    },
+    {
+      "url": "http://www.fortunechina.com/china500/77/2012",
+      "rank2012": "85",
+      "rank2011": "73",
+      "name": "神州数码控股有限公司",
+      "operating_receipt_in_million_rmb": "54699",
+      "net_profit_in_million_rmb": "995"
+    },
+    {
+      "url": "http://www.fortunechina.com/china500/70/2012",
+      "rank2012": "86",
+      "rank2011": "78",
+      "name": "华电国际电力股份有限公司",
+      "operating_receipt_in_million_rmb": "54491",
+      "net_profit_in_million_rmb": "79"
+    },
+    {
+      "url": "http://www.fortunechina.com/china500/64/2012",
+      "rank2012": "87",
+      "rank2011": "79",
+      "name": "中国通信服务股份有限公司",
+      "operating_receipt_in_million_rmb": "53830",
+      "net_profit_in_million_rmb": "2115"
+    },
+    {
+      "url": "http://www.fortunechina.com/china500/276/2012",
+      "rank2012": "88",
+      "rank2011": "269",
+      "name": "中芯国际集成电路制造有限公司",
+      "operating_receipt_in_million_rmb": "52651",
+      "net_profit_in_million_rmb": "-1965"
+    },
+    {
+      "url": "http://www.fortunechina.com/china500/66/2012",
+      "rank2012": "89",
+      "rank2011": "85",
+      "name": "攀钢集团钢铁钒钛股份有限公司",
+      "operating_receipt_in_million_rmb": "52559",
+      "net_profit_in_million_rmb": "2"
+    },
+    {
+      "url": "http://www.fortunechina.com/china500/104/2012",
+      "rank2012": "90",
+      "rank2011": "99",
+      "name": "新兴铸管股份有限公司",
+      "operating_receipt_in_million_rmb": "52528",
+      "net_profit_in_million_rmb": "1465"
+    },
+    {
+      "url": "http://www.fortunechina.com/china500/108/2012",
+      "rank2012": "91",
+      "rank2011": "83",
+      "name": "华域汽车系统股份有限公司",
+      "operating_receipt_in_million_rmb": "52299",
+      "net_profit_in_million_rmb": "2990"
+    },
+    {
+      "url": "http://www.fortunechina.com/china500/81/2012",
+      "rank2012": "92",
+      "rank2011": "89",
+      "name": "四川长虹电器股份有限公司",
+      "operating_receipt_in_million_rmb": "52003",
+      "net_profit_in_million_rmb": "406"
+    },
+    {
+      "url": "http://www.fortunechina.com/china500/51/2012",
+      "rank2012": "93",
+      "rank2011": "65",
+      "name": "北汽福田汽车股份有限公司",
+      "operating_receipt_in_million_rmb": "51646",
+      "net_profit_in_million_rmb": "1152"
+    },
+    {
+      "url": "http://www.fortunechina.com/china500/86/2012",
+      "rank2012": "94",
+      "rank2011": "86",
+      "name": "华润电力控股有限公司",
+      "operating_receipt_in_million_rmb": "50882",
+      "net_profit_in_million_rmb": "3608"
+    },
+    {
+      "url": "http://www.fortunechina.com/china500/551/2012",
+      "rank2012": "95",
+      "rank2011": null,
+      "name": "国机汽车股份有限公司",
+      "operating_receipt_in_million_rmb": "50821",
+      "net_profit_in_million_rmb": "493"
+    },
+    {
+      "url": "http://www.fortunechina.com/china500/157/2012",
+      "rank2012": "96",
+      "rank2011": "113",
+      "name": "三一重工股份有限公司",
+      "operating_receipt_in_million_rmb": "50776",
+      "net_profit_in_million_rmb": "8649"
+    },
+    {
+      "url": "http://www.fortunechina.com/china500/83/2012",
+      "rank2012": "97",
+      "rank2011": "82",
+      "name": "中国中材股份有限公司",
+      "operating_receipt_in_million_rmb": "50751",
+      "net_profit_in_million_rmb": "1461"
+    },
+    {
+      "url": "http://www.fortunechina.com/china500/552/2012",
+      "rank2012": "98",
+      "rank2011": null,
+      "name": "阳泉煤业（集团）股份有限公司",
+      "operating_receipt_in_million_rmb": "50720",
+      "net_profit_in_million_rmb": "2811"
+    },
+    {
+      "url": "http://www.fortunechina.com/china500/137/2012",
+      "rank2012": "99",
+      "rank2011": "90",
+      "name": "国电电力发展股份有限公司",
+      "operating_receipt_in_million_rmb": "50558",
+      "net_profit_in_million_rmb": "3647"
+    },
+    {
+      "url": "http://www.fortunechina.com/china500/72/2012",
+      "rank2012": "100",
+      "rank2011": "77",
+      "name": "本钢板材股份有限公司",
+      "operating_receipt_in_million_rmb": "50432",
+      "net_profit_in_million_rmb": "796"
+    },
+    {
+      "url": "http://www.fortunechina.com/china500/201/2012",
+      "rank2012": "101",
+      "rank2011": "106",
+      "name": "海尔电器集团有限公司",
+      "operating_receipt_in_million_rmb": "49917",
+      "net_profit_in_million_rmb": "1406"
+    },
+    {
+      "url": "http://www.fortunechina.com/china500/65/2012",
+      "rank2012": "102",
+      "rank2011": "75",
+      "name": "比亚迪股份有限公司",
+      "operating_receipt_in_million_rmb": "48827",
+      "net_profit_in_million_rmb": "1385"
+    },
+    {
+      "url": "http://www.fortunechina.com/china500/121/2012",
+      "rank2012": "103",
+      "rank2011": "109",
+      "name": "兖州煤业股份有限公司",
+      "operating_receipt_in_million_rmb": "48768",
+      "net_profit_in_million_rmb": "8623"
+    },
+    {
+      "url": "http://www.fortunechina.com/china500/105/2012",
+      "rank2012": "104",
+      "rank2011": "111",
+      "name": "安徽海螺水泥股份有限公司",
+      "operating_receipt_in_million_rmb": "48654",
+      "net_profit_in_million_rmb": "11590"
+    },
+    {
+      "url": "http://www.fortunechina.com/china500/114/2012",
+      "rank2012": "105",
+      "rank2011": "105",
+      "name": "保利房地产(集团)股份有限公司",
+      "operating_receipt_in_million_rmb": "47036",
+      "net_profit_in_million_rmb": "6531"
+    },
+    {
+      "url": "http://www.fortunechina.com/china500/84/2012",
+      "rank2012": "106",
+      "rank2011": "120",
+      "name": "上海友谊集团股份有限公司",
+      "operating_receipt_in_million_rmb": "47015",
+      "net_profit_in_million_rmb": "1392"
+    },
+    {
+      "url": "http://www.fortunechina.com/china500/97/2012",
+      "rank2012": "107",
+      "rank2011": "104",
+      "name": "中国葛洲坝集团股份有限公司",
+      "operating_receipt_in_million_rmb": "46540",
+      "net_profit_in_million_rmb": "1550"
+    },
+    {
+      "url": "http://www.fortunechina.com/china500/126/2012",
+      "rank2012": "108",
+      "rank2011": "116",
+      "name": "中联重科股份有限公司",
+      "operating_receipt_in_million_rmb": "46323",
+      "net_profit_in_million_rmb": "8066"
+    },
+    {
+      "url": "http://www.fortunechina.com/china500/503/2012",
+      "rank2012": "109",
+      "rank2011": "107",
+      "name": "中国光大银行股份有限公司",
+      "operating_receipt_in_million_rmb": "46073",
+      "net_profit_in_million_rmb": "18068"
+    },
+    {
+      "url": "http://www.fortunechina.com/china500/131/2012",
+      "rank2012": "110",
+      "rank2011": "112",
+      "name": "厦门国贸集团股份有限公司",
+      "operating_receipt_in_million_rmb": "45631",
+      "net_profit_in_million_rmb": "541"
+    },
+    {
+      "url": "http://www.fortunechina.com/china500/113/2012",
+      "rank2012": "111",
+      "rank2011": "88",
+      "name": "大秦铁路股份有限公司",
+      "operating_receipt_in_million_rmb": "45007",
+      "net_profit_in_million_rmb": "11699"
+    },
+    {
+      "url": "http://www.fortunechina.com/china500/546/2012",
+      "rank2012": "112",
+      "rank2011": "80",
+      "name": "复星国际有限公司",
+      "operating_receipt_in_million_rmb": "44824",
+      "net_profit_in_million_rmb": "3404"
+    },
+    {
+      "url": "http://www.fortunechina.com/china500/92/2012",
+      "rank2012": "113",
+      "rank2011": "87",
+      "name": "中国外运股份有限公司",
+      "operating_receipt_in_million_rmb": "43629",
+      "net_profit_in_million_rmb": "643"
+    },
+    {
+      "url": "http://www.fortunechina.com/china500/95/2012",
+      "rank2012": "114",
+      "rank2011": "81",
+      "name": "中国太平保险控股有限公司",
+      "operating_receipt_in_million_rmb": "43602",
+      "net_profit_in_million_rmb": "402"
+    },
+    {
+      "url": "http://www.fortunechina.com/china500/90/2012",
+      "rank2012": "115",
+      "rank2011": "115",
+      "name": "中国化学工程股份有限公司",
+      "operating_receipt_in_million_rmb": "43538",
+      "net_profit_in_million_rmb": "2376"
+    },
+    {
+      "url": "http://www.fortunechina.com/china500/76/2012",
+      "rank2012": "116",
+      "rank2011": "98",
+      "name": "东方电气股份有限公司",
+      "operating_receipt_in_million_rmb": "42917",
+      "net_profit_in_million_rmb": "3056"
+    },
+    {
+      "url": "http://www.fortunechina.com/china500/74/2012",
+      "rank2012": "117",
+      "rank2011": "91",
+      "name": "内蒙古包钢钢联股份有限公司",
+      "operating_receipt_in_million_rmb": "42815",
+      "net_profit_in_million_rmb": "496"
+    },
+    {
+      "url": "http://www.fortunechina.com/china500/98/2012",
+      "rank2012": "118",
+      "rank2011": "102",
+      "name": "柳州钢铁股份有限公司",
+      "operating_receipt_in_million_rmb": "42391",
+      "net_profit_in_million_rmb": "362"
+    },
+    {
+      "url": "http://www.fortunechina.com/china500/120/2012",
+      "rank2012": "119",
+      "rank2011": "108",
+      "name": "新余钢铁股份有限公司",
+      "operating_receipt_in_million_rmb": "40228",
+      "net_profit_in_million_rmb": "170"
+    },
+    {
+      "url": "http://www.fortunechina.com/china500/125/2012",
+      "rank2012": "120",
+      "rank2011": "131",
+      "name": "紫金矿业集团股份有限公司",
+      "operating_receipt_in_million_rmb": "39764",
+      "net_profit_in_million_rmb": "5713"
+    },
+    {
+      "url": "http://www.fortunechina.com/china500/79/2012",
+      "rank2012": "121",
+      "rank2011": "96",
+      "name": "中国海外发展有限公司",
+      "operating_receipt_in_million_rmb": "39552",
+      "net_profit_in_million_rmb": "12181"
+    },
+    {
+      "url": "http://www.fortunechina.com/china500/111/2012",
+      "rank2012": "122",
+      "rank2011": "119",
+      "name": "山东黄金矿业股份有限公司",
+      "operating_receipt_in_million_rmb": "39415",
+      "net_profit_in_million_rmb": "1902"
+    },
+    {
+      "url": "http://www.fortunechina.com/china500/112/2012",
+      "rank2012": "123",
+      "rank2011": "124",
+      "name": "南京钢铁股份有限公司",
+      "operating_receipt_in_million_rmb": "38565",
+      "net_profit_in_million_rmb": "325"
+    },
+    {
+      "url": "http://www.fortunechina.com/china500/138/2012",
+      "rank2012": "124",
+      "rank2011": "133",
+      "name": "大昌行集团有限公司",
+      "operating_receipt_in_million_rmb": "37773",
+      "net_profit_in_million_rmb": "1073"
+    },
+    {
+      "url": "http://www.fortunechina.com/china500/88/2012",
+      "rank2012": "125",
+      "rank2011": "103",
+      "name": "河南双汇投资发展股份有限公司",
+      "operating_receipt_in_million_rmb": "37615",
+      "net_profit_in_million_rmb": "565"
+    },
+    {
+      "url": "http://www.fortunechina.com/china500/130/2012",
+      "rank2012": "126",
+      "rank2011": "122",
+      "name": "冀中能源股份有限公司",
+      "operating_receipt_in_million_rmb": "37569",
+      "net_profit_in_million_rmb": "3049"
+    },
+    {
+      "url": "http://www.fortunechina.com/china500/504/2012",
+      "rank2012": "127",
+      "rank2011": "146",
+      "name": "辽宁华锦通达化工股份有限公司",
+      "operating_receipt_in_million_rmb": "37557",
+      "net_profit_in_million_rmb": "842"
+    },
+    {
+      "url": "http://www.fortunechina.com/china500/109/2012",
+      "rank2012": "128",
+      "rank2011": "127",
+      "name": "内蒙古伊利实业集团股份有限公司",
+      "operating_receipt_in_million_rmb": "37451",
+      "net_profit_in_million_rmb": "1809"
+    },
+    {
+      "url": "http://www.fortunechina.com/china500/100/2012",
+      "rank2012": "129",
+      "rank2011": "123",
+      "name": "中国蒙牛乳业有限公司",
+      "operating_receipt_in_million_rmb": "37442",
+      "net_profit_in_million_rmb": "1589"
+    },
+    {
+      "url": "http://www.fortunechina.com/china500/107/2012",
+      "rank2012": "130",
+      "rank2011": "118",
+      "name": "浙江物产中大元通集团股份有限公司",
+      "operating_receipt_in_million_rmb": "36919",
+      "net_profit_in_million_rmb": "528"
+    },
+    {
+      "url": "http://www.fortunechina.com/china500/94/2012",
+      "rank2012": "131",
+      "rank2011": "94",
+      "name": "中国重汽(香港)有限公司",
+      "operating_receipt_in_million_rmb": "36817",
+      "net_profit_in_million_rmb": "1002"
+    },
+    {
+      "url": "http://www.fortunechina.com/china500/96/2012",
+      "rank2012": "132",
+      "rank2011": "128",
+      "name": "中化化肥控股有限公司",
+      "operating_receipt_in_million_rmb": "36723",
+      "net_profit_in_million_rmb": "678"
+    },
+    {
+      "url": "http://www.fortunechina.com/china500/159/2012",
+      "rank2012": "133",
+      "rank2011": "117",
+      "name": "云南铜业股份有限公司",
+      "operating_receipt_in_million_rmb": "35243",
+      "net_profit_in_million_rmb": "622"
+    },
+    {
+      "url": "http://www.fortunechina.com/china500/150/2012",
+      "rank2012": "134",
+      "rank2011": "139",
+      "name": "碧桂园控股有限公司",
+      "operating_receipt_in_million_rmb": "34746",
+      "net_profit_in_million_rmb": "5813"
+    },
+    {
+      "url": "http://www.fortunechina.com/china500/264/2012",
+      "rank2012": "135",
+      "rank2011": "173",
+      "name": "中国金属再生资源(控股)有限公司",
+      "operating_receipt_in_million_rmb": "34281",
+      "net_profit_in_million_rmb": "1509"
+    },
+    {
+      "url": "http://www.fortunechina.com/china500/553/2012",
+      "rank2012": "136",
+      "rank2011": null,
+      "name": "福建省厦门象屿股份有限公司",
+      "operating_receipt_in_million_rmb": "33934",
+      "net_profit_in_million_rmb": "178"
+    },
+    {
+      "url": "http://www.fortunechina.com/china500/152/2012",
+      "rank2012": "137",
+      "rank2011": "142",
+      "name": "华夏银行股份有限公司",
+      "operating_receipt_in_million_rmb": "33544",
+      "net_profit_in_million_rmb": "9222"
+    },
+    {
+      "url": "http://www.fortunechina.com/china500/140/2012",
+      "rank2012": "138",
+      "rank2011": "158",
+      "name": "中金黄金股份有限公司",
+      "operating_receipt_in_million_rmb": "33144",
+      "net_profit_in_million_rmb": "1817"
+    },
+    {
+      "url": "http://www.fortunechina.com/china500/127/2012",
+      "rank2012": "139",
+      "rank2011": "140",
+      "name": "徐工集团工程机械股份有限公司",
+      "operating_receipt_in_million_rmb": "32971",
+      "net_profit_in_million_rmb": "3379"
+    },
+    {
+      "url": "http://www.fortunechina.com/china500/91/2012",
+      "rank2012": "140",
+      "rank2011": "101",
+      "name": "一汽轿车股份有限公司",
+      "operating_receipt_in_million_rmb": "32653",
+      "net_profit_in_million_rmb": "217"
+    },
+    {
+      "url": "http://www.fortunechina.com/china500/101/2012",
+      "rank2012": "141",
+      "rank2011": "121",
+      "name": "山东钢铁股份有限公司",
+      "operating_receipt_in_million_rmb": "32185",
+      "net_profit_in_million_rmb": "53"
+    },
+    {
+      "url": "http://www.fortunechina.com/china500/554/2012",
+      "rank2012": "142",
+      "rank2011": null,
+      "name": "恒逸石化股份有限公司",
+      "operating_receipt_in_million_rmb": "31513",
+      "net_profit_in_million_rmb": "1920"
+    },
+    {
+      "url": "http://www.fortunechina.com/china500/187/2012",
+      "rank2012": "143",
+      "rank2011": "164",
+      "name": "连云港如意集团股份有限公司",
+      "operating_receipt_in_million_rmb": "31318",
+      "net_profit_in_million_rmb": "30"
+    },
+    {
+      "url": "http://www.fortunechina.com/china500/154/2012",
+      "rank2012": "144",
+      "rank2011": "132",
+      "name": "中信资源控股有限公司",
+      "operating_receipt_in_million_rmb": "31290",
+      "net_profit_in_million_rmb": "1786"
+    },
+    {
+      "url": "http://www.fortunechina.com/china500/217/2012",
+      "rank2012": "145",
+      "rank2011": "198",
+      "name": "河南神火煤电股份有限公司",
+      "operating_receipt_in_million_rmb": "30699",
+      "net_profit_in_million_rmb": "1151"
+    },
+    {
+      "url": "http://www.fortunechina.com/china500/132/2012",
+      "rank2012": "146",
+      "rank2011": "126",
+      "name": "安徽江淮汽车股份有限公司",
+      "operating_receipt_in_million_rmb": "30474",
+      "net_profit_in_million_rmb": "618"
+    },
+    {
+      "url": "http://www.fortunechina.com/china500/123/2012",
+      "rank2012": "147",
+      "rank2011": "143",
+      "name": "大商股份有限公司",
+      "operating_receipt_in_million_rmb": "30404",
+      "net_profit_in_million_rmb": "274"
+    },
+    {
+      "url": "http://www.fortunechina.com/china500/192/2012",
+      "rank2012": "148",
+      "rank2011": "197",
+      "name": "山西西山煤电股份有限公司",
+      "operating_receipt_in_million_rmb": "30372",
+      "net_profit_in_million_rmb": "2815"
+    },
+    {
+      "url": "http://www.fortunechina.com/china500/110/2012",
+      "rank2012": "149",
+      "rank2011": "138",
+      "name": "联华超市股份有限公司",
+      "operating_receipt_in_million_rmb": "30140",
+      "net_profit_in_million_rmb": "627"
+    },
+    {
+      "url": "http://www.fortunechina.com/china500/189/2012",
+      "rank2012": "150",
+      "rank2011": "152",
+      "name": "长城汽车股份有限公司",
+      "operating_receipt_in_million_rmb": "30089",
+      "net_profit_in_million_rmb": "3426"
+    },
+    {
+      "url": "http://www.fortunechina.com/china500/555/2012",
+      "rank2012": "151",
+      "rank2011": null,
+      "name": "芜湖港储运股份有限公司",
+      "operating_receipt_in_million_rmb": "30055",
+      "net_profit_in_million_rmb": "331"
+    },
+    {
+      "url": "http://www.fortunechina.com/china500/115/2012",
+      "rank2012": "152",
+      "rank2011": "134",
+      "name": "安阳钢铁股份有限公司",
+      "operating_receipt_in_million_rmb": "29768",
+      "net_profit_in_million_rmb": "38"
+    },
+    {
+      "url": "http://www.fortunechina.com/china500/165/2012",
+      "rank2012": "153",
+      "rank2011": "187",
+      "name": "深圳发展银行股份有限公司",
+      "operating_receipt_in_million_rmb": "29643",
+      "net_profit_in_million_rmb": "10279"
+    },
+    {
+      "url": "http://www.fortunechina.com/china500/170/2012",
+      "rank2012": "154",
+      "rank2011": "151",
+      "name": "华润置地有限公司",
+      "operating_receipt_in_million_rmb": "29117",
+      "net_profit_in_million_rmb": "6542"
+    },
+    {
+      "url": "http://www.fortunechina.com/china500/135/2012",
+      "rank2012": "155",
+      "rank2011": "147",
+      "name": "百丽国际控股有限公司",
+      "operating_receipt_in_million_rmb": "28949",
+      "net_profit_in_million_rmb": "4255"
+    },
+    {
+      "url": "http://www.fortunechina.com/china500/200/2012",
+      "rank2012": "156",
+      "rank2011": "153",
+      "name": "北京金隅股份有限公司",
+      "operating_receipt_in_million_rmb": "28745",
+      "net_profit_in_million_rmb": "3429"
+    },
+    {
+      "url": "http://www.fortunechina.com/china500/102/2012",
+      "rank2012": "157",
+      "rank2011": "125",
+      "name": "中国船舶工业股份有限公司",
+      "operating_receipt_in_million_rmb": "28699",
+      "net_profit_in_million_rmb": "2252"
+    },
+    {
+      "url": "http://www.fortunechina.com/china500/556/2012",
+      "rank2012": "158",
+      "rank2011": null,
+      "name": "哈尔滨电气股份有限公司",
+      "operating_receipt_in_million_rmb": "28588",
+      "net_profit_in_million_rmb": "1229"
+    },
+    {
+      "url": "http://www.fortunechina.com/china500/188/2012",
+      "rank2012": "159",
+      "rank2011": "174",
+      "name": "腾讯控股有限公司",
+      "operating_receipt_in_million_rmb": "28548",
+      "net_profit_in_million_rmb": "10203"
+    },
+    {
+      "url": "http://www.fortunechina.com/china500/134/2012",
+      "rank2012": "160",
+      "rank2011": "110",
+      "name": "中海集装箱运输股份有限公司",
+      "operating_receipt_in_million_rmb": "28281",
+      "net_profit_in_million_rmb": "-2743"
+    },
+    {
+      "url": "http://www.fortunechina.com/china500/158/2012",
+      "rank2012": "161",
+      "rank2011": "149",
+      "name": "新疆八一钢铁股份有限公司",
+      "operating_receipt_in_million_rmb": "27951",
+      "net_profit_in_million_rmb": "482"
+    },
+    {
+      "url": "http://www.fortunechina.com/china500/146/2012",
+      "rank2012": "162",
+      "rank2011": "141",
+      "name": "广州富力地产股份有限公司",
+      "operating_receipt_in_million_rmb": "27398",
+      "net_profit_in_million_rmb": "4842"
+    },
+    {
+      "url": "http://www.fortunechina.com/china500/99/2012",
+      "rank2012": "163",
+      "rank2011": "148",
+      "name": "TCL多媒体科技控股有限公司",
+      "operating_receipt_in_million_rmb": "27171",
+      "net_profit_in_million_rmb": "367"
+    },
+    {
+      "url": "http://www.fortunechina.com/china500/103/2012",
+      "rank2012": "164",
+      "rank2011": "114",
+      "name": "重庆长安汽车股份有限公司",
+      "operating_receipt_in_million_rmb": "26552",
+      "net_profit_in_million_rmb": "968"
+    },
+    {
+      "url": "http://www.fortunechina.com/china500/162/2012",
+      "rank2012": "165",
+      "rank2011": "157",
+      "name": "海南航空股份有限公司",
+      "operating_receipt_in_million_rmb": "26273",
+      "net_profit_in_million_rmb": "2631"
+    },
+    {
+      "url": "http://www.fortunechina.com/china500/153/2012",
+      "rank2012": "166",
+      "rank2011": "156",
+      "name": "世茂房地产控股有限公司",
+      "operating_receipt_in_million_rmb": "26044",
+      "net_profit_in_million_rmb": "5723"
+    },
+    {
+      "url": "http://www.fortunechina.com/china500/149/2012",
+      "rank2012": "167",
+      "rank2011": "145",
+      "name": "中国中材国际工程股份有限公司",
+      "operating_receipt_in_million_rmb": "25098",
+      "net_profit_in_million_rmb": "1538"
+    },
+    {
+      "url": "http://www.fortunechina.com/china500/139/2012",
+      "rank2012": "168",
+      "rank2011": "150",
+      "name": "平顶山天安煤业股份有限公司",
+      "operating_receipt_in_million_rmb": "25069",
+      "net_profit_in_million_rmb": "1847"
+    },
+    {
+      "url": "http://www.fortunechina.com/china500/119/2012",
+      "rank2012": "169",
+      "rank2011": "137",
+      "name": "中信证券股份有限公司",
+      "operating_receipt_in_million_rmb": "25033",
+      "net_profit_in_million_rmb": "12576"
+    },
+    {
+      "url": "http://www.fortunechina.com/china500/275/2012",
+      "rank2012": "170",
+      "rank2011": "163",
+      "name": "重庆百货大楼股份有限公司",
+      "operating_receipt_in_million_rmb": "25012",
+      "net_profit_in_million_rmb": "605"
+    },
+    {
+      "url": "http://www.fortunechina.com/china500/505/2012",
+      "rank2012": "171",
+      "rank2011": "162",
+      "name": "九州通医药集团股份有限公司",
+      "operating_receipt_in_million_rmb": "24839",
+      "net_profit_in_million_rmb": "374"
+    },
+    {
+      "url": "http://www.fortunechina.com/china500/122/2012",
+      "rank2012": "172",
+      "rank2011": "144",
+      "name": "北京控股有限公司",
+      "operating_receipt_in_million_rmb": "24815",
+      "net_profit_in_million_rmb": "2250"
+    },
+    {
+      "url": "http://www.fortunechina.com/china500/147/2012",
+      "rank2012": "173",
+      "rank2011": "159",
+      "name": "湖南有色金属股份有限公司",
+      "operating_receipt_in_million_rmb": "24648",
+      "net_profit_in_million_rmb": "293"
+    },
+    {
+      "url": "http://www.fortunechina.com/china500/186/2012",
+      "rank2012": "174",
+      "rank2011": "155",
+      "name": "玖龙纸业(控股)有限公司",
+      "operating_receipt_in_million_rmb": "24428",
+      "net_profit_in_million_rmb": "1537"
+    },
+    {
+      "url": "http://www.fortunechina.com/china500/151/2012",
+      "rank2012": "175",
+      "rank2011": "165",
+      "name": "天音通信控股股份有限公司",
+      "operating_receipt_in_million_rmb": "24162",
+      "net_profit_in_million_rmb": "51"
+    },
+    {
+      "url": "http://www.fortunechina.com/china500/203/2012",
+      "rank2012": "176",
+      "rank2011": "217",
+      "name": "龙湖地产有限公司",
+      "operating_receipt_in_million_rmb": "24120",
+      "net_profit_in_million_rmb": "6328"
+    },
+    {
+      "url": "http://www.fortunechina.com/china500/195/2012",
+      "rank2012": "177",
+      "rank2011": "175",
+      "name": "金地(集团)股份有限公司",
+      "operating_receipt_in_million_rmb": "23919",
+      "net_profit_in_million_rmb": "3017"
+    },
+    {
+      "url": "http://www.fortunechina.com/china500/508/2012",
+      "rank2012": "178",
+      "rank2011": "206",
+      "name": "荣盛石化股份有限公司",
+      "operating_receipt_in_million_rmb": "23873",
+      "net_profit_in_million_rmb": "1620"
+    },
+    {
+      "url": "http://www.fortunechina.com/china500/253/2012",
+      "rank2012": "179",
+      "rank2011": "218",
+      "name": "南方建材股份有限公司",
+      "operating_receipt_in_million_rmb": "23861",
+      "net_profit_in_million_rmb": "74"
+    },
+    {
+      "url": "http://www.fortunechina.com/china500/221/2012",
+      "rank2012": "180",
+      "rank2011": "200",
+      "name": "重庆钢铁股份有限公司",
+      "operating_receipt_in_million_rmb": "23533",
+      "net_profit_in_million_rmb": "-1471"
+    },
+    {
+      "url": "http://www.fortunechina.com/china500/143/2012",
+      "rank2012": "181",
+      "rank2011": "161",
+      "name": "青岛海信电器股份有限公司",
+      "operating_receipt_in_million_rmb": "23524",
+      "net_profit_in_million_rmb": "1689"
+    },
+    {
+      "url": "http://www.fortunechina.com/china500/175/2012",
+      "rank2012": "182",
+      "rank2011": "183",
+      "name": "中储发展股份有限公司",
+      "operating_receipt_in_million_rmb": "23413",
+      "net_profit_in_million_rmb": "399"
+    },
+    {
+      "url": "http://www.fortunechina.com/china500/148/2012",
+      "rank2012": "183",
+      "rank2011": "171",
+      "name": "青岛啤酒股份有限公司",
+      "operating_receipt_in_million_rmb": "23158",
+      "net_profit_in_million_rmb": "1738"
+    },
+    {
+      "url": "http://www.fortunechina.com/china500/183/2012",
+      "rank2012": "184",
+      "rank2011": "167",
+      "name": "雅居乐地产控股有限公司",
+      "operating_receipt_in_million_rmb": "22968",
+      "net_profit_in_million_rmb": "4105"
+    },
+    {
+      "url": "http://www.fortunechina.com/china500/182/2012",
+      "rank2012": "185",
+      "rank2011": "180",
+      "name": "广东韶钢松山股份有限公司",
+      "operating_receipt_in_million_rmb": "22874",
+      "net_profit_in_million_rmb": "-1138"
+    },
+    {
+      "url": "http://www.fortunechina.com/china500/163/2012",
+      "rank2012": "186",
+      "rank2011": "178",
+      "name": "申能股份有限公司",
+      "operating_receipt_in_million_rmb": "22837",
+      "net_profit_in_million_rmb": "1422"
+    },
+    {
+      "url": "http://www.fortunechina.com/china500/169/2012",
+      "rank2012": "187",
+      "rank2011": "192",
+      "name": "中国食品有限公司",
+      "operating_receipt_in_million_rmb": "22769",
+      "net_profit_in_million_rmb": "523"
+    },
+    {
+      "url": "http://www.fortunechina.com/china500/145/2012",
+      "rank2012": "188",
+      "rank2011": "160",
+      "name": "山西潞安环保能源开发股份有限公司",
+      "operating_receipt_in_million_rmb": "22426",
+      "net_profit_in_million_rmb": "3836"
+    },
+    {
+      "url": "http://www.fortunechina.com/china500/161/2012",
+      "rank2012": "189",
+      "rank2011": "176",
+      "name": "杭州钢铁股份有限公司",
+      "operating_receipt_in_million_rmb": "22326",
+      "net_profit_in_million_rmb": "300"
+    },
+    {
+      "url": "http://www.fortunechina.com/china500/252/2012",
+      "rank2012": "190",
+      "rank2011": "262",
+      "name": "绿城中国控股有限公司",
+      "operating_receipt_in_million_rmb": "22064",
+      "net_profit_in_million_rmb": "2575"
+    },
+    {
+      "url": "http://www.fortunechina.com/china500/156/2012",
+      "rank2012": "191",
+      "rank2011": "177",
+      "name": "上海国际港务(集团)股份有限公司",
+      "operating_receipt_in_million_rmb": "21779",
+      "net_profit_in_million_rmb": "4724"
+    },
+    {
+      "url": "http://www.fortunechina.com/china500/196/2012",
+      "rank2012": "192",
+      "rank2011": "205",
+      "name": "国投电力控股股份有限公司",
+      "operating_receipt_in_million_rmb": "21704",
+      "net_profit_in_million_rmb": "259"
+    },
+    {
+      "url": "http://www.fortunechina.com/china500/179/2012",
+      "rank2012": "193",
+      "rank2011": "169",
+      "name": "创维数码控股有限公司",
+      "operating_receipt_in_million_rmb": "21454",
+      "net_profit_in_million_rmb": "1039"
+    },
+    {
+      "url": "http://www.fortunechina.com/china500/172/2012",
+      "rank2012": "194",
+      "rank2011": "172",
+      "name": "东风汽车股份有限公司",
+      "operating_receipt_in_million_rmb": "21393",
+      "net_profit_in_million_rmb": "464"
+    },
+    {
+      "url": "http://www.fortunechina.com/china500/155/2012",
+      "rank2012": "195",
+      "rank2011": "181",
+      "name": "西部矿业股份有限公司",
+      "operating_receipt_in_million_rmb": "21273",
+      "net_profit_in_million_rmb": "859"
+    },
+    {
+      "url": "http://www.fortunechina.com/china500/506/2012",
+      "rank2012": "196",
+      "rank2011": "179",
+      "name": "中国雨润食品集团有限公司",
+      "operating_receipt_in_million_rmb": "21271",
+      "net_profit_in_million_rmb": "1459"
+    },
+    {
+      "url": "http://www.fortunechina.com/china500/216/2012",
+      "rank2012": "197",
+      "rank2011": "222",
+      "name": "老凤祥股份有限公司",
+      "operating_receipt_in_million_rmb": "21126",
+      "net_profit_in_million_rmb": "523"
+    },
+    {
+      "url": "http://www.fortunechina.com/china500/176/2012",
+      "rank2012": "198",
+      "rank2011": "170",
+      "name": "吉利汽车控股有限公司",
+      "operating_receipt_in_million_rmb": "21064",
+      "net_profit_in_million_rmb": "1543"
+    },
+    {
+      "url": "http://www.fortunechina.com/china500/164/2012",
+      "rank2012": "199",
+      "rank2011": "184",
+      "name": "同方股份有限公司",
+      "operating_receipt_in_million_rmb": "20962",
+      "net_profit_in_million_rmb": "707"
+    },
+    {
+      "url": "http://www.fortunechina.com/china500/197/2012",
+      "rank2012": "200",
+      "rank2011": "210",
+      "name": "北京银行股份有限公司",
+      "operating_receipt_in_million_rmb": "20728",
+      "net_profit_in_million_rmb": "8947"
+    },
+    {
+      "url": "http://www.fortunechina.com/china500/208/2012",
+      "rank2012": "201",
+      "rank2011": "154",
+      "name": "中国长江电力股份有限公司",
+      "operating_receipt_in_million_rmb": "20700",
+      "net_profit_in_million_rmb": "7700"
+    },
+    {
+      "url": "http://www.fortunechina.com/china500/205/2012",
+      "rank2012": "202",
+      "rank2011": "211",
+      "name": "宜宾五粮液股份有限公司",
+      "operating_receipt_in_million_rmb": "20351",
+      "net_profit_in_million_rmb": "6157"
+    },
+    {
+      "url": "http://www.fortunechina.com/china500/185/2012",
+      "rank2012": "203",
+      "rank2011": "201",
+      "name": "中国石化仪征化纤股份有限公司",
+      "operating_receipt_in_million_rmb": "20180",
+      "net_profit_in_million_rmb": "839"
+    },
+    {
+      "url": "http://www.fortunechina.com/china500/557/2012",
+      "rank2012": "204",
+      "rank2011": null,
+      "name": "桐昆集团股份有限公司",
+      "operating_receipt_in_million_rmb": "20118",
+      "net_profit_in_million_rmb": "1120"
+    },
+    {
+      "url": "http://www.fortunechina.com/china500/247/2012",
+      "rank2012": "205",
+      "rank2011": "227",
+      "name": "远洋地产控股有限公司",
+      "operating_receipt_in_million_rmb": "19942",
+      "net_profit_in_million_rmb": "2571"
+    },
+    {
+      "url": "http://www.fortunechina.com/china500/558/2012",
+      "rank2012": "206",
+      "rank2011": null,
+      "name": "尚德太阳能电力有限公司",
+      "operating_receipt_in_million_rmb": "19826",
+      "net_profit_in_million_rmb": "-6418"
+    },
+    {
+      "url": "http://www.fortunechina.com/china500/405/2012",
+      "rank2012": "207",
+      "rank2011": "335",
+      "name": "昆仑能源有限公司",
+      "operating_receipt_in_million_rmb": "19678",
+      "net_profit_in_million_rmb": "4547"
+    },
+    {
+      "url": "http://www.fortunechina.com/china500/210/2012",
+      "rank2012": "208",
+      "rank2011": "216",
+      "name": "开滦能源化工股份有限公司",
+      "operating_receipt_in_million_rmb": "19534",
+      "net_profit_in_million_rmb": "786"
+    },
+    {
+      "url": "http://www.fortunechina.com/china500/509/2012",
+      "rank2012": "209",
+      "rank2011": "209",
+      "name": "际华集团股份有限公司",
+      "operating_receipt_in_million_rmb": "19506",
+      "net_profit_in_million_rmb": "623"
+    },
+    {
+      "url": "http://www.fortunechina.com/china500/180/2012",
+      "rank2012": "210",
+      "rank2011": "204",
+      "name": "福建三钢闽光股份有限公司",
+      "operating_receipt_in_million_rmb": "19282",
+      "net_profit_in_million_rmb": "253"
+    },
+    {
+      "url": "http://www.fortunechina.com/china500/93/2012",
+      "rank2012": "211",
+      "rank2011": "195",
+      "name": "上海振华重工(集团)股份有限公司",
+      "operating_receipt_in_million_rmb": "19129",
+      "net_profit_in_million_rmb": "30"
+    },
+    {
+      "url": "http://www.fortunechina.com/china500/323/2012",
+      "rank2012": "212",
+      "rank2011": "244",
+      "name": "华润水泥控股有限公司",
+      "operating_receipt_in_million_rmb": "18931",
+      "net_profit_in_million_rmb": "3388"
+    },
+    {
+      "url": "http://www.fortunechina.com/china500/199/2012",
+      "rank2012": "213",
+      "rank2011": "203",
+      "name": "厦门金龙汽车集团股份有限公司",
+      "operating_receipt_in_million_rmb": "18925",
+      "net_profit_in_million_rmb": "259"
+    },
+    {
+      "url": "http://www.fortunechina.com/china500/144/2012",
+      "rank2012": "214",
+      "rank2011": "186",
+      "name": "中海油田服务股份有限公司",
+      "operating_receipt_in_million_rmb": "18906",
+      "net_profit_in_million_rmb": "4039"
+    },
+    {
+      "url": "http://www.fortunechina.com/china500/559/2012",
+      "rank2012": "215",
+      "rank2011": null,
+      "name": "国电科技环保集团股份有限公司",
+      "operating_receipt_in_million_rmb": "18759",
+      "net_profit_in_million_rmb": "841"
+    },
+    {
+      "url": "http://www.fortunechina.com/china500/268/2012",
+      "rank2012": "216",
+      "rank2011": "293",
+      "name": "深圳市中金岭南有色金属股份有限公司",
+      "operating_receipt_in_million_rmb": "18669",
+      "net_profit_in_million_rmb": "951"
+    },
+    {
+      "url": "http://www.fortunechina.com/china500/181/2012",
+      "rank2012": "217",
+      "rank2011": "166",
+      "name": "深圳长城开发科技股份有限公司",
+      "operating_receipt_in_million_rmb": "18630",
+      "net_profit_in_million_rmb": "252"
+    },
+    {
+      "url": "http://www.fortunechina.com/china500/241/2012",
+      "rank2012": "218",
+      "rank2011": "190",
+      "name": "海信科龙电器股份有限公司",
+      "operating_receipt_in_million_rmb": "18489",
+      "net_profit_in_million_rmb": "227"
+    },
+    {
+      "url": "http://www.fortunechina.com/china500/235/2012",
+      "rank2012": "219",
+      "rank2011": "254",
+      "name": "贵州茅台酒股份有限公司",
+      "operating_receipt_in_million_rmb": "18402",
+      "net_profit_in_million_rmb": "8763"
+    },
+    {
+      "url": "http://www.fortunechina.com/china500/168/2012",
+      "rank2012": "220",
+      "rank2011": "189",
+      "name": "特变电工股份有限公司",
+      "operating_receipt_in_million_rmb": "18165",
+      "net_profit_in_million_rmb": "1229"
+    },
+    {
+      "url": "http://www.fortunechina.com/china500/226/2012",
+      "rank2012": "221",
+      "rank2011": "212",
+      "name": "广西柳工机械股份有限公司",
+      "operating_receipt_in_million_rmb": "17878",
+      "net_profit_in_million_rmb": "1321"
+    },
+    {
+      "url": "http://www.fortunechina.com/china500/250/2012",
+      "rank2012": "222",
+      "rank2011": "255",
+      "name": "湖北宜化化工股份有限公司",
+      "operating_receipt_in_million_rmb": "17765",
+      "net_profit_in_million_rmb": "818"
+    },
+    {
+      "url": "http://www.fortunechina.com/china500/167/2012",
+      "rank2012": "223",
+      "rank2011": "194",
+      "name": "山东晨鸣纸业集团股份有限公司",
+      "operating_receipt_in_million_rmb": "17747",
+      "net_profit_in_million_rmb": "608"
+    },
+    {
+      "url": "http://www.fortunechina.com/china500/513/2012",
+      "rank2012": "224",
+      "rank2011": "245",
+      "name": "永辉超市股份有限公司",
+      "operating_receipt_in_million_rmb": "17732",
+      "net_profit_in_million_rmb": "467"
+    },
+    {
+      "url": "http://www.fortunechina.com/china500/223/2012",
+      "rank2012": "225",
+      "rank2011": "208",
+      "name": "江铃汽车股份有限公司",
+      "operating_receipt_in_million_rmb": "17457",
+      "net_profit_in_million_rmb": "1871"
+    },
+    {
+      "url": "http://www.fortunechina.com/china500/206/2012",
+      "rank2012": "226",
+      "rank2011": "207",
+      "name": "上海电力股份有限公司",
+      "operating_receipt_in_million_rmb": "17376",
+      "net_profit_in_million_rmb": "463"
+    },
+    {
+      "url": "http://www.fortunechina.com/china500/213/2012",
+      "rank2012": "227",
+      "rank2011": "193",
+      "name": "深圳华侨城股份有限公司",
+      "operating_receipt_in_million_rmb": "17324",
+      "net_profit_in_million_rmb": "3177"
+    },
+    {
+      "url": "http://www.fortunechina.com/china500/230/2012",
+      "rank2012": "228",
+      "rank2011": "225",
+      "name": "首长国际企业有限公司",
+      "operating_receipt_in_million_rmb": "17321",
+      "net_profit_in_million_rmb": "123"
+    },
+    {
+      "url": "http://www.fortunechina.com/china500/174/2012",
+      "rank2012": "229",
+      "rank2011": "213",
+      "name": "南京医药股份有限公司",
+      "operating_receipt_in_million_rmb": "17172",
+      "net_profit_in_million_rmb": "-183"
+    },
+    {
+      "url": "http://www.fortunechina.com/china500/421/2012",
+      "rank2012": "230",
+      "rank2011": "182",
+      "name": "保利协鑫能源控股有限公司",
+      "operating_receipt_in_million_rmb": "16935",
+      "net_profit_in_million_rmb": "3466"
+    },
+    {
+      "url": "http://www.fortunechina.com/china500/248/2012",
+      "rank2012": "231",
+      "rank2011": "229",
+      "name": "郑州宇通客车股份有限公司",
+      "operating_receipt_in_million_rmb": "16932",
+      "net_profit_in_million_rmb": "1181"
+    },
+    {
+      "url": "http://www.fortunechina.com/china500/251/2012",
+      "rank2012": "232",
+      "rank2011": "251",
+      "name": "中国山水水泥集团有限公司",
+      "operating_receipt_in_million_rmb": "16862",
+      "net_profit_in_million_rmb": "2225"
+    },
+    {
+      "url": "http://www.fortunechina.com/china500/207/2012",
+      "rank2012": "233",
+      "rank2011": "224",
+      "name": "北京王府井百货(集团)股份有限公司",
+      "operating_receipt_in_million_rmb": "16761",
+      "net_profit_in_million_rmb": "583"
+    },
+    {
+      "url": "http://www.fortunechina.com/china500/258/2012",
+      "rank2012": "234",
+      "rank2011": "247",
+      "name": "上海豫园旅游商城股份有限公司",
+      "operating_receipt_in_million_rmb": "16604",
+      "net_profit_in_million_rmb": "855"
+    },
+    {
+      "url": "http://www.fortunechina.com/china500/222/2012",
+      "rank2012": "235",
+      "rank2011": "238",
+      "name": "北京物美商业集团股份有限公司",
+      "operating_receipt_in_million_rmb": "16541",
+      "net_profit_in_million_rmb": "586"
+    },
+    {
+      "url": "http://www.fortunechina.com/china500/215/2012",
+      "rank2012": "236",
+      "rank2011": "221",
+      "name": "中国电力国际发展有限公司",
+      "operating_receipt_in_million_rmb": "16300",
+      "net_profit_in_million_rmb": "505"
+    },
+    {
+      "url": "http://www.fortunechina.com/china500/184/2012",
+      "rank2012": "237",
+      "rank2011": "196",
+      "name": "康佳集团股份有限公司",
+      "operating_receipt_in_million_rmb": "16218",
+      "net_profit_in_million_rmb": "25"
+    },
+    {
+      "url": "http://www.fortunechina.com/china500/234/2012",
+      "rank2012": "238",
+      "rank2011": "223",
+      "name": "龙源电力集团股份有限公司",
+      "operating_receipt_in_million_rmb": "16191",
+      "net_profit_in_million_rmb": "2638"
+    },
+    {
+      "url": "http://www.fortunechina.com/china500/211/2012",
+      "rank2012": "239",
+      "rank2011": "248",
+      "name": "宝业集团股份有限公司",
+      "operating_receipt_in_million_rmb": "16191",
+      "net_profit_in_million_rmb": "710"
+    },
+    {
+      "url": "http://www.fortunechina.com/china500/204/2012",
+      "rank2012": "240",
+      "rank2011": "199",
+      "name": "比亚迪电子(国际)有限公司",
+      "operating_receipt_in_million_rmb": "16084",
+      "net_profit_in_million_rmb": "603"
+    },
+    {
+      "url": "http://www.fortunechina.com/china500/141/2012",
+      "rank2012": "241",
+      "rank2011": "219",
+      "name": "中石化冠德控股有限公司",
+      "operating_receipt_in_million_rmb": "15961",
+      "net_profit_in_million_rmb": "173"
+    },
+    {
+      "url": "http://www.fortunechina.com/china500/285/2012",
+      "rank2012": "242",
+      "rank2011": "263",
+      "name": "唐山冀东水泥股份有限公司",
+      "operating_receipt_in_million_rmb": "15728",
+      "net_profit_in_million_rmb": "1525"
+    },
+    {
+      "url": "http://www.fortunechina.com/china500/424/2012",
+      "rank2012": "243",
+      "rank2011": "425",
+      "name": "东方国际创业股份有限公司",
+      "operating_receipt_in_million_rmb": "15655",
+      "net_profit_in_million_rmb": "190"
+    },
+    {
+      "url": "http://www.fortunechina.com/china500/311/2012",
+      "rank2012": "244",
+      "rank2011": "289",
+      "name": "郑州煤电股份有限公司",
+      "operating_receipt_in_million_rmb": "15587",
+      "net_profit_in_million_rmb": "116"
+    },
+    {
+      "url": "http://www.fortunechina.com/china500/171/2012",
+      "rank2012": "245",
+      "rank2011": "188",
+      "name": "魏桥纺织股份有限公司",
+      "operating_receipt_in_million_rmb": "15512",
+      "net_profit_in_million_rmb": "246"
+    },
+    {
+      "url": "http://www.fortunechina.com/china500/507/2012",
+      "rank2012": "246",
+      "rank2011": "202",
+      "name": "玉柴国际有限公司",
+      "operating_receipt_in_million_rmb": "15444",
+      "net_profit_in_million_rmb": "819"
+    },
+    {
+      "url": "http://www.fortunechina.com/china500/312/2012",
+      "rank2012": "247",
+      "rank2011": "242",
+      "name": "神马实业股份有限公司",
+      "operating_receipt_in_million_rmb": "15265",
+      "net_profit_in_million_rmb": "25"
+    },
+    {
+      "url": "http://www.fortunechina.com/china500/214/2012",
+      "rank2012": "248",
+      "rank2011": "232",
+      "name": "国药集团一致药业股份有限公司",
+      "operating_receipt_in_million_rmb": "15130",
+      "net_profit_in_million_rmb": "330"
+    },
+    {
+      "url": "http://www.fortunechina.com/china500/227/2012",
+      "rank2012": "249",
+      "rank2011": "226",
+      "name": "招商局地产控股股份有限公司",
+      "operating_receipt_in_million_rmb": "15111",
+      "net_profit_in_million_rmb": "2592"
+    },
+    {
+      "url": "http://www.fortunechina.com/china500/511/2012",
+      "rank2012": "250",
+      "rank2011": "239",
+      "name": "江苏沙钢股份有限公司",
+      "operating_receipt_in_million_rmb": "15001",
+      "net_profit_in_million_rmb": "278"
+    },
+    {
+      "url": "http://www.fortunechina.com/china500/244/2012",
+      "rank2012": "251",
+      "rank2011": "266",
+      "name": "厦门信达股份有限公司",
+      "operating_receipt_in_million_rmb": "14773",
+      "net_profit_in_million_rmb": "71"
+    },
+    {
+      "url": "http://www.fortunechina.com/china500/284/2012",
+      "rank2012": "252",
+      "rank2011": "230",
+      "name": "山推工程机械股份有限公司",
+      "operating_receipt_in_million_rmb": "14702",
+      "net_profit_in_million_rmb": "479"
+    },
+    {
+      "url": "http://www.fortunechina.com/china500/191/2012",
+      "rank2012": "253",
+      "rank2011": "228",
+      "name": "广深铁路股份有限公司",
+      "operating_receipt_in_million_rmb": "14691",
+      "net_profit_in_million_rmb": "1804"
+    },
+    {
+      "url": "http://www.fortunechina.com/china500/512/2012",
+      "rank2012": "254",
+      "rank2011": "241",
+      "name": "英利绿色能源控股有限公司",
+      "operating_receipt_in_million_rmb": "14678",
+      "net_profit_in_million_rmb": "-3209"
+    },
+    {
+      "url": "http://www.fortunechina.com/china500/194/2012",
+      "rank2012": "255",
+      "rank2011": "236",
+      "name": "广东电力发展股份有限公司",
+      "operating_receipt_in_million_rmb": "14620",
+      "net_profit_in_million_rmb": "356"
+    },
+    {
+      "url": "http://www.fortunechina.com/china500/209/2012",
+      "rank2012": "256",
+      "rank2011": "231",
+      "name": "上海机电股份有限公司",
+      "operating_receipt_in_million_rmb": "14502",
+      "net_profit_in_million_rmb": "711"
+    },
+    {
+      "url": "http://www.fortunechina.com/china500/415/2012",
+      "rank2012": "257",
+      "rank2011": "338",
+      "name": "百度公司",
+      "operating_receipt_in_million_rmb": "14501",
+      "net_profit_in_million_rmb": "6639"
+    },
+    {
+      "url": "http://www.fortunechina.com/china500/239/2012",
+      "rank2012": "258",
+      "rank2011": "274",
+      "name": "大同煤业股份有限公司",
+      "operating_receipt_in_million_rmb": "14418",
+      "net_profit_in_million_rmb": "1089"
+    },
+    {
+      "url": "http://www.fortunechina.com/china500/202/2012",
+      "rank2012": "259",
+      "rank2011": "243",
+      "name": "深圳能源集团股份有限公司",
+      "operating_receipt_in_million_rmb": "14387",
+      "net_profit_in_million_rmb": "1125"
+    },
+    {
+      "url": "http://www.fortunechina.com/china500/238/2012",
+      "rank2012": "260",
+      "rank2011": "234",
+      "name": "凌源钢铁股份有限公司",
+      "operating_receipt_in_million_rmb": "14308",
+      "net_profit_in_million_rmb": "156"
+    },
+    {
+      "url": "http://www.fortunechina.com/china500/166/2012",
+      "rank2012": "261",
+      "rank2011": "215",
+      "name": "上海隧道工程股份有限公司",
+      "operating_receipt_in_million_rmb": "14192",
+      "net_profit_in_million_rmb": "517"
+    },
+    {
+      "url": "http://www.fortunechina.com/china500/353/2012",
+      "rank2012": "262",
+      "rank2011": null,
+      "name": "五矿资源有限公司",
+      "operating_receipt_in_million_rmb": "14048",
+      "net_profit_in_million_rmb": "3408"
+    },
+    {
+      "url": "http://www.fortunechina.com/china500/228/2012",
+      "rank2012": "263",
+      "rank2011": "250",
+      "name": "中百控股集团股份有限公司",
+      "operating_receipt_in_million_rmb": "13864",
+      "net_profit_in_million_rmb": "267"
+    },
+    {
+      "url": "http://www.fortunechina.com/china500/296/2012",
+      "rank2012": "264",
+      "rank2011": "300",
+      "name": "烟台万华聚氨酯股份有限公司",
+      "operating_receipt_in_million_rmb": "13662",
+      "net_profit_in_million_rmb": "1854"
+    },
+    {
+      "url": "http://www.fortunechina.com/china500/260/2012",
+      "rank2012": "265",
+      "rank2011": "253",
+      "name": "内蒙古鄂尔多斯资源股份有限公司",
+      "operating_receipt_in_million_rmb": "13632",
+      "net_profit_in_million_rmb": "876"
+    },
+    {
+      "url": "http://www.fortunechina.com/china500/560/2012",
+      "rank2012": "266",
+      "rank2011": null,
+      "name": "江西赛维LDK太阳能高科技有限公司（美国）",
+      "operating_receipt_in_million_rmb": "13596",
+      "net_profit_in_million_rmb": "-4130"
+    },
+    {
+      "url": "http://www.fortunechina.com/china500/292/2012",
+      "rank2012": "267",
+      "rank2011": "288",
+      "name": "龙元建设集团股份有限公司",
+      "operating_receipt_in_million_rmb": "13496",
+      "net_profit_in_million_rmb": "279"
+    },
+    {
+      "url": "http://www.fortunechina.com/china500/218/2012",
+      "rank2012": "268",
+      "rank2011": "259",
+      "name": "江苏宏图高科技股份有限公司",
+      "operating_receipt_in_million_rmb": "13493",
+      "net_profit_in_million_rmb": "201"
+    },
+    {
+      "url": "http://www.fortunechina.com/china500/220/2012",
+      "rank2012": "269",
+      "rank2011": "240",
+      "name": "哈药集团股份有限公司",
+      "operating_receipt_in_million_rmb": "13487",
+      "net_profit_in_million_rmb": "579"
+    },
+    {
+      "url": "http://www.fortunechina.com/china500/212/2012",
+      "rank2012": "270",
+      "rank2011": "246",
+      "name": "方大特钢科技股份有限公司",
+      "operating_receipt_in_million_rmb": "13334",
+      "net_profit_in_million_rmb": "723"
+    },
+    {
+      "url": "http://www.fortunechina.com/china500/231/2012",
+      "rank2012": "271",
+      "rank2011": "271",
+      "name": "中国建筑国际集团有限公司",
+      "operating_receipt_in_million_rmb": "13334",
+      "net_profit_in_million_rmb": "1222"
+    },
+    {
+      "url": "http://www.fortunechina.com/china500/295/2012",
+      "rank2012": "272",
+      "rank2011": "302",
+      "name": "黑龙江北大荒农业股份有限公司",
+      "operating_receipt_in_million_rmb": "13333",
+      "net_profit_in_million_rmb": "441"
+    },
+    {
+      "url": "http://www.fortunechina.com/china500/278/2012",
+      "rank2012": "273",
+      "rank2011": "304",
+      "name": "山东南山铝业股份有限公司",
+      "operating_receipt_in_million_rmb": "13328",
+      "net_profit_in_million_rmb": "1022"
+    },
+    {
+      "url": "http://www.fortunechina.com/china500/299/2012",
+      "rank2012": "274",
+      "rank2011": "268",
+      "name": "河南中孚实业股份有限公司",
+      "operating_receipt_in_million_rmb": "13186",
+      "net_profit_in_million_rmb": "201"
+    },
+    {
+      "url": "http://www.fortunechina.com/china500/561/2012",
+      "rank2012": "275",
+      "rank2011": null,
+      "name": "天津港发展控股有限公司",
+      "operating_receipt_in_million_rmb": "13159",
+      "net_profit_in_million_rmb": "578"
+    },
+    {
+      "url": "http://www.fortunechina.com/china500/517/2012",
+      "rank2012": "276",
+      "rank2011": "283",
+      "name": "天虹商场股份有限公司",
+      "operating_receipt_in_million_rmb": "13036",
+      "net_profit_in_million_rmb": "574"
+    },
+    {
+      "url": "http://www.fortunechina.com/china500/322/2012",
+      "rank2012": "277",
+      "rank2011": "261",
+      "name": "上海实业控股有限公司",
+      "operating_receipt_in_million_rmb": "12976",
+      "net_profit_in_million_rmb": "3315"
+    },
+    {
+      "url": "http://www.fortunechina.com/china500/160/2012",
+      "rank2012": "278",
+      "rank2011": "334",
+      "name": "中国航空科技工业股份有限公司",
+      "operating_receipt_in_million_rmb": "12945",
+      "net_profit_in_million_rmb": "403"
+    },
+    {
+      "url": "http://www.fortunechina.com/china500/562/2012",
+      "rank2012": "279",
+      "rank2011": null,
+      "name": "常州天合光能有限公司",
+      "operating_receipt_in_million_rmb": "12904",
+      "net_profit_in_million_rmb": "-238"
+    },
+    {
+      "url": "http://www.fortunechina.com/china500/515/2012",
+      "rank2012": "280",
+      "rank2011": "267",
+      "name": "深圳市爱施德股份有限公司",
+      "operating_receipt_in_million_rmb": "12875",
+      "net_profit_in_million_rmb": "359"
+    },
+    {
+      "url": "http://www.fortunechina.com/china500/219/2012",
+      "rank2012": "281",
+      "rank2011": "191",
+      "name": "新疆金风科技股份有限公司",
+      "operating_receipt_in_million_rmb": "12843",
+      "net_profit_in_million_rmb": "607"
+    },
+    {
+      "url": "http://www.fortunechina.com/china500/282/2012",
+      "rank2012": "282",
+      "rank2011": "301",
+      "name": "云南锡业股份有限公司",
+      "operating_receipt_in_million_rmb": "12842",
+      "net_profit_in_million_rmb": "703"
+    },
+    {
+      "url": "http://www.fortunechina.com/china500/287/2012",
+      "rank2012": "283",
+      "rank2011": "249",
+      "name": "中国龙工控股有限公司",
+      "operating_receipt_in_million_rmb": "12778",
+      "net_profit_in_million_rmb": "1730"
+    },
+    {
+      "url": "http://www.fortunechina.com/china500/307/2012",
+      "rank2012": "284",
+      "rank2011": "333",
+      "name": "京东方科技集团股份有限公司",
+      "operating_receipt_in_million_rmb": "12741",
+      "net_profit_in_million_rmb": "561"
+    },
+    {
+      "url": "http://www.fortunechina.com/china500/453/2012",
+      "rank2012": "285",
+      "rank2011": "352",
+      "name": "江苏洋河酒厂股份有限公司",
+      "operating_receipt_in_million_rmb": "12741",
+      "net_profit_in_million_rmb": "4021"
+    },
+    {
+      "url": "http://www.fortunechina.com/china500/263/2012",
+      "rank2012": "286",
+      "rank2011": "270",
+      "name": "武汉武商集团股份有限公司",
+      "operating_receipt_in_million_rmb": "12734",
+      "net_profit_in_million_rmb": "331"
+    },
+    {
+      "url": "http://www.fortunechina.com/china500/233/2012",
+      "rank2012": "287",
+      "rank2011": "256",
+      "name": "天津港股份有限公司",
+      "operating_receipt_in_million_rmb": "12723",
+      "net_profit_in_million_rmb": "930"
+    },
+    {
+      "url": "http://www.fortunechina.com/china500/563/2012",
+      "rank2012": "288",
+      "rank2011": null,
+      "name": "环旭电子股份有限公司",
+      "operating_receipt_in_million_rmb": "12708",
+      "net_profit_in_million_rmb": "452"
+    },
+    {
+      "url": "http://www.fortunechina.com/china500/320/2012",
+      "rank2012": "289",
+      "rank2011": "295",
+      "name": "中国国旅股份有限公司",
+      "operating_receipt_in_million_rmb": "12695",
+      "net_profit_in_million_rmb": "685"
+    },
+    {
+      "url": "http://www.fortunechina.com/china500/564/2012",
+      "rank2012": "290",
+      "rank2011": null,
+      "name": "上海锦江国际酒店（集团）股份有限公司",
+      "operating_receipt_in_million_rmb": "12664",
+      "net_profit_in_million_rmb": "536"
+    },
+    {
+      "url": "http://www.fortunechina.com/china500/286/2012",
+      "rank2012": "291",
+      "rank2011": "319",
+      "name": "华新水泥股份有限公司",
+      "operating_receipt_in_million_rmb": "12638",
+      "net_profit_in_million_rmb": "1075"
+    },
+    {
+      "url": "http://www.fortunechina.com/china500/565/2012",
+      "rank2012": "292",
+      "rank2011": null,
+      "name": "大连华锐重工集团股份有限公司",
+      "operating_receipt_in_million_rmb": "12608",
+      "net_profit_in_million_rmb": "911"
+    },
+    {
+      "url": "http://www.fortunechina.com/china500/116/2012",
+      "rank2012": "293",
+      "rank2011": "136",
+      "name": "北京首钢股份有限公司",
+      "operating_receipt_in_million_rmb": "12516",
+      "net_profit_in_million_rmb": "12"
+    },
+    {
+      "url": "http://www.fortunechina.com/china500/339/2012",
+      "rank2012": "294",
+      "rank2011": "305",
+      "name": "江苏中南建设集团股份有限公司",
+      "operating_receipt_in_million_rmb": "12303",
+      "net_profit_in_million_rmb": "932"
+    },
+    {
+      "url": "http://www.fortunechina.com/china500/246/2012",
+      "rank2012": "295",
+      "rank2011": "257",
+      "name": "中海发展股份有限公司",
+      "operating_receipt_in_million_rmb": "12291",
+      "net_profit_in_million_rmb": "1047"
+    },
+    {
+      "url": "http://www.fortunechina.com/china500/240/2012",
+      "rank2012": "296",
+      "rank2011": "278",
+      "name": "北京燕京啤酒股份有限公司",
+      "operating_receipt_in_million_rmb": "12137",
+      "net_profit_in_million_rmb": "817"
+    },
+    {
+      "url": "http://www.fortunechina.com/china500/384/2012",
+      "rank2012": "297",
+      "rank2011": "279",
+      "name": "华北制药股份有限公司",
+      "operating_receipt_in_million_rmb": "12137",
+      "net_profit_in_million_rmb": "125"
+    },
+    {
+      "url": "http://www.fortunechina.com/china500/249/2012",
+      "rank2012": "298",
+      "rank2011": "286",
+      "name": "人人乐连锁商业集团股份有限公司",
+      "operating_receipt_in_million_rmb": "12092",
+      "net_profit_in_million_rmb": "169"
+    },
+    {
+      "url": "http://www.fortunechina.com/china500/291/2012",
+      "rank2012": "299",
+      "rank2011": "336",
+      "name": "天地科技股份有限公司",
+      "operating_receipt_in_million_rmb": "12009",
+      "net_profit_in_million_rmb": "912"
+    },
+    {
+      "url": "http://www.fortunechina.com/china500/356/2012",
+      "rank2012": "300",
+      "rank2011": "277",
+      "name": "厦门厦工机械股份有限公司",
+      "operating_receipt_in_million_rmb": "11992",
+      "net_profit_in_million_rmb": "573"
+    },
+    {
+      "url": "http://www.fortunechina.com/china500/256/2012",
+      "rank2012": "301",
+      "rank2011": "265",
+      "name": "理文造纸有限公司",
+      "operating_receipt_in_million_rmb": "11988",
+      "net_profit_in_million_rmb": "1342"
+    },
+    {
+      "url": "http://www.fortunechina.com/china500/359/2012",
+      "rank2012": "302",
+      "rank2011": "347",
+      "name": "广东海大集团股份有限公司",
+      "operating_receipt_in_million_rmb": "11976",
+      "net_profit_in_million_rmb": "344"
+    },
+    {
+      "url": "http://www.fortunechina.com/china500/566/2012",
+      "rank2012": "303",
+      "rank2011": null,
+      "name": "阿特斯太阳能有限公司",
+      "operating_receipt_in_million_rmb": "11965",
+      "net_profit_in_million_rmb": "-572"
+    },
+    {
+      "url": "http://www.fortunechina.com/china500/303/2012",
+      "rank2012": "304",
+      "rank2011": "451",
+      "name": "厦门钨业股份有限公司",
+      "operating_receipt_in_million_rmb": "11910",
+      "net_profit_in_million_rmb": "1021"
+    },
+    {
+      "url": "http://www.fortunechina.com/china500/321/2012",
+      "rank2012": "305",
+      "rank2011": "307",
+      "name": "浙江海亮股份有限公司",
+      "operating_receipt_in_million_rmb": "11878",
+      "net_profit_in_million_rmb": "229"
+    },
+    {
+      "url": "http://www.fortunechina.com/china500/262/2012",
+      "rank2012": "306",
+      "rank2011": "296",
+      "name": "光明乳业股份有限公司",
+      "operating_receipt_in_million_rmb": "11789",
+      "net_profit_in_million_rmb": "238"
+    },
+    {
+      "url": "http://www.fortunechina.com/china500/198/2012",
+      "rank2012": "307",
+      "rank2011": "237",
+      "name": "株洲冶炼集团股份有限公司",
+      "operating_receipt_in_million_rmb": "11723",
+      "net_profit_in_million_rmb": "-589"
+    },
+    {
+      "url": "http://www.fortunechina.com/china500/316/2012",
+      "rank2012": "308",
+      "rank2011": "327",
+      "name": "吉林亚泰(集团)股份有限公司",
+      "operating_receipt_in_million_rmb": "11700",
+      "net_profit_in_million_rmb": "748"
+    },
+    {
+      "url": "http://www.fortunechina.com/china500/567/2012",
+      "rank2012": "309",
+      "rank2011": null,
+      "name": "北京首商集团股份有限公司",
+      "operating_receipt_in_million_rmb": "11688",
+      "net_profit_in_million_rmb": "346"
+    },
+    {
+      "url": "http://www.fortunechina.com/china500/301/2012",
+      "rank2012": "310",
+      "rank2011": "322",
+      "name": "河南豫光金铅股份有限公司",
+      "operating_receipt_in_million_rmb": "11668",
+      "net_profit_in_million_rmb": "88"
+    },
+    {
+      "url": "http://www.fortunechina.com/china500/224/2012",
+      "rank2012": "311",
+      "rank2011": "294",
+      "name": "通威股份有限公司",
+      "operating_receipt_in_million_rmb": "11601",
+      "net_profit_in_million_rmb": "84"
+    },
+    {
+      "url": "http://www.fortunechina.com/china500/283/2012",
+      "rank2012": "312",
+      "rank2011": "280",
+      "name": "金发科技股份有限公司",
+      "operating_receipt_in_million_rmb": "11547",
+      "net_profit_in_million_rmb": "955"
+    },
+    {
+      "url": "http://www.fortunechina.com/china500/271/2012",
+      "rank2012": "313",
+      "rank2011": "299",
+      "name": "航天信息股份有限公司",
+      "operating_receipt_in_million_rmb": "11540",
+      "net_profit_in_million_rmb": "987"
+    },
+    {
+      "url": "http://www.fortunechina.com/china500/193/2012",
+      "rank2012": "314",
+      "rank2011": "220",
+      "name": "雅戈尔集团股份有限公司",
+      "operating_receipt_in_million_rmb": "11539",
+      "net_profit_in_million_rmb": "1763"
+    },
+    {
+      "url": "http://www.fortunechina.com/china500/532/2012",
+      "rank2012": "315",
+      "rank2011": "469",
+      "name": "内蒙古包钢稀土(集团)高科技股份有限公司",
+      "operating_receipt_in_million_rmb": "11528",
+      "net_profit_in_million_rmb": "3478"
+    },
+    {
+      "url": "http://www.fortunechina.com/china500/305/2012",
+      "rank2012": "316",
+      "rank2011": "356",
+      "name": "保利(香港)投资有限公司",
+      "operating_receipt_in_million_rmb": "11462",
+      "net_profit_in_million_rmb": "2251"
+    },
+    {
+      "url": "http://www.fortunechina.com/china500/242/2012",
+      "rank2012": "317",
+      "rank2011": "276",
+      "name": "北京华联综合超市股份有限公司",
+      "operating_receipt_in_million_rmb": "11450",
+      "net_profit_in_million_rmb": "58"
+    },
+    {
+      "url": "http://www.fortunechina.com/china500/267/2012",
+      "rank2012": "318",
+      "rank2011": "291",
+      "name": "蓝星化工新材料股份有限公司",
+      "operating_receipt_in_million_rmb": "11395",
+      "net_profit_in_million_rmb": "72"
+    },
+    {
+      "url": "http://www.fortunechina.com/china500/245/2012",
+      "rank2012": "319",
+      "rank2011": "284",
+      "name": "第一拖拉机股份有限公司",
+      "operating_receipt_in_million_rmb": "11338",
+      "net_profit_in_million_rmb": "411"
+    },
+    {
+      "url": "http://www.fortunechina.com/china500/568/2012",
+      "rank2012": "320",
+      "rank2011": null,
+      "name": "华润燃气控股有限公司",
+      "operating_receipt_in_million_rmb": "11313",
+      "net_profit_in_million_rmb": "973"
+    },
+    {
+      "url": "http://www.fortunechina.com/china500/281/2012",
+      "rank2012": "321",
+      "rank2011": "285",
+      "name": "云南白药集团股份有限公司",
+      "operating_receipt_in_million_rmb": "11312",
+      "net_profit_in_million_rmb": "1211"
+    },
+    {
+      "url": "http://www.fortunechina.com/china500/173/2012",
+      "rank2012": "322",
+      "rank2011": "233",
+      "name": "中国西电电气股份有限公司",
+      "operating_receipt_in_million_rmb": "11250",
+      "net_profit_in_million_rmb": "-518"
+    },
+    {
+      "url": "http://www.fortunechina.com/china500/306/2012",
+      "rank2012": "323",
+      "rank2011": "282",
+      "name": "海马汽车集团股份有限公司",
+      "operating_receipt_in_million_rmb": "11214",
+      "net_profit_in_million_rmb": "335"
+    },
+    {
+      "url": "http://www.fortunechina.com/china500/265/2012",
+      "rank2012": "324",
+      "rank2011": "308",
+      "name": "华东医药股份有限公司",
+      "operating_receipt_in_million_rmb": "11131",
+      "net_profit_in_million_rmb": "381"
+    },
+    {
+      "url": "http://www.fortunechina.com/china500/518/2012",
+      "rank2012": "325",
+      "rank2011": "298",
+      "name": "三普药业股份有限公司",
+      "operating_receipt_in_million_rmb": "10995",
+      "net_profit_in_million_rmb": "330"
+    },
+    {
+      "url": "http://www.fortunechina.com/china500/502/2012",
+      "rank2012": "326",
+      "rank2011": "60",
+      "name": "广州汽车集团股份有限公司",
+      "operating_receipt_in_million_rmb": "10984",
+      "net_profit_in_million_rmb": "4272"
+    },
+    {
+      "url": "http://www.fortunechina.com/china500/418/2012",
+      "rank2012": "327",
+      "rank2011": "260",
+      "name": "无锡小天鹅股份有限公司",
+      "operating_receipt_in_million_rmb": "10976",
+      "net_profit_in_million_rmb": "453"
+    },
+    {
+      "url": "http://www.fortunechina.com/china500/232/2012",
+      "rank2012": "328",
+      "rank2011": "264",
+      "name": "五菱汽车集团控股有限公司",
+      "operating_receipt_in_million_rmb": "10963",
+      "net_profit_in_million_rmb": "70"
+    },
+    {
+      "url": "http://www.fortunechina.com/china500/277/2012",
+      "rank2012": "329",
+      "rank2011": "306",
+      "name": "双钱集团股份有限公司",
+      "operating_receipt_in_million_rmb": "10927",
+      "net_profit_in_million_rmb": "177"
+    },
+    {
+      "url": "http://www.fortunechina.com/china500/360/2012",
+      "rank2012": "330",
+      "rank2011": "315",
+      "name": "银座集团股份有限公司",
+      "operating_receipt_in_million_rmb": "10907",
+      "net_profit_in_million_rmb": "116"
+    },
+    {
+      "url": "http://www.fortunechina.com/china500/302/2012",
+      "rank2012": "331",
+      "rank2011": "330",
+      "name": "浙江栋梁新材股份有限公司",
+      "operating_receipt_in_million_rmb": "10874",
+      "net_profit_in_million_rmb": "159"
+    },
+    {
+      "url": "http://www.fortunechina.com/china500/399/2012",
+      "rank2012": "332",
+      "rank2011": "344",
+      "name": "佳兆业集团控股有限公司",
+      "operating_receipt_in_million_rmb": "10843",
+      "net_profit_in_million_rmb": "1901"
+    },
+    {
+      "url": "http://www.fortunechina.com/china500/269/2012",
+      "rank2012": "333",
+      "rank2011": "313",
+      "name": "广州发展实业控股集团股份有限公司",
+      "operating_receipt_in_million_rmb": "10818",
+      "net_profit_in_million_rmb": "384"
+    },
+    {
+      "url": "http://www.fortunechina.com/china500/514/2012",
+      "rank2012": "334",
+      "rank2011": "252",
+      "name": "晶澳太阳能有限公司",
+      "operating_receipt_in_million_rmb": "10733",
+      "net_profit_in_million_rmb": "-564"
+    },
+    {
+      "url": "http://www.fortunechina.com/china500/414/2012",
+      "rank2012": "335",
+      "rank2011": "360",
+      "name": "江西正邦科技股份有限公司",
+      "operating_receipt_in_million_rmb": "10690",
+      "net_profit_in_million_rmb": "119"
+    },
+    {
+      "url": "http://www.fortunechina.com/china500/520/2012",
+      "rank2012": "336",
+      "rank2011": "345",
+      "name": "重庆农村商业银行股份有限公司",
+      "operating_receipt_in_million_rmb": "10677",
+      "net_profit_in_million_rmb": "4246"
+    },
+    {
+      "url": "http://www.fortunechina.com/china500/288/2012",
+      "rank2012": "337",
+      "rank2011": "311",
+      "name": "重庆机电股份有限公司",
+      "operating_receipt_in_million_rmb": "10575",
+      "net_profit_in_million_rmb": "737"
+    },
+    {
+      "url": "http://www.fortunechina.com/china500/569/2012",
+      "rank2012": "338",
+      "rank2011": null,
+      "name": "海南天然橡胶产业集团股份有限公司",
+      "operating_receipt_in_million_rmb": "10528",
+      "net_profit_in_million_rmb": "761"
+    },
+    {
+      "url": "http://www.fortunechina.com/china500/375/2012",
+      "rank2012": "339",
+      "rank2011": "376",
+      "name": "深圳中航集团股份有限公司",
+      "operating_receipt_in_million_rmb": "10504",
+      "net_profit_in_million_rmb": "212"
+    },
+    {
+      "url": "http://www.fortunechina.com/china500/521/2012",
+      "rank2012": "340",
+      "rank2011": "369",
+      "name": "上海申华控股股份有限公司",
+      "operating_receipt_in_million_rmb": "10468",
+      "net_profit_in_million_rmb": "90"
+    },
+    {
+      "url": "http://www.fortunechina.com/china500/570/2012",
+      "rank2012": "341",
+      "rank2011": null,
+      "name": "华锐风电科技（集团）股份有限公司",
+      "operating_receipt_in_million_rmb": "10436",
+      "net_profit_in_million_rmb": "776"
+    },
+    {
+      "url": "http://www.fortunechina.com/china500/261/2012",
+      "rank2012": "342",
+      "rank2011": "292",
+      "name": "太原重工股份有限公司",
+      "operating_receipt_in_million_rmb": "10326",
+      "net_profit_in_million_rmb": "390"
+    },
+    {
+      "url": "http://www.fortunechina.com/china500/178/2012",
+      "rank2012": "343",
+      "rank2011": "273",
+      "name": "中国忠旺控股有限公司",
+      "operating_receipt_in_million_rmb": "10324",
+      "net_profit_in_million_rmb": "1105"
+    },
+    {
+      "url": "http://www.fortunechina.com/china500/491/2012",
+      "rank2012": "344",
+      "rank2011": "364",
+      "name": "经纬纺织机械股份有限公司",
+      "operating_receipt_in_million_rmb": "10251",
+      "net_profit_in_million_rmb": "491"
+    },
+    {
+      "url": "http://www.fortunechina.com/china500/487/2012",
+      "rank2012": "345",
+      "rank2011": "467",
+      "name": "唐山三友化工股份有限公司",
+      "operating_receipt_in_million_rmb": "10240",
+      "net_profit_in_million_rmb": "587"
+    },
+    {
+      "url": "http://www.fortunechina.com/china500/342/2012",
+      "rank2012": "346",
+      "rank2011": "328",
+      "name": "风神轮胎股份有限公司",
+      "operating_receipt_in_million_rmb": "10230",
+      "net_profit_in_million_rmb": "234"
+    },
+    {
+      "url": "http://www.fortunechina.com/china500/440/2012",
+      "rank2012": "347",
+      "rank2011": "392",
+      "name": "苏州金螳螂建筑装饰股份有限公司",
+      "operating_receipt_in_million_rmb": "10145",
+      "net_profit_in_million_rmb": "733"
+    },
+    {
+      "url": "http://www.fortunechina.com/china500/423/2012",
+      "rank2012": "348",
+      "rank2011": "358",
+      "name": "合景泰富地产控股有限公司",
+      "operating_receipt_in_million_rmb": "10137",
+      "net_profit_in_million_rmb": "2103"
+    },
+    {
+      "url": "http://www.fortunechina.com/china500/325/2012",
+      "rank2012": "349",
+      "rank2011": "366",
+      "name": "云南云天化股份有限公司",
+      "operating_receipt_in_million_rmb": "10117",
+      "net_profit_in_million_rmb": "169"
+    },
+    {
+      "url": "http://www.fortunechina.com/china500/412/2012",
+      "rank2012": "350",
+      "rank2011": "357",
+      "name": "沈阳化工股份有限公司",
+      "operating_receipt_in_million_rmb": "10092",
+      "net_profit_in_million_rmb": "210"
+    },
+    {
+      "url": "http://www.fortunechina.com/china500/274/2012",
+      "rank2012": "351",
+      "rank2011": "314",
+      "name": "上海大屯能源股份有限公司",
+      "operating_receipt_in_million_rmb": "10081",
+      "net_profit_in_million_rmb": "1418"
+    },
+    {
+      "url": "http://www.fortunechina.com/china500/403/2012",
+      "rank2012": "352",
+      "rank2011": "426",
+      "name": "中国有色金属建设股份有限公司",
+      "operating_receipt_in_million_rmb": "10017",
+      "net_profit_in_million_rmb": "384"
+    },
+    {
+      "url": "http://www.fortunechina.com/china500/255/2012",
+      "rank2012": "353",
+      "rank2011": "287",
+      "name": "天津一汽夏利汽车股份有限公司",
+      "operating_receipt_in_million_rmb": "9954",
+      "net_profit_in_million_rmb": "109"
+    },
+    {
+      "url": "http://www.fortunechina.com/china500/362/2012",
+      "rank2012": "354",
+      "rank2011": "355",
+      "name": "上海美特斯邦威服饰股份有限公司",
+      "operating_receipt_in_million_rmb": "9945",
+      "net_profit_in_million_rmb": "1206"
+    },
+    {
+      "url": "http://www.fortunechina.com/china500/571/2012",
+      "rank2012": "355",
+      "rank2011": null,
+      "name": "金科地产集团股份有限公司",
+      "operating_receipt_in_million_rmb": "9866",
+      "net_profit_in_million_rmb": "1069"
+    },
+    {
+      "url": "http://www.fortunechina.com/china500/348/2012",
+      "rank2012": "356",
+      "rank2011": "354",
+      "name": "大唐华银电力股份有限公司",
+      "operating_receipt_in_million_rmb": "9837",
+      "net_profit_in_million_rmb": "-195"
+    },
+    {
+      "url": "http://www.fortunechina.com/china500/335/2012",
+      "rank2012": "357",
+      "rank2011": "381",
+      "name": "中海石油化学股份有限公司",
+      "operating_receipt_in_million_rmb": "9773",
+      "net_profit_in_million_rmb": "1986"
+    },
+    {
+      "url": "http://www.fortunechina.com/china500/313/2012",
+      "rank2012": "358",
+      "rank2011": "324",
+      "name": "华电能源股份有限公司",
+      "operating_receipt_in_million_rmb": "9739",
+      "net_profit_in_million_rmb": "8"
+    },
+    {
+      "url": "http://www.fortunechina.com/china500/318/2012",
+      "rank2012": "359",
+      "rank2011": "318",
+      "name": "福耀玻璃工业集团股份有限公司",
+      "operating_receipt_in_million_rmb": "9689",
+      "net_profit_in_million_rmb": "1513"
+    },
+    {
+      "url": "http://www.fortunechina.com/china500/450/2012",
+      "rank2012": "360",
+      "rank2011": "471",
+      "name": "辽宁成大股份有限公司",
+      "operating_receipt_in_million_rmb": "9664",
+      "net_profit_in_million_rmb": "2254"
+    },
+    {
+      "url": "http://www.fortunechina.com/china500/308/2012",
+      "rank2012": "361",
+      "rank2011": "329",
+      "name": "金融街控股股份有限公司",
+      "operating_receipt_in_million_rmb": "9637",
+      "net_profit_in_million_rmb": "2018"
+    },
+    {
+      "url": "http://www.fortunechina.com/china500/329/2012",
+      "rank2012": "362",
+      "rank2011": "331",
+      "name": "沈阳机床股份有限公司",
+      "operating_receipt_in_million_rmb": "9611",
+      "net_profit_in_million_rmb": "105"
+    },
+    {
+      "url": "http://www.fortunechina.com/china500/334/2012",
+      "rank2012": "363",
+      "rank2011": "368",
+      "name": "山东华泰纸业股份有限公司",
+      "operating_receipt_in_million_rmb": "9609",
+      "net_profit_in_million_rmb": "82"
+    },
+    {
+      "url": "http://www.fortunechina.com/china500/400/2012",
+      "rank2012": "364",
+      "rank2011": "258",
+      "name": "湖北能源集团股份有限公司",
+      "operating_receipt_in_million_rmb": "9608",
+      "net_profit_in_million_rmb": "600"
+    },
+    {
+      "url": "http://www.fortunechina.com/china500/449/2012",
+      "rank2012": "365",
+      "rank2011": "349",
+      "name": "铜陵精达特种电磁线股份有限公司",
+      "operating_receipt_in_million_rmb": "9604",
+      "net_profit_in_million_rmb": "109"
+    },
+    {
+      "url": "http://www.fortunechina.com/china500/351/2012",
+      "rank2012": "366",
+      "rank2011": "482",
+      "name": "越秀地产股份有限公司",
+      "operating_receipt_in_million_rmb": "9569",
+      "net_profit_in_million_rmb": "5137"
+    },
+    {
+      "url": "http://www.fortunechina.com/china500/341/2012",
+      "rank2012": "367",
+      "rank2011": "337",
+      "name": "内蒙古亿利能源股份有限公司",
+      "operating_receipt_in_million_rmb": "9537",
+      "net_profit_in_million_rmb": "337"
+    },
+    {
+      "url": "http://www.fortunechina.com/china500/572/2012",
+      "rank2012": "368",
+      "rank2011": null,
+      "name": "河南大有能源股份有限公司",
+      "operating_receipt_in_million_rmb": "9502",
+      "net_profit_in_million_rmb": "1283"
+    },
+    {
+      "url": "http://www.fortunechina.com/china500/524/2012",
+      "rank2012": "369",
+      "rank2011": "396",
+      "name": "荣盛房地产发展股份有限公司",
+      "operating_receipt_in_million_rmb": "9502",
+      "net_profit_in_million_rmb": "1532"
+    },
+    {
+      "url": "http://www.fortunechina.com/china500/519/2012",
+      "rank2012": "370",
+      "rank2011": "320",
+      "name": "志高控股有限公司",
+      "operating_receipt_in_million_rmb": "9364",
+      "net_profit_in_million_rmb": "-138"
+    },
+    {
+      "url": "http://www.fortunechina.com/china500/536/2012",
+      "rank2012": "371",
+      "rank2011": "481",
+      "name": "山东恒邦冶炼股份有限公司",
+      "operating_receipt_in_million_rmb": "9349",
+      "net_profit_in_million_rmb": "218"
+    },
+    {
+      "url": "http://www.fortunechina.com/china500/416/2012",
+      "rank2012": "372",
+      "rank2011": "321",
+      "name": "冠城大通股份有限公司",
+      "operating_receipt_in_million_rmb": "9320",
+      "net_profit_in_million_rmb": "796"
+    },
+    {
+      "url": "http://www.fortunechina.com/china500/297/2012",
+      "rank2012": "373",
+      "rank2011": "348",
+      "name": "鲁西化工集团股份有限公司",
+      "operating_receipt_in_million_rmb": "9316",
+      "net_profit_in_million_rmb": "423"
+    },
+    {
+      "url": "http://www.fortunechina.com/china500/229/2012",
+      "rank2012": "374",
+      "rank2011": "290",
+      "name": "海通证券股份有限公司",
+      "operating_receipt_in_million_rmb": "9293",
+      "net_profit_in_million_rmb": "3103"
+    },
+    {
+      "url": "http://www.fortunechina.com/china500/346/2012",
+      "rank2012": "375",
+      "rank2011": "339",
+      "name": "大冶特殊钢股份有限公司",
+      "operating_receipt_in_million_rmb": "9262",
+      "net_profit_in_million_rmb": "585"
+    },
+    {
+      "url": "http://www.fortunechina.com/china500/290/2012",
+      "rank2012": "376",
+      "rank2011": "359",
+      "name": "北京京客隆商业集团股份有限公司",
+      "operating_receipt_in_million_rmb": "9179",
+      "net_profit_in_million_rmb": "210"
+    },
+    {
+      "url": "http://www.fortunechina.com/china500/573/2012",
+      "rank2012": "377",
+      "rank2011": null,
+      "name": "河南众品食业股份有限公司",
+      "operating_receipt_in_million_rmb": "9175",
+      "net_profit_in_million_rmb": "405"
+    },
+    {
+      "url": "http://www.fortunechina.com/china500/365/2012",
+      "rank2012": "378",
+      "rank2011": "343",
+      "name": "北京首都开发股份有限公司",
+      "operating_receipt_in_million_rmb": "9042",
+      "net_profit_in_million_rmb": "1877"
+    },
+    {
+      "url": "http://www.fortunechina.com/china500/304/2012",
+      "rank2012": "379",
+      "rank2011": "323",
+      "name": "合肥美菱股份有限公司",
+      "operating_receipt_in_million_rmb": "9004",
+      "net_profit_in_million_rmb": "107"
+    },
+    {
+      "url": "http://www.fortunechina.com/china500/574/2012",
+      "rank2012": "380",
+      "rank2011": null,
+      "name": "仁恒置地集团有限公司",
+      "operating_receipt_in_million_rmb": "8987",
+      "net_profit_in_million_rmb": "1482"
+    },
+    {
+      "url": "http://www.fortunechina.com/china500/257/2012",
+      "rank2012": "381",
+      "rank2011": "297",
+      "name": "李宁有限公司",
+      "operating_receipt_in_million_rmb": "8931",
+      "net_profit_in_million_rmb": "386"
+    },
+    {
+      "url": "http://www.fortunechina.com/china500/332/2012",
+      "rank2012": "382",
+      "rank2011": "361",
+      "name": "安踏体育用品有限公司",
+      "operating_receipt_in_million_rmb": "8910",
+      "net_profit_in_million_rmb": "1730"
+    },
+    {
+      "url": "http://www.fortunechina.com/china500/259/2012",
+      "rank2012": "383",
+      "rank2011": "272",
+      "name": "西安飞机国际航空制造股份有限公司",
+      "operating_receipt_in_million_rmb": "8865",
+      "net_profit_in_million_rmb": "108"
+    },
+    {
+      "url": "http://www.fortunechina.com/china500/330/2012",
+      "rank2012": "384",
+      "rank2011": "332",
+      "name": "山东太阳纸业股份有限公司",
+      "operating_receipt_in_million_rmb": "8762",
+      "net_profit_in_million_rmb": "499"
+    },
+    {
+      "url": "http://www.fortunechina.com/china500/420/2012",
+      "rank2012": "385",
+      "rank2011": "394",
+      "name": "云南云维股份有限公司",
+      "operating_receipt_in_million_rmb": "8756",
+      "net_profit_in_million_rmb": "18"
+    },
+    {
+      "url": "http://www.fortunechina.com/china500/243/2012",
+      "rank2012": "386",
+      "rank2011": "317",
+      "name": "中国第一重型机械股份公司",
+      "operating_receipt_in_million_rmb": "8749",
+      "net_profit_in_million_rmb": "423"
+    },
+    {
+      "url": "http://www.fortunechina.com/china500/575/2012",
+      "rank2012": "387",
+      "rank2011": null,
+      "name": "宁波建工股份有限公司",
+      "operating_receipt_in_million_rmb": "8676",
+      "net_profit_in_million_rmb": "116"
+    },
+    {
+      "url": "http://www.fortunechina.com/china500/469/2012",
+      "rank2012": "388",
+      "rank2011": "350",
+      "name": "TCL通讯科技控股有限公司",
+      "operating_receipt_in_million_rmb": "8672",
+      "net_profit_in_million_rmb": "649"
+    },
+    {
+      "url": "http://www.fortunechina.com/china500/576/2012",
+      "rank2012": "389",
+      "rank2011": null,
+      "name": "中远国际控股有限公司",
+      "operating_receipt_in_million_rmb": "8644",
+      "net_profit_in_million_rmb": "316"
+    },
+    {
+      "url": "http://www.fortunechina.com/china500/522/2012",
+      "rank2012": "390",
+      "rank2011": "383",
+      "name": "力帆实业(集团)股份有限公司",
+      "operating_receipt_in_million_rmb": "8630",
+      "net_profit_in_million_rmb": "390"
+    },
+    {
+      "url": "http://www.fortunechina.com/china500/280/2012",
+      "rank2012": "391",
+      "rank2011": "312",
+      "name": "上海外高桥保税区开发股份有限公司",
+      "operating_receipt_in_million_rmb": "8579",
+      "net_profit_in_million_rmb": "357"
+    },
+    {
+      "url": "http://www.fortunechina.com/china500/537/2012",
+      "rank2012": "392",
+      "rank2011": "487",
+      "name": "瑞安房地产有限公司",
+      "operating_receipt_in_million_rmb": "8573",
+      "net_profit_in_million_rmb": "3428"
+    },
+    {
+      "url": "http://www.fortunechina.com/china500/331/2012",
+      "rank2012": "393",
+      "rank2011": "371",
+      "name": "合肥百货大楼集团股份有限公司",
+      "operating_receipt_in_million_rmb": "8551",
+      "net_profit_in_million_rmb": "505"
+    },
+    {
+      "url": "http://www.fortunechina.com/china500/376/2012",
+      "rank2012": "394",
+      "rank2011": "393",
+      "name": "浙江英特集团股份有限公司",
+      "operating_receipt_in_million_rmb": "8526",
+      "net_profit_in_million_rmb": "187"
+    },
+    {
+      "url": "http://www.fortunechina.com/china500/577/2012",
+      "rank2012": "395",
+      "rank2011": null,
+      "name": "安徽辉隆农资集团股份有限公司",
+      "operating_receipt_in_million_rmb": "8481",
+      "net_profit_in_million_rmb": "98"
+    },
+    {
+      "url": "http://www.fortunechina.com/china500/337/2012",
+      "rank2012": "396",
+      "rank2011": "384",
+      "name": "步步高商业连锁股份有限公司",
+      "operating_receipt_in_million_rmb": "8439",
+      "net_profit_in_million_rmb": "260"
+    },
+    {
+      "url": "http://www.fortunechina.com/china500/419/2012",
+      "rank2012": "397",
+      "rank2011": "462",
+      "name": "泸州老窖股份有限公司",
+      "operating_receipt_in_million_rmb": "8428",
+      "net_profit_in_million_rmb": "2905"
+    },
+    {
+      "url": "http://www.fortunechina.com/china500/310/2012",
+      "rank2012": "398",
+      "rank2011": "417",
+      "name": "中青旅控股股份有限公司",
+      "operating_receipt_in_million_rmb": "8421",
+      "net_profit_in_million_rmb": "267"
+    },
+    {
+      "url": "http://www.fortunechina.com/china500/413/2012",
+      "rank2012": "399",
+      "rank2011": "415",
+      "name": "庆铃汽车股份有限公司",
+      "operating_receipt_in_million_rmb": "8313",
+      "net_profit_in_million_rmb": "354"
+    },
+    {
+      "url": "http://www.fortunechina.com/china500/355/2012",
+      "rank2012": "400",
+      "rank2011": "375",
+      "name": "安徽恒源煤电股份有限公司",
+      "operating_receipt_in_million_rmb": "8312",
+      "net_profit_in_million_rmb": "1013"
+    },
+    {
+      "url": "http://www.fortunechina.com/china500/293/2012",
+      "rank2012": "401",
+      "rank2011": "373",
+      "name": "广州广船国际股份有限公司",
+      "operating_receipt_in_million_rmb": "8296",
+      "net_profit_in_million_rmb": "518"
+    },
+    {
+      "url": "http://www.fortunechina.com/china500/391/2012",
+      "rank2012": "402",
+      "rank2011": "405",
+      "name": "浙江正泰电器股份有限公司",
+      "operating_receipt_in_million_rmb": "8288",
+      "net_profit_in_million_rmb": "824"
+    },
+    {
+      "url": "http://www.fortunechina.com/china500/439/2012",
+      "rank2012": "403",
+      "rank2011": "437",
+      "name": "新疆天山水泥股份有限公司",
+      "operating_receipt_in_million_rmb": "8278",
+      "net_profit_in_million_rmb": "1130"
+    },
+    {
+      "url": "http://www.fortunechina.com/china500/357/2012",
+      "rank2012": "404",
+      "rank2011": "346",
+      "name": "中国南玻集团股份有限公司",
+      "operating_receipt_in_million_rmb": "8271",
+      "net_profit_in_million_rmb": "1178"
+    },
+    {
+      "url": "http://www.fortunechina.com/china500/404/2012",
+      "rank2012": "405",
+      "rank2011": "391",
+      "name": "浙江龙盛集团股份有限公司",
+      "operating_receipt_in_million_rmb": "8229",
+      "net_profit_in_million_rmb": "811"
+    },
+    {
+      "url": "http://www.fortunechina.com/china500/370/2012",
+      "rank2012": "406",
+      "rank2011": "401",
+      "name": "上海紫江企业集团股份有限公司",
+      "operating_receipt_in_million_rmb": "8228",
+      "net_profit_in_million_rmb": "526"
+    },
+    {
+      "url": "http://www.fortunechina.com/china500/476/2012",
+      "rank2012": "407",
+      "rank2011": "455",
+      "name": "浙江巨化股份有限公司",
+      "operating_receipt_in_million_rmb": "8212",
+      "net_profit_in_million_rmb": "1747"
+    },
+    {
+      "url": "http://www.fortunechina.com/china500/366/2012",
+      "rank2012": "408",
+      "rank2011": "372",
+      "name": "西宁特殊钢股份有限公司",
+      "operating_receipt_in_million_rmb": "8208",
+      "net_profit_in_million_rmb": "324"
+    },
+    {
+      "url": "http://www.fortunechina.com/china500/410/2012",
+      "rank2012": "409",
+      "rank2011": "403",
+      "name": "上海海立(集团)股份有限公司",
+      "operating_receipt_in_million_rmb": "8178",
+      "net_profit_in_million_rmb": "174"
+    },
+    {
+      "url": "http://www.fortunechina.com/china500/345/2012",
+      "rank2012": "410",
+      "rank2011": "341",
+      "name": "万向钱潮股份有限公司",
+      "operating_receipt_in_million_rmb": "8173",
+      "net_profit_in_million_rmb": "465"
+    },
+    {
+      "url": "http://www.fortunechina.com/china500/465/2012",
+      "rank2012": "411",
+      "rank2011": "395",
+      "name": "深圳市燃气集团股份有限公司",
+      "operating_receipt_in_million_rmb": "8112",
+      "net_profit_in_million_rmb": "405"
+    },
+    {
+      "url": "http://www.fortunechina.com/china500/523/2012",
+      "rank2012": "412",
+      "rank2011": "388",
+      "name": "郑州煤矿机械集团股份有限公司",
+      "operating_receipt_in_million_rmb": "8060",
+      "net_profit_in_million_rmb": "1194"
+    },
+    {
+      "url": "http://www.fortunechina.com/china500/381/2012",
+      "rank2012": "413",
+      "rank2011": "374",
+      "name": "国投新集能源股份有限公司",
+      "operating_receipt_in_million_rmb": "8056",
+      "net_profit_in_million_rmb": "1348"
+    },
+    {
+      "url": "http://www.fortunechina.com/china500/363/2012",
+      "rank2012": "414",
+      "rank2011": "363",
+      "name": "云南铝业股份有限公司",
+      "operating_receipt_in_million_rmb": "8006",
+      "net_profit_in_million_rmb": "97"
+    },
+    {
+      "url": "http://www.fortunechina.com/china500/431/2012",
+      "rank2012": "415",
+      "rank2011": "428",
+      "name": "宁波银行股份有限公司",
+      "operating_receipt_in_million_rmb": "7966",
+      "net_profit_in_million_rmb": "3254"
+    },
+    {
+      "url": "http://www.fortunechina.com/china500/422/2012",
+      "rank2012": "416",
+      "rank2011": "420",
+      "name": "波司登国际控股有限公司",
+      "operating_receipt_in_million_rmb": "7934",
+      "net_profit_in_million_rmb": "1493"
+    },
+    {
+      "url": "http://www.fortunechina.com/china500/499/2012",
+      "rank2012": "417",
+      "rank2011": "477",
+      "name": "航天通信控股集团股份有限公司",
+      "operating_receipt_in_million_rmb": "7912",
+      "net_profit_in_million_rmb": "151"
+    },
+    {
+      "url": "http://www.fortunechina.com/china500/333/2012",
+      "rank2012": "418",
+      "rank2011": "365",
+      "name": "国电长源电力股份有限公司",
+      "operating_receipt_in_million_rmb": "7908",
+      "net_profit_in_million_rmb": "98"
+    },
+    {
+      "url": "http://www.fortunechina.com/china500/457/2012",
+      "rank2012": "419",
+      "rank2011": "470",
+      "name": "北京大北农科技集团股份有限公司",
+      "operating_receipt_in_million_rmb": "7836",
+      "net_profit_in_million_rmb": "504"
+    },
+    {
+      "url": "http://www.fortunechina.com/china500/578/2012",
+      "rank2012": "420",
+      "rank2011": null,
+      "name": "华夏幸福基业投资开发股份有限公司",
+      "operating_receipt_in_million_rmb": "7790",
+      "net_profit_in_million_rmb": "1358"
+    },
+    {
+      "url": "http://www.fortunechina.com/china500/579/2012",
+      "rank2012": "421",
+      "rank2011": null,
+      "name": "浙江森马服饰股份有限公司",
+      "operating_receipt_in_million_rmb": "7761",
+      "net_profit_in_million_rmb": "1223"
+    },
+    {
+      "url": "http://www.fortunechina.com/china500/525/2012",
+      "rank2012": "422",
+      "rank2011": "402",
+      "name": "山西焦化股份有限公司",
+      "operating_receipt_in_million_rmb": "7753",
+      "net_profit_in_million_rmb": "53"
+    },
+    {
+      "url": "http://www.fortunechina.com/china500/580/2012",
+      "rank2012": "423",
+      "rank2011": null,
+      "name": "招商局国际有限公司",
+      "operating_receipt_in_million_rmb": "7707",
+      "net_profit_in_million_rmb": "4515"
+    },
+    {
+      "url": "http://www.fortunechina.com/china500/530/2012",
+      "rank2012": "424",
+      "rank2011": "457",
+      "name": "山东金正大生态工程股份有限公司",
+      "operating_receipt_in_million_rmb": "7627",
+      "net_profit_in_million_rmb": "436"
+    },
+    {
+      "url": "http://www.fortunechina.com/china500/343/2012",
+      "rank2012": "425",
+      "rank2011": "431",
+      "name": "山西兰花科技创业股份有限公司",
+      "operating_receipt_in_million_rmb": "7608",
+      "net_profit_in_million_rmb": "1663"
+    },
+    {
+      "url": "http://www.fortunechina.com/china500/317/2012",
+      "rank2012": "426",
+      "rank2011": "406",
+      "name": "北京顺鑫农业股份有限公司",
+      "operating_receipt_in_million_rmb": "7580",
+      "net_profit_in_million_rmb": "307"
+    },
+    {
+      "url": "http://www.fortunechina.com/china500/395/2012",
+      "rank2012": "427",
+      "rank2011": "408",
+      "name": "贵州轮胎股份有限公司",
+      "operating_receipt_in_million_rmb": "7536",
+      "net_profit_in_million_rmb": "95"
+    },
+    {
+      "url": "http://www.fortunechina.com/china500/352/2012",
+      "rank2012": "428",
+      "rank2011": "378",
+      "name": "山东海化股份有限公司",
+      "operating_receipt_in_million_rmb": "7534",
+      "net_profit_in_million_rmb": "389"
+    },
+    {
+      "url": "http://www.fortunechina.com/china500/581/2012",
+      "rank2012": "429",
+      "rank2011": null,
+      "name": "江苏汇鸿股份有限公司",
+      "operating_receipt_in_million_rmb": "7470",
+      "net_profit_in_million_rmb": "65"
+    },
+    {
+      "url": "http://www.fortunechina.com/china500/409/2012",
+      "rank2012": "430",
+      "rank2011": "459",
+      "name": "贵州盘江精煤股份有限公司",
+      "operating_receipt_in_million_rmb": "7465",
+      "net_profit_in_million_rmb": "1705"
+    },
+    {
+      "url": "http://www.fortunechina.com/china500/485/2012",
+      "rank2012": "431",
+      "rank2011": "466",
+      "name": "南京银行股份有限公司",
+      "operating_receipt_in_million_rmb": "7463",
+      "net_profit_in_million_rmb": "3212"
+    },
+    {
+      "url": "http://www.fortunechina.com/china500/336/2012",
+      "rank2012": "432",
+      "rank2011": "387",
+      "name": "江苏宁沪高速公路股份有限公司",
+      "operating_receipt_in_million_rmb": "7401",
+      "net_profit_in_million_rmb": "2430"
+    },
+    {
+      "url": "http://www.fortunechina.com/china500/582/2012",
+      "rank2012": "433",
+      "rank2011": null,
+      "name": "中粮生物化学（安徽）股份有限公司",
+      "operating_receipt_in_million_rmb": "7401",
+      "net_profit_in_million_rmb": "355"
+    },
+    {
+      "url": "http://www.fortunechina.com/china500/583/2012",
+      "rank2012": "434",
+      "rank2011": null,
+      "name": "晶科能源控股有限公司",
+      "operating_receipt_in_million_rmb": "7385",
+      "net_profit_in_million_rmb": "273"
+    },
+    {
+      "url": "http://www.fortunechina.com/china500/177/2012",
+      "rank2012": "435",
+      "rank2011": "367",
+      "name": "海洋石油工程股份有限公司",
+      "operating_receipt_in_million_rmb": "7385",
+      "net_profit_in_million_rmb": "181"
+    },
+    {
+      "url": "http://www.fortunechina.com/china500/406/2012",
+      "rank2012": "436",
+      "rank2011": "370",
+      "name": "金堆城钼业股份有限公司",
+      "operating_receipt_in_million_rmb": "7333",
+      "net_profit_in_million_rmb": "736"
+    },
+    {
+      "url": "http://www.fortunechina.com/china500/298/2012",
+      "rank2012": "437",
+      "rank2011": "379",
+      "name": "大亚科技股份有限公司",
+      "operating_receipt_in_million_rmb": "7313",
+      "net_profit_in_million_rmb": "140"
+    },
+    {
+      "url": "http://www.fortunechina.com/china500/470/2012",
+      "rank2012": "438",
+      "rank2011": "454",
+      "name": "网易公司",
+      "operating_receipt_in_million_rmb": "7291",
+      "net_profit_in_million_rmb": "3234"
+    },
+    {
+      "url": "http://www.fortunechina.com/china500/340/2012",
+      "rank2012": "439",
+      "rank2011": "362",
+      "name": "中国高速传动设备集团有限公司",
+      "operating_receipt_in_million_rmb": "7276",
+      "net_profit_in_million_rmb": "557"
+    },
+    {
+      "url": "http://www.fortunechina.com/china500/392/2012",
+      "rank2012": "440",
+      "rank2011": "407",
+      "name": "中国医药保健品股份有限公司",
+      "operating_receipt_in_million_rmb": "7269",
+      "net_profit_in_million_rmb": "269"
+    },
+    {
+      "url": "http://www.fortunechina.com/china500/584/2012",
+      "rank2012": "441",
+      "rank2011": null,
+      "name": "浙江亚厦装饰股份有限公司",
+      "operating_receipt_in_million_rmb": "7253",
+      "net_profit_in_million_rmb": "449"
+    },
+    {
+      "url": "http://www.fortunechina.com/china500/279/2012",
+      "rank2012": "442",
+      "rank2011": "389",
+      "name": "内蒙古蒙电华能热电股份有限公司",
+      "operating_receipt_in_million_rmb": "7233",
+      "net_profit_in_million_rmb": "655"
+    },
+    {
+      "url": "http://www.fortunechina.com/china500/270/2012",
+      "rank2012": "443",
+      "rank2011": "390",
+      "name": "二重集团(德阳)重型装备股份有限公司",
+      "operating_receipt_in_million_rmb": "7220",
+      "net_profit_in_million_rmb": "-140"
+    },
+    {
+      "url": "http://www.fortunechina.com/china500/425/2012",
+      "rank2012": "444",
+      "rank2011": "499",
+      "name": "浙江东方集团股份有限公司",
+      "operating_receipt_in_million_rmb": "7211",
+      "net_profit_in_million_rmb": "220"
+    },
+    {
+      "url": "http://www.fortunechina.com/china500/402/2012",
+      "rank2012": "445",
+      "rank2011": "430",
+      "name": "广州市广百股份有限公司",
+      "operating_receipt_in_million_rmb": "7185",
+      "net_profit_in_million_rmb": "214"
+    },
+    {
+      "url": "http://www.fortunechina.com/china500/534/2012",
+      "rank2012": "446",
+      "rank2011": "474",
+      "name": "中工国际工程股份有限公司",
+      "operating_receipt_in_million_rmb": "7175",
+      "net_profit_in_million_rmb": "463"
+    },
+    {
+      "url": "http://www.fortunechina.com/china500/585/2012",
+      "rank2012": "447",
+      "rank2011": null,
+      "name": "海润光伏科技股份有限公司",
+      "operating_receipt_in_million_rmb": "7132",
+      "net_profit_in_million_rmb": "402"
+    },
+    {
+      "url": "http://www.fortunechina.com/china500/438/2012",
+      "rank2012": "448",
+      "rank2011": "441",
+      "name": "浙江苏泊尔股份有限公司",
+      "operating_receipt_in_million_rmb": "7126",
+      "net_profit_in_million_rmb": "476"
+    },
+    {
+      "url": "http://www.fortunechina.com/china500/586/2012",
+      "rank2012": "449",
+      "rank2011": null,
+      "name": "新疆中泰化学（集团）股份有限公司",
+      "operating_receipt_in_million_rmb": "7122",
+      "net_profit_in_million_rmb": "490"
+    },
+    {
+      "url": "http://www.fortunechina.com/china500/347/2012",
+      "rank2012": "450",
+      "rank2011": "404",
+      "name": "无锡商业大厦大东方股份有限公司",
+      "operating_receipt_in_million_rmb": "7094",
+      "net_profit_in_million_rmb": "207"
+    },
+    {
+      "url": "http://www.fortunechina.com/china500/398/2012",
+      "rank2012": "451",
+      "rank2011": "438",
+      "name": "烽火通信科技股份有限公司",
+      "operating_receipt_in_million_rmb": "7052",
+      "net_profit_in_million_rmb": "446"
+    },
+    {
+      "url": "http://www.fortunechina.com/china500/587/2012",
+      "rank2012": "452",
+      "rank2011": null,
+      "name": "株洲南车时代电气股份有限公司",
+      "operating_receipt_in_million_rmb": "7045",
+      "net_profit_in_million_rmb": "1184"
+    },
+    {
+      "url": "http://www.fortunechina.com/china500/364/2012",
+      "rank2012": "453",
+      "rank2011": "427",
+      "name": "国药集团药业股份有限公司",
+      "operating_receipt_in_million_rmb": "7042",
+      "net_profit_in_million_rmb": "271"
+    },
+    {
+      "url": "http://www.fortunechina.com/china500/588/2012",
+      "rank2012": "454",
+      "rank2011": null,
+      "name": "云南煤业能源股份有限公司",
+      "operating_receipt_in_million_rmb": "7028",
+      "net_profit_in_million_rmb": "188"
+    },
+    {
+      "url": "http://www.fortunechina.com/china500/527/2012",
+      "rank2012": "455",
+      "rank2011": "418",
+      "name": "深圳市怡亚通供应链股份有限公司",
+      "operating_receipt_in_million_rmb": "7025",
+      "net_profit_in_million_rmb": "135"
+    },
+    {
+      "url": "http://www.fortunechina.com/china500/528/2012",
+      "rank2012": "456",
+      "rank2011": "421",
+      "name": "宁波港股份有限公司",
+      "operating_receipt_in_million_rmb": "6983",
+      "net_profit_in_million_rmb": "2468"
+    },
+    {
+      "url": "http://www.fortunechina.com/china500/493/2012",
+      "rank2012": "457",
+      "rank2011": "412",
+      "name": "长春一汽富维汽车零部件股份有限公司",
+      "operating_receipt_in_million_rmb": "6981",
+      "net_profit_in_million_rmb": "428"
+    },
+    {
+      "url": "http://www.fortunechina.com/china500/589/2012",
+      "rank2012": "458",
+      "rank2011": null,
+      "name": "中文天地出版传媒股份有限公司",
+      "operating_receipt_in_million_rmb": "6981",
+      "net_profit_in_million_rmb": "483"
+    },
+    {
+      "url": "http://www.fortunechina.com/china500/542/2012",
+      "rank2012": "459",
+      "rank2011": "495",
+      "name": "岳阳林纸股份有限公司",
+      "operating_receipt_in_million_rmb": "6965",
+      "net_profit_in_million_rmb": "154"
+    },
+    {
+      "url": "http://www.fortunechina.com/china500/458/2012",
+      "rank2012": "460",
+      "rank2011": "472",
+      "name": "长春欧亚集团股份有限公司",
+      "operating_receipt_in_million_rmb": "6958",
+      "net_profit_in_million_rmb": "162"
+    },
+    {
+      "url": "http://www.fortunechina.com/china500/590/2012",
+      "rank2012": "461",
+      "rank2011": null,
+      "name": "北京昊华能源股份有限公司",
+      "operating_receipt_in_million_rmb": "6951",
+      "net_profit_in_million_rmb": "1302"
+    },
+    {
+      "url": "http://www.fortunechina.com/china500/591/2012",
+      "rank2012": "462",
+      "rank2011": null,
+      "name": "港中旅华贸国际物流股份有限公司",
+      "operating_receipt_in_million_rmb": "6946",
+      "net_profit_in_million_rmb": "103"
+    },
+    {
+      "url": "http://www.fortunechina.com/china500/462/2012",
+      "rank2012": "463",
+      "rank2011": "435",
+      "name": "宝胜科技创新股份有限公司",
+      "operating_receipt_in_million_rmb": "6935",
+      "net_profit_in_million_rmb": "18"
+    },
+    {
+      "url": "http://www.fortunechina.com/china500/324/2012",
+      "rank2012": "464",
+      "rank2011": "385",
+      "name": "浙江沪杭甬高速公路股份有限公司",
+      "operating_receipt_in_million_rmb": "6913",
+      "net_profit_in_million_rmb": "1805"
+    },
+    {
+      "url": "http://www.fortunechina.com/china500/387/2012",
+      "rank2012": "465",
+      "rank2011": "340",
+      "name": "葫芦岛锌业股份有限公司",
+      "operating_receipt_in_million_rmb": "6899",
+      "net_profit_in_million_rmb": "-1085"
+    },
+    {
+      "url": "http://www.fortunechina.com/china500/535/2012",
+      "rank2012": "466",
+      "rank2011": "478",
+      "name": "梅花生物科技集团股份有限公司",
+      "operating_receipt_in_million_rmb": "6866",
+      "net_profit_in_million_rmb": "720"
+    },
+    {
+      "url": "http://www.fortunechina.com/china500/592/2012",
+      "rank2012": "467",
+      "rank2011": null,
+      "name": "华菱星马汽车（集团）股份有限公司",
+      "operating_receipt_in_million_rmb": "6854",
+      "net_profit_in_million_rmb": "505"
+    },
+    {
+      "url": "http://www.fortunechina.com/china500/593/2012",
+      "rank2012": "468",
+      "rank2011": null,
+      "name": "中集安瑞科控股有限公司",
+      "operating_receipt_in_million_rmb": "6812",
+      "net_profit_in_million_rmb": "567"
+    },
+    {
+      "url": "http://www.fortunechina.com/china500/371/2012",
+      "rank2012": "469",
+      "rank2011": "416",
+      "name": "西安航空动力股份有限公司",
+      "operating_receipt_in_million_rmb": "6806",
+      "net_profit_in_million_rmb": "259"
+    },
+    {
+      "url": "http://www.fortunechina.com/china500/594/2012",
+      "rank2012": "470",
+      "rank2011": null,
+      "name": "青海盐湖工业股份有限公司",
+      "operating_receipt_in_million_rmb": "6778",
+      "net_profit_in_million_rmb": "2481"
+    },
+    {
+      "url": "http://www.fortunechina.com/china500/294/2012",
+      "rank2012": "471",
+      "rank2011": "447",
+      "name": "广州东凌粮油股份有限公司",
+      "operating_receipt_in_million_rmb": "6723",
+      "net_profit_in_million_rmb": "-188"
+    },
+    {
+      "url": "http://www.fortunechina.com/china500/595/2012",
+      "rank2012": "472",
+      "rank2011": null,
+      "name": "四川路桥建设股份有限公司",
+      "operating_receipt_in_million_rmb": "6716",
+      "net_profit_in_million_rmb": "153"
+    },
+    {
+      "url": "http://www.fortunechina.com/china500/354/2012",
+      "rank2012": "473",
+      "rank2011": "399",
+      "name": "首创置业股份有限公司",
+      "operating_receipt_in_million_rmb": "6707",
+      "net_profit_in_million_rmb": "955"
+    },
+    {
+      "url": "http://www.fortunechina.com/china500/596/2012",
+      "rank2012": "474",
+      "rank2011": null,
+      "name": "江苏亨通光电股份有限公司",
+      "operating_receipt_in_million_rmb": "6689",
+      "net_profit_in_million_rmb": "243"
+    },
+    {
+      "url": "http://www.fortunechina.com/china500/300/2012",
+      "rank2012": "475",
+      "rank2011": "326",
+      "name": "新湖中宝股份有限公司",
+      "operating_receipt_in_million_rmb": "6688",
+      "net_profit_in_million_rmb": "1407"
+    },
+    {
+      "url": "http://www.fortunechina.com/china500/369/2012",
+      "rank2012": "476",
+      "rank2011": "424",
+      "name": "上海申达股份有限公司",
+      "operating_receipt_in_million_rmb": "6646",
+      "net_profit_in_million_rmb": "216"
+    },
+    {
+      "url": "http://www.fortunechina.com/china500/378/2012",
+      "rank2012": "477",
+      "rank2011": "398",
+      "name": "龙建路桥股份有限公司",
+      "operating_receipt_in_million_rmb": "6608",
+      "net_profit_in_million_rmb": "36"
+    },
+    {
+      "url": "http://www.fortunechina.com/china500/426/2012",
+      "rank2012": "478",
+      "rank2011": "485",
+      "name": "南京中央商场(集团)股份有限公司",
+      "operating_receipt_in_million_rmb": "6579",
+      "net_profit_in_million_rmb": "53"
+    },
+    {
+      "url": "http://www.fortunechina.com/china500/597/2012",
+      "rank2012": "479",
+      "rank2011": null,
+      "name": "河南明泰铝业股份有限公司",
+      "operating_receipt_in_million_rmb": "6573",
+      "net_profit_in_million_rmb": "256"
+    },
+    {
+      "url": "http://www.fortunechina.com/china500/598/2012",
+      "rank2012": "480",
+      "rank2011": null,
+      "name": "天士力制药集团股份有限公司",
+      "operating_receipt_in_million_rmb": "6570",
+      "net_profit_in_million_rmb": "611"
+    },
+    {
+      "url": "http://www.fortunechina.com/china500/599/2012",
+      "rank2012": "481",
+      "rank2011": null,
+      "name": "湖北兴发化工集团股份有限公司",
+      "operating_receipt_in_million_rmb": "6569",
+      "net_profit_in_million_rmb": "232"
+    },
+    {
+      "url": "http://www.fortunechina.com/china500/488/2012",
+      "rank2012": "482",
+      "rank2011": "458",
+      "name": "上海交运股份有限公司",
+      "operating_receipt_in_million_rmb": "6547",
+      "net_profit_in_million_rmb": "191"
+    },
+    {
+      "url": "http://www.fortunechina.com/china500/393/2012",
+      "rank2012": "483",
+      "rank2011": "439",
+      "name": "内蒙古霍林河露天煤业股份有限公司",
+      "operating_receipt_in_million_rmb": "6502",
+      "net_profit_in_million_rmb": "1600"
+    },
+    {
+      "url": "http://www.fortunechina.com/china500/190/2012",
+      "rank2012": "484",
+      "rank2011": "309",
+      "name": "华晨中国汽车控股有限公司",
+      "operating_receipt_in_million_rmb": "6490",
+      "net_profit_in_million_rmb": "1812"
+    },
+    {
+      "url": "http://www.fortunechina.com/china500/273/2012",
+      "rank2012": "485",
+      "rank2011": "303",
+      "name": "嘉凯城集团股份有限公司",
+      "operating_receipt_in_million_rmb": "6485",
+      "net_profit_in_million_rmb": "206"
+    },
+    {
+      "url": "http://www.fortunechina.com/china500/463/2012",
+      "rank2012": "486",
+      "rank2011": "449",
+      "name": "阿里巴巴网络有限公司",
+      "operating_receipt_in_million_rmb": "6447",
+      "net_profit_in_million_rmb": "1713"
+    },
+    {
+      "url": "http://www.fortunechina.com/china500/600/2012",
+      "rank2012": "487",
+      "rank2011": null,
+      "name": "文峰大世界连锁发展股份有限公司",
+      "operating_receipt_in_million_rmb": "6442",
+      "net_profit_in_million_rmb": "434"
+    },
+    {
+      "url": "http://www.fortunechina.com/china500/601/2012",
+      "rank2012": "488",
+      "rank2011": null,
+      "name": "韩华新能源有限公司",
+      "operating_receipt_in_million_rmb": "6416",
+      "net_profit_in_million_rmb": "-930"
+    },
+    {
+      "url": "http://www.fortunechina.com/china500/602/2012",
+      "rank2012": "489",
+      "rank2011": null,
+      "name": "赛轮股份有限公司",
+      "operating_receipt_in_million_rmb": "6390",
+      "net_profit_in_million_rmb": "105"
+    },
+    {
+      "url": "http://www.fortunechina.com/china500/358/2012",
+      "rank2012": "490",
+      "rank2011": "422",
+      "name": "重庆太极实业(集团)股份有限公司",
+      "operating_receipt_in_million_rmb": "6386",
+      "net_profit_in_million_rmb": "21"
+    },
+    {
+      "url": "http://www.fortunechina.com/china500/377/2012",
+      "rank2012": "491",
+      "rank2011": "463",
+      "name": "华润双鹤药业股份有限公司",
+      "operating_receipt_in_million_rmb": "6383",
+      "net_profit_in_million_rmb": "529"
+    },
+    {
+      "url": "http://www.fortunechina.com/china500/427/2012",
+      "rank2012": "492",
+      "rank2011": "433",
+      "name": "青岛双星股份有限公司",
+      "operating_receipt_in_million_rmb": "6315",
+      "net_profit_in_million_rmb": "36"
+    },
+    {
+      "url": "http://www.fortunechina.com/china500/468/2012",
+      "rank2012": "493",
+      "rank2011": "488",
+      "name": "云南驰宏锌锗股份有限公司",
+      "operating_receipt_in_million_rmb": "6315",
+      "net_profit_in_million_rmb": "359"
+    },
+    {
+      "url": "http://www.fortunechina.com/china500/533/2012",
+      "rank2012": "494",
+      "rank2011": "473",
+      "name": "安徽合力股份有限公司",
+      "operating_receipt_in_million_rmb": "6291",
+      "net_profit_in_million_rmb": "386"
+    },
+    {
+      "url": "http://www.fortunechina.com/china500/445/2012",
+      "rank2012": "495",
+      "rank2011": "414",
+      "name": "辽宁曙光汽车集团股份有限公司",
+      "operating_receipt_in_million_rmb": "6248",
+      "net_profit_in_million_rmb": "178"
+    },
+    {
+      "url": "http://www.fortunechina.com/china500/372/2012",
+      "rank2012": "496",
+      "rank2011": "386",
+      "name": "湘潭电机股份有限公司",
+      "operating_receipt_in_million_rmb": "6248",
+      "net_profit_in_million_rmb": "139"
+    },
+    {
+      "url": "http://www.fortunechina.com/china500/237/2012",
+      "rank2012": "497",
+      "rank2011": "310",
+      "name": "华泰证券股份有限公司",
+      "operating_receipt_in_million_rmb": "6230",
+      "net_profit_in_million_rmb": "1784"
+    },
+    {
+      "url": "http://www.fortunechina.com/china500/266/2012",
+      "rank2012": "498",
+      "rank2011": "325",
+      "name": "方正科技集团股份有限公司",
+      "operating_receipt_in_million_rmb": "6222",
+      "net_profit_in_million_rmb": "152"
+    },
+    {
+      "url": "http://www.fortunechina.com/china500/380/2012",
+      "rank2012": "499",
+      "rank2011": "434",
+      "name": "北京首都国际机场股份有限公司",
+      "operating_receipt_in_million_rmb": "6215",
+      "net_profit_in_million_rmb": "1114"
+    },
+    {
+      "url": "http://www.fortunechina.com/china500/603/2012",
+      "rank2012": "500",
+      "rank2011": null,
+      "name": "昱辉光能公司",
+      "operating_receipt_in_million_rmb": "6208",
+      "net_profit_in_million_rmb": "2"
+    }
+  ]
+}
