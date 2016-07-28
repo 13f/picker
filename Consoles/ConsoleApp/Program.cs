@@ -82,6 +82,11 @@ namespace ConsoleApp {
       //string tableKey = "<table class=\"rankingtable\"";
       //string file = @"E:\github\picker\data\organization\fortune\global500-2007";
       //Fortune.PickToJson2007( "http://www.fortunechina.com/fortune500/c/2007-10/15/content_9517.htm", tableKey, "rank2007", file, 10 );
+      // global 2016 // 0k: 2016-7-28
+      Fortune.PickToJson( "http://www.fortunechina.com/fortune500/c/2016-07/20/content_266955.htm",
+        "<table id=\"yytable",
+        "rank2016", "rank2015",
+        @"E:\github\picker\data\organization\fortune\global500-2016" ); // ok
 
       #endregion Fortune Global 500
 
@@ -118,6 +123,10 @@ namespace ConsoleApp {
       //  @"E:\github\picker\data\organization\fortune\china500-2010" ); // ok
 
       #endregion Fortune China 500
+
+      #region Fortune USA 500
+
+      #endregion Fortune USA 500
 
       // emoji // ok @2016-4-27
       //string targetDir = @"E:\github\picker\data\emotion\";

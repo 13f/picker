@@ -108,6 +108,12 @@ namespace ConsoleApp {
         );
       config.Add( country );
 
+      JObject linkedin = new JObject(
+        new JProperty( "name", "linkedin" ),
+        new JProperty( "title", "Linkedin" )
+        );
+      config.Add( linkedin );
+
       return config;
     }
 
@@ -397,17 +403,25 @@ namespace ConsoleApp {
         XElement td1 = (XElement)row.FirstNode;
         XElement td2 = (XElement)td1.NextNode;
         XElement td3 = (XElement)td2.NextNode;
-
-        // href="../../../../global500/3/2014"
-        string url = td3.Element( "a" ).Attribute( "href" ).Value;
-        url = url.Replace( "../../../..", domain );
-
         XElement td4 = (XElement)td3.NextNode;
         XElement td5 = (XElement)td4.NextNode;
         XElement td6 = (XElement)td5.NextNode;
 
         JObject jo = new JObject();
-        jo["url"] = url;
+
+        var alist = td3.Elements( "a" );
+        if ( alist.Count() > 0 ) { // url
+          var a = alist.ElementAt( 0 );
+          // href="../../../../global500/3/2014"
+          string url = a.Attribute( "href" ).Value;
+          url = url.Replace( "../../../..", domain );
+          jo["url"] = url;
+        }
+        if ( alist.Count() == 2 ) { // linkedin
+          var a = alist.ElementAt( 1 );
+          jo["linkedin"] = a.Attribute( "href" ).Value;
+        }
+
         jo[strRankCurrentYear] = td1.Value;
         jo[strRankLastYear] = td2.Value;
         jo["name"] = td3.Value;
@@ -419,7 +433,7 @@ namespace ConsoleApp {
 
         result.Add( jo );
 
-        Console.WriteLine( "item: " + td1.Value + " >> " + url );
+        Console.WriteLine( "item: " + td1.Value + " >> " + td3.Value );
       }
 
       return result;
