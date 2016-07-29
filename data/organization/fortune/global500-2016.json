@@ -1,0 +1,4983 @@
+﻿{
+  "title": "2016年财富世界500强排行榜",
+  "url": "http://www.fortunechina.com/fortune500/c/2016-07/20/content_266955.htm",
+  "tags": [
+    {
+      "content": "2016; fortune; world; global; 500",
+      "language": "us"
+    },
+    {
+      "content": "2016年; 财富; 世界; 500强",
+      "language": "zh-hans"
+    }
+  ],
+  "publishedAt": "2016-7-20",
+  "config": [
+    {
+      "name": "rank2016",
+      "title": "rank2016"
+    },
+    {
+      "name": "rank2015",
+      "title": "rank2015"
+    },
+    {
+      "name": "name",
+      "title": "名称"
+    },
+    {
+      "name": "operating_receipt_in_million_dollars",
+      "title": "营业收入（百万美元）"
+    },
+    {
+      "name": "profit_in_million_dollars",
+      "title": "利润（百万美元）"
+    },
+    {
+      "name": "net_profit_last_year_in_million_dollars",
+      "title": "上一年净利润（百万美元）"
+    },
+    {
+      "name": "asset_in_million_dollars",
+      "title": "资产（百万美元）"
+    },
+    {
+      "name": "shareholders_equity_in_million_dollars",
+      "title": "股东权益（百万美元）"
+    },
+    {
+      "name": "market_value_in_million_dollars",
+      "title": "市值（百万美元）"
+    },
+    {
+      "name": "industry",
+      "title": "行业"
+    },
+    {
+      "name": "stock_code",
+      "title": "股票代码"
+    },
+    {
+      "name": "employees",
+      "title": "雇员人数"
+    },
+    {
+      "name": "region",
+      "title": "区域"
+    },
+    {
+      "name": "linkedin",
+      "title": "Linkedin"
+    }
+  ],
+  "data": [
+    {
+      "url": "http://www.fortunechina.com/global500/3/2016",
+      "linkedin": "https://www.linkedin.com/company/walmart",
+      "rank2016": "1",
+      "rank2015": "1",
+      "name": "沃尔玛（WAL-MART STORES)",
+      "operating_receipt_in_million_dollars": "482,130",
+      "profit_in_million_dollars": "14,694",
+      "region": "美国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/15/2016",
+      "linkedin": "https://www.linkedin.com/company/state-grid-corporation-of-china",
+      "rank2016": "2",
+      "rank2015": "7",
+      "name": "国家电网公司（STATE GRID)",
+      "operating_receipt_in_million_dollars": "329,601.3",
+      "profit_in_million_dollars": "10,201.4",
+      "region": "中国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/13/2016",
+      "linkedin": "https://www.linkedin.com/company/china-national-petroleum-corporation",
+      "rank2016": "3",
+      "rank2015": "4",
+      "name": "中国石油天然气集团公司（CHINA NATIONAL PETROLEUM)",
+      "operating_receipt_in_million_dollars": "299,270.6",
+      "profit_in_million_dollars": "7,090.6",
+      "region": "中国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/9/2016",
+      "linkedin": "https://www.linkedin.com/company/sinopec",
+      "rank2016": "4",
+      "rank2015": "2",
+      "name": "中国石油化工集团公司（SINOPEC GROUP)",
+      "operating_receipt_in_million_dollars": "294,344.4",
+      "profit_in_million_dollars": "3,594.8",
+      "region": "中国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/1/2016",
+      "linkedin": "https://www.linkedin.com/company/shell",
+      "rank2016": "5",
+      "rank2015": "3",
+      "name": "荷兰皇家壳牌石油公司（ROYAL DUTCH SHELL)",
+      "operating_receipt_in_million_dollars": "272,156",
+      "profit_in_million_dollars": "1,939",
+      "region": "荷兰"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/2/2016",
+      "linkedin": "https://www.linkedin.com/company/exxonmobil",
+      "rank2016": "6",
+      "rank2015": "5",
+      "name": "埃克森美孚（EXXON MOBIL)",
+      "operating_receipt_in_million_dollars": "246,204",
+      "profit_in_million_dollars": "16,150",
+      "region": "美国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/14/2016",
+      "linkedin": "https://www.linkedin.com/company/volkswagen-ag",
+      "rank2016": "7",
+      "rank2015": "8",
+      "name": "大众公司（VOLKSWAGEN)",
+      "operating_receipt_in_million_dollars": "236,599.8",
+      "profit_in_million_dollars": "-1,519.7",
+      "region": "德国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/10/2016",
+      "linkedin": "https://www.linkedin.com/company/toyota",
+      "rank2016": "8",
+      "rank2015": "9",
+      "name": "丰田汽车公司（TOYOTA MOTOR)",
+      "operating_receipt_in_million_dollars": "236,591.6",
+      "profit_in_million_dollars": "19,264.2",
+      "region": "日本"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/253/2016",
+      "linkedin": "https://www.linkedin.com/company/apple",
+      "rank2016": "9",
+      "rank2015": "15",
+      "name": "苹果公司（APPLE)",
+      "operating_receipt_in_million_dollars": "233,715",
+      "profit_in_million_dollars": "53,394",
+      "region": "美国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/4/2016",
+      "linkedin": "https://www.linkedin.com/company/bp",
+      "rank2016": "10",
+      "rank2015": "6",
+      "name": "英国石油公司（BP)",
+      "operating_receipt_in_million_dollars": "225,982",
+      "profit_in_million_dollars": "-6,482",
+      "region": "英国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/41/2016",
+      "linkedin": "https://www.linkedin.com/company/berkshire-hathaway",
+      "rank2016": "11",
+      "rank2015": "14",
+      "name": "伯克希尔－哈撒韦公司（BERKSHIRE HATHAWAY)",
+      "operating_receipt_in_million_dollars": "210,821",
+      "profit_in_million_dollars": "24,083",
+      "region": "美国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/42/2016",
+      "linkedin": "https://www.linkedin.com/company/mckesson",
+      "rank2016": "12",
+      "rank2015": "16",
+      "name": "麦克森公司（MCKESSON)",
+      "operating_receipt_in_million_dollars": "192,487",
+      "profit_in_million_dollars": "2,258",
+      "region": "美国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/40/2016",
+      "linkedin": "https://www.linkedin.com/company/samsung",
+      "rank2016": "13",
+      "rank2015": "13",
+      "name": "三星电子（SAMSUNG ELECTRONICS)",
+      "operating_receipt_in_million_dollars": "177,440.2",
+      "profit_in_million_dollars": "16,531.9",
+      "region": "韩国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/550/2016",
+      "linkedin": "https://www.linkedin.com/company/glencorexstrata",
+      "rank2016": "14",
+      "rank2015": "10",
+      "name": "嘉能可（GLENCORE)",
+      "operating_receipt_in_million_dollars": "170,497",
+      "profit_in_million_dollars": "-4,964",
+      "region": "瑞士"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/92/2016",
+      "linkedin": "https://www.linkedin.com/company/icbc_2",
+      "rank2016": "15",
+      "rank2015": "18",
+      "name": "中国工商银行（INDUSTRIAL & COMMERCIAL BANK OF CHINA)",
+      "operating_receipt_in_million_dollars": "167,227.2",
+      "profit_in_million_dollars": "44,098.2",
+      "region": "中国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/23/2016",
+      "linkedin": "https://www.linkedin.com/company/daimler",
+      "rank2016": "16",
+      "rank2015": "17",
+      "name": "戴姆勒股份公司（DAIMLER)",
+      "operating_receipt_in_million_dollars": "165,800.2",
+      "profit_in_million_dollars": "9,344.5",
+      "region": "德国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/71/2016",
+      "linkedin": "https://www.linkedin.com/company/unitedhealth-group",
+      "rank2016": "17",
+      "rank2015": "35",
+      "name": "联合健康集团（UNITEDHEALTH GROUP)",
+      "operating_receipt_in_million_dollars": "157,107",
+      "profit_in_million_dollars": "5,813",
+      "region": "美国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/63/2016",
+      "linkedin": "https://www.linkedin.com/company/cvs-health",
+      "rank2016": "18",
+      "rank2015": "30",
+      "name": "CVS Health公司（CVS Health)",
+      "operating_receipt_in_million_dollars": "153,290",
+      "profit_in_million_dollars": "5,237",
+      "region": "美国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/551/2016",
+      "linkedin": "https://www.linkedin.com/company/exor_2",
+      "rank2016": "19",
+      "rank2015": "19",
+      "name": "EXOR集团（EXOR GROUP)",
+      "operating_receipt_in_million_dollars": "152,591",
+      "profit_in_million_dollars": "825.3",
+      "region": "意大利"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/18/2016",
+      "linkedin": "https://www.linkedin.com/company/general-motors",
+      "rank2016": "20",
+      "rank2015": "21",
+      "name": "通用汽车公司（GENERAL MOTORS)",
+      "operating_receipt_in_million_dollars": "152,356",
+      "profit_in_million_dollars": "9,687",
+      "region": "美国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/19/2016",
+      "linkedin": "https://www.linkedin.com/company/ford-motor-company",
+      "rank2016": "21",
+      "rank2015": "27",
+      "name": "福特汽车公司（FORD MOTOR)",
+      "operating_receipt_in_million_dollars": "149,558",
+      "profit_in_million_dollars": "7,373",
+      "region": "美国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/125/2016",
+      "linkedin": "https://www.linkedin.com/company/china-construction-bank",
+      "rank2016": "22",
+      "rank2015": "29",
+      "name": "中国建设银行（CHINA CONSTRUCTION BANK)",
+      "operating_receipt_in_million_dollars": "147,910.2",
+      "profit_in_million_dollars": "36,303.3",
+      "region": "中国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/29/2016",
+      "linkedin": "https://www.linkedin.com/company/at%26t",
+      "rank2016": "23",
+      "rank2015": "33",
+      "name": "美国电话电报公司（AT&T)",
+      "operating_receipt_in_million_dollars": "146,801",
+      "profit_in_million_dollars": "13,345",
+      "region": "美国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/6/2016",
+      "linkedin": "https://www.linkedin.com/company/total",
+      "rank2016": "24",
+      "rank2015": "11",
+      "name": "道达尔公司（TOTAL)",
+      "operating_receipt_in_million_dollars": "143,421",
+      "profit_in_million_dollars": "5,087",
+      "region": "法国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/109/2016",
+      "rank2016": "25",
+      "rank2015": "31",
+      "name": "鸿海精密工业股份有限公司（HON HAI PRECISION INDUSTRY) ",
+      "operating_receipt_in_million_dollars": "141,213.1",
+      "profit_in_million_dollars": "4,627.1",
+      "region": "中国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/12/2016",
+      "linkedin": "https://www.linkedin.com/company/ge",
+      "rank2016": "26",
+      "rank2015": "24",
+      "name": "通用电气公司（GENERAL ELECTRIC)",
+      "operating_receipt_in_million_dollars": "140,389",
+      "profit_in_million_dollars": "-6,126",
+      "region": "美国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/292/2016",
+      "linkedin": "https://www.linkedin.com/company/china-state-construction-engrg.-corp.-ltd-cscec-",
+      "rank2016": "27",
+      "rank2015": "37",
+      "name": "中国建筑股份有限公司（CHINA STATE CONSTRUCTION ENGINEERING)",
+      "operating_receipt_in_million_dollars": "140,158.8",
+      "profit_in_million_dollars": "2,251.3",
+      "region": "中国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/91/2016",
+      "linkedin": "https://www.linkedin.com/company/amerisourcebergen",
+      "rank2016": "28",
+      "rank2015": "46",
+      "name": "美源伯根公司（AMERISOURCEBERGEN)",
+      "operating_receipt_in_million_dollars": "135,961.8",
+      "profit_in_million_dollars": "-134.9",
+      "region": "美国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/155/2016",
+      "linkedin": "https://www.linkedin.com/company/agricultural-bank-of-china",
+      "rank2016": "29",
+      "rank2015": "36",
+      "name": "中国农业银行（AGRICULTURAL BANK OF CHINA)",
+      "operating_receipt_in_million_dollars": "133,419.2",
+      "profit_in_million_dollars": "28,734.9",
+      "region": "中国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/55/2016",
+      "linkedin": "https://www.linkedin.com/company/verizon",
+      "rank2016": "30",
+      "rank2015": "41",
+      "name": "威瑞森电信（VERIZON COMMUNICATIONS)",
+      "operating_receipt_in_million_dollars": "131,620",
+      "profit_in_million_dollars": "17,879",
+      "region": "美国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/5/2016",
+      "linkedin": "https://www.linkedin.com/company/chevron",
+      "rank2016": "31",
+      "rank2015": "12",
+      "name": "雪佛龙（CHEVRON)",
+      "operating_receipt_in_million_dollars": "131,118",
+      "profit_in_million_dollars": "4,587",
+      "region": "美国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/26/2016",
+      "linkedin": "https://www.linkedin.com/company/e-on",
+      "rank2016": "32",
+      "rank2015": "22",
+      "name": "意昂集团（E.ON)",
+      "operating_receipt_in_million_dollars": "129,277.3",
+      "profit_in_million_dollars": "-7,763.8",
+      "region": "德国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/73/2016",
+      "linkedin": "https://www.linkedin.com/company/axa",
+      "rank2016": "33",
+      "rank2015": "20",
+      "name": "安盛（AXA)",
+      "operating_receipt_in_million_dollars": "129,249.6",
+      "profit_in_million_dollars": "6,230.8",
+      "region": "法国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/20/2016",
+      "linkedin": "https://www.linkedin.com/company/allianz",
+      "rank2016": "34",
+      "rank2015": "32",
+      "name": "安联保险集团（ALLIANZ)",
+      "operating_receipt_in_million_dollars": "122,947.8",
+      "profit_in_million_dollars": "7,339",
+      "region": "德国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/145/2016",
+      "linkedin": "https://www.linkedin.com/company/bank-of-china",
+      "rank2016": "35",
+      "rank2015": "45",
+      "name": "中国银行（BANK OF CHINA)",
+      "operating_receipt_in_million_dollars": "122,336.6",
+      "profit_in_million_dollars": "27,185.5",
+      "region": "中国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/51/2016",
+      "rank2016": "36",
+      "rank2015": "44",
+      "name": "本田汽车（HONDA MOTOR) ",
+      "operating_receipt_in_million_dollars": "121,624.3",
+      "profit_in_million_dollars": "2,869.9",
+      "region": "日本"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/11/2016",
+      "rank2016": "37",
+      "rank2015": "38",
+      "name": "日本邮政控股公司（JAPAN POST HOLDINGS) ",
+      "operating_receipt_in_million_dollars": "118,762.1",
+      "profit_in_million_dollars": "3,548.3",
+      "region": "日本"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/88/2016",
+      "linkedin": "https://www.linkedin.com/company/costco-wholesale",
+      "rank2016": "38",
+      "rank2015": "52",
+      "name": "好市多（COSTCO WHOLESALE)",
+      "operating_receipt_in_million_dollars": "116,199",
+      "profit_in_million_dollars": "2,377",
+      "region": "美国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/24/2016",
+      "linkedin": "https://www.linkedin.com/company/bnp-paribas",
+      "rank2016": "39",
+      "rank2015": "42",
+      "name": "法国巴黎银行（BNP PARIBAS)",
+      "operating_receipt_in_million_dollars": "111,531.1",
+      "profit_in_million_dollars": "7,425.5",
+      "region": "法国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/405/2016",
+      "linkedin": "https://www.linkedin.com/company/fannie-mae-corporation_19722",
+      "rank2016": "40",
+      "rank2015": "50",
+      "name": "房利美（FANNIE MAE)",
+      "operating_receipt_in_million_dollars": "110,359",
+      "profit_in_million_dollars": "10,954",
+      "region": "美国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/517/2016",
+      "linkedin": "https://www.linkedin.com/company/ping-an-insurance-group-company-of-china-ltd",
+      "rank2016": "41",
+      "rank2015": "96",
+      "name": "中国平安保险（集团）股份有限公司（PING AN INSURANCE)",
+      "operating_receipt_in_million_dollars": "110,307.9",
+      "profit_in_million_dollars": "8,625",
+      "region": "中国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/82/2016",
+      "linkedin": "https://www.linkedin.com/company/kroger",
+      "rank2016": "42",
+      "rank2015": "54",
+      "name": "克罗格（KROGER)",
+      "operating_receipt_in_million_dollars": "109,830",
+      "profit_in_million_dollars": "2,039",
+      "region": "美国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/43/2016",
+      "linkedin": "https://www.linkedin.com/company/societe-generale",
+      "rank2016": "43",
+      "rank2015": "49",
+      "name": "法国兴业银行（SOCIÉTÉ GÉNÉRALE)",
+      "operating_receipt_in_million_dollars": "107,736.3",
+      "profit_in_million_dollars": "4,438.2",
+      "region": "法国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/485/2016",
+      "linkedin": "https://www.linkedin.com/company/amazon",
+      "rank2016": "44",
+      "rank2015": "88",
+      "name": "亚马逊（AMAZON.COM)",
+      "operating_receipt_in_million_dollars": "107,006",
+      "profit_in_million_dollars": "596",
+      "region": "美国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/99/2016",
+      "linkedin": "https://www.linkedin.com/company/china-mobile",
+      "rank2016": "45",
+      "rank2015": "55",
+      "name": "中国移动通信集团公司（CHINA MOBILE COMMUNICATIONS)",
+      "operating_receipt_in_million_dollars": "106,760.6",
+      "profit_in_million_dollars": "10,144.2",
+      "region": "中国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/579/2016",
+      "linkedin": "https://www.linkedin.com/company/saic-motor",
+      "rank2016": "46",
+      "rank2015": "60",
+      "name": "上海汽车集团股份有限公司（SAIC MOTOR)",
+      "operating_receipt_in_million_dollars": "106,684.4",
+      "profit_in_million_dollars": "4,740.9",
+      "region": "中国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/122/2016",
+      "linkedin": "https://www.linkedin.com/company/walgreens-boots-alliance",
+      "rank2016": "47",
+      "rank2015": "114",
+      "name": "沃博联（Walgreens Boots Alliance)",
+      "operating_receipt_in_million_dollars": "103,444",
+      "profit_in_million_dollars": "4,220",
+      "region": "美国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/32/2016",
+      "linkedin": "https://www.linkedin.com/company/hp",
+      "rank2016": "48",
+      "rank2015": "53",
+      "name": "惠普公司（HP)",
+      "operating_receipt_in_million_dollars": "103,355",
+      "profit_in_million_dollars": "4,554",
+      "region": "美国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/47/2016",
+      "linkedin": "https://www.linkedin.com/company/assicurazioni-generali",
+      "rank2016": "49",
+      "rank2015": "48",
+      "name": "意大利忠利保险公司（ASSICURAZIONI GENERALI)",
+      "operating_receipt_in_million_dollars": "102,567",
+      "profit_in_million_dollars": "2,251.8",
+      "region": "意大利"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/60/2016",
+      "linkedin": "https://www.linkedin.com/company/cardinal-health",
+      "rank2016": "50",
+      "rank2015": "84",
+      "name": "康德乐（CARDINAL HEALTH)",
+      "operating_receipt_in_million_dollars": "102,531",
+      "profit_in_million_dollars": "1,215",
+      "region": "美国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/78/2016",
+      "linkedin": "https://www.linkedin.com/company/bmw",
+      "rank2016": "51",
+      "rank2015": "56",
+      "name": "宝马集团（BMW Group)",
+      "operating_receipt_in_million_dollars": "102,247.6",
+      "profit_in_million_dollars": "7,065",
+      "region": "德国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/418/2016",
+      "linkedin": "https://www.linkedin.com/company/express-scripts",
+      "rank2016": "52",
+      "rank2015": "66",
+      "name": "美国快捷药方控股公司（EXPRESS SCRIPTS HOLDING)",
+      "operating_receipt_in_million_dollars": "101,751.8",
+      "profit_in_million_dollars": "2,476.4",
+      "region": "美国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/67/2016",
+      "linkedin": "https://www.linkedin.com/company/nissan-motor-corporation",
+      "rank2016": "53",
+      "rank2015": "59",
+      "name": "日产汽车（NISSAN MOTOR)",
+      "operating_receipt_in_million_dollars": "101,536",
+      "profit_in_million_dollars": "4,363.5",
+      "region": "日本"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/133/2016",
+      "linkedin": "https://www.linkedin.com/company/china-life-insurance-co-ltd",
+      "rank2016": "54",
+      "rank2015": "94",
+      "name": "中国人寿保险（集团）公司（CHINA LIFE INSURANCE)",
+      "operating_receipt_in_million_dollars": "101,273.6",
+      "profit_in_million_dollars": "4,170.3",
+      "region": "中国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/49/2016",
+      "linkedin": "https://www.linkedin.com/company/jpmorgan-chase",
+      "rank2016": "55",
+      "rank2015": "61",
+      "name": "摩根大通公司（JPMorgan Chase & Co.)",
+      "operating_receipt_in_million_dollars": "101,006",
+      "profit_in_million_dollars": "24,442",
+      "region": "美国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/22/2016",
+      "linkedin": "https://www.linkedin.com/company/gazprom",
+      "rank2016": "56",
+      "rank2015": "26",
+      "name": "俄罗斯天然气工业股份公司（GAZPROM)",
+      "operating_receipt_in_million_dollars": "99,464.4",
+      "profit_in_million_dollars": "12,882",
+      "region": "俄罗斯"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/662/2016",
+      "rank2016": "57",
+      "rank2015": "71",
+      "name": "中国铁路工程总公司（China Railway Engineering) ",
+      "operating_receipt_in_million_dollars": "99,434.7",
+      "profit_in_million_dollars": "983.1",
+      "region": "中国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/34/2016",
+      "linkedin": "https://www.linkedin.com/company/petrobras",
+      "rank2016": "58",
+      "rank2015": "28",
+      "name": "巴西国家石油公司（PETROBRAS)",
+      "operating_receipt_in_million_dollars": "97,314",
+      "profit_in_million_dollars": "-8,450",
+      "region": "巴西"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/661/2016",
+      "linkedin": "https://www.linkedin.com/company/trafigura",
+      "rank2016": "59",
+      "rank2015": "40",
+      "name": "托克集团（Trafigura Group)",
+      "operating_receipt_in_million_dollars": "97,236.5",
+      "profit_in_million_dollars": "1,235.9",
+      "region": "新加坡"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/44/2016",
+      "rank2016": "60",
+      "rank2015": "65",
+      "name": "日本电报电话公司（NIPPON TELEGRAPH & TELEPHONE) ",
+      "operating_receipt_in_million_dollars": "96,133.9",
+      "profit_in_million_dollars": "6,145.2",
+      "region": "日本"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/116/2016",
+      "linkedin": "https://www.linkedin.com/company/boeing",
+      "rank2016": "61",
+      "rank2015": "85",
+      "name": "波音（BOEING)",
+      "operating_receipt_in_million_dollars": "96,114",
+      "profit_in_million_dollars": "5,176",
+      "region": "美国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/252/2016",
+      "rank2016": "62",
+      "rank2015": "79",
+      "name": "中国铁道建筑总公司（CHINA RAILWAY CONSTRUCTION) ",
+      "operating_receipt_in_million_dollars": "95,651.6",
+      "profit_in_million_dollars": "1,105.8",
+      "region": "中国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/117/2016",
+      "linkedin": "https://www.linkedin.com/company/microsoft",
+      "rank2016": "63",
+      "rank2015": "95",
+      "name": "微软（MICROSOFT)",
+      "operating_receipt_in_million_dollars": "93,580",
+      "profit_in_million_dollars": "12,193",
+      "region": "美国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/37/2016",
+      "linkedin": "https://www.linkedin.com/company/bank-of-america",
+      "rank2016": "64",
+      "rank2015": "80",
+      "name": "美国银行（BANK OF AMERICA CORP.)",
+      "operating_receipt_in_million_dollars": "93,056",
+      "profit_in_million_dollars": "15,888",
+      "region": "美国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/17/2016",
+      "linkedin": "https://www.linkedin.com/company/eni",
+      "rank2016": "65",
+      "rank2015": "25",
+      "name": "埃尼石油公司（ENI)",
+      "operating_receipt_in_million_dollars": "92,985.1",
+      "profit_in_million_dollars": "-9,742.8",
+      "region": "意大利"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/48/2016",
+      "linkedin": "https://www.linkedin.com/company/nestle-s-a-",
+      "rank2016": "66",
+      "rank2015": "70",
+      "name": "雀巢公司（NESTLÉ)",
+      "operating_receipt_in_million_dollars": "92,285.1",
+      "profit_in_million_dollars": "9,423.4",
+      "region": "瑞士"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/142/2016",
+      "linkedin": "https://www.linkedin.com/company/wellsfargo",
+      "rank2016": "67",
+      "rank2015": "90",
+      "name": "美国富国银行（WELLS FARGO)",
+      "operating_receipt_in_million_dollars": "90,033",
+      "profit_in_million_dollars": "22,894",
+      "region": "美国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/21/2016",
+      "linkedin": "https://www.linkedin.com/company/hsbc",
+      "rank2016": "68",
+      "rank2015": "81",
+      "name": "汇丰银行控股公司（HSBC HOLDINGS)",
+      "operating_receipt_in_million_dollars": "89,061",
+      "profit_in_million_dollars": "13,522",
+      "region": "英国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/90/2016",
+      "linkedin": "https://www.linkedin.com/company/the-home-depot",
+      "rank2016": "69",
+      "rank2015": "101",
+      "name": "家得宝（HOME DEPOT)",
+      "operating_receipt_in_million_dollars": "88,519",
+      "profit_in_million_dollars": "7,009",
+      "region": "美国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/39/2016",
+      "linkedin": "https://www.linkedin.com/company/citi",
+      "rank2016": "70",
+      "rank2015": "86",
+      "name": "花旗集团（CITIGROUP)",
+      "operating_receipt_in_million_dollars": "88,275",
+      "profit_in_million_dollars": "17,242",
+      "region": "美国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/30/2016",
+      "linkedin": "https://www.linkedin.com/company/shougang-group",
+      "rank2016": "71",
+      "rank2015": "63",
+      "name": "西门子（SIEMENS)",
+      "operating_receipt_in_million_dollars": "87,660",
+      "profit_in_million_dollars": "8,338",
+      "region": "德国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/56/2016",
+      "linkedin": "https://www.linkedin.com/company/tesco-plc",
+      "rank2016": "72",
+      "rank2015": "62",
+      "name": "乐购（TESCO)",
+      "operating_receipt_in_million_dollars": "87,633.3",
+      "profit_in_million_dollars": "208.7",
+      "region": "英国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/25/2016",
+      "linkedin": "https://www.linkedin.com/company/carrefour",
+      "rank2016": "73",
+      "rank2015": "64",
+      "name": "家乐福（CARREFOUR)",
+      "operating_receipt_in_million_dollars": "87,474.2",
+      "profit_in_million_dollars": "1,087.1",
+      "region": "法国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/608/2016",
+      "linkedin": "https://www.linkedin.com/company/phillips66co",
+      "rank2016": "74",
+      "rank2015": "23",
+      "name": "Phillips 66公司（Phillips 66)",
+      "operating_receipt_in_million_dollars": "87,169",
+      "profit_in_million_dollars": "4,227",
+      "region": "美国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/35/2016",
+      "linkedin": "https://www.linkedin.com/company/banco-santander",
+      "rank2016": "75",
+      "rank2015": "67",
+      "name": "西班牙国家银行（BANCO SANTANDER)",
+      "operating_receipt_in_million_dollars": "84,885.2",
+      "profit_in_million_dollars": "6,617.9",
+      "region": "西班牙"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/65/2016",
+      "linkedin": "https://www.linkedin.com/company/lukoil",
+      "rank2016": "76",
+      "rank2015": "43",
+      "name": "卢克石油公司（LUKOIL)",
+      "operating_receipt_in_million_dollars": "84,676.9",
+      "profit_in_million_dollars": "4,765.1",
+      "region": "俄罗斯"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/46/2016",
+      "linkedin": "https://www.linkedin.com/company/credit-agricole",
+      "rank2016": "77",
+      "rank2015": "58",
+      "name": "法国农业信贷银行（CRÉDIT AGRICOLE)",
+      "operating_receipt_in_million_dollars": "84,098.7",
+      "profit_in_million_dollars": "3,900.2",
+      "region": "法国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/62/2016",
+      "linkedin": "https://www.linkedin.com/company/enel",
+      "rank2016": "78",
+      "rank2015": "69",
+      "name": "意大利国家电力公司（ENEL)",
+      "operating_receipt_in_million_dollars": "83,925.6",
+      "profit_in_million_dollars": "2,436",
+      "region": "意大利"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/52/2016",
+      "linkedin": "https://www.linkedin.com/company/hitachi",
+      "rank2016": "79",
+      "rank2015": "89",
+      "name": "日立（HITACHI)",
+      "operating_receipt_in_million_dollars": "83,583.5",
+      "profit_in_million_dollars": "1,434",
+      "region": "日本"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/57/2016",
+      "linkedin": "https://www.linkedin.com/company/edf",
+      "rank2016": "80",
+      "rank2015": "78",
+      "name": "法国电力公司（ÉLECTRICITÉ DE FRANCE)",
+      "operating_receipt_in_million_dollars": "83,202.4",
+      "profit_in_million_dollars": "1,316.7",
+      "region": "法国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/507/2016",
+      "rank2016": "81",
+      "rank2015": "109",
+      "name": "东风汽车集团（DONGFENG MOTOR GROUP) ",
+      "operating_receipt_in_million_dollars": "82,816.7",
+      "profit_in_million_dollars": "1,479.8",
+      "region": "中国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/45/2016",
+      "linkedin": "https://www.linkedin.com/company/ibm",
+      "rank2016": "82",
+      "rank2015": "82",
+      "name": "国际商业机器公司（INTERNATIONAL BUSINESS MACHINES)",
+      "operating_receipt_in_million_dollars": "82,461",
+      "profit_in_million_dollars": "13,190",
+      "region": "美国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/33/2016",
+      "linkedin": "https://www.linkedin.com/company/valero-energy-corporation",
+      "rank2016": "83",
+      "rank2015": "34",
+      "name": "瓦莱罗能源公司（VALERO ENERGY)",
+      "operating_receipt_in_million_dollars": "81,824",
+      "profit_in_million_dollars": "3,990",
+      "region": "美国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/87/2016",
+      "linkedin": "https://www.linkedin.com/company/hyundai-motor-company",
+      "rank2016": "84",
+      "rank2015": "99",
+      "name": "现代汽车（HYUNDAI MOTOR)",
+      "operating_receipt_in_million_dollars": "81,320.2",
+      "profit_in_million_dollars": "5,674.9",
+      "region": "韩国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/112/2016",
+      "linkedin": "https://www.linkedin.com/company/anthem",
+      "rank2016": "85",
+      "rank2015": "120",
+      "name": "Anthem公司（Anthem)",
+      "operating_receipt_in_million_dollars": "79,156.5",
+      "profit_in_million_dollars": "2,560",
+      "region": "美国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/68/2016",
+      "linkedin": "https://www.linkedin.com/company/procter-%26-gamble",
+      "rank2016": "86",
+      "rank2015": "100",
+      "name": "宝洁公司（PROCTER & GAMBLE)",
+      "operating_receipt_in_million_dollars": "78,756",
+      "profit_in_million_dollars": "7,036",
+      "region": "美国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/98/2016",
+      "linkedin": "https://www.linkedin.com/company/bosch",
+      "rank2016": "87",
+      "rank2015": "150",
+      "name": "博世公司（ROBERT BOSCH)",
+      "operating_receipt_in_million_dollars": "78,322.7",
+      "profit_in_million_dollars": "3,541.9",
+      "region": "德国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/59/2016",
+      "linkedin": "https://www.linkedin.com/company/basf",
+      "rank2016": "88",
+      "rank2015": "76",
+      "name": "巴斯夫公司（BASF)",
+      "operating_receipt_in_million_dollars": "78,147.4",
+      "profit_in_million_dollars": "4,422.7",
+      "region": "德国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/53/2016",
+      "linkedin": "https://www.linkedin.com/company/engie",
+      "rank2016": "89",
+      "rank2015": "73",
+      "name": "Engie集团（Engie)",
+      "operating_receipt_in_million_dollars": "77,519.6",
+      "profit_in_million_dollars": "-5,121.5",
+      "region": "法国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/61/2016",
+      "linkedin": "https://www.linkedin.com/company/telekom",
+      "rank2016": "90",
+      "rank2015": "102",
+      "name": "德国电信（DEUTSCHE TELEKOM)",
+      "operating_receipt_in_million_dollars": "76,793",
+      "profit_in_million_dollars": "3,609.6",
+      "region": "德国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/518/2016",
+      "linkedin": "https://www.linkedin.com/company/china-resources-holdings-co",
+      "rank2016": "91",
+      "rank2015": "115",
+      "name": "中国华润总公司（CHINA RESOURCES NATIONAL)",
+      "operating_receipt_in_million_dollars": "76,573.7",
+      "profit_in_million_dollars": "2,489.2",
+      "region": "中国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/332/2016",
+      "linkedin": "https://www.linkedin.com/company/softbank-internet-and-media-inc-",
+      "rank2016": "92",
+      "rank2015": "110",
+      "name": "软银集团（SoftBank Group)",
+      "operating_receipt_in_million_dollars": "76,468.6",
+      "profit_in_million_dollars": "3,949.7",
+      "region": "日本"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/111/2016",
+      "linkedin": "https://www.linkedin.com/company/state_farm",
+      "rank2016": "93",
+      "rank2015": "127",
+      "name": "州立农业保险公司（STATE FARM INSURANCE COS.)",
+      "operating_receipt_in_million_dollars": "75,696.6",
+      "profit_in_million_dollars": "6,228.6",
+      "region": "美国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/423/2016",
+      "linkedin": "https://www.linkedin.com/company/alphabet-inc",
+      "rank2016": "94",
+      "rank2015": "124",
+      "name": "Alphabet公司（Alphabet)",
+      "operating_receipt_in_million_dollars": "74,989",
+      "profit_in_million_dollars": "16,348",
+      "region": "美国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/185/2016",
+      "linkedin": "https://www.linkedin.com/company/china-southern-power-grid",
+      "rank2016": "95",
+      "rank2015": "113",
+      "name": "中国南方电网有限责任公司（CHINA SOUTHERN POWER GRID)",
+      "operating_receipt_in_million_dollars": "74,696.9",
+      "profit_in_million_dollars": "2,222.5",
+      "region": "中国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/237/2016",
+      "linkedin": "https://www.linkedin.com/company/comcast",
+      "rank2016": "96",
+      "rank2015": "135",
+      "name": "美国康卡斯特电信公司（COMCAST)",
+      "operating_receipt_in_million_dollars": "74,510",
+      "profit_in_million_dollars": "8,163",
+      "region": "美国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/100/2016",
+      "linkedin": "https://www.linkedin.com/company/target",
+      "rank2016": "97",
+      "rank2015": "117",
+      "name": "塔吉特公司（TARGET)",
+      "operating_receipt_in_million_dollars": "73,785",
+      "profit_in_million_dollars": "3,363",
+      "region": "美国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/31/2016",
+      "linkedin": "https://www.linkedin.com/company/pemex",
+      "rank2016": "98",
+      "rank2015": "47",
+      "name": "墨西哥石油公司（PEMEX)",
+      "operating_receipt_in_million_dollars": "73,514.1",
+      "profit_in_million_dollars": "-44,903.7",
+      "region": "墨西哥"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/639/2016",
+      "rank2016": "99",
+      "rank2015": "156",
+      "name": "太平洋建设集团（Pacific Construction Group) ",
+      "operating_receipt_in_million_dollars": "73,046.9",
+      "profit_in_million_dollars": "3,205.2",
+      "region": "中国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/104/2016",
+      "linkedin": "https://www.linkedin.com/company/airbusgroup",
+      "rank2016": "100",
+      "rank2015": "106",
+      "name": "空中客车集团（Airbus Group)",
+      "operating_receipt_in_million_dollars": "71,492.9",
+      "profit_in_million_dollars": "2,990.6",
+      "region": "荷兰"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/50/2016",
+      "linkedin": "https://www.linkedin.com/company/metro-cash-and-carry",
+      "rank2016": "101",
+      "rank2015": "97",
+      "name": "麦德龙（METRO)",
+      "operating_receipt_in_million_dollars": "71,265.7",
+      "profit_in_million_dollars": "769.4",
+      "region": "德国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/428/2016",
+      "rank2016": "102",
+      "rank2015": "--",
+      "name": "中国南方工业集团公司（CHINA SOUTH INDUSTRIES GROUP) ",
+      "operating_receipt_in_million_dollars": "70,080.9",
+      "profit_in_million_dollars": "1,487.9",
+      "region": "中国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/103/2016",
+      "linkedin": "https://www.linkedin.com/company/johnson-%26-johnson",
+      "rank2016": "103",
+      "rank2015": "118",
+      "name": "强生（JOHNSON & JOHNSON)",
+      "operating_receipt_in_million_dollars": "70,074",
+      "profit_in_million_dollars": "15,409",
+      "region": "美国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/132/2016",
+      "linkedin": "https://www.linkedin.com/company/MetLife",
+      "rank2016": "104",
+      "rank2015": "121",
+      "name": "大都会人寿（METLIFE)",
+      "operating_receipt_in_million_dollars": "69,951",
+      "profit_in_million_dollars": "5,310",
+      "region": "美国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/556/2016",
+      "rank2016": "105",
+      "rank2015": "143",
+      "name": "中国邮政集团公司（CHINA POST GROUP) ",
+      "operating_receipt_in_million_dollars": "69,636.7",
+      "profit_in_million_dollars": "4,194.3",
+      "region": "中国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/95/2016",
+      "linkedin": "https://www.linkedin.com/company/munich-re",
+      "rank2016": "106",
+      "rank2015": "103",
+      "name": "慕尼黑再保险公司（MUNICH RE GROUP)",
+      "operating_receipt_in_million_dollars": "69,432.9",
+      "profit_in_million_dollars": "3,446.5",
+      "region": "德国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/84/2016",
+      "linkedin": "https://www.linkedin.com/company/usps",
+      "rank2016": "107",
+      "rank2015": "137",
+      "name": "美国邮政（U.S. POSTAL SERVICE)",
+      "operating_receipt_in_million_dollars": "68,928",
+      "profit_in_million_dollars": "-5,060",
+      "region": "美国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/54/2016",
+      "linkedin": "https://www.linkedin.com/company/deutsche-post",
+      "rank2016": "108",
+      "rank2015": "111",
+      "name": "德国邮政（DEUTSCHE POST)",
+      "operating_receipt_in_million_dollars": "68,358.1",
+      "profit_in_million_dollars": "1,708.3",
+      "region": "德国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/318/2016",
+      "linkedin": "https://www.linkedin.com/company/cnooc",
+      "rank2016": "109",
+      "rank2015": "72",
+      "name": "中国海洋石油总公司（CHINA NATIONAL OFFSHORE OIL)",
+      "operating_receipt_in_million_dollars": "67,799.4",
+      "profit_in_million_dollars": "4,608.1",
+      "region": "中国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/341/2016",
+      "rank2016": "110",
+      "rank2015": "165",
+      "name": "中国交通建设集团有限公司（CHINA COMMUNICATIONS CONSTRUCTION) ",
+      "operating_receipt_in_million_dollars": "67,764",
+      "profit_in_million_dollars": "1,708.8",
+      "region": "中国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/140/2016",
+      "rank2016": "111",
+      "rank2015": "147",
+      "name": "日本永旺集团（AEON) ",
+      "operating_receipt_in_million_dollars": "67,757.7",
+      "profit_in_million_dollars": "49.8",
+      "region": "日本"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/93/2016",
+      "linkedin": "https://www.linkedin.com/company/adm",
+      "rank2016": "112",
+      "rank2015": "104",
+      "name": "ADM公司（ARCHER DANIELS MIDLAND)",
+      "operating_receipt_in_million_dollars": "67,702",
+      "profit_in_million_dollars": "1,849",
+      "region": "美国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/81/2016",
+      "linkedin": "https://www.linkedin.com/company/sony",
+      "rank2016": "113",
+      "rank2015": "116",
+      "name": "索尼（SONY)",
+      "operating_receipt_in_million_dollars": "67,518.8",
+      "profit_in_million_dollars": "1,231.1",
+      "region": "日本"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/96/2016",
+      "rank2016": "114",
+      "rank2015": "138",
+      "name": "日本生命保险公司（NIPPON LIFE INSURANCE) ",
+      "operating_receipt_in_million_dollars": "67,118",
+      "profit_in_million_dollars": "3,360.8",
+      "region": "日本"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/174/2016",
+      "linkedin": "https://www.linkedin.com/company/banco-do-brasil",
+      "rank2016": "115",
+      "rank2015": "126",
+      "name": "巴西银行（BANCO DO BRASIL)",
+      "operating_receipt_in_million_dollars": "67,070.7",
+      "profit_in_million_dollars": "4,220.5",
+      "region": "巴西"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/218/2016",
+      "linkedin": "https://www.linkedin.com/company/noble-group",
+      "rank2016": "116",
+      "rank2015": "77",
+      "name": "来宝集团（NOBLE GROUP)",
+      "operating_receipt_in_million_dollars": "66,712.4",
+      "profit_in_million_dollars": "-1,672",
+      "region": "中国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/8/2016",
+      "linkedin": "https://www.linkedin.com/company/ing",
+      "rank2016": "117",
+      "rank2015": "91",
+      "name": "荷兰国际集团（ING GROUP)",
+      "operating_receipt_in_million_dollars": "66,206.1",
+      "profit_in_million_dollars": "5,464.3",
+      "region": "荷兰"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/158/2016",
+      "linkedin": "https://www.linkedin.com/company/rosneft",
+      "rank2016": "118",
+      "rank2015": "51",
+      "name": "俄罗斯石油公司（ROSNEFT OIL)",
+      "operating_receipt_in_million_dollars": "64,749",
+      "profit_in_million_dollars": "5,810.4",
+      "region": "俄罗斯"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/516/2016",
+      "linkedin": "https://www.linkedin.com/company/picc",
+      "rank2016": "119",
+      "rank2015": "174",
+      "name": "中国人民保险集团股份有限公司（People's Insurance Co. of China)",
+      "operating_receipt_in_million_dollars": "64,606.1",
+      "profit_in_million_dollars": "3,109.6",
+      "region": "中国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/578/2016",
+      "linkedin": "https://www.linkedin.com/company/marathon-petroleum-company",
+      "rank2016": "120",
+      "rank2015": "83",
+      "name": "马拉松原油公司（MARATHON PETROLEUM)",
+      "operating_receipt_in_million_dollars": "64,566",
+      "profit_in_million_dollars": "2,852",
+      "region": "美国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/335/2016",
+      "linkedin": "https://www.linkedin.com/company/cofco-corporation",
+      "rank2016": "121",
+      "rank2015": "272",
+      "name": "中粮集团有限公司（COFCO)",
+      "operating_receipt_in_million_dollars": "64,515.5",
+      "profit_in_million_dollars": "265.5",
+      "region": "中国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/588/2016",
+      "rank2016": "122",
+      "rank2015": "146",
+      "name": "天津物产集团有限公司（TEWOO GROUP) ",
+      "operating_receipt_in_million_dollars": "64,232.3",
+      "profit_in_million_dollars": "160.2",
+      "region": "中国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/28/2016",
+      "linkedin": "https://www.linkedin.com/company/arcelormittal",
+      "rank2016": "123",
+      "rank2015": "108",
+      "name": "安赛乐米塔尔（ARCELORMITTAL)",
+      "operating_receipt_in_million_dollars": "63,578",
+      "profit_in_million_dollars": "-7,946",
+      "region": "卢森堡"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/508/2016",
+      "linkedin": "https://www.linkedin.com/company/freddie-mac",
+      "rank2016": "124",
+      "rank2015": "133",
+      "name": "房地美（FREDDIE MAC)",
+      "operating_receipt_in_million_dollars": "63,491",
+      "profit_in_million_dollars": "6,376",
+      "region": "美国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/80/2016",
+      "linkedin": "https://www.linkedin.com/company/petronas",
+      "rank2016": "125",
+      "rank2015": "68",
+      "name": "马来西亚国家石油公司（PETRONAS)",
+      "operating_receipt_in_million_dollars": "63,465.5",
+      "profit_in_million_dollars": "3,371.9",
+      "region": "马来西亚"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/503/2016",
+      "linkedin": "https://www.linkedin.com/company/prudential---bring-your-challenges?trk=biz-brand-tree-co-logo",
+      "rank2016": "126",
+      "rank2015": "74",
+      "name": "英国保诚集团（PRUDENTIAL)",
+      "operating_receipt_in_million_dollars": "63,105.9",
+      "profit_in_million_dollars": "3,940.2",
+      "region": "英国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/175/2016",
+      "linkedin": "https://www.linkedin.com/company/pepsico",
+      "rank2016": "127",
+      "rank2015": "141",
+      "name": "百事公司（PEPSICO)",
+      "operating_receipt_in_million_dollars": "63,056",
+      "profit_in_million_dollars": "5,452",
+      "region": "美国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/79/2016",
+      "linkedin": "https://www.linkedin.com/company/panasonic",
+      "rank2016": "128",
+      "rank2015": "131",
+      "name": "松下（PANASONIC)",
+      "operating_receipt_in_million_dollars": "62,920.8",
+      "profit_in_million_dollars": "1,609.8",
+      "region": "日本"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/519/2016",
+      "linkedin": "https://www.linkedin.com/company/huawei",
+      "rank2016": "129",
+      "rank2015": "228",
+      "name": "华为投资控股有限公司（HUAWEI INVESTMENT & HOLDING)",
+      "operating_receipt_in_million_dollars": "62,855.4",
+      "profit_in_million_dollars": "5,872.9",
+      "region": "中国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/385/2016",
+      "linkedin": "https://www.linkedin.com/company/faw-group",
+      "rank2016": "130",
+      "rank2015": "107",
+      "name": "中国第一汽车集团公司（CHINA FAW GROUP)",
+      "operating_receipt_in_million_dollars": "62,852.4",
+      "profit_in_million_dollars": "3,252.6",
+      "region": "中国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/101/2016",
+      "rank2016": "131",
+      "rank2015": "92",
+      "name": "JX控股公司（JX HOLDINGS) ",
+      "operating_receipt_in_million_dollars": "62,510.6",
+      "profit_in_million_dollars": "-2,319.9",
+      "region": "日本"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/263/2016",
+      "linkedin": "https://www.linkedin.com/company/china-telecom",
+      "rank2016": "132",
+      "rank2015": "160",
+      "name": "中国电信集团公司（CHINA TELECOMMUNICATIONS)",
+      "operating_receipt_in_million_dollars": "61,795.8",
+      "profit_in_million_dollars": "1,715.7",
+      "region": "中国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/94/2016",
+      "linkedin": "https://www.linkedin.com/company/vodafone",
+      "rank2016": "133",
+      "rank2015": "136",
+      "name": "沃达丰集团（VODAFONE GROUP)",
+      "operating_receipt_in_million_dollars": "61,690.3",
+      "profit_in_million_dollars": "-6,058.7",
+      "region": "英国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/513/2016",
+      "rank2016": "134",
+      "rank2015": "144",
+      "name": "中国兵器工业集团公司（CHINA NORTH INDUSTRIES GROUP) ",
+      "operating_receipt_in_million_dollars": "61,621.2",
+      "profit_in_million_dollars": "803.1",
+      "region": "中国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/139/2016",
+      "linkedin": "https://www.linkedin.com/company/the-dai-ichi-life-insurance-company-limited",
+      "rank2016": "135",
+      "rank2015": "142",
+      "name": "日本第一生命保险（DAI-ICHI LIFE INSURANCE)",
+      "operating_receipt_in_million_dollars": "61,090.1",
+      "profit_in_million_dollars": "1,487",
+      "region": "日本"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/123/2016",
+      "linkedin": "https://www.linkedin.com/company/united-technologies",
+      "rank2016": "136",
+      "rank2015": "149",
+      "name": "联合技术公司（UNITED TECHNOLOGIES)",
+      "operating_receipt_in_million_dollars": "61,047",
+      "profit_in_million_dollars": "7,608",
+      "region": "美国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/66/2016",
+      "linkedin": "https://www.linkedin.com/company/telef%C3%B3nica",
+      "rank2016": "137",
+      "rank2015": "140",
+      "name": "西班牙电话公司（TELEFÓNICA)",
+      "operating_receipt_in_million_dollars": "60,917",
+      "profit_in_million_dollars": "3,045",
+      "region": "西班牙"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/189/2016",
+      "linkedin": "https://www.linkedin.com/company/marubeni-corporation",
+      "rank2016": "138",
+      "rank2015": "125",
+      "name": "丸红株式会社（MARUBENI)",
+      "operating_receipt_in_million_dollars": "60,809.9",
+      "profit_in_million_dollars": "518.6",
+      "region": "日本"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/170/2016",
+      "linkedin": "https://www.linkedin.com/company/sinochem",
+      "rank2016": "139",
+      "rank2015": "105",
+      "name": "中国中化集团公司（SINOCHEM GROUP)",
+      "operating_receipt_in_million_dollars": "60,655.8",
+      "profit_in_million_dollars": "-55.1",
+      "region": "中国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/75/2016",
+      "linkedin": "https://www.linkedin.com/company/automobiles-peugeot",
+      "rank2016": "140",
+      "rank2015": "128",
+      "name": "标致（PEUGEOT)",
+      "operating_receipt_in_million_dollars": "60,650.8",
+      "profit_in_million_dollars": "997.2",
+      "region": "法国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/255/2016",
+      "linkedin": "https://www.linkedin.com/company/zurich-insurance-company-ltd",
+      "rank2016": "141",
+      "rank2015": "122",
+      "name": "苏黎世保险集团（ZURICH INSURANCE GROUP)",
+      "operating_receipt_in_million_dollars": "60,568",
+      "profit_in_million_dollars": "1,842",
+      "region": "瑞士"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/274/2016",
+      "linkedin": "https://www.linkedin.com/company/aetna",
+      "rank2016": "142",
+      "rank2015": "170",
+      "name": "安泰保险（AETNA)",
+      "operating_receipt_in_million_dollars": "60,336.5",
+      "profit_in_million_dollars": "2,390.2",
+      "region": "美国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/426/2016",
+      "rank2016": "143",
+      "rank2015": "159",
+      "name": "中国航空工业集团公司（AVIATION INDUSTRY CORP. OF CHINA) ",
+      "operating_receipt_in_million_dollars": "60,252.1",
+      "profit_in_million_dollars": "882.7",
+      "region": "中国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/126/2016",
+      "linkedin": "https://www.linkedin.com/company/auchan",
+      "rank2016": "144",
+      "rank2015": "129",
+      "name": "欧尚集团（Auchan Holding)",
+      "operating_receipt_in_million_dollars": "60,158.3",
+      "profit_in_million_dollars": "574.6",
+      "region": "法国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/36/2016",
+      "linkedin": "https://www.linkedin.com/company/statoil",
+      "rank2016": "145",
+      "rank2015": "75",
+      "name": "挪威国家石油公司（STATOIL)",
+      "operating_receipt_in_million_dollars": "59,894.7",
+      "profit_in_million_dollars": "-4,652.1",
+      "region": "挪威"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/118/2016",
+      "rank2016": "146",
+      "rank2015": "93",
+      "name": "泰国国家石油有限公司（PTT) ",
+      "operating_receipt_in_million_dollars": "59,196",
+      "profit_in_million_dollars": "582.2",
+      "region": "泰国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/121/2016",
+      "linkedin": "https://www.linkedin.com/company/unilever",
+      "rank2016": "147",
+      "rank2015": "153",
+      "name": "联合利华（UNILEVER)",
+      "operating_receipt_in_million_dollars": "59,093.4",
+      "profit_in_million_dollars": "5,445.4",
+      "region": "英国/荷兰"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/153/2016",
+      "linkedin": "https://www.linkedin.com/company/lowes-home-improvement",
+      "rank2016": "148",
+      "rank2015": "176",
+      "name": "美国劳氏公司（LOWE'S)",
+      "operating_receipt_in_million_dollars": "59,074",
+      "profit_in_million_dollars": "2,546",
+      "region": "美国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/143/2016",
+      "linkedin": "https://www.linkedin.com/company/ups",
+      "rank2016": "149",
+      "rank2015": "168",
+      "name": "联合包裹速递服务公司（UNITED PARCEL SERVICE)",
+      "operating_receipt_in_million_dollars": "58,363",
+      "profit_in_million_dollars": "4,844",
+      "region": "美国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/501/2016",
+      "linkedin": "https://www.linkedin.com/company/aig",
+      "rank2016": "150",
+      "rank2015": "152",
+      "name": "美国国际集团（AMERICAN INTERNATIONAL GROUP)",
+      "operating_receipt_in_million_dollars": "58,327",
+      "profit_in_million_dollars": "2,196",
+      "region": "美国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/114/2016",
+      "rank2016": "151",
+      "rank2015": "132",
+      "name": "三菱商事株式会社（MITSUBISHI) ",
+      "operating_receipt_in_million_dollars": "57,688.6",
+      "profit_in_million_dollars": "-1,244.4",
+      "region": "日本"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/298/2016",
+      "linkedin": "https://www.linkedin.com/company/prudential-financial",
+      "rank2016": "152",
+      "rank2015": "194",
+      "name": "保德信金融集团（PRUDENTIAL FINANCIAL)",
+      "operating_receipt_in_million_dollars": "57,119",
+      "profit_in_million_dollars": "5,642",
+      "region": "美国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/494/2016",
+      "linkedin": "https://www.linkedin.com/company/bank-of-communications-limited",
+      "rank2016": "153",
+      "rank2015": "190",
+      "name": "交通银行（BANK OF COMMUNICATIONS)",
+      "operating_receipt_in_million_dollars": "57,068.2",
+      "profit_in_million_dollars": "10,586.2",
+      "region": "中国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/273/2016",
+      "linkedin": "https://www.linkedin.com/company/am-rica-m-vil",
+      "rank2016": "154",
+      "rank2015": "155",
+      "name": "美洲电信（AMÉRICA MÓVIL)",
+      "operating_receipt_in_million_dollars": "56,361.1",
+      "profit_in_million_dollars": "2,209.4",
+      "region": "墨西哥"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/502/2016",
+      "linkedin": "https://www.linkedin.com/company/bpce",
+      "rank2016": "155",
+      "rank2015": "134",
+      "name": "法国BPCE银行集团（GROUPE BPCE)",
+      "operating_receipt_in_million_dollars": "56,209.3",
+      "profit_in_million_dollars": "3,596.3",
+      "region": "法国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/415/2016",
+      "linkedin": "https://www.linkedin.com/company/citic-group",
+      "rank2016": "156",
+      "rank2015": "186",
+      "name": "中国中信集团有限公司（CITIC GROUP)",
+      "operating_receipt_in_million_dollars": "55,938.1",
+      "profit_in_million_dollars": "3,763.5",
+      "region": "中国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/638/2016",
+      "linkedin": "https://www.linkedin.com/company/louis-dreyfus-company",
+      "rank2016": "157",
+      "rank2015": "151",
+      "name": "路易达孚集团（Louis Dreyfus)",
+      "operating_receipt_in_million_dollars": "55,733",
+      "profit_in_million_dollars": "211",
+      "region": "荷兰"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/202/2016",
+      "linkedin": "https://www.linkedin.com/company/intel-corporation",
+      "rank2016": "158",
+      "rank2015": "182",
+      "name": "英特尔公司（INTEL)",
+      "operating_receipt_in_million_dollars": "55,355",
+      "profit_in_million_dollars": "11,420",
+      "region": "美国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/637/2016",
+      "linkedin": "https://www.linkedin.com/company/itau",
+      "rank2016": "159",
+      "rank2015": "112",
+      "name": "伊塔乌联合银行控股公司（Itaú Unibanco Holding)",
+      "operating_receipt_in_million_dollars": "55,082.4",
+      "profit_in_million_dollars": "7,721.3",
+      "region": "巴西"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/614/2016",
+      "linkedin": "https://www.linkedin.com/company/baic",
+      "rank2016": "160",
+      "rank2015": "207",
+      "name": "北京汽车集团（Beijing Automotive Group)",
+      "operating_receipt_in_million_dollars": "54,932.9",
+      "profit_in_million_dollars": "1,097.5",
+      "region": "中国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/105/2016",
+      "linkedin": "https://www.linkedin.com/company/indian-oil-corporation-limited",
+      "rank2016": "161",
+      "rank2015": "119",
+      "name": "印度石油公司（INDIAN OIL)",
+      "operating_receipt_in_million_dollars": "54,710.8",
+      "profit_in_million_dollars": "1,713.7",
+      "region": "印度"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/303/2016",
+      "linkedin": "https://www.linkedin.com/company/humana",
+      "rank2016": "162",
+      "rank2015": "216",
+      "name": "哈门那公司（HUMANA)",
+      "operating_receipt_in_million_dollars": "54,289",
+      "profit_in_million_dollars": "1,276",
+      "region": "美国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/590/2016",
+      "rank2016": "163",
+      "rank2015": "234",
+      "name": "山东魏桥创业集团有限公司（SHANDONG WEIQIAO PIONEERING GROUP) ",
+      "operating_receipt_in_million_dollars": "53,026.1",
+      "profit_in_million_dollars": "1,120.9",
+      "region": "中国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/201/2016",
+      "linkedin": "https://www.linkedin.com/company/the-walt-disney-company",
+      "rank2016": "164",
+      "rank2015": "214",
+      "name": "华特迪士尼公司（WALT DISNEY)",
+      "operating_receipt_in_million_dollars": "52,465",
+      "profit_in_million_dollars": "8,382",
+      "region": "美国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/154/2016",
+      "linkedin": "https://www.linkedin.com/company/bayer",
+      "rank2016": "165",
+      "rank2015": "178",
+      "name": "拜耳集团（BAYER)",
+      "operating_receipt_in_million_dollars": "52,436.6",
+      "profit_in_million_dollars": "4,559.1",
+      "region": "德国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/70/2016",
+      "linkedin": "https://www.linkedin.com/company/deutsche-bank",
+      "rank2016": "166",
+      "rank2015": "164",
+      "name": "德意志银行（DEUTSCHE BANK)",
+      "operating_receipt_in_million_dollars": "52,422.2",
+      "profit_in_million_dollars": "-7,536.4",
+      "region": "德国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/171/2016",
+      "linkedin": "https://www.linkedin.com/company/roche",
+      "rank2016": "167",
+      "rank2015": "189",
+      "name": "瑞士罗氏公司（ROCHE GROUP)",
+      "operating_receipt_in_million_dollars": "52,390",
+      "profit_in_million_dollars": "9,212.4",
+      "region": "瑞士"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/120/2016",
+      "linkedin": "https://www.linkedin.com/company/bhp-billiton",
+      "rank2016": "168",
+      "rank2015": "139",
+      "name": "必和必拓（BHP BILLITON)",
+      "operating_receipt_in_million_dollars": "52,267",
+      "profit_in_million_dollars": "1,910",
+      "region": "澳大利亚"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/97/2016",
+      "linkedin": "https://www.linkedin.com/company/toshiba",
+      "rank2016": "169",
+      "rank2015": "157",
+      "name": "东芝（TOSHIBA)",
+      "operating_receipt_in_million_dollars": "52,031.9",
+      "profit_in_million_dollars": "-3,831.8",
+      "region": "日本"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/663/2016",
+      "rank2016": "170",
+      "rank2015": "148",
+      "name": "Finatis公司（Finatis) ",
+      "operating_receipt_in_million_dollars": "51,959.6",
+      "profit_in_million_dollars": "-79.9",
+      "region": "法国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/287/2016",
+      "linkedin": "https://www.linkedin.com/company/wesfarmers",
+      "rank2016": "171",
+      "rank2015": "171",
+      "name": "西农（WESFARMERS)",
+      "operating_receipt_in_million_dollars": "51,930.8",
+      "profit_in_million_dollars": "2,029.1",
+      "region": "澳大利亚"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/305/2016",
+      "linkedin": "https://www.linkedin.com/company/korea-electric-power-corporation-kepco-",
+      "rank2016": "172",
+      "rank2015": "193",
+      "name": "韩国电力公司（KOREA ELECTRIC POWER)",
+      "operating_receipt_in_million_dollars": "51,804.5",
+      "profit_in_million_dollars": "11,751.7",
+      "region": "韩国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/199/2016",
+      "linkedin": "https://www.linkedin.com/company/posco",
+      "rank2016": "173",
+      "rank2015": "162",
+      "name": "韩国浦项制铁公司（POSCO)",
+      "operating_receipt_in_million_dollars": "51,751.9",
+      "profit_in_million_dollars": "151.7",
+      "region": "韩国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/89/2016",
+      "linkedin": "https://www.linkedin.com/company/rwe",
+      "rank2016": "174",
+      "rank2015": "154",
+      "name": "莱茵集团（RWE)",
+      "operating_receipt_in_million_dollars": "51,616.9",
+      "profit_in_million_dollars": "-79.9",
+      "region": "德国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/183/2016",
+      "linkedin": "https://www.linkedin.com/company/novartis",
+      "rank2016": "175",
+      "rank2015": "167",
+      "name": "诺华公司（NOVARTIS)",
+      "operating_receipt_in_million_dollars": "51,030",
+      "profit_in_million_dollars": "17,783",
+      "region": "瑞士"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/180/2016",
+      "linkedin": "https://www.linkedin.com/company/woolworths-limited",
+      "rank2016": "176",
+      "rank2015": "181",
+      "name": "澳大利亚伍尔沃斯公司（WOOLWORTHS)",
+      "operating_receipt_in_million_dollars": "50,618",
+      "profit_in_million_dollars": "1,784.6",
+      "region": "澳大利亚"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/124/2016",
+      "rank2016": "177",
+      "rank2015": "161",
+      "name": "东京电力公司（TOKYO ELECTRIC POWER) ",
+      "operating_receipt_in_million_dollars": "50,561.1",
+      "profit_in_million_dollars": "1,172.7",
+      "region": "日本"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/130/2016",
+      "linkedin": "https://www.linkedin.com/company/renault",
+      "rank2016": "178",
+      "rank2015": "191",
+      "name": "雷诺（RENAULT)",
+      "operating_receipt_in_million_dollars": "50,280.2",
+      "profit_in_million_dollars": "3,131.5",
+      "region": "法国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/129/2016",
+      "rank2016": "179",
+      "rank2015": "184",
+      "name": "Seven & I 控股公司（SEVEN & I HOLDINGS) ",
+      "operating_receipt_in_million_dollars": "50,098.6",
+      "profit_in_million_dollars": "1,333.6",
+      "region": "日本"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/552/2016",
+      "linkedin": "https://www.linkedin.com/company/lg-electronics",
+      "rank2016": "180",
+      "rank2015": "175",
+      "name": "LG电子（LG ELECTRONICS)",
+      "operating_receipt_in_million_dollars": "49,996.2",
+      "profit_in_million_dollars": "110",
+      "region": "韩国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/83/2016",
+      "linkedin": "https://www.linkedin.com/company/barclays-bank",
+      "rank2016": "181",
+      "rank2015": "195",
+      "name": "巴克莱（BARCLAYS)",
+      "operating_receipt_in_million_dollars": "49,490.1",
+      "profit_in_million_dollars": "-74.9",
+      "region": "英国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/196/2016",
+      "linkedin": "https://www.linkedin.com/company/cnp",
+      "rank2016": "182",
+      "rank2015": "166",
+      "name": "法国国家人寿保险公司（CNP ASSURANCES)",
+      "operating_receipt_in_million_dollars": "49,304.5",
+      "profit_in_million_dollars": "1,254",
+      "region": "法国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/191/2016",
+      "linkedin": "https://www.linkedin.com/company/cisco",
+      "rank2016": "183",
+      "rank2015": "225",
+      "name": "思科公司（CISCO SYSTEMS)",
+      "operating_receipt_in_million_dollars": "49,161",
+      "profit_in_million_dollars": "8,981",
+      "region": "美国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/74/2016",
+      "linkedin": "https://www.linkedin.com/company/thyssenkrupp",
+      "rank2016": "184",
+      "rank2015": "179",
+      "name": "蒂森克虏伯（THYSSENKRUPP)",
+      "operating_receipt_in_million_dollars": "48,981.4",
+      "profit_in_million_dollars": "353.8",
+      "region": "德国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/547/2016",
+      "linkedin": "https://www.linkedin.com/company/jbs",
+      "rank2016": "185",
+      "rank2015": "202",
+      "name": "巴西JBS公司（JBS)",
+      "operating_receipt_in_million_dollars": "48,870.1",
+      "profit_in_million_dollars": "1,391.9",
+      "region": "巴西"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/152/2016",
+      "linkedin": "https://www.linkedin.com/company/pfizer",
+      "rank2016": "186",
+      "rank2015": "211",
+      "name": "辉瑞制药有限公司（PFIZER)",
+      "operating_receipt_in_million_dollars": "48,851",
+      "profit_in_million_dollars": "6,960",
+      "region": "美国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/127/2016",
+      "linkedin": "https://www.linkedin.com/company/dow-chemical",
+      "rank2016": "187",
+      "rank2015": "169",
+      "name": "陶氏化学（DOW CHEMICAL)",
+      "operating_receipt_in_million_dollars": "48,778",
+      "profit_in_million_dollars": "7,685",
+      "region": "美国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/204/2016",
+      "linkedin": "https://www.linkedin.com/company/sysco",
+      "rank2016": "188",
+      "rank2015": "229",
+      "name": "西斯科公司（SYSCO)",
+      "operating_receipt_in_million_dollars": "48,680.8",
+      "profit_in_million_dollars": "686.8",
+      "region": "美国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/605/2016",
+      "linkedin": "https://www.linkedin.com/company/china-merchants-bank",
+      "rank2016": "189",
+      "rank2015": "235",
+      "name": "招商银行（CHINA MERCHANTS BANK)",
+      "operating_receipt_in_million_dollars": "48,459.3",
+      "profit_in_million_dollars": "9,180.8",
+      "region": "中国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/617/2016",
+      "linkedin": "https://www.linkedin.com/company/amer-international-group-company-ltd-",
+      "rank2016": "190",
+      "rank2015": "247",
+      "name": "正威国际集团（Amer International Group)",
+      "operating_receipt_in_million_dollars": "47,795.1",
+      "profit_in_million_dollars": "1,140.5",
+      "region": "中国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/128/2016",
+      "linkedin": "https://www.linkedin.com/company/mitsubishi-ufj-financial-group-inc-",
+      "rank2016": "191",
+      "rank2015": "201",
+      "name": "三菱日联金融集团（MITSUBISHI UFJ FINANCIAL GROUP)",
+      "operating_receipt_in_million_dollars": "47,599.8",
+      "profit_in_million_dollars": "7,925",
+      "region": "日本"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/200/2016",
+      "linkedin": "https://www.linkedin.com/company/fedex",
+      "rank2016": "192",
+      "rank2015": "238",
+      "name": "联邦快递（FEDEX)",
+      "operating_receipt_in_million_dollars": "47,453",
+      "profit_in_million_dollars": "1,050",
+      "region": "美国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/256/2016",
+      "linkedin": "https://www.linkedin.com/company/lloyds-banking-group",
+      "rank2016": "193",
+      "rank2015": "145",
+      "name": "英国劳埃德银行集团（LLOYDS BANKING GROUP)",
+      "operating_receipt_in_million_dollars": "47,192.3",
+      "profit_in_million_dollars": "1,313.9",
+      "region": "英国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/144/2016",
+      "linkedin": "https://www.linkedin.com/company/caterpillar-inc",
+      "rank2016": "194",
+      "rank2015": "187",
+      "name": "卡特彼勒（CATERPILLAR)",
+      "operating_receipt_in_million_dollars": "47,011",
+      "profit_in_million_dollars": "2,102",
+      "region": "美国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/622/2016",
+      "linkedin": "https://www.linkedin.com/company/china-industry-bank",
+      "rank2016": "195",
+      "rank2015": "271",
+      "name": "兴业银行（Industrial Bank)",
+      "operating_receipt_in_million_dollars": "46,446.4",
+      "profit_in_million_dollars": "7,989.1",
+      "region": "中国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/102/2016",
+      "linkedin": "https://www.linkedin.com/company/saint-gobain",
+      "rank2016": "196",
+      "rank2015": "192",
+      "name": "圣戈班集团（SAINT-GOBAIN)",
+      "operating_receipt_in_million_dollars": "46,169.2",
+      "profit_in_million_dollars": "1,436.5",
+      "region": "法国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/179/2016",
+      "linkedin": "http://www.linkedin.com/company/lockheed-martin",
+      "rank2016": "197",
+      "rank2015": "237",
+      "name": "洛克希德－马丁（LOCKHEED MARTIN)",
+      "operating_receipt_in_million_dollars": "46,132",
+      "profit_in_million_dollars": "3,605",
+      "region": "美国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/269/2016",
+      "linkedin": "https://www.linkedin.com/company/new-york-life-insurance-company",
+      "rank2016": "198",
+      "rank2015": "297",
+      "name": "美国纽约人寿保险公司（NEW YORK LIFE INSURANCE)",
+      "operating_receipt_in_million_dollars": "45,890.6",
+      "profit_in_million_dollars": "256.6",
+      "region": "美国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/310/2016",
+      "linkedin": "https://www.linkedin.com/company/sberbank",
+      "rank2016": "199",
+      "rank2015": "177",
+      "name": "俄罗斯联邦储蓄银行（SBERBANK)",
+      "operating_receipt_in_million_dollars": "45,607.5",
+      "profit_in_million_dollars": "3,654.8",
+      "region": "俄罗斯"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/585/2016",
+      "rank2016": "200",
+      "rank2015": "253",
+      "name": "中国电力建设集团有限公司（PowerChina) ",
+      "operating_receipt_in_million_dollars": "45,606.8",
+      "profit_in_million_dollars": "1,170.4",
+      "region": "中国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/375/2016",
+      "rank2016": "201",
+      "rank2015": "239",
+      "name": "河钢集团有限公司（HeSteel Group) ",
+      "operating_receipt_in_million_dollars": "45,265.7",
+      "profit_in_million_dollars": "-203.6",
+      "region": "中国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/563/2016",
+      "linkedin": "https://www.linkedin.com/company/lenovo",
+      "rank2016": "202",
+      "rank2015": "231",
+      "name": "联想集团（LENOVO GROUP)",
+      "operating_receipt_in_million_dollars": "44,912.1",
+      "profit_in_million_dollars": "-128.1",
+      "region": "中国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/151/2016",
+      "linkedin": "https://www.linkedin.com/company/deutschebahn",
+      "rank2016": "203",
+      "rank2015": "197",
+      "name": "德国联邦铁路公司（DEUTSCHE BAHN)",
+      "operating_receipt_in_million_dollars": "44,818.1",
+      "profit_in_million_dollars": "-1,469.8",
+      "region": "德国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/77/2016",
+      "linkedin": "https://www.linkedin.com/company/orange",
+      "rank2016": "204",
+      "rank2015": "199",
+      "name": "Orange公司（ORANGE)",
+      "operating_receipt_in_million_dollars": "44,650.6",
+      "profit_in_million_dollars": "2,941.8",
+      "region": "法国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/628/2016",
+      "linkedin": "https://www.linkedin.com/company/sinopharm",
+      "rank2016": "205",
+      "rank2015": "276",
+      "name": "中国医药集团（Sinopharm)",
+      "operating_receipt_in_million_dollars": "44,324.9",
+      "profit_in_million_dollars": "443.4",
+      "region": "中国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/259/2016",
+      "linkedin": "https://www.linkedin.com/company/the-coca-cola-company",
+      "rank2016": "206",
+      "rank2015": "232",
+      "name": "可口可乐公司（COCA-COLA)",
+      "operating_receipt_in_million_dollars": "44,294",
+      "profit_in_million_dollars": "7,351",
+      "region": "美国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/419/2016",
+      "linkedin": "https://www.linkedin.com/company/china-unicom",
+      "rank2016": "207",
+      "rank2015": "227",
+      "name": "中国联合网络通信股份有限公司（CHINA UNITED NETWORK COMMUNICATIONS)",
+      "operating_receipt_in_million_dollars": "44,085.1",
+      "profit_in_million_dollars": "552.4",
+      "region": "中国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/581/2016",
+      "linkedin": "https://www.linkedin.com/company/kia-motors-corporation",
+      "rank2016": "208",
+      "rank2015": "242",
+      "name": "起亚汽车（KIA MOTORS)",
+      "operating_receipt_in_million_dollars": "43,792.4",
+      "profit_in_million_dollars": "2,326.3",
+      "region": "韩国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/148/2016",
+      "linkedin": "https://www.linkedin.com/company/bradesco",
+      "rank2016": "209",
+      "rank2015": "185",
+      "name": "巴西布拉德斯科银行（BANCO BRADESCO)",
+      "operating_receipt_in_million_dollars": "43,740.4",
+      "profit_in_million_dollars": "5,439.4",
+      "region": "巴西"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/150/2016",
+      "linkedin": "https://www.linkedin.com/company/vinci",
+      "rank2016": "210",
+      "rank2015": "200",
+      "name": "万喜集团（VINCI)",
+      "operating_receipt_in_million_dollars": "43,617.9",
+      "profit_in_million_dollars": "2,269.6",
+      "region": "法国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/387/2016",
+      "linkedin": "https://www.linkedin.com/company/anheuser-busch-inbev",
+      "rank2016": "211",
+      "rank2015": "226",
+      "name": "百威英博（ANHEUSER-BUSCH INBEV)",
+      "operating_receipt_in_million_dollars": "43,604",
+      "profit_in_million_dollars": "8,273",
+      "region": "比利时"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/308/2016",
+      "linkedin": "https://www.linkedin.com/company/hca",
+      "rank2016": "212",
+      "rank2015": "277",
+      "name": "HCA公司（HCA HOLDINGS)",
+      "operating_receipt_in_million_dollars": "43,591",
+      "profit_in_million_dollars": "2,129",
+      "region": "美国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/222/2016",
+      "linkedin": "https://www.linkedin.com/company/continental",
+      "rank2016": "213",
+      "rank2015": "233",
+      "name": "德国大陆集团（CONTINENTAL)",
+      "operating_receipt_in_million_dollars": "43,519.1",
+      "profit_in_million_dollars": "3,025.4",
+      "region": "德国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/138/2016",
+      "linkedin": "https://www.linkedin.com/company/bunge",
+      "rank2016": "214",
+      "rank2015": "172",
+      "name": "邦吉公司（BUNGE)",
+      "operating_receipt_in_million_dollars": "43,455",
+      "profit_in_million_dollars": "791",
+      "region": "美国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/264/2016",
+      "linkedin": "https://www.linkedin.com/company/reliance",
+      "rank2016": "215",
+      "rank2015": "158",
+      "name": "信实工业公司（RELIANCE INDUSTRIES)",
+      "operating_receipt_in_million_dollars": "43,437",
+      "profit_in_million_dollars": "4,220.5",
+      "region": "印度"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/178/2016",
+      "linkedin": "https://www.linkedin.com/company/sse-plc",
+      "rank2016": "216",
+      "rank2015": "205",
+      "name": "南苏格兰电力（SSE)",
+      "operating_receipt_in_million_dollars": "43,334",
+      "profit_in_million_dollars": "693.5",
+      "region": "英国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/425/2016",
+      "rank2016": "217",
+      "rank2015": "224",
+      "name": "中国华能集团公司（CHINA HUANENG GROUP) ",
+      "operating_receipt_in_million_dollars": "43,223.9",
+      "profit_in_million_dollars": "774.5",
+      "region": "中国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/235/2016",
+      "linkedin": "https://www.linkedin.com/company/ingram-micro",
+      "rank2016": "218",
+      "rank2015": "230",
+      "name": "美国英格雷姆麦克罗公司（INGRAM MICRO)",
+      "operating_receipt_in_million_dollars": "43,025.9",
+      "profit_in_million_dollars": "215.1",
+      "region": "美国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/113/2016",
+      "linkedin": "https://www.linkedin.com/company/bbva",
+      "rank2016": "219",
+      "rank2015": "221",
+      "name": "西班牙对外银行（BANCO BILBAO VIZCAYA ARGENTARIA)",
+      "operating_receipt_in_million_dollars": "42,967.8",
+      "profit_in_million_dollars": "2,930.7",
+      "region": "西班牙"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/193/2016",
+      "linkedin": "https://www.linkedin.com/company/centrica",
+      "rank2016": "220",
+      "rank2015": "217",
+      "name": "英国森特理克集团（CENTRICA)",
+      "operating_receipt_in_million_dollars": "42,734.2",
+      "profit_in_million_dollars": "-1,141.3",
+      "region": "英国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/620/2016",
+      "linkedin": "https://www.linkedin.com/company/china-minsheng-banking-corp-ltd",
+      "rank2016": "221",
+      "rank2015": "281",
+      "name": "中国民生银行（CHINA MINSHENG BANKING)",
+      "operating_receipt_in_million_dollars": "42,449",
+      "profit_in_million_dollars": "7,337.4",
+      "region": "中国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/187/2016",
+      "linkedin": "https://www.linkedin.com/company/ahold",
+      "rank2016": "222",
+      "rank2015": "248",
+      "name": "荷兰皇家阿霍德集团（ROYAL AHOLD)",
+      "operating_receipt_in_million_dollars": "42,377.7",
+      "profit_in_million_dollars": "945.1",
+      "region": "荷兰"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/238/2016",
+      "rank2016": "223",
+      "rank2015": "206",
+      "name": "日本伊藤忠商事株式会社（ITOCHU) ",
+      "operating_receipt_in_million_dollars": "42,344.7",
+      "profit_in_million_dollars": "2,002.3",
+      "region": "日本"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/137/2016",
+      "linkedin": "https://www.linkedin.com/company/intesa-sanpaolo",
+      "rank2016": "224",
+      "rank2015": "173",
+      "name": "意大利联合圣保罗银行（INTESA SANPAOLO)",
+      "operating_receipt_in_million_dollars": "42,239",
+      "profit_in_million_dollars": "3,038.3",
+      "region": "意大利"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/640/2016",
+      "linkedin": "https://www.linkedin.com/company/energy-transfer",
+      "rank2016": "225",
+      "rank2015": "183",
+      "name": "Energy Transfer Equity公司（Energy Transfer Equity)",
+      "operating_receipt_in_million_dollars": "42,126",
+      "profit_in_million_dollars": "1,189",
+      "region": "美国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/524/2016",
+      "linkedin": "https://www.linkedin.com/company/tata-motors",
+      "rank2016": "226",
+      "rank2015": "254",
+      "name": "印度塔塔汽车公司（TATA MOTORS)",
+      "operating_receipt_in_million_dollars": "42,091.9",
+      "profit_in_million_dollars": "1,683.9",
+      "region": "印度"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/629/2016",
+      "linkedin": "https://www.linkedin.com/company/shanghai-pudong-development-bank",
+      "rank2016": "227",
+      "rank2015": "296",
+      "name": "上海浦东发展银行股份有限公司（Shanghai Pudong Development Bank)",
+      "operating_receipt_in_million_dollars": "42,030",
+      "profit_in_million_dollars": "8,052.3",
+      "region": "中国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/338/2016",
+      "linkedin": "https://www.linkedin.com/company/christian-dior-couture",
+      "rank2016": "228",
+      "rank2015": "261",
+      "name": "迪奥（CHRISTIAN DIOR)",
+      "operating_receipt_in_million_dollars": "41,900.5",
+      "profit_in_million_dollars": "2,840.3",
+      "region": "法国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/645/2016",
+      "rank2016": "229",
+      "rank2015": "342",
+      "name": "中国华信能源有限公司（CEFC China Energy) ",
+      "operating_receipt_in_million_dollars": "41,845",
+      "profit_in_million_dollars": "603.2",
+      "region": "中国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/610/2016",
+      "linkedin": "https://www.linkedin.com/company/pertamina",
+      "rank2016": "230",
+      "rank2015": "130",
+      "name": "印尼国家石油公司（Pertamina)",
+      "operating_receipt_in_million_dollars": "41,762.7",
+      "profit_in_million_dollars": "1,420.2",
+      "region": "印度尼西亚"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/458/2016",
+      "rank2016": "231",
+      "rank2015": "256",
+      "name": "MS&AD保险集团控股有限公司（MS&AD INSURANCE GROUP HOLDINGS) ",
+      "operating_receipt_in_million_dollars": "41,757.5",
+      "profit_in_million_dollars": "1,512",
+      "region": "日本"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/363/2016",
+      "linkedin": "https://www.linkedin.com/company/state-bank-of-india",
+      "rank2016": "232",
+      "rank2015": "260",
+      "name": "印度国家银行（STATE BANK OF INDIA)",
+      "operating_receipt_in_million_dollars": "41,681",
+      "profit_in_million_dollars": "1,867.3",
+      "region": "印度"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/181/2016",
+      "linkedin": "https://www.linkedin.com/company/sanofi-",
+      "rank2016": "233",
+      "rank2015": "241",
+      "name": "赛诺菲（SANOFI)",
+      "operating_receipt_in_million_dollars": "41,460.3",
+      "profit_in_million_dollars": "4,755.5",
+      "region": "法国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/572/2016",
+      "rank2016": "234",
+      "rank2015": "265",
+      "name": "中国化工集团公司（CHEMCHINA) ",
+      "operating_receipt_in_million_dollars": "41,412.4",
+      "profit_in_million_dollars": "-131.8",
+      "region": "中国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/313/2016",
+      "linkedin": "https://www.linkedin.com/company/tyson-foods",
+      "rank2016": "235",
+      "rank2015": "311",
+      "name": "泰森食品（TYSON FOODS)",
+      "operating_receipt_in_million_dollars": "41,373",
+      "profit_in_million_dollars": "1,220",
+      "region": "美国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/381/2016",
+      "linkedin": "https://www.linkedin.com/company/american-airlines",
+      "rank2016": "236",
+      "rank2015": "257",
+      "name": "美国航空集团（AMERICAN AIRLINES GROUP)",
+      "operating_receipt_in_million_dollars": "40,990",
+      "profit_in_million_dollars": "7,610",
+      "region": "美国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/355/2016",
+      "linkedin": "https://www.linkedin.com/company/hyundai-heavy-industries-co.-ltd.",
+      "rank2016": "237",
+      "rank2015": "210",
+      "name": "韩国现代重工集团（HYUNDAI HEAVY INDUSTRIES)",
+      "operating_receipt_in_million_dollars": "40,883.2",
+      "profit_in_million_dollars": "-1,193.7",
+      "region": "韩国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/157/2016",
+      "rank2016": "238",
+      "rank2015": "204",
+      "name": "新日铁住金（NIPPON STEEL & SUMITOMO METAL) ",
+      "operating_receipt_in_million_dollars": "40,877.8",
+      "profit_in_million_dollars": "1,211.3",
+      "region": "日本"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/403/2016",
+      "linkedin": "https://www.linkedin.com/company/delta-air-lines",
+      "rank2016": "239",
+      "rank2015": "273",
+      "name": "达美航空（DELTA AIR LINES)",
+      "operating_receipt_in_million_dollars": "40,704",
+      "profit_in_million_dollars": "4,526",
+      "region": "美国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/106/2016",
+      "linkedin": "https://www.linkedin.com/company/maersk-group",
+      "rank2016": "240",
+      "rank2015": "208",
+      "name": "马士基集团（Maersk Group)",
+      "operating_receipt_in_million_dollars": "40,308",
+      "profit_in_million_dollars": "791",
+      "region": "丹麦"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/463/2016",
+      "linkedin": "https://www.linkedin.com/company/nationwide-insurance",
+      "rank2016": "241",
+      "rank2015": "320",
+      "name": "美国全国保险公司（NATIONWIDE)",
+      "operating_receipt_in_million_dollars": "40,221.8",
+      "profit_in_million_dollars": "580.7",
+      "region": "美国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/198/2016",
+      "linkedin": "https://www.linkedin.com/company/johnson-controls",
+      "rank2016": "242",
+      "rank2015": "245",
+      "name": "江森自控有限公司（JOHNSON CONTROLS)",
+      "operating_receipt_in_million_dollars": "40,204",
+      "profit_in_million_dollars": "1,563",
+      "region": "美国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/225/2016",
+      "rank2016": "243",
+      "rank2015": "243",
+      "name": "日本三井住友金融集团（SUMITOMO MITSUI FINANCIAL GROUP) ",
+      "operating_receipt_in_million_dollars": "39,750.5",
+      "profit_in_million_dollars": "5,386.8",
+      "region": "日本"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/167/2016",
+      "linkedin": "https://www.linkedin.com/company/best-buy",
+      "rank2016": "244",
+      "rank2015": "262",
+      "name": "百思买（BEST BUY)",
+      "operating_receipt_in_million_dollars": "39,745",
+      "profit_in_million_dollars": "897",
+      "region": "美国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/131/2016",
+      "linkedin": "https://www.linkedin.com/company/mitsui-%26-co--ltd-",
+      "rank2016": "245",
+      "rank2015": "213",
+      "name": "三井物产株式会社（MITSUI)",
+      "operating_receipt_in_million_dollars": "39,647.2",
+      "profit_in_million_dollars": "-694.8",
+      "region": "日本"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/378/2016",
+      "linkedin": "https://www.linkedin.com/company/merck",
+      "rank2016": "246",
+      "rank2015": "259",
+      "name": "默沙东（MERCK)",
+      "operating_receipt_in_million_dollars": "39,498",
+      "profit_in_million_dollars": "4,442",
+      "region": "美国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/186/2016",
+      "linkedin": "https://www.linkedin.com/company/sabic",
+      "rank2016": "247",
+      "rank2015": "209",
+      "name": "沙特基础工业公司（SABIC)",
+      "operating_receipt_in_million_dollars": "39,480.5",
+      "profit_in_million_dollars": "5,003.8",
+      "region": "沙特阿拉伯"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/161/2016",
+      "linkedin": "https://www.linkedin.com/company/fujitsu",
+      "rank2016": "248",
+      "rank2015": "251",
+      "name": "富士通（FUJITSU)",
+      "operating_receipt_in_million_dollars": "39,477.3",
+      "profit_in_million_dollars": "722.7",
+      "region": "日本"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/304/2016",
+      "linkedin": "https://www.linkedin.com/company/liberty-mutual-insurance",
+      "rank2016": "249",
+      "rank2015": "286",
+      "name": "美国利宝互助保险集团（LIBERTY MUTUAL INSURANCE GROUP)",
+      "operating_receipt_in_million_dollars": "39,450",
+      "profit_in_million_dollars": "514",
+      "region": "美国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/76/2016",
+      "linkedin": "https://www.linkedin.com/company/repsol",
+      "rank2016": "250",
+      "rank2015": "188",
+      "name": "雷普索尔公司（REPSOL)",
+      "operating_receipt_in_million_dollars": "39,419.3",
+      "profit_in_million_dollars": "-1,361.1",
+      "region": "西班牙"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/571/2016",
+      "linkedin": "https://www.linkedin.com/company/china-pacific-insurance-company",
+      "rank2016": "251",
+      "rank2015": "328",
+      "name": "中国太平洋保险（集团）股份有限公司（CHINA PACIFIC INSURANCE (GROUP))",
+      "operating_receipt_in_million_dollars": "39,335.8",
+      "profit_in_million_dollars": "2,820.9",
+      "region": "中国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/136/2016",
+      "linkedin": "https://www.linkedin.com/company/goldman-sachs",
+      "rank2016": "252",
+      "rank2015": "278",
+      "name": "高盛（GOLDMAN SACHS GROUP)",
+      "operating_receipt_in_million_dollars": "39,208",
+      "profit_in_million_dollars": "6,083",
+      "region": "美国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/505/2016",
+      "linkedin": "https://www.linkedin.com/company/aegon",
+      "rank2016": "253",
+      "rank2015": "163",
+      "name": "荷兰全球保险集团（AEGON)",
+      "operating_receipt_in_million_dollars": "39,062.1",
+      "profit_in_million_dollars": "788.7",
+      "region": "荷兰"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/300/2016",
+      "linkedin": "https://www.linkedin.com/company/wilmar-international",
+      "rank2016": "254",
+      "rank2015": "252",
+      "name": "丰益国际（WILMAR INTERNATIONAL)",
+      "operating_receipt_in_million_dollars": "38,776.6",
+      "profit_in_million_dollars": "1,056.1",
+      "region": "新加坡"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/241/2016",
+      "linkedin": "https://www.linkedin.com/company/xerox",
+      "rank2016": "255",
+      "rank2015": "203",
+      "name": "西班牙ACS集团（ACS)",
+      "operating_receipt_in_million_dollars": "38,741.1",
+      "profit_in_million_dollars": "804.6",
+      "region": "西班牙"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/212/2016",
+      "linkedin": "https://www.linkedin.com/company/honeywell",
+      "rank2016": "256",
+      "rank2015": "275",
+      "name": "霍尼韦尔国际公司（HONEYWELL INTERNATIONAL)",
+      "operating_receipt_in_million_dollars": "38,581",
+      "profit_in_million_dollars": "4,768",
+      "region": "美国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/119/2016",
+      "linkedin": "https://www.linkedin.com/company/ubs",
+      "rank2016": "257",
+      "rank2015": "308",
+      "name": "瑞银集团（UBS Group)",
+      "operating_receipt_in_million_dollars": "38,510.6",
+      "profit_in_million_dollars": "6,447.5",
+      "region": "瑞士"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/493/2016",
+      "linkedin": "https://www.linkedin.com/company/massmutual-financial-group",
+      "rank2016": "258",
+      "rank2015": "356",
+      "name": "万通互惠理财（MASSACHUSETTS MUTUAL LIFE INSURANCE)",
+      "operating_receipt_in_million_dollars": "38,242.8",
+      "profit_in_million_dollars": "1,425.3",
+      "region": "美国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/616/2016",
+      "linkedin": "https://www.linkedin.com/company/pegatron",
+      "rank2016": "259",
+      "rank2015": "355",
+      "name": "和硕（Pegatron)",
+      "operating_receipt_in_million_dollars": "38,238.9",
+      "profit_in_million_dollars": "750.2",
+      "region": "中国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/408/2016",
+      "linkedin": "https://www.linkedin.com/company/oracle",
+      "rank2016": "260",
+      "rank2015": "300",
+      "name": "甲骨文公司（ORACLE)",
+      "operating_receipt_in_million_dollars": "38,226",
+      "profit_in_million_dollars": "9,938",
+      "region": "美国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/231/2016",
+      "linkedin": "https://www.linkedin.com/company/tokio-marine-insurance-group",
+      "rank2016": "261",
+      "rank2015": "290",
+      "name": "东京海上日动火灾保险公司（TOKIO MARINE HOLDINGS)",
+      "operating_receipt_in_million_dollars": "38,142.7",
+      "profit_in_million_dollars": "2,120.3",
+      "region": "日本"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/499/2016",
+      "rank2016": "262",
+      "rank2015": "240",
+      "name": "中国铝业公司（ALUMINUM CORP. OF CHINA) ",
+      "operating_receipt_in_million_dollars": "37,995.5",
+      "profit_in_million_dollars": "-850.7",
+      "region": "中国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/108/2016",
+      "linkedin": "https://www.linkedin.com/company/morgan-stanley",
+      "rank2016": "263",
+      "rank2015": "306",
+      "name": "摩根士丹利（MORGAN STANLEY)",
+      "operating_receipt_in_million_dollars": "37,897",
+      "profit_in_million_dollars": "6,127",
+      "region": "美国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/487/2016",
+      "linkedin": "https://www.linkedin.com/company/cigna",
+      "rank2016": "264",
+      "rank2015": "338",
+      "name": "信诺（CIGNA)",
+      "operating_receipt_in_million_dollars": "37,876",
+      "profit_in_million_dollars": "2,094",
+      "region": "美国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/566/2016",
+      "rank2016": "265",
+      "rank2015": "294",
+      "name": "美国联合大陆控股有限公司（UNITED CONTINENTAL HOLDINGS) ",
+      "operating_receipt_in_million_dollars": "37,864",
+      "profit_in_million_dollars": "7,340",
+      "region": "美国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/684/2016",
+      "linkedin": "https://www.linkedin.com/company/sytransis-ag",
+      "rank2016": "266",
+      "rank2015": "--",
+      "name": "中国中车股份有限公司（CRRC)",
+      "operating_receipt_in_million_dollars": "37,837.2",
+      "profit_in_million_dollars": "1,880.6",
+      "region": "中国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/569/2016",
+      "rank2016": "267",
+      "rank2015": "315",
+      "name": "冀中能源集团（JIZHONG ENERGY GROUP) ",
+      "operating_receipt_in_million_dollars": "37,816.6",
+      "profit_in_million_dollars": "-228",
+      "region": "中国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/271/2016",
+      "linkedin": "https://www.linkedin.com/company/denso",
+      "rank2016": "268",
+      "rank2015": "293",
+      "name": "电装公司（DENSO)",
+      "operating_receipt_in_million_dollars": "37,688.3",
+      "profit_in_million_dollars": "2,034.6",
+      "region": "日本"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/267/2016",
+      "linkedin": "https://www.linkedin.com/company/commonwealthbank",
+      "rank2016": "269",
+      "rank2015": "269",
+      "name": "澳洲联邦银行（COMMONWEALTH BANK OF AUSTRALIA)",
+      "operating_receipt_in_million_dollars": "37,679.7",
+      "profit_in_million_dollars": "7,536.8",
+      "region": "澳大利亚"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/514/2016",
+      "rank2016": "270",
+      "rank2015": "196",
+      "name": "神华集团（SHENHUA GROUP) ",
+      "operating_receipt_in_million_dollars": "37,611.5",
+      "profit_in_million_dollars": "1,390.5",
+      "region": "中国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/232/2016",
+      "linkedin": "https://www.linkedin.com/company/kddi-corporation",
+      "rank2016": "271",
+      "rank2015": "267",
+      "name": "日本KDDI电信公司（KDDI)",
+      "operating_receipt_in_million_dollars": "37,201.9",
+      "profit_in_million_dollars": "4,118.8",
+      "region": "日本"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/163/2016",
+      "linkedin": "https://www.linkedin.com/company/volvo-group",
+      "rank2016": "272",
+      "rank2015": "268",
+      "name": "沃尔沃集团（VOLVO)",
+      "operating_receipt_in_million_dollars": "37,061.4",
+      "profit_in_million_dollars": "1,785.7",
+      "region": "瑞典"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/411/2016",
+      "linkedin": "https://www.linkedin.com/company/jardine-matheson",
+      "rank2016": "273",
+      "rank2015": "282",
+      "name": "怡和集团（JARDINE MATHESON)",
+      "operating_receipt_in_million_dollars": "37,007",
+      "profit_in_million_dollars": "1,797",
+      "region": "中国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/254/2016",
+      "linkedin": "https://www.linkedin.com/company/george-weston-limited",
+      "rank2016": "274",
+      "rank2015": "287",
+      "name": "加拿大乔治威斯顿公司（GEORGE WESTON)",
+      "operating_receipt_in_million_dollars": "36,683.1",
+      "profit_in_million_dollars": "412.2",
+      "region": "加拿大"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/220/2016",
+      "linkedin": "https://www.linkedin.com/company/baosteel-group-co-",
+      "rank2016": "275",
+      "rank2015": "218",
+      "name": "宝钢集团有限公司（BAOSTEEL GROUP)",
+      "operating_receipt_in_million_dollars": "36,607.9",
+      "profit_in_million_dollars": "398.5",
+      "region": "中国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/215/2016",
+      "rank2016": "276",
+      "rank2015": "291",
+      "name": "三菱电机股份有限公司（MITSUBISHI ELECTRIC) ",
+      "operating_receipt_in_million_dollars": "36,604",
+      "profit_in_million_dollars": "1,903.3",
+      "region": "日本"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/362/2016",
+      "linkedin": "https://www.linkedin.com/company/hanwha-group",
+      "rank2016": "277",
+      "rank2015": "329",
+      "name": "韩华集团（HANWHA)",
+      "operating_receipt_in_million_dollars": "36,589.5",
+      "profit_in_million_dollars": "-252",
+      "region": "韩国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/168/2016",
+      "linkedin": "https://www.linkedin.com/company/glaxosmithkline",
+      "rank2016": "278",
+      "rank2015": "309",
+      "name": "英国葛兰素史克公司（GLAXOSMITHKLINE)",
+      "operating_receipt_in_million_dollars": "36,549.6",
+      "profit_in_million_dollars": "12,867.2",
+      "region": "英国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/221/2016",
+      "linkedin": "https://www.linkedin.com/company/aviva-plc",
+      "rank2016": "279",
+      "rank2015": "123",
+      "name": "英杰华集团（AVIVA)",
+      "operating_receipt_in_million_dollars": "36,251.7",
+      "profit_in_million_dollars": "1,402.5",
+      "region": "英国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/156/2016",
+      "linkedin": "https://www.linkedin.com/company/bouygues",
+      "rank2016": "280",
+      "rank2015": "244",
+      "name": "法国布伊格集团（BOUYGUES)",
+      "operating_receipt_in_million_dollars": "36,073.7",
+      "profit_in_million_dollars": "447",
+      "region": "法国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/570/2016",
+      "rank2016": "281",
+      "rank2015": "371",
+      "name": "中国船舶重工集团公司（CHINA SHIPBUILDING INDUSTRY) ",
+      "operating_receipt_in_million_dollars": "36,012.2",
+      "profit_in_million_dollars": "1,307.7",
+      "region": "中国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/398/2016",
+      "linkedin": "https://www.linkedin.com/company/swiss-re",
+      "rank2016": "282",
+      "rank2015": "313",
+      "name": "瑞士再保险股份有限公司（SWISS RE)",
+      "operating_receipt_in_million_dollars": "35,714",
+      "profit_in_million_dollars": "4,597",
+      "region": "瑞士"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/295/2016",
+      "linkedin": "https://www.linkedin.com/company/allstate",
+      "rank2016": "283",
+      "rank2015": "333",
+      "name": "好事达（ALLSTATE)",
+      "operating_receipt_in_million_dollars": "35,653",
+      "profit_in_million_dollars": "2,171",
+      "region": "美国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/197/2016",
+      "rank2016": "284",
+      "rank2015": "263",
+      "name": "日本明治安田生命保险公司（MEIJI YASUDA LIFE INSURANCE) ",
+      "operating_receipt_in_million_dollars": "35,622.6",
+      "profit_in_million_dollars": "1,783.4",
+      "region": "日本"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/216/2016",
+      "linkedin": "https://www.linkedin.com/company/lufthansa",
+      "rank2016": "285",
+      "rank2015": "285",
+      "name": "汉莎集团（LUFTHANSA GROUP)",
+      "operating_receipt_in_million_dollars": "35,559",
+      "profit_in_million_dollars": "1,883.6",
+      "region": "德国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/230/2016",
+      "linkedin": "https://www.linkedin.com/company/abb",
+      "rank2016": "286",
+      "rank2015": "284",
+      "name": "瑞士ABB集团（ABB)",
+      "operating_receipt_in_million_dollars": "35,481",
+      "profit_in_million_dollars": "1,933",
+      "region": "瑞士"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/328/2016",
+      "linkedin": "https://www.linkedin.com/company/schlumberger",
+      "rank2016": "287",
+      "rank2015": "215",
+      "name": "斯伦贝谢公司（SCHLUMBERGER)",
+      "operating_receipt_in_million_dollars": "35,475",
+      "profit_in_million_dollars": "2,072",
+      "region": "美国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/261/2016",
+      "linkedin": "https://www.linkedin.com/company/sainsburys",
+      "rank2016": "288",
+      "rank2015": "301",
+      "name": "森宝利（J. SAINSBURY)",
+      "operating_receipt_in_million_dollars": "35,391.4",
+      "profit_in_million_dollars": "709.2",
+      "region": "英国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/642/2016",
+      "rank2016": "289",
+      "rank2015": "292",
+      "name": "Talanx公司（Talanx) ",
+      "operating_receipt_in_million_dollars": "35,379.3",
+      "profit_in_million_dollars": "814.2",
+      "region": "德国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/380/2016",
+      "linkedin": "https://www.linkedin.com/company/metallurgical-corporation-of-china",
+      "rank2016": "290",
+      "rank2015": "326",
+      "name": "中国冶金科工集团有限公司（CHINA METALLURGICAL GROUP)",
+      "operating_receipt_in_million_dollars": "35,314.3",
+      "profit_in_million_dollars": "383.8",
+      "region": "中国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/296/2016",
+      "linkedin": "https://www.linkedin.com/company/tiaa",
+      "rank2016": "291",
+      "rank2015": "349",
+      "name": "美国教师退休基金会（TIAA)",
+      "operating_receipt_in_million_dollars": "35,181.3",
+      "profit_in_million_dollars": "1,214.2",
+      "region": "美国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/164/2016",
+      "linkedin": "https://www.linkedin.com/company/credit-suisse",
+      "rank2016": "292",
+      "rank2015": "289",
+      "name": "瑞士信贷（CREDIT SUISSE GROUP)",
+      "operating_receipt_in_million_dollars": "35,173",
+      "profit_in_million_dollars": "-3,060.1",
+      "region": "瑞士"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/561/2016",
+      "rank2016": "293",
+      "rank2015": "288",
+      "name": "中国机械工业集团有限公司（SINOMACH) ",
+      "operating_receipt_in_million_dollars": "35,134.1",
+      "profit_in_million_dollars": "766.7",
+      "region": "中国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/72/2016",
+      "linkedin": "https://www.linkedin.com/company/sk",
+      "rank2016": "294",
+      "rank2015": "--",
+      "name": "SK集团（SK HOLDINGS)",
+      "operating_receipt_in_million_dollars": "34,992.3",
+      "profit_in_million_dollars": "4,727.5",
+      "region": "韩国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/208/2016",
+      "linkedin": "https://www.linkedin.com/company/iberdrola",
+      "rank2016": "295",
+      "rank2015": "283",
+      "name": "Iberdrola公司（IBERDROLA)",
+      "operating_receipt_in_million_dollars": "34,852",
+      "profit_in_million_dollars": "2,686.2",
+      "region": "西班牙"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/134/2016",
+      "linkedin": "https://www.linkedin.com/company/rio-tinto",
+      "rank2016": "296",
+      "rank2015": "222",
+      "name": "力拓集团（RIO TINTO GROUP)",
+      "operating_receipt_in_million_dollars": "34,829",
+      "profit_in_million_dollars": "-866",
+      "region": "英国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/211/2016",
+      "linkedin": "https://www.linkedin.com/company/rbc",
+      "rank2016": "297",
+      "rank2015": "299",
+      "name": "加拿大皇家银行（ROYAL BANK OF CANADA)",
+      "operating_receipt_in_million_dollars": "34,794.5",
+      "profit_in_million_dollars": "7,979.3",
+      "region": "加拿大"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/506/2016",
+      "linkedin": "https://www.linkedin.com/company/intl-fcstone-inc-",
+      "rank2016": "298",
+      "rank2015": "352",
+      "name": "国际资产控股公司（INTL FCSTONE)",
+      "operating_receipt_in_million_dollars": "34,693.2",
+      "profit_in_million_dollars": "55.7",
+      "region": "美国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/257/2016",
+      "linkedin": "https://www.linkedin.com/company/chs",
+      "rank2016": "299",
+      "rank2015": "255",
+      "name": "CHS公司（CHS)",
+      "operating_receipt_in_million_dollars": "34,582.4",
+      "profit_in_million_dollars": "781",
+      "region": "美国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/58/2016",
+      "linkedin": "https://www.linkedin.com/company/unicredit",
+      "rank2016": "300",
+      "rank2015": "246",
+      "name": "联合信贷集团（UNICREDIT GROUP)",
+      "operating_receipt_in_million_dollars": "34,576",
+      "profit_in_million_dollars": "1,879.4",
+      "region": "意大利"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/644/2016",
+      "linkedin": "https://www.linkedin.com/company/couche-tard",
+      "rank2016": "301",
+      "rank2015": "305",
+      "name": "Alimentation Couche-Tard公司（Alimentation Couche-Tard)",
+      "operating_receipt_in_million_dollars": "34,529.9",
+      "profit_in_million_dollars": "932.8",
+      "region": "加拿大"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/260/2016",
+      "linkedin": "https://www.linkedin.com/company/american-express",
+      "rank2016": "302",
+      "rank2015": "325",
+      "name": "美国运通公司（AMERICAN EXPRESS)",
+      "operating_receipt_in_million_dollars": "34,441",
+      "profit_in_million_dollars": "5,163",
+      "region": "美国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/634/2016",
+      "rank2016": "303",
+      "rank2015": "362",
+      "name": "广州汽车工业集团（Guangzhou Automobile Industry Group) ",
+      "operating_receipt_in_million_dollars": "34,440.3",
+      "profit_in_million_dollars": "497.9",
+      "region": "中国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/272/2016",
+      "linkedin": "https://www.linkedin.com/company/national-australia-bank",
+      "rank2016": "304",
+      "rank2015": "266",
+      "name": "澳大利亚国民银行（NATIONAL AUSTRALIA BANK)",
+      "operating_receipt_in_million_dollars": "34,180.7",
+      "profit_in_million_dollars": "4,963.1",
+      "region": "澳大利亚"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/339/2016",
+      "linkedin": "https://www.linkedin.com/company/poste-italiane",
+      "rank2016": "305",
+      "rank2015": "310",
+      "name": "意大利邮政集团（POSTE ITALIANE)",
+      "operating_receipt_in_million_dollars": "34,098.1",
+      "profit_in_million_dollars": "612.3",
+      "region": "意大利"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/384/2016",
+      "linkedin": "https://www.linkedin.com/company/magna-international",
+      "rank2016": "306",
+      "rank2015": "318",
+      "name": "麦格纳国际（MAGNA INTERNATIONAL)",
+      "operating_receipt_in_million_dollars": "33,871",
+      "profit_in_million_dollars": "2,013",
+      "region": "加拿大"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/243/2016",
+      "linkedin": "https://www.linkedin.com/company/mitsubishi-heavy-industries",
+      "rank2016": "307",
+      "rank2015": "319",
+      "name": "日本三菱重工业股份有限公司（MITSUBISHI HEAVY INDUSTRIES)",
+      "operating_receipt_in_million_dollars": "33,709",
+      "profit_in_million_dollars": "531.7",
+      "region": "日本"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/229/2016",
+      "rank2016": "308",
+      "rank2015": "350",
+      "name": "住友商事（SUMITOMO) ",
+      "operating_receipt_in_million_dollars": "33,409.1",
+      "profit_in_million_dollars": "621",
+      "region": "日本"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/651/2016",
+      "rank2016": "309",
+      "rank2015": "391",
+      "name": "中国能源建设集团有限公司（China Energy Engineering Group) ",
+      "operating_receipt_in_million_dollars": "33,223.3",
+      "profit_in_million_dollars": "539.9",
+      "region": "中国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/597/2016",
+      "linkedin": "https://www.linkedin.com/company/hyundai-mobis",
+      "rank2016": "310",
+      "rank2015": "347",
+      "name": "现代摩比斯公司（HYUNDAI MOBIS)",
+      "operating_receipt_in_million_dollars": "33,195.6",
+      "profit_in_million_dollars": "2,701.9",
+      "region": "韩国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/600/2016",
+      "linkedin": "https://www.linkedin.com/company/greenland-holding-group-company-limited",
+      "rank2016": "311",
+      "rank2015": "258",
+      "name": "绿地控股集团有限公司（GREENLAND HOLDING GROUP)",
+      "operating_receipt_in_million_dollars": "33,023.6",
+      "profit_in_million_dollars": "1,095.8",
+      "region": "中国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/348/2016",
+      "linkedin": "https://www.linkedin.com/company/accenture",
+      "rank2016": "312",
+      "rank2015": "374",
+      "name": "埃森哲（ACCENTURE)",
+      "operating_receipt_in_million_dollars": "32,914.4",
+      "profit_in_million_dollars": "3,053.6",
+      "region": "爱尔兰"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/666/2016",
+      "rank2016": "313",
+      "rank2015": "420",
+      "name": "中国光大集团（China Everbright Group) ",
+      "operating_receipt_in_million_dollars": "32,901.4",
+      "profit_in_million_dollars": "2,114.3",
+      "region": "中国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/444/2016",
+      "rank2016": "314",
+      "rank2015": "274",
+      "name": "江苏沙钢集团（JIANGSU SHAGANG GROUP) ",
+      "operating_receipt_in_million_dollars": "32,751.4",
+      "profit_in_million_dollars": "141.7",
+      "region": "中国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/147/2016",
+      "linkedin": "https://www.linkedin.com/company/lyondell-basell",
+      "rank2016": "315",
+      "rank2015": "236",
+      "name": "利安德巴塞尔工业公司（LYONDELLBASELL INDUSTRIES)",
+      "operating_receipt_in_million_dollars": "32,736",
+      "profit_in_million_dollars": "4,476",
+      "region": "荷兰"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/676/2016",
+      "linkedin": "https://www.linkedin.com/company/gilead-sciences",
+      "rank2016": "316",
+      "rank2015": "478",
+      "name": "Gilead Sciences公司（Gilead Sciences)",
+      "operating_receipt_in_million_dollars": "32,639",
+      "profit_in_million_dollars": "18,108",
+      "region": "美国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/373/2016",
+      "linkedin": "https://www.linkedin.com/company/publix-super-markets",
+      "rank2016": "317",
+      "rank2015": "388",
+      "name": "大众超级市场公司（PUBLIX SUPER MARKETS)",
+      "operating_receipt_in_million_dollars": "32,618.8",
+      "profit_in_million_dollars": "1,965",
+      "region": "美国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/601/2016",
+      "rank2016": "318",
+      "rank2015": "344",
+      "name": "新兴际华集团（XINXING CATHAY INTERNATIONAL GROUP) ",
+      "operating_receipt_in_million_dollars": "32,567.3",
+      "profit_in_million_dollars": "455.7",
+      "region": "中国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/209/2016",
+      "linkedin": "https://www.linkedin.com/company/sncf",
+      "rank2016": "319",
+      "rank2015": "322",
+      "name": "SNCF Mobilités公司（SNCF Mobilités)",
+      "operating_receipt_in_million_dollars": "32,497.4",
+      "profit_in_million_dollars": "-2,416",
+      "region": "法国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/680/2016",
+      "linkedin": "https://www.linkedin.com/company/zf-friedrichshafen",
+      "rank2016": "320",
+      "rank2015": "488",
+      "name": "采埃孚（ZF Friedrichshafen)",
+      "operating_receipt_in_million_dollars": "32,339.8",
+      "profit_in_million_dollars": "1,080.4",
+      "region": "德国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/391/2016",
+      "rank2016": "321",
+      "rank2015": "314",
+      "name": "德国艾德卡公司（EDEKA ZENTRALE) ",
+      "operating_receipt_in_million_dollars": "32,017.2",
+      "profit_in_million_dollars": "277.4",
+      "region": "德国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/624/2016",
+      "rank2016": "322",
+      "rank2015": "341",
+      "name": "大同煤矿集团有限责任公司（Datong Coal Mine Group) ",
+      "operating_receipt_in_million_dollars": "31,958.2",
+      "profit_in_million_dollars": "-165.6",
+      "region": "中国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/331/2016",
+      "linkedin": "https://www.linkedin.com/company/minmetals",
+      "rank2016": "323",
+      "rank2015": "198",
+      "name": "中国五矿集团公司（CHINA MINMETALS)",
+      "operating_receipt_in_million_dollars": "31,883.2",
+      "profit_in_million_dollars": "-1,679.8",
+      "region": "中国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/302/2016",
+      "rank2016": "324",
+      "rank2015": "361",
+      "name": "三菱化学控股（MITSUBISHI CHEMICAL HOLDINGS) ",
+      "operating_receipt_in_million_dollars": "31,845.6",
+      "profit_in_million_dollars": "386.9",
+      "region": "日本"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/630/2016",
+      "rank2016": "325",
+      "rank2015": "380",
+      "name": "陕西延长石油（集团）有限责任公司（Shaanxi Yanchang Petroleum (Group)) ",
+      "operating_receipt_in_million_dollars": "31,754.9",
+      "profit_in_million_dollars": "-367.3",
+      "region": "中国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/342/2016",
+      "linkedin": "https://www.linkedin.com/company/quanta-computer-inc-",
+      "rank2016": "326",
+      "rank2015": "389",
+      "name": "广达电脑（QUANTA COMPUTER)",
+      "operating_receipt_in_million_dollars": "31,734.3",
+      "profit_in_million_dollars": "561.7",
+      "region": "中国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/574/2016",
+      "rank2016": "327",
+      "rank2015": "270",
+      "name": "中国建筑材料集团有限公司（CHINA NATIONAL BUILDING MATERIALS GROUP) ",
+      "operating_receipt_in_million_dollars": "31,705.5",
+      "profit_in_million_dollars": "-142.1",
+      "region": "中国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/621/2016",
+      "rank2016": "328",
+      "rank2015": "354",
+      "name": "江西铜业集团公司（Jiangxi Copper) ",
+      "operating_receipt_in_million_dollars": "31,554.9",
+      "profit_in_million_dollars": "-57.1",
+      "region": "中国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/558/2016",
+      "rank2016": "329",
+      "rank2015": "366",
+      "name": "中国电子信息产业集团有限公司（CHINA ELECTRONICS) ",
+      "operating_receipt_in_million_dollars": "31,537",
+      "profit_in_million_dollars": "176.3",
+      "region": "中国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/297/2016",
+      "linkedin": "https://www.linkedin.com/company/general-dynamics",
+      "rank2016": "330",
+      "rank2015": "386",
+      "name": "通用动力（GENERAL DYNAMICS)",
+      "operating_receipt_in_million_dollars": "31,469",
+      "profit_in_million_dollars": "2,965",
+      "region": "美国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/589/2016",
+      "rank2016": "331",
+      "rank2015": "345",
+      "name": "中国华电集团公司（CHINA HUADIAN) ",
+      "operating_receipt_in_million_dollars": "31,436.8",
+      "profit_in_million_dollars": "1,212.6",
+      "region": "中国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/190/2016",
+      "linkedin": "https://www.linkedin.com/company/canon-inc-",
+      "rank2016": "332",
+      "rank2015": "334",
+      "name": "佳能（CANON)",
+      "operating_receipt_in_million_dollars": "31,400.9",
+      "profit_in_million_dollars": "1,819.5",
+      "region": "日本"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/270/2016",
+      "linkedin": "https://www.linkedin.com/company/bridgestone",
+      "rank2016": "333",
+      "rank2015": "340",
+      "name": "普利司通（BRIDGESTONE)",
+      "operating_receipt_in_million_dollars": "31,318.1",
+      "profit_in_million_dollars": "2,349.1",
+      "region": "日本"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/245/2016",
+      "linkedin": "https://www.linkedin.com/company/dzbank",
+      "rank2016": "334",
+      "rank2015": "295",
+      "name": "德国中央合作银行（DZ BANK)",
+      "operating_receipt_in_million_dollars": "31,195.1",
+      "profit_in_million_dollars": "1,570.7",
+      "region": "德国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/217/2016",
+      "rank2016": "335",
+      "rank2015": "372",
+      "name": "住友生命保险公司（SUMITOMO LIFE INSURANCE) ",
+      "operating_receipt_in_million_dollars": "31,099.9",
+      "profit_in_million_dollars": "550.8",
+      "region": "日本"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/283/2016",
+      "linkedin": "https://www.linkedin.com/company/westpac",
+      "rank2016": "336",
+      "rank2015": "330",
+      "name": "西太平洋银行（WESTPAC BANKING)",
+      "operating_receipt_in_million_dollars": "31,064.1",
+      "profit_in_million_dollars": "6,273.9",
+      "region": "澳大利亚"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/618/2016",
+      "rank2016": "337",
+      "rank2015": "264",
+      "name": "山西焦煤集团有限责任公司（Shanxi Coking Coal Group) ",
+      "operating_receipt_in_million_dollars": "31,038.5",
+      "profit_in_million_dollars": "76",
+      "region": "中国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/486/2016",
+      "linkedin": "https://www.linkedin.com/company/tjx",
+      "rank2016": "338",
+      "rank2015": "410",
+      "name": "TJX公司（TJX)",
+      "operating_receipt_in_million_dollars": "30,944.9",
+      "profit_in_million_dollars": "2,277.7",
+      "region": "美国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/7/2016",
+      "linkedin": "https://www.linkedin.com/company/conocophillips",
+      "rank2016": "339",
+      "rank2015": "180",
+      "name": "康菲石油公司（CONOCOPHILLIPS)",
+      "operating_receipt_in_million_dollars": "30,935",
+      "profit_in_million_dollars": "-4,428",
+      "region": "美国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/337/2016",
+      "linkedin": "https://www.linkedin.com/company/rite-aid",
+      "rank2016": "340",
+      "rank2015": "447",
+      "name": "来德爱（RITE AID)",
+      "operating_receipt_in_million_dollars": "30,736.7",
+      "profit_in_million_dollars": "165.5",
+      "region": "美国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/523/2016",
+      "rank2016": "341",
+      "rank2015": "387",
+      "name": "费森尤斯集团（FRESENIUS) ",
+      "operating_receipt_in_million_dollars": "30,644.9",
+      "profit_in_million_dollars": "1,506.4",
+      "region": "德国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/594/2016",
+      "rank2016": "342",
+      "rank2015": "403",
+      "name": "国家电力投资集团公司（State Power Investment) ",
+      "operating_receipt_in_million_dollars": "30,616.1",
+      "profit_in_million_dollars": "289.4",
+      "region": "中国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/497/2016",
+      "linkedin": "https://www.linkedin.com/company/nike",
+      "rank2016": "343",
+      "rank2015": "425",
+      "name": "耐克公司（NIKE)",
+      "operating_receipt_in_million_dollars": "30,601",
+      "profit_in_million_dollars": "3,273",
+      "region": "美国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/669/2016",
+      "linkedin": "https://www.linkedin.com/company/%E4%B8%AD%E5%9B%BD%E8%88%AA%E5%A4%A9%E7%A7%91%E6%8A%80%E9%9B%86%E5%9B%A2%E5%85%AC%E5%8F%B8",
+      "rank2016": "344",
+      "rank2015": "437",
+      "name": "中国航天科技集团公司（China Aerospace Science & Technology)",
+      "operating_receipt_in_million_dollars": "30,554.4",
+      "profit_in_million_dollars": "1,854.2",
+      "region": "中国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/536/2016",
+      "rank2016": "345",
+      "rank2015": "343",
+      "name": "中国国电集团公司（CHINA GUODIAN) ",
+      "operating_receipt_in_million_dollars": "30,515.2",
+      "profit_in_million_dollars": "819.3",
+      "region": "中国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/583/2016",
+      "linkedin": "https://www.linkedin.com/company/world-fuel-services",
+      "rank2016": "346",
+      "rank2015": "250",
+      "name": "全球燃料服务公司（WORLD FUEL SERVICES)",
+      "operating_receipt_in_million_dollars": "30,379.7",
+      "profit_in_million_dollars": "186.9",
+      "region": "美国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/665/2016",
+      "rank2016": "347",
+      "rank2015": "416",
+      "name": "陕西煤业化工集团（Shaanxi Coal & Chemical Industry) ",
+      "operating_receipt_in_million_dollars": "30,331.3",
+      "profit_in_million_dollars": "-247",
+      "region": "中国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/351/2016",
+      "linkedin": "https://www.linkedin.com/company/3m",
+      "rank2016": "348",
+      "rank2015": "377",
+      "name": "3M公司（3M)",
+      "operating_receipt_in_million_dollars": "30,274",
+      "profit_in_million_dollars": "4,833",
+      "region": "美国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/685/2016",
+      "linkedin": "https://www.linkedin.com/company/china-state-shipbuilding-corporation",
+      "rank2016": "349",
+      "rank2015": "--",
+      "name": "中国船舶工业集团公司（China State Shipbuilding)",
+      "operating_receipt_in_million_dollars": "30,190.9",
+      "profit_in_million_dollars": "437.9",
+      "region": "中国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/354/2016",
+      "linkedin": "https://www.linkedin.com/company/td",
+      "rank2016": "350",
+      "rank2015": "357",
+      "name": "多伦多道明银行（TORONTO-DOMINION BANK)",
+      "operating_receipt_in_million_dollars": "30,174.2",
+      "profit_in_million_dollars": "6,360.9",
+      "region": "加拿大"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/226/2016",
+      "linkedin": "https://www.linkedin.com/company/power-corporation-of-canada",
+      "rank2016": "351",
+      "rank2015": "298",
+      "name": "加拿大鲍尔集团（POWER CORP. OF CANADA)",
+      "operating_receipt_in_million_dollars": "29,933",
+      "profit_in_million_dollars": "1,437.8",
+      "region": "加拿大"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/177/2016",
+      "linkedin": "https://www.linkedin.com/company/mondelezinternational",
+      "rank2016": "352",
+      "rank2015": "348",
+      "name": "亿滋国际（MONDELEZ INTERNATIONAL)",
+      "operating_receipt_in_million_dollars": "29,636",
+      "profit_in_million_dollars": "7,267",
+      "region": "美国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/671/2016",
+      "rank2016": "353",
+      "rank2015": "464",
+      "name": "海航集团（HNA Group) ",
+      "operating_receipt_in_million_dollars": "29,562.1",
+      "profit_in_million_dollars": "234.9",
+      "region": "中国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/330/2016",
+      "linkedin": "https://www.linkedin.com/company/schneider-electric",
+      "rank2016": "354",
+      "rank2015": "367",
+      "name": "施耐德电气（SCHNEIDER ELECTRIC)",
+      "operating_receipt_in_million_dollars": "29,551.1",
+      "profit_in_million_dollars": "1,560.8",
+      "region": "法国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/489/2016",
+      "linkedin": "https://www.linkedin.com/company/exelon",
+      "rank2016": "355",
+      "rank2015": "435",
+      "name": "Exelon公司（EXELON)",
+      "operating_receipt_in_million_dollars": "29,447",
+      "profit_in_million_dollars": "2,269",
+      "region": "美国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/686/2016",
+      "linkedin": "https://www.linkedin.com/company/vanke",
+      "rank2016": "356",
+      "rank2015": "--",
+      "name": "万科企业股份有限公司（China Vanke)",
+      "operating_receipt_in_million_dollars": "29,329.3",
+      "profit_in_million_dollars": "2,883.2",
+      "region": "中国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/265/2016",
+      "linkedin": "https://www.linkedin.com/company/mtv3",
+      "rank2016": "357",
+      "rank2015": "363",
+      "name": "爱立信公司（LM Ericsson)",
+      "operating_receipt_in_million_dollars": "29,282.4",
+      "profit_in_million_dollars": "1,606.8",
+      "region": "瑞典"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/289/2016",
+      "linkedin": "https://www.linkedin.com/company/bpcl",
+      "rank2016": "358",
+      "rank2015": "280",
+      "name": "巴拉特石油公司（BHARAT PETROLEUM)",
+      "operating_receipt_in_million_dollars": "29,082.4",
+      "profit_in_million_dollars": "1,219.2",
+      "region": "印度"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/573/2016",
+      "rank2016": "359",
+      "rank2015": "339",
+      "name": "物产中大集团（Wuchan Zhongda Group) ",
+      "operating_receipt_in_million_dollars": "29,051.8",
+      "profit_in_million_dollars": "220.3",
+      "region": "中国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/250/2016",
+      "linkedin": "https://www.linkedin.com/company/21st-century-fox",
+      "rank2016": "360",
+      "rank2015": "375",
+      "name": "二十一世纪福克斯（TWENTY-FIRST CENTURY FOX)",
+      "operating_receipt_in_million_dollars": "28,987",
+      "profit_in_million_dollars": "8,306",
+      "region": "美国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/38/2016",
+      "linkedin": "https://www.linkedin.com/company/royal-bank-of-scotland",
+      "rank2016": "361",
+      "rank2015": "303",
+      "name": "苏格兰皇家银行集团（ROYAL BANK OF SCOTLAND GROUP)",
+      "operating_receipt_in_million_dollars": "28,984",
+      "profit_in_million_dollars": "-2,435.3",
+      "region": "英国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/247/2016",
+      "linkedin": "https://www.linkedin.com/company/anz",
+      "rank2016": "362",
+      "rank2015": "368",
+      "name": "澳新银行集团（AUSTRALIA & NEW ZEALAND BANKING GROUP)",
+      "operating_receipt_in_million_dollars": "28,958.4",
+      "profit_in_million_dollars": "5,867.5",
+      "region": "澳大利亚"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/240/2016",
+      "linkedin": "https://www.linkedin.com/company/air-france",
+      "rank2016": "363",
+      "rank2015": "365",
+      "name": "法国航空－荷兰皇家航空集团（AIR FRANCE-KLM GROUP)",
+      "operating_receipt_in_million_dollars": "28,910",
+      "profit_in_million_dollars": "130.9",
+      "region": "法国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/307/2016",
+      "linkedin": "https://www.linkedin.com/company/john-deere",
+      "rank2016": "364",
+      "rank2015": "323",
+      "name": "迪尔公司（DEERE)",
+      "operating_receipt_in_million_dollars": "28,862.8",
+      "profit_in_million_dollars": "1,940",
+      "region": "美国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/464/2016",
+      "linkedin": "https://www.linkedin.com/company/gas-natural-fenosa",
+      "rank2016": "365",
+      "rank2015": "370",
+      "name": "西班牙天然气公司（GAS NATURAL FENOSA)",
+      "operating_receipt_in_million_dollars": "28,857.8",
+      "profit_in_million_dollars": "1,666.1",
+      "region": "西班牙"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/687/2016",
+      "linkedin": "https://www.linkedin.com/company/360buy-com",
+      "rank2016": "366",
+      "rank2015": "--",
+      "name": "京东（JD.com)",
+      "operating_receipt_in_million_dollars": "28,847.1",
+      "profit_in_million_dollars": "-1,492.3",
+      "region": "中国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/311/2016",
+      "linkedin": "https://www.linkedin.com/company/hpcl",
+      "rank2016": "367",
+      "rank2015": "327",
+      "name": "印度斯坦石油公司（HINDUSTAN PETROLEUM)",
+      "operating_receipt_in_million_dollars": "28,829.4",
+      "profit_in_million_dollars": "751.8",
+      "region": "印度"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/195/2016",
+      "linkedin": "https://www.linkedin.com/company/philips",
+      "rank2016": "368",
+      "rank2015": "385",
+      "name": "荷兰皇家飞利浦公司（ROYAL PHILIPS)",
+      "operating_receipt_in_million_dollars": "28,689.2",
+      "profit_in_million_dollars": "715.5",
+      "region": "荷兰"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/210/2016",
+      "linkedin": "https://www.linkedin.com/company/bt",
+      "rank2016": "369",
+      "rank2015": "411",
+      "name": "英国电信集团（BT GROUP)",
+      "operating_receipt_in_million_dollars": "28,670.2",
+      "profit_in_million_dollars": "3,896.6",
+      "region": "英国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/623/2016",
+      "rank2016": "370",
+      "rank2015": "358",
+      "name": "潞安集团（Shanxi LuAn Mining Group) ",
+      "operating_receipt_in_million_dollars": "28,642.4",
+      "profit_in_million_dollars": "-277.2",
+      "region": "中国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/194/2016",
+      "rank2016": "371",
+      "rank2015": "337",
+      "name": "日本钢铁工程控股公司（JFE HOLDINGS) ",
+      "operating_receipt_in_million_dollars": "28,585.6",
+      "profit_in_million_dollars": "280.4",
+      "region": "日本"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/379/2016",
+      "linkedin": "https://www.linkedin.com/company/migros-gruppe",
+      "rank2016": "372",
+      "rank2015": "397",
+      "name": "Migros集团（MIGROS GROUP)",
+      "operating_receipt_in_million_dollars": "28,486.4",
+      "profit_in_million_dollars": "832.6",
+      "region": "瑞士"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/352/2016",
+      "rank2016": "373",
+      "rank2015": "429",
+      "name": "马自达汽车株式会社（MAZDA MOTOR) ",
+      "operating_receipt_in_million_dollars": "28,376.2",
+      "profit_in_million_dollars": "1,119.7",
+      "region": "日本"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/619/2016",
+      "rank2016": "374",
+      "rank2015": "409",
+      "name": "山西阳泉煤业(集团)有限责任公司（Yangquan Coal Industry Group) ",
+      "operating_receipt_in_million_dollars": "28,309.5",
+      "profit_in_million_dollars": "-29.5",
+      "region": "中国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/317/2016",
+      "linkedin": "https://www.linkedin.com/company/tesoro",
+      "rank2016": "375",
+      "rank2015": "279",
+      "name": "Tesoro公司（TESORO)",
+      "operating_receipt_in_million_dollars": "28,150",
+      "profit_in_million_dollars": "1,540",
+      "region": "美国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/159/2016",
+      "linkedin": "https://www.linkedin.com/company/time-warner-inc-",
+      "rank2016": "376",
+      "rank2015": "415",
+      "name": "时代华纳（TIME WARNER)",
+      "operating_receipt_in_million_dollars": "28,118",
+      "profit_in_million_dollars": "3,833",
+      "region": "美国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/427/2016",
+      "linkedin": "https://www.linkedin.com/company/northwestern-mutual",
+      "rank2016": "377",
+      "rank2015": "433",
+      "name": "西北互助人寿保险公司（NORTHWESTERN MUTUAL)",
+      "operating_receipt_in_million_dollars": "28,111",
+      "profit_in_million_dollars": "815",
+      "region": "美国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/346/2016",
+      "linkedin": "https://www.linkedin.com/company/loreal",
+      "rank2016": "378",
+      "rank2015": "395",
+      "name": "欧莱雅（L'ORÉAL)",
+      "operating_receipt_in_million_dollars": "28,017.4",
+      "profit_in_million_dollars": "3,657.7",
+      "region": "法国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/262/2016",
+      "linkedin": "https://www.linkedin.com/company/dupont",
+      "rank2016": "379",
+      "rank2015": "324",
+      "name": "杜邦公司（DUPONT)",
+      "operating_receipt_in_million_dollars": "27,940",
+      "profit_in_million_dollars": "1,953",
+      "region": "美国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/587/2016",
+      "linkedin": "https://www.linkedin.com/company/avnet",
+      "rank2016": "380",
+      "rank2015": "430",
+      "name": "安富利公司（AVNET)",
+      "operating_receipt_in_million_dollars": "27,924.7",
+      "profit_in_million_dollars": "571.9",
+      "region": "美国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/688/2016",
+      "linkedin": "https://www.linkedin.com/company/%E4%B8%AD%E5%9B%BD%E8%88%AA%E5%A4%A9%E7%A7%91%E5%B7%A5%E9%9B%86%E5%9B%A2%E5%85%AC%E5%8F%B8",
+      "rank2016": "381",
+      "rank2015": "--",
+      "name": "中国航天科工集团公司（China Aerospace Science & Industry)",
+      "operating_receipt_in_million_dollars": "27,867.3",
+      "profit_in_million_dollars": "1,470.8",
+      "region": "中国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/135/2016",
+      "linkedin": "https://www.linkedin.com/company/veolia-environnement",
+      "rank2016": "382",
+      "rank2015": "376",
+      "name": "法国威立雅环境集团（VEOLIA ENVIRONNEMENT)",
+      "operating_receipt_in_million_dollars": "27,692.9",
+      "profit_in_million_dollars": "499.4",
+      "region": "法国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/652/2016",
+      "rank2016": "383",
+      "rank2015": "426",
+      "name": "中国通用技术(集团)控股有限责任公司（China General Technology) ",
+      "operating_receipt_in_million_dollars": "27,667.4",
+      "profit_in_million_dollars": "522.5",
+      "region": "中国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/626/2016",
+      "rank2016": "384",
+      "rank2015": "379",
+      "name": "山西晋城无烟煤矿业集团有限责任公司（Shanxi Jincheng Anthracite Coal Mining Group) ",
+      "operating_receipt_in_million_dollars": "27,571.9",
+      "profit_in_million_dollars": "-153.9",
+      "region": "中国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/689/2016",
+      "linkedin": "https://www.linkedin.com/company/dalian-wanda-group",
+      "rank2016": "385",
+      "rank2015": "--",
+      "name": "大连万达集团（Dalian Wanda Group)",
+      "operating_receipt_in_million_dollars": "27,376.9",
+      "profit_in_million_dollars": "2,431.2",
+      "region": "中国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/633/2016",
+      "rank2016": "386",
+      "rank2015": "390",
+      "name": "中国有色矿业集团有限公司（China Nonferrous Metal Mining (Group)) ",
+      "operating_receipt_in_million_dollars": "27,188.9",
+      "profit_in_million_dollars": "-462.9",
+      "region": "中国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/407/2016",
+      "linkedin": "https://www.linkedin.com/company/compass-group",
+      "rank2016": "387",
+      "rank2015": "418",
+      "name": "金巴斯集团（COMPASS GROUP)",
+      "operating_receipt_in_million_dollars": "27,157.3",
+      "profit_in_million_dollars": "1,341.7",
+      "region": "英国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/526/2016",
+      "rank2016": "388",
+      "rank2015": "396",
+      "name": "Sompo Japan Nipponkoa Holdings公司（Sompo Japan Nipponkoa Holdings) ",
+      "operating_receipt_in_million_dollars": "27,123.3",
+      "profit_in_million_dollars": "1,329.3",
+      "region": "日本"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/358/2016",
+      "linkedin": "https://www.linkedin.com/company/macy",
+      "rank2016": "389",
+      "rank2015": "421",
+      "name": "梅西百货（MACY'S)",
+      "operating_receipt_in_million_dollars": "27,079",
+      "profit_in_million_dollars": "1,072",
+      "region": "美国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/321/2016",
+      "linkedin": "https://www.linkedin.com/company/delhaize-group",
+      "rank2016": "390",
+      "rank2015": "407",
+      "name": "德尔海兹集团（DELHAIZE GROUP)",
+      "operating_receipt_in_million_dollars": "27,069.7",
+      "profit_in_million_dollars": "406",
+      "region": "比利时"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/324/2016",
+      "linkedin": "https://www.linkedin.com/company/kansai-electric-company",
+      "rank2016": "391",
+      "rank2015": "384",
+      "name": "关西电力（KANSAI ELECTRIC POWER)",
+      "operating_receipt_in_million_dollars": "27,037.7",
+      "profit_in_million_dollars": "1,172.8",
+      "region": "日本"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/553/2016",
+      "linkedin": "https://www.linkedin.com/company/enterprise-products",
+      "rank2016": "392",
+      "rank2015": "220",
+      "name": "ENTERPRISE PRODUCTS PARTNERS公司（ENTERPRISE PRODUCTS PARTNERS)",
+      "operating_receipt_in_million_dollars": "27,027.9",
+      "profit_in_million_dollars": "2,521.2",
+      "region": "美国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/417/2016",
+      "rank2016": "393",
+      "rank2015": "442",
+      "name": "爱信精机（AISIN SEIKI) ",
+      "operating_receipt_in_million_dollars": "27,014.9",
+      "profit_in_million_dollars": "807.8",
+      "region": "日本"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/276/2016",
+      "linkedin": "https://www.linkedin.com/company/manulife-financial",
+      "rank2016": "394",
+      "rank2015": "212",
+      "name": "宏利金融（MANULIFE FINANCIAL)",
+      "operating_receipt_in_million_dollars": "26,933",
+      "profit_in_million_dollars": "1,713.9",
+      "region": "加拿大"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/659/2016",
+      "rank2016": "395",
+      "rank2015": "452",
+      "name": "富士重工（Fuji Heavy Industries) ",
+      "operating_receipt_in_million_dollars": "26,924",
+      "profit_in_million_dollars": "3,637.2",
+      "region": "日本"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/584/2016",
+      "linkedin": "https://www.linkedin.com/company/coop_2",
+      "rank2016": "396",
+      "rank2015": "401",
+      "name": "Coop集团（COOP GROUP)",
+      "operating_receipt_in_million_dollars": "26,915.8",
+      "profit_in_million_dollars": "432.4",
+      "region": "瑞士"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/366/2016",
+      "linkedin": "https://www.linkedin.com/company/travelers",
+      "rank2016": "397",
+      "rank2015": "438",
+      "name": "Travelers Cos.公司（TRAVELERS COS.)",
+      "operating_receipt_in_million_dollars": "26,800",
+      "profit_in_million_dollars": "3,439",
+      "region": "美国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/345/2016",
+      "linkedin": "https://www.linkedin.com/company/insidepmi",
+      "rank2016": "398",
+      "rank2015": "398",
+      "name": "菲利普－莫里斯国际公司（PHILIP MORRIS INTERNATIONAL)",
+      "operating_receipt_in_million_dollars": "26,794",
+      "profit_in_million_dollars": "6,873",
+      "region": "美国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/228/2016",
+      "linkedin": "https://www.linkedin.com/company/mizuho-financial-group",
+      "rank2016": "399",
+      "rank2015": "412",
+      "name": "日本瑞穗金融集团（MIZUHO FINANCIAL GROUP)",
+      "operating_receipt_in_million_dollars": "26,782.5",
+      "profit_in_million_dollars": "5,588.8",
+      "region": "日本"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/522/2016",
+      "linkedin": "https://www.linkedin.com/company/compal",
+      "rank2016": "400",
+      "rank2015": "423",
+      "name": "仁宝电脑（COMPAL ELECTRONICS)",
+      "operating_receipt_in_million_dollars": "26,694.9",
+      "profit_in_million_dollars": "273.6",
+      "region": "中国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/670/2016",
+      "rank2016": "401",
+      "rank2015": "457",
+      "name": "中国保利集团（China Poly Group) ",
+      "operating_receipt_in_million_dollars": "26,675.3",
+      "profit_in_million_dollars": "839.6",
+      "region": "中国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/544/2016",
+      "rank2016": "402",
+      "rank2015": "465",
+      "name": "大和房建（DAIWA HOUSE INDUSTRY) ",
+      "operating_receipt_in_million_dollars": "26,596.1",
+      "profit_in_million_dollars": "862.8",
+      "region": "日本"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/674/2016",
+      "linkedin": "https://www.linkedin.com/company/tsmc",
+      "rank2016": "403",
+      "rank2015": "472",
+      "name": "台积电（Taiwan Semiconductor Manufacturing)",
+      "operating_receipt_in_million_dollars": "26,575",
+      "profit_in_million_dollars": "9,541.5",
+      "region": "中国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/166/2016",
+      "rank2016": "404",
+      "rank2015": "359",
+      "name": "意大利电信（TELECOM ITALIA) ",
+      "operating_receipt_in_million_dollars": "26,569.4",
+      "profit_in_million_dollars": "-79.9",
+      "region": "意大利"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/290/2016",
+      "rank2016": "405",
+      "rank2015": "436",
+      "name": "铃木汽车（SUZUKI MOTOR) ",
+      "operating_receipt_in_million_dollars": "26,494.2",
+      "profit_in_million_dollars": "971.8",
+      "region": "日本"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/520/2016",
+      "rank2016": "406",
+      "rank2015": "392",
+      "name": "中国大唐集团公司（CHINA DATANG) ",
+      "operating_receipt_in_million_dollars": "26,440.1",
+      "profit_in_million_dollars": "183.5",
+      "region": "中国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/646/2016",
+      "linkedin": "https://www.linkedin.com/company/enbridge",
+      "rank2016": "407",
+      "rank2015": "351",
+      "name": "Enbridge公司（Enbridge)",
+      "operating_receipt_in_million_dollars": "26,435.5",
+      "profit_in_million_dollars": "196.3",
+      "region": "加拿大"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/690/2016",
+      "rank2016": "408",
+      "rank2015": "--",
+      "name": "中国电子科技集团公司（China Electronics Technology Group Corporation) ",
+      "operating_receipt_in_million_dollars": "26,410.4",
+      "profit_in_million_dollars": "1,636.9",
+      "region": "中国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/374/2016",
+      "linkedin": "https://www.linkedin.com/company/tech-data",
+      "rank2016": "409",
+      "rank2015": "427",
+      "name": "Tech Data公司（TECH DATA)",
+      "operating_receipt_in_million_dollars": "26,379.8",
+      "profit_in_million_dollars": "265.7",
+      "region": "美国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/599/2016",
+      "linkedin": "https://www.linkedin.com/company/geely",
+      "rank2016": "410",
+      "rank2015": "477",
+      "name": "浙江吉利控股集团（ZHEJIANG GEELY HOLDING GROUP)",
+      "operating_receipt_in_million_dollars": "26,303.8",
+      "profit_in_million_dollars": "286.6",
+      "region": "中国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/278/2016",
+      "linkedin": "https://www.linkedin.com/company/crh",
+      "rank2016": "411",
+      "rank2015": "475",
+      "name": "CRH公司（CRH)",
+      "operating_receipt_in_million_dollars": "26,217.8",
+      "profit_in_million_dollars": "803.1",
+      "region": "爱尔兰"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/244/2016",
+      "linkedin": "https://www.linkedin.com/company/idemitsu-kosan-co.-ltd.",
+      "rank2016": "412",
+      "rank2015": "307",
+      "name": "日本出光兴产株式会社（IDEMITSU KOSAN)",
+      "operating_receipt_in_million_dollars": "26,147.2",
+      "profit_in_million_dollars": "-299.8",
+      "region": "日本"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/647/2016",
+      "linkedin": "https://www.linkedin.com/company/achmea",
+      "rank2016": "413",
+      "rank2015": "331",
+      "name": "Achmea公司（Achmea)",
+      "operating_receipt_in_million_dollars": "25,762.9",
+      "profit_in_million_dollars": "424.9",
+      "region": "荷兰"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/650/2016",
+      "rank2016": "414",
+      "rank2015": "445",
+      "name": "乐天百货（Lotte Shopping) ",
+      "operating_receipt_in_million_dollars": "25,757.9",
+      "profit_in_million_dollars": "-338.8",
+      "region": "韩国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/279/2016",
+      "linkedin": "https://www.linkedin.com/company/bae-systems",
+      "rank2016": "415",
+      "rank2015": "468",
+      "name": "BAE系统公司（BAE SYSTEMS)",
+      "operating_receipt_in_million_dollars": "25,647.2",
+      "profit_in_million_dollars": "1,402.5",
+      "region": "英国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/557/2016",
+      "linkedin": "https://www.linkedin.com/company/phoenix-pharmahandel-ag-%26-co-kg",
+      "rank2016": "416",
+      "rank2015": "405",
+      "name": "PHOENIX PHARMAHANDEL公司（PHOENIX PHARMAHANDEL)",
+      "operating_receipt_in_million_dollars": "25,641.5",
+      "profit_in_million_dollars": "223.7",
+      "region": "德国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/205/2016",
+      "linkedin": "https://www.linkedin.com/company/vale",
+      "rank2016": "417",
+      "rank2015": "312",
+      "name": "巴西淡水河谷公司（VALE)",
+      "operating_receipt_in_million_dollars": "25,609",
+      "profit_in_million_dollars": "-12,129",
+      "region": "巴西"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/280/2016",
+      "linkedin": "https://www.linkedin.com/company/la-poste",
+      "rank2016": "418",
+      "rank2015": "408",
+      "name": "法国邮政（LA POSTE)",
+      "operating_receipt_in_million_dollars": "25,563.3",
+      "profit_in_million_dollars": "704.4",
+      "region": "法国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/172/2016",
+      "linkedin": "https://www.linkedin.com/company/koc-holding",
+      "rank2016": "419",
+      "rank2015": "381",
+      "name": "KOC集团（KOÇ HOLDING)",
+      "operating_receipt_in_million_dollars": "25,515.2",
+      "profit_in_million_dollars": "1,309.9",
+      "region": "土耳其"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/388/2016",
+      "linkedin": "https://www.linkedin.com/company/mcdonalds-corporation",
+      "rank2016": "420",
+      "rank2015": "434",
+      "name": "麦当劳（MCDONALD'S)",
+      "operating_receipt_in_million_dollars": "25,413",
+      "profit_in_million_dollars": "4,529.3",
+      "region": "美国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/603/2016",
+      "linkedin": "https://www.linkedin.com/company/international-airlines-group-iag-",
+      "rank2016": "421",
+      "rank2015": "443",
+      "name": "国际航空集团（INTERNATIONAL AIRLINES GROUP)",
+      "operating_receipt_in_million_dollars": "25,355.8",
+      "profit_in_million_dollars": "1,658.4",
+      "region": "英国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/654/2016",
+      "linkedin": "https://www.linkedin.com/company/qualcomm",
+      "rank2016": "422",
+      "rank2015": "448",
+      "name": "高通（Qualcomm)",
+      "operating_receipt_in_million_dollars": "25,281",
+      "profit_in_million_dollars": "5,271",
+      "region": "美国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/691/2016",
+      "rank2016": "423",
+      "rank2015": "--",
+      "name": "Rajesh Exports公司（Rajesh Exports) ",
+      "operating_receipt_in_million_dollars": "25,237.4",
+      "profit_in_million_dollars": "162.9",
+      "region": "印度"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/364/2016",
+      "rank2016": "424",
+      "rank2015": "454",
+      "name": "Medipal控股公司（MEDIPAL HOLDINGS) ",
+      "operating_receipt_in_million_dollars": "25,224.1",
+      "profit_in_million_dollars": "256.3",
+      "region": "日本"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/160/2016",
+      "linkedin": "https://www.linkedin.com/company/sears-holdings-corporation",
+      "rank2016": "425",
+      "rank2015": "383",
+      "name": "西尔斯控股（SEARS HOLDINGS)",
+      "operating_receipt_in_million_dollars": "25,146",
+      "profit_in_million_dollars": "-1,129",
+      "region": "美国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/595/2016",
+      "rank2016": "426",
+      "rank2015": "373",
+      "name": "山东能源集团有限公司（SHANDONG ENERGY GROUP) ",
+      "operating_receipt_in_million_dollars": "25,136.4",
+      "profit_in_million_dollars": "-27.7",
+      "region": "中国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/692/2016",
+      "linkedin": "https://www.linkedin.com/company/new-china-life-insuranceco-ltd-",
+      "rank2016": "427",
+      "rank2015": "--",
+      "name": "新华人寿保险股份有限公司（New China Life Insurance)",
+      "operating_receipt_in_million_dollars": "25,128.5",
+      "profit_in_million_dollars": "1,368.6",
+      "region": "中国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/343/2016",
+      "linkedin": "https://www.linkedin.com/company/scotiabank",
+      "rank2016": "428",
+      "rank2015": "417",
+      "name": "加拿大丰业银行（BANK OF NOVA SCOTIA)",
+      "operating_receipt_in_million_dollars": "25,118.9",
+      "profit_in_million_dollars": "5,639",
+      "region": "加拿大"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/565/2016",
+      "linkedin": "https://www.linkedin.com/company/lg-display",
+      "rank2016": "429",
+      "rank2015": "473",
+      "name": "LG DISPLAY公司（LG DISPLAY)",
+      "operating_receipt_in_million_dollars": "25,100.2",
+      "profit_in_million_dollars": "854.7",
+      "region": "韩国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/635/2016",
+      "linkedin": "https://www.linkedin.com/company/capital-one",
+      "rank2016": "430",
+      "rank2015": "496",
+      "name": "第一资本金融公司（Capital One Financial)",
+      "operating_receipt_in_million_dollars": "25,098",
+      "profit_in_million_dollars": "4,050",
+      "region": "美国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/580/2016",
+      "linkedin": "https://www.linkedin.com/company/gs-caltex",
+      "rank2016": "431",
+      "rank2015": "302",
+      "name": "GS加德士（GS CALTEX)",
+      "operating_receipt_in_million_dollars": "25,060.7",
+      "profit_in_million_dollars": "859.4",
+      "region": "韩国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/206/2016",
+      "linkedin": "https://www.linkedin.com/company/omv",
+      "rank2016": "432",
+      "rank2015": "223",
+      "name": "奥地利石油天然气集团（OMV GROUP)",
+      "operating_receipt_in_million_dollars": "24,988.7",
+      "profit_in_million_dollars": "-1,173.6",
+      "region": "奥地利"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/413/2016",
+      "linkedin": "https://www.linkedin.com/company/danone",
+      "rank2016": "433",
+      "rank2015": "422",
+      "name": "达能（DANONE)",
+      "operating_receipt_in_million_dollars": "24,861.1",
+      "profit_in_million_dollars": "1,422.1",
+      "region": "法国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/394/2016",
+      "linkedin": "https://www.linkedin.com/company/mapfre",
+      "rank2016": "434",
+      "rank2015": "399",
+      "name": "曼福集团（MAPFRE GROUP)",
+      "operating_receipt_in_million_dollars": "24,795.1",
+      "profit_in_million_dollars": "786.2",
+      "region": "西班牙"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/268/2016",
+      "linkedin": "https://www.linkedin.com/company/astrazeneca",
+      "rank2016": "435",
+      "rank2015": "455",
+      "name": "阿斯利康（ASTRAZENECA)",
+      "operating_receipt_in_million_dollars": "24,708",
+      "profit_in_million_dollars": "2,825",
+      "region": "英国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/679/2016",
+      "linkedin": "https://www.linkedin.com/company/emc",
+      "rank2016": "436",
+      "rank2015": "487",
+      "name": "EMC公司（EMC)",
+      "operating_receipt_in_million_dollars": "24,704",
+      "profit_in_million_dollars": "1,990",
+      "region": "美国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/344/2016",
+      "linkedin": "https://www.linkedin.com/company/wm-morrison-supermarkets-plc",
+      "rank2016": "437",
+      "rank2015": "431",
+      "name": "威廉莫里森超市连锁公司（WM. MORRISON SUPERMARKETS)",
+      "operating_receipt_in_million_dollars": "24,522",
+      "profit_in_million_dollars": "337.7",
+      "region": "英国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/693/2016",
+      "linkedin": "https://www.linkedin.com/company/lafargeholcim",
+      "rank2016": "438",
+      "rank2015": "--",
+      "name": "LafargeHolcim公司（LafargeHolcim)",
+      "operating_receipt_in_million_dollars": "24,513.7",
+      "profit_in_million_dollars": "-1,526.9",
+      "region": "瑞士"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/367/2016",
+      "linkedin": "https://www.linkedin.com/company/samsung-life-insurance",
+      "rank2016": "439",
+      "rank2015": "456",
+      "name": "三星人寿保险（SAMSUNG LIFE INSURANCE)",
+      "operating_receipt_in_million_dollars": "24,500.7",
+      "profit_in_million_dollars": "1,071.1",
+      "region": "韩国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/437/2016",
+      "linkedin": "https://www.linkedin.com/company/sumitomo-electric",
+      "rank2016": "440",
+      "rank2015": "461",
+      "name": "住友电工（SUMITOMO ELECTRIC INDUSTRIES)",
+      "operating_receipt_in_million_dollars": "24,432",
+      "profit_in_million_dollars": "758",
+      "region": "日本"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/275/2016",
+      "linkedin": "https://www.linkedin.com/company/flextronics",
+      "rank2016": "441",
+      "rank2015": "453",
+      "name": "伟创力（FLEXTRONICS INTERNATIONAL)",
+      "operating_receipt_in_million_dollars": "24,418.9",
+      "profit_in_million_dollars": "444.1",
+      "region": "新加坡"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/299/2016",
+      "linkedin": "https://www.linkedin.com/company/adecco",
+      "rank2016": "442",
+      "rank2015": "446",
+      "name": "德科集团（ADECCO GROUP)",
+      "operating_receipt_in_million_dollars": "24,415.2",
+      "profit_in_million_dollars": "8.9",
+      "region": "瑞士"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/306/2016",
+      "linkedin": "https://www.linkedin.com/company/cpc-corporation-taiwan",
+      "rank2016": "443",
+      "rank2015": "316",
+      "name": "台湾中油股份有限公司（CPC)",
+      "operating_receipt_in_million_dollars": "24,361.8",
+      "profit_in_million_dollars": "-44.6",
+      "region": "中国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/681/2016",
+      "linkedin": "https://www.linkedin.com/company/usaa",
+      "rank2016": "444",
+      "rank2015": "492",
+      "name": "联合服务汽车协会（United Services Automobile Assn.)",
+      "operating_receipt_in_million_dollars": "24,360.5",
+      "profit_in_million_dollars": "2,272",
+      "region": "美国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/165/2016",
+      "linkedin": "https://www.linkedin.com/company/rabobank",
+      "rank2016": "445",
+      "rank2015": "394",
+      "name": "荷兰合作银行（RABOBANK GROUP)",
+      "operating_receipt_in_million_dollars": "24,019.2",
+      "profit_in_million_dollars": "976.2",
+      "region": "荷兰"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/655/2016",
+      "linkedin": "https://www.linkedin.com/company/duke-energy-corporation",
+      "rank2016": "446",
+      "rank2015": "462",
+      "name": "杜克能源（Duke Energy)",
+      "operating_receipt_in_million_dollars": "24,002",
+      "profit_in_million_dollars": "2,816",
+      "region": "美国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/329/2016",
+      "rank2016": "447",
+      "rank2015": "476",
+      "name": "东日本旅客铁道株式会社（EAST JAPAN RAILWAY) ",
+      "operating_receipt_in_million_dollars": "23,883.1",
+      "profit_in_million_dollars": "2,043.4",
+      "region": "日本"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/356/2016",
+      "rank2016": "448",
+      "rank2015": "419",
+      "name": "日本中部电力（CHUBU ELECTRIC POWER) ",
+      "operating_receipt_in_million_dollars": "23,773.6",
+      "profit_in_million_dollars": "1,413.9",
+      "region": "日本"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/591/2016",
+      "linkedin": "https://www.linkedin.com/company/halliburton",
+      "rank2016": "449",
+      "rank2015": "369",
+      "name": "哈里伯顿公司（HALLIBURTON)",
+      "operating_receipt_in_million_dollars": "23,633",
+      "profit_in_million_dollars": "-671",
+      "region": "美国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/239/2016",
+      "linkedin": "https://www.linkedin.com/company/northrop-grumman-corporation",
+      "rank2016": "450",
+      "rank2015": "494",
+      "name": "美国诺斯洛普格拉曼公司（NORTHROP GRUMMAN)",
+      "operating_receipt_in_million_dollars": "23,526",
+      "profit_in_million_dollars": "1,990",
+      "region": "美国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/376/2016",
+      "linkedin": "https://www.linkedin.com/company/michelin",
+      "rank2016": "451",
+      "rank2015": "458",
+      "name": "米其林公司（MICHELIN)",
+      "operating_receipt_in_million_dollars": "23,515.6",
+      "profit_in_million_dollars": "1,295.6",
+      "region": "法国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/182/2016",
+      "linkedin": "https://www.linkedin.com/company/nec",
+      "rank2016": "452",
+      "rank2015": "444",
+      "name": "日本电气公司（NEC)",
+      "operating_receipt_in_million_dollars": "23,499.8",
+      "profit_in_million_dollars": "572.7",
+      "region": "日本"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/377/2016",
+      "linkedin": "https://www.linkedin.com/company/enbw",
+      "rank2016": "453",
+      "rank2015": "424",
+      "name": "巴登-符滕堡州能源公司（ENERGIE BADEN-WÜRTTEMBERG)",
+      "operating_receipt_in_million_dollars": "23,479.5",
+      "profit_in_million_dollars": "138.5",
+      "region": "德国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/249/2016",
+      "linkedin": "https://www.linkedin.com/company/pkn-orlen-s.a.",
+      "rank2016": "454",
+      "rank2015": "353",
+      "name": "波兰国营石油公司（PKN ORLEN GROUP)",
+      "operating_receipt_in_million_dollars": "23,437.5",
+      "profit_in_million_dollars": "752.7",
+      "region": "波兰"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/694/2016",
+      "linkedin": "https://www.linkedin.com/company/arrow-electronics",
+      "rank2016": "455",
+      "rank2015": "--",
+      "name": "艾睿电子（Arrow Electronics)",
+      "operating_receipt_in_million_dollars": "23,282",
+      "profit_in_million_dollars": "497.7",
+      "region": "美国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/672/2016",
+      "linkedin": "https://www.linkedin.com/company/aia_2",
+      "rank2016": "456",
+      "rank2015": "467",
+      "name": "友邦保险（AIA Group)",
+      "operating_receipt_in_million_dollars": "23,274",
+      "profit_in_million_dollars": "2,691",
+      "region": "中国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/395/2016",
+      "linkedin": "https://www.linkedin.com/company/raytheon",
+      "rank2016": "457",
+      "rank2015": "--",
+      "name": "雷神公司（RAYTHEON)",
+      "operating_receipt_in_million_dollars": "23,247",
+      "profit_in_million_dollars": "2,074",
+      "region": "美国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/325/2016",
+      "linkedin": "https://www.linkedin.com/company/suncor-energy",
+      "rank2016": "458",
+      "rank2015": "317",
+      "name": "森科能源公司（SUNCOR ENERGY)",
+      "operating_receipt_in_million_dollars": "23,217.3",
+      "profit_in_million_dollars": "-1,560.6",
+      "region": "加拿大"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/442/2016",
+      "linkedin": "https://www.linkedin.com/company/heineken",
+      "rank2016": "459",
+      "rank2015": "463",
+      "name": "喜力控股公司（HEINEKEN HOLDING)",
+      "operating_receipt_in_million_dollars": "23,208.3",
+      "profit_in_million_dollars": "1,061.6",
+      "region": "荷兰"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/641/2016",
+      "rank2016": "460",
+      "rank2015": "249",
+      "name": "Plains GP Holdings公司（Plains GP Holdings) ",
+      "operating_receipt_in_million_dollars": "23,152",
+      "profit_in_million_dollars": "118",
+      "region": "美国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/695/2016",
+      "linkedin": "https://www.linkedin.com/company/us-foods",
+      "rank2016": "461",
+      "rank2015": "--",
+      "name": "US Foods Holding公司（US Foods Holding)",
+      "operating_receipt_in_million_dollars": "23,127.5",
+      "profit_in_million_dollars": "167.5",
+      "region": "美国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/696/2016",
+      "linkedin": "https://www.linkedin.com/company/sap",
+      "rank2016": "462",
+      "rank2015": "--",
+      "name": "SAP公司（SAP)",
+      "operating_receipt_in_million_dollars": "23,065.2",
+      "profit_in_million_dollars": "3,398.8",
+      "region": "德国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/697/2016",
+      "linkedin": "https://www.linkedin.com/company/inditex",
+      "rank2016": "463",
+      "rank2015": "--",
+      "name": "Inditex公司（Inditex)",
+      "operating_receipt_in_million_dollars": "23,052.8",
+      "profit_in_million_dollars": "3,170.6",
+      "region": "西班牙"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/438/2016",
+      "linkedin": "https://www.linkedin.com/company/korea-gas-corporationh",
+      "rank2016": "464",
+      "rank2015": "332",
+      "name": "韩国天然气公司（KOREA GAS)",
+      "operating_receipt_in_million_dollars": "23,038.7",
+      "profit_in_million_dollars": "282.3",
+      "region": "韩国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/327/2016",
+      "linkedin": "https://www.linkedin.com/company/china-ocean-shipping-company-cosco-",
+      "rank2016": "465",
+      "rank2015": "432",
+      "name": "中国远洋海运集团有限公司（China COSCO Shipping)",
+      "operating_receipt_in_million_dollars": "22,965.4",
+      "profit_in_million_dollars": "1,144.5",
+      "region": "中国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/456/2016",
+      "linkedin": "https://www.linkedin.com/company/sodexo",
+      "rank2016": "466",
+      "rank2015": "485",
+      "name": "索迪斯（SODEXO)",
+      "operating_receipt_in_million_dollars": "22,941.5",
+      "profit_in_million_dollars": "810.4",
+      "region": "法国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/214/2016",
+      "linkedin": "https://www.linkedin.com/company/tui-travel-plc",
+      "rank2016": "467",
+      "rank2015": "469",
+      "name": "途易（TUI)",
+      "operating_receipt_in_million_dollars": "22,913.6",
+      "profit_in_million_dollars": "389.8",
+      "region": "德国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/291/2016",
+      "linkedin": "https://www.linkedin.com/company/cathay-life-insurance",
+      "rank2016": "468",
+      "rank2015": "471",
+      "name": "国泰人寿保险股份有限公司（CATHAY LIFE INSURANCE)",
+      "operating_receipt_in_million_dollars": "22,881.2",
+      "profit_in_million_dollars": "1,204.9",
+      "region": "中国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/698/2016",
+      "linkedin": "https://www.linkedin.com/company/abbvie",
+      "rank2016": "469",
+      "rank2015": "--",
+      "name": "艾伯维（AbbVie)",
+      "operating_receipt_in_million_dollars": "22,859",
+      "profit_in_million_dollars": "5,144",
+      "region": "美国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/699/2016",
+      "linkedin": "https://www.linkedin.com/company/centene-corporation",
+      "rank2016": "470",
+      "rank2015": "--",
+      "name": "Centene公司（Centene)",
+      "operating_receipt_in_million_dollars": "22,795",
+      "profit_in_million_dollars": "355",
+      "region": "美国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/333/2016",
+      "linkedin": "https://www.linkedin.com/company/national-grid",
+      "rank2016": "471",
+      "rank2015": "486",
+      "name": "英国国家电网（NATIONAL GRID)",
+      "operating_receipt_in_million_dollars": "22,757.6",
+      "profit_in_million_dollars": "3,901.1",
+      "region": "英国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/700/2016",
+      "linkedin": "https://www.linkedin.com/company/emirates",
+      "rank2016": "472",
+      "rank2015": "--",
+      "name": "Emirates Group公司（Emirates Group)",
+      "operating_receipt_in_million_dollars": "22,734",
+      "profit_in_million_dollars": "1,940",
+      "region": "阿拉伯联合酋长国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/701/2016",
+      "rank2016": "473",
+      "rank2015": "--",
+      "name": "长江和记实业有限公司（CK Hutchison Holdings) ",
+      "operating_receipt_in_million_dollars": "22,714.8",
+      "profit_in_million_dollars": "15,294.6",
+      "region": "中国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/532/2016",
+      "linkedin": "https://www.linkedin.com/company/grupo-ultra",
+      "rank2016": "474",
+      "rank2015": "414",
+      "name": "Ultrapar控股公司（ULTRAPAR HOLDINGS)",
+      "operating_receipt_in_million_dollars": "22,694.6",
+      "profit_in_million_dollars": "451",
+      "region": "巴西"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/702/2016",
+      "linkedin": "https://www.linkedin.com/company/community-health-systems",
+      "rank2016": "475",
+      "rank2015": "--",
+      "name": "Community Health Systems公司（Community Health Systems)",
+      "operating_receipt_in_million_dollars": "22,678",
+      "profit_in_million_dollars": "158",
+      "region": "美国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/314/2016",
+      "linkedin": "https://www.linkedin.com/company/alcoa",
+      "rank2016": "476",
+      "rank2015": "495",
+      "name": "美铝公司（ALCOA)",
+      "operating_receipt_in_million_dollars": "22,534",
+      "profit_in_million_dollars": "-322",
+      "region": "美国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/675/2016",
+      "linkedin": "https://www.linkedin.com/company/greenergy_2",
+      "rank2016": "477",
+      "rank2015": "474",
+      "name": "Greenergy Fuels Holdings公司（Greenergy Fuels Holdings)",
+      "operating_receipt_in_million_dollars": "22,479.4",
+      "profit_in_million_dollars": "3.9",
+      "region": "英国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/649/2016",
+      "linkedin": "https://www.linkedin.com/company/vtb",
+      "rank2016": "478",
+      "rank2015": "404",
+      "name": "俄罗斯外贸银行（VTB Bank)",
+      "operating_receipt_in_million_dollars": "22,449.4",
+      "profit_in_million_dollars": "175.1",
+      "region": "俄罗斯"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/361/2016",
+      "linkedin": "https://www.linkedin.com/company/international-paper",
+      "rank2016": "479",
+      "rank2015": "450",
+      "name": "国际纸业（INTERNATIONAL PAPER)",
+      "operating_receipt_in_million_dollars": "22,365",
+      "profit_in_million_dollars": "938",
+      "region": "美国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/350/2016",
+      "linkedin": "https://www.linkedin.com/company/emerson",
+      "rank2016": "480",
+      "rank2015": "484",
+      "name": "艾默生电气（EMERSON ELECTRIC)",
+      "operating_receipt_in_million_dollars": "22,304",
+      "profit_in_million_dollars": "2,710",
+      "region": "美国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/703/2016",
+      "linkedin": "https://www.linkedin.com/company/midea",
+      "rank2016": "481",
+      "rank2015": "--",
+      "name": "美的集团股份有限公司（Midea Group)",
+      "operating_receipt_in_million_dollars": "22,173.5",
+      "profit_in_million_dollars": "2,021.9",
+      "region": "中国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/410/2016",
+      "linkedin": "https://www.linkedin.com/company/telstra",
+      "rank2016": "482",
+      "rank2015": "481",
+      "name": "澳大利亚电信（TELSTRA)",
+      "operating_receipt_in_million_dollars": "22,126.3",
+      "profit_in_million_dollars": "3,518.5",
+      "region": "澳大利亚"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/353/2016",
+      "linkedin": "https://www.linkedin.com/company/onex",
+      "rank2016": "483",
+      "rank2015": "490",
+      "name": "Onex公司（ONEX)",
+      "operating_receipt_in_million_dollars": "22,104",
+      "profit_in_million_dollars": "-573",
+      "region": "加拿大"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/560/2016",
+      "rank2016": "484",
+      "rank2015": "321",
+      "name": "中国航空油料集团公司（CHINA NATIONAL AVIATION FUEL GROUP) ",
+      "operating_receipt_in_million_dollars": "22,101.2",
+      "profit_in_million_dollars": "334.3",
+      "region": "中国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/682/2016",
+      "linkedin": "https://www.linkedin.com/company/unionpacific",
+      "rank2016": "485",
+      "rank2015": "493",
+      "name": "联合太平洋（Union Pacific)",
+      "operating_receipt_in_million_dollars": "21,813",
+      "profit_in_million_dollars": "4,772",
+      "region": "美国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/248/2016",
+      "linkedin": "https://www.linkedin.com/company/wolseley",
+      "rank2016": "486",
+      "rank2015": "--",
+      "name": "英国沃斯利集团（WOLSELEY)",
+      "operating_receipt_in_million_dollars": "21,719.6",
+      "profit_in_million_dollars": "332.4",
+      "region": "瑞士"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/704/2016",
+      "linkedin": "https://www.linkedin.com/company/amgen",
+      "rank2016": "487",
+      "rank2015": "--",
+      "name": "安进（Amgen)",
+      "operating_receipt_in_million_dollars": "21,662",
+      "profit_in_million_dollars": "6,939",
+      "region": "美国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/705/2016",
+      "linkedin": "https://www.linkedin.com/company/h%26m",
+      "rank2016": "488",
+      "rank2015": "--",
+      "name": "H&M Hennes & Mauritz公司（H&M Hennes & Mauritz)",
+      "operating_receipt_in_million_dollars": "21,627.2",
+      "profit_in_million_dollars": "2,499",
+      "region": "瑞典"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/555/2016",
+      "rank2016": "489",
+      "rank2015": "402",
+      "name": "首钢集团（SHOUGANG GROUP) ",
+      "operating_receipt_in_million_dollars": "21,513.7",
+      "profit_in_million_dollars": "-320.4",
+      "region": "中国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/483/2016",
+      "linkedin": "https://www.linkedin.com/company/us-bank",
+      "rank2016": "490",
+      "rank2015": "--",
+      "name": "美国合众银行（U.S. BANCORP)",
+      "operating_receipt_in_million_dollars": "21,494",
+      "profit_in_million_dollars": "5,879",
+      "region": "美国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/648/2016",
+      "linkedin": "https://www.linkedin.com/company/unipol-gruppo",
+      "rank2016": "491",
+      "rank2015": "406",
+      "name": "Unipol Group公司（Unipol Group)",
+      "operating_receipt_in_million_dollars": "21,477.8",
+      "profit_in_million_dollars": "301.5",
+      "region": "意大利"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/482/2016",
+      "rank2016": "492",
+      "rank2015": "--",
+      "name": "阿弗瑞萨控股公司（ALFRESA HOLDINGS) ",
+      "operating_receipt_in_million_dollars": "21,460.9",
+      "profit_in_million_dollars": "291.3",
+      "region": "日本"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/706/2016",
+      "linkedin": "https://www.linkedin.com/company/swiss-life",
+      "rank2016": "493",
+      "rank2015": "--",
+      "name": "Swiss Life公司（Swiss Life)",
+      "operating_receipt_in_million_dollars": "21,365.3",
+      "profit_in_million_dollars": "906.4",
+      "region": "瑞士"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/450/2016",
+      "linkedin": "https://www.linkedin.com/company/randstad",
+      "rank2016": "494",
+      "rank2015": "--",
+      "name": "任仕达控股公司（RANDSTAD HOLDING)",
+      "operating_receipt_in_million_dollars": "21,319.4",
+      "profit_in_million_dollars": "575.5",
+      "region": "荷兰"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/707/2016",
+      "rank2016": "495",
+      "rank2015": "--",
+      "name": "万洲国际有限公司（WH Group) ",
+      "operating_receipt_in_million_dollars": "21,209",
+      "profit_in_million_dollars": "786",
+      "region": "中国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/708/2016",
+      "rank2016": "496",
+      "rank2015": "--",
+      "name": "恒大集团（Evergrande Real Estate Group) ",
+      "operating_receipt_in_million_dollars": "21,184.2",
+      "profit_in_million_dollars": "2,474.1",
+      "region": "中国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/397/2016",
+      "linkedin": "https://www.linkedin.com/company/staples",
+      "rank2016": "497",
+      "rank2015": "--",
+      "name": "史泰博（STAPLES)",
+      "operating_receipt_in_million_dollars": "21,059",
+      "profit_in_million_dollars": "379.2",
+      "region": "美国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/389/2016",
+      "linkedin": "https://www.linkedin.com/company/standard-chartered-bank",
+      "rank2016": "498",
+      "rank2015": "479",
+      "name": "渣打银行（STANDARD CHARTERED)",
+      "operating_receipt_in_million_dollars": "20,976",
+      "profit_in_million_dollars": "-2,194",
+      "region": "英国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/657/2016",
+      "linkedin": "https://www.linkedin.com/company/rolls-royce",
+      "rank2016": "499",
+      "rank2015": "498",
+      "name": "罗尔斯·罗伊斯公司（Rolls-Royce Holdings)",
+      "operating_receipt_in_million_dollars": "20,969.1",
+      "profit_in_million_dollars": "126.8",
+      "region": "英国"
+    },
+    {
+      "url": "http://www.fortunechina.com/global500/509/2016",
+      "linkedin": "https://www.linkedin.com/company/old-mutual",
+      "rank2016": "500",
+      "rank2015": "466",
+      "name": "英国耆卫保险公司（OLD MUTUAL)",
+      "operating_receipt_in_million_dollars": "20,923.3",
+      "profit_in_million_dollars": "938.1",
+      "region": "英国"
+    }
+  ]
+}

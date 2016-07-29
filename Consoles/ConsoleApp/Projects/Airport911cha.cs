@@ -10,6 +10,7 @@ using HtmlAgilityPack;
 using Newtonsoft.Json;
 using Newtonsoft.Json.Linq;
 using Picker.Core.Extensions;
+using Picker.Core.Models;
 
 namespace ConsoleApp {
   /// <summary>
@@ -59,6 +60,99 @@ namespace ConsoleApp {
       Console.WriteLine( "save json..." );
       string json = joRoot.ToString( Formatting.Indented );
       System.IO.File.WriteAllText( filepath, json, Encoding.UTF8 );
+      Console.WriteLine( "over..." );
+    }
+
+    public static void Grouping( string sourcePath ) {
+      Console.WriteLine( "load source json..." );
+      string json = System.IO.File.ReadAllText( sourcePath );
+      JObject joRootSource = JObject.Parse( json );
+      JArray itemsSource = (JArray)joRootSource["items"];
+
+      // config
+      JObject joConfig = createConfig();
+
+      JObject jo1 = new JObject();
+      jo1.Add( "title", "机场三字码（a-g）" );
+      jo1.Add( "description", "a-g部分" );
+      jo1.Add( "url", "http://airportcode.911cha.com/" );
+      jo1.Add( "updated_at", "2016-7-2" );
+      jo1.Add( "config", joConfig );
+
+      JObject jo2 = new JObject();
+      jo2.Add( "title", "机场三字码（h-n）" );
+      jo2.Add( "description", "h-n部分" );
+      jo2.Add( "url", "http://airportcode.911cha.com/" );
+      jo2.Add( "updated_at", "2016-7-2" );
+      jo2.Add( "config", joConfig );
+
+      JObject jo3 = new JObject();
+      jo3.Add( "title", "机场三字码（o-t）" );
+      jo3.Add( "description", "o-t部分" );
+      jo3.Add( "url", "http://airportcode.911cha.com/" );
+      jo3.Add( "updated_at", "2016-7-2" );
+      jo3.Add( "config", joConfig );
+
+      JObject jo4 = new JObject();
+      jo4.Add( "title", "机场三字码（u-z）" );
+      jo4.Add( "description", "u-z部分" );
+      jo4.Add( "url", "http://airportcode.911cha.com/" );
+      jo4.Add( "updated_at", "2016-7-2" );
+      jo4.Add( "config", joConfig );
+
+      JArray items1 = new JArray();
+      JArray items2 = new JArray();
+      JArray items3 = new JArray();
+      JArray items4 = new JArray();
+
+      foreach(var item in itemsSource ) {
+        string code = (string)item["code3"];
+        if(string.IsNullOrWhiteSpace(code))
+          code = (string)item["code4"];
+        if ( string.IsNullOrWhiteSpace( code ) )
+          code = (string)item["city_english_name"];
+        if ( string.IsNullOrWhiteSpace( code ) )
+          code = "abc";
+
+        char c = code.ToLower()
+          .First();
+        if ( SimpleGrouping.EnglishLetters_4_Group1.Contains( c ) )
+          items1.Add( item );
+        else if ( SimpleGrouping.EnglishLetters_4_Group2.Contains( c ) )
+          items2.Add( item );
+        else if ( SimpleGrouping.EnglishLetters_4_Group3.Contains( c ) )
+          items3.Add( item );
+        else if ( SimpleGrouping.EnglishLetters_4_Group4.Contains( c ) )
+          items4.Add( item );
+      }
+
+      jo1.Add( "total_count", items1.Count );
+      jo1.Add( "items", items1 );
+
+      jo2.Add( "total_count", items2.Count );
+      jo2.Add( "items", items2 );
+
+      jo3.Add( "total_count", items3.Count );
+      jo3.Add( "items", items3 );
+
+      jo4.Add( "total_count", items4.Count );
+      jo4.Add( "items", items4 );
+
+      // save
+      Console.WriteLine( "save json..." );
+
+      json = jo1.ToString( Formatting.Indented );
+      System.IO.File.WriteAllText( sourcePath.Replace( ".json", "-1.json" ), json, Encoding.UTF8 );
+
+      json = jo2.ToString( Formatting.Indented );
+      System.IO.File.WriteAllText( sourcePath.Replace( ".json", "-2.json" ), json, Encoding.UTF8 );
+
+      json = jo3.ToString( Formatting.Indented );
+      System.IO.File.WriteAllText( sourcePath.Replace( ".json", "-3.json" ), json, Encoding.UTF8 );
+
+      json = jo4.ToString( Formatting.Indented );
+      System.IO.File.WriteAllText( sourcePath.Replace( ".json", "-4.json" ), json, Encoding.UTF8 );
+
       Console.WriteLine( "over..." );
     }
 
