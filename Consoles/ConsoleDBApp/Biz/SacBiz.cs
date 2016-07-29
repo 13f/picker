@@ -115,6 +115,21 @@ namespace ConsoleDBApp.Biz {
       return count;
     }
 
+    public int UpdateStandards201606( int page, int countPerPage ) {
+      var maxDate = DateTime.MaxValue.AddMonths( -1 ); // 9999-11-30 23:59:59
+      var list = db.SACChinaStandard.Where( i => i.Revocative && i.RevocatoryDate >= maxDate && i.Remark != null && i.Remark.Contains( "废止" ) )
+        .Skip( page * countPerPage )
+        .Take( countPerPage );
+      int count = 0;
+      foreach ( var item in list ) {
+        bool r = updateStandard201606( item );
+        if ( r )
+          count++;
+      }
+      db.SubmitChanges();
+      return count;
+    }
+
     public void SaveKey_ChinaStandard( string code, string remark, bool isRevocative, bool saveChanges ) {
       var item = db.SACChinaStandard.Where( i => i.StandardCode == code ).FirstOrDefault();
       if ( item != null )
@@ -206,6 +221,32 @@ namespace ConsoleDBApp.Biz {
       standard.Remark = remark;
       standard.Content = jo.ToString( Formatting.Indented );
       standard.UpdatedAt = DateTime.UtcNow;
+    }
+
+    bool updateStandard201606( SACChinaStandard standard ) {
+      if ( string.IsNullOrWhiteSpace( standard.Remark ) )
+        return false;
+
+      int end = standard.Remark.IndexOf( "废止" );
+      if ( end < 0 )
+        return false;
+
+      string revDate = standard.Remark.Substring( 0, end );
+      if ( revDate.Contains( "," ) ) {
+        int start = revDate.LastIndexOf( "," );
+        revDate = revDate.Substring( start + 1 ).Trim();
+      }
+      DateTime date = DateTime.Parse( revDate );
+      JObject jo = JObject.Parse( standard.Content );
+
+      jo["revocatory_date"] = date;
+
+      standard.RevocatoryDate = date;
+      
+      standard.Content = jo.ToString( Formatting.Indented );
+      standard.UpdatedAt = DateTime.UtcNow;
+
+      return true;
     }
 
   }

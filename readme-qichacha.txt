@@ -98,4 +98,7 @@ http://qichacha.com/company_assets?unique=185d28962dd320f863eff46fa4270dbe&compa
 对于字符串类型的字段，如果值为“----”，即表示源数据有错误，暂时跳过。
 对于日期格式的字段，如果值为DateTime.MinValue，即表示源数据有错误，暂时跳过。
 
+【日志】
+id为e4dede84374f18ccfcfe82b802ce63b6的公司，获取的数据包含不完整HTML，故手动将RegNum、OrgCode和Content等字段设置为“----”。
+
 

@@ -167,7 +167,7 @@ namespace ConsoleDBApp {
 
     public static async Task Update201605( int millisecondsDelay = 500 ) {
       Console.WriteLine( "ready..." );
-      DateTime dt = DateTime.Parse( "2016-5-18 23:59:59" );
+      DateTime dt = DateTime.Parse( "2016-6-25 23:59:59" );
       int countPerPage = 50;
       int page = 0;
       int count = 0;
@@ -175,10 +175,35 @@ namespace ConsoleDBApp {
         int tmpCount = biz.UpdateStandards( page, countPerPage, dt );
         count = count + tmpCount;
         Console.WriteLine( "  " + count.ToString() + " items processed." );
-        if ( tmpCount < countPerPage )
+        if ( tmpCount == 0 )
           break;
         Console.WriteLine( "wait and continue..." );
         await Task.Delay( millisecondsDelay );
+        // 不需要page++
+      }
+
+      Console.WriteLine( "over..." );
+    }
+
+    /// <summary>
+    /// 有些废止的标准，没有RevocatoryDate数据，其中一部分可以从Remark中解析，如：“2004-09-15废止,被GB/T 9846.6-2004代替”
+    /// </summary>
+    /// <param name="millisecondsDelay"></param>
+    /// <returns></returns>
+    public static async Task Update201606( int millisecondsDelay = 500 ) {
+      Console.WriteLine( "ready..." );
+      int countPerPage = 50;
+      int page = 0;
+      int count = 0;
+      while ( true ) {
+        int tmpCount = biz.UpdateStandards201606( page, countPerPage );
+        count = count + tmpCount;
+        Console.WriteLine( "  " + count.ToString() + " items processed." );
+        if ( tmpCount == 0 )
+          break;
+        Console.WriteLine( "wait and continue..." );
+        await Task.Delay( millisecondsDelay );
+        // 不需要page++
       }
 
       Console.WriteLine( "over..." );
