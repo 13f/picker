@@ -12,6 +12,7 @@ using Picker.Core.Extensions;
 using Picker.Core.Helpers;
 
 namespace ConsoleDBApp {
+  // TODO: 抓取逻辑有待整理，网站上的部分数据有待理解
   /// <summary>
   /// http://www.cpbz.gov.cn/
   /// </summary>
@@ -264,7 +265,7 @@ namespace ConsoleDBApp {
         // conType = "5";//按地区查询
         // condition = $("#areaValue").val();
         // standardFlag = 0;
-        string postString = "conType=5" + "&condition=" + area_code + "&pageNum=" + page + "&standardFlag=0";
+        string postString = "conType=5" + "&condition=" + area_code + "&pageNum=" + page + "&standardFlag=0&areaLevel=1";
         string jsonString = await client.HttpPostTaskAsync( Uri_QueryByPage, postString );
         JObject json = JObject.Parse( jsonString );
         JArray array = (JArray)json["result"];

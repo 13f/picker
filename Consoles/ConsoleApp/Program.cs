@@ -36,7 +36,7 @@ namespace ConsoleApp {
       // 2016-7-2
       //Airport911cha.Run( @"F:\Data\911cha.com\airport\data.json" ); // ok
       // 2016-7-29
-      Airport911cha.Grouping( @"F:\Data\911cha.com\airport\data.json" ); // 
+      //Airport911cha.Grouping( @"F:\Data\911cha.com\airport\data.json" ); // 
 
       #region Fortune Global 500
 
@@ -199,6 +199,9 @@ namespace ConsoleApp {
       //TechnologyReview.Pick2013( @"F:\Data\technologyreview.com\2013.json" ); // 2016-7-7 ok
       //TechnologyReview.Pick2012( @"F:\Data\technologyreview.com\2012.json" ); // 2016-7-7 ok
       //TechnologyReview.Pick2011( @"F:\Data\technologyreview.com\2011.json" ); // 2016-7-7 ok
+
+      // chemicalbook.com
+      //Chemicalbook.PickCategories( @"F:\Data\chemicalbook.com\categories.json" ); // 2016-8-19 ok
 
       // wait for input
       Console.ReadKey();

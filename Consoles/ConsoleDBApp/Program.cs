@@ -7,16 +7,20 @@ using System.Threading.Tasks;
 namespace ConsoleDBApp {
   class Program {
     static void Main( string[] args ) {
-      //string connSac = @"Data Source=revenger\sqlexpress;Initial Catalog=sac;Persist Security Info=True;User ID=sa; Password=whosyourdaddy";
+      string connSac = @"Data Source=revenger\sqlexpress;Initial Catalog=sac;Persist Security Info=True;User ID=sa; Password=whosyourdaddy";
       string connQichacha = @"Data Source=revenger\sqlexpress;Initial Catalog=qichacha;Persist Security Info=True;User ID=sa; Password=whosyourdaddy";
 
       // ==== SAC ====
-      //SAC.Run( connSac );
+      SAC.Run( connSac );
       // 2016-4-30
       //SAC.PickList_Active(); // ok
       // 2016-5-5
       //SAC.PickList_Revocatory(); // ok
       //SAC.PickDetail(); // ok
+      // 2016-5-20
+      //SAC.Update201605(); // ok
+      // 2016-6-25
+      //SAC.Update201606(); // ok
 
       // ==== CPBZ ====
       CPBZ.Run( connQichacha );
@@ -24,7 +28,7 @@ namespace ConsoleDBApp {
       //CPBZ.PickAreas(); // ok
       //CPBZ.PickListByArea(); // ok
       // 2016-5-12,13
-      //CPBZ.PickRecentList( DateTime.UtcNow ); // ok
+      CPBZ.PickRecentList( DateTime.UtcNow ); // ok
       //CPBZ.PickDetails( @"F:\Data\企业标准信息公共服务平台\企业标准\" ); // ok
       // 2016-5-19
       //CPBZ.UpdateStandard_OrginalPdfUri( @"F:\Data\企业标准信息公共服务平台\企业标准\" ); // ok
