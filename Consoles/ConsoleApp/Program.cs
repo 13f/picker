@@ -203,6 +203,9 @@ namespace ConsoleApp {
       // chemicalbook.com
       //Chemicalbook.PickCategories( @"F:\Data\chemicalbook.com\categories.json" ); // 2016-8-19 ok
 
+      // 汉字
+      //ChineseCharacter.PickRadicals( @"F:\Data\chinese\radicals.json" ); // ok:2016-11-25
+
       // wait for input
       Console.ReadKey();
     }
