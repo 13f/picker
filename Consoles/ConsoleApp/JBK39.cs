@@ -22,19 +22,14 @@ namespace ConsoleApp {
     /// 顿号图片
     /// </summary>
     const string Gif_IdeographicComma = "<img alt=\"\" src=\"http://img.39.net/enc/2008/7/28/18zuctx5yh42474s.gif\"/>";
-
-    static void save( JObject jo, string path ) {
-      string json = jo.ToString( Newtonsoft.Json.Formatting.Indented );
-      File.WriteAllText( path, json );
-    }
-
+    
     #region 症状
 
     /// <summary>
     /// 抓取症状列表
     /// </summary>
     /// <returns></returns>
-    public static async Task PickSymptomList( string directory, int millisecondsDelay = 2500 ) {
+    public static async Task PickSymptomListAsync( string directory, int millisecondsDelay = 2500 ) {
       WebClient client = NetHelper.GetWebClient_GB2312();
       HtmlDocument doc = new HtmlDocument();
       //int pagePerCount = 10;
@@ -74,7 +69,7 @@ namespace ConsoleApp {
       root["count"] = count;
       root["items"] = items;
       // save
-      save( root, directory + "symptom-data.json" );
+      LocalStorageUtility.Save( root, directory + "symptom-data.json" );
       Console.WriteLine( "saved...over..." );
     }
 
@@ -82,7 +77,7 @@ namespace ConsoleApp {
     /// 抓取症状详情
     /// </summary>
     /// <returns></returns>
-    public static async Task PickSymptomDetails( string pathSource, string pathResult, int millisecondsDelay = 2500 ) {
+    public static async Task PickSymptomDetailsAsync( string pathSource, string pathResult, int millisecondsDelay = 2500 ) {
       WebClient client = NetHelper.GetWebClient_GB2312();
       HtmlDocument doc = new HtmlDocument();
       Console.WriteLine( "load data file..." );
@@ -127,7 +122,7 @@ namespace ConsoleApp {
         // update tag
         item["updatedAt"] = DateTime.UtcNow;
         // save
-        save( root, pathResult );
+        LocalStorageUtility.Save( root, pathResult );
         // wait
         Console.WriteLine( "... wait... and then continue..." );
         await Task.Delay( millisecondsDelay );
@@ -333,7 +328,7 @@ namespace ConsoleApp {
     /// 抓取疾病列表
     /// </summary>
     /// <returns></returns>
-    public static async Task PickDiseaseList( string directory, int millisecondsDelay = 2500 ) {
+    public static async Task PickDiseaseListAsync( string directory, int millisecondsDelay = 2500 ) {
       string filename = "disease-data-v2.json";
       string path = directory + filename;
 
@@ -388,7 +383,7 @@ namespace ConsoleApp {
         if( page > 0 && page % 5 == 0 ) { // 每5页保存一次
           root["count"] = count;
           root["items"] = items;
-          save( root, path );
+          LocalStorageUtility.Save( root, path );
           Console.WriteLine( "...saved." );
         }
         
@@ -401,7 +396,7 @@ namespace ConsoleApp {
       root["count"] = count;
       root["items"] = items;
       // save
-      save( root, path );
+      LocalStorageUtility.Save( root, path );
       Console.WriteLine( "saved...over..." );
     }
 
@@ -409,7 +404,7 @@ namespace ConsoleApp {
     /// 抓取疾病详情
     /// </summary>
     /// <returns></returns>
-    public static async Task PickDiseaseDetails( string pathSource, string pathResult, int millisecondsDelay = 2500 ) {
+    public static async Task PickDiseaseDetailsAsync( string pathSource, string pathResult, int millisecondsDelay = 2500 ) {
       WebClient client = NetHelper.GetWebClient_GB2312();
       HtmlDocument doc = new HtmlDocument();
       Console.WriteLine( "load data file..." );
@@ -496,7 +491,7 @@ namespace ConsoleApp {
         // update tag
         item["updatedAt"] = DateTime.UtcNow;
         // save
-        save( root, pathResult );
+        LocalStorageUtility.Save( root, pathResult );
         // wait
         Console.WriteLine( "... wait... and then continue..." );
         await Task.Delay( millisecondsDelay );

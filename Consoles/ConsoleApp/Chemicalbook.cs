@@ -19,12 +19,7 @@ namespace ConsoleApp {
     /// </summary>
     public const string Website = "http://www.chemicalbook.com";
 
-    static void save( JObject jo, string path ) {
-      string json = jo.ToString( Newtonsoft.Json.Formatting.Indented );
-      File.WriteAllText( path, json );
-    }
-
-    public static async Task PickCategories( string path ) {
+    public static async Task PickCategoriesAsync( string path ) {
       string url = "http://www.chemicalbook.com/ChemicalProductsList_0.htm";
 
       JObject root = new JObject();
@@ -32,15 +27,15 @@ namespace ConsoleApp {
       root["url"] = url;
 
       JArray items = new JArray();
-      pickCategories( items, url );
+      PickCategories( items, url );
       root["items"] = items;
 
       // save
-      save( root, path );
+      LocalStorageUtility.Save( root, path );
       Console.WriteLine( "saved... over..." );
     }
 
-    static void pickCategories( JArray items, string url ) {
+    static void PickCategories( JArray items, string url ) {
       WebClient client = NetHelper.GetWebClient_UTF8();
       HtmlDocument doc = new HtmlDocument();
       string html = client.DownloadString( url );
@@ -76,7 +71,7 @@ namespace ConsoleApp {
         item["url"] = newUrl;
 
         JArray newItems = new JArray();
-        pickCategories( newItems, newUrl );
+        PickCategories( newItems, newUrl );
         item["items"] = newItems;
 
         items.Add( item );
