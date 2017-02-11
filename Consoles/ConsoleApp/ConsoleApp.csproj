@@ -52,6 +52,7 @@
   <ItemGroup>
     <Compile Include="Chemicalbook.cs" />
     <Compile Include="ChineseCharacter.cs" />
+    <Compile Include="Element.cs" />
     <Compile Include="Projects\Airport911cha.cs" />
     <Compile Include="Projects\BrainNetomeAtlas.cs" />
     <Compile Include="Facemood.cs" />

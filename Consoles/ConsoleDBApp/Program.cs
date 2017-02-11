@@ -28,7 +28,7 @@ namespace ConsoleDBApp {
       //CPBZ.PickAreas(); // ok
       //CPBZ.PickListByArea(); // ok
       // 2016-5-12,13
-      CPBZ.PickRecentList( DateTime.UtcNow ); // ok
+      //CPBZ.PickRecentListAsync( DateTime.UtcNow ); // TODO: 逻辑待定，服务器数据有冲突
       //CPBZ.PickDetails( @"F:\Data\企业标准信息公共服务平台\企业标准\" ); // ok
       // 2016-5-19
       //CPBZ.UpdateStandard_OrginalPdfUri( @"F:\Data\企业标准信息公共服务平台\企业标准\" ); // ok

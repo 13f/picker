@@ -202,9 +202,14 @@ namespace ConsoleApp {
 
       // chemicalbook.com
       //Chemicalbook.PickCategories( @"F:\Data\chemicalbook.com\categories.json" ); // 2016-8-19 ok
+      // wikipedia
+      //Element.Wikipedia_ChemicalElementsList1( @"F:\Data\wikipedia\elements.json" ); // ok:2017-2-11
+      //Element.Wikipedia_MergeChemicalElementsList2( @"F:\Data\wikipedia\elements.json" ); // ok:2017-2-11
 
       // 汉字
       //ChineseCharacter.PickRadicals( @"F:\Data\chinese\radicals.json" ); // ok:2016-11-25
+      //ChineseCharacter.PickWordsList(@"F:\Data\chinese\radicals-words.json"); // ok:2017-2-10
+      //ChineseCharacter.SeparateWords(@"F:\Data\chinese\radicals-words.json", @"F:\Data\chinese\words.json"); // ok:2017-2-10
 
       // wait for input
       Console.ReadKey();

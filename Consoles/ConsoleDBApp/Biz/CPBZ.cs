@@ -35,7 +35,7 @@ namespace ConsoleDBApp {
       biz = new Biz.CpbzBiz( conn );
     }
 
-    public static async Task PickAreas() {
+    public static async Task PickAreasAsync() {
       string uri = "http://www.cpbz.gov.cn/index";
       HtmlDocument doc = new HtmlDocument();
       WebClient client = NetHelper.GetWebClient_UTF8();
@@ -63,12 +63,12 @@ namespace ConsoleDBApp {
 
       foreach(string code in codes ) {
         Console.WriteLine( "get code = " + code + " ...." );
-        await PickSubAreas( client, code, true );
+        await PickSubAreasAsync( client, code, true );
       }
       Console.WriteLine( "over..." );
     }
 
-    public static async Task PickListByArea( int millisecondsDelay = 3000 ) {
+    public static async Task PickListByAreaAsync( int millisecondsDelay = 3000 ) {
       while ( true ) {
         var kvp = biz.GetLastArea_CPBZ();
         if ( kvp.Key == null ) {
@@ -76,7 +76,7 @@ namespace ConsoleDBApp {
           break;
         }
         Console.WriteLine( "processing: code = " + kvp.Key + " ..." );
-        await pickListByArea1( kvp.Key, kvp.Value );
+        await PickListByArea1Async( kvp.Key, kvp.Value );
 
         Console.WriteLine( "wait some seconds, and continue..." );
         await Task.Delay( millisecondsDelay );
@@ -85,14 +85,14 @@ namespace ConsoleDBApp {
       Console.WriteLine( "over..." );
     }
 
-    public static async Task PickRecentList( DateTime lastTime, int millisecondsDelay = 3000 ) {
+    public static async Task PickRecentListAsync( DateTime lastTime, int millisecondsDelay = 3000 ) {
       var areas = biz.SelectCodesOfTopAreas_CPBZ( lastTime ); // 31 items
       foreach(string area in areas ) {
         Console.WriteLine( "process area: code = " + area + "..." );
         // reset page
         biz.UpdateQueryState_Area_CPBZ( area, 0, true );
         // pick
-        await pickListByArea2( area, 0 );
+        await PickListByArea2Async( area, 0 );
         // wait and continue
         Console.WriteLine( "  wait some seconds, and continue..." );
         await Task.Delay( millisecondsDelay );
@@ -100,7 +100,7 @@ namespace ConsoleDBApp {
       Console.WriteLine( "over..." );
     }
 
-    public static async Task PickDetails( string directory, int millisecondsDelay = 2000 ) {
+    public static async Task PickDetailsAsync( string directory, int millisecondsDelay = 2000 ) {
       WebClient client = NetHelper.GetWebClient_UTF8();
       while ( true ) {
         var kvp = biz.GetStandardToProcess();
@@ -111,7 +111,7 @@ namespace ConsoleDBApp {
 
         try {
           Console.WriteLine( "==> org_code = " + kvp.Key + ", standard_id = " + kvp.Value + " ..." );
-          await pickDetail( client, kvp.Key, kvp.Value, directory );
+          await PickDetailAsync( client, kvp.Key, kvp.Value, directory );
         }
         catch ( System.Net.WebException ) {
           Console.WriteLine( "  got System.Net.WebException o(╯□╰)o " );
@@ -128,7 +128,7 @@ namespace ConsoleDBApp {
       Console.WriteLine( "over..." );
     }
 
-    public static async Task UpdateStandard_OrginalPdfUri( string directory, int millisecondsDelay = 2000 ) {
+    public static async Task UpdateStandard_OrginalPdfUriAsync( string directory, int millisecondsDelay = 2000 ) {
       WebClient client = NetHelper.GetWebClient_UTF8();
       while ( true ) {
         var kvp = biz.GetStandardToUpdateOriginalPdfUri();
@@ -139,7 +139,7 @@ namespace ConsoleDBApp {
 
         try {
           Console.WriteLine( "==> org_code = " + kvp.Item1 + ", standard_id = " + kvp.Item2 + " ..." );
-          await updateOriginalPdfUri( client, kvp.Item1, kvp.Item2, kvp.Item3 );
+          await UpdateOriginalPdfUriAsync( client, kvp.Item1, kvp.Item2, kvp.Item3 );
         }
         catch ( System.Net.WebException ) {
           Console.WriteLine( "  got System.Net.WebException o(╯□╰)o " );
@@ -157,7 +157,7 @@ namespace ConsoleDBApp {
     }
 
 
-    static async Task PickSubAreas( WebClient client, string code, bool hasSubAreas ) {
+    static async Task PickSubAreasAsync( WebClient client, string code, bool hasSubAreas ) {
       if ( client == null )
         client = NetHelper.GetWebClient_UTF8();
       string uri = "http://www.cpbz.gov.cn/queryArea.do";
@@ -175,12 +175,12 @@ namespace ConsoleDBApp {
       if ( hasSubAreas ) {
         foreach ( string c in codes ) {
           Console.WriteLine( "get code = " + c + " ...." );
-          await PickSubAreas( client, c, false );
+          await PickSubAreasAsync( client, c, false );
         }
       }
     }
 
-    static async Task pickListByArea1( string area_code, int last_page, int millisecondsDelay = 3000 ) {
+    static async Task PickListByArea1Async( string area_code, int last_page, int millisecondsDelay = 3000 ) {
       int page = last_page;
       Console.WriteLine( "start from page " + page + "..." );
 
@@ -248,7 +248,7 @@ namespace ConsoleDBApp {
       Console.WriteLine( "done... ends with page " + page + "..." );
     }
 
-    static async Task pickListByArea2( string area_code, int last_page, int millisecondsDelay = 3000 ) {
+    static async Task PickListByArea2Async( string area_code, int last_page, int millisecondsDelay = 3000 ) {
       int page = last_page;
       Console.WriteLine( "  start from page " + page + "..." );
 
@@ -328,7 +328,7 @@ namespace ConsoleDBApp {
       Console.WriteLine( "  done... ends with page " + page + "..." );
     }
 
-    static async Task pickDetail( WebClient client, string orgCode, int standardId, string directory ) {
+    static async Task PickDetailAsync( WebClient client, string orgCode, int standardId, string directory ) {
       string uri = string.Format( UriTemplate_OrgStandardDetail, orgCode, standardId );
       string html = await client.DownloadStringTaskAsync( uri );
       Console.WriteLine( "  got html." );
@@ -367,7 +367,7 @@ namespace ConsoleDBApp {
           company = parseCompany( table );
         }
         else if ( tableHead == "标准信息" ) {
-          standard = await parseStandard( orgCode, table, client, directory );
+          standard = await ParseStandardAsync( orgCode, table, client, directory );
         }
         else if ( tableHead == "技术指标" ) {
           technicalIndicator = parseTechnical( table );
@@ -392,7 +392,7 @@ namespace ConsoleDBApp {
       Console.WriteLine( "  ... √" );
     }
 
-    static async Task updateOriginalPdfUri( WebClient client, string orgCode, int standardId, string json ) {
+    static async Task UpdateOriginalPdfUriAsync( WebClient client, string orgCode, int standardId, string json ) {
       string uri = string.Format( UriTemplate_OrgStandardDetail, orgCode, standardId );
       string html = await client.DownloadStringTaskAsync( uri );
       Console.WriteLine( "  got html." );
@@ -497,7 +497,7 @@ namespace ConsoleDBApp {
       return jo;
     }
 
-    static async Task<JObject> parseStandard( string orgCode, HtmlNode table, WebClient client, string directory ) {
+    static async Task<JObject> ParseStandardAsync( string orgCode, HtmlNode table, WebClient client, string directory ) {
       JObject jo = new JObject();
       var tbody = table.SelectSingleNode( "./tbody" );
       var rows = tbody.SelectNodes( "./tr" ).Skip( 1 ); // skip head row
