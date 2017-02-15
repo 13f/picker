@@ -14,12 +14,11 @@ namespace ConsoleApp {
   /// 
   /// </summary>
   public static class Facemood {
-
-    static void save( JObject jo, string path ) {
-      string json = jo.ToString( Newtonsoft.Json.Formatting.Indented );
-      File.WriteAllText( path, json );
-    }
-
+    /// <summary>
+    /// 每页最多20条
+    /// </summary>
+    const int CountPerPage = 20;
+    
     public static async Task PickList( string directory ) {
       string uri = "http://facemood.grtimed.com";
       WebClient client = NetHelper.GetWebClient_UTF8();
@@ -71,10 +70,9 @@ namespace ConsoleApp {
       root["category_list"] = category_list;
 
       // save
-      save( root, directory + "facemood.json" );
+      LocalStorageUtility.Save( root, directory + "facemood.json" );
       Console.WriteLine( "saved...over..." );
     }
-
 
     public static async Task PickCategoryDetails( string pathSource, string pathResult, int millisecondsDelay = 2500 ) {
       Console.WriteLine( "load data file..." );
@@ -83,29 +81,101 @@ namespace ConsoleApp {
       JObject root = JObject.Parse( json );
 
       JArray items = (JArray)root["category_list"];
+      int totalItems = 0;
       foreach(var item in items ) {
         if ( item["updatedAt"] != null ) // skip
           continue;
 
-        await pickCategoryDetail( item, millisecondsDelay );
+        int count = await pickCategoryDetail( item, millisecondsDelay );
+        totalItems += count;
         // update tag
         item["updatedAt"] = DateTime.UtcNow;
         // save
-        save( root, pathResult );
+        LocalStorageUtility.Save( root, pathResult );
         // wait
         Console.WriteLine( "... wait... and then continue..." );
         await Task.Delay( millisecondsDelay );
       }
+
+      root["total_items_count_by_category"] = totalItems;
+      // save
+      LocalStorageUtility.Save( root, pathResult );
       Console.WriteLine( "saved...over..." );
     }
 
-    static async Task pickCategoryDetail( JToken category, int millisecondsDelay = 2500 ) {
+    public static async Task PickTagDetails( string pathSource, string pathResult, int millisecondsDelay = 2500 ) {
+      Console.WriteLine( "load data file..." );
+      // load
+      string json = File.ReadAllText( pathSource );
+      JObject root = JObject.Parse( json );
+
+      JArray items = (JArray)root["tags"];
+      int totalItems = 0;
+      foreach( var item in items ) {
+        if( item["updatedAt"] != null ) // skip
+          continue;
+
+        int count = await pickCategoryDetail( item, millisecondsDelay );
+        totalItems += count;
+        // update tag
+        item["updatedAt"] = DateTime.UtcNow;
+        // save
+        LocalStorageUtility.Save( root, pathResult );
+        // wait
+        Console.WriteLine( "... wait... and then continue..." );
+        await Task.Delay( millisecondsDelay );
+      }
+
+      root["total_items_count_by_tag"] = totalItems;
+      // save
+      LocalStorageUtility.Save( root, pathResult );
+      Console.WriteLine( "saved...over..." );
+    }
+
+    public static async Task GetDistinctItems( string pathSource, string pathResult ) {
+      Console.WriteLine( "load data file..." );
+      // load
+      string json = File.ReadAllText( pathSource );
+      JObject root = JObject.Parse( json );
+
+      JArray tags = (JArray)root["tags"];
+      JArray category_list = (JArray)root["category_list"];
+      List<JToken> tmpList = new List<JToken>();
+      tmpList.AddRange( tags );
+      tmpList.AddRange( category_list );
+
+      Dictionary<string, JToken> items = new Dictionary<string, JToken>();
+      foreach( var item in tmpList ) {
+        var itemsInItem = item["items"];
+        foreach(var iii in itemsInItem ) {
+          string mood_text = (string)iii["mood_text"];
+          if( !items.ContainsKey( mood_text ) )
+            items.Add( mood_text, iii );
+        }
+      }
+      root.Remove( "tags" );
+      root.Remove( "category_list" );
+      root.Remove( "total_items_count_by_category" );
+      root.Remove( "total_items_count_by_tag" );
+
+      JArray array = new JArray();
+      items.Values
+        .ToList()
+        .ForEach( i => array.Add( i ) );
+      root["items"] = array;
+      root["count"] = items.Count;
+      // save
+      LocalStorageUtility.Save( root, pathResult );
+      Console.WriteLine( "saved...over..." );
+    }
+
+
+    static async Task<int> pickCategoryDetail( JToken category, int millisecondsDelay = 2500 ) {
       if ( category == null )
-        return;
+        return 0;
       
       WebClient client = NetHelper.GetWebClient_UTF8();
       HtmlDocument doc = new HtmlDocument();
-      int countPerPage = 20;
 
       string url = (string)category["url"];
       Console.WriteLine( "  get " + url );
@@ -121,7 +191,7 @@ namespace ConsoleApp {
 
         var tmp = parseCategoryDetail( doc.DocumentNode );
         tmp.ForEach( i => items.Add( i ) );
-        if ( tmp.Count < countPerPage )
+        if ( tmp.Count < CountPerPage )
           break;
         // wait
         Console.WriteLine( "  > wait... and then continue..." );
@@ -129,6 +199,8 @@ namespace ConsoleApp {
         page++;
       }
       category["items"] = items;
+      category["count"] = items.Count;
+      return items.Count;
     }
 
     static List<JObject> parseCategoryDetail(HtmlNode root ) {
@@ -167,7 +239,7 @@ namespace ConsoleApp {
       }
       return result;
     }
-
+    
   }
 
 }

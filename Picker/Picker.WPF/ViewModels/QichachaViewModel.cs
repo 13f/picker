@@ -31,6 +31,8 @@ namespace Picker.ViewModels {
     DispatcherTimer timer = null;
     Random random = null;
 
+    int count = -1;
+
     #endregion
 
 
@@ -395,6 +397,7 @@ namespace Picker.ViewModels {
           await biz.PickList_Trademark( company_id, company_name );
         else if ( hasDetailTask )
           await biz.PickDetail_Trademark( tmpId );
+        count++;
       }
       catch ( Exception ex ) {
         Log = ex.Message;
@@ -519,8 +522,9 @@ namespace Picker.ViewModels {
 
     void refresh() {
       // 统计数据
-      var tmp = store.Qichacha_LoadStatistics();
-      StatisticsInfo = new ObservableCollection<StatisticsItem>( tmp );
+      //var tmp = store.Qichacha_LoadStatistics();
+      //StatisticsInfo = new ObservableCollection<StatisticsItem>( tmp );
+      Log = count.ToString();
       // album
       AlbumUri = store.Qichacha_GetAlbumUri_NeedToProcess();
       // search

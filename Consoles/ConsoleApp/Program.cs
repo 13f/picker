@@ -179,10 +179,12 @@ namespace ConsoleApp {
       //JBK39.PickSymptomDetails( @"F:\Data\jbk.39.net\symptom-data-v3.json", @"F:\Data\jbk.39.net\symptom-data-v4.json" ); // ok
       //JBK39.PickDiseaseList( @"F:\Data\jbk.39.net\" ); // ok
 
-      // @2016-5-27
-      //Facemood.PickList( @"F:\Data\emotion\facemood.grtimed.com\" ); // ok
-      // @2016-6-9
-      //Facemood.PickCategoryDetails( @"F:\Data\emotion\facemood.grtimed.com\facemood-v2.json", @"F:\Data\emotion\facemood.grtimed.com\facemood-v3.json" ); // ok
+      // 颜文字：facemood.grtimed.com
+      //Facemood.PickList( @"F:\Data\emotion\facemood.grtimed.com\" ); // ok:2016-5-27
+      //Facemood.PickCategoryDetails( @"F:\Data\emotion\facemood.grtimed.com\facemood-v2.json", @"F:\Data\emotion\facemood.grtimed.com\facemood-v3.json" ); // ok:2016-6-9
+      //Facemood.PickCategoryDetails( @"F:\Data\emotion\facemood.grtimed.com\facemood-v2.json", @"F:\Data\emotion\facemood.grtimed.com\facemood-v4.json" ); // ok:2017-2-15. 相比20160609版增加了count统计
+      //Facemood.PickTagDetails( @"F:\Data\emotion\facemood.grtimed.com\facemood-v4.json", @"F:\Data\emotion\facemood.grtimed.com\facemood-v5.json" ); // ok:2017-2-15 有重复数据
+      //Facemood.GetDistinctItems( @"F:\Data\emotion\facemood.grtimed.com\facemood-v5.json", @"F:\Data\emotion\facemood.grtimed.com\facemood-v6.json" ); // ok:2017-2-15
 
       // 2016-6-20,21
       //BrainNetomeAtlas.GetImages_Connectogram( @"F:\Data\atlas.brainnetome.org\images\connectogram\" ); // ok
@@ -202,6 +204,7 @@ namespace ConsoleApp {
 
       // chemicalbook.com
       //Chemicalbook.PickCategories( @"F:\Data\chemicalbook.com\categories.json" ); // 2016-8-19 ok
+
       // wikipedia
       //Element.Wikipedia_ChemicalElementsList1( @"F:\Data\wikipedia\elements.json" ); // ok:2017-2-11
       //Element.Wikipedia_MergeChemicalElementsList2( @"F:\Data\wikipedia\elements.json" ); // ok:2017-2-11

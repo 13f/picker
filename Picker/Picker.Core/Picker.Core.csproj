@@ -52,6 +52,7 @@
     <Compile Include="Extensions\StringExtension.cs" />
     <Compile Include="Helpers\ApiHelper.cs" />
     <Compile Include="Helpers\CommonUtility.cs" />
+    <Compile Include="Helpers\LocalStorageUtility.cs" />
     <Compile Include="Helpers\NetHelper.cs" />
     <Compile Include="Helpers\TimeHelper.cs" />
     <Compile Include="Models\ModelData.cs" />
