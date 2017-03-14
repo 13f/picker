@@ -179,6 +179,11 @@ namespace ConsoleApp {
       //JBK39.PickSymptomDetails( @"F:\Data\jbk.39.net\symptom-data-v3.json", @"F:\Data\jbk.39.net\symptom-data-v4.json" ); // ok
       //JBK39.PickDiseaseList( @"F:\Data\jbk.39.net\" ); // ok
 
+      // @2017-3-14
+      //ICD10.PickDetails( @"F:\Data\health\icd10-list-v2.json", @"F:\Data\health\icd10-details-v1.json" ); // ok
+      //ICD10.OrderByCode( @"F:\Data\health\icd10-details-v2.json", @"F:\Data\health\icd10-details-v3.json" ); // ok
+      //ICD10.RemoveBm8Id( @"F:\Data\health\icd10-details-v3.json", @"F:\Data\health\icd10-details-v4.json" ); // ok
+
       // 颜文字：facemood.grtimed.com
       //Facemood.PickList( @"F:\Data\emotion\facemood.grtimed.com\" ); // ok:2016-5-27
       //Facemood.PickCategoryDetails( @"F:\Data\emotion\facemood.grtimed.com\facemood-v2.json", @"F:\Data\emotion\facemood.grtimed.com\facemood-v3.json" ); // ok:2016-6-9
