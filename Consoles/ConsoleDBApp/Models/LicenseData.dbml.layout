@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11, 8.5" name="LicenseData">
+  <DataContextMoniker Name="/LicenseDataDataContext" />
+  <nestedChildShapes>
+    <classShape Id="77ea29c0-00ec-41c4-8bad-214ef044da25" absoluteBounds="2.5, 2, 2, 3.2004520670572916">
+      <DataClassMoniker Name="/LicenseDataDataContext/InfantMilkPowderFormula" />
+      <nestedChildShapes>
+        <elementListCompartment Id="d11b9325-41f2-4fa6-a148-3b4416ef6f53" absoluteBounds="2.515, 2.46, 1.9700000000000002, 2.6404520670572915" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+  </nestedChildShapes>
+</ordesignerObjectsDiagram>

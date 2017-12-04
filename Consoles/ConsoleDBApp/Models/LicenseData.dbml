@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="chuci_license" Class="LicenseDataDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="AppSettings" ConnectionString="Data Source=REVENGER\SQLEXPRESS;Initial Catalog=chuci_license;Persist Security Info=True;User ID=sa" SettingsObjectName="ConsoleDBApp.Properties.Settings" SettingsPropertyName="chuci_licenseConnectionString" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.InfantMilkPowderFormula" Member="InfantMilkPowderFormula">
+    <Type Name="InfantMilkPowderFormula">
+      <Column Name="Id" Type="System.String" DbType="VarChar(32) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="ProductGeneralName" Type="System.String" DbType="NVarChar(100)" CanBeNull="true" />
+      <Column Name="ProductChineseName" Type="System.String" DbType="NVarChar(100)" CanBeNull="true" />
+      <Column Name="ProductEnglishName" Type="System.String" DbType="NVarChar(100)" CanBeNull="true" />
+      <Column Name="CompanyChineseName" Type="System.String" DbType="NVarChar(100)" CanBeNull="true" />
+      <Column Name="CompanyEnglishName" Type="System.String" DbType="NVarChar(100)" CanBeNull="true" />
+      <Column Name="LegalEntity" Type="System.String" DbType="NVarChar(100)" CanBeNull="true" />
+      <Column Name="ManufacturingSite" Type="System.String" DbType="NVarChar(500)" CanBeNull="true" />
+      <Column Name="Conclusion" Type="System.String" DbType="NVarChar(500)" CanBeNull="true" />
+      <Column Name="ProductionProcess" Type="System.String" DbType="NVarChar(500)" CanBeNull="true" />
+      <Column Name="Remark" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="NutritionData" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="CheckId" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+    </Type>
+  </Table>
+</Database>
