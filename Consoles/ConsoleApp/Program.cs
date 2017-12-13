@@ -219,6 +219,14 @@ namespace ConsoleApp {
       //ChineseCharacter.PickWordsList(@"F:\Data\chinese\radicals-words.json"); // ok:2017-2-10
       //ChineseCharacter.SeparateWords(@"F:\Data\chinese\radicals-words.json", @"F:\Data\chinese\words.json"); // ok:2017-2-10
 
+      // 直销企业
+      //DirectMarketingChina.PickAffiliates( @"E:\OneDrive\Data\Lore\org\直销企业.json", @"E:\OneDrive\Data\Lore\org\直销企业-分支机构.json" );
+      //DirectMarketingChina.PickServiceOutlets( @"E:\OneDrive\Data\Lore\org\直销企业.json", @"E:\OneDrive\Data\Lore\org\直销企业-服务网点.json", 1 );
+      //DirectMarketingChina.PickServiceOutlets( @"E:\OneDrive\Data\Lore\org\直销企业.json", @"E:\OneDrive\Data\Lore\org\直销企业-服务网点-status=0.json", 0 );
+      //DirectMarketingChina.PickProducts( @"E:\OneDrive\Data\Lore\org\直销企业.json", @"E:\OneDrive\Data\Lore\org\直销企业-产品.json" );
+      //DirectMarketingChina.PickTrainers( @"E:\OneDrive\Data\Lore\org\直销企业.json", @"E:\OneDrive\Data\Lore\org\直销企业-培训员.json", 1 );
+      DirectMarketingChina.PickTrainers( @"E:\OneDrive\Data\Lore\org\直销企业.json", @"E:\OneDrive\Data\Lore\org\直销企业-培训员-status=0.json", 0 );
+
       // wait for input
       Console.ReadKey();
     }

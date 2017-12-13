@@ -50,6 +50,7 @@
   <ItemGroup>
     <Compile Include="Chemicalbook.cs" />
     <Compile Include="ChineseCharacter.cs" />
+    <Compile Include="DirectMarketingChina.cs" />
     <Compile Include="Element.cs" />
     <Compile Include="Projects\ICD10.cs" />
     <Compile Include="Projects\Airport911cha.cs" />
