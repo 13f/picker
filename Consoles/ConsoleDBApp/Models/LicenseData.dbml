@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?><Database Name="chuci_license" Class="LicenseDataDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="chuci_license" Class="LicenseDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
   <Connection Mode="AppSettings" ConnectionString="Data Source=REVENGER\SQLEXPRESS;Initial Catalog=chuci_license;Persist Security Info=True;User ID=sa" SettingsObjectName="ConsoleDBApp.Properties.Settings" SettingsPropertyName="chuci_licenseConnectionString" Provider="System.Data.SqlClient" />
   <Table Name="dbo.InfantMilkPowderFormula" Member="InfantMilkPowderFormula">
     <Type Name="InfantMilkPowderFormula">

@@ -23,7 +23,7 @@ namespace ConsoleDBApp.Models
 	
 	
 	[global::System.Data.Linq.Mapping.DatabaseAttribute(Name="chuci_license")]
-	public partial class LicenseDataDataContext : System.Data.Linq.DataContext
+	public partial class LicenseDataContext : System.Data.Linq.DataContext
 	{
 		
 		private static System.Data.Linq.Mapping.MappingSource mappingSource = new AttributeMappingSource();
@@ -35,31 +35,31 @@ namespace ConsoleDBApp.Models
     partial void DeleteInfantMilkPowderFormula(InfantMilkPowderFormula instance);
     #endregion
 		
-		public LicenseDataDataContext() : 
+		public LicenseDataContext() : 
 				base(global::ConsoleDBApp.Properties.Settings.Default.chuci_licenseConnectionString, mappingSource)
 		{
 			OnCreated();
 		}
 		
-		public LicenseDataDataContext(string connection) : 
+		public LicenseDataContext(string connection) : 
 				base(connection, mappingSource)
 		{
 			OnCreated();
 		}
 		
-		public LicenseDataDataContext(System.Data.IDbConnection connection) : 
+		public LicenseDataContext(System.Data.IDbConnection connection) : 
 				base(connection, mappingSource)
 		{
 			OnCreated();
 		}
 		
-		public LicenseDataDataContext(string connection, System.Data.Linq.Mapping.MappingSource mappingSource) : 
+		public LicenseDataContext(string connection, System.Data.Linq.Mapping.MappingSource mappingSource) : 
 				base(connection, mappingSource)
 		{
 			OnCreated();
 		}
 		
-		public LicenseDataDataContext(System.Data.IDbConnection connection, System.Data.Linq.Mapping.MappingSource mappingSource) : 
+		public LicenseDataContext(System.Data.IDbConnection connection, System.Data.Linq.Mapping.MappingSource mappingSource) : 
 				base(connection, mappingSource)
 		{
 			OnCreated();

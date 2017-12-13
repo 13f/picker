@@ -10,9 +10,19 @@ using Newtonsoft.Json;
 using Newtonsoft.Json.Linq;
 using Picker.Core.Extensions;
 using Picker.Core.Helpers;
+using ConsoleDBApp.Models;
 
 namespace ConsoleDBApp.Biz {
   public class LicenseBiz {
+    LicenseDataContext db = null;
+
+    public LicenseBiz(string conn) {
+      db = new LicenseDataContext( conn );
+    }
+
+    public void SaveChanges() {
+      db.SubmitChanges();
+    }
 
   }
 
