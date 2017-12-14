@@ -48,6 +48,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AuctionChina.cs" />
     <Compile Include="Chemicalbook.cs" />
     <Compile Include="ChineseCharacter.cs" />
     <Compile Include="DirectMarketingChina.cs" />

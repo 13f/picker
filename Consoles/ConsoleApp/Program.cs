@@ -220,12 +220,16 @@ namespace ConsoleApp {
       //ChineseCharacter.SeparateWords(@"F:\Data\chinese\radicals-words.json", @"F:\Data\chinese\words.json"); // ok:2017-2-10
 
       // 直销企业
-      //DirectMarketingChina.PickAffiliates( @"E:\OneDrive\Data\Lore\org\直销企业.json", @"E:\OneDrive\Data\Lore\org\直销企业-分支机构.json" );
-      //DirectMarketingChina.PickServiceOutlets( @"E:\OneDrive\Data\Lore\org\直销企业.json", @"E:\OneDrive\Data\Lore\org\直销企业-服务网点.json", 1 );
-      //DirectMarketingChina.PickServiceOutlets( @"E:\OneDrive\Data\Lore\org\直销企业.json", @"E:\OneDrive\Data\Lore\org\直销企业-服务网点-status=0.json", 0 );
-      //DirectMarketingChina.PickProducts( @"E:\OneDrive\Data\Lore\org\直销企业.json", @"E:\OneDrive\Data\Lore\org\直销企业-产品.json" );
-      //DirectMarketingChina.PickTrainers( @"E:\OneDrive\Data\Lore\org\直销企业.json", @"E:\OneDrive\Data\Lore\org\直销企业-培训员.json", 1 );
-      DirectMarketingChina.PickTrainers( @"E:\OneDrive\Data\Lore\org\直销企业.json", @"E:\OneDrive\Data\Lore\org\直销企业-培训员-status=0.json", 0 );
+      //DirectMarketingChina.PickAffiliates( @"E:\OneDrive\Data\Lore\org\直销企业.json", @"E:\OneDrive\Data\Lore\org\直销企业-分支机构.json" ); // ok:2017-12-13
+      //DirectMarketingChina.PickServiceOutlets( @"E:\OneDrive\Data\Lore\org\直销企业.json", @"E:\OneDrive\Data\Lore\org\直销企业-服务网点.json", 1 ); // ok:2017-12-13
+      //DirectMarketingChina.PickServiceOutlets( @"E:\OneDrive\Data\Lore\org\直销企业.json", @"E:\OneDrive\Data\Lore\org\直销企业-服务网点-status=0.json", 0 ); // ok:2017-12-13
+      //DirectMarketingChina.PickProducts( @"E:\OneDrive\Data\Lore\org\直销企业.json", @"E:\OneDrive\Data\Lore\org\直销企业-产品.json" ); // ok:2017-12-13
+      //DirectMarketingChina.PickTrainers( @"E:\OneDrive\Data\Lore\org\直销企业.json", @"E:\OneDrive\Data\Lore\org\直销企业-培训员.json", 1 ); // ok:2017-12-13
+      //DirectMarketingChina.PickTrainers( @"E:\OneDrive\Data\Lore\org\直销企业.json", @"E:\OneDrive\Data\Lore\org\直销企业-培训员-status=0.json", 0 ); // ok:2017-12-13
+
+      // 拍卖企业
+      //AuctionChina.PickList( @"E:\OneDrive\Data\Lore\org\拍卖企业.json" ); // ok:2017-12-13
+      //AuctionChina.PickDetail( @"E:\OneDrive\Data\Lore\org\拍卖企业.json" ); // ok:2017-12-14
 
       // wait for input
       Console.ReadKey();
